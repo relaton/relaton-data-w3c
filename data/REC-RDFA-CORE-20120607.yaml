@@ -61,10 +61,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-rdfa-core-20120508
+- type: updatedBy
+  bibitem:
+    formattedref: W3C errata.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

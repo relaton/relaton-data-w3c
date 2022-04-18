@@ -61,16 +61,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CRD-css-grid-1-20201021
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-grid
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CRD-css-grid-1-20201218
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Cascading Style Sheets Working Group

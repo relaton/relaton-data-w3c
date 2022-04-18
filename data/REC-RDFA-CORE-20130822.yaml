@@ -61,10 +61,16 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-rdfa-core-20130625
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-rdfa-core-20120607
 series:
 - title:
     content: W3C REC

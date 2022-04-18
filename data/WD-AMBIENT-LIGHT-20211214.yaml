@@ -41,16 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-ambient-light-20211208
+- type: hasDraft
+  bibitem:
+    formattedref: W3C ambient-light
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-ambient-light-20211214
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Devices and Sensors Working Group

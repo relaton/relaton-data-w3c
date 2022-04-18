@@ -51,10 +51,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-soap12-rep-20041116
+- type: updatedBy
+  bibitem:
+    formattedref: W3C soap12-rep-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

@@ -31,10 +31,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-widgets-20120925
+- type: updatedBy
+  bibitem:
+    formattedref: W3C errata.html
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-widgets-20110927
 series:
 - title:
     content: W3C REC

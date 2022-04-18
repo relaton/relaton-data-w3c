@@ -41,10 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-shacl-20170608
+- type: updatedBy
+  bibitem:
+    formattedref: W3C errata
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C data-shapes/shacl
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

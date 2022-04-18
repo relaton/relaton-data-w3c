@@ -31,16 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-css-box-3-20201028
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-box-3
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CR-css-box-3-20201222
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Cascading Style Sheets Working Group

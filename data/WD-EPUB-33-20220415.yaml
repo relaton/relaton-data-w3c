@@ -51,16 +51,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-epub-33-20220414
+- type: hasDraft
+  bibitem:
+    formattedref: W3C epub-specs/epub33
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-epub-33-20220415
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: EPUB 3 Working Group

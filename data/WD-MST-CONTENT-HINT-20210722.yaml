@@ -31,16 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-mst-content-hint-20210701
+- type: hasDraft
+  bibitem:
+    formattedref: W3C mst-content-hint
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-mst-content-hint-20210722
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Web Real-Time Communications Working Group

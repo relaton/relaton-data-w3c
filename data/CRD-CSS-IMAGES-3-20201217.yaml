@@ -51,16 +51,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CR-css-images-3-20191010
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-images-3
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CRD-css-images-3-20201217
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Cascading Style Sheets Working Group

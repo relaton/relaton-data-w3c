@@ -41,16 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: PR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CRD-geolocation-20220318
+- type: hasDraft
+  bibitem:
+    formattedref: W3C geolocation-api
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C PR
     format: text/plain
   number: PR-geolocation-20220407
 fetched: '2022-04-18'
-doctype: proposedRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Devices and Sensors Working Group

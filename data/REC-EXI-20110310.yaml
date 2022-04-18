@@ -41,10 +41,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-exi-20110120
+- type: updatedBy
+  bibitem:
+    formattedref: W3C exi-10-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

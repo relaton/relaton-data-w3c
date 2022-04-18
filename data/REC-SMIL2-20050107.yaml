@@ -41,10 +41,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-SMIL2-20041105
+- type: updatedBy
+  bibitem:
+    formattedref: W3C EditedREC-SMIL20-errata
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-smil20-20010807
 series:
 - title:
     content: W3C REC

@@ -51,10 +51,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-json-ld11-api-20200507
+- type: updatedBy
+  bibitem:
+    formattedref: W3C json-ld-api/errata
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C json-ld-api
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

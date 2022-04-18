@@ -51,10 +51,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xpath-31-20170117
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xpath-31-errata.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

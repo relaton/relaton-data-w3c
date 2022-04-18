@@ -71,16 +71,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-personalization-semantics-help-1.0-20181018
+- type: hasDraft
+  bibitem:
+    formattedref: W3C personalization-semantics/help
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-personalization-semantics-help-1.0-20190711
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Accessible Platform Architectures

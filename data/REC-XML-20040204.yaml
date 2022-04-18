@@ -71,10 +71,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-xml-20031030
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xml-V10-3e-errata
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-xml-19980210
 series:
 - title:
     content: W3C REC

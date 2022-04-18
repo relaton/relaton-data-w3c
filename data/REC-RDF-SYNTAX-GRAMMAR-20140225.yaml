@@ -41,10 +41,16 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-rdf-syntax-grammar-20140109
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-rdf-syntax-grammar-20040210
 series:
 - title:
     content: W3C REC

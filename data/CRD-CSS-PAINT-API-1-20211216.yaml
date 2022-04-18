@@ -41,16 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CR-css-paint-api-1-20180809
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-paint-api-1
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CRD-css-paint-api-1-20211216
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Cascading Style Sheets Working Group

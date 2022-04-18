@@ -81,12 +81,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
+relation:
+- type: hasDraft
+  bibitem:
+    formattedref: W3C gap-analysis_and_use-case
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-pronunciation-gap-analysis-and-use-cases-20200310
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Accessible Platform Architectures

@@ -51,10 +51,16 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-MathML3-20140211
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-MathML3-20101021
 series:
 - title:
     content: W3C REC

@@ -41,10 +41,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-semantic-interpretation-20070205
+- type: updatedBy
+  bibitem:
+    formattedref: W3C sisr-errata.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

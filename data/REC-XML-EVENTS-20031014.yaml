@@ -51,10 +51,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xml-events-20030804
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-xml-events-20031014-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

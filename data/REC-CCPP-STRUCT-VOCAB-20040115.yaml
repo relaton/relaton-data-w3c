@@ -92,10 +92,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-CCPP-struct-vocab-20031015
+- type: updatedBy
+  bibitem:
+    formattedref: W3C ccpp-SV-PR/errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

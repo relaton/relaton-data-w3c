@@ -71,10 +71,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-vc-data-model-20190905
+- type: hasDraft
+  bibitem:
+    formattedref: W3C vc-data-model
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

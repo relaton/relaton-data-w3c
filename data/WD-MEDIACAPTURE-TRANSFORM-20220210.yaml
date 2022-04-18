@@ -41,12 +41,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
+relation:
+- type: hasDraft
+  bibitem:
+    formattedref: W3C mediacapture-transform
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-mediacapture-transform-20220210
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Web Real-Time Communications Working Group

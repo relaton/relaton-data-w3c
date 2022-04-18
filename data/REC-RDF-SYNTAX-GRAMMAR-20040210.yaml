@@ -31,10 +31,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-rdf-syntax-grammar-20031215
+- type: updatedBy
+  bibitem:
+    formattedref: W3C errata#rdf-syntax-grammar
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

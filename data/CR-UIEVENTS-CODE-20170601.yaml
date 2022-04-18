@@ -41,16 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-uievents-code-20161024
+- type: hasDraft
+  bibitem:
+    formattedref: W3C uievents-code
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CR-uievents-code-20170601
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Web Applications Working Group

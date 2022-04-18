@@ -61,10 +61,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-DDR-Simple-API-20080917
+- type: updatedBy
+  bibitem:
+    formattedref: W3C DDR-Simple-API-errata.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

@@ -81,10 +81,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xhtml-modularization-20010222
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-xhtml-modularization-20010410-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

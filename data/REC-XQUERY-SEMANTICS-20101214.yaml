@@ -111,10 +111,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-xquery-semantics-20090421
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xquery-semantics-errata2e.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

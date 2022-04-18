@@ -41,10 +41,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-xml-infoset-20031210
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xml-infoset-errata.html
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-xml-infoset-20011024
 series:
 - title:
     content: W3C REC

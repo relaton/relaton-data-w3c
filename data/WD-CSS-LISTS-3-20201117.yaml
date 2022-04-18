@@ -41,16 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-css-lists-3-20200709
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-lists-3
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-css-lists-3-20201117
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Cascading Style Sheets Working Group

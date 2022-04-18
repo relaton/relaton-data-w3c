@@ -41,10 +41,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-smil-animation-20010719
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-smil-animation-20010904-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

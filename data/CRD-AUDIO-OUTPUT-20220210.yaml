@@ -51,16 +51,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CRD-audio-output-20211115
+- type: hasDraft
+  bibitem:
+    formattedref: W3C mediacapture-output
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CRD-audio-output-20220210
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Web Real-Time Communications Working Group

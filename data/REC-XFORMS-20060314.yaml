@@ -81,10 +81,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-xforms-20051006
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-xforms-20060314-errata.html
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-xforms-20031014
 series:
 - title:
     content: W3C REC

@@ -51,10 +51,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-css-fonts-3-20180814
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-css-fonts-3-20180920-errata.html
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-fonts-3
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

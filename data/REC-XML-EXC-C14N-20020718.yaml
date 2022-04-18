@@ -51,10 +51,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xml-exc-c14n-20020524
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xml-exc-c14n-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

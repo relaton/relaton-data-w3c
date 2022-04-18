@@ -91,10 +91,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-xpath20-20090421
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xpath20-errata2e.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

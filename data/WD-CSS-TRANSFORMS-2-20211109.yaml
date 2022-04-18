@@ -71,16 +71,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-css-transforms-2-20200303
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-transforms-2
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-css-transforms-2-20211109
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Cascading Style Sheets Working Group

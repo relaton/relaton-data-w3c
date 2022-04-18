@@ -41,10 +41,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-selectors-api-20121213
+- type: updatedBy
+  bibitem:
+    formattedref: W3C errata-l1.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

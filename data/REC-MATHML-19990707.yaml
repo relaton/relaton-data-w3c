@@ -41,8 +41,20 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
+  bibitem:
+    formattedref: W3C REC-MathML-19980407
+- type: updatedBy
+  bibitem:
+    formattedref: W3C mathml101-updates/errata
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
   bibitem:
     formattedref: W3C REC-MathML-19980407
 series:

@@ -31,10 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-wasm-web-api-1-20191001
+- type: updatedBy
+  bibitem:
+    formattedref: W3C wasm-errata
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C web-api
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC
@@ -42,3 +57,5 @@ series:
   number: REC-wasm-web-api-1-20191205
 fetched: '2022-04-18'
 doctype: recommendation
+editorialgroup:
+- name: WebAssembly Working Group

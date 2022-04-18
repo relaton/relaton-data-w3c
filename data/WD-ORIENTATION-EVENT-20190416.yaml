@@ -61,16 +61,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C NOTE-orientation-event-20170530
+- type: hasDraft
+  bibitem:
+    formattedref: W3C deviceorientation
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-orientation-event-20190416
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Devices and Sensors Working Group

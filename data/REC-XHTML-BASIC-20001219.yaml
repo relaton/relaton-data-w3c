@@ -81,10 +81,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xhtml-basic-20001103
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-xhtml-basic-20001219-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

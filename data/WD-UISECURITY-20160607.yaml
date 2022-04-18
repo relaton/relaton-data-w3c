@@ -31,16 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-UISecurity-20140318
+- type: hasDraft
+  bibitem:
+    formattedref: W3C webappsec-uisecurity/index
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-UISecurity-20160607
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Web Application Security Working Group

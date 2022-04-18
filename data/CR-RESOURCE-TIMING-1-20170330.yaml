@@ -71,16 +71,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: CR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CR-resource-timing-1-20160721
+- type: hasDraft
+  bibitem:
+    formattedref: W3C resource-timing
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: CR-resource-timing-1-20170330
 fetched: '2022-04-18'
-doctype: candidateRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Web Performance Working Group

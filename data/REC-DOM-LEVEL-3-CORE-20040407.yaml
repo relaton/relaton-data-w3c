@@ -91,10 +91,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-DOM-Level-3-Core-20040205
+- type: updatedBy
+  bibitem:
+    formattedref: W3C DOM-Level-3-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

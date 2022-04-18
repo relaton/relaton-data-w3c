@@ -31,10 +31,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-sparql11-results-csv-tsv-20121108
+- type: updatedBy
+  bibitem:
+    formattedref: W3C sparql-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

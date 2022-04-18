@@ -71,10 +71,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-widgets-digsig-20110811
+- type: updatedBy
+  bibitem:
+    formattedref: W3C widgets-digsig/errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

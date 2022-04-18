@@ -51,10 +51,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-html-aria-20210930
+- type: hasDraft
+  bibitem:
+    formattedref: W3C html-aria
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC
@@ -62,3 +71,5 @@ series:
   number: REC-html-aria-20211209
 fetched: '2022-04-18'
 doctype: recommendation
+editorialgroup:
+- name: Web Applications Working Group

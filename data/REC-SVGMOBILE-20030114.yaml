@@ -31,10 +31,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-SVGMobile-20021115
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-SVGMobile-20030114-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

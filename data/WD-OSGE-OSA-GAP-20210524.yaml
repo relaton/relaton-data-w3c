@@ -31,16 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-osge-osa-gap-20210204
+- type: hasDraft
+  bibitem:
+    formattedref: W3C osge-osa-gap
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-osge-osa-gap-20210524
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Internationalization Working Group

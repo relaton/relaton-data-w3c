@@ -61,10 +61,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xptr-element-20021113
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-xptr-20030325-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

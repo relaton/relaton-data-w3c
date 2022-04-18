@@ -61,10 +61,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-touch-events-20130509
+- type: hasDraft
+  bibitem:
+    formattedref: W3C touch-events
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

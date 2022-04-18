@@ -81,10 +81,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xquery-update-10-20110125
+- type: updatedBy
+  bibitem:
+    formattedref: W3C xquery-update-10-errata.html
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

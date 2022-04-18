@@ -31,10 +31,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-xslt-19991008
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-xslt-19991116-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

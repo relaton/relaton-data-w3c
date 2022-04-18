@@ -51,10 +51,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-rdf-sparql-protocol-20071112
+- type: updatedBy
+  bibitem:
+    formattedref: W3C protocol-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

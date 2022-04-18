@@ -41,10 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-css-cascade-3-20201222
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-css-cascade-3-20210211-errata.html
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C css-cascade-3
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

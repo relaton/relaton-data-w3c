@@ -41,10 +41,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C REC-WOFF2-20210706
+- type: hasDraft
+  bibitem:
+    formattedref: W3C woff2
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

@@ -31,16 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: PR
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C CRD-payment-method-id-20210928
+- type: hasDraft
+  bibitem:
+    formattedref: W3C payment-method-id
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C PR
     format: text/plain
   number: PR-payment-method-id-20210930
 fetched: '2022-04-18'
-doctype: proposedRecommendation
+doctype: recommendation
 editorialgroup:
 - name: Web Payments Working Group

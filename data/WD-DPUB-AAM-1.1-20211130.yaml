@@ -41,12 +41,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
+relation:
+- type: hasDraft
+  bibitem:
+    formattedref: W3C dpub-aam
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-dpub-aam-1.1-20211130
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Accessible Rich Internet Applications Working Group

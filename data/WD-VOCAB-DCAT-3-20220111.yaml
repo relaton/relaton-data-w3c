@@ -81,16 +81,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: WD
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C WD-vocab-dcat-3-20210504
+- type: hasDraft
+  bibitem:
+    formattedref: W3C dcat
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: WD-vocab-dcat-3-20220111
 fetched: '2022-04-18'
-doctype: workingDraft
+doctype: recommendation
 editorialgroup:
 - name: Dataset Exchange Working Group

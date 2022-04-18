@@ -31,10 +31,28 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-PNG-20030520
+- type: updatedBy
+  bibitem:
+    formattedref: W3C REC-PNG-20031110-errata
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
+  bibitem:
+    formattedref: W3C REC-png-961001
+- type: hasDraft
+  bibitem:
+    formattedref: W3C PNG-spec
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

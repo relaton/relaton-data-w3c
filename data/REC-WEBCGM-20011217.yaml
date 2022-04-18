@@ -41,8 +41,20 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
+  bibitem:
+    formattedref: W3C REC-WebCGM-19990121
+- type: updatedBy
+  bibitem:
+    formattedref: W3C WebCGM-20011217-errata
+  description:
+    content: errata
+    format: text/plain
+- type: editionOf
   bibitem:
     formattedref: W3C REC-WebCGM-19990121
 series:

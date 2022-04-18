@@ -41,10 +41,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-activitypub-20171205
+- type: updatedBy
+  bibitem:
+    formattedref: W3C ActivityPub_errata
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C activitypub
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC

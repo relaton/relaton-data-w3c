@@ -31,10 +31,19 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PR-grddl-20070716
+- type: updatedBy
+  bibitem:
+    formattedref: W3C grddl-errata
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC

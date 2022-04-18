@@ -31,10 +31,25 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: REC
 relation:
 - type: obsoletes
   bibitem:
     formattedref: W3C PER-geolocation-API-20150528
+- type: updatedBy
+  bibitem:
+    formattedref: W3C geoapi-errata.html
+  description:
+    content: errata
+    format: text/plain
+- type: hasDraft
+  bibitem:
+    formattedref: W3C geolocation-api
+  description:
+    content: Editor's draft
+    format: text/plain
 series:
 - title:
     content: W3C REC
