@@ -1,9 +1,9 @@
 name: Crawler
 
 on:
-  # push:
-  # schedule:
-  #   - cron: '0 15 * * *'
+  push:
+  schedule:
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
