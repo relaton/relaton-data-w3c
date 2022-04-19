@@ -1,4 +1,7 @@
 ---
+link:
+- content: https://www.w3.org/TR/xhtml-print/
+  type: src
 type: standard
 docnumber: xhtml-print
 language:
@@ -9,20 +12,20 @@ formattedref:
   content: W3C xhtml-print
   format: text/plain
 relation:
-- type: instance
+- type: hasEdition
   bibitem:
     formattedref:
       content: W3C REC-xhtml-print-20060920
       format: text/plain
-- type: instance
-  bibitem:
-    formattedref:
-      content: W3C REC-xhtml-print-20101123
-      format: text/plain
-- type: instance
+- type: hasEdition
   bibitem:
     formattedref:
       content: W3C SPSD-xhtml-print-20180327
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    formattedref:
+      content: W3C REC-xhtml-print-20101123
       format: text/plain
 fetched: '2022-04-19'
 doctype: recommendation
