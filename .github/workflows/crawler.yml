@@ -24,10 +24,11 @@ jobs:
         run: |
           rm -rf data
           relaton fetch-data w3c-rdf
+          zip index-w3c.zip index-w3c.yaml
       - name: Push data
         run: |
           echo `date` > flag.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data flag.txt index-w3c.yaml
+          git add data flag.txt index-w3c.yaml index-w3c.zip
           git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
