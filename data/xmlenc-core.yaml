@@ -2,10 +2,6 @@
 id: W3Cxmlenc-core
 title:
 - content: XML Encryption Syntax and Processing
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
 link:
 - content: http://www.w3.org/TR/xmlenc-core/
@@ -15,73 +11,26 @@ docid:
 - id: W3C xmlenc-core
   type: W3C
   primary: true
-- id: W3C.xmlenc-core
-  type: W3C
-  scope: anchor
 docnumber: xmlenc-core
-date:
-- type: published
-  value: 2002-08
-contributor:
-- person:
-    name:
-      initial:
-      - content: D.
-        language:
-        - en
-      surname:
-        content: Eastlake
-        language:
-        - en
-      completename:
-        content: Donald Eastlake
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - Motorola
-    contact:
-    - type: email
-      value: dee3@torque.pothole.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: J.
-        language:
-        - en
-      surname:
-        content: 'Reagle '
-        language:
-        - en
-      completename:
-        content: 'Joseph Reagle '
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - W3C
-    contact:
-    - type: email
-      value: reagle@w3.org
-  role:
-  - author
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
+relation:
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xmlenc-core-20021210
+    docid:
+    - id: W3C REC-xmlenc-core-20021210
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-xmlenc-core-20021210
+      format: text/plain
 series:
-- type: main
-  title:
-    content: W3C
-    language:
-    - en
-    script:
-    - Latn
+- title:
+    content: W3C technicalReport
     format: text/plain
-  number: CR-xmlenc-core
-doctype: rfc
+  number: xmlenc-core
+fetched: '2022-07-15'
+doctype: recommendation

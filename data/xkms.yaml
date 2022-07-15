@@ -2,10 +2,6 @@
 id: W3Cxkms
 title:
 - content: XML Key Management Specification (XKMS)
-  language:
-  - en
-  script:
-  - Latn
   format: text/plain
 link:
 - content: http://www.w3.org/TR/xkms/
@@ -15,188 +11,26 @@ docid:
 - id: W3C xkms
   type: W3C
   primary: true
-- id: W3C.xkms
-  type: W3C
-  scope: anchor
 docnumber: xkms
-date:
-- type: published
-  value: '2001-03-30'
-contributor:
-- person:
-    name:
-      initial:
-      - content: W.
-        language:
-        - en
-      surname:
-        content: Ford
-        language:
-        - en
-      completename:
-        content: Warwick Ford
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - VeriSign
-    contact:
-    - type: email
-      value: wford@verisign.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: P.
-        language:
-        - en
-      surname:
-        content: Hallam-Baker
-        language:
-        - en
-      completename:
-        content: Phillip Hallam-Baker
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - VeriSign
-    contact:
-    - type: email
-      value: pbaker@verisign.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: B.
-        language:
-        - en
-      surname:
-        content: Fox
-        language:
-        - en
-      completename:
-        content: Barbara Fox
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - Microsoft
-    contact:
-    - type: email
-      value: bfox@EXCHANGE.MICROSOFT.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: B.
-        language:
-        - en
-      surname:
-        content: Dillaway
-        language:
-        - en
-      completename:
-        content: Blair Dillaway
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - Microsoft
-    contact:
-    - type: email
-      value: blaird@microsoft.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: B.
-        language:
-        - en
-      surname:
-        content: LaMacchia
-        language:
-        - en
-      completename:
-        content: Brian LaMacchia
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - Microsoft
-    contact:
-    - type: email
-      value: bal@microsoft.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: J.
-        language:
-        - en
-      surname:
-        content: Epstein
-        language:
-        - en
-      completename:
-        content: Jeremy Epstein
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - webMethods
-    contact:
-    - type: email
-      value: jepstein@webmethods.com
-  role:
-  - author
-- person:
-    name:
-      initial:
-      - content: J.
-        language:
-        - en
-      surname:
-        content: Lapp
-        language:
-        - en
-      completename:
-        content: Joe Lapp
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - webMethods
-    contact:
-    - type: email
-      value: jlapp@webmethods.com
-  role:
-  - author
-revdate: '2001-03-30'
 language:
 - en
 script:
 - Latn
+relation:
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-xkms-20010330
+    docid:
+    - id: W3C NOTE-xkms-20010330
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-xkms-20010330
+      format: text/plain
 series:
-- type: main
-  title:
-    content: W3C
-    language:
-    - en
-    script:
-    - Latn
+- title:
+    content: W3C technicalReport
     format: text/plain
-  number: NOTE-xkms
-doctype: rfc
+  number: xkms
+fetched: '2022-07-15'
+doctype: recommendation
