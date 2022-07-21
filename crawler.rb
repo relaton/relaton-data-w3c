@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-require 'bundler/setup'
 require 'fileutils'
-require 'relaton-w3c'
+require 'relaton_w3c'
 
 FileUtils.rm_rf('data')
 FileUtils.rm Dir.glob('index-w3c.*')
