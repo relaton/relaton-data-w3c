@@ -39,16 +39,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CPER-rdfa-lite-20141216
-    docid:
-    - id: W3C PER-rdfa-lite-20141216
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PER-rdfa-lite-20141216
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-rdfa-lite-20111208
     docid:
     - id: W3C WD-rdfa-lite-20111208
@@ -57,10 +47,20 @@ relation:
     formattedref:
       content: W3C WD-rdfa-lite-20111208
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPER-rdfa-lite-20141216
+    docid:
+    - id: W3C PER-rdfa-lite-20141216
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PER-rdfa-lite-20141216
+      format: text/plain
 series:
 - title:
     content: W3C technicalReport
     format: text/plain
   number: rdfa-lite
-fetched: '2022-07-20'
+fetched: '2022-07-21'
 doctype: recommendation

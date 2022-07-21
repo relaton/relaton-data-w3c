@@ -19,23 +19,13 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-WGSL-20220719
+    id: W3CWD-WGSL-20220721
     docid:
-    - id: W3C WD-WGSL-20220719
+    - id: W3C WD-WGSL-20220721
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-WGSL-20220719
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-WGSL-20220527
-    docid:
-    - id: W3C WD-WGSL-20220527
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-WGSL-20220527
+      content: W3C WD-WGSL-20220721
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -47,10 +37,20 @@ relation:
     formattedref:
       content: W3C WD-WGSL-20211230
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WGSL-20220527
+    docid:
+    - id: W3C WD-WGSL-20220527
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WGSL-20220527
+      format: text/plain
 series:
 - title:
     content: W3C technicalReport
     format: text/plain
   number: WGSL
-fetched: '2022-07-20'
+fetched: '2022-07-21'
 doctype: recommendation
