@@ -16,6 +16,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: candidateRecommendation
 relation:
 - type: hasEdition
   bibitem:
@@ -27,7 +30,7 @@ relation:
     formattedref:
       content: W3C CR-css3-ui-20040511
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CWD-css3-ui-20120117
     docid:
@@ -59,8 +62,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C CR
     format: text/plain
   number: css3-ui
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport

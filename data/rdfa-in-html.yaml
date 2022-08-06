@@ -16,6 +16,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: workingDraft
 relation:
 - type: hasEdition
   bibitem:
@@ -37,7 +40,7 @@ relation:
     formattedref:
       content: W3C WD-rdfa-in-html-20091015
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CWD-rdfa-in-html-20121213
     docid:
@@ -59,8 +62,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: rdfa-in-html
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport

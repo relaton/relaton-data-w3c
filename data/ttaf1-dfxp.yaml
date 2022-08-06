@@ -17,6 +17,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: candidateRecommendation
 relation:
 - type: hasEdition
   bibitem:
@@ -28,7 +31,7 @@ relation:
     formattedref:
       content: W3C CR-ttaf1-dfxp-20061116
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CREC-ttaf1-dfxp-20101118
     docid:
@@ -70,8 +73,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C CR
     format: text/plain
   number: ttaf1-dfxp
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport

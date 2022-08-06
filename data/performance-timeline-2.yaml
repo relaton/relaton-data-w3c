@@ -16,6 +16,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: candidateRecommendation
 relation:
 - type: hasEdition
   bibitem:
@@ -27,7 +30,7 @@ relation:
     formattedref:
       content: W3C CR-performance-timeline-2-20161208
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CWD-performance-timeline-2-20191024
     docid:
@@ -59,8 +62,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C CR
     format: text/plain
   number: performance-timeline-2
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport

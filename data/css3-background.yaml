@@ -16,6 +16,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: workingDraft
 relation:
 - type: hasEdition
   bibitem:
@@ -67,7 +70,7 @@ relation:
     formattedref:
       content: W3C WD-css3-background-20020802
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CCR-css3-background-20140909
     docid:
@@ -99,8 +102,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: css3-background
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport

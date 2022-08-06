@@ -16,6 +16,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: workingDraft
 relation:
 - type: hasEdition
   bibitem:
@@ -27,7 +30,7 @@ relation:
     formattedref:
       content: W3C WD-powerful-features-20141204
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CWD-powerful-features-20150424
     docid:
@@ -39,8 +42,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: powerful-features
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport

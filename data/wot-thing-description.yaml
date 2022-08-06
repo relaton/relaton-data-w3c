@@ -16,6 +16,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: workingDraft
 relation:
 - type: hasEdition
   bibitem:
@@ -27,7 +30,7 @@ relation:
     formattedref:
       content: W3C WD-wot-thing-description-20170914
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
     id: W3CCR-wot-thing-description-20191106
     docid:
@@ -49,8 +52,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: wot-thing-description
-fetched: '2022-08-05'
-doctype: recommendation
+fetched: '2022-08-06'
+doctype: technicalReport
