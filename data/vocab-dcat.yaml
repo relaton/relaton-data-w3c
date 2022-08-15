@@ -4,7 +4,7 @@ title:
 - content: Data Catalog Vocabulary (DCAT)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/vocab-dcat/
+- content: https://www.w3.org/TR/vocab-dcat/
   type: src
 type: standard
 docid:
@@ -30,6 +30,16 @@ relation:
     formattedref:
       content: W3C REC-vocab-dcat-20140116
       format: text/plain
+- type: instance
+  bibitem:
+    id: W3CSPSD-vocab-dcat-20200204
+    docid:
+    - id: W3C SPSD-vocab-dcat-20200204
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C SPSD-vocab-dcat-20200204
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-vocab-dcat-20120405
@@ -50,20 +60,10 @@ relation:
     formattedref:
       content: W3C PR-vocab-dcat-20131217
       format: text/plain
-- type: instance
-  bibitem:
-    id: W3CSPSD-vocab-dcat-20200204
-    docid:
-    - id: W3C SPSD-vocab-dcat-20200204
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-vocab-dcat-20200204
-      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: vocab-dcat
-fetched: '2022-08-14'
+fetched: '2022-08-15'
 doctype: technicalReport

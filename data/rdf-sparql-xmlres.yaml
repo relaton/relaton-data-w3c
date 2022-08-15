@@ -42,16 +42,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CPR-rdf-sparql-XMLres-20071112
-    docid:
-    - id: W3C PR-rdf-sparql-XMLres-20071112
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-rdf-sparql-XMLres-20071112
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CPER-rdf-sparql-XMLres-20121108
     docid:
     - id: W3C PER-rdf-sparql-XMLres-20121108
@@ -62,13 +52,13 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-rdf-sparql-XMLres-20060406
+    id: W3CPR-rdf-sparql-XMLres-20071112
     docid:
-    - id: W3C CR-rdf-sparql-XMLres-20060406
+    - id: W3C PR-rdf-sparql-XMLres-20071112
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-rdf-sparql-XMLres-20060406
+      content: W3C PR-rdf-sparql-XMLres-20071112
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -80,10 +70,20 @@ relation:
     formattedref:
       content: W3C WD-rdf-sparql-XMLres-20050801
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-rdf-sparql-XMLres-20060406
+    docid:
+    - id: W3C CR-rdf-sparql-XMLres-20060406
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-rdf-sparql-XMLres-20060406
+      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: rdf-sparql-XMLres
-fetched: '2022-08-14'
+fetched: '2022-08-15'
 doctype: technicalReport

@@ -18,8 +18,18 @@ script:
 - Latn
 docstatus:
   stage:
-    value: workingDraft
+    value: candidateRecommendation
 relation:
+- type: instance
+  bibitem:
+    id: W3CCR-service-workers-1-20191119
+    docid:
+    - id: W3C CR-service-workers-1-20191119
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-service-workers-1-20191119
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-service-workers-1-20171102
@@ -40,20 +50,10 @@ relation:
     formattedref:
       content: W3C WD-service-workers-1-20161011
       format: text/plain
-- type: instance
-  bibitem:
-    id: W3CCR-service-workers-1-20191119
-    docid:
-    - id: W3C CR-service-workers-1-20191119
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-service-workers-1-20191119
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
   number: service-workers-1
-fetched: '2022-08-14'
+fetched: '2022-08-15'
 doctype: technicalReport

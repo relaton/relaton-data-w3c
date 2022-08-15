@@ -32,16 +32,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-reporting-1-20160607
-    docid:
-    - id: W3C NOTE-reporting-1-20160607
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-reporting-1-20160607
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-reporting-1-20180925
     docid:
     - id: W3C WD-reporting-1-20180925
@@ -50,10 +40,20 @@ relation:
     formattedref:
       content: W3C WD-reporting-1-20180925
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-reporting-1-20160607
+    docid:
+    - id: W3C NOTE-reporting-1-20160607
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-reporting-1-20160607
+      format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: reporting-1
-fetched: '2022-08-14'
+fetched: '2022-08-15'
 doctype: technicalReport
