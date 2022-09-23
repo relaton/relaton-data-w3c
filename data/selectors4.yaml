@@ -20,6 +20,16 @@ docstatus:
   stage:
     value: workingDraft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-selectors4-20110929
+    docid:
+    - id: W3C WD-selectors4-20110929
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-selectors4-20110929
+      format: text/plain
 - type: instance
   bibitem:
     id: W3CWD-selectors4-20130502
@@ -40,20 +50,10 @@ relation:
     formattedref:
       content: W3C WD-selectors4-20120823
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-selectors4-20110929
-    docid:
-    - id: W3C WD-selectors4-20110929
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-selectors4-20110929
-      format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: selectors4
-fetched: '2022-09-22'
+fetched: '2022-09-23'
 doctype: technicalReport

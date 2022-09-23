@@ -32,16 +32,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCRD-epub-a11y-11-20220522
-    docid:
-    - id: W3C CRD-epub-a11y-11-20220522
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-epub-a11y-11-20220522
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-epub-a11y-11-20211208
     docid:
     - id: W3C WD-epub-a11y-11-20211208
@@ -50,10 +40,20 @@ relation:
     formattedref:
       content: W3C WD-epub-a11y-11-20211208
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-epub-a11y-11-20220522
+    docid:
+    - id: W3C CRD-epub-a11y-11-20220522
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-epub-a11y-11-20220522
+      format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
   number: epub-a11y-11
-fetched: '2022-09-22'
+fetched: '2022-09-23'
 doctype: technicalReport
