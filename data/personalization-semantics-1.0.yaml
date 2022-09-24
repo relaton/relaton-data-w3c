@@ -20,6 +20,26 @@ docstatus:
   stage:
     value: workingDraft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20200127
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20200127
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-personalization-semantics-1.0-20200127
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20170606
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20170606
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-personalization-semantics-1.0-20170606
+      format: text/plain
 - type: instance
   bibitem:
     id: W3CWD-personalization-semantics-1.0-20210812
@@ -42,26 +62,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-personalization-semantics-1.0-20170606
-    docid:
-    - id: W3C WD-personalization-semantics-1.0-20170606
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-personalization-semantics-1.0-20170606
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-personalization-semantics-1.0-20200127
-    docid:
-    - id: W3C WD-personalization-semantics-1.0-20200127
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-personalization-semantics-1.0-20200127
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-personalization-semantics-1.0-20181018
     docid:
     - id: W3C WD-personalization-semantics-1.0-20181018
@@ -75,5 +75,5 @@ series:
     content: W3C WD
     format: text/plain
   number: personalization-semantics-1.0
-fetched: '2022-09-23'
+fetched: '2022-09-24'
 doctype: technicalReport

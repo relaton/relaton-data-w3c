@@ -32,16 +32,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-role-attribute-20110113
-    docid:
-    - id: W3C WD-role-attribute-20110113
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-role-attribute-20110113
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CPR-role-attribute-20121213
     docid:
     - id: W3C PR-role-attribute-20121213
@@ -50,10 +40,20 @@ relation:
     formattedref:
       content: W3C PR-role-attribute-20121213
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-role-attribute-20110113
+    docid:
+    - id: W3C WD-role-attribute-20110113
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-role-attribute-20110113
+      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: role-attribute
-fetched: '2022-09-23'
+fetched: '2022-09-24'
 doctype: technicalReport
