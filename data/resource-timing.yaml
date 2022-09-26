@@ -18,18 +18,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: candidateRecommendation
+    value: workingDraft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CCR-resource-timing-20120522
-    docid:
-    - id: W3C CR-resource-timing-20120522
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-resource-timing-20120522
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-resource-timing-20110811
@@ -39,6 +29,16 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-resource-timing-20110811
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-resource-timing-20120522
+    docid:
+    - id: W3C CR-resource-timing-20120522
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-resource-timing-20120522
       format: text/plain
 - type: instance
   bibitem:
@@ -62,8 +62,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: resource-timing
-fetched: '2022-09-25'
+fetched: '2022-09-26'
 doctype: technicalReport
