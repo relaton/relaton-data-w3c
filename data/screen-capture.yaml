@@ -20,6 +20,16 @@ docstatus:
   stage:
     value: workingDraft
 relation:
+- type: instance
+  bibitem:
+    id: W3CWD-screen-capture-20221013
+    docid:
+    - id: W3C WD-screen-capture-20221013
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-screen-capture-20221013
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-screen-capture-20211202
@@ -40,7 +50,7 @@ relation:
     formattedref:
       content: W3C WD-screen-capture-20191119
       format: text/plain
-- type: instance
+- type: hasEdition
   bibitem:
     id: W3CWD-screen-capture-20220519
     docid:
@@ -75,5 +85,5 @@ series:
     content: W3C WD
     format: text/plain
   number: screen-capture
-fetched: '2022-10-13'
+fetched: '2022-10-14'
 doctype: technicalReport
