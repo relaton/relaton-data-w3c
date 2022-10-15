@@ -29,16 +29,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-jpan-gap-20211122
-    docid:
-    - id: W3C DNOTE-jpan-gap-20211122
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-jpan-gap-20211122
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-jpan-gap-20200616
     docid:
     - id: W3C WD-jpan-gap-20200616
@@ -47,10 +37,20 @@ relation:
     formattedref:
       content: W3C WD-jpan-gap-20200616
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-jpan-gap-20211122
+    docid:
+    - id: W3C DNOTE-jpan-gap-20211122
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-jpan-gap-20211122
+      format: text/plain
 series:
 - title:
     content: W3C NOTE
     format: text/plain
   number: jpan-gap
-fetched: '2022-10-14'
+fetched: '2022-10-15'
 doctype: groupNote
