@@ -39,16 +39,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-xbl-20010223
-    docid:
-    - id: W3C NOTE-xbl-20010223
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-xbl-20010223
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-xbl-20060907
     docid:
     - id: W3C WD-xbl-20060907
@@ -57,10 +47,20 @@ relation:
     formattedref:
       content: W3C WD-xbl-20060907
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-xbl-20010223
+    docid:
+    - id: W3C NOTE-xbl-20010223
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-xbl-20010223
+      format: text/plain
 series:
 - title:
     content: W3C NOTE
     format: text/plain
   number: xbl
-fetched: '2022-10-17'
+fetched: '2022-10-18'
 doctype: groupNote
