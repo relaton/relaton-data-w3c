@@ -42,16 +42,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-pronunciation-lexicon-20061026
-    docid:
-    - id: W3C WD-pronunciation-lexicon-20061026
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-pronunciation-lexicon-20061026
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CCR-pronunciation-lexicon-20071212
     docid:
     - id: W3C CR-pronunciation-lexicon-20071212
@@ -60,10 +50,20 @@ relation:
     formattedref:
       content: W3C CR-pronunciation-lexicon-20071212
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-pronunciation-lexicon-20061026
+    docid:
+    - id: W3C WD-pronunciation-lexicon-20061026
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-pronunciation-lexicon-20061026
+      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: pronunciation-lexicon
-fetched: '2022-10-18'
+fetched: '2022-10-19'
 doctype: technicalReport

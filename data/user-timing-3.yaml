@@ -20,16 +20,6 @@ docstatus:
   stage:
     value: workingDraft
 relation:
-- type: instance
-  bibitem:
-    id: W3CWD-user-timing-3-20200818
-    docid:
-    - id: W3C WD-user-timing-3-20200818
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-user-timing-3-20200818
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-user-timing-3-20190927
@@ -40,10 +30,20 @@ relation:
     formattedref:
       content: W3C WD-user-timing-3-20190927
       format: text/plain
+- type: instance
+  bibitem:
+    id: W3CWD-user-timing-3-20200818
+    docid:
+    - id: W3C WD-user-timing-3-20200818
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-user-timing-3-20200818
+      format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
   number: user-timing-3
-fetched: '2022-10-18'
+fetched: '2022-10-19'
 doctype: technicalReport
