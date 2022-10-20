@@ -32,16 +32,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-odrl-model-20170926
-    docid:
-    - id: W3C CR-odrl-model-20170926
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-odrl-model-20170926
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-odrl-model-20160721
     docid:
     - id: W3C WD-odrl-model-20160721
@@ -50,10 +40,20 @@ relation:
     formattedref:
       content: W3C WD-odrl-model-20160721
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-odrl-model-20170926
+    docid:
+    - id: W3C CR-odrl-model-20170926
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-odrl-model-20170926
+      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: odrl-model
-fetched: '2022-10-19'
+fetched: '2022-10-20'
 doctype: technicalReport

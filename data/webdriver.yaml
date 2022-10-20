@@ -18,17 +18,17 @@ script:
 - Latn
 docstatus:
   stage:
-    value: candidateRecommendation
+    value: workingDraft
 relation:
-- type: instance
+- type: hasEdition
   bibitem:
-    id: W3CCR-webdriver-20170330
+    id: W3CWD-webdriver-20161129
     docid:
-    - id: W3C CR-webdriver-20170330
+    - id: W3C WD-webdriver-20161129
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-webdriver-20170330
+      content: W3C WD-webdriver-20161129
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -39,6 +39,16 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-webdriver-20130312
+      format: text/plain
+- type: instance
+  bibitem:
+    id: W3CCR-webdriver-20170330
+    docid:
+    - id: W3C CR-webdriver-20170330
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-webdriver-20170330
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -52,16 +62,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-webdriver-20161129
-    docid:
-    - id: W3C WD-webdriver-20161129
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webdriver-20161129
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-webdriver-20151109
     docid:
     - id: W3C WD-webdriver-20151109
@@ -72,8 +72,8 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: webdriver
-fetched: '2022-10-19'
+fetched: '2022-10-20'
 doctype: technicalReport

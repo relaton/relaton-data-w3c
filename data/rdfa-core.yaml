@@ -62,16 +62,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdfa-core-20101026
-    docid:
-    - id: W3C WD-rdfa-core-20101026
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rdfa-core-20101026
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CPER-rdfa-core-20141216
     docid:
     - id: W3C PER-rdfa-core-20141216
@@ -80,10 +70,20 @@ relation:
     formattedref:
       content: W3C PER-rdfa-core-20141216
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdfa-core-20101026
+    docid:
+    - id: W3C WD-rdfa-core-20101026
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-rdfa-core-20101026
+      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: rdfa-core
-fetched: '2022-10-19'
+fetched: '2022-10-20'
 doctype: technicalReport

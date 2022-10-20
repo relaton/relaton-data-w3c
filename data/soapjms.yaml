@@ -32,16 +32,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-soapjms-20081121
-    docid:
-    - id: W3C WD-soapjms-20081121
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-soapjms-20081121
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CPR-soapjms-20111208
     docid:
     - id: W3C PR-soapjms-20111208
@@ -70,10 +60,20 @@ relation:
     formattedref:
       content: W3C CR-soapjms-20090604
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soapjms-20081121
+    docid:
+    - id: W3C WD-soapjms-20081121
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-soapjms-20081121
+      format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
   number: soapjms
-fetched: '2022-10-19'
+fetched: '2022-10-20'
 doctype: technicalReport
