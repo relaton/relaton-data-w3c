@@ -19,28 +19,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: workingDraft
+    value: candidateRecommendation
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CWD-css3-background-20100612
-    docid:
-    - id: W3C WD-css3-background-20100612
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css3-background-20100612
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-css3-background-20020802
-    docid:
-    - id: W3C WD-css3-background-20020802
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css3-background-20020802
-      format: text/plain
 - type: instance
   bibitem:
     id: W3CCR-css3-background-20140909
@@ -50,16 +30,6 @@ relation:
       primary: true
     formattedref:
       content: W3C CR-css3-background-20140909
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-css3-background-20120724
-    docid:
-    - id: W3C CR-css3-background-20120724
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-css3-background-20120724
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -83,6 +53,26 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
+    id: W3CWD-css3-background-20020802
+    docid:
+    - id: W3C WD-css3-background-20020802
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-css3-background-20020802
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-css3-background-20120724
+    docid:
+    - id: W3C CR-css3-background-20120724
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-css3-background-20120724
+      format: text/plain
+- type: hasEdition
+  bibitem:
     id: W3CWD-css3-background-20080910
     docid:
     - id: W3C WD-css3-background-20080910
@@ -101,9 +91,19 @@ relation:
     formattedref:
       content: W3C WD-css3-background-20091015
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-background-20100612
+    docid:
+    - id: W3C WD-css3-background-20100612
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-css3-background-20100612
+      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
   number: css3-background
 doctype: technicalReport
