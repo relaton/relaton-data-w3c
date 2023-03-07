@@ -1,28 +1,26 @@
 ---
 schema-version: v1.2.1
-id: W3CREC-webrtc-20210126
+id: W3CSPSD-MathML2-20230307
 title:
-- content: 'WebRTC 1.0: Real-Time Communication Between Browsers'
+- content: Mathematical Markup Language (MathML) Version 2.0 (Second Edition)
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2021/REC-webrtc-20210126/
+- content: https://www.w3.org/TR/2023/SPSD-MathML2-20230307/
   type: src
-- content: https://w3c.github.io/webrtc-pc/
-  type: current
 type: standard
 docid:
-- id: W3C REC-webrtc-20210126
+- id: W3C SPSD-MathML2-20230307
   type: W3C
   primary: true
-docnumber: REC-webrtc-20210126
+docnumber: SPSD-MathML2-20230307
 date:
 - type: published
-  value: '2021-01-26'
+  value: '2023-03-07'
 contributor:
 - person:
     name:
       completename:
-        content: Cullen Jennings
+        content: David Carlisle
         language:
         - en
         script:
@@ -32,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Henrik Boström
+        content: Nico Poppelier
         language:
         - en
         script:
@@ -42,14 +40,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Jan-Ivar Bruaroey
+        content: Patrick D F Ion
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2021-01-26'
+- person:
+    name:
+      completename:
+        content: Robert R Miner
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2023-03-07'
 language:
 - en
 script:
@@ -60,34 +68,21 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CPR-webrtc-20201215
+    id: W3CREC-MathML2-20031021
     docid:
-    - id: W3C PR-webrtc-20201215
+    - id: W3C REC-MathML2-20031021
       type: W3C
       primary: true
     formattedref:
-      content: W3C PR-webrtc-20201215
+      content: W3C REC-MathML2-20031021
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cwebrtc-pc-errata
-    docid:
-    - id: W3C webrtc-pc/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C webrtc-pc/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
-  number: REC-webrtc-20210126
+  number: SPSD-MathML2-20230307
 doctype: technicalReport
 editorialgroup:
-- name: Web Real-Time Communications Working Group
+- name: Math Working Group
 ext:
   schema-version: v1.0.0
