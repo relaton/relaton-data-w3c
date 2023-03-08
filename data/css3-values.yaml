@@ -19,28 +19,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: candidateRecommendation
+    value: workingDraft
 relation:
-- type: instance
-  bibitem:
-    id: W3CCR-css3-values-20130730
-    docid:
-    - id: W3C CR-css3-values-20130730
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-css3-values-20130730
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-css3-values-20050726
-    docid:
-    - id: W3C WD-css3-values-20050726
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css3-values-20050726
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-css3-values-20110906
@@ -51,15 +31,15 @@ relation:
     formattedref:
       content: W3C WD-css3-values-20110906
       format: text/plain
-- type: hasEdition
+- type: instance
   bibitem:
-    id: W3CWD-css3-values-20010713
+    id: W3CCR-css3-values-20130730
     docid:
-    - id: W3C WD-css3-values-20010713
+    - id: W3C CR-css3-values-20130730
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-css3-values-20010713
+      content: W3C CR-css3-values-20130730
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -73,6 +53,16 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
+    id: W3CWD-css3-values-20010713
+    docid:
+    - id: W3C WD-css3-values-20010713
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-css3-values-20010713
+      format: text/plain
+- type: hasEdition
+  bibitem:
     id: W3CCR-css3-values-20120828
     docid:
     - id: W3C CR-css3-values-20120828
@@ -81,9 +71,19 @@ relation:
     formattedref:
       content: W3C CR-css3-values-20120828
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-values-20050726
+    docid:
+    - id: W3C WD-css3-values-20050726
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-css3-values-20050726
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: css3-values
 doctype: technicalReport
