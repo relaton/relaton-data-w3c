@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.3
-id: W3CNOTE-did-spec-registries-20230411
+id: W3CWD-webrtc-encoded-transform-20230427
 title:
-- content: DID Specification Registries
+- content: WebRTC Encoded Transform
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/NOTE-did-spec-registries-20230411/
+- content: https://www.w3.org/TR/2023/WD-webrtc-encoded-transform-20230427/
   type: src
-- content: https://w3c.github.io/did-spec-registries/
+- content: https://w3c.github.io/webrtc-encoded-transform/
   type: current
 type: standard
 docid:
-- id: W3C NOTE-did-spec-registries-20230411
+- id: W3C WD-webrtc-encoded-transform-20230427
   type: W3C
   primary: true
-docnumber: NOTE-did-spec-registries-20230411
+docnumber: WD-webrtc-encoded-transform-20230427
 date:
 - type: published
-  value: '2023-04-11'
+  value: '2023-04-27'
 contributor:
 - person:
     name:
       completename:
-        content: Manu Sporny
+        content: Guido Urdaneta
         language:
         - en
         script:
@@ -32,7 +32,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Michael Prorock
+        content: Harald Alvestrand
         language:
         - en
         script:
@@ -42,36 +42,39 @@ contributor:
 - person:
     name:
       completename:
-        content: Orie Steele
+        content: youenn fablet
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-04-11'
+revdate: '2023-04-27'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: workingDraft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-did-spec-registries-20230310
+    id: W3CWD-webrtc-encoded-transform-20230131
     docid:
-    - id: W3C NOTE-did-spec-registries-20230310
+    - id: W3C WD-webrtc-encoded-transform-20230131
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-did-spec-registries-20230310
+      content: W3C WD-webrtc-encoded-transform-20230131
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
-  number: NOTE-did-spec-registries-20230411
-doctype: groupNote
+  number: WD-webrtc-encoded-transform-20230427
+doctype: technicalReport
 editorialgroup:
-- name: Decentralized Identifier Working Group
+- name: Web Real-Time Communications Working Group
 ext:
   schema-version: v1.0.0
