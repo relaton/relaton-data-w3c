@@ -13,4 +13,4 @@ RelatonW3c::DataFetcher.fetch 'w3c-rdf'
 
 system("zip index-w3c.zip index-w3c.yaml")
 system("zip index1.zip index1.yaml")
-system("git add index-w3c.yaml index-w3c.zip")
+system("git add index-w3c.yaml index-w3c.zip index1.yaml index1.zip")
