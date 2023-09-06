@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.4
-id: W3CWD-largest-contentful-paint-20230901
+id: W3CWD-WGSL-20230906
 title:
-- content: Largest Contentful Paint
+- content: WebGPU Shading Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-largest-contentful-paint-20230901/
+- content: https://www.w3.org/TR/2023/WD-WGSL-20230906/
   type: src
-- content: https://w3c.github.io/largest-contentful-paint/
+- content: https://gpuweb.github.io/gpuweb/wgsl/
   type: current
 type: standard
 docid:
-- id: W3C WD-largest-contentful-paint-20230901
+- id: W3C WD-WGSL-20230906
   type: W3C
   primary: true
-docnumber: WD-largest-contentful-paint-20230901
+docnumber: WD-WGSL-20230906
 date:
 - type: published
-  value: '2023-09-01'
+  value: '2023-09-06'
 contributor:
 - person:
     name:
       completename:
-        content: Nicolas Pena Moreno
+        content: Alan Baker
         language:
         - en
         script:
@@ -32,14 +32,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Yoav Weiss
+        content: David Neto
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-09-01'
+- person:
+    name:
+      completename:
+        content: Mehmet Oguz Derin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2023-09-06'
 language:
 - en
 script:
@@ -50,21 +60,21 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-largest-contentful-paint-20220524
+    id: W3CWD-WGSL-20230802
     docid:
-    - id: W3C WD-largest-contentful-paint-20220524
+    - id: W3C WD-WGSL-20230802
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-largest-contentful-paint-20220524
+      content: W3C WD-WGSL-20230802
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-largest-contentful-paint-20230901
+  number: WD-WGSL-20230906
 doctype: technicalReport
 editorialgroup:
-- name: Web Performance Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
