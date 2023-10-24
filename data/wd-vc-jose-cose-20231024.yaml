@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.4
-id: W3CWD-media-source-2-20231010
+id: W3CWD-vc-jose-cose-20231024
 title:
-- content: Media Source Extensions™
+- content: Securing Verifiable Credentials using JOSE and COSE
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-media-source-2-20231010/
+- content: https://www.w3.org/TR/2023/WD-vc-jose-cose-20231024/
   type: src
-- content: https://w3c.github.io/media-source/
+- content: https://w3c.github.io/vc-jose-cose/
   type: current
 type: standard
 docid:
-- id: W3C WD-media-source-2-20231010
+- id: W3C WD-vc-jose-cose-20231024
   type: W3C
   primary: true
-docnumber: WD-media-source-2-20231010
+docnumber: WD-vc-jose-cose-20231024
 date:
 - type: published
-  value: '2023-10-10'
+  value: '2023-10-24'
 contributor:
 - person:
     name:
       completename:
-        content: Jean-Yves Avenard
+        content: Gabe Cohen
         language:
         - en
         script:
@@ -32,7 +32,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Mark Watson
+        content: Michael Jones
         language:
         - en
         script:
@@ -42,14 +42,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Matthew Wolenetz
+        content: Michael Prorock
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-10-10'
+- person:
+    name:
+      completename:
+        content: Orie Steele
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2023-10-24'
 language:
 - en
 script:
@@ -60,21 +70,21 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-media-source-2-20220921
+    id: W3CWD-vc-jose-cose-20231016
     docid:
-    - id: W3C WD-media-source-2-20220921
+    - id: W3C WD-vc-jose-cose-20231016
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-media-source-2-20220921
+      content: W3C WD-vc-jose-cose-20231016
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-media-source-2-20231010
+  number: WD-vc-jose-cose-20231024
 doctype: technicalReport
 editorialgroup:
-- name: Media Working Group
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
