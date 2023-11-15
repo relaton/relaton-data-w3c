@@ -1,28 +1,28 @@
 ---
-schema-version: v1.2.4
-id: W3CWD-webdriver2-20230807
+schema-version: v1.2.5
+id: W3CWD-viss2-core-20231114
 title:
-- content: WebDriver
+- content: VISS version 2 - Core
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-webdriver2-20230807/
+- content: https://www.w3.org/TR/2023/WD-viss2-core-20231114/
   type: src
-- content: https://w3c.github.io/webdriver/
+- content: https://github.com/w3c/automotive/blob/gh-pages/spec/VISSv2_Core.html
   type: current
 type: standard
 docid:
-- id: W3C WD-webdriver2-20230807
+- id: W3C WD-viss2-core-20231114
   type: W3C
   primary: true
-docnumber: WD-webdriver2-20230807
+docnumber: WD-viss2-core-20231114
 date:
 - type: published
-  value: '2023-08-07'
+  value: '2023-11-14'
 contributor:
 - person:
     name:
       completename:
-        content: David Burns
+        content: Isaac Agudo
         language:
         - en
         script:
@@ -32,14 +32,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Simon Stewart
+        content: Ulf Bjorkengren
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-08-07'
+- person:
+    name:
+      completename:
+        content: Wonsuk Lee
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2023-11-14'
 language:
 - en
 script:
@@ -50,21 +60,21 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-webdriver2-20230804
+    id: W3CWD-viss2-core-20230927
     docid:
-    - id: W3C WD-webdriver2-20230804
+    - id: W3C WD-viss2-core-20230927
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webdriver2-20230804
+      content: W3C WD-viss2-core-20230927
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-webdriver2-20230807
+  number: WD-viss2-core-20231114
 doctype: technicalReport
 editorialgroup:
-- name: Browser Testing and Tools Working Group
+- name: Automotive Working Group
 ext:
   schema-version: v1.0.0
