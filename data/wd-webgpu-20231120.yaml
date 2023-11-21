@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.5
-id: W3CWD-pointerevents3-20231108
+id: W3CWD-webgpu-20231120
 title:
-- content: Pointer Events
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-pointerevents3-20231108/
+- content: https://www.w3.org/TR/2023/WD-webgpu-20231120/
   type: src
-- content: https://w3c.github.io/pointerevents/
+- content: https://gpuweb.github.io/gpuweb/
   type: current
 type: standard
 docid:
-- id: W3C WD-pointerevents3-20231108
+- id: W3C WD-webgpu-20231120
   type: W3C
   primary: true
-docnumber: WD-pointerevents3-20231108
+docnumber: WD-webgpu-20231120
 date:
 - type: published
-  value: '2023-11-08'
+  value: '2023-11-20'
 contributor:
 - person:
     name:
       completename:
-        content: Patrick Lauke
+        content: Brandon Jones
         language:
         - en
         script:
@@ -32,14 +32,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Robert Flack
+        content: Jim Blandy
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-11-08'
+- person:
+    name:
+      completename:
+        content: Kai Ninomiya
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2023-11-20'
 language:
 - en
 script:
@@ -50,21 +60,21 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-pointerevents3-20231025
+    id: W3CWD-webgpu-20231115
     docid:
-    - id: W3C WD-pointerevents3-20231025
+    - id: W3C WD-webgpu-20231115
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-pointerevents3-20231025
+      content: W3C WD-webgpu-20231115
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-pointerevents3-20231108
+  number: WD-webgpu-20231120
 doctype: technicalReport
 editorialgroup:
-- name: Pointer Events Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
