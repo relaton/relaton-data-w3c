@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.7
-id: W3CWD-WGSL-20231124
+id: W3CWD-orientation-event-20231205
 title:
-- content: WebGPU Shading Language
+- content: DeviceOrientation Event Specification
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-WGSL-20231124/
+- content: https://www.w3.org/TR/2023/WD-orientation-event-20231205/
   type: src
-- content: https://gpuweb.github.io/gpuweb/wgsl/
+- content: https://w3c.github.io/deviceorientation/
   type: current
 type: standard
 docid:
-- id: W3C WD-WGSL-20231124
+- id: W3C WD-orientation-event-20231205
   type: W3C
   primary: true
-docnumber: WD-WGSL-20231124
+docnumber: WD-orientation-event-20231205
 date:
 - type: published
-  value: '2023-11-24'
+  value: '2023-12-05'
 contributor:
 - person:
     name:
       completename:
-        content: Alan Baker
+        content: Raphael Kubo da Costa
         language:
         - en
         script:
@@ -32,24 +32,14 @@ contributor:
 - person:
     name:
       completename:
-        content: David Neto
+        content: Reilly Grant
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Mehmet Oguz Derin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-11-24'
+revdate: '2023-12-05'
 language:
 - en
 script:
@@ -60,22 +50,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-WGSL-20231123
+    id: W3CWD-orientation-event-20231204
     docid:
-    - id: W3C WD-WGSL-20231123
+    - id: W3C WD-orientation-event-20231204
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-WGSL-20231123
+      content: W3C WD-orientation-event-20231204
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-WGSL-20231124
+  number: WD-orientation-event-20231205
 doctype:
   type: technicalReport
 editorialgroup:
-- name: GPU for the Web Working Group
+- name: Devices and Sensors Working Group
 ext:
   schema-version: v1.0.0
