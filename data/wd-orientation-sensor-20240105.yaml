@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.7
-id: W3CCRD-gyroscope-20231207
+id: W3CWD-orientation-sensor-20240105
 title:
-- content: Gyroscope
+- content: Orientation Sensor
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/CRD-gyroscope-20231207/
+- content: https://www.w3.org/TR/2024/WD-orientation-sensor-20240105/
   type: src
-- content: https://w3c.github.io/gyroscope/
+- content: https://w3c.github.io/orientation-sensor/
   type: current
 type: standard
 docid:
-- id: W3C CRD-gyroscope-20231207
+- id: W3C WD-orientation-sensor-20240105
   type: W3C
   primary: true
-docnumber: CRD-gyroscope-20231207
+docnumber: WD-orientation-sensor-20240105
 date:
 - type: published
-  value: '2023-12-07'
+  value: '2024-01-05'
 contributor:
 - organization:
     name:
@@ -37,30 +37,40 @@ contributor:
         - Latn
   role:
   - type: editor
-revdate: '2023-12-07'
+- person:
+    name:
+      completename:
+        content: Kenneth Christiansen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-01-05'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: candidateRecommendation
+    value: workingDraft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-gyroscope-20231025
+    id: W3CWD-orientation-sensor-20231128
     docid:
-    - id: W3C CRD-gyroscope-20231025
+    - id: W3C WD-orientation-sensor-20231128
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-gyroscope-20231025
+      content: W3C WD-orientation-sensor-20231128
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
-  number: CRD-gyroscope-20231207
+  number: WD-orientation-sensor-20240105
 doctype:
   type: technicalReport
 editorialgroup:
