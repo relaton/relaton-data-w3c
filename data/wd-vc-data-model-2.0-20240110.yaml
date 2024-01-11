@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-WGSL-20240104
+id: W3CWD-vc-data-model-2.0-20240110
 title:
-- content: WebGPU Shading Language
+- content: Verifiable Credentials Data Model v2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-WGSL-20240104/
+- content: https://www.w3.org/TR/2024/WD-vc-data-model-2.0-20240110/
   type: src
-- content: https://gpuweb.github.io/gpuweb/wgsl/
+- content: https://w3c.github.io/vc-data-model/
   type: current
 type: standard
 docid:
-- id: W3C WD-WGSL-20240104
+- id: W3C WD-vc-data-model-2.0-20240110
   type: W3C
   primary: true
-docnumber: WD-WGSL-20240104
+docnumber: WD-vc-data-model-2.0-20240110
 date:
 - type: published
-  value: '2024-01-04'
+  value: '2024-01-10'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Alan Baker
+        content: Gabe Cohen
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: David Neto
+        content: Ivan Herman
         language:
         - en
         script:
@@ -50,14 +50,34 @@ contributor:
 - person:
     name:
       completename:
-        content: Mehmet Oguz Derin
+        content: Manu Sporny
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-01-04'
+- person:
+    name:
+      completename:
+        content: Michael Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Ted Thibodeau Jr
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-01-10'
 language:
 - en
 script:
@@ -68,22 +88,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-WGSL-20231204
+    id: W3CWD-vc-data-model-2.0-20240106
     docid:
-    - id: W3C WD-WGSL-20231204
+    - id: W3C WD-vc-data-model-2.0-20240106
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-WGSL-20231204
+      content: W3C WD-vc-data-model-2.0-20240106
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-WGSL-20240104
+  number: WD-vc-data-model-2.0-20240110
 doctype:
   type: technicalReport
 editorialgroup:
-- name: GPU for the Web Working Group
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
