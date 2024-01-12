@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CCRD-imsc-hrm-20231228
+id: W3CWD-paint-timing-20240112
 title:
-- content: IMSC Hypothetical Render Model
+- content: Paint Timing
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/CRD-imsc-hrm-20231228/
+- content: https://www.w3.org/TR/2024/WD-paint-timing-20240112/
   type: src
-- content: https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html
+- content: https://w3c.github.io/paint-timing/
   type: current
 type: standard
 docid:
-- id: W3C CRD-imsc-hrm-20231228
+- id: W3C WD-paint-timing-20240112
   type: W3C
   primary: true
-docnumber: CRD-imsc-hrm-20231228
+docnumber: WD-paint-timing-20240112
 date:
 - type: published
-  value: '2023-12-28'
+  value: '2024-01-12'
 contributor:
 - organization:
     name:
@@ -30,40 +30,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Pierre-Anthony Lemieux
+        content: Nicolas Pena Moreno
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-12-28'
+- person:
+    name:
+      completename:
+        content: Noam Rosenthal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-01-12'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: candidateRecommendation
+    value: workingDraft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-imsc-hrm-20231220
+    id: W3CWD-paint-timing-20240110
     docid:
-    - id: W3C CRD-imsc-hrm-20231220
+    - id: W3C WD-paint-timing-20240110
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-imsc-hrm-20231220
+      content: W3C WD-paint-timing-20240110
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
-  number: CRD-imsc-hrm-20231228
+  number: WD-paint-timing-20240112
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Timed Text Working Group
+- name: Web Performance Working Group
 ext:
   schema-version: v1.0.0
