@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-webgpu-20240125
+id: W3CCR-vc-data-model-2.0-20240201
 title:
-- content: WebGPU
+- content: Verifiable Credentials Data Model v2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240125/
+- content: https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240201/
   type: src
-- content: https://gpuweb.github.io/gpuweb/
+- content: https://w3c.github.io/vc-data-model/
   type: current
 type: standard
 docid:
-- id: W3C WD-webgpu-20240125
+- id: W3C CR-vc-data-model-2.0-20240201
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240125
+docnumber: CR-vc-data-model-2.0-20240201
 date:
 - type: published
-  value: '2024-01-25'
+  value: '2024-02-01'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Gabe Cohen
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Jim Blandy
+        content: Ivan Herman
         language:
         - en
         script:
@@ -50,40 +50,60 @@ contributor:
 - person:
     name:
       completename:
-        content: Kai Ninomiya
+        content: Manu Sporny
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-01-25'
+- person:
+    name:
+      completename:
+        content: Michael Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Ted Thibodeau Jr
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-02-01'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: workingDraft
+    value: candidateRecommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240124
+    id: W3CWD-vc-data-model-2.0-20240126
     docid:
-    - id: W3C WD-webgpu-20240124
+    - id: W3C WD-vc-data-model-2.0-20240126
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webgpu-20240124
+      content: W3C WD-vc-data-model-2.0-20240126
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-webgpu-20240125
+  number: CR-vc-data-model-2.0-20240201
 doctype:
   type: technicalReport
 editorialgroup:
-- name: GPU for the Web Working Group
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
