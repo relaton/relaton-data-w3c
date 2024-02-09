@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-html-aam-1.0-20240206
+id: W3CCRD-webnn-20240208
 title:
-- content: HTML Accessibility API Mappings 1.0
+- content: Web Neural Network API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-html-aam-1.0-20240206/
+- content: https://www.w3.org/TR/2024/CRD-webnn-20240208/
   type: src
-- content: https://w3c.github.io/html-aam/
+- content: https://webmachinelearning.github.io/webnn/
   type: current
 type: standard
 docid:
-- id: W3C WD-html-aam-1.0-20240206
+- id: W3C CRD-webnn-20240208
   type: W3C
   primary: true
-docnumber: WD-html-aam-1.0-20240206
+docnumber: CRD-webnn-20240208
 date:
 - type: published
-  value: '2024-02-06'
+  value: '2024-02-08'
 contributor:
 - organization:
     name:
@@ -30,40 +30,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Scott O'Hara
+        content: Dwayne Robinson
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-02-06'
+- person:
+    name:
+      completename:
+        content: Ningxin Hu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-02-08'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: workingDraft
+    value: candidateRecommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-html-aam-1.0-20231204
+    id: W3CCRD-webnn-20240207
     docid:
-    - id: W3C WD-html-aam-1.0-20231204
+    - id: W3C CRD-webnn-20240207
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-html-aam-1.0-20231204
+      content: W3C CRD-webnn-20240207
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-html-aam-1.0-20240206
+  number: CRD-webnn-20240208
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Accessible Rich Internet Applications Working Group
+- name: Web Machine Learning Working Group
 ext:
   schema-version: v1.0.0
