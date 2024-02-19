@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-css-text-4-20231020
+id: W3CCRD-vc-data-model-2.0-20240218
 title:
-- content: CSS Text Module Level 4
+- content: Verifiable Credentials Data Model v2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-css-text-4-20231020/
+- content: https://www.w3.org/TR/2024/CRD-vc-data-model-2.0-20240218/
   type: src
-- content: https://drafts.csswg.org/css-text-4/
+- content: https://w3c.github.io/vc-data-model/
   type: current
 type: standard
 docid:
-- id: W3C WD-css-text-4-20231020
+- id: W3C CRD-vc-data-model-2.0-20240218
   type: W3C
   primary: true
-docnumber: WD-css-text-4-20231020
+docnumber: CRD-vc-data-model-2.0-20240218
 date:
 - type: published
-  value: '2023-10-20'
+  value: '2024-02-18'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Alan Stearns
+        content: Gabe Cohen
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Elika Etemad
+        content: Ivan Herman
         language:
         - en
         script:
@@ -50,7 +50,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Florian Rivoal
+        content: Manu Sporny
         language:
         - en
         script:
@@ -60,40 +60,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Koji Ishii
+        content: Michael Jones
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-10-20'
+- person:
+    name:
+      completename:
+        content: Ted Thibodeau Jr
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-02-18'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: workingDraft
+    value: candidateRecommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-css-text-4-20230329
+    id: W3CCRD-vc-data-model-2.0-20240210
     docid:
-    - id: W3C WD-css-text-4-20230329
+    - id: W3C CRD-vc-data-model-2.0-20240210
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-css-text-4-20230329
+      content: W3C CRD-vc-data-model-2.0-20240210
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-css-text-4-20231020
+  number: CRD-vc-data-model-2.0-20240218
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Cascading Style Sheets Working Group
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
