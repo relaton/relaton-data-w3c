@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-baggage-20240119
+id: W3CWD-vc-jose-cose-20240228
 title:
-- content: 'Propagation format for distributed context: Baggage'
+- content: Securing Verifiable Credentials using JOSE and COSE
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-baggage-20240119/
+- content: https://www.w3.org/TR/2024/WD-vc-jose-cose-20240228/
   type: src
-- content: https://w3c.github.io/baggage/
+- content: https://w3c.github.io/vc-jose-cose/
   type: current
 type: standard
 docid:
-- id: W3C WD-baggage-20240119
+- id: W3C WD-vc-jose-cose-20240228
   type: W3C
   primary: true
-docnumber: WD-baggage-20240119
+docnumber: WD-vc-jose-cose-20240228
 date:
 - type: published
-  value: '2024-01-19'
+  value: '2024-02-28'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Daniel Dyla
+        content: Gabe Cohen
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: J. Kalyana Sundaram
+        content: Michael Jones
         language:
         - en
         script:
@@ -50,24 +50,14 @@ contributor:
 - person:
     name:
       completename:
-        content: Sergey Kanzhelev
+        content: Michael Prorock
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Yuri Shkuro
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-01-19'
+revdate: '2024-02-28'
 language:
 - en
 script:
@@ -78,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-baggage-20230810
+    id: W3CWD-vc-jose-cose-20240226
     docid:
-    - id: W3C WD-baggage-20230810
+    - id: W3C WD-vc-jose-cose-20240226
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-baggage-20230810
+      content: W3C WD-vc-jose-cose-20240226
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-baggage-20240119
+  number: WD-vc-jose-cose-20240228
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Distributed Tracing Working Group
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
