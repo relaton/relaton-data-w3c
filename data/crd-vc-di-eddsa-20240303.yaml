@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-vc-di-bbs-20240202
+id: W3CCRD-vc-di-eddsa-20240303
 title:
-- content: BBS Cryptosuite v2023
+- content: Data Integrity EdDSA Cryptosuites v1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-vc-di-bbs-20240202/
+- content: https://www.w3.org/TR/2024/CRD-vc-di-eddsa-20240303/
   type: src
-- content: https://w3c.github.io/vc-di-bbs/
+- content: https://w3c.github.io/vc-di-eddsa/
   type: current
 type: standard
 docid:
-- id: W3C WD-vc-di-bbs-20240202
+- id: W3C CRD-vc-di-eddsa-20240303
   type: W3C
   primary: true
-docnumber: WD-vc-di-bbs-20240202
+docnumber: CRD-vc-di-eddsa-20240303
 date:
 - type: published
-  value: '2024-02-02'
+  value: '2024-03-03'
 contributor:
 - organization:
     name:
@@ -27,6 +27,16 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      completename:
+        content: Dmitri Zagidulin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
 - person:
     name:
       completename:
@@ -47,30 +57,40 @@ contributor:
         - Latn
   role:
   - type: editor
-revdate: '2024-02-02'
+- person:
+    name:
+      completename:
+        content: Sebastian Crane
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-03-03'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: workingDraft
+    value: candidateRecommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-vc-di-bbs-20231218
+    id: W3CCRD-vc-di-eddsa-20231227
     docid:
-    - id: W3C WD-vc-di-bbs-20231218
+    - id: W3C CRD-vc-di-eddsa-20231227
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vc-di-bbs-20231218
+      content: W3C CRD-vc-di-eddsa-20231227
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-vc-di-bbs-20240202
+  number: CRD-vc-di-eddsa-20240303
 doctype:
   type: technicalReport
 editorialgroup:
