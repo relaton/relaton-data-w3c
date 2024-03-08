@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-permissions-20240212
+id: W3CWD-device-posture-20240308
 title:
-- content: Permissions
+- content: Device Posture API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-permissions-20240212/
+- content: https://www.w3.org/TR/2024/WD-device-posture-20240308/
   type: src
-- content: https://w3c.github.io/permissions/
+- content: https://w3c.github.io/device-posture/
   type: current
 type: standard
 docid:
-- id: W3C WD-permissions-20240212
+- id: W3C WD-device-posture-20240308
   type: W3C
   primary: true
-docnumber: WD-permissions-20240212
+docnumber: WD-device-posture-20240308
 date:
 - type: published
-  value: '2024-02-12'
+  value: '2024-03-08'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Marcos Caceres
+        content: Alexis Menard
         language:
         - en
         script:
@@ -40,14 +40,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Mike Taylor
+        content: Diego Gonzalez-Zuniga
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-02-12'
+- person:
+    name:
+      completename:
+        content: Kenneth Christiansen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-03-08'
 language:
 - en
 script:
@@ -58,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-permissions-20240116
+    id: W3CWD-device-posture-20240307
     docid:
-    - id: W3C WD-permissions-20240116
+    - id: W3C WD-device-posture-20240307
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-permissions-20240116
+      content: W3C WD-device-posture-20240307
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-permissions-20240212
+  number: WD-device-posture-20240308
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Application Security Working Group
+- name: Devices and Sensors Working Group
 ext:
   schema-version: v1.0.0
