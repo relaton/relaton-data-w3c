@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CDNOTE-webcodecs-vorbis-codec-registration-20240229
+id: W3CCRD-rdf-canon-20240311
 title:
-- content: Vorbis WebCodecs Registration
+- content: RDF Dataset Canonicalization
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-webcodecs-vorbis-codec-registration-20240229/
+- content: https://www.w3.org/TR/2024/CRD-rdf-canon-20240311/
   type: src
-- content: https://w3c.github.io/webcodecs/vorbis_codec_registration.html
+- content: https://w3c.github.io/rdf-canon/spec/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-webcodecs-vorbis-codec-registration-20240229
+- id: W3C CRD-rdf-canon-20240311
   type: W3C
   primary: true
-docnumber: DNOTE-webcodecs-vorbis-codec-registration-20240229
+docnumber: CRD-rdf-canon-20240311
 date:
 - type: published
-  value: '2024-02-29'
+  value: '2024-03-11'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Bernard Aboba
+        content: Dan Yamamoto
         language:
         - en
         script:
@@ -40,37 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Paul Adenot
+        content: Dave Longley
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-02-29'
+- person:
+    name:
+      completename:
+        content: Gregg Kellogg
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-03-11'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-webcodecs-vorbis-codec-registration-20240228
+    id: W3CCRD-rdf-canon-20240305
     docid:
-    - id: W3C DNOTE-webcodecs-vorbis-codec-registration-20240228
+    - id: W3C CRD-rdf-canon-20240305
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-webcodecs-vorbis-codec-registration-20240228
+      content: W3C CRD-rdf-canon-20240305
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C CR
     format: text/plain
-  number: DNOTE-webcodecs-vorbis-codec-registration-20240229
+  number: CRD-rdf-canon-20240311
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Media Working Group
+- name: RDF Dataset Canonicalization and Hash Working Group
 ext:
   schema-version: v1.0.0
