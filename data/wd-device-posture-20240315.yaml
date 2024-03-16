@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CCRD-webnn-20240314
+id: W3CWD-device-posture-20240315
 title:
-- content: Web Neural Network API
+- content: Device Posture API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-webnn-20240314/
+- content: https://www.w3.org/TR/2024/WD-device-posture-20240315/
   type: src
-- content: https://webmachinelearning.github.io/webnn/
+- content: https://w3c.github.io/device-posture/
   type: current
 type: standard
 docid:
-- id: W3C CRD-webnn-20240314
+- id: W3C WD-device-posture-20240315
   type: W3C
   primary: true
-docnumber: CRD-webnn-20240314
+docnumber: WD-device-posture-20240315
 date:
 - type: published
-  value: '2024-03-14'
+  value: '2024-03-15'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Dwayne Robinson
+        content: Alexis Menard
         language:
         - en
         script:
@@ -40,40 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Ningxin Hu
+        content: Diego Gonzalez-Zuniga
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-03-14'
+- person:
+    name:
+      completename:
+        content: Kenneth Christiansen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-03-15'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webnn-20240313
+    id: W3CWD-device-posture-20240314
     docid:
-    - id: W3C CRD-webnn-20240313
+    - id: W3C WD-device-posture-20240314
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-webnn-20240313
+      content: W3C WD-device-posture-20240314
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
-  number: CRD-webnn-20240314
+  number: WD-device-posture-20240315
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Machine Learning Working Group
+- name: Devices and Sensors Working Group
 ext:
   schema-version: v1.0.0
