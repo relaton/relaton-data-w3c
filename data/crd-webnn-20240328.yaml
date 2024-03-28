@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-webgpu-20240323
+id: W3CCRD-webnn-20240328
 title:
-- content: WebGPU
+- content: Web Neural Network API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240323/
+- content: https://www.w3.org/TR/2024/CRD-webnn-20240328/
   type: src
-- content: https://gpuweb.github.io/gpuweb/
+- content: https://webmachinelearning.github.io/webnn/
   type: current
 type: standard
 docid:
-- id: W3C WD-webgpu-20240323
+- id: W3C CRD-webnn-20240328
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240323
+docnumber: CRD-webnn-20240328
 date:
 - type: published
-  value: '2024-03-23'
+  value: '2024-03-28'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Dwayne Robinson
         language:
         - en
         script:
@@ -40,50 +40,40 @@ contributor:
 - person:
     name:
       completename:
-        content: Jim Blandy
+        content: Ningxin Hu
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Kai Ninomiya
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-03-23'
+revdate: '2024-03-28'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240313
+    id: W3CCRD-webnn-20240327
     docid:
-    - id: W3C WD-webgpu-20240313
+    - id: W3C CRD-webnn-20240327
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webgpu-20240313
+      content: W3C CRD-webnn-20240327
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-webgpu-20240323
+  number: CRD-webnn-20240328
 doctype:
   type: technicalReport
 editorialgroup:
-- name: GPU for the Web Working Group
+- name: Web Machine Learning Working Group
 ext:
   schema-version: v1.0.0
