@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-appmanifest-20231129
+id: W3CWD-webgpu-20240409
 title:
-- content: Web Application Manifest
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-appmanifest-20231129/
+- content: https://www.w3.org/TR/2024/WD-webgpu-20240409/
   type: src
-- content: https://w3c.github.io/manifest/
+- content: https://gpuweb.github.io/gpuweb/
   type: current
 type: standard
 docid:
-- id: W3C WD-appmanifest-20231129
+- id: W3C WD-webgpu-20240409
   type: W3C
   primary: true
-docnumber: WD-appmanifest-20231129
+docnumber: WD-webgpu-20240409
 date:
 - type: published
-  value: '2023-11-29'
+  value: '2024-04-09'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Aaron Gustafson
+        content: Brandon Jones
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Anssi Kostiainen
+        content: Jim Blandy
         language:
         - en
         script:
@@ -50,44 +50,14 @@ contributor:
 - person:
     name:
       completename:
-        content: Daniel Murphy
+        content: Kai Ninomiya
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Kenneth Christiansen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Matt Giuca
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-11-29'
+revdate: '2024-04-09'
 language:
 - en
 script:
@@ -98,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-appmanifest-20231115
+    id: W3CWD-webgpu-20240402
     docid:
-    - id: W3C WD-appmanifest-20231115
+    - id: W3C WD-webgpu-20240402
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-appmanifest-20231115
+      content: W3C WD-webgpu-20240402
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-appmanifest-20231129
+  number: WD-webgpu-20240409
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Applications Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
