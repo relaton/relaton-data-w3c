@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CCRD-webxr-20240210
+id: W3CWD-screen-wake-lock-20240411
 title:
-- content: WebXR Device API
+- content: Screen Wake Lock API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-webxr-20240210/
+- content: https://www.w3.org/TR/2024/WD-screen-wake-lock-20240411/
   type: src
-- content: https://immersive-web.github.io/webxr/
+- content: https://w3c.github.io/screen-wake-lock/
   type: current
 type: standard
 docid:
-- id: W3C CRD-webxr-20240210
+- id: W3C WD-screen-wake-lock-20240411
   type: W3C
   primary: true
-docnumber: CRD-webxr-20240210
+docnumber: WD-screen-wake-lock-20240411
 date:
 - type: published
-  value: '2024-02-10'
+  value: '2024-04-11'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Kenneth Christiansen
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Manish Goregaokar
+        content: Marcos Caceres
         language:
         - en
         script:
@@ -50,40 +50,41 @@ contributor:
 - person:
     name:
       completename:
-        content: Rik Cabanier
+        content: Raphael Kubo da Costa
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-02-10'
+revdate: '2024-04-11'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webxr-20231005
+    id: W3CWD-screen-wake-lock-20231107
     docid:
-    - id: W3C CRD-webxr-20231005
+    - id: W3C WD-screen-wake-lock-20231107
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-webxr-20231005
+      content: W3C WD-screen-wake-lock-20231107
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
-  number: CRD-webxr-20240210
+  number: WD-screen-wake-lock-20240411
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Immersive Web Working Group
+- name: Devices and Sensors Working Group
+- name: Web Applications Working Group
 ext:
   schema-version: v1.0.0

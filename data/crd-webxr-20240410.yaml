@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-orientation-event-20240311
+id: W3CCRD-webxr-20240410
 title:
-- content: DeviceOrientation Event Specification
+- content: WebXR Device API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-orientation-event-20240311/
+- content: https://www.w3.org/TR/2024/CRD-webxr-20240410/
   type: src
-- content: https://w3c.github.io/deviceorientation/
+- content: https://immersive-web.github.io/webxr/
   type: current
 type: standard
 docid:
-- id: W3C WD-orientation-event-20240311
+- id: W3C CRD-webxr-20240410
   type: W3C
   primary: true
-docnumber: WD-orientation-event-20240311
+docnumber: CRD-webxr-20240410
 date:
 - type: published
-  value: '2024-03-11'
+  value: '2024-04-10'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Raphael Kubo da Costa
+        content: Brandon Jones
         language:
         - en
         script:
@@ -40,40 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Reilly Grant
+        content: Manish Goregaokar
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-03-11'
+- person:
+    name:
+      completename:
+        content: Rik Cabanier
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-04-10'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-orientation-event-20240305
+    id: W3CCRD-webxr-20240210
     docid:
-    - id: W3C WD-orientation-event-20240305
+    - id: W3C CRD-webxr-20240210
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-orientation-event-20240305
+      content: W3C CRD-webxr-20240210
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-orientation-event-20240311
+  number: CRD-webxr-20240410
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Devices and Sensors Working Group
+- name: Immersive Web Working Group
 ext:
   schema-version: v1.0.0
