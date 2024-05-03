@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-sparql12-service-description-20240418
+id: W3CWD-rdf12-concepts-20240502
 title:
-- content: SPARQL 1.2 Service Description
+- content: RDF 1.2 Concepts and Abstract Syntax
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-sparql12-service-description-20240418/
+- content: https://www.w3.org/TR/2024/WD-rdf12-concepts-20240502/
   type: src
-- content: https://w3c.github.io/sparql-service-description/spec/
+- content: https://w3c.github.io/rdf-concepts/spec/
   type: current
 type: standard
 docid:
-- id: W3C WD-sparql12-service-description-20240418
+- id: W3C WD-rdf12-concepts-20240502
   type: W3C
   primary: true
-docnumber: WD-sparql12-service-description-20240418
+docnumber: WD-rdf12-concepts-20240502
 date:
 - type: published
-  value: '2024-04-18'
+  value: '2024-05-02'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Gregory Williams
+        content: Andy Seaborne
         language:
         - en
         script:
@@ -40,14 +40,34 @@ contributor:
 - person:
     name:
       completename:
-        content: Ruben Taelman
+        content: Gregg Kellogg
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-04-18'
+- person:
+    name:
+      completename:
+        content: Olaf Hartig
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Pierre-Antoine Champin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-05-02'
 language:
 - en
 script:
@@ -58,19 +78,19 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-service-description-20231214
+    id: W3CWD-rdf12-concepts-20240416
     docid:
-    - id: W3C WD-sparql12-service-description-20231214
+    - id: W3C WD-rdf12-concepts-20240416
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-sparql12-service-description-20231214
+      content: W3C WD-rdf12-concepts-20240416
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-sparql12-service-description-20240418
+  number: WD-rdf12-concepts-20240502
 doctype:
   type: technicalReport
 editorialgroup:
