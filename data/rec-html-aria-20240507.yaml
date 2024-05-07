@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-orientation-event-20240504
+id: W3CREC-html-aria-20240507
 title:
-- content: DeviceOrientation Event Specification
+- content: ARIA in HTML
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-orientation-event-20240504/
+- content: https://www.w3.org/TR/2024/REC-html-aria-20240507/
   type: src
-- content: https://w3c.github.io/deviceorientation/
+- content: https://w3c.github.io/html-aria/
   type: current
 type: standard
 docid:
-- id: W3C WD-orientation-event-20240504
+- id: W3C REC-html-aria-20240507
   type: W3C
   primary: true
-docnumber: WD-orientation-event-20240504
+docnumber: REC-html-aria-20240507
 date:
 - type: published
-  value: '2024-05-04'
+  value: '2024-05-07'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Marcos Caceres
+        content: Patrick Lauke
         language:
         - en
         script:
@@ -40,51 +40,40 @@ contributor:
 - person:
     name:
       completename:
-        content: Raphael Kubo da Costa
+        content: Scott O'Hara
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Reilly Grant
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-05-04'
+revdate: '2024-05-07'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-orientation-event-20240503
+    id: W3CREC-html-aria-20240430
     docid:
-    - id: W3C WD-orientation-event-20240503
+    - id: W3C REC-html-aria-20240430
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-orientation-event-20240503
+      content: W3C REC-html-aria-20240430
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C REC
     format: text/plain
-  number: WD-orientation-event-20240504
+  number: REC-html-aria-20240507
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Devices and Sensors Working Group
 - name: Web Applications Working Group
 ext:
   schema-version: v1.0.0
