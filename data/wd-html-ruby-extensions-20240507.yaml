@@ -1,18 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3Chtml-ruby-extensions
+id: W3CWD-html-ruby-extensions-20240507
 title:
 - content: HTML Ruby Markup Extensions
   format: text/plain
 link:
-- content: https://www.w3.org/TR/html-ruby-extensions/
+- content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240507/
   type: src
+- content: https://w3c.github.io/html-ruby/
+  type: current
 type: standard
 docid:
-- id: W3C html-ruby-extensions
+- id: W3C WD-html-ruby-extensions-20240507
   type: W3C
   primary: true
-docnumber: html-ruby-extensions
+docnumber: WD-html-ruby-extensions-20240507
+date:
+- type: published
+  value: '2024-05-07'
 contributor:
 - organization:
     name:
@@ -22,6 +27,17 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      completename:
+        content: Florian Rivoal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-05-07'
 language:
 - en
 script:
@@ -30,17 +46,7 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CWD-html-ruby-extensions-20240507
-    docid:
-    - id: W3C WD-html-ruby-extensions-20240507
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-html-ruby-extensions-20240507
-      format: text/plain
-- type: hasEdition
+- type: obsoletes
   bibitem:
     id: W3CNOTE-html-ruby-extensions-20140204
     docid:
@@ -50,22 +56,14 @@ relation:
     formattedref:
       content: W3C NOTE-html-ruby-extensions-20140204
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-html-ruby-extensions-20131022
-    docid:
-    - id: W3C WD-html-ruby-extensions-20131022
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-html-ruby-extensions-20131022
-      format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: html-ruby-extensions
+  number: WD-html-ruby-extensions-20240507
 doctype:
   type: technicalReport
+editorialgroup:
+- name: HTML Working Group
 ext:
   schema-version: v1.0.0
