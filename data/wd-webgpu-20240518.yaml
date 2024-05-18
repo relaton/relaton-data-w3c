@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-wcag-3.0-20230724
+id: W3CWD-webgpu-20240518
 title:
-- content: W3C Accessibility Guidelines (WCAG) 3.0
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-wcag-3.0-20230724/
+- content: https://www.w3.org/TR/2024/WD-webgpu-20240518/
   type: src
-- content: https://w3c.github.io/silver/guidelines/
+- content: https://gpuweb.github.io/gpuweb/
   type: current
 type: standard
 docid:
-- id: W3C WD-wcag-3.0-20230724
+- id: W3C WD-webgpu-20240518
   type: W3C
   primary: true
-docnumber: WD-wcag-3.0-20230724
+docnumber: WD-webgpu-20240518
 date:
 - type: published
-  value: '2023-07-24'
+  value: '2024-05-18'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Jeanne F Spellman
+        content: Brandon Jones
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Michael Cooper
+        content: Jim Blandy
         language:
         - en
         script:
@@ -50,24 +50,14 @@ contributor:
 - person:
     name:
       completename:
-        content: Rachael Bradley Montgomery
+        content: Kai Ninomiya
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Shawn Lauriat
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-07-24'
+revdate: '2024-05-18'
 language:
 - en
 script:
@@ -78,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-wcag-3.0-20211207
+    id: W3CWD-webgpu-20240517
     docid:
-    - id: W3C WD-wcag-3.0-20211207
+    - id: W3C WD-webgpu-20240517
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wcag-3.0-20211207
+      content: W3C WD-webgpu-20240517
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-wcag-3.0-20230724
+  number: WD-webgpu-20240518
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Accessibility Guidelines Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
