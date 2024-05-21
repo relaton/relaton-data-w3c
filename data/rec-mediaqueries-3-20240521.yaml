@@ -1,18 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3Cmediaqueries-3
+id: W3CREC-mediaqueries-3-20240521
 title:
 - content: Media Queries Level 3
   format: text/plain
 link:
-- content: https://www.w3.org/TR/mediaqueries-3/
+- content: https://www.w3.org/TR/2024/REC-mediaqueries-3-20240521/
   type: src
+- content: https://drafts.csswg.org/mediaqueries-3/
+  type: current
 type: standard
 docid:
-- id: W3C mediaqueries-3
+- id: W3C REC-mediaqueries-3-20240521
   type: W3C
   primary: true
-docnumber: mediaqueries-3
+docnumber: REC-mediaqueries-3-20240521
+date:
+- type: published
+  value: '2024-05-21'
 contributor:
 - organization:
     name:
@@ -22,6 +27,17 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      completename:
+        content: Florian Rivoal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-05-21'
 language:
 - en
 script:
@@ -30,7 +46,7 @@ docstatus:
   stage:
     value: Recommendation
 relation:
-- type: hasEdition
+- type: obsoletes
   bibitem:
     id: W3CREC-mediaqueries-3-20220405
     docid:
@@ -40,22 +56,27 @@ relation:
     formattedref:
       content: W3C REC-mediaqueries-3-20220405
       format: text/plain
-- type: instanceOf
+- type: updatedBy
   bibitem:
-    id: W3CREC-mediaqueries-3-20240521
+    id: W3CREC-mediaqueries-3-20220405-errata.html
     docid:
-    - id: W3C REC-mediaqueries-3-20240521
+    - id: W3C REC-mediaqueries-3-20220405-errata.html
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-mediaqueries-3-20240521
+      content: W3C REC-mediaqueries-3-20220405-errata.html
       format: text/plain
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
     content: W3C REC
     format: text/plain
-  number: mediaqueries-3
+  number: REC-mediaqueries-3-20240521
 doctype:
   type: technicalReport
+editorialgroup:
+- name: Cascading Style Sheets Working Group
 ext:
   schema-version: v1.0.0

@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-webgpu-20240518
+id: W3CREC-rdf-canon-20240521
 title:
-- content: WebGPU
+- content: RDF Dataset Canonicalization
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240518/
+- content: https://www.w3.org/TR/2024/REC-rdf-canon-20240521/
   type: src
-- content: https://gpuweb.github.io/gpuweb/
+- content: https://w3c.github.io/rdf-canon/spec/
   type: current
 type: standard
 docid:
-- id: W3C WD-webgpu-20240518
+- id: W3C REC-rdf-canon-20240521
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240518
+docnumber: REC-rdf-canon-20240521
 date:
 - type: published
-  value: '2024-05-18'
+  value: '2024-05-21'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Dan Yamamoto
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Jim Blandy
+        content: Dave Longley
         language:
         - en
         script:
@@ -50,40 +50,53 @@ contributor:
 - person:
     name:
       completename:
-        content: Kai Ninomiya
+        content: Gregg Kellogg
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-05-18'
+revdate: '2024-05-21'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240517
+    id: W3CPR-rdf-canon-20240326
     docid:
-    - id: W3C WD-webgpu-20240517
+    - id: W3C PR-rdf-canon-20240326
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webgpu-20240517
+      content: W3C PR-rdf-canon-20240326
       format: text/plain
+- type: updatedBy
+  bibitem:
+    id: W3Crdf-canon-errata
+    docid:
+    - id: W3C rdf-canon/errata
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C rdf-canon/errata
+      format: text/plain
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C REC
     format: text/plain
-  number: WD-webgpu-20240518
+  number: REC-rdf-canon-20240521
 doctype:
   type: technicalReport
 editorialgroup:
-- name: GPU for the Web Working Group
+- name: RDF Dataset Canonicalization and Hash Working Group
 ext:
   schema-version: v1.0.0
