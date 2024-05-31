@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-mediacapture-transform-20221020
+id: W3CWD-WGSL-20240530
 title:
-- content: MediaStreamTrack Insertable Media Processing using Streams
+- content: WebGPU Shading Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2022/WD-mediacapture-transform-20221020/
+- content: https://www.w3.org/TR/2024/WD-WGSL-20240530/
   type: src
-- content: https://w3c.github.io/mediacapture-transform/
+- content: https://gpuweb.github.io/gpuweb/wgsl/
   type: current
 type: standard
 docid:
-- id: W3C WD-mediacapture-transform-20221020
+- id: W3C WD-WGSL-20240530
   type: W3C
   primary: true
-docnumber: WD-mediacapture-transform-20221020
+docnumber: WD-WGSL-20240530
 date:
 - type: published
-  value: '2022-10-20'
+  value: '2024-05-30'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Guido Urdaneta
+        content: Alan Baker
         language:
         - en
         script:
@@ -40,14 +40,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Harald Alvestrand
+        content: David Neto
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2022-10-20'
+- person:
+    name:
+      completename:
+        content: Mehmet Oguz Derin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-05-30'
 language:
 - en
 script:
@@ -58,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-mediacapture-transform-20220210
+    id: W3CWD-WGSL-20240523
     docid:
-    - id: W3C WD-mediacapture-transform-20220210
+    - id: W3C WD-WGSL-20240523
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-mediacapture-transform-20220210
+      content: W3C WD-WGSL-20240523
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-mediacapture-transform-20221020
+  number: WD-WGSL-20240530
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Real-Time Communications Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
