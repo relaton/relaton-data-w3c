@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-change-password-url-20220927
+id: W3CCRD-webnn-20240604
 title:
-- content: A Well-Known URL for Changing Passwords
+- content: Web Neural Network API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2022/WD-change-password-url-20220927/
+- content: https://www.w3.org/TR/2024/CRD-webnn-20240604/
   type: src
-- content: https://w3c.github.io/webappsec-change-password-url/
+- content: https://webmachinelearning.github.io/webnn/
   type: current
 type: standard
 docid:
-- id: W3C WD-change-password-url-20220927
+- id: W3C CRD-webnn-20240604
   type: W3C
   primary: true
-docnumber: WD-change-password-url-20220927
+docnumber: CRD-webnn-20240604
 date:
 - type: published
-  value: '2022-09-27'
+  value: '2024-06-04'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Ricky Mondello
+        content: Dwayne Robinson
         language:
         - en
         script:
@@ -40,29 +40,40 @@ contributor:
 - person:
     name:
       completename:
-        content: Theresa O'Connor
+        content: Ningxin Hu
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2022-09-27'
+revdate: '2024-06-04'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
+relation:
+- type: obsoletes
+  bibitem:
+    id: W3CCRD-webnn-20240601
+    docid:
+    - id: W3C CRD-webnn-20240601
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-webnn-20240601
+      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-change-password-url-20220927
+  number: CRD-webnn-20240604
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Application Security Working Group
+- name: Web Machine Learning Working Group
 ext:
   schema-version: v1.0.0
