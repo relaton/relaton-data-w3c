@@ -1,18 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3Cwebxr-hit-test-1
+id: W3CWD-webxr-hit-test-1-20240611
 title:
 - content: WebXR Hit Test Module
   format: text/plain
 link:
-- content: https://www.w3.org/TR/webxr-hit-test-1/
+- content: https://www.w3.org/TR/2024/WD-webxr-hit-test-1-20240611/
   type: src
+- content: https://immersive-web.github.io/hit-test/
+  type: current
 type: standard
 docid:
-- id: W3C webxr-hit-test-1
+- id: W3C WD-webxr-hit-test-1-20240611
   type: W3C
   primary: true
-docnumber: webxr-hit-test-1
+docnumber: WD-webxr-hit-test-1-20240611
+date:
+- type: published
+  value: '2024-06-11'
 contributor:
 - organization:
     name:
@@ -22,6 +27,17 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      completename:
+        content: Piotr Bialecki
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-06-11'
 language:
 - en
 script:
@@ -30,17 +46,7 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CWD-webxr-hit-test-1-20240611
-    docid:
-    - id: W3C WD-webxr-hit-test-1-20240611
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webxr-hit-test-1-20240611
-      format: text/plain
-- type: hasEdition
+- type: obsoletes
   bibitem:
     id: W3CWD-webxr-hit-test-1-20220419
     docid:
@@ -50,22 +56,14 @@ relation:
     formattedref:
       content: W3C WD-webxr-hit-test-1-20220419
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webxr-hit-test-1-20210831
-    docid:
-    - id: W3C WD-webxr-hit-test-1-20210831
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webxr-hit-test-1-20210831
-      format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: webxr-hit-test-1
+  number: WD-webxr-hit-test-1-20240611
 doctype:
   type: technicalReport
+editorialgroup:
+- name: Immersive Web Working Group
 ext:
   schema-version: v1.0.0

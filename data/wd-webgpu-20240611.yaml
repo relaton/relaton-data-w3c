@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-trusted-types-20240531
+id: W3CWD-webgpu-20240611
 title:
-- content: Trusted Types
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-trusted-types-20240531/
+- content: https://www.w3.org/TR/2024/WD-webgpu-20240611/
   type: src
-- content: https://w3c.github.io/trusted-types/dist/spec/
+- content: https://gpuweb.github.io/gpuweb/
   type: current
 type: standard
 docid:
-- id: W3C WD-trusted-types-20240531
+- id: W3C WD-webgpu-20240611
   type: W3C
   primary: true
-docnumber: WD-trusted-types-20240531
+docnumber: WD-webgpu-20240611
 date:
 - type: published
-  value: '2024-05-31'
+  value: '2024-06-11'
 contributor:
 - organization:
     name:
@@ -30,14 +30,34 @@ contributor:
 - person:
     name:
       completename:
-        content: Krzysztof Kotowicz
+        content: Brandon Jones
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-05-31'
+- person:
+    name:
+      completename:
+        content: Jim Blandy
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Kai Ninomiya
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-06-11'
 language:
 - en
 script:
@@ -48,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-trusted-types-20220927
+    id: W3CWD-webgpu-20240610
     docid:
-    - id: W3C WD-trusted-types-20220927
+    - id: W3C WD-webgpu-20240610
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-trusted-types-20220927
+      content: W3C WD-webgpu-20240610
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-trusted-types-20240531
+  number: WD-webgpu-20240611
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Application Security Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
