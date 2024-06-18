@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CDNOTE-maturity-model-20231215
+id: W3CWD-act-rules-format-1.1-20240618
 title:
-- content: Accessibility Maturity Model
+- content: Accessibility Conformance Testing (ACT) Rules Format 1.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/DNOTE-maturity-model-20231215/
+- content: https://www.w3.org/TR/2024/WD-act-rules-format-1.1-20240618/
   type: src
-- content: https://w3c.github.io/maturity-model/
+- content: https://w3c.github.io/wcag-act/act-rules-format.html
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-maturity-model-20231215
+- id: W3C WD-act-rules-format-1.1-20240618
   type: W3C
   primary: true
-docnumber: DNOTE-maturity-model-20231215
+docnumber: WD-act-rules-format-1.1-20240618
 date:
 - type: published
-  value: '2023-12-15'
+  value: '2024-06-18'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Charles LaPierre
+        content: Daniel Montalvo
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: David Fazio
+        content: Kathy Eng
         language:
         - en
         script:
@@ -50,37 +50,39 @@ contributor:
 - person:
     name:
       completename:
-        content: Janina Sajka
+        content: Trevor Bostic
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-12-15'
+- person:
+    name:
+      completename:
+        content: Wilco Fiers
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-06-18'
 language:
 - en
 script:
 - Latn
-relation:
-- type: obsoletes
-  bibitem:
-    id: W3CDNOTE-maturity-model-20230824
-    docid:
-    - id: W3C DNOTE-maturity-model-20230824
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-maturity-model-20230824
-      format: text/plain
+docstatus:
+  stage:
+    value: Working Draft
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
-  number: DNOTE-maturity-model-20231215
+  number: WD-act-rules-format-1.1-20240618
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Accessible Platform Architectures
+- name: Accessibility Guidelines Working Group
 ext:
   schema-version: v1.0.0
