@@ -26241,11 +26241,6 @@
     :date: '20231215'
   :file: data/note-epub-a11y-exemption-20231215.yaml
 - :id:
-    :code: permissions-policy-1
-    :stage: WD
-    :date: '20231218'
-  :file: data/wd-permissions-policy-1-20231218.yaml
-- :id:
     :code: vc-json-schema
     :stage: CRD
     :date: '20231218'
@@ -26661,11 +26656,6 @@
     :date: '20240430'
   :file: data/crd-remote-playback-20240430.yaml
 - :id:
-    :code: contact-picker
-    :stage: WD
-    :date: '20240430'
-  :file: data/wd-contact-picker-20240430.yaml
-- :id:
     :code: picture-in-picture
     :stage: WD
     :date: '20240502'
@@ -26751,40 +26741,40 @@
     :date: '20240515'
   :file: data/dnote-khmr-lreq-20240515.yaml
 - :id:
-    :code: laoo-lreq
-    :type: DNOTE
-    :date: '20240515'
-  :file: data/dnote-laoo-lreq-20240515.yaml
-- :id:
     :code: css-view-transitions-2
     :stage: WD
     :date: '20240516'
   :file: data/wd-css-view-transitions-2-20240516.yaml
+- :id:
+    :code: laoo-lreq
+    :type: DNOTE
+    :date: '20240515'
+  :file: data/dnote-laoo-lreq-20240515.yaml
 - :id:
     :code: thai-lreq
     :type: DNOTE
     :date: '20240515'
   :file: data/dnote-thai-lreq-20240515.yaml
 - :id:
-    :code: ilreq-taml
-    :type: DNOTE
-    :date: '20240515'
-  :file: data/dnote-ilreq-taml-20240515.yaml
-- :id:
     :code: webrtc-svc
     :stage: WD
     :date: '20240516'
   :file: data/wd-webrtc-svc-20240516.yaml
 - :id:
-    :code: alreq
+    :code: ilreq-taml
     :type: DNOTE
     :date: '20240515'
-  :file: data/dnote-alreq-20240515.yaml
+  :file: data/dnote-ilreq-taml-20240515.yaml
 - :id:
     :code: rdf-canon
     :stage: REC
     :date: '20240521'
   :file: data/rec-rdf-canon-20240521.yaml
+- :id:
+    :code: alreq
+    :type: DNOTE
+    :date: '20240515'
+  :file: data/dnote-alreq-20240515.yaml
 - :id:
     :code: tlreq
     :type: DNOTE
@@ -26921,11 +26911,6 @@
     :date: '20240605'
   :file: data/wd-device-posture-20240605.yaml
 - :id:
-    :code: WGSL
-    :stage: WD
-    :date: '20240606'
-  :file: data/wd-wgsl-20240606.yaml
-- :id:
     :code: accelerometer
     :stage: CRD
     :date: '20240607'
@@ -26981,25 +26966,20 @@
     :date: '20240613'
   :file: data/wd-credential-management-1-20240613.yaml
 - :id:
-    :code: vc-overview
-    :type: NOTE
-    :date: '20240613'
-  :file: data/note-vc-overview-20240613.yaml
-- :id:
     :code: vocab-dcat-3
     :stage: PR
     :date: '20240613'
   :file: data/pr-vocab-dcat-3-20240613.yaml
 - :id:
+    :code: vc-overview
+    :type: NOTE
+    :date: '20240613'
+  :file: data/note-vc-overview-20240613.yaml
+- :id:
     :code: geolocation
     :stage: REC
     :date: '20240613'
   :file: data/rec-geolocation-20240613.yaml
-- :id:
-    :code: CSP3
-    :stage: WD
-    :date: '20240613'
-  :file: data/wd-csp3-20240613.yaml
 - :id:
     :code: uievents
     :stage: WD
@@ -27015,11 +26995,6 @@
     :stage: WD
     :date: '20240613'
   :file: data/wd-rdf12-trig-20240613.yaml
-- :id:
-    :code: webgpu
-    :stage: WD
-    :date: '20240613'
-  :file: data/wd-webgpu-20240613.yaml
 - :id:
     :code: geolocation
     :stage: REC
@@ -27171,15 +27146,40 @@
     :date: '20240618'
   :file: data/wd-webdriver2-20240618.yaml
 - :id:
-    :code: trusted-types
-    :stage: WD
-    :date: '20240618'
-  :file: data/wd-trusted-types-20240618.yaml
-- :id:
     :code: vc-data-model-2.0
     :stage: CRD
     :date: '20240618'
   :file: data/crd-vc-data-model-2.0-20240618.yaml
+- :id:
+    :code: CSP3
+    :stage: WD
+    :date: '20240618'
+  :file: data/wd-csp3-20240618.yaml
+- :id:
+    :code: contact-picker
+    :stage: WD
+    :date: '20240618'
+  :file: data/wd-contact-picker-20240618.yaml
+- :id:
+    :code: WGSL
+    :stage: WD
+    :date: '20240618'
+  :file: data/wd-wgsl-20240618.yaml
+- :id:
+    :code: webgpu
+    :stage: WD
+    :date: '20240618'
+  :file: data/wd-webgpu-20240618.yaml
+- :id:
+    :code: trusted-types
+    :stage: WD
+    :date: '20240619'
+  :file: data/wd-trusted-types-20240619.yaml
+- :id:
+    :code: permissions-policy-1
+    :stage: WD
+    :date: '20240619'
+  :file: data/wd-permissions-policy-1-20240619.yaml
 - :id:
     :code: aac-registry
   :file: data/aac-registry.yaml
@@ -27331,9 +27331,6 @@
     :code: sparql12-graph-store-protocol
   :file: data/sparql12-graph-store-protocol.yaml
 - :id:
-    :code: contact-picker
-  :file: data/contact-picker.yaml
-- :id:
     :code: sparql12-query
   :file: data/sparql12-query.yaml
 - :id:
@@ -27364,11 +27361,11 @@
     :code: khmr-lreq
   :file: data/khmr-lreq.yaml
 - :id:
-    :code: laoo-lreq
-  :file: data/laoo-lreq.yaml
-- :id:
     :code: css-view-transitions-2
   :file: data/css-view-transitions-2.yaml
+- :id:
+    :code: laoo-lreq
+  :file: data/laoo-lreq.yaml
 - :id:
     :code: thai-lreq
   :file: data/thai-lreq.yaml
@@ -27442,8 +27439,11 @@
     :code: maturity-model
   :file: data/maturity-model.yaml
 - :id:
-    :code: trusted-types
-  :file: data/trusted-types.yaml
-- :id:
     :code: vc-data-model-2.0
   :file: data/vc-data-model-2.0.yaml
+- :id:
+    :code: contact-picker
+  :file: data/contact-picker.yaml
+- :id:
+    :code: trusted-types
+  :file: data/trusted-types.yaml
