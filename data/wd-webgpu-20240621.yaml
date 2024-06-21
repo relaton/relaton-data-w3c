@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CCRD-core-aam-1.2-20240620
+id: W3CWD-webgpu-20240621
 title:
-- content: Core Accessibility API Mappings 1.2
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-core-aam-1.2-20240620/
+- content: https://www.w3.org/TR/2024/WD-webgpu-20240621/
   type: src
-- content: https://w3c.github.io/core-aam/
+- content: https://gpuweb.github.io/gpuweb/
   type: current
 type: standard
 docid:
-- id: W3C CRD-core-aam-1.2-20240620
+- id: W3C WD-webgpu-20240621
   type: W3C
   primary: true
-docnumber: CRD-core-aam-1.2-20240620
+docnumber: WD-webgpu-20240621
 date:
 - type: published
-  value: '2024-06-20'
+  value: '2024-06-21'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Alexander Surkov
+        content: Brandon Jones
         language:
         - en
         script:
@@ -40,40 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Valerie Young
+        content: Jim Blandy
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-06-20'
+- person:
+    name:
+      completename:
+        content: Kai Ninomiya
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-06-21'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-core-aam-1.2-20231102
+    id: W3CWD-webgpu-20240620
     docid:
-    - id: W3C CRD-core-aam-1.2-20231102
+    - id: W3C WD-webgpu-20240620
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-core-aam-1.2-20231102
+      content: W3C WD-webgpu-20240620
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
-  number: CRD-core-aam-1.2-20240620
+  number: WD-webgpu-20240621
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Accessible Rich Internet Applications Working Group
+- name: GPU for the Web Working Group
 ext:
   schema-version: v1.0.0
