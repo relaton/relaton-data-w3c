@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-input-events-2-20240619
+id: W3CREC-css-contain-1-20240625
 title:
-- content: Input Events Level 2
+- content: CSS Containment Module Level 1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-input-events-2-20240619/
+- content: https://www.w3.org/TR/2024/REC-css-contain-1-20240625/
   type: src
-- content: https://w3c.github.io/input-events/
+- content: https://drafts.csswg.org/css-contain-1/
   type: current
 type: standard
 docid:
-- id: W3C WD-input-events-2-20240619
+- id: W3C REC-css-contain-1-20240625
   type: W3C
   primary: true
-docnumber: WD-input-events-2-20240619
+docnumber: REC-css-contain-1-20240625
 date:
 - type: published
-  value: '2024-06-19'
+  value: '2024-06-25'
 contributor:
 - organization:
     name:
@@ -30,40 +30,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Johannes Wilm
+        content: Florian Rivoal
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-06-19'
+- person:
+    name:
+      completename:
+        content: Tab Atkins Jr.
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-06-25'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-input-events-2-20240109
+    id: W3CREC-css-contain-1-20221025
     docid:
-    - id: W3C WD-input-events-2-20240109
+    - id: W3C REC-css-contain-1-20221025
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-input-events-2-20240109
+      content: W3C REC-css-contain-1-20221025
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C REC
     format: text/plain
-  number: WD-input-events-2-20240619
+  number: REC-css-contain-1-20240625
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Web Editing Working Group
+- name: Cascading Style Sheets Working Group
 ext:
   schema-version: v1.0.0
