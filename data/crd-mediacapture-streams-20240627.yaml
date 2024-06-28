@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-rdf12-concepts-20240502
+id: W3CCRD-mediacapture-streams-20240627
 title:
-- content: RDF 1.2 Concepts and Abstract Syntax
+- content: Media Capture and Streams
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-rdf12-concepts-20240502/
+- content: https://www.w3.org/TR/2024/CRD-mediacapture-streams-20240627/
   type: src
-- content: https://w3c.github.io/rdf-concepts/spec/
+- content: https://w3c.github.io/mediacapture-main/
   type: current
 type: standard
 docid:
-- id: W3C WD-rdf12-concepts-20240502
+- id: W3C CRD-mediacapture-streams-20240627
   type: W3C
   primary: true
-docnumber: WD-rdf12-concepts-20240502
+docnumber: CRD-mediacapture-streams-20240627
 date:
 - type: published
-  value: '2024-05-02'
+  value: '2024-06-27'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Andy Seaborne
+        content: Bernard Aboba
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Gregg Kellogg
+        content: Cullen Jennings
         language:
         - en
         script:
@@ -50,7 +50,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Olaf Hartig
+        content: Henrik Boström
         language:
         - en
         script:
@@ -60,40 +60,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Pierre-Antoine Champin
+        content: Jan-Ivar Bruaroey
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-05-02'
+- person:
+    name:
+      completename:
+        content: youenn fablet
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-06-27'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdf12-concepts-20240416
+    id: W3CCRD-mediacapture-streams-20240620
     docid:
-    - id: W3C WD-rdf12-concepts-20240416
+    - id: W3C CRD-mediacapture-streams-20240620
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-rdf12-concepts-20240416
+      content: W3C CRD-mediacapture-streams-20240620
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-rdf12-concepts-20240502
+  number: CRD-mediacapture-streams-20240627
 doctype:
   type: technicalReport
 editorialgroup:
-- name: RDF-star Working Group
+- name: Web Real-Time Communications Working Group
 ext:
   schema-version: v1.0.0
