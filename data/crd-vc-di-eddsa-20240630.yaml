@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CDNOTE-clreq-20231101
+id: W3CCRD-vc-di-eddsa-20240630
 title:
-- content: Requirements for Chinese Text Layout - 中文排版需求
+- content: Data Integrity EdDSA Cryptosuites v1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/DNOTE-clreq-20231101/
+- content: https://www.w3.org/TR/2024/CRD-vc-di-eddsa-20240630/
   type: src
-- content: https://www.w3.org/International/clreq/
+- content: https://w3c.github.io/vc-di-eddsa/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-clreq-20231101
+- id: W3C CRD-vc-di-eddsa-20240630
   type: W3C
   primary: true
-docnumber: DNOTE-clreq-20231101
+docnumber: CRD-vc-di-eddsa-20240630
 date:
 - type: published
-  value: '2023-11-01'
+  value: '2024-06-30'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Bobby Tung
+        content: Dmitri Zagidulin
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Eric Q LIU
+        content: Greg Bernstein
         language:
         - en
         script:
@@ -50,7 +50,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Fuqiao Xue
+        content: Manu Sporny
         language:
         - en
         script:
@@ -60,67 +60,40 @@ contributor:
 - person:
     name:
       completename:
-        content: Hui Jing Chen
+        content: Sebastian Crane
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Richard Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yijun Chen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Zhengyu Qian
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-11-01'
+revdate: '2024-06-30'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-clreq-20230901
+    id: W3CCRD-vc-di-eddsa-20240621
     docid:
-    - id: W3C DNOTE-clreq-20230901
+    - id: W3C CRD-vc-di-eddsa-20240621
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-clreq-20230901
+      content: W3C CRD-vc-di-eddsa-20240621
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C CR
     format: text/plain
-  number: DNOTE-clreq-20231101
+  number: CRD-vc-di-eddsa-20240630
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Internationalization Working Group
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
