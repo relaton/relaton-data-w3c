@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-vc-jws-2020-20230629
+id: W3CCRD-webxr-20240701
 title:
-- content: JSON Web Signatures for Data Integrity Proofs
+- content: WebXR Device API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-vc-jws-2020-20230629/
+- content: https://www.w3.org/TR/2024/CRD-webxr-20240701/
   type: src
-- content: https://w3c.github.io/vc-jws-2020/
+- content: https://immersive-web.github.io/webxr/
   type: current
 type: standard
 docid:
-- id: W3C WD-vc-jws-2020-20230629
+- id: W3C CRD-webxr-20240701
   type: W3C
   primary: true
-docnumber: WD-vc-jws-2020-20230629
+docnumber: CRD-webxr-20240701
 date:
 - type: published
-  value: '2023-06-29'
+  value: '2024-07-01'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Michael Jones
+        content: Brandon Jones
         language:
         - en
         script:
@@ -40,40 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Orie Steele
+        content: Manish Goregaokar
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-06-29'
+- person:
+    name:
+      completename:
+        content: Rik Cabanier
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-07-01'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-vc-jws-2020-20230127
+    id: W3CCRD-webxr-20240416
     docid:
-    - id: W3C WD-vc-jws-2020-20230127
+    - id: W3C CRD-webxr-20240416
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vc-jws-2020-20230127
+      content: W3C CRD-webxr-20240416
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-vc-jws-2020-20230629
+  number: CRD-webxr-20240701
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Verifiable Credentials Working Group
+- name: Immersive Web Working Group
 ext:
   schema-version: v1.0.0

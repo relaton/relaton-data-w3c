@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CCRD-webxr-20240416
+id: W3CREC-geolocation-20240702
 title:
-- content: WebXR Device API
+- content: Geolocation
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-webxr-20240416/
+- content: https://www.w3.org/TR/2024/REC-geolocation-20240702/
   type: src
-- content: https://immersive-web.github.io/webxr/
+- content: https://w3c.github.io/geolocation/
   type: current
 type: standard
 docid:
-- id: W3C CRD-webxr-20240416
+- id: W3C REC-geolocation-20240702
   type: W3C
   primary: true
-docnumber: CRD-webxr-20240416
+docnumber: REC-geolocation-20240702
 date:
 - type: published
-  value: '2024-04-16'
+  value: '2024-07-02'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Marcos Caceres
         language:
         - en
         script:
@@ -40,50 +40,41 @@ contributor:
 - person:
     name:
       completename:
-        content: Manish Goregaokar
+        content: Reilly Grant
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Rik Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-04-16'
+revdate: '2024-07-02'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webxr-20240410
+    id: W3CREC-geolocation-20240619
     docid:
-    - id: W3C CRD-webxr-20240410
+    - id: W3C REC-geolocation-20240619
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-webxr-20240410
+      content: W3C REC-geolocation-20240619
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C REC
     format: text/plain
-  number: CRD-webxr-20240416
+  number: REC-geolocation-20240702
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Immersive Web Working Group
+- name: Devices and Sensors Working Group
+- name: Web Applications Working Group
 ext:
   schema-version: v1.0.0

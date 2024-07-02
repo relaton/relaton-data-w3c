@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.8
-id: W3CWD-webgpu-20240627
+id: W3CWD-wasm-core-2-20240702
 title:
-- content: WebGPU
+- content: WebAssembly Core Specification
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240627/
+- content: https://www.w3.org/TR/2024/WD-wasm-core-2-20240702/
   type: src
-- content: https://gpuweb.github.io/gpuweb/
+- content: https://webassembly.github.io/spec/core/bikeshed/
   type: current
 type: standard
 docid:
-- id: W3C WD-webgpu-20240627
+- id: W3C WD-wasm-core-2-20240702
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240627
+docnumber: WD-wasm-core-2-20240702
 date:
 - type: published
-  value: '2024-06-27'
+  value: '2024-07-02'
 contributor:
 - organization:
     name:
@@ -30,34 +30,14 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Andreas Rossberg
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Blandy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kai Ninomiya
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-06-27'
+revdate: '2024-07-02'
 language:
 - en
 script:
@@ -68,22 +48,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240626
+    id: W3CWD-wasm-core-2-20240626
     docid:
-    - id: W3C WD-webgpu-20240626
+    - id: W3C WD-wasm-core-2-20240626
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webgpu-20240626
+      content: W3C WD-wasm-core-2-20240626
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-webgpu-20240627
+  number: WD-wasm-core-2-20240702
 doctype:
   type: technicalReport
 editorialgroup:
-- name: GPU for the Web Working Group
+- name: WebAssembly Working Group
 ext:
   schema-version: v1.0.0
