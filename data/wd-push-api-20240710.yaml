@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-kore-gap-20240705
+id: W3CWD-push-api-20240710
 title:
-- content: Korean Layout Gap Analysis
+- content: Push API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240705/
+- content: https://www.w3.org/TR/2024/WD-push-api-20240710/
   type: src
-- content: https://w3c.github.io/klreq/gap-analysis/
+- content: https://w3c.github.io/push-api/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-kore-gap-20240705
+- id: W3C WD-push-api-20240710
   type: W3C
   primary: true
-docnumber: DNOTE-kore-gap-20240705
+docnumber: WD-push-api-20240710
 date:
 - type: published
-  value: '2024-07-05'
+  value: '2024-07-10'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Fuqiao Xue
+        content: Marcos Caceres
         language:
         - en
         script:
@@ -40,37 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Richard Ishida
+        content: Martin Thomson
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-07-05'
+- person:
+    name:
+      completename:
+        content: Peter Beverloo
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-07-10'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-kore-gap-20230720
+    id: W3CWD-push-api-20240708
     docid:
-    - id: W3C DNOTE-kore-gap-20230720
+    - id: W3C WD-push-api-20240708
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-kore-gap-20230720
+      content: W3C WD-push-api-20240708
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
-  number: DNOTE-kore-gap-20240705
+  number: WD-push-api-20240710
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Internationalization Working Group
+- name: Web Applications Working Group
 ext:
   schema-version: v1.0.0
