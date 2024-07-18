@@ -1,18 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3Cmse-byte-stream-format-mpeg-audio
+id: W3CNOTE-mse-byte-stream-format-mpeg-audio-20240718
 title:
 - content: MPEG Audio Byte Stream Format
   format: text/plain
 link:
-- content: https://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/
+- content: https://www.w3.org/TR/2024/NOTE-mse-byte-stream-format-mpeg-audio-20240718/
   type: src
+- content: https://w3c.github.io/mse-byte-stream-format-mpeg-audio/
+  type: current
 type: standard
 docid:
-- id: W3C mse-byte-stream-format-mpeg-audio
+- id: W3C NOTE-mse-byte-stream-format-mpeg-audio-20240718
   type: W3C
   primary: true
-docnumber: mse-byte-stream-format-mpeg-audio
+docnumber: NOTE-mse-byte-stream-format-mpeg-audio-20240718
+date:
+- type: published
+  value: '2024-07-18'
 contributor:
 - organization:
     name:
@@ -22,22 +27,23 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      completename:
+        content: Dale Curtis
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-07-18'
 language:
 - en
 script:
 - Latn
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-mse-byte-stream-format-mpeg-audio-20240718
-    docid:
-    - id: W3C NOTE-mse-byte-stream-format-mpeg-audio-20240718
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-mse-byte-stream-format-mpeg-audio-20240718
-      format: text/plain
-- type: hasEdition
+- type: obsoletes
   bibitem:
     id: W3CNOTE-mse-byte-stream-format-mpeg-audio-20161004
     docid:
@@ -51,8 +57,10 @@ series:
 - title:
     content: W3C NOTE
     format: text/plain
-  number: mse-byte-stream-format-mpeg-audio
+  number: NOTE-mse-byte-stream-format-mpeg-audio-20240718
 doctype:
   type: technicalReport
+editorialgroup:
+- name: Media Working Group
 ext:
   schema-version: v1.0.0
