@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-string-meta-20240418
+id: W3CCRD-webrtc-stats-20240718
 title:
-- content: 'Strings on the Web: Language and Direction Metadata'
+- content: Identifiers for WebRTC's Statistics API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-string-meta-20240418/
+- content: https://www.w3.org/TR/2024/CRD-webrtc-stats-20240718/
   type: src
-- content: https://w3c.github.io/string-meta/
+- content: https://w3c.github.io/webrtc-stats/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-string-meta-20240418
+- id: W3C CRD-webrtc-stats-20240718
   type: W3C
   primary: true
-docnumber: DNOTE-string-meta-20240418
+docnumber: CRD-webrtc-stats-20240718
 date:
 - type: published
-  value: '2024-04-18'
+  value: '2024-07-18'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Addison Phillips
+        content: Harald Alvestrand
         language:
         - en
         script:
@@ -40,37 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Richard Ishida
+        content: Henrik Boström
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-04-18'
+- person:
+    name:
+      completename:
+        content: Varun Singh
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-07-18'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-string-meta-20240321
+    id: W3CCRD-webrtc-stats-20240125
     docid:
-    - id: W3C DNOTE-string-meta-20240321
+    - id: W3C CRD-webrtc-stats-20240125
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-string-meta-20240321
+      content: W3C CRD-webrtc-stats-20240125
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C CR
     format: text/plain
-  number: DNOTE-string-meta-20240418
+  number: CRD-webrtc-stats-20240718
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Internationalization Working Group
+- name: Web Real-Time Communications Working Group
 ext:
   schema-version: v1.0.0
