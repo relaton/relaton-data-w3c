@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-typography-20240705
+id: W3CWD-rdf12-turtle-20240815
 title:
-- content: Language enablement index
+- content: RDF 1.2 Turtle
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-typography-20240705/
+- content: https://www.w3.org/TR/2024/WD-rdf12-turtle-20240815/
   type: src
-- content: https://w3c.github.io/typography/
+- content: https://w3c.github.io/rdf-turtle/spec/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-typography-20240705
+- id: W3C WD-rdf12-turtle-20240815
   type: W3C
   primary: true
-docnumber: DNOTE-typography-20240705
+docnumber: WD-rdf12-turtle-20240815
 date:
 - type: published
-  value: '2024-07-05'
+  value: '2024-08-15'
 contributor:
 - organization:
     name:
@@ -30,37 +30,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Richard Ishida
+        content: Dominik Tomaszuk
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-07-05'
+- person:
+    name:
+      completename:
+        content: Gregg Kellogg
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-08-15'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-typography-20240322
+    id: W3CWD-rdf12-turtle-20240808
     docid:
-    - id: W3C DNOTE-typography-20240322
+    - id: W3C WD-rdf12-turtle-20240808
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-typography-20240322
+      content: W3C WD-rdf12-turtle-20240808
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
-  number: DNOTE-typography-20240705
+  number: WD-rdf12-turtle-20240815
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Internationalization Working Group
+- name: RDF-star Working Group
 ext:
   schema-version: v1.0.0
