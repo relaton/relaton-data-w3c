@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-vc-di-bbs-20240630
+id: W3CCRD-vc-data-model-2.0-20240819
 title:
-- content: Data Integrity BBS Cryptosuites v1.0
+- content: Verifiable Credentials Data Model v2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240630/
+- content: https://www.w3.org/TR/2024/CRD-vc-data-model-2.0-20240819/
   type: src
-- content: https://w3c.github.io/vc-di-bbs/
+- content: https://w3c.github.io/vc-data-model/
   type: current
 type: standard
 docid:
-- id: W3C CRD-vc-di-bbs-20240630
+- id: W3C CRD-vc-data-model-2.0-20240819
   type: W3C
   primary: true
-docnumber: CRD-vc-di-bbs-20240630
+docnumber: CRD-vc-data-model-2.0-20240819
 date:
 - type: published
-  value: '2024-06-30'
+  value: '2024-08-19'
 contributor:
 - organization:
     name:
@@ -30,7 +30,17 @@ contributor:
 - person:
     name:
       completename:
-        content: Greg Bernstein
+        content: Gabe Cohen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Ivan Herman
         language:
         - en
         script:
@@ -47,7 +57,27 @@ contributor:
         - Latn
   role:
   - type: editor
-revdate: '2024-06-30'
+- person:
+    name:
+      completename:
+        content: Michael Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Ted Thibodeau Jr
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-08-19'
 language:
 - en
 script:
@@ -58,19 +88,19 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-vc-di-bbs-20240626
+    id: W3CCRD-vc-data-model-2.0-20240818
     docid:
-    - id: W3C CRD-vc-di-bbs-20240626
+    - id: W3C CRD-vc-data-model-2.0-20240818
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-vc-di-bbs-20240626
+      content: W3C CRD-vc-data-model-2.0-20240818
       format: text/plain
 series:
 - title:
     content: W3C CR
     format: text/plain
-  number: CRD-vc-di-bbs-20240630
+  number: CRD-vc-data-model-2.0-20240819
 doctype:
   type: technicalReport
 editorialgroup:
