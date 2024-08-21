@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-wasm-web-api-2-20240816
+id: W3CWD-webgpu-20240821
 title:
-- content: WebAssembly Web API
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-wasm-web-api-2-20240816/
+- content: https://www.w3.org/TR/2024/WD-webgpu-20240821/
   type: src
-- content: https://webassembly.github.io/spec/web-api/
+- content: https://gpuweb.github.io/gpuweb/
   type: current
 type: standard
 docid:
-- id: W3C WD-wasm-web-api-2-20240816
+- id: W3C WD-webgpu-20240821
   type: W3C
   primary: true
-docnumber: WD-wasm-web-api-2-20240816
+docnumber: WD-webgpu-20240821
 date:
 - type: published
-  value: '2024-08-16'
+  value: '2024-08-21'
 contributor:
 - organization:
     name:
@@ -30,14 +30,34 @@ contributor:
 - person:
     name:
       completename:
-        content: ". Ms2ger"
+        content: Brandon Jones
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-08-16'
+- person:
+    name:
+      completename:
+        content: Jim Blandy
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Kai Ninomiya
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-08-21'
 language:
 - en
 script:
@@ -48,22 +68,20 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-wasm-web-api-2-20240811
+    id: W3CWD-webgpu-20240813
     docid:
-    - id: W3C WD-wasm-web-api-2-20240811
+    - id: W3C WD-webgpu-20240813
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wasm-web-api-2-20240811
+      content: W3C WD-webgpu-20240813
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-wasm-web-api-2-20240816
+  number: WD-webgpu-20240821
 doctype:
   type: technicalReport
-editorialgroup:
-- name: WebAssembly Working Group
 ext:
   schema-version: v1.0.0
