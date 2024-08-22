@@ -1,20 +1,20 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-wasm-core-2-20240821
+id: W3CCRD-webxr-20240821
 title:
-- content: WebAssembly Core Specification
+- content: WebXR Device API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-wasm-core-2-20240821/
+- content: https://www.w3.org/TR/2024/CRD-webxr-20240821/
   type: src
-- content: https://webassembly.github.io/spec/core/bikeshed/
+- content: https://immersive-web.github.io/webxr/
   type: current
 type: standard
 docid:
-- id: W3C WD-wasm-core-2-20240821
+- id: W3C CRD-webxr-20240821
   type: W3C
   primary: true
-docnumber: WD-wasm-core-2-20240821
+docnumber: CRD-webxr-20240821
 date:
 - type: published
   value: '2024-08-21'
@@ -30,7 +30,27 @@ contributor:
 - person:
     name:
       completename:
-        content: Andreas Rossberg
+        content: Brandon Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Manish Goregaokar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Rik Cabanier
         language:
         - en
         script:
@@ -44,26 +64,26 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-wasm-core-2-20240816
+    id: W3CCRD-webxr-20240805
     docid:
-    - id: W3C WD-wasm-core-2-20240816
+    - id: W3C CRD-webxr-20240805
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wasm-core-2-20240816
+      content: W3C CRD-webxr-20240805
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-wasm-core-2-20240821
+  number: CRD-webxr-20240821
 doctype:
   type: technicalReport
 editorialgroup:
-- name: WebAssembly Working Group
+- name: Immersive Web Working Group
 ext:
   schema-version: v1.0.0
