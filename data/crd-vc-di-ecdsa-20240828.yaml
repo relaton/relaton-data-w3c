@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240821
+id: W3CCRD-vc-di-ecdsa-20240828
 title:
-- content: WebGPU
+- content: Data Integrity ECDSA Cryptosuites v1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240821/
+- content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20240828/
   type: src
-- content: https://gpuweb.github.io/gpuweb/
+- content: https://w3c.github.io/vc-di-ecdsa/
   type: current
 type: standard
 docid:
-- id: W3C WD-webgpu-20240821
+- id: W3C CRD-vc-di-ecdsa-20240828
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240821
+docnumber: CRD-vc-di-ecdsa-20240828
 date:
 - type: published
-  value: '2024-08-21'
+  value: '2024-08-28'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Brandon Jones
+        content: Greg Bernstein
         language:
         - en
         script:
@@ -40,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Jim Blandy
+        content: Manu Sporny
         language:
         - en
         script:
@@ -50,38 +50,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Kai Ninomiya
+        content: Martin Reed
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-08-21'
+- person:
+    name:
+      completename:
+        content: Sebastian Crane
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-08-28'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240813
+    id: W3CCRD-vc-di-ecdsa-20240818
     docid:
-    - id: W3C WD-webgpu-20240813
+    - id: W3C CRD-vc-di-ecdsa-20240818
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webgpu-20240813
+      content: W3C CRD-vc-di-ecdsa-20240818
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
-  number: WD-webgpu-20240821
+  number: CRD-vc-di-ecdsa-20240828
 doctype:
   type: technicalReport
+editorialgroup:
+- name: Verifiable Credentials Working Group
 ext:
   schema-version: v1.0.0
