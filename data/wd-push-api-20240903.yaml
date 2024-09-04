@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-wasm-js-api-2-20240822
+id: W3CWD-push-api-20240903
 title:
-- content: WebAssembly JavaScript Interface
+- content: Push API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240822/
+- content: https://www.w3.org/TR/2024/WD-push-api-20240903/
   type: src
-- content: https://webassembly.github.io/spec/js-api/
+- content: https://w3c.github.io/push-api/
   type: current
 type: standard
 docid:
-- id: W3C WD-wasm-js-api-2-20240822
+- id: W3C WD-push-api-20240903
   type: W3C
   primary: true
-docnumber: WD-wasm-js-api-2-20240822
+docnumber: WD-push-api-20240903
 date:
 - type: published
-  value: '2024-08-22'
+  value: '2024-09-03'
 contributor:
 - organization:
     name:
@@ -30,14 +30,34 @@ contributor:
 - person:
     name:
       completename:
-        content: ". Ms2ger"
+        content: Marcos Caceres
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-08-22'
+- person:
+    name:
+      completename:
+        content: Martin Thomson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      completename:
+        content: Peter Beverloo
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-09-03'
 language:
 - en
 script:
@@ -48,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240821
+    id: W3CWD-push-api-20240710
     docid:
-    - id: W3C WD-wasm-js-api-2-20240821
+    - id: W3C WD-push-api-20240710
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wasm-js-api-2-20240821
+      content: W3C WD-push-api-20240710
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-wasm-js-api-2-20240822
+  number: WD-push-api-20240903
 doctype:
   type: technicalReport
 editorialgroup:
-- name: WebAssembly Working Group
+- name: Web Applications Working Group
 ext:
   schema-version: v1.0.0
