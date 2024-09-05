@@ -26575,11 +26575,6 @@
     :date: '20240702'
   :file: data/dnote-wcag2ict-22-20240702.yaml
 - :id:
-    :code: appmanifest
-    :stage: WD
-    :date: '20240702'
-  :file: data/wd-appmanifest-20240702.yaml
-- :id:
     :code: media-source-2
     :stage: WD
     :date: '20240704'
@@ -26595,25 +26590,25 @@
     :date: '20240704'
   :file: data/note-epub-a11y-tech-11-20240704.yaml
 - :id:
-    :code: contact-picker
-    :stage: WD
-    :date: '20240708'
-  :file: data/wd-contact-picker-20240708.yaml
-- :id:
     :code: grek-gap
     :type: DNOTE
     :date: '20240704'
   :file: data/dnote-grek-gap-20240704.yaml
 - :id:
-    :code: IFT
+    :code: contact-picker
     :stage: WD
-    :date: '20240709'
-  :file: data/wd-ift-20240709.yaml
+    :date: '20240708'
+  :file: data/wd-contact-picker-20240708.yaml
 - :id:
     :code: hebr-gap
     :type: DNOTE
     :date: '20240704'
   :file: data/dnote-hebr-gap-20240704.yaml
+- :id:
+    :code: IFT
+    :stage: WD
+    :date: '20240709'
+  :file: data/wd-ift-20240709.yaml
 - :id:
     :code: vc-overview
     :type: NOTE
@@ -26665,10 +26660,10 @@
     :date: '20240709'
   :file: data/dnote-cher-gap-20240709.yaml
 - :id:
-    :code: webmidi
+    :code: webcodecs
     :stage: WD
-    :date: '20240712'
-  :file: data/wd-webmidi-20240712.yaml
+    :date: '20240717'
+  :file: data/wd-webcodecs-20240717.yaml
 - :id:
     :code: cans-iu-cr-gap
     :type: DNOTE
@@ -26680,11 +26675,6 @@
     :date: '20240709'
   :file: data/dnote-osge-osa-gap-20240709.yaml
 - :id:
-    :code: webcodecs
-    :stage: WD
-    :date: '20240717'
-  :file: data/wd-webcodecs-20240717.yaml
-- :id:
     :code: elreq-gap
     :type: DNOTE
     :date: '20240709'
@@ -26694,6 +26684,11 @@
     :type: DNOTE
     :date: '20240709'
   :file: data/dnote-taml-gap-20240709.yaml
+- :id:
+    :code: webcodecs-avc-codec-registration
+    :type: DNOTE
+    :date: '20240717'
+  :file: data/dnote-webcodecs-avc-codec-registration-20240717.yaml
 - :id:
     :code: beng-gap
     :type: DNOTE
@@ -26705,10 +26700,10 @@
     :date: '20240710'
   :file: data/dnote-deva-gap-20240710.yaml
 - :id:
-    :code: webcodecs-avc-codec-registration
+    :code: webcodecs-vorbis-codec-registration
     :type: DNOTE
     :date: '20240717'
-  :file: data/dnote-webcodecs-avc-codec-registration-20240717.yaml
+  :file: data/dnote-webcodecs-vorbis-codec-registration-20240717.yaml
 - :id:
     :code: gujr-gap
     :type: DNOTE
@@ -26720,20 +26715,20 @@
     :date: '20240710'
   :file: data/dnote-guru-gap-20240710.yaml
 - :id:
-    :code: webcodecs-vorbis-codec-registration
+    :code: webcodecs-mp3-codec-registration
     :type: DNOTE
     :date: '20240717'
-  :file: data/dnote-webcodecs-vorbis-codec-registration-20240717.yaml
+  :file: data/dnote-webcodecs-mp3-codec-registration-20240717.yaml
 - :id:
     :code: jpan-gap
     :type: DNOTE
     :date: '20240710'
   :file: data/dnote-jpan-gap-20240710.yaml
 - :id:
-    :code: webcodecs-mp3-codec-registration
+    :code: webcodecs-aac-codec-registration
     :type: DNOTE
     :date: '20240717'
-  :file: data/dnote-webcodecs-mp3-codec-registration-20240717.yaml
+  :file: data/dnote-webcodecs-aac-codec-registration-20240717.yaml
 - :id:
     :code: mong-gap
     :type: DNOTE
@@ -26745,10 +26740,10 @@
     :date: '20240710'
   :file: data/dnote-thai-gap-20240710.yaml
 - :id:
-    :code: webcodecs-aac-codec-registration
+    :code: webcodecs-flac-codec-registration
     :type: DNOTE
     :date: '20240717'
-  :file: data/dnote-webcodecs-aac-codec-registration-20240717.yaml
+  :file: data/dnote-webcodecs-flac-codec-registration-20240717.yaml
 - :id:
     :code: laoo-gap
     :type: DNOTE
@@ -26760,10 +26755,10 @@
     :date: '20240710'
   :file: data/dnote-khmr-gap-20240710.yaml
 - :id:
-    :code: webcodecs-flac-codec-registration
+    :code: webcodecs-opus-codec-registration
     :type: DNOTE
     :date: '20240717'
-  :file: data/dnote-webcodecs-flac-codec-registration-20240717.yaml
+  :file: data/dnote-webcodecs-opus-codec-registration-20240717.yaml
 - :id:
     :code: tibt-gap
     :type: DNOTE
@@ -26775,20 +26770,15 @@
     :date: '20240710'
   :file: data/dnote-geor-gap-20240710.yaml
 - :id:
-    :code: webcodecs-opus-codec-registration
+    :code: webcodecs-av1-codec-registration
     :type: DNOTE
     :date: '20240717'
-  :file: data/dnote-webcodecs-opus-codec-registration-20240717.yaml
+  :file: data/dnote-webcodecs-av1-codec-registration-20240717.yaml
 - :id:
     :code: latn-gap
     :type: DNOTE
     :date: '20240716'
   :file: data/dnote-latn-gap-20240716.yaml
-- :id:
-    :code: webcodecs-av1-codec-registration
-    :type: DNOTE
-    :date: '20240717'
-  :file: data/dnote-webcodecs-av1-codec-registration-20240717.yaml
 - :id:
     :code: webcodecs-vp9-codec-registration
     :type: DNOTE
@@ -27235,20 +27225,20 @@
     :date: '20240819'
   :file: data/wd-html-aam-1.0-20240819.yaml
 - :id:
-    :code: grek-lreq
+    :code: hebr-lreq
     :type: DNOTE
     :date: '20240815'
-  :file: data/dnote-grek-lreq-20240815.yaml
+  :file: data/dnote-hebr-lreq-20240815.yaml
 - :id:
     :code: event-timing
     :stage: WD
     :date: '20240819'
   :file: data/wd-event-timing-20240819.yaml
 - :id:
-    :code: hebr-lreq
+    :code: thai-lreq
     :type: DNOTE
     :date: '20240815'
-  :file: data/dnote-hebr-lreq-20240815.yaml
+  :file: data/dnote-thai-lreq-20240815.yaml
 - :id:
     :code: fedcm-1
     :stage: WD
@@ -27260,25 +27250,15 @@
     :date: '20240820'
   :file: data/note-eme-initdata-keyids-20240820.yaml
 - :id:
-    :code: jpan-lreq
-    :type: DNOTE
+    :code: predefined-counter-styles
+    :type: NOTE
     :date: '20240815'
-  :file: data/dnote-jpan-lreq-20240815.yaml
-- :id:
-    :code: thai-lreq
-    :type: DNOTE
-    :date: '20240815'
-  :file: data/dnote-thai-lreq-20240815.yaml
+  :file: data/note-predefined-counter-styles-20240815.yaml
 - :id:
     :code: webxr
     :stage: CRD
     :date: '20240821'
   :file: data/crd-webxr-20240821.yaml
-- :id:
-    :code: predefined-counter-styles
-    :type: NOTE
-    :date: '20240815'
-  :file: data/note-predefined-counter-styles-20240815.yaml
 - :id:
     :code: typography
     :type: DNOTE
@@ -27325,11 +27305,6 @@
     :date: '20240828'
   :file: data/crd-vc-di-bbs-20240828.yaml
 - :id:
-    :code: WGSL
-    :stage: WD
-    :date: '20240828'
-  :file: data/wd-wgsl-20240828.yaml
-- :id:
     :code: dapt
     :stage: WD
     :date: '20240829'
@@ -27375,11 +27350,6 @@
     :date: '20240829'
   :file: data/wd-rdf12-turtle-20240829.yaml
 - :id:
-    :code: webgpu
-    :stage: WD
-    :date: '20240830'
-  :file: data/wd-webgpu-20240830.yaml
-- :id:
     :code: webnn
     :stage: CRD
     :date: '20240830'
@@ -27424,6 +27394,36 @@
     :stage: WD
     :date: '20240903'
   :file: data/wd-wasm-core-2-20240903.yaml
+- :id:
+    :code: WGSL
+    :stage: WD
+    :date: '20240904'
+  :file: data/wd-wgsl-20240904.yaml
+- :id:
+    :code: webmidi
+    :stage: WD
+    :date: '20240905'
+  :file: data/wd-webmidi-20240905.yaml
+- :id:
+    :code: webgpu
+    :stage: WD
+    :date: '20240905'
+  :file: data/wd-webgpu-20240905.yaml
+- :id:
+    :code: appmanifest
+    :stage: WD
+    :date: '20240905'
+  :file: data/wd-appmanifest-20240905.yaml
+- :id:
+    :code: grek-lreq
+    :type: DNOTE
+    :date: '20240905'
+  :file: data/dnote-grek-lreq-20240905.yaml
+- :id:
+    :code: jpan-lreq
+    :type: DNOTE
+    :date: '20240905'
+  :file: data/dnote-jpan-lreq-20240905.yaml
 - :id:
     :code: aac-registry
   :file: data/aac-registry.yaml
@@ -27728,20 +27728,14 @@
     :code: latn-lreq
   :file: data/latn-lreq.yaml
 - :id:
-    :code: grek-lreq
-  :file: data/grek-lreq.yaml
-- :id:
     :code: hebr-lreq
   :file: data/hebr-lreq.yaml
 - :id:
-    :code: fedcm-1
-  :file: data/fedcm-1.yaml
-- :id:
-    :code: jpan-lreq
-  :file: data/jpan-lreq.yaml
-- :id:
     :code: thai-lreq
   :file: data/thai-lreq.yaml
+- :id:
+    :code: fedcm-1
+  :file: data/fedcm-1.yaml
 - :id:
     :code: rdf12-concepts
   :file: data/rdf12-concepts.yaml
@@ -27790,3 +27784,9 @@
 - :id:
     :code: css-values-5
   :file: data/css-values-5.yaml
+- :id:
+    :code: grek-lreq
+  :file: data/grek-lreq.yaml
+- :id:
+    :code: jpan-lreq
+  :file: data/jpan-lreq.yaml
