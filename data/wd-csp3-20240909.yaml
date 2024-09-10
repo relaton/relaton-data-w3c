@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-webcodecs-aac-codec-registration-20240717
+id: W3CWD-CSP3-20240909
 title:
-- content: AAC WebCodecs Registration
+- content: Content Security Policy Level 3
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-webcodecs-aac-codec-registration-20240717/
+- content: https://www.w3.org/TR/2024/WD-CSP3-20240909/
   type: src
-- content: https://w3c.github.io/webcodecs/aac_codec_registration.html
+- content: https://w3c.github.io/webappsec-csp/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-webcodecs-aac-codec-registration-20240717
+- id: W3C WD-CSP3-20240909
   type: W3C
   primary: true
-docnumber: DNOTE-webcodecs-aac-codec-registration-20240717
+docnumber: WD-CSP3-20240909
 date:
 - type: published
-  value: '2024-07-17'
+  value: '2024-09-09'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Bernard Aboba
+        content: Antonio Sartori
         language:
         - en
         script:
@@ -40,37 +40,40 @@ contributor:
 - person:
     name:
       completename:
-        content: Paul Adenot
+        content: Mike West
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-07-17'
+revdate: '2024-09-09'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-webcodecs-aac-codec-registration-20240711
+    id: W3CWD-CSP3-20240618
     docid:
-    - id: W3C DNOTE-webcodecs-aac-codec-registration-20240711
+    - id: W3C WD-CSP3-20240618
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-webcodecs-aac-codec-registration-20240711
+      content: W3C WD-CSP3-20240618
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
-  number: DNOTE-webcodecs-aac-codec-registration-20240717
+  number: WD-CSP3-20240909
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Media Working Group
+- name: Web Application Security Working Group
 ext:
   schema-version: v1.0.0

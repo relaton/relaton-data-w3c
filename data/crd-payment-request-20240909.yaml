@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-webcodecs-alaw-codec-registration-20240717
+id: W3CCRD-payment-request-20240909
 title:
-- content: A-law PCM WebCodecs Registration
+- content: Payment Request API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-webcodecs-alaw-codec-registration-20240717/
+- content: https://www.w3.org/TR/2024/CRD-payment-request-20240909/
   type: src
-- content: https://w3c.github.io/webcodecs/alaw_codec_registration.html
+- content: https://w3c.github.io/payment-request/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-webcodecs-alaw-codec-registration-20240717
+- id: W3C CRD-payment-request-20240909
   type: W3C
   primary: true
-docnumber: DNOTE-webcodecs-alaw-codec-registration-20240717
+docnumber: CRD-payment-request-20240909
 date:
 - type: published
-  value: '2024-07-17'
+  value: '2024-09-09'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Bernard Aboba
+        content: Ian Jacobs
         language:
         - en
         script:
@@ -40,37 +40,50 @@ contributor:
 - person:
     name:
       completename:
-        content: Paul Adenot
+        content: Marcos Caceres
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-07-17'
+- person:
+    name:
+      completename:
+        content: Rouslan Solomakhin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-09-09'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-webcodecs-alaw-codec-registration-20240711
+    id: W3CCRD-payment-request-20240814
     docid:
-    - id: W3C DNOTE-webcodecs-alaw-codec-registration-20240711
+    - id: W3C CRD-payment-request-20240814
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-webcodecs-alaw-codec-registration-20240711
+      content: W3C CRD-payment-request-20240814
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C CR
     format: text/plain
-  number: DNOTE-webcodecs-alaw-codec-registration-20240717
+  number: CRD-payment-request-20240909
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Media Working Group
+- name: Web Payments Working Group
 ext:
   schema-version: v1.0.0
