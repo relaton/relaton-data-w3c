@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-sparql12-federated-query-20240418
+id: W3CWD-device-posture-20240912
 title:
-- content: SPARQL 1.2 Federated Query
+- content: Device Posture API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-sparql12-federated-query-20240418/
+- content: https://www.w3.org/TR/2024/WD-device-posture-20240912/
   type: src
-- content: https://w3c.github.io/sparql-federated-query/spec/
+- content: https://w3c.github.io/device-posture/
   type: current
 type: standard
 docid:
-- id: W3C WD-sparql12-federated-query-20240418
+- id: W3C WD-device-posture-20240912
   type: W3C
   primary: true
-docnumber: WD-sparql12-federated-query-20240418
+docnumber: WD-device-posture-20240912
 date:
 - type: published
-  value: '2024-04-18'
+  value: '2024-09-12'
 contributor:
 - organization:
     name:
@@ -30,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Gregory Williams
+        content: Alexis Menard
         language:
         - en
         script:
@@ -40,14 +40,24 @@ contributor:
 - person:
     name:
       completename:
-        content: Ruben Taelman
+        content: Diego Gonzalez-Zuniga
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-04-18'
+- person:
+    name:
+      completename:
+        content: Kenneth Christiansen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-09-12'
 language:
 - en
 script:
@@ -58,22 +68,22 @@ docstatus:
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-federated-query-20240321
+    id: W3CWD-device-posture-20240723
     docid:
-    - id: W3C WD-sparql12-federated-query-20240321
+    - id: W3C WD-device-posture-20240723
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-sparql12-federated-query-20240321
+      content: W3C WD-device-posture-20240723
       format: text/plain
 series:
 - title:
     content: W3C WD
     format: text/plain
-  number: WD-sparql12-federated-query-20240418
+  number: WD-device-posture-20240912
 doctype:
   type: technicalReport
 editorialgroup:
-- name: RDF-star Working Group
+- name: Devices and Sensors Working Group
 ext:
   schema-version: v1.0.0
