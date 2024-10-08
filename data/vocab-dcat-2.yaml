@@ -30,7 +30,7 @@ docstatus:
   stage:
     value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-vocab-dcat-2-20200204
     link:
@@ -42,6 +42,19 @@ relation:
       primary: true
     formattedref:
       content: W3C REC-vocab-dcat-2-20200204
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CSPSD-vocab-dcat-2-20240822
+    link:
+    - content: https://www.w3.org/TR/2024/SPSD-vocab-dcat-2-20240822/
+      type: src
+    docid:
+    - id: W3C SPSD-vocab-dcat-2-20240822
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C SPSD-vocab-dcat-2-20240822
       format: text/plain
 - type: hasEdition
   bibitem:

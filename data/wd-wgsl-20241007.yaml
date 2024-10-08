@@ -1,24 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-wcag2ict-22-20240702
+id: W3CWD-WGSL-20241007
 title:
-- content: Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies
-    (WCAG2ICT)
+- content: WebGPU Shading Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/DNOTE-wcag2ict-22-20240702/
+- content: https://www.w3.org/TR/2024/WD-WGSL-20241007/
   type: src
-- content: https://w3c.github.io/wcag2ict/
+- content: https://gpuweb.github.io/gpuweb/wgsl/
   type: current
 type: standard
 docid:
-- id: W3C DNOTE-wcag2ict-22-20240702
+- id: W3C WD-WGSL-20241007
   type: W3C
   primary: true
-docnumber: DNOTE-wcag2ict-22-20240702
+docnumber: WD-WGSL-20241007
 date:
 - type: published
-  value: '2024-07-02'
+  value: '2024-10-07'
 contributor:
 - organization:
     name:
@@ -31,7 +30,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Chris Loiselle
+        content: Alan Baker
         language:
         - en
         script:
@@ -41,7 +40,7 @@ contributor:
 - person:
     name:
       completename:
-        content: Mary Jo Mueller
+        content: David Neto
         language:
         - en
         script:
@@ -51,40 +50,41 @@ contributor:
 - person:
     name:
       completename:
-        content: Phil Day
+        content: Mehmet Oguz Derin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-07-02'
+revdate: '2024-10-07'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-wcag2ict-20230815
+    id: W3CWD-WGSL-20240925
     link:
-    - content: https://www.w3.org/TR/2023/DNOTE-wcag2ict-20230815/
+    - content: https://www.w3.org/TR/2024/WD-WGSL-20240925/
       type: src
     docid:
-    - id: W3C DNOTE-wcag2ict-20230815
+    - id: W3C WD-WGSL-20240925
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-wcag2ict-20230815
+      content: W3C WD-WGSL-20240925
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
-  number: DNOTE-wcag2ict-22-20240702
+  number: WD-WGSL-20241007
 doctype:
   type: technicalReport
-editorialgroup:
-- name: Accessibility Guidelines Working Group
 ext:
   schema-version: v1.0.0
