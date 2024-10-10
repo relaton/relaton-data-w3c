@@ -1,23 +1,23 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-accelerometer-20241008
+id: W3CWD-dapt-20241010
 title:
-- content: Accelerometer
+- content: Dubbing and Audio description Profiles of TTML2
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-accelerometer-20241008/
+- content: https://www.w3.org/TR/2024/WD-dapt-20241010/
   type: src
-- content: https://w3c.github.io/accelerometer/
+- content: https://w3c.github.io/dapt/
   type: current
 type: standard
 docid:
-- id: W3C CRD-accelerometer-20241008
+- id: W3C WD-dapt-20241010
   type: W3C
   primary: true
-docnumber: CRD-accelerometer-20241008
+docnumber: WD-dapt-20241010
 date:
 - type: published
-  value: '2024-10-08'
+  value: '2024-10-10'
 contributor:
 - organization:
     name:
@@ -30,43 +30,53 @@ contributor:
 - person:
     name:
       completename:
-        content: Anssi Kostiainen
+        content: Cyril Concolato
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-10-08'
+- person:
+    name:
+      completename:
+        content: Nigel Megitt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2024-10-10'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
 - type: obsoletes
   bibitem:
-    id: W3CCRD-accelerometer-20240607
+    id: W3CWD-dapt-20241009
     link:
-    - content: https://www.w3.org/TR/2024/CRD-accelerometer-20240607/
+    - content: https://www.w3.org/TR/2024/WD-dapt-20241009/
       type: src
     docid:
-    - id: W3C CRD-accelerometer-20240607
+    - id: W3C WD-dapt-20241009
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-accelerometer-20240607
+      content: W3C WD-dapt-20241009
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
-  number: CRD-accelerometer-20241008
+  number: WD-dapt-20241010
 doctype:
   type: technicalReport
 editorialgroup:
-- name: Devices and Sensors Working Group
+- name: Timed Text Working Group
 ext:
   schema-version: v1.0.0
