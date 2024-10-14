@@ -5,7 +5,7 @@ title:
 - content: Pick Contacts Intent
   format: text/plain
 link:
-- content: https://www.w3.org/TR/contacts-api/
+- content: http://www.w3.org/TR/contacts-api/
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-contacts-api-20140114
-    link:
-    - content: https://www.w3.org/TR/2014/NOTE-contacts-api-20140114/
-      type: src
-    docid:
-    - id: W3C NOTE-contacts-api-20140114
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-contacts-api-20140114
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-contacts-api-20120712
@@ -53,35 +43,22 @@ relation:
     formattedref:
       content: W3C WD-contacts-api-20120712
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-contacts-api-20110616
+    id: W3CNOTE-contacts-api-20140114
     link:
-    - content: http://www.w3.org/TR/2011/WD-contacts-api-20110616/
+    - content: http://www.w3.org/TR/2014/NOTE-contacts-api-20140114/
       type: src
     docid:
-    - id: W3C WD-contacts-api-20110616
+    - id: W3C NOTE-contacts-api-20140114
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-contacts-api-20110616
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-contacts-api-20101209
-    link:
-    - content: http://www.w3.org/TR/2010/WD-contacts-api-20101209/
-      type: src
-    docid:
-    - id: W3C WD-contacts-api-20101209
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-contacts-api-20101209
+      content: W3C NOTE-contacts-api-20140114
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: contacts-api
 doctype:

@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-css-contain-1-20190430
+    link:
+    - content: https://www.w3.org/TR/2019/CR-css-contain-1-20190430/
+      type: src
+    docid:
+    - id: W3C CR-css-contain-1-20190430
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-css-contain-1-20190430
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CREC-css-contain-1-20191121
@@ -69,6 +82,19 @@ relation:
     formattedref:
       content: W3C REC-css-contain-1-20221025
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-css-contain-1-20191015
+    link:
+    - content: https://www.w3.org/TR/2019/PR-css-contain-1-20191015/
+      type: src
+    docid:
+    - id: W3C PR-css-contain-1-20191015
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-css-contain-1-20191015
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-css-contain-1-20240625
@@ -82,35 +108,9 @@ relation:
     formattedref:
       content: W3C REC-css-contain-1-20240625
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-css-contain-1-20181108
-    link:
-    - content: https://www.w3.org/TR/2018/CR-css-contain-1-20181108/
-      type: src
-    docid:
-    - id: W3C CR-css-contain-1-20181108
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-css-contain-1-20181108
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-css-contain-1-20170808
-    link:
-    - content: https://www.w3.org/TR/2017/CR-css-contain-1-20170808/
-      type: src
-    docid:
-    - id: W3C CR-css-contain-1-20170808
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-css-contain-1-20170808
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: css-contain-1
 doctype:

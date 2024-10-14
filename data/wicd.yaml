@@ -5,7 +5,7 @@ title:
 - content: WICD Core 1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/WICD/
+- content: http://www.w3.org/TR/WICD/
   type: src
 type: standard
 docid:
@@ -26,12 +26,28 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WICD-20051219
+    link:
+    - content: http://www.w3.org/TR/2005/WD-WICD-20051219/
+      type: src
+    docid:
+    - id: W3C WD-WICD-20051219
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WICD-20051219
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CNOTE-WICD-20100819
     link:
-    - content: https://www.w3.org/TR/2010/NOTE-WICD-20100819/
+    - content: http://www.w3.org/TR/2010/NOTE-WICD-20100819/
       type: src
     docid:
     - id: W3C NOTE-WICD-20100819
@@ -40,48 +56,9 @@ relation:
     formattedref:
       content: W3C NOTE-WICD-20100819
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-WICD-20070718
-    link:
-    - content: http://www.w3.org/TR/2007/CR-WICD-20070718/
-      type: src
-    docid:
-    - id: W3C CR-WICD-20070718
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-WICD-20070718
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-WICD-20061122
-    link:
-    - content: http://www.w3.org/TR/2006/WD-WICD-20061122/
-      type: src
-    docid:
-    - id: W3C WD-WICD-20061122
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-WICD-20061122
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-WICD-20050915
-    link:
-    - content: http://www.w3.org/TR/2005/WD-WICD-20050915/
-      type: src
-    docid:
-    - id: W3C WD-WICD-20050915
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-WICD-20050915
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: WICD
 doctype:

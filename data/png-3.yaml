@@ -28,20 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CCRD-png-3-20240718
+    id: W3CWD-png-3-20221025
     link:
-    - content: https://www.w3.org/TR/2024/CRD-png-3-20240718/
+    - content: https://www.w3.org/TR/2022/WD-png-3-20221025/
       type: src
     docid:
-    - id: W3C CRD-png-3-20240718
+    - id: W3C WD-png-3-20221025
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-png-3-20240718
+      content: W3C WD-png-3-20221025
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -56,22 +56,22 @@ relation:
     formattedref:
       content: W3C CR-png-3-20230921
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-png-3-20221025
+    id: W3CCRD-png-3-20240718
     link:
-    - content: https://www.w3.org/TR/2022/WD-png-3-20221025/
+    - content: https://www.w3.org/TR/2024/CRD-png-3-20240718/
       type: src
     docid:
-    - id: W3C WD-png-3-20221025
+    - id: W3C CRD-png-3-20240718
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-png-3-20221025
+      content: W3C CRD-png-3-20240718
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: png-3
 doctype:

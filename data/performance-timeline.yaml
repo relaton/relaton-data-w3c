@@ -5,7 +5,7 @@ title:
 - content: Performance Timeline
   format: text/plain
 link:
-- content: https://www.w3.org/TR/performance-timeline/
+- content: http://www.w3.org/TR/performance-timeline/
   type: src
 type: standard
 docid:
@@ -28,13 +28,26 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Recommendation
 relation:
 - type: hasEdition
   bibitem:
+    id: W3CPR-performance-timeline-20131031
+    link:
+    - content: http://www.w3.org/TR/2013/PR-performance-timeline-20131031/
+      type: src
+    docid:
+    - id: W3C PR-performance-timeline-20131031
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-performance-timeline-20131031
+      format: text/plain
+- type: instanceOf
+  bibitem:
     id: W3CREC-performance-timeline-20131212
     link:
-    - content: https://www.w3.org/TR/2013/REC-performance-timeline-20131212/
+    - content: http://www.w3.org/TR/2013/REC-performance-timeline-20131212/
       type: src
     docid:
     - id: W3C REC-performance-timeline-20131212
@@ -43,113 +56,9 @@ relation:
     formattedref:
       content: W3C REC-performance-timeline-20131212
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20221110
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-performance-timeline-20221110/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20221110
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20221110
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20221115
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-performance-timeline-20221115/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20221115
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20221115
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20231011
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-performance-timeline-20231011/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20231011
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20231011
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20240202
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240202/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20240202
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20240202
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CCRD-performance-timeline-20240216
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240216/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20240216
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20240216
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-performance-timeline-20211202
-    link:
-    - content: https://www.w3.org/TR/2021/CR-performance-timeline-20211202/
-      type: src
-    docid:
-    - id: W3C CR-performance-timeline-20211202
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-performance-timeline-20211202
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-performance-timeline-20120726
-    link:
-    - content: http://www.w3.org/TR/2012/CR-performance-timeline-20120726/
-      type: src
-    docid:
-    - id: W3C CR-performance-timeline-20120726
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-performance-timeline-20120726
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-performance-timeline-20110901
-    link:
-    - content: http://www.w3.org/TR/2011/WD-performance-timeline-20110901/
-      type: src
-    docid:
-    - id: W3C WD-performance-timeline-20110901
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-performance-timeline-20110901
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PR
     format: text/plain
   number: performance-timeline
 doctype:

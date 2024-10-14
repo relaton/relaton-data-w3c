@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Csoap12-testcollection
 title:
-- content: SOAP Version 1.2 Specification Assertions and Test Collection (Second Edition)
+- content: SOAP Version 1.2 Specification Assertions and Test Collection
   format: text/plain
 link:
-- content: https://www.w3.org/TR/soap12-testcollection/
+- content: http://www.w3.org/TR/soap12-testcollection
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-soap12-testcollection-20030624
-    link:
-    - content: https://www.w3.org/TR/2003/REC-soap12-testcollection-20030624/
-      type: src
-    docid:
-    - id: W3C REC-soap12-testcollection-20030624
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-soap12-testcollection-20030624
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-soap12-testcollection-20070427
-    link:
-    - content: https://www.w3.org/TR/2007/REC-soap12-testcollection-20070427/
-      type: src
-    docid:
-    - id: W3C REC-soap12-testcollection-20070427
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-soap12-testcollection-20070427
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-soap12-testcollection-20020626
@@ -69,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-soap12-testcollection-20020626
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-soap12-testcollection-20030507
+    link:
+    - content: http://www.w3.org/TR/2003/PR-soap12-testcollection-20030507/
+      type: src
+    docid:
+    - id: W3C PR-soap12-testcollection-20030507
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-soap12-testcollection-20030507
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: soap12-testcollection
 doctype:

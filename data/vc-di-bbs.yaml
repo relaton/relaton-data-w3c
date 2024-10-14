@@ -28,33 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CCRD-vc-di-bbs-20240828
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240828/
-      type: src
-    docid:
-    - id: W3C CRD-vc-di-bbs-20240828
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-vc-di-bbs-20240828
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCRD-vc-di-bbs-20240428
+    id: W3CWD-vc-di-bbs-20230524
     link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240428/
+    - content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230524/
       type: src
     docid:
-    - id: W3C CRD-vc-di-bbs-20240428
+    - id: W3C WD-vc-di-bbs-20230524
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-vc-di-bbs-20240428
+      content: W3C WD-vc-di-bbs-20230524
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -71,20 +58,46 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-vc-di-bbs-20230524
+    id: W3CCRD-vc-di-bbs-20240428
     link:
-    - content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230524/
+    - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240428/
       type: src
     docid:
-    - id: W3C WD-vc-di-bbs-20230524
+    - id: W3C CRD-vc-di-bbs-20240428
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vc-di-bbs-20230524
+      content: W3C CRD-vc-di-bbs-20240428
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vc-di-bbs-20230518
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230518/
+      type: src
+    docid:
+    - id: W3C WD-vc-di-bbs-20230518
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vc-di-bbs-20230518
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCRD-vc-di-bbs-20240828
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240828/
+      type: src
+    docid:
+    - id: W3C CRD-vc-di-bbs-20240828
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-vc-di-bbs-20240828
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: vc-di-bbs
 doctype:

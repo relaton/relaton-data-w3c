@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-audiobooks-20190620
+    link:
+    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190620/
+      type: src
+    docid:
+    - id: W3C WD-audiobooks-20190620
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-audiobooks-20190620
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-audiobooks-20191205
+    link:
+    - content: https://www.w3.org/TR/2019/CR-audiobooks-20191205/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20191205
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-audiobooks-20191205
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-audiobooks-20201110
@@ -45,20 +71,124 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20191205
+    id: W3CWD-audiobooks-20190830
     link:
-    - content: https://www.w3.org/TR/2019/CR-audiobooks-20191205/
+    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190830/
       type: src
     docid:
-    - id: W3C CR-audiobooks-20191205
+    - id: W3C WD-audiobooks-20190830
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-audiobooks-20191205
+      content: W3C WD-audiobooks-20190830
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-audiobooks-20200317
+    link:
+    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200317/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20200317
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-audiobooks-20200317
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-audiobooks-20191118
+    link:
+    - content: https://www.w3.org/TR/2019/WD-audiobooks-20191118/
+      type: src
+    docid:
+    - id: W3C WD-audiobooks-20191118
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-audiobooks-20191118
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-audiobooks-20190911
+    link:
+    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190911/
+      type: src
+    docid:
+    - id: W3C WD-audiobooks-20190911
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-audiobooks-20190911
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-audiobooks-20200128
+    link:
+    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200128/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20200128
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-audiobooks-20200128
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-audiobooks-20200730
+    link:
+    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200730/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20200730
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-audiobooks-20200730
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-audiobooks-20200909
+    link:
+    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200909/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20200909
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-audiobooks-20200909
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-audiobooks-20200914
+    link:
+    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200914/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20200914
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-audiobooks-20200914
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-audiobooks-20201001
+    link:
+    - content: https://www.w3.org/TR/2020/PR-audiobooks-20201001/
+      type: src
+    docid:
+    - id: W3C PR-audiobooks-20201001
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-audiobooks-20201001
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: audiobooks
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: 'QA Framework: Specification Guidelines'
   format: text/plain
 link:
-- content: https://www.w3.org/TR/qaframe-spec/
+- content: http://www.w3.org/TR/qaframe-spec/
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-qaframe-spec-20050817
-    link:
-    - content: https://www.w3.org/TR/2005/REC-qaframe-spec-20050817/
-      type: src
-    docid:
-    - id: W3C REC-qaframe-spec-20050817
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-qaframe-spec-20050817
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-qaframe-spec-20041122
-    link:
-    - content: http://www.w3.org/TR/2004/WD-qaframe-spec-20041122/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-spec-20041122
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-qaframe-spec-20041122
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-qaframe-spec-20031110
-    link:
-    - content: http://www.w3.org/TR/2003/CR-qaframe-spec-20031110/
-      type: src
-    docid:
-    - id: W3C CR-qaframe-spec-20031110
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-qaframe-spec-20031110
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-qaframe-spec-20021108
@@ -82,9 +43,35 @@ relation:
     formattedref:
       content: W3C WD-qaframe-spec-20021108
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-qaframe-spec-20030210
+    link:
+    - content: http://www.w3.org/TR/2003/WD-qaframe-spec-20030210/
+      type: src
+    docid:
+    - id: W3C WD-qaframe-spec-20030210
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-qaframe-spec-20030210
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-qaframe-spec-20050817
+    link:
+    - content: http://www.w3.org/TR/2005/REC-qaframe-spec-20050817/
+      type: src
+    docid:
+    - id: W3C REC-qaframe-spec-20050817
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-qaframe-spec-20050817
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: qaframe-spec
 doctype:

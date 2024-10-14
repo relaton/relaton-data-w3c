@@ -26,45 +26,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CDNOTE-latn-nl-gap-20240724
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-latn-nl-gap-20240724/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-nl-gap-20240724
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-latn-nl-gap-20240724
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-nl-gap-20230614
+    id: W3CWD-latn-nl-gap-20210811
     link:
-    - content: https://www.w3.org/TR/2023/DNOTE-latn-nl-gap-20230614/
+    - content: https://www.w3.org/TR/2021/WD-latn-nl-gap-20210811/
       type: src
     docid:
-    - id: W3C DNOTE-latn-nl-gap-20230614
+    - id: W3C WD-latn-nl-gap-20210811
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-latn-nl-gap-20230614
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-latn-nl-gap-20230530
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-latn-nl-gap-20230530/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-nl-gap-20230530
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-latn-nl-gap-20230530
+      content: W3C WD-latn-nl-gap-20210811
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -81,16 +58,42 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-latn-nl-gap-20210811
+    id: W3CWD-latn-nl-gap-20200611
     link:
-    - content: https://www.w3.org/TR/2021/WD-latn-nl-gap-20210811/
+    - content: https://www.w3.org/TR/2020/WD-latn-nl-gap-20200611/
       type: src
     docid:
-    - id: W3C WD-latn-nl-gap-20210811
+    - id: W3C WD-latn-nl-gap-20200611
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-latn-nl-gap-20210811
+      content: W3C WD-latn-nl-gap-20200611
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-latn-nl-gap-20200623
+    link:
+    - content: https://www.w3.org/TR/2020/WD-latn-nl-gap-20200623/
+      type: src
+    docid:
+    - id: W3C WD-latn-nl-gap-20200623
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-latn-nl-gap-20200623
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-latn-nl-gap-20230530
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-latn-nl-gap-20230530/
+      type: src
+    docid:
+    - id: W3C DNOTE-latn-nl-gap-20230530
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-latn-nl-gap-20230530
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -105,9 +108,61 @@ relation:
     formattedref:
       content: W3C WD-latn-nl-gap-20200715
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-latn-nl-gap-20230614
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-latn-nl-gap-20230614/
+      type: src
+    docid:
+    - id: W3C DNOTE-latn-nl-gap-20230614
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-latn-nl-gap-20230614
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-latn-nl-gap-20210126
+    link:
+    - content: https://www.w3.org/TR/2021/WD-latn-nl-gap-20210126/
+      type: src
+    docid:
+    - id: W3C WD-latn-nl-gap-20210126
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-latn-nl-gap-20210126
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-latn-nl-gap-20220119
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-latn-nl-gap-20220119/
+      type: src
+    docid:
+    - id: W3C DNOTE-latn-nl-gap-20220119
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-latn-nl-gap-20220119
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CDNOTE-latn-nl-gap-20240724
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-latn-nl-gap-20240724/
+      type: src
+    docid:
+    - id: W3C DNOTE-latn-nl-gap-20240724
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-latn-nl-gap-20240724
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: latn-nl-gap
 doctype:

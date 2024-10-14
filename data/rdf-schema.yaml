@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Crdf-schema
 title:
-- content: RDF Schema 1.1
+- content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
   format: text/plain
 link:
-- content: https://www.w3.org/TR/rdf-schema/
+- content: http://www.w3.org/TR/rdf-schema
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-rdf-schema-20040210
-    link:
-    - content: https://www.w3.org/TR/2004/REC-rdf-schema-20040210/
-      type: src
-    docid:
-    - id: W3C REC-rdf-schema-20040210
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-schema-20040210
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-rdf-schema-20140225
-    link:
-    - content: https://www.w3.org/TR/2014/REC-rdf-schema-20140225/
-      type: src
-    docid:
-    - id: W3C REC-rdf-schema-20140225
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-schema-20140225
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rdf-schema-20031010
-    link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-schema-20031010/
-      type: src
-    docid:
-    - id: W3C WD-rdf-schema-20031010
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rdf-schema-20031010
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-rdf-schema-20021112
@@ -82,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-rdf-schema-20021112
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-rdf-schema-20030123
+    link:
+    - content: http://www.w3.org/TR/2003/WD-rdf-schema-20030123/
+      type: src
+    docid:
+    - id: W3C WD-rdf-schema-20030123
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-rdf-schema-20030123
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: rdf-schema
 doctype:

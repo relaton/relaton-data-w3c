@@ -5,7 +5,7 @@ title:
 - content: Web Notifications
   format: text/plain
 link:
-- content: https://www.w3.org/TR/notifications/
+- content: http://www.w3.org/TR/notifications/
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-notifications-20151022
-    link:
-    - content: https://www.w3.org/TR/2015/REC-notifications-20151022/
-      type: src
-    docid:
-    - id: W3C REC-notifications-20151022
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-notifications-20151022
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-notifications-20200602
-    link:
-    - content: https://www.w3.org/TR/2020/SPSD-notifications-20200602/
-      type: src
-    docid:
-    - id: W3C SPSD-notifications-20200602
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-notifications-20200602
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-notifications-20130912
@@ -69,35 +43,22 @@ relation:
     formattedref:
       content: W3C WD-notifications-20130912
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-notifications-20120614
+    id: W3CREC-notifications-20151022
     link:
-    - content: http://www.w3.org/TR/2012/WD-notifications-20120614/
+    - content: http://www.w3.org/TR/2015/REC-notifications-20151022/
       type: src
     docid:
-    - id: W3C WD-notifications-20120614
+    - id: W3C REC-notifications-20151022
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-notifications-20120614
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-notifications-20110301
-    link:
-    - content: http://www.w3.org/TR/2011/WD-notifications-20110301/
-      type: src
-    docid:
-    - id: W3C WD-notifications-20110301
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-notifications-20110301
+      content: W3C REC-notifications-20151022
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: notifications
 doctype:

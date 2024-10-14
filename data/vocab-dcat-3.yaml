@@ -28,33 +28,33 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-vocab-dcat-3-20240822
+    id: W3CWD-vocab-dcat-3-20210504
     link:
-    - content: https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/
+    - content: https://www.w3.org/TR/2021/WD-vocab-dcat-3-20210504/
       type: src
     docid:
-    - id: W3C REC-vocab-dcat-3-20240822
+    - id: W3C WD-vocab-dcat-3-20210504
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-vocab-dcat-3-20240822
+      content: W3C WD-vocab-dcat-3-20210504
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-vocab-dcat-3-20240118
+    id: W3CWD-vocab-dcat-3-20220111
     link:
-    - content: https://www.w3.org/TR/2024/CR-vocab-dcat-3-20240118/
+    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220111/
       type: src
     docid:
-    - id: W3C CR-vocab-dcat-3-20240118
+    - id: W3C WD-vocab-dcat-3-20220111
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-vocab-dcat-3-20240118
+      content: W3C WD-vocab-dcat-3-20220111
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -71,29 +71,16 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-dcat-3-20220510
+    id: W3CCR-vocab-dcat-3-20240118
     link:
-    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220510/
+    - content: https://www.w3.org/TR/2024/CR-vocab-dcat-3-20240118/
       type: src
     docid:
-    - id: W3C WD-vocab-dcat-3-20220510
+    - id: W3C CR-vocab-dcat-3-20240118
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vocab-dcat-3-20220510
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-vocab-dcat-3-20210504
-    link:
-    - content: https://www.w3.org/TR/2021/WD-vocab-dcat-3-20210504/
-      type: src
-    docid:
-    - id: W3C WD-vocab-dcat-3-20210504
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20210504
+      content: W3C CR-vocab-dcat-3-20240118
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -108,9 +95,35 @@ relation:
     formattedref:
       content: W3C WD-vocab-dcat-3-20201217
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20220510
+    link:
+    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220510/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20220510
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vocab-dcat-3-20220510
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-vocab-dcat-3-20240822
+    link:
+    - content: https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/
+      type: src
+    docid:
+    - id: W3C REC-vocab-dcat-3-20240822
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-vocab-dcat-3-20240822
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: vocab-dcat-3
 doctype:

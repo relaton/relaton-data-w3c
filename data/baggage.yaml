@@ -28,85 +28,59 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CCR-baggage-20240530
+    id: W3CWD-baggage-20210803
     link:
-    - content: https://www.w3.org/TR/2024/CR-baggage-20240530/
+    - content: https://www.w3.org/TR/2021/WD-baggage-20210803/
       type: src
     docid:
-    - id: W3C CR-baggage-20240530
+    - id: W3C WD-baggage-20210803
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-baggage-20240530
+      content: W3C WD-baggage-20210803
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-baggage-20240423
+    id: W3CWD-baggage-20220111
     link:
-    - content: https://www.w3.org/TR/2024/WD-baggage-20240423/
+    - content: https://www.w3.org/TR/2022/WD-baggage-20220111/
       type: src
     docid:
-    - id: W3C WD-baggage-20240423
+    - id: W3C WD-baggage-20220111
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-baggage-20240423
+      content: W3C WD-baggage-20220111
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-baggage-20230810
+    id: W3CWD-baggage-20220329
     link:
-    - content: https://www.w3.org/TR/2023/WD-baggage-20230810/
+    - content: https://www.w3.org/TR/2022/WD-baggage-20220329/
       type: src
     docid:
-    - id: W3C WD-baggage-20230810
+    - id: W3C WD-baggage-20220329
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-baggage-20230810
+      content: W3C WD-baggage-20220329
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-baggage-20230523
+    id: W3CWD-baggage-20210914
     link:
-    - content: https://www.w3.org/TR/2023/WD-baggage-20230523/
+    - content: https://www.w3.org/TR/2021/WD-baggage-20210914/
       type: src
     docid:
-    - id: W3C WD-baggage-20230523
+    - id: W3C WD-baggage-20210914
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-baggage-20230523
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-baggage-20220928
-    link:
-    - content: https://www.w3.org/TR/2022/WD-baggage-20220928/
-      type: src
-    docid:
-    - id: W3C WD-baggage-20220928
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-baggage-20220928
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-baggage-20220524
-    link:
-    - content: https://www.w3.org/TR/2022/WD-baggage-20220524/
-      type: src
-    docid:
-    - id: W3C WD-baggage-20220524
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-baggage-20220524
+      content: W3C WD-baggage-20210914
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -123,6 +97,58 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
+    id: W3CWD-baggage-20230523
+    link:
+    - content: https://www.w3.org/TR/2023/WD-baggage-20230523/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20230523
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-baggage-20230523
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-baggage-20230810
+    link:
+    - content: https://www.w3.org/TR/2023/WD-baggage-20230810/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20230810
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-baggage-20230810
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-baggage-20240423
+    link:
+    - content: https://www.w3.org/TR/2024/WD-baggage-20240423/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20240423
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-baggage-20240423
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-baggage-20240530
+    link:
+    - content: https://www.w3.org/TR/2024/CR-baggage-20240530/
+      type: src
+    docid:
+    - id: W3C CR-baggage-20240530
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-baggage-20240530
+      format: text/plain
+- type: hasEdition
+  bibitem:
     id: W3CWD-baggage-20201020
     link:
     - content: https://www.w3.org/TR/2020/WD-baggage-20201020/
@@ -134,9 +160,48 @@ relation:
     formattedref:
       content: W3C WD-baggage-20201020
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-baggage-20220617
+    link:
+    - content: https://www.w3.org/TR/2022/WD-baggage-20220617/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20220617
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-baggage-20220617
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-baggage-20220927
+    link:
+    - content: https://www.w3.org/TR/2022/WD-baggage-20220927/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20220927
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-baggage-20220927
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-baggage-20220928
+    link:
+    - content: https://www.w3.org/TR/2022/WD-baggage-20220928/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20220928
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-baggage-20220928
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: baggage
 doctype:

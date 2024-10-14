@@ -28,72 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CCRD-dpub-aam-1.1-20240621
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-dpub-aam-1.1-20240621/
-      type: src
-    docid:
-    - id: W3C CRD-dpub-aam-1.1-20240621
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-dpub-aam-1.1-20240621
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-dpub-aam-1.1-20240227
+    id: W3CWD-dpub-aam-1.1-20211130
     link:
-    - content: https://www.w3.org/TR/2024/CR-dpub-aam-1.1-20240227/
+    - content: https://www.w3.org/TR/2021/WD-dpub-aam-1.1-20211130/
       type: src
     docid:
-    - id: W3C CR-dpub-aam-1.1-20240227
+    - id: W3C WD-dpub-aam-1.1-20211130
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-dpub-aam-1.1-20240227
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-dpub-aam-1.1-20230902
-    link:
-    - content: https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230902/
-      type: src
-    docid:
-    - id: W3C WD-dpub-aam-1.1-20230902
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-dpub-aam-1.1-20230902
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-dpub-aam-1.1-20230619
-    link:
-    - content: https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230619/
-      type: src
-    docid:
-    - id: W3C WD-dpub-aam-1.1-20230619
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-dpub-aam-1.1-20230619
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-dpub-aam-1.1-20230613
-    link:
-    - content: https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230613/
-      type: src
-    docid:
-    - id: W3C WD-dpub-aam-1.1-20230613
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-dpub-aam-1.1-20230613
+      content: W3C WD-dpub-aam-1.1-20211130
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -110,20 +58,72 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-dpub-aam-1.1-20211130
+    id: W3CWD-dpub-aam-1.1-20230613
     link:
-    - content: https://www.w3.org/TR/2021/WD-dpub-aam-1.1-20211130/
+    - content: https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230613/
       type: src
     docid:
-    - id: W3C WD-dpub-aam-1.1-20211130
+    - id: W3C WD-dpub-aam-1.1-20230613
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-dpub-aam-1.1-20211130
+      content: W3C WD-dpub-aam-1.1-20230613
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-dpub-aam-1.1-20230619
+    link:
+    - content: https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230619/
+      type: src
+    docid:
+    - id: W3C WD-dpub-aam-1.1-20230619
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-dpub-aam-1.1-20230619
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-dpub-aam-1.1-20230902
+    link:
+    - content: https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230902/
+      type: src
+    docid:
+    - id: W3C WD-dpub-aam-1.1-20230902
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-dpub-aam-1.1-20230902
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-dpub-aam-1.1-20240227
+    link:
+    - content: https://www.w3.org/TR/2024/CR-dpub-aam-1.1-20240227/
+      type: src
+    docid:
+    - id: W3C CR-dpub-aam-1.1-20240227
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-dpub-aam-1.1-20240227
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCRD-dpub-aam-1.1-20240621
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-dpub-aam-1.1-20240621/
+      type: src
+    docid:
+    - id: W3C CRD-dpub-aam-1.1-20240621
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-dpub-aam-1.1-20240621
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: dpub-aam-1.1
 doctype:

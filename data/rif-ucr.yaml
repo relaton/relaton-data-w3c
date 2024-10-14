@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Crif-ucr
 title:
-- content: RIF Use Cases and Requirements (Second Edition)
+- content: RIF Use Cases and Requirements
   format: text/plain
 link:
-- content: https://www.w3.org/TR/rif-ucr/
+- content: http://www.w3.org/TR/rif-ucr
   type: src
 type: standard
 docid:
@@ -26,62 +26,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: instanceOf
   bibitem:
-    id: W3CNOTE-rif-ucr-20130205
+    id: W3CWD-rif-ucr-20060323
     link:
-    - content: https://www.w3.org/TR/2013/NOTE-rif-ucr-20130205/
+    - content: http://www.w3.org/TR/2006/WD-rif-ucr-20060323/
       type: src
     docid:
-    - id: W3C NOTE-rif-ucr-20130205
+    - id: W3C WD-rif-ucr-20060323
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-rif-ucr-20130205
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rif-ucr-20081218
-    link:
-    - content: http://www.w3.org/TR/2008/WD-rif-ucr-20081218/
-      type: src
-    docid:
-    - id: W3C WD-rif-ucr-20081218
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rif-ucr-20081218
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rif-ucr-20080730
-    link:
-    - content: http://www.w3.org/TR/2008/WD-rif-ucr-20080730/
-      type: src
-    docid:
-    - id: W3C WD-rif-ucr-20080730
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rif-ucr-20080730
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rif-ucr-20060710
-    link:
-    - content: http://www.w3.org/TR/2006/WD-rif-ucr-20060710/
-      type: src
-    docid:
-    - id: W3C WD-rif-ucr-20060710
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rif-ucr-20060710
+      content: W3C WD-rif-ucr-20060323
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: rif-ucr
 doctype:

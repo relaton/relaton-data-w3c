@@ -26,32 +26,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CDNOTE-latn-de-gap-20240724
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-latn-de-gap-20240724/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-de-gap-20240724
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-latn-de-gap-20240724
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-de-gap-20230614
+    id: W3CWD-latn-de-gap-20210525
     link:
-    - content: https://www.w3.org/TR/2023/DNOTE-latn-de-gap-20230614/
+    - content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210525/
       type: src
     docid:
-    - id: W3C DNOTE-latn-de-gap-20230614
+    - id: W3C WD-latn-de-gap-20210525
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-latn-de-gap-20230614
+      content: W3C WD-latn-de-gap-20210525
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -68,20 +58,46 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-latn-de-gap-20210525
+    id: W3CDNOTE-latn-de-gap-20230614
     link:
-    - content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210525/
+    - content: https://www.w3.org/TR/2023/DNOTE-latn-de-gap-20230614/
       type: src
     docid:
-    - id: W3C WD-latn-de-gap-20210525
+    - id: W3C DNOTE-latn-de-gap-20230614
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-latn-de-gap-20210525
+      content: W3C DNOTE-latn-de-gap-20230614
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-latn-de-gap-20210204
+    link:
+    - content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210204/
+      type: src
+    docid:
+    - id: W3C WD-latn-de-gap-20210204
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-latn-de-gap-20210204
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CDNOTE-latn-de-gap-20240724
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-latn-de-gap-20240724/
+      type: src
+    docid:
+    - id: W3C DNOTE-latn-de-gap-20240724
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-latn-de-gap-20240724
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: latn-de-gap
 doctype:

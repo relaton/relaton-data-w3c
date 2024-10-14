@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Full Text 3.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xpath-full-text-30/
+- content: http://www.w3.org/TR/xpath-full-text-30/
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-xpath-full-text-30-20151124
-    link:
-    - content: https://www.w3.org/TR/2015/REC-xpath-full-text-30-20151124/
-      type: src
-    docid:
-    - id: W3C REC-xpath-full-text-30-20151124
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xpath-full-text-30-20151124
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xpath-full-text-30-20140918
-    link:
-    - content: http://www.w3.org/TR/2014/WD-xpath-full-text-30-20140918/
-      type: src
-    docid:
-    - id: W3C WD-xpath-full-text-30-20140918
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xpath-full-text-30-20140918
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-xpath-full-text-30-20130108
@@ -69,22 +43,22 @@ relation:
     formattedref:
       content: W3C WD-xpath-full-text-30-20130108
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-xpath-full-text-30-20111213
+    id: W3CREC-xpath-full-text-30-20151124
     link:
-    - content: http://www.w3.org/TR/2011/WD-xpath-full-text-30-20111213/
+    - content: http://www.w3.org/TR/2015/REC-xpath-full-text-30-20151124/
       type: src
     docid:
-    - id: W3C WD-xpath-full-text-30-20111213
+    - id: W3C REC-xpath-full-text-30-20151124
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xpath-full-text-30-20111213
+      content: W3C REC-xpath-full-text-30-20151124
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xpath-full-text-30
 doctype:

@@ -30,7 +30,20 @@ docstatus:
   stage:
     value: Candidate Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CCR-wot-architecture-20190516
+    link:
+    - content: https://www.w3.org/TR/2019/CR-wot-architecture-20190516/
+      type: src
+    docid:
+    - id: W3C CR-wot-architecture-20190516
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-wot-architecture-20190516
+      format: text/plain
+- type: hasEdition
   bibitem:
     id: W3CCR-wot-architecture-20191106
     link:
@@ -43,18 +56,18 @@ relation:
     formattedref:
       content: W3C CR-wot-architecture-20191106
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-wot-architecture-20170914
+    id: W3CPR-wot-architecture-20200130
     link:
-    - content: https://www.w3.org/TR/2017/WD-wot-architecture-20170914/
+    - content: https://www.w3.org/TR/2020/PR-wot-architecture-20200130/
       type: src
     docid:
-    - id: W3C WD-wot-architecture-20170914
+    - id: W3C PR-wot-architecture-20200130
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wot-architecture-20170914
+      content: W3C PR-wot-architecture-20200130
       format: text/plain
 series:
 - title:

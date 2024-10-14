@@ -28,21 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CCR-qaframe-ops-20030922
-    link:
-    - content: http://www.w3.org/TR/2003/CR-qaframe-ops-20030922/
-      type: src
-    docid:
-    - id: W3C CR-qaframe-ops-20030922
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-qaframe-ops-20030922
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-qaframe-ops-20021108
@@ -56,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-qaframe-ops-20021108
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-qaframe-ops-20030210
+    link:
+    - content: http://www.w3.org/TR/2003/WD-qaframe-ops-20030210/
+      type: src
+    docid:
+    - id: W3C WD-qaframe-ops-20030210
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-qaframe-ops-20030210
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: qaframe-ops
 doctype:

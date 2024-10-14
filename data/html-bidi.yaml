@@ -5,7 +5,7 @@ title:
 - content: Additional Requirements for Bidi in HTML & CSS
   format: text/plain
 link:
-- content: https://www.w3.org/TR/html-bidi/
+- content: http://www.w3.org/TR/html-bidi/
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-html-bidi-20150721
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-html-bidi-20150721/
-      type: src
-    docid:
-    - id: W3C NOTE-html-bidi-20150721
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-html-bidi-20150721
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-html-bidi-20100304
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-html-bidi-20100304
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-html-bidi-20150721
+    link:
+    - content: http://www.w3.org/TR/2015/NOTE-html-bidi-20150721/
+      type: src
+    docid:
+    - id: W3C NOTE-html-bidi-20150721
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-html-bidi-20150721
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: html-bidi
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: WebCrypto Key Discovery
   format: text/plain
 link:
-- content: https://www.w3.org/TR/webcrypto-key-discovery/
+- content: http://www.w3.org/TR/webcrypto-key-discovery/
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-webcrypto-key-discovery-20160329
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-webcrypto-key-discovery-20160329/
-      type: src
-    docid:
-    - id: W3C NOTE-webcrypto-key-discovery-20160329
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-webcrypto-key-discovery-20160329
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-webcrypto-key-discovery-20130822
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-webcrypto-key-discovery-20130822
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-webcrypto-key-discovery-20160329
+    link:
+    - content: http://www.w3.org/TR/2016/NOTE-webcrypto-key-discovery-20160329/
+      type: src
+    docid:
+    - id: W3C NOTE-webcrypto-key-discovery-20160329
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-webcrypto-key-discovery-20160329
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: webcrypto-key-discovery
 doctype:

@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-service-workers-1-20171102
+    link:
+    - content: https://www.w3.org/TR/2017/WD-service-workers-1-20171102/
+      type: src
+    docid:
+    - id: W3C WD-service-workers-1-20171102
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-service-workers-1-20171102
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CCR-service-workers-1-20191119
@@ -45,33 +58,20 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-service-workers-1-20171102
+    id: W3CWD-service-workers-1-20190813
     link:
-    - content: https://www.w3.org/TR/2017/WD-service-workers-1-20171102/
+    - content: https://www.w3.org/TR/2019/WD-service-workers-1-20190813/
       type: src
     docid:
-    - id: W3C WD-service-workers-1-20171102
+    - id: W3C WD-service-workers-1-20190813
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-service-workers-1-20171102
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-service-workers-1-20161011
-    link:
-    - content: https://www.w3.org/TR/2016/WD-service-workers-1-20161011/
-      type: src
-    docid:
-    - id: W3C WD-service-workers-1-20161011
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-service-workers-1-20161011
+      content: W3C WD-service-workers-1-20190813
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: service-workers-1
 doctype:

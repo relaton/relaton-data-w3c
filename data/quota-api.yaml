@@ -5,7 +5,7 @@ title:
 - content: Quota Management API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/quota-api/
+- content: http://www.w3.org/TR/quota-api/
   type: src
 type: standard
 docid:
@@ -26,33 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-quota-api-20160523
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-quota-api-20160523/
-      type: src
-    docid:
-    - id: W3C NOTE-quota-api-20160523
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-quota-api-20160523
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-quota-api-20151215
-    link:
-    - content: http://www.w3.org/TR/2015/WD-quota-api-20151215/
-      type: src
-    docid:
-    - id: W3C WD-quota-api-20151215
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-quota-api-20151215
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-quota-api-20131105
@@ -66,22 +43,22 @@ relation:
     formattedref:
       content: W3C WD-quota-api-20131105
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-quota-api-20120703
+    id: W3CNOTE-quota-api-20160523
     link:
-    - content: http://www.w3.org/TR/2012/WD-quota-api-20120703/
+    - content: http://www.w3.org/TR/2016/NOTE-quota-api-20160523/
       type: src
     docid:
-    - id: W3C WD-quota-api-20120703
+    - id: W3C NOTE-quota-api-20160523
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-quota-api-20120703
+      content: W3C NOTE-quota-api-20160523
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: quota-api
 doctype:

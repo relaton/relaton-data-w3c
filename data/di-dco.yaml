@@ -5,7 +5,7 @@ title:
 - content: Delivery Context Overview for Device Independence
   format: text/plain
 link:
-- content: https://www.w3.org/TR/di-dco/
+- content: http://www.w3.org/TR/di-dco/
   type: src
 type: standard
 docid:
@@ -26,33 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-di-dco-20060320
-    link:
-    - content: https://www.w3.org/TR/2006/NOTE-di-dco-20060320/
-      type: src
-    docid:
-    - id: W3C NOTE-di-dco-20060320
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-di-dco-20060320
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-di-dco-20050118
-    link:
-    - content: http://www.w3.org/TR/2005/NOTE-di-dco-20050118/
-      type: src
-    docid:
-    - id: W3C NOTE-di-dco-20050118
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-di-dco-20050118
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-di-dco-20021213
@@ -66,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-di-dco-20021213
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-di-dco-20060320
+    link:
+    - content: http://www.w3.org/TR/2006/NOTE-di-dco-20060320/
+      type: src
+    docid:
+    - id: W3C NOTE-di-dco-20060320
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-di-dco-20060320
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: di-dco
 doctype:

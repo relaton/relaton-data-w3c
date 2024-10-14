@@ -26,32 +26,35 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CDISC-viss2-core-20240221
+    id: W3CWD-viss2-core-20210729
     link:
-    - content: https://www.w3.org/TR/2024/DISC-viss2-core-20240221/
+    - content: https://www.w3.org/TR/2021/WD-viss2-core-20210729/
       type: src
     docid:
-    - id: W3C DISC-viss2-core-20240221
+    - id: W3C WD-viss2-core-20210729
       type: W3C
       primary: true
     formattedref:
-      content: W3C DISC-viss2-core-20240221
+      content: W3C WD-viss2-core-20210729
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-viss2-core-20230927
+    id: W3CWD-viss2-core-20220308
     link:
-    - content: https://www.w3.org/TR/2023/WD-viss2-core-20230927/
+    - content: https://www.w3.org/TR/2022/WD-viss2-core-20220308/
       type: src
     docid:
-    - id: W3C WD-viss2-core-20230927
+    - id: W3C WD-viss2-core-20220308
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-viss2-core-20230927
+      content: W3C WD-viss2-core-20220308
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -68,16 +71,29 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-viss2-core-20221129
+    id: W3CWD-viss2-core-20230927
     link:
-    - content: https://www.w3.org/TR/2022/WD-viss2-core-20221129/
+    - content: https://www.w3.org/TR/2023/WD-viss2-core-20230927/
       type: src
     docid:
-    - id: W3C WD-viss2-core-20221129
+    - id: W3C WD-viss2-core-20230927
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-viss2-core-20221129
+      content: W3C WD-viss2-core-20230927
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CDISC-viss2-core-20240221
+    link:
+    - content: https://www.w3.org/TR/2024/DISC-viss2-core-20240221/
+      type: src
+    docid:
+    - id: W3C DISC-viss2-core-20240221
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DISC-viss2-core-20240221
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -94,20 +110,72 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-viss2-core-20210729
+    id: W3CWD-viss2-core-20220816
     link:
-    - content: https://www.w3.org/TR/2021/WD-viss2-core-20210729/
+    - content: https://www.w3.org/TR/2022/WD-viss2-core-20220816/
       type: src
     docid:
-    - id: W3C WD-viss2-core-20210729
+    - id: W3C WD-viss2-core-20220816
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-viss2-core-20210729
+      content: W3C WD-viss2-core-20220816
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-viss2-core-20220928
+    link:
+    - content: https://www.w3.org/TR/2022/WD-viss2-core-20220928/
+      type: src
+    docid:
+    - id: W3C WD-viss2-core-20220928
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-viss2-core-20220928
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-viss2-core-20221129
+    link:
+    - content: https://www.w3.org/TR/2022/WD-viss2-core-20221129/
+      type: src
+    docid:
+    - id: W3C WD-viss2-core-20221129
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-viss2-core-20221129
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-viss2-core-20230117
+    link:
+    - content: https://www.w3.org/TR/2023/WD-viss2-core-20230117/
+      type: src
+    docid:
+    - id: W3C WD-viss2-core-20230117
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-viss2-core-20230117
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-viss2-core-20230331
+    link:
+    - content: https://www.w3.org/TR/2023/WD-viss2-core-20230331/
+      type: src
+    docid:
+    - id: W3C WD-viss2-core-20230331
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-viss2-core-20230331
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: viss2-core
 doctype:

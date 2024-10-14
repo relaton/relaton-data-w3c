@@ -5,7 +5,7 @@ title:
 - content: RDF Primer
   format: text/plain
 link:
-- content: https://www.w3.org/TR/rdf-primer/
+- content: http://www.w3.org/TR/rdf-primer/
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-rdf-primer-20040210
-    link:
-    - content: https://www.w3.org/TR/2004/REC-rdf-primer-20040210/
-      type: src
-    docid:
-    - id: W3C REC-rdf-primer-20040210
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-primer-20040210
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rdf-primer-20031010
-    link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-primer-20031010/
-      type: src
-    docid:
-    - id: W3C WD-rdf-primer-20031010
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rdf-primer-20031010
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-rdf-primer-20021111
@@ -69,9 +43,35 @@ relation:
     formattedref:
       content: W3C WD-rdf-primer-20021111
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-primer-20030123
+    link:
+    - content: http://www.w3.org/TR/2003/WD-rdf-primer-20030123/
+      type: src
+    docid:
+    - id: W3C WD-rdf-primer-20030123
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-rdf-primer-20030123
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-rdf-primer-20040210
+    link:
+    - content: http://www.w3.org/TR/2004/REC-rdf-primer-20040210/
+      type: src
+    docid:
+    - id: W3C REC-rdf-primer-20040210
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-rdf-primer-20040210
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: rdf-primer
 doctype:

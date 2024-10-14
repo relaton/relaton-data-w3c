@@ -28,20 +28,33 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-WCAG22-20231005
+    id: W3CWD-WCAG22-20210521
     link:
-    - content: https://www.w3.org/TR/2023/REC-WCAG22-20231005/
+    - content: https://www.w3.org/TR/2021/WD-WCAG22-20210521/
       type: src
     docid:
-    - id: W3C REC-WCAG22-20231005
+    - id: W3C WD-WCAG22-20210521
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-WCAG22-20231005
+      content: W3C WD-WCAG22-20210521
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WCAG22-20200227
+    link:
+    - content: https://www.w3.org/TR/2020/WD-WCAG22-20200227/
+      type: src
+    docid:
+    - id: W3C WD-WCAG22-20200227
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WCAG22-20200227
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -58,6 +71,32 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
+    id: W3CWD-WCAG22-20200811
+    link:
+    - content: https://www.w3.org/TR/2020/WD-WCAG22-20200811/
+      type: src
+    docid:
+    - id: W3C WD-WCAG22-20200811
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WCAG22-20200811
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-WCAG22-20231005
+    link:
+    - content: https://www.w3.org/TR/2023/REC-WCAG22-20231005/
+      type: src
+    docid:
+    - id: W3C REC-WCAG22-20231005
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-WCAG22-20231005
+      format: text/plain
+- type: hasEdition
+  bibitem:
     id: W3CCR-WCAG22-20220906
     link:
     - content: https://www.w3.org/TR/2022/CR-WCAG22-20220906/
@@ -71,33 +110,20 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-WCAG22-20210521
+    id: W3CCRD-WCAG22-20230125
     link:
-    - content: https://www.w3.org/TR/2021/WD-WCAG22-20210521/
+    - content: https://www.w3.org/TR/2023/CRD-WCAG22-20230125/
       type: src
     docid:
-    - id: W3C WD-WCAG22-20210521
+    - id: W3C CRD-WCAG22-20230125
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-WCAG22-20210521
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-WCAG22-20200811
-    link:
-    - content: https://www.w3.org/TR/2020/WD-WCAG22-20200811/
-      type: src
-    docid:
-    - id: W3C WD-WCAG22-20200811
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-WCAG22-20200811
+      content: W3C CRD-WCAG22-20230125
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: WCAG22
 doctype:

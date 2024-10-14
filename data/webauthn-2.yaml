@@ -29,8 +29,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20190604
+    link:
+    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20190604/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20190604
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webauthn-2-20190604
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20191126
+    link:
+    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20191126/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20191126
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webauthn-2-20191126
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-webauthn-2-20210408
@@ -43,6 +69,45 @@ relation:
       primary: true
     formattedref:
       content: W3C REC-webauthn-2-20210408
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20200730
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20200730/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20200730
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webauthn-2-20200730
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20201116
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201116/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20201116
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webauthn-2-20201116
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20201216
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201216/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20201216
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webauthn-2-20201216
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -59,20 +124,20 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-webauthn-2-20191126
+    id: W3CPR-webauthn-2-20210225
     link:
-    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20191126/
+    - content: https://www.w3.org/TR/2021/PR-webauthn-2-20210225/
       type: src
     docid:
-    - id: W3C WD-webauthn-2-20191126
+    - id: W3C PR-webauthn-2-20210225
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webauthn-2-20191126
+      content: W3C PR-webauthn-2-20210225
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: webauthn-2
 doctype:

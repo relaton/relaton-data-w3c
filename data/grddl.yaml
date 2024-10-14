@@ -5,7 +5,7 @@ title:
 - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
   format: text/plain
 link:
-- content: https://www.w3.org/TR/grddl/
+- content: http://www.w3.org/TR/grddl/
   type: src
 type: standard
 docid:
@@ -30,32 +30,6 @@ docstatus:
   stage:
     value: Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-grddl-20070911
-    link:
-    - content: https://www.w3.org/TR/2007/REC-grddl-20070911/
-      type: src
-    docid:
-    - id: W3C REC-grddl-20070911
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-grddl-20070911
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-grddl-20061024
-    link:
-    - content: http://www.w3.org/TR/2006/WD-grddl-20061024/
-      type: src
-    docid:
-    - id: W3C WD-grddl-20061024
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-grddl-20061024
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CNOTE-grddl-20040413
@@ -69,9 +43,22 @@ relation:
     formattedref:
       content: W3C NOTE-grddl-20040413
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-grddl-20070911
+    link:
+    - content: http://www.w3.org/TR/2007/REC-grddl-20070911/
+      type: src
+    docid:
+    - id: W3C REC-grddl-20070911
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-grddl-20070911
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C NOTE
     format: text/plain
   number: grddl
 doctype:

@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-pronunciation-use-cases-20200317
-    link:
-    - content: https://www.w3.org/TR/2020/NOTE-pronunciation-use-cases-20200317/
-      type: src
-    docid:
-    - id: W3C NOTE-pronunciation-use-cases-20200317
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-pronunciation-use-cases-20200317
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-pronunciation-use-cases-20190905
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-pronunciation-use-cases-20190905
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-pronunciation-use-cases-20200317
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-pronunciation-use-cases-20200317/
+      type: src
+    docid:
+    - id: W3C NOTE-pronunciation-use-cases-20200317
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-pronunciation-use-cases-20200317
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: pronunciation-use-cases
 doctype:

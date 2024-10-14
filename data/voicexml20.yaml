@@ -5,7 +5,7 @@ title:
 - content: Voice Extensible Markup Language (VoiceXML) Version 2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/voicexml20/
+- content: http://www.w3.org/TR/voicexml20
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-voicexml20-20040316
-    link:
-    - content: https://www.w3.org/TR/2004/REC-voicexml20-20040316/
-      type: src
-    docid:
-    - id: W3C REC-voicexml20-20040316
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-voicexml20-20040316
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-voicexml20-20030220
-    link:
-    - content: http://www.w3.org/TR/2003/CR-voicexml20-20030220/
-      type: src
-    docid:
-    - id: W3C CR-voicexml20-20030220
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-voicexml20-20030220
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-voicexml20-20020424
@@ -69,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-voicexml20-20020424
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-voicexml20-20030220
+    link:
+    - content: http://www.w3.org/TR/2003/CR-voicexml20-20030220/
+      type: src
+    docid:
+    - id: W3C CR-voicexml20-20030220
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-voicexml20-20030220
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: voicexml20
 doctype:

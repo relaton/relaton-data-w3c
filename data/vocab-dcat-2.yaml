@@ -28,33 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-vocab-dcat-2-20200204
+    id: W3CWD-vocab-dcat-2-20190528
     link:
-    - content: https://www.w3.org/TR/2020/REC-vocab-dcat-2-20200204/
+    - content: https://www.w3.org/TR/2019/WD-vocab-dcat-2-20190528/
       type: src
     docid:
-    - id: W3C REC-vocab-dcat-2-20200204
+    - id: W3C WD-vocab-dcat-2-20190528
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-vocab-dcat-2-20200204
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-vocab-dcat-2-20240822
-    link:
-    - content: https://www.w3.org/TR/2024/SPSD-vocab-dcat-2-20240822/
-      type: src
-    docid:
-    - id: W3C SPSD-vocab-dcat-2-20240822
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-vocab-dcat-2-20240822
+      content: W3C WD-vocab-dcat-2-20190528
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -71,20 +58,46 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-dcat-2-20181016
+    id: W3CREC-vocab-dcat-2-20200204
     link:
-    - content: https://www.w3.org/TR/2018/WD-vocab-dcat-2-20181016/
+    - content: https://www.w3.org/TR/2020/REC-vocab-dcat-2-20200204/
       type: src
     docid:
-    - id: W3C WD-vocab-dcat-2-20181016
+    - id: W3C REC-vocab-dcat-2-20200204
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vocab-dcat-2-20181016
+      content: W3C REC-vocab-dcat-2-20200204
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-vocab-dcat-2-20191003
+    link:
+    - content: https://www.w3.org/TR/2019/CR-vocab-dcat-2-20191003/
+      type: src
+    docid:
+    - id: W3C CR-vocab-dcat-2-20191003
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-vocab-dcat-2-20191003
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CSPSD-vocab-dcat-2-20240822
+    link:
+    - content: https://www.w3.org/TR/2024/SPSD-vocab-dcat-2-20240822/
+      type: src
+    docid:
+    - id: W3C SPSD-vocab-dcat-2-20240822
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C SPSD-vocab-dcat-2-20240822
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: vocab-dcat-2
 doctype:

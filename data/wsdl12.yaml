@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cwsdl12
 title:
-- content: Web Services Description Language (WSDL) Version 1.2
+- content: 'Web Services Description Language (WSDL) Version 1.2 Part 1: Core Language'
   format: text/plain
 link:
 - content: http://www.w3.org/TR/wsdl12
@@ -30,7 +30,7 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-wsdl12-20020709
     link:
@@ -42,6 +42,32 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-wsdl12-20020709
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wsdl12-20030303
+    link:
+    - content: http://www.w3.org/TR/2003/WD-wsdl12-20030303
+      type: src
+    docid:
+    - id: W3C WD-wsdl12-20030303
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-wsdl12-20030303
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-wsdl12-20030611
+    link:
+    - content: http://www.w3.org/TR/2003/WD-wsdl12-20030611
+      type: src
+    docid:
+    - id: W3C WD-wsdl12-20030611
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-wsdl12-20030611
       format: text/plain
 series:
 - title:

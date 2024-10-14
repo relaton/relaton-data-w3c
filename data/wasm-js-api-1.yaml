@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wasm-js-api-1-20180904
+    link:
+    - content: https://www.w3.org/TR/2018/WD-wasm-js-api-1-20180904/
+      type: src
+    docid:
+    - id: W3C WD-wasm-js-api-1-20180904
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-wasm-js-api-1-20180904
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-wasm-js-api-1-20191205
@@ -45,20 +58,33 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-1-20180904
+    id: W3CCR-wasm-js-api-1-20190718
     link:
-    - content: https://www.w3.org/TR/2018/WD-wasm-js-api-1-20180904/
+    - content: https://www.w3.org/TR/2019/CR-wasm-js-api-1-20190718/
       type: src
     docid:
-    - id: W3C WD-wasm-js-api-1-20180904
+    - id: W3C CR-wasm-js-api-1-20190718
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wasm-js-api-1-20180904
+      content: W3C CR-wasm-js-api-1-20190718
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-wasm-js-api-1-20191001
+    link:
+    - content: https://www.w3.org/TR/2019/PR-wasm-js-api-1-20191001/
+      type: src
+    docid:
+    - id: W3C PR-wasm-js-api-1-20191001
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-wasm-js-api-1-20191001
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: wasm-js-api-1
 doctype:

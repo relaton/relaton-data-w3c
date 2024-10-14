@@ -5,7 +5,7 @@ title:
 - content: Timing control for script-based animations
   format: text/plain
 link:
-- content: https://www.w3.org/TR/animation-timing/
+- content: http://www.w3.org/TR/animation-timing/
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-animation-timing-20150922
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-animation-timing-20150922/
-      type: src
-    docid:
-    - id: W3C NOTE-animation-timing-20150922
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-animation-timing-20150922
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-animation-timing-20131031
@@ -53,35 +43,22 @@ relation:
     formattedref:
       content: W3C CR-animation-timing-20131031
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-animation-timing-20120221
+    id: W3CNOTE-animation-timing-20150922
     link:
-    - content: http://www.w3.org/TR/2012/WD-animation-timing-20120221/
+    - content: http://www.w3.org/TR/2015/NOTE-animation-timing-20150922/
       type: src
     docid:
-    - id: W3C WD-animation-timing-20120221
+    - id: W3C NOTE-animation-timing-20150922
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-animation-timing-20120221
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-animation-timing-20110602
-    link:
-    - content: http://www.w3.org/TR/2011/WD-animation-timing-20110602/
-      type: src
-    docid:
-    - id: W3C WD-animation-timing-20110602
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-animation-timing-20110602
+      content: W3C NOTE-animation-timing-20150922
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C CR
     format: text/plain
   number: animation-timing
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: Document Object Model (DOM) Level 3 Views and Formatting Specification
   format: text/plain
 link:
-- content: https://www.w3.org/TR/DOM-Level-3-Views/
+- content: http://www.w3.org/TR/DOM-Level-3-Views/
   type: src
 type: standard
 docid:
@@ -26,19 +26,35 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-DOM-Level-3-Views-20201103
+    id: W3CWD-DOM-Level-3-Views-20001115
     link:
-    - content: https://www.w3.org/TR/2020/NOTE-DOM-Level-3-Views-20201103/
+    - content: http://www.w3.org/TR/2000/WD-DOM-Level-3-Views-20001115
       type: src
     docid:
-    - id: W3C NOTE-DOM-Level-3-Views-20201103
+    - id: W3C WD-DOM-Level-3-Views-20001115
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-DOM-Level-3-Views-20201103
+      content: W3C WD-DOM-Level-3-Views-20001115
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-DOM-Level-3-Views-20040226
+    link:
+    - content: http://www.w3.org/TR/2004/NOTE-DOM-Level-3-Views-20040226
+      type: src
+    docid:
+    - id: W3C NOTE-DOM-Level-3-Views-20040226
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-DOM-Level-3-Views-20040226
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -53,22 +69,9 @@ relation:
     formattedref:
       content: W3C NOTE-DOM-Level-3-Views-20040226
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-DOM-Level-3-Views-20001115
-    link:
-    - content: http://www.w3.org/TR/2000/WD-DOM-Level-3-Views-20001115
-      type: src
-    docid:
-    - id: W3C WD-DOM-Level-3-Views-20001115
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-Views-20001115
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: DOM-Level-3-Views
 doctype:

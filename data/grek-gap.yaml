@@ -26,45 +26,48 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CDNOTE-grek-gap-20240920
+    id: W3CWD-grek-gap-20210525
     link:
-    - content: https://www.w3.org/TR/2024/DNOTE-grek-gap-20240920/
+    - content: https://www.w3.org/TR/2021/WD-grek-gap-20210525/
       type: src
     docid:
-    - id: W3C DNOTE-grek-gap-20240920
+    - id: W3C WD-grek-gap-20210525
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-grek-gap-20240920
+      content: W3C WD-grek-gap-20210525
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-grek-gap-20231004
+    id: W3CDNOTE-grek-gap-20220119
     link:
-    - content: https://www.w3.org/TR/2023/DNOTE-grek-gap-20231004/
+    - content: https://www.w3.org/TR/2022/DNOTE-grek-gap-20220119/
       type: src
     docid:
-    - id: W3C DNOTE-grek-gap-20231004
+    - id: W3C DNOTE-grek-gap-20220119
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-grek-gap-20231004
+      content: W3C DNOTE-grek-gap-20220119
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-grek-gap-20230614
+    id: W3CWD-grek-gap-20200611
     link:
-    - content: https://www.w3.org/TR/2023/DNOTE-grek-gap-20230614/
+    - content: https://www.w3.org/TR/2020/WD-grek-gap-20200611/
       type: src
     docid:
-    - id: W3C DNOTE-grek-gap-20230614
+    - id: W3C WD-grek-gap-20200611
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-grek-gap-20230614
+      content: W3C WD-grek-gap-20200611
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -81,19 +84,6 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-grek-gap-20210525
-    link:
-    - content: https://www.w3.org/TR/2021/WD-grek-gap-20210525/
-      type: src
-    docid:
-    - id: W3C WD-grek-gap-20210525
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-grek-gap-20210525
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CWD-grek-gap-20200715
     link:
     - content: https://www.w3.org/TR/2020/WD-grek-gap-20200715/
@@ -105,9 +95,61 @@ relation:
     formattedref:
       content: W3C WD-grek-gap-20200715
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-grek-gap-20230614
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-grek-gap-20230614/
+      type: src
+    docid:
+    - id: W3C DNOTE-grek-gap-20230614
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-grek-gap-20230614
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-grek-gap-20231004
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-grek-gap-20231004/
+      type: src
+    docid:
+    - id: W3C DNOTE-grek-gap-20231004
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-grek-gap-20231004
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-grek-gap-20210126
+    link:
+    - content: https://www.w3.org/TR/2021/WD-grek-gap-20210126/
+      type: src
+    docid:
+    - id: W3C WD-grek-gap-20210126
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-grek-gap-20210126
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CDNOTE-grek-gap-20240920
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-grek-gap-20240920/
+      type: src
+    docid:
+    - id: W3C DNOTE-grek-gap-20240920
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-grek-gap-20240920
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: grek-gap
 doctype:

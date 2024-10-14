@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld11-20190714
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20190714/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-20190714
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-json-ld11-20190714
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-json-ld11-20191212
+    link:
+    - content: https://www.w3.org/TR/2019/CR-json-ld11-20191212/
+      type: src
+    docid:
+    - id: W3C CR-json-ld11-20191212
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-json-ld11-20191212
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-json-ld11-20200716
@@ -45,33 +71,150 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-json-ld11-20191212
+    id: W3CWD-json-ld11-20190510
     link:
-    - content: https://www.w3.org/TR/2019/CR-json-ld11-20191212/
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20190510/
       type: src
     docid:
-    - id: W3C CR-json-ld11-20191212
+    - id: W3C WD-json-ld11-20190510
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-json-ld11-20191212
+      content: W3C WD-json-ld11-20190510
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-json-ld11-20181214
+    id: W3CWD-json-ld11-20190805
     link:
-    - content: https://www.w3.org/TR/2018/WD-json-ld11-20181214/
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20190805/
       type: src
     docid:
-    - id: W3C WD-json-ld11-20181214
+    - id: W3C WD-json-ld11-20190805
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-json-ld11-20181214
+      content: W3C WD-json-ld11-20190805
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-json-ld11-20200507
+    link:
+    - content: https://www.w3.org/TR/2020/PR-json-ld11-20200507/
+      type: src
+    docid:
+    - id: W3C PR-json-ld11-20200507
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-json-ld11-20200507
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld11-20191112
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20191112/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-20191112
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-json-ld11-20191112
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld11-20190909
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20190909/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-20190909
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-json-ld11-20190909
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld11-20190802
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20190802/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-20190802
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-json-ld11-20190802
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-json-ld11-20200305
+    link:
+    - content: https://www.w3.org/TR/2020/CR-json-ld11-20200305/
+      type: src
+    docid:
+    - id: W3C CR-json-ld11-20200305
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-json-ld11-20200305
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-json-ld11-20200316
+    link:
+    - content: https://www.w3.org/TR/2020/CR-json-ld11-20200316/
+      type: src
+    docid:
+    - id: W3C CR-json-ld11-20200316
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-json-ld11-20200316
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-json-ld11-20200417
+    link:
+    - content: https://www.w3.org/TR/2020/CR-json-ld11-20200417/
+      type: src
+    docid:
+    - id: W3C CR-json-ld11-20200417
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-json-ld11-20200417
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld11-20190803
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20190803/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-20190803
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-json-ld11-20190803
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld11-20191018
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-20191018/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-20191018
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-json-ld11-20191018
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: json-ld11
 doctype:

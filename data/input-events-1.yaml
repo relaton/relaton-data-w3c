@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CDISC-input-events-1-20230928
-    link:
-    - content: https://www.w3.org/TR/2023/DISC-input-events-1-20230928/
-      type: src
-    docid:
-    - id: W3C DISC-input-events-1-20230928
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DISC-input-events-1-20230928
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-input-events-1-20190530
@@ -53,35 +43,22 @@ relation:
     formattedref:
       content: W3C WD-input-events-1-20190530
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-input-events-1-20181109
+    id: W3CDISC-input-events-1-20230928
     link:
-    - content: https://www.w3.org/TR/2018/WD-input-events-1-20181109/
+    - content: https://www.w3.org/TR/2023/DISC-input-events-1-20230928/
       type: src
     docid:
-    - id: W3C WD-input-events-1-20181109
+    - id: W3C DISC-input-events-1-20230928
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-input-events-1-20181109
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-input-events-1-20170905
-    link:
-    - content: https://www.w3.org/TR/2017/WD-input-events-1-20170905/
-      type: src
-    docid:
-    - id: W3C WD-input-events-1-20170905
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-input-events-1-20170905
+      content: W3C DISC-input-events-1-20230928
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: input-events-1
 doctype:

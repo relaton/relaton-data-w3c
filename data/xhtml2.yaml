@@ -5,7 +5,7 @@ title:
 - content: XHTML™ 2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xhtml2/
+- content: http://www.w3.org/TR/xhtml2
   type: src
 type: standard
 docid:
@@ -26,58 +26,35 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-xhtml2-20101216
+    id: W3CWD-xhtml2-20020805
     link:
-    - content: https://www.w3.org/TR/2010/NOTE-xhtml2-20101216/
+    - content: http://www.w3.org/TR/2002/WD-xhtml2-20020805
       type: src
     docid:
-    - id: W3C NOTE-xhtml2-20101216
+    - id: W3C WD-xhtml2-20020805
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-xhtml2-20101216
+      content: W3C WD-xhtml2-20020805
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-xhtml2-20060726
+    id: W3CWD-xhtml2-20030131
     link:
-    - content: http://www.w3.org/TR/2006/WD-xhtml2-20060726
+    - content: http://www.w3.org/TR/2003/WD-xhtml2-20030131
       type: src
     docid:
-    - id: W3C WD-xhtml2-20060726
+    - id: W3C WD-xhtml2-20030131
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xhtml2-20060726
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xhtml2-20050527
-    link:
-    - content: http://www.w3.org/TR/2005/WD-xhtml2-20050527
-      type: src
-    docid:
-    - id: W3C WD-xhtml2-20050527
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xhtml2-20050527
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xhtml2-20040722
-    link:
-    - content: http://www.w3.org/TR/2004/WD-xhtml2-20040722
-      type: src
-    docid:
-    - id: W3C WD-xhtml2-20040722
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xhtml2-20040722
+      content: W3C WD-xhtml2-20030131
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -94,20 +71,33 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-xhtml2-20020805
+    id: W3CWD-xhtml2-20050527
     link:
-    - content: http://www.w3.org/TR/2002/WD-xhtml2-20020805
+    - content: http://www.w3.org/TR/2005/WD-xhtml2-20050527
       type: src
     docid:
-    - id: W3C WD-xhtml2-20020805
+    - id: W3C WD-xhtml2-20050527
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xhtml2-20020805
+      content: W3C WD-xhtml2-20050527
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-xhtml2-20101216
+    link:
+    - content: http://www.w3.org/TR/2010/NOTE-xhtml2-20101216
+      type: src
+    docid:
+    - id: W3C NOTE-xhtml2-20101216
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-xhtml2-20101216
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: xhtml2
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: Best Practice Recipes for Publishing RDF Vocabularies
   format: text/plain
 link:
-- content: https://www.w3.org/TR/swbp-vocab-pub/
+- content: http://www.w3.org/TR/swbp-vocab-pub/
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-swbp-vocab-pub-20080828
-    link:
-    - content: https://www.w3.org/TR/2008/NOTE-swbp-vocab-pub-20080828/
-      type: src
-    docid:
-    - id: W3C NOTE-swbp-vocab-pub-20080828
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-swbp-vocab-pub-20080828
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-swbp-vocab-pub-20060314
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-swbp-vocab-pub-20060314
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-swbp-vocab-pub-20080828
+    link:
+    - content: http://www.w3.org/TR/2008/NOTE-swbp-vocab-pub-20080828/
+      type: src
+    docid:
+    - id: W3C NOTE-swbp-vocab-pub-20080828
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-swbp-vocab-pub-20080828
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: swbp-vocab-pub
 doctype:

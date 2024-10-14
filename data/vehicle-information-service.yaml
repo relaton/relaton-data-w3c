@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CDISC-vehicle-information-service-20220329
-    link:
-    - content: https://www.w3.org/TR/2022/DISC-vehicle-information-service-20220329/
-      type: src
-    docid:
-    - id: W3C DISC-vehicle-information-service-20220329
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DISC-vehicle-information-service-20220329
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-vehicle-information-service-20180213
@@ -53,22 +43,22 @@ relation:
     formattedref:
       content: W3C CR-vehicle-information-service-20180213
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-vehicle-information-service-20161020
+    id: W3CDISC-vehicle-information-service-20220329
     link:
-    - content: https://www.w3.org/TR/2016/WD-vehicle-information-service-20161020/
+    - content: https://www.w3.org/TR/2022/DISC-vehicle-information-service-20220329/
       type: src
     docid:
-    - id: W3C WD-vehicle-information-service-20161020
+    - id: W3C DISC-vehicle-information-service-20220329
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vehicle-information-service-20161020
+      content: W3C DISC-vehicle-information-service-20220329
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C CR
     format: text/plain
   number: vehicle-information-service
 doctype:

@@ -28,24 +28,37 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CWD-trace-context-20181122
+    id: W3CCR-trace-context-20190509
     link:
-    - content: https://www.w3.org/TR/2018/WD-trace-context-20181122/
+    - content: https://www.w3.org/TR/2019/CR-trace-context-20190509/
       type: src
     docid:
-    - id: W3C WD-trace-context-20181122
+    - id: W3C CR-trace-context-20190509
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-trace-context-20181122
+      content: W3C CR-trace-context-20190509
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-trace-context-20190813
+    link:
+    - content: https://www.w3.org/TR/2019/CR-trace-context-20190813/
+      type: src
+    docid:
+    - id: W3C CR-trace-context-20190813
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-trace-context-20190813
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
   number: trace-context
 doctype:

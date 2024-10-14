@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-hr-time-2-20190626
+    link:
+    - content: https://www.w3.org/TR/2019/CR-hr-time-2-20190626/
+      type: src
+    docid:
+    - id: W3C CR-hr-time-2-20190626
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-hr-time-2-20190626
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-hr-time-2-20191121
@@ -45,72 +58,20 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-hr-time-2-20180301
+    id: W3CPR-hr-time-2-20191015
     link:
-    - content: https://www.w3.org/TR/2018/CR-hr-time-2-20180301/
+    - content: https://www.w3.org/TR/2019/PR-hr-time-2-20191015/
       type: src
     docid:
-    - id: W3C CR-hr-time-2-20180301
+    - id: W3C PR-hr-time-2-20191015
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-hr-time-2-20180301
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-hr-time-2-20170803
-    link:
-    - content: https://www.w3.org/TR/2017/CR-hr-time-2-20170803/
-      type: src
-    docid:
-    - id: W3C CR-hr-time-2-20170803
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-hr-time-2-20170803
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-hr-time-2-20161101
-    link:
-    - content: https://www.w3.org/TR/2016/CR-hr-time-2-20161101/
-      type: src
-    docid:
-    - id: W3C CR-hr-time-2-20161101
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-hr-time-2-20161101
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-hr-time-2-20151116
-    link:
-    - content: http://www.w3.org/TR/2015/WD-hr-time-2-20151116/
-      type: src
-    docid:
-    - id: W3C WD-hr-time-2-20151116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-hr-time-2-20151116
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-hr-time-2-20131203
-    link:
-    - content: http://www.w3.org/TR/2013/WD-hr-time-2-20131203/
-      type: src
-    docid:
-    - id: W3C WD-hr-time-2-20131203
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-hr-time-2-20131203
+      content: W3C PR-hr-time-2-20191015
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: hr-time-2
 doctype:

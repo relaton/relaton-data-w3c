@@ -28,59 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CCRD-vc-di-ecdsa-20241005
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20241005/
-      type: src
-    docid:
-    - id: W3C CRD-vc-di-ecdsa-20241005
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-vc-di-ecdsa-20241005
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCRD-vc-di-ecdsa-20240428
+    id: W3CWD-vc-di-ecdsa-20230518
     link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20240428/
+    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230518/
       type: src
     docid:
-    - id: W3C CRD-vc-di-ecdsa-20240428
+    - id: W3C WD-vc-di-ecdsa-20230518
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-vc-di-ecdsa-20240428
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-vc-di-ecdsa-20231021
-    link:
-    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20231021/
-      type: src
-    docid:
-    - id: W3C WD-vc-di-ecdsa-20231021
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vc-di-ecdsa-20231021
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-vc-di-ecdsa-20230616
-    link:
-    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230616/
-      type: src
-    docid:
-    - id: W3C WD-vc-di-ecdsa-20230616
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vc-di-ecdsa-20230616
+      content: W3C WD-vc-di-ecdsa-20230518
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -97,20 +58,85 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-vc-di-ecdsa-20230518
+    id: W3CWD-vc-di-ecdsa-20230616
     link:
-    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230518/
+    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230616/
       type: src
     docid:
-    - id: W3C WD-vc-di-ecdsa-20230518
+    - id: W3C WD-vc-di-ecdsa-20230616
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-vc-di-ecdsa-20230518
+      content: W3C WD-vc-di-ecdsa-20230616
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vc-di-ecdsa-20231021
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20231021/
+      type: src
+    docid:
+    - id: W3C WD-vc-di-ecdsa-20231021
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vc-di-ecdsa-20231021
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-vc-di-ecdsa-20240428
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20240428/
+      type: src
+    docid:
+    - id: W3C CRD-vc-di-ecdsa-20240428
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-vc-di-ecdsa-20240428
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vc-di-ecdsa-20230418
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230418/
+      type: src
+    docid:
+    - id: W3C WD-vc-di-ecdsa-20230418
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vc-di-ecdsa-20230418
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vc-di-ecdsa-20230420
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-di-ecdsa-20230420/
+      type: src
+    docid:
+    - id: W3C WD-vc-di-ecdsa-20230420
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vc-di-ecdsa-20230420
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCRD-vc-di-ecdsa-20241005
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20241005/
+      type: src
+    docid:
+    - id: W3C CRD-vc-di-ecdsa-20241005
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-vc-di-ecdsa-20241005
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: vc-di-ecdsa
 doctype:

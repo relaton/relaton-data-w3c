@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cdom
 title:
-- content: DOM
+- content: W3C DOM4
   format: text/plain
 link:
-- content: https://www.w3.org/TR/dom/
+- content: http://www.w3.org/TR/dom/
   type: src
 type: standard
 docid:
@@ -28,60 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-dom-20201103
-    link:
-    - content: https://www.w3.org/TR/2020/REC-dom-20201103/
-      type: src
-    docid:
-    - id: W3C REC-dom-20201103
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-dom-20201103
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-DOM-20210928
-    link:
-    - content: https://www.w3.org/TR/2021/REC-DOM-20210928/
-      type: src
-    docid:
-    - id: W3C REC-DOM-20210928
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-DOM-20210928
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-dom-20151119
-    link:
-    - content: http://www.w3.org/TR/2015/REC-dom-20151119/
-      type: src
-    docid:
-    - id: W3C REC-dom-20151119
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-dom-20151119
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-dom-20140710
-    link:
-    - content: http://www.w3.org/TR/2014/WD-dom-20140710/
-      type: src
-    docid:
-    - id: W3C WD-dom-20140710
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-dom-20140710
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-dom-20121206
@@ -108,22 +56,22 @@ relation:
     formattedref:
       content: W3C WD-dom-20131107
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-dom-20110915
+    id: W3CREC-dom-20151119
     link:
-    - content: http://www.w3.org/TR/2011/WD-dom-20110915/
+    - content: http://www.w3.org/TR/2015/REC-dom-20151119/
       type: src
     docid:
-    - id: W3C WD-dom-20110915
+    - id: W3C REC-dom-20151119
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-dom-20110915
+      content: W3C REC-dom-20151119
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: dom
 doctype:

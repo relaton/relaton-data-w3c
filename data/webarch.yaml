@@ -5,7 +5,7 @@ title:
 - content: Architecture of the World Wide Web, Volume One
   format: text/plain
 link:
-- content: https://www.w3.org/TR/webarch/
+- content: http://www.w3.org/TR/webarch/
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-webarch-20041215
-    link:
-    - content: https://www.w3.org/TR/2004/REC-webarch-20041215/
-      type: src
-    docid:
-    - id: W3C REC-webarch-20041215
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-webarch-20041215
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-webarch-20041105
-    link:
-    - content: http://www.w3.org/TR/2004/PR-webarch-20041105/
-      type: src
-    docid:
-    - id: W3C PR-webarch-20041105
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-webarch-20041105
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webarch-20031209
-    link:
-    - content: http://www.w3.org/TR/2003/WD-webarch-20031209/
-      type: src
-    docid:
-    - id: W3C WD-webarch-20031209
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webarch-20031209
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-webarch-20021115
@@ -82,9 +43,48 @@ relation:
     formattedref:
       content: W3C WD-webarch-20021115
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webarch-20030326
+    link:
+    - content: http://www.w3.org/TR/2003/WD-webarch-20030326/
+      type: src
+    docid:
+    - id: W3C WD-webarch-20030326
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webarch-20030326
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webarch-20030627
+    link:
+    - content: http://www.w3.org/TR/2003/WD-webarch-20030627/
+      type: src
+    docid:
+    - id: W3C WD-webarch-20030627
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webarch-20030627
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-webarch-20041215
+    link:
+    - content: http://www.w3.org/TR/2004/REC-webarch-20041215/
+      type: src
+    docid:
+    - id: W3C REC-webarch-20041215
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-webarch-20041215
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: webarch
 doctype:

@@ -2,10 +2,12 @@
 schema-version: v1.2.9
 id: W3CDOM-Level-2-HTML
 title:
-- content: Document Object Model (DOM) Level 2 HTML Specification
+- content: |-
+    Document Object Model (DOM) Level 2 HTML
+    Specification
   format: text/plain
 link:
-- content: https://www.w3.org/TR/DOM-Level-2-HTML/
+- content: http://www.w3.org/TR/DOM-Level-2-HTML/
   type: src
 type: standard
 docid:
@@ -28,33 +30,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-DOM-Level-2-HTML-20030109
+    id: W3CPR-DOM-Level-2-HTML-20021108
     link:
-    - content: https://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/
+    - content: http://www.w3.org/TR/2002/PR-DOM-Level-2-HTML-20021108
       type: src
     docid:
-    - id: W3C REC-DOM-Level-2-HTML-20030109
+    - id: W3C PR-DOM-Level-2-HTML-20021108
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-DOM-Level-2-HTML-20030109
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-DOM-Level-2-HTML-20201103
-    link:
-    - content: https://www.w3.org/TR/2020/SPSD-DOM-Level-2-HTML-20201103/
-      type: src
-    docid:
-    - id: W3C SPSD-DOM-Level-2-HTML-20201103
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-DOM-Level-2-HTML-20201103
+      content: W3C PR-DOM-Level-2-HTML-20021108
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -69,22 +58,35 @@ relation:
     formattedref:
       content: W3C REC-DOM-Level-2-HTML-20030107
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CPR-DOM-Level-2-HTML-20021108
+    id: W3CREC-DOM-Level-2-HTML-20030109
     link:
-    - content: http://www.w3.org/TR/2002/PR-DOM-Level-2-HTML-20021108
+    - content: http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109
       type: src
     docid:
-    - id: W3C PR-DOM-Level-2-HTML-20021108
+    - id: W3C REC-DOM-Level-2-HTML-20030109
       type: W3C
       primary: true
     formattedref:
-      content: W3C PR-DOM-Level-2-HTML-20021108
+      content: W3C REC-DOM-Level-2-HTML-20030109
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CREC-DOM-Level-2-HTML-20030109
+    link:
+    - content: http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/
+      type: src
+    docid:
+    - id: W3C REC-DOM-Level-2-HTML-20030109
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-DOM-Level-2-HTML-20030109
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PR
     format: text/plain
   number: DOM-Level-2-HTML
 doctype:

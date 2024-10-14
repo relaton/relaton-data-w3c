@@ -5,7 +5,7 @@ title:
 - content: OWL Web Ontology Language Overview
   format: text/plain
 link:
-- content: https://www.w3.org/TR/owl-features/
+- content: http://www.w3.org/TR/owl-features/
   type: src
 type: standard
 docid:
@@ -28,20 +28,33 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-owl-features-20040210
+    id: W3CWD-owl-features-20020729
     link:
-    - content: https://www.w3.org/TR/2004/REC-owl-features-20040210/
+    - content: http://www.w3.org/TR/2002/WD-owl-features-20020729/
       type: src
     docid:
-    - id: W3C REC-owl-features-20040210
+    - id: W3C WD-owl-features-20020729
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-owl-features-20040210
+      content: W3C WD-owl-features-20020729
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-owl-features-20030331
+    link:
+    - content: http://www.w3.org/TR/2003/WD-owl-features-20030331/
+      type: src
+    docid:
+    - id: W3C WD-owl-features-20030331
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-owl-features-20030331
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -56,22 +69,22 @@ relation:
     formattedref:
       content: W3C CR-owl-features-20030818
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-owl-features-20020729
+    id: W3CREC-owl-features-20040210
     link:
-    - content: http://www.w3.org/TR/2002/WD-owl-features-20020729/
+    - content: http://www.w3.org/TR/2004/REC-owl-features-20040210/
       type: src
     docid:
-    - id: W3C WD-owl-features-20020729
+    - id: W3C REC-owl-features-20040210
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-owl-features-20020729
+      content: W3C REC-owl-features-20040210
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: owl-features
 doctype:

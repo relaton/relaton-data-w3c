@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CDISC-vsso-20240222
-    link:
-    - content: https://www.w3.org/TR/2024/DISC-vsso-20240222/
-      type: src
-    docid:
-    - id: W3C DISC-vsso-20240222
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DISC-vsso-20240222
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-vsso-20220303
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-vsso-20220303
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CDISC-vsso-20240222
+    link:
+    - content: https://www.w3.org/TR/2024/DISC-vsso-20240222/
+      type: src
+    docid:
+    - id: W3C DISC-vsso-20240222
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DISC-vsso-20240222
+      format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C WD
     format: text/plain
   number: vsso
 doctype:

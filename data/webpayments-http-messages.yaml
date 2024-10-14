@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-webpayments-http-messages-20200721
-    link:
-    - content: https://www.w3.org/TR/2020/NOTE-webpayments-http-messages-20200721/
-      type: src
-    docid:
-    - id: W3C NOTE-webpayments-http-messages-20200721
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-webpayments-http-messages-20200721
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-webpayments-http-messages-20160915
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-webpayments-http-messages-20160915
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-webpayments-http-messages-20200721
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-webpayments-http-messages-20200721/
+      type: src
+    docid:
+    - id: W3C NOTE-webpayments-http-messages-20200721
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-webpayments-http-messages-20200721
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: webpayments-http-messages
 doctype:

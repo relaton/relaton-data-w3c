@@ -5,7 +5,7 @@ title:
 - content: XML Protocol (XMLP) Requirements
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xmlp-reqs/
+- content: http://www.w3.org/TR/xmlp-reqs
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-xmlp-reqs-20030728
-    link:
-    - content: https://www.w3.org/TR/2003/NOTE-xmlp-reqs-20030728/
-      type: src
-    docid:
-    - id: W3C NOTE-xmlp-reqs-20030728
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-xmlp-reqs-20030728
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-xmlp-reqs-20020626
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-xmlp-reqs-20020626
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-xmlp-reqs-20030728
+    link:
+    - content: http://www.w3.org/TR/2003/NOTE-xmlp-reqs-20030728
+      type: src
+    docid:
+    - id: W3C NOTE-xmlp-reqs-20030728
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-xmlp-reqs-20030728
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: xmlp-reqs
 doctype:

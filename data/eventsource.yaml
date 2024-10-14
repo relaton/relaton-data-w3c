@@ -5,7 +5,7 @@ title:
 - content: Server-Sent Events
   format: text/plain
 link:
-- content: https://www.w3.org/TR/eventsource/
+- content: http://www.w3.org/TR/eventsource/
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-eventsource-20150203
-    link:
-    - content: https://www.w3.org/TR/2015/REC-eventsource-20150203/
-      type: src
-    docid:
-    - id: W3C REC-eventsource-20150203
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-eventsource-20150203
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-eventsource-20210128
-    link:
-    - content: https://www.w3.org/TR/2021/SPSD-eventsource-20210128/
-      type: src
-    docid:
-    - id: W3C SPSD-eventsource-20210128
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-eventsource-20210128
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-eventsource-20141209
-    link:
-    - content: http://www.w3.org/TR/2014/PR-eventsource-20141209/
-      type: src
-    docid:
-    - id: W3C PR-eventsource-20141209
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-eventsource-20141209
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-eventsource-20121211
@@ -82,48 +43,22 @@ relation:
     formattedref:
       content: W3C CR-eventsource-20121211
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-eventsource-20111020
+    id: W3CREC-eventsource-20150203
     link:
-    - content: http://www.w3.org/TR/2011/WD-eventsource-20111020/
+    - content: http://www.w3.org/TR/2015/REC-eventsource-20150203/
       type: src
     docid:
-    - id: W3C WD-eventsource-20111020
+    - id: W3C REC-eventsource-20150203
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-eventsource-20111020
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-eventsource-20091222
-    link:
-    - content: http://www.w3.org/TR/2009/WD-eventsource-20091222/
-      type: src
-    docid:
-    - id: W3C WD-eventsource-20091222
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-eventsource-20091222
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-eventsource-20091029
-    link:
-    - content: http://www.w3.org/TR/2009/WD-eventsource-20091029/
-      type: src
-    docid:
-    - id: W3C WD-eventsource-20091029
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-eventsource-20091029
+      content: W3C REC-eventsource-20150203
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: eventsource
 doctype:

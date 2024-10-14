@@ -5,7 +5,7 @@ title:
 - content: Compositing and Blending Level 1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/compositing-1/
+- content: http://www.w3.org/TR/compositing-1/
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CCRD-compositing-1-20240321
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-compositing-1-20240321/
-      type: src
-    docid:
-    - id: W3C CRD-compositing-1-20240321
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-compositing-1-20240321
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-compositing-1-20150113
-    link:
-    - content: https://www.w3.org/TR/2015/CR-compositing-1-20150113/
-      type: src
-    docid:
-    - id: W3C CR-compositing-1-20150113
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-compositing-1-20150113
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-compositing-1-20140220
-    link:
-    - content: http://www.w3.org/TR/2014/CR-compositing-1-20140220/
-      type: src
-    docid:
-    - id: W3C CR-compositing-1-20140220
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-compositing-1-20140220
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-compositing-1-20131010
@@ -82,9 +43,35 @@ relation:
     formattedref:
       content: W3C WD-compositing-1-20131010
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-compositing-1-20150113
+    link:
+    - content: http://www.w3.org/TR/2015/CR-compositing-1-20150113/
+      type: src
+    docid:
+    - id: W3C CR-compositing-1-20150113
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-compositing-1-20150113
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-compositing-1-20140107
+    link:
+    - content: http://www.w3.org/TR/2014/WD-compositing-1-20140107/
+      type: src
+    docid:
+    - id: W3C WD-compositing-1-20140107
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-compositing-1-20140107
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: compositing-1
 doctype:

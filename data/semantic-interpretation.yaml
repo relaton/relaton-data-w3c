@@ -5,7 +5,7 @@ title:
 - content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/semantic-interpretation/
+- content: http://www.w3.org/TR/semantic-interpretation/
   type: src
 type: standard
 docid:
@@ -28,46 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-semantic-interpretation-20070405
-    link:
-    - content: https://www.w3.org/TR/2007/REC-semantic-interpretation-20070405/
-      type: src
-    docid:
-    - id: W3C REC-semantic-interpretation-20070405
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-semantic-interpretation-20070405
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-semantic-interpretation-20061103
+    id: W3CWD-semantic-interpretation-20011116
     link:
-    - content: http://www.w3.org/TR/2006/WD-semantic-interpretation-20061103
+    - content: http://www.w3.org/TR/2001/WD-semantic-interpretation-20011116/
       type: src
     docid:
-    - id: W3C WD-semantic-interpretation-20061103
+    - id: W3C WD-semantic-interpretation-20011116
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-semantic-interpretation-20061103
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-semantic-interpretation-20041108
-    link:
-    - content: http://www.w3.org/TR/2004/WD-semantic-interpretation-20041108/
-      type: src
-    docid:
-    - id: W3C WD-semantic-interpretation-20041108
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-semantic-interpretation-20041108
+      content: W3C WD-semantic-interpretation-20011116
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -84,20 +58,33 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-semantic-interpretation-20011116
+    id: W3CCR-semantic-interpretation-20060111
     link:
-    - content: http://www.w3.org/TR/2001/WD-semantic-interpretation-20011116/
+    - content: http://www.w3.org/TR/2006/CR-semantic-interpretation-20060111/
       type: src
     docid:
-    - id: W3C WD-semantic-interpretation-20011116
+    - id: W3C CR-semantic-interpretation-20060111
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-semantic-interpretation-20011116
+      content: W3C CR-semantic-interpretation-20060111
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-semantic-interpretation-20070405
+    link:
+    - content: http://www.w3.org/TR/2007/REC-semantic-interpretation-20070405/
+      type: src
+    docid:
+    - id: W3C REC-semantic-interpretation-20070405
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-semantic-interpretation-20070405
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: semantic-interpretation
 doctype:

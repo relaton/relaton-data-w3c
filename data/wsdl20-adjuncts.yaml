@@ -5,7 +5,7 @@ title:
 - content: 'Web Services Description Language (WSDL) Version 2.0 Part 2: Adjuncts'
   format: text/plain
 link:
-- content: https://www.w3.org/TR/wsdl20-adjuncts/
+- content: http://www.w3.org/TR/wsdl20-adjuncts
   type: src
 type: standard
 docid:
@@ -28,20 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-wsdl20-adjuncts-20070626
+    id: W3CCR-wsdl20-adjuncts-20060106
     link:
-    - content: https://www.w3.org/TR/2007/REC-wsdl20-adjuncts-20070626/
+    - content: http://www.w3.org/TR/2006/CR-wsdl20-adjuncts-20060106
       type: src
     docid:
-    - id: W3C REC-wsdl20-adjuncts-20070626
+    - id: W3C CR-wsdl20-adjuncts-20060106
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-wsdl20-adjuncts-20070626
+      content: W3C CR-wsdl20-adjuncts-20060106
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -56,22 +56,22 @@ relation:
     formattedref:
       content: W3C CR-wsdl20-adjuncts-20060327
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-wsdl20-adjuncts-20050803
+    id: W3CREC-wsdl20-adjuncts-20070626
     link:
-    - content: http://www.w3.org/TR/2005/WD-wsdl20-adjuncts-20050803
+    - content: http://www.w3.org/TR/2007/REC-wsdl20-adjuncts-20070626
       type: src
     docid:
-    - id: W3C WD-wsdl20-adjuncts-20050803
+    - id: W3C REC-wsdl20-adjuncts-20070626
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wsdl20-adjuncts-20050803
+      content: W3C REC-wsdl20-adjuncts-20070626
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: wsdl20-adjuncts
 doctype:

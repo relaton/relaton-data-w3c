@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3CXMLHttpRequest
 title:
-- content: XMLHttpRequest Level 1
+- content: XMLHttpRequest
   format: text/plain
 link:
-- content: https://www.w3.org/TR/XMLHttpRequest/
+- content: http://www.w3.org/TR/XMLHttpRequest/
   type: src
 type: standard
 docid:
@@ -26,34 +26,11 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: instanceOf
-  bibitem:
-    id: W3CNOTE-XMLHttpRequest-20161006
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-XMLHttpRequest-20161006/
-      type: src
-    docid:
-    - id: W3C NOTE-XMLHttpRequest-20161006
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-XMLHttpRequest-20161006
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-XMLHttpRequest-20140130
-    link:
-    - content: http://www.w3.org/TR/2014/WD-XMLHttpRequest-20140130/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest-20140130
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20140130
-      format: text/plain
-- type: hasEdition
   bibitem:
     id: W3CWD-XMLHttpRequest-20121206
     link:
@@ -66,74 +43,9 @@ relation:
     formattedref:
       content: W3C WD-XMLHttpRequest-20121206
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-XMLHttpRequest-20100803
-    link:
-    - content: http://www.w3.org/TR/2010/CR-XMLHttpRequest-20100803/
-      type: src
-    docid:
-    - id: W3C CR-XMLHttpRequest-20100803
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-XMLHttpRequest-20100803
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-XMLHttpRequest-20091119
-    link:
-    - content: http://www.w3.org/TR/2009/WD-XMLHttpRequest-20091119/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest-20091119
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20091119
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-XMLHttpRequest-20080415
-    link:
-    - content: http://www.w3.org/TR/2008/WD-XMLHttpRequest-20080415/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest-20080415
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20080415
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-XMLHttpRequest-20071026
-    link:
-    - content: http://www.w3.org/TR/2007/WD-XMLHttpRequest-20071026/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest-20071026
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20071026
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-XMLHttpRequest-20060927
-    link:
-    - content: http://www.w3.org/TR/2006/WD-XMLHttpRequest-20060927/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest-20060927
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20060927
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: XMLHttpRequest
 doctype:

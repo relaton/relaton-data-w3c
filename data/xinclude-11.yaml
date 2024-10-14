@@ -5,7 +5,7 @@ title:
 - content: XML Inclusions (XInclude) Version 1.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xinclude-11/
+- content: http://www.w3.org/TR/xinclude-11/
   type: src
 type: standard
 docid:
@@ -26,46 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-xinclude-11-20160721
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-xinclude-11-20160721/
-      type: src
-    docid:
-    - id: W3C NOTE-xinclude-11-20160721
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-xinclude-11-20160721
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-xinclude-11-20150630
-    link:
-    - content: http://www.w3.org/TR/2015/CR-xinclude-11-20150630/
-      type: src
-    docid:
-    - id: W3C CR-xinclude-11-20150630
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-xinclude-11-20150630
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xinclude-11-20141216
-    link:
-    - content: http://www.w3.org/TR/2014/WD-xinclude-11-20141216/
-      type: src
-    docid:
-    - id: W3C WD-xinclude-11-20141216
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xinclude-11-20141216
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-xinclude-11-20131008
@@ -79,22 +43,22 @@ relation:
     formattedref:
       content: W3C CR-xinclude-11-20131008
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-xinclude-11-20121009
+    id: W3CNOTE-xinclude-11-20160721
     link:
-    - content: http://www.w3.org/TR/2012/WD-xinclude-11-20121009/
+    - content: http://www.w3.org/TR/2016/NOTE-xinclude-11-20160721/
       type: src
     docid:
-    - id: W3C WD-xinclude-11-20121009
+    - id: W3C NOTE-xinclude-11-20160721
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xinclude-11-20121009
+      content: W3C NOTE-xinclude-11-20160721
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C CR
     format: text/plain
   number: xinclude-11
 doctype:

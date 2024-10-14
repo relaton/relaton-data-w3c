@@ -5,7 +5,7 @@ title:
 - content: Cross-Origin Resource Sharing
   format: text/plain
 link:
-- content: https://www.w3.org/TR/cors/
+- content: http://www.w3.org/TR/cors/
   type: src
 type: standard
 docid:
@@ -28,13 +28,26 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
 - type: hasEdition
   bibitem:
+    id: W3CCR-cors-20130129
+    link:
+    - content: http://www.w3.org/TR/2013/CR-cors-20130129/
+      type: src
+    docid:
+    - id: W3C CR-cors-20130129
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-cors-20130129
+      format: text/plain
+- type: instanceOf
+  bibitem:
     id: W3CREC-cors-20140116
     link:
-    - content: https://www.w3.org/TR/2014/REC-cors-20140116/
+    - content: http://www.w3.org/TR/2014/REC-cors-20140116/
       type: src
     docid:
     - id: W3C REC-cors-20140116
@@ -42,19 +55,6 @@ relation:
       primary: true
     formattedref:
       content: W3C REC-cors-20140116
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-cors-20200602
-    link:
-    - content: https://www.w3.org/TR/2020/SPSD-cors-20200602/
-      type: src
-    docid:
-    - id: W3C SPSD-cors-20200602
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-cors-20200602
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -69,48 +69,9 @@ relation:
     formattedref:
       content: W3C PR-cors-20131205
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-cors-20120403
-    link:
-    - content: http://www.w3.org/TR/2012/WD-cors-20120403/
-      type: src
-    docid:
-    - id: W3C WD-cors-20120403
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-cors-20120403
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-cors-20100727
-    link:
-    - content: http://www.w3.org/TR/2010/WD-cors-20100727/
-      type: src
-    docid:
-    - id: W3C WD-cors-20100727
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-cors-20100727
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-cors-20090317
-    link:
-    - content: http://www.w3.org/TR/2009/WD-cors-20090317/
-      type: src
-    docid:
-    - id: W3C WD-cors-20090317
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-cors-20090317
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: cors
 doctype:

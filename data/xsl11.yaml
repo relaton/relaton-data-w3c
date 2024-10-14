@@ -5,7 +5,7 @@ title:
 - content: Extensible Stylesheet Language (XSL) Version 1.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xsl11/
+- content: http://www.w3.org/TR/xsl11/
   type: src
 type: standard
 docid:
@@ -28,13 +28,26 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xsl11-20060220
+    link:
+    - content: http://www.w3.org/TR/2006/CR-xsl11-20060220/
+      type: src
+    docid:
+    - id: W3C CR-xsl11-20060220
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xsl11-20060220
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-xsl11-20061205
     link:
-    - content: https://www.w3.org/TR/2006/REC-xsl11-20061205/
+    - content: http://www.w3.org/TR/2006/REC-xsl11-20061205/
       type: src
     docid:
     - id: W3C REC-xsl11-20061205
@@ -43,35 +56,9 @@ relation:
     formattedref:
       content: W3C REC-xsl11-20061205
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xsl11-20050728
-    link:
-    - content: http://www.w3.org/TR/2005/WD-xsl11-20050728/
-      type: src
-    docid:
-    - id: W3C WD-xsl11-20050728
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xsl11-20050728
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xsl11-20031217
-    link:
-    - content: http://www.w3.org/TR/2003/WD-xsl11-20031217/
-      type: src
-    docid:
-    - id: W3C WD-xsl11-20031217
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xsl11-20031217
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: xsl11
 doctype:

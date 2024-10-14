@@ -26,6 +26,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: instanceOf
   bibitem:
@@ -39,6 +42,19 @@ relation:
       primary: true
     formattedref:
       content: W3C NOTE-raur-20210525
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-raur-20200319
+    link:
+    - content: https://www.w3.org/TR/2020/WD-raur-20200319/
+      type: src
+    docid:
+    - id: W3C WD-raur-20200319
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-raur-20200319
       format: text/plain
 - type: hasEdition
   bibitem:

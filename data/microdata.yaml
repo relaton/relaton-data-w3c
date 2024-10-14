@@ -5,7 +5,7 @@ title:
 - content: HTML Microdata
   format: text/plain
 link:
-- content: https://www.w3.org/TR/microdata/
+- content: http://www.w3.org/TR/microdata/
   type: src
 type: standard
 docid:
@@ -26,59 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-microdata-20210128
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-microdata-20210128/
-      type: src
-    docid:
-    - id: W3C NOTE-microdata-20210128
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-microdata-20210128
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-microdata-20180426
-    link:
-    - content: https://www.w3.org/TR/2018/WD-microdata-20180426/
-      type: src
-    docid:
-    - id: W3C WD-microdata-20180426
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-microdata-20180426
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-microdata-20171010
-    link:
-    - content: https://www.w3.org/TR/2017/WD-microdata-20171010/
-      type: src
-    docid:
-    - id: W3C WD-microdata-20171010
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-microdata-20171010
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-microdata-20131029
-    link:
-    - content: http://www.w3.org/TR/2013/NOTE-microdata-20131029/
-      type: src
-    docid:
-    - id: W3C NOTE-microdata-20131029
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-microdata-20131029
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-microdata-20121025
@@ -92,35 +43,22 @@ relation:
     formattedref:
       content: W3C WD-microdata-20121025
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-microdata-20110525
+    id: W3CNOTE-microdata-20131029
     link:
-    - content: http://www.w3.org/TR/2011/WD-microdata-20110525/
+    - content: http://www.w3.org/TR/2013/NOTE-microdata-20131029/
       type: src
     docid:
-    - id: W3C WD-microdata-20110525
+    - id: W3C NOTE-microdata-20131029
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-microdata-20110525
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-microdata-20101019
-    link:
-    - content: http://www.w3.org/TR/2010/WD-microdata-20101019/
-      type: src
-    docid:
-    - id: W3C WD-microdata-20101019
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-microdata-20101019
+      content: W3C NOTE-microdata-20131029
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: microdata
 doctype:

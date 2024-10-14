@@ -5,7 +5,7 @@ title:
 - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/ATAG20/
+- content: http://www.w3.org/TR/ATAG20/
   type: src
 type: standard
 docid:
@@ -28,20 +28,33 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-ATAG20-20150924
+    id: W3CWD-ATAG20-20030314
     link:
-    - content: https://www.w3.org/TR/2015/REC-ATAG20-20150924/
+    - content: http://www.w3.org/TR/2003/WD-ATAG20-20030314/
       type: src
     docid:
-    - id: W3C REC-ATAG20-20150924
+    - id: W3C WD-ATAG20-20030314
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-ATAG20-20150924
+      content: W3C WD-ATAG20-20030314
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ATAG20-20051123
+    link:
+    - content: http://www.w3.org/TR/2005/WD-ATAG20-20051123/
+      type: src
+    docid:
+    - id: W3C WD-ATAG20-20051123
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ATAG20-20051123
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -56,113 +69,22 @@ relation:
     formattedref:
       content: W3C CR-ATAG20-20131107
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-ATAG20-20120410
+    id: W3CREC-ATAG20-20150924
     link:
-    - content: http://www.w3.org/TR/2012/WD-ATAG20-20120410/
+    - content: http://www.w3.org/TR/2015/REC-ATAG20-20150924/
       type: src
     docid:
-    - id: W3C WD-ATAG20-20120410
+    - id: W3C REC-ATAG20-20150924
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-ATAG20-20120410
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20110721
-    link:
-    - content: http://www.w3.org/TR/2011/WD-ATAG20-20110721/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20110721
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20110721
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20100708
-    link:
-    - content: http://www.w3.org/TR/2010/WD-ATAG20-20100708/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20100708
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20100708
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20091029
-    link:
-    - content: http://www.w3.org/TR/2009/WD-ATAG20-20091029/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20091029
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20091029
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20081124
-    link:
-    - content: http://www.w3.org/TR/2008/WD-ATAG20-20081124/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20081124
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20081124
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20061207
-    link:
-    - content: http://www.w3.org/TR/2006/WD-ATAG20-20061207/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20061207
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20061207
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20041122
-    link:
-    - content: http://www.w3.org/TR/2004/WD-ATAG20-20041122/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20041122
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20041122
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-ATAG20-20030314
-    link:
-    - content: http://www.w3.org/TR/2003/WD-ATAG20-20030314/
-      type: src
-    docid:
-    - id: W3C WD-ATAG20-20030314
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20030314
+      content: W3C REC-ATAG20-20150924
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: ATAG20
 doctype:

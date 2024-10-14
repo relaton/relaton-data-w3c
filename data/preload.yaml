@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CDISC-preload-20220331
-    link:
-    - content: https://www.w3.org/TR/2022/DISC-preload-20220331/
-      type: src
-    docid:
-    - id: W3C DISC-preload-20220331
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DISC-preload-20220331
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-preload-20190626
@@ -53,48 +43,22 @@ relation:
     formattedref:
       content: W3C CR-preload-20190626
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CCR-preload-20171026
+    id: W3CDISC-preload-20220331
     link:
-    - content: https://www.w3.org/TR/2017/CR-preload-20171026/
+    - content: https://www.w3.org/TR/2022/DISC-preload-20220331/
       type: src
     docid:
-    - id: W3C CR-preload-20171026
+    - id: W3C DISC-preload-20220331
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-preload-20171026
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-preload-20161130
-    link:
-    - content: https://www.w3.org/TR/2016/WD-preload-20161130/
-      type: src
-    docid:
-    - id: W3C WD-preload-20161130
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-preload-20161130
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-preload-20151007
-    link:
-    - content: http://www.w3.org/TR/2015/WD-preload-20151007/
-      type: src
-    docid:
-    - id: W3C WD-preload-20151007
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-preload-20151007
+      content: W3C DISC-preload-20220331
       format: text/plain
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C CR
     format: text/plain
   number: preload
 doctype:

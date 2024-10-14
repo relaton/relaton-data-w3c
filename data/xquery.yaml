@@ -5,7 +5,7 @@ title:
 - content: 'XQuery 1.0: An XML Query Language'
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xquery/
+- content: http://www.w3.org/TR/xquery
   type: src
 type: standard
 docid:
@@ -28,99 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-xquery-20070123
-    link:
-    - content: https://www.w3.org/TR/2007/REC-xquery-20070123/
-      type: src
-    docid:
-    - id: W3C REC-xquery-20070123
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xquery-20070123
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-xquery-20101214
-    link:
-    - content: https://www.w3.org/TR/2010/REC-xquery-20101214/
-      type: src
-    docid:
-    - id: W3C REC-xquery-20101214
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xquery-20101214
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPER-xquery-20090421
-    link:
-    - content: http://www.w3.org/TR/2009/PER-xquery-20090421/
-      type: src
-    docid:
-    - id: W3C PER-xquery-20090421
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PER-xquery-20090421
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-xquery-20061121
-    link:
-    - content: http://www.w3.org/TR/2006/PR-xquery-20061121/
-      type: src
-    docid:
-    - id: W3C PR-xquery-20061121
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-xquery-20061121
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-xquery-20051103
-    link:
-    - content: http://www.w3.org/TR/2005/CR-xquery-20051103/
-      type: src
-    docid:
-    - id: W3C CR-xquery-20051103
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-xquery-20051103
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xquery-20041029
-    link:
-    - content: http://www.w3.org/TR/2004/WD-xquery-20041029/
-      type: src
-    docid:
-    - id: W3C WD-xquery-20041029
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xquery-20041029
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xquery-20031112
-    link:
-    - content: http://www.w3.org/TR/2003/WD-xquery-20031112/
-      type: src
-    docid:
-    - id: W3C WD-xquery-20031112
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xquery-20031112
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-xquery-20021115
@@ -134,9 +43,35 @@ relation:
     formattedref:
       content: W3C WD-xquery-20021115
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20030502
+    link:
+    - content: http://www.w3.org/TR/2003/WD-xquery-20030502/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20030502
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xquery-20030502
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-xquery-20051103
+    link:
+    - content: http://www.w3.org/TR/2005/CR-xquery-20051103/
+      type: src
+    docid:
+    - id: W3C CR-xquery-20051103
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xquery-20051103
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xquery
 doctype:

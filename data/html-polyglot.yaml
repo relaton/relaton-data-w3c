@@ -5,7 +5,7 @@ title:
 - content: 'Polyglot Markup: A robust profile of the HTML5 vocabulary'
   format: text/plain
 link:
-- content: https://www.w3.org/TR/html-polyglot/
+- content: http://www.w3.org/TR/html-polyglot/
   type: src
 type: standard
 docid:
@@ -26,33 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-html-polyglot-20150929
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-html-polyglot-20150929/
-      type: src
-    docid:
-    - id: W3C NOTE-html-polyglot-20150929
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-html-polyglot-20150929
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-html-polyglot-20140717
-    link:
-    - content: http://www.w3.org/TR/2014/CR-html-polyglot-20140717/
-      type: src
-    docid:
-    - id: W3C CR-html-polyglot-20140717
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-html-polyglot-20140717
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-html-polyglot-20131022
@@ -66,48 +43,22 @@ relation:
     formattedref:
       content: W3C WD-html-polyglot-20131022
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-html-polyglot-20121025
+    id: W3CNOTE-html-polyglot-20150929
     link:
-    - content: http://www.w3.org/TR/2012/WD-html-polyglot-20121025/
+    - content: http://www.w3.org/TR/2015/NOTE-html-polyglot-20150929/
       type: src
     docid:
-    - id: W3C WD-html-polyglot-20121025
+    - id: W3C NOTE-html-polyglot-20150929
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-html-polyglot-20121025
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-html-polyglot-20110525
-    link:
-    - content: http://www.w3.org/TR/2011/WD-html-polyglot-20110525/
-      type: src
-    docid:
-    - id: W3C WD-html-polyglot-20110525
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-html-polyglot-20110525
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-html-polyglot-20101019
-    link:
-    - content: http://www.w3.org/TR/2010/WD-html-polyglot-20101019/
-      type: src
-    docid:
-    - id: W3C WD-html-polyglot-20101019
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-html-polyglot-20101019
+      content: W3C NOTE-html-polyglot-20150929
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: html-polyglot
 doctype:

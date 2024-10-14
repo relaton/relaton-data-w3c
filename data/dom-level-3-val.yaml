@@ -5,7 +5,7 @@ title:
 - content: Document Object Model (DOM) Level 3 Validation Specification
   format: text/plain
 link:
-- content: https://www.w3.org/TR/DOM-Level-3-Val/
+- content: http://www.w3.org/TR/DOM-Level-3-Val
   type: src
 type: standard
 docid:
@@ -28,20 +28,33 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-DOM-Level-3-Val-20040127
+    id: W3CWD-DOM-Level-3-Val-20021008
     link:
-    - content: https://www.w3.org/TR/2004/REC-DOM-Level-3-Val-20040127/
+    - content: http://www.w3.org/TR/2002/WD-DOM-Level-3-Val-20021008
       type: src
     docid:
-    - id: W3C REC-DOM-Level-3-Val-20040127
+    - id: W3C WD-DOM-Level-3-Val-20021008
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-DOM-Level-3-Val-20040127
+      content: W3C WD-DOM-Level-3-Val-20021008
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-DOM-Level-3-Val-20030205
+    link:
+    - content: http://www.w3.org/TR/2003/WD-DOM-Level-3-Val-20030205
+      type: src
+    docid:
+    - id: W3C WD-DOM-Level-3-Val-20030205
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-DOM-Level-3-Val-20030205
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -56,22 +69,22 @@ relation:
     formattedref:
       content: W3C CR-DOM-Level-3-Val-20030730
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-DOM-Level-3-Val-20021008
+    id: W3CREC-DOM-Level-3-Val-20040127
     link:
-    - content: http://www.w3.org/TR/2002/WD-DOM-Level-3-Val-20021008
+    - content: http://www.w3.org/TR/2004/REC-DOM-Level-3-Val-20040127
       type: src
     docid:
-    - id: W3C WD-DOM-Level-3-Val-20021008
+    - id: W3C REC-DOM-Level-3-Val-20040127
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-DOM-Level-3-Val-20021008
+      content: W3C REC-DOM-Level-3-Val-20040127
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: DOM-Level-3-Val
 doctype:

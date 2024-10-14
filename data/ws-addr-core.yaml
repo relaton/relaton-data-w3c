@@ -5,7 +5,7 @@ title:
 - content: Web Services Addressing 1.0 - Core
   format: text/plain
 link:
-- content: https://www.w3.org/TR/ws-addr-core/
+- content: http://www.w3.org/TR/ws-addr-core
   type: src
 type: standard
 docid:
@@ -28,13 +28,26 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CPR-ws-addr-core-20060321
+    link:
+    - content: http://www.w3.org/TR/2006/PR-ws-addr-core-20060321
+      type: src
+    docid:
+    - id: W3C PR-ws-addr-core-20060321
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-ws-addr-core-20060321
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-ws-addr-core-20060509
     link:
-    - content: https://www.w3.org/TR/2006/REC-ws-addr-core-20060509/
+    - content: http://www.w3.org/TR/2006/REC-ws-addr-core-20060509
       type: src
     docid:
     - id: W3C REC-ws-addr-core-20060509
@@ -43,22 +56,9 @@ relation:
     formattedref:
       content: W3C REC-ws-addr-core-20060509
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-ws-addr-core-20050817
-    link:
-    - content: http://www.w3.org/TR/2005/CR-ws-addr-core-20050817
-      type: src
-    docid:
-    - id: W3C CR-ws-addr-core-20050817
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-ws-addr-core-20050817
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PR
     format: text/plain
   number: ws-addr-core
 doctype:

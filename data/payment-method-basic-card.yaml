@@ -26,32 +26,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-payment-method-basic-card-20210827
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-payment-method-basic-card-20210827/
-      type: src
-    docid:
-    - id: W3C NOTE-payment-method-basic-card-20210827
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-payment-method-basic-card-20210827
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-payment-method-basic-card-20200213
+    id: W3CWD-payment-method-basic-card-20190425
     link:
-    - content: https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200213/
+    - content: https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190425/
       type: src
     docid:
-    - id: W3C WD-payment-method-basic-card-20200213
+    - id: W3C WD-payment-method-basic-card-20190425
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-payment-method-basic-card-20200213
+      content: W3C WD-payment-method-basic-card-20190425
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -68,46 +58,98 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-payment-method-basic-card-20181220
+    id: W3CWD-payment-method-basic-card-20200213
     link:
-    - content: https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181220/
+    - content: https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200213/
       type: src
     docid:
-    - id: W3C WD-payment-method-basic-card-20181220
+    - id: W3C WD-payment-method-basic-card-20200213
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-payment-method-basic-card-20181220
+      content: W3C WD-payment-method-basic-card-20200213
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-payment-method-basic-card-20170727
+    id: W3CWD-payment-method-basic-card-20190730
     link:
-    - content: https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170727/
+    - content: https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190730/
       type: src
     docid:
-    - id: W3C WD-payment-method-basic-card-20170727
+    - id: W3C WD-payment-method-basic-card-20190730
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-payment-method-basic-card-20170727
+      content: W3C WD-payment-method-basic-card-20190730
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-payment-method-basic-card-20210827
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-payment-method-basic-card-20210827/
+      type: src
+    docid:
+    - id: W3C NOTE-payment-method-basic-card-20210827
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-payment-method-basic-card-20210827
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-payment-method-basic-card-20161220
+    id: W3CWD-payment-method-basic-card-20190917
     link:
-    - content: https://www.w3.org/TR/2016/WD-payment-method-basic-card-20161220/
+    - content: https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190917/
       type: src
     docid:
-    - id: W3C WD-payment-method-basic-card-20161220
+    - id: W3C WD-payment-method-basic-card-20190917
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-payment-method-basic-card-20161220
+      content: W3C WD-payment-method-basic-card-20190917
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-payment-method-basic-card-20200123
+    link:
+    - content: https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200123/
+      type: src
+    docid:
+    - id: W3C WD-payment-method-basic-card-20200123
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-payment-method-basic-card-20200123
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-payment-method-basic-card-20191119
+    link:
+    - content: https://www.w3.org/TR/2019/WD-payment-method-basic-card-20191119/
+      type: src
+    docid:
+    - id: W3C WD-payment-method-basic-card-20191119
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-payment-method-basic-card-20191119
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-payment-method-basic-card-20200212
+    link:
+    - content: https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200212/
+      type: src
+    docid:
+    - id: W3C WD-payment-method-basic-card-20200212
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-payment-method-basic-card-20200212
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: payment-method-basic-card
 doctype:

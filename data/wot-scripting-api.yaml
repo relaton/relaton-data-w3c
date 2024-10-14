@@ -26,32 +26,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-wot-scripting-api-20231003
-    link:
-    - content: https://www.w3.org/TR/2023/NOTE-wot-scripting-api-20231003/
-      type: src
-    docid:
-    - id: W3C NOTE-wot-scripting-api-20231003
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-wot-scripting-api-20231003
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-wot-scripting-api-20201124
+    id: W3CWD-wot-scripting-api-20181129
     link:
-    - content: https://www.w3.org/TR/2020/NOTE-wot-scripting-api-20201124/
+    - content: https://www.w3.org/TR/2018/WD-wot-scripting-api-20181129/
       type: src
     docid:
-    - id: W3C NOTE-wot-scripting-api-20201124
+    - id: W3C WD-wot-scripting-api-20181129
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-wot-scripting-api-20201124
+      content: W3C WD-wot-scripting-api-20181129
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -68,33 +58,33 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-wot-scripting-api-20181129
+    id: W3CNOTE-wot-scripting-api-20201124
     link:
-    - content: https://www.w3.org/TR/2018/WD-wot-scripting-api-20181129/
+    - content: https://www.w3.org/TR/2020/NOTE-wot-scripting-api-20201124/
       type: src
     docid:
-    - id: W3C WD-wot-scripting-api-20181129
+    - id: W3C NOTE-wot-scripting-api-20201124
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wot-scripting-api-20181129
+      content: W3C NOTE-wot-scripting-api-20201124
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-wot-scripting-api-20170914
+    id: W3CNOTE-wot-scripting-api-20231003
     link:
-    - content: https://www.w3.org/TR/2017/WD-wot-scripting-api-20170914/
+    - content: https://www.w3.org/TR/2023/NOTE-wot-scripting-api-20231003/
       type: src
     docid:
-    - id: W3C WD-wot-scripting-api-20170914
+    - id: W3C NOTE-wot-scripting-api-20231003
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-wot-scripting-api-20170914
+      content: W3C NOTE-wot-scripting-api-20231003
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: wot-scripting-api
 doctype:

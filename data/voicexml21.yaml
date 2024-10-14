@@ -5,7 +5,7 @@ title:
 - content: Voice Extensible Markup Language (VoiceXML) 2.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/voicexml21/
+- content: http://www.w3.org/TR/voicexml21/
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-voicexml21-20070619
-    link:
-    - content: https://www.w3.org/TR/2007/REC-voicexml21-20070619/
-      type: src
-    docid:
-    - id: W3C REC-voicexml21-20070619
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-voicexml21-20070619
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-voicexml21-20060915
-    link:
-    - content: http://www.w3.org/TR/2006/WD-voicexml21-20060915/
-      type: src
-    docid:
-    - id: W3C WD-voicexml21-20060915
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-voicexml21-20060915
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-voicexml21-20050613
@@ -69,22 +43,22 @@ relation:
     formattedref:
       content: W3C CR-voicexml21-20050613
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-voicexml21-20040728
+    id: W3CREC-voicexml21-20070619
     link:
-    - content: http://www.w3.org/TR/2004/WD-voicexml21-20040728/
+    - content: http://www.w3.org/TR/2007/REC-voicexml21-20070619/
       type: src
     docid:
-    - id: W3C WD-voicexml21-20040728
+    - id: W3C REC-voicexml21-20070619
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-voicexml21-20040728
+      content: W3C REC-voicexml21-20070619
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: voicexml21
 doctype:

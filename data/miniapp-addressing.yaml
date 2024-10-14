@@ -26,32 +26,35 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20240625
+    id: W3CDNOTE-miniapp-addressing-20220310
     link:
-    - content: https://www.w3.org/TR/2024/DNOTE-miniapp-addressing-20240625/
+    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220310/
       type: src
     docid:
-    - id: W3C DNOTE-miniapp-addressing-20240625
+    - id: W3C DNOTE-miniapp-addressing-20220310
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-miniapp-addressing-20240625
+      content: W3C DNOTE-miniapp-addressing-20220310
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-miniapp-addressing-20240131
+    id: W3CDNOTE-miniapp-addressing-20220311
     link:
-    - content: https://www.w3.org/TR/2024/WD-miniapp-addressing-20240131/
+    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220311/
       type: src
     docid:
-    - id: W3C WD-miniapp-addressing-20240131
+    - id: W3C DNOTE-miniapp-addressing-20220311
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-miniapp-addressing-20240131
+      content: W3C DNOTE-miniapp-addressing-20220311
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -68,16 +71,29 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220311
+    id: W3CWD-miniapp-addressing-20240131
     link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220311/
+    - content: https://www.w3.org/TR/2024/WD-miniapp-addressing-20240131/
       type: src
     docid:
-    - id: W3C DNOTE-miniapp-addressing-20220311
+    - id: W3C WD-miniapp-addressing-20240131
       type: W3C
       primary: true
     formattedref:
-      content: W3C DNOTE-miniapp-addressing-20220311
+      content: W3C WD-miniapp-addressing-20240131
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CDNOTE-miniapp-addressing-20240625
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-miniapp-addressing-20240625/
+      type: src
+    docid:
+    - id: W3C DNOTE-miniapp-addressing-20240625
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C DNOTE-miniapp-addressing-20240625
       format: text/plain
 series:
 - title:

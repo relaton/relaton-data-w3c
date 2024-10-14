@@ -26,7 +26,23 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-dx-prof-20190402
+    link:
+    - content: https://www.w3.org/TR/2019/WD-dx-prof-20190402/
+      type: src
+    docid:
+    - id: W3C WD-dx-prof-20190402
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-dx-prof-20190402
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CNOTE-dx-prof-20191218
@@ -40,22 +56,9 @@ relation:
     formattedref:
       content: W3C NOTE-dx-prof-20191218
       format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-dx-prof-20181218
-    link:
-    - content: https://www.w3.org/TR/2018/WD-dx-prof-20181218/
-      type: src
-    docid:
-    - id: W3C WD-dx-prof-20181218
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-dx-prof-20181218
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: dx-prof
 doctype:

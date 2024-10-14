@@ -5,7 +5,7 @@ title:
 - content: XML Linking Language (XLink) Version 1.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xlink11/
+- content: http://www.w3.org/TR/xlink11/
   type: src
 type: standard
 docid:
@@ -28,33 +28,20 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-xlink11-20100506
-    link:
-    - content: https://www.w3.org/TR/2010/REC-xlink11-20100506/
-      type: src
-    docid:
-    - id: W3C REC-xlink11-20100506
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xlink11-20100506
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-xlink11-20080331
+    id: W3CWD-xlink11-20050707
     link:
-    - content: http://www.w3.org/TR/2008/WD-xlink11-20080331/
+    - content: http://www.w3.org/TR/2005/WD-xlink11-20050707/
       type: src
     docid:
-    - id: W3C WD-xlink11-20080331
+    - id: W3C WD-xlink11-20050707
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xlink11-20080331
+      content: W3C WD-xlink11-20050707
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -69,22 +56,22 @@ relation:
     formattedref:
       content: W3C CR-xlink11-20060328
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-xlink11-20050707
+    id: W3CREC-xlink11-20100506
     link:
-    - content: http://www.w3.org/TR/2005/WD-xlink11-20050707/
+    - content: http://www.w3.org/TR/2010/REC-xlink11-20100506/
       type: src
     docid:
-    - id: W3C WD-xlink11-20050707
+    - id: W3C REC-xlink11-20100506
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xlink11-20050707
+      content: W3C REC-xlink11-20100506
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xlink11
 doctype:

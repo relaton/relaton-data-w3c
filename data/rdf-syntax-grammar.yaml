@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Crdf-syntax-grammar
 title:
-- content: RDF 1.1 XML Syntax
+- content: RDF/XML Syntax Specification (Revised)
   format: text/plain
 link:
-- content: https://www.w3.org/TR/rdf-syntax-grammar/
+- content: http://www.w3.org/TR/rdf-syntax-grammar
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-rdf-syntax-grammar-20040210
-    link:
-    - content: https://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/
-      type: src
-    docid:
-    - id: W3C REC-rdf-syntax-grammar-20040210
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-syntax-grammar-20040210
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-rdf-syntax-grammar-20140225
-    link:
-    - content: https://www.w3.org/TR/2014/REC-rdf-syntax-grammar-20140225/
-      type: src
-    docid:
-    - id: W3C REC-rdf-syntax-grammar-20140225
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-syntax-grammar-20140225
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rdf-syntax-grammar-20031010
-    link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20031010/
-      type: src
-    docid:
-    - id: W3C WD-rdf-syntax-grammar-20031010
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rdf-syntax-grammar-20031010
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-rdf-syntax-grammar-20021108
@@ -82,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-rdf-syntax-grammar-20021108
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20030123
+    link:
+    - content: http://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20030123
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20030123
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-rdf-syntax-grammar-20030123
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: rdf-syntax-grammar
 doctype:

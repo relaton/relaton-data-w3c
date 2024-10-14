@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-dom41-20200317
-    link:
-    - content: https://www.w3.org/TR/2020/NOTE-dom41-20200317/
-      type: src
-    docid:
-    - id: W3C NOTE-dom41-20200317
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-dom41-20200317
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-dom41-20180201
@@ -53,22 +43,22 @@ relation:
     formattedref:
       content: W3C WD-dom41-20180201
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-dom41-20171207
+    id: W3CNOTE-dom41-20200317
     link:
-    - content: https://www.w3.org/TR/2017/WD-dom41-20171207/
+    - content: https://www.w3.org/TR/2020/NOTE-dom41-20200317/
       type: src
     docid:
-    - id: W3C WD-dom41-20171207
+    - id: W3C NOTE-dom41-20200317
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-dom41-20171207
+      content: W3C NOTE-dom41-20200317
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: dom41
 doctype:

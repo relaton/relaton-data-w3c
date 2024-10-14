@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cmedia-source
 title:
-- content: Media Source Extensions™
+- content: Media Source Extensions
   format: text/plain
 link:
-- content: https://www.w3.org/TR/media-source/
+- content: http://www.w3.org/TR/media-source/
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CREC-media-source-20161117
-    link:
-    - content: https://www.w3.org/TR/2016/REC-media-source-20161117/
-      type: src
-    docid:
-    - id: W3C REC-media-source-20161117
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-media-source-20161117
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-media-source-20151112
-    link:
-    - content: http://www.w3.org/TR/2015/CR-media-source-20151112/
-      type: src
-    docid:
-    - id: W3C CR-media-source-20151112
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-media-source-20151112
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-media-source-20140717
-    link:
-    - content: http://www.w3.org/TR/2014/CR-media-source-20140717/
-      type: src
-    docid:
-    - id: W3C CR-media-source-20140717
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-media-source-20140717
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-media-source-20130905
@@ -82,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-media-source-20130905
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-media-source-20140109
+    link:
+    - content: http://www.w3.org/TR/2014/CR-media-source-20140109/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20140109
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-media-source-20140109
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: media-source
 doctype:

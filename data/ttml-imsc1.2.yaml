@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ttml-imsc1.2-20191128
+    link:
+    - content: https://www.w3.org/TR/2019/WD-ttml-imsc1.2-20191128/
+      type: src
+    docid:
+    - id: W3C WD-ttml-imsc1.2-20191128
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ttml-imsc1.2-20191128
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-ttml-imsc1.2-20200804
@@ -45,20 +58,33 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-ttml-imsc1.2-20191128
+    id: W3CCR-ttml-imsc1.2-20200324
     link:
-    - content: https://www.w3.org/TR/2019/WD-ttml-imsc1.2-20191128/
+    - content: https://www.w3.org/TR/2020/CR-ttml-imsc1.2-20200324/
       type: src
     docid:
-    - id: W3C WD-ttml-imsc1.2-20191128
+    - id: W3C CR-ttml-imsc1.2-20200324
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-ttml-imsc1.2-20191128
+      content: W3C CR-ttml-imsc1.2-20200324
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-ttml-imsc1.2-20200616
+    link:
+    - content: https://www.w3.org/TR/2020/PR-ttml-imsc1.2-20200616/
+      type: src
+    docid:
+    - id: W3C PR-ttml-imsc1.2-20200616
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-ttml-imsc1.2-20200616
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: ttml-imsc1.2
 doctype:

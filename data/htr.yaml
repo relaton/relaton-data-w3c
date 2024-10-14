@@ -27,19 +27,6 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-htr-20221213
-    link:
-    - content: https://www.w3.org/TR/2022/NOTE-htr-20221213/
-      type: src
-    docid:
-    - id: W3C NOTE-htr-20221213
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-htr-20221213
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CNOTE-htr-20201105
@@ -52,6 +39,19 @@ relation:
       primary: true
     formattedref:
       content: W3C NOTE-htr-20201105
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-htr-20221213
+    link:
+    - content: https://www.w3.org/TR/2022/NOTE-htr-20221213/
+      type: src
+    docid:
+    - id: W3C NOTE-htr-20221213
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-htr-20221213
       format: text/plain
 series:
 - title:

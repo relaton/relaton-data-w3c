@@ -5,7 +5,7 @@ title:
 - content: Pointer Events
   format: text/plain
 link:
-- content: https://www.w3.org/TR/pointerevents/
+- content: http://www.w3.org/TR/pointerevents/
   type: src
 type: standard
 docid:
@@ -28,47 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CREC-pointerevents-20150224
-    link:
-    - content: https://www.w3.org/TR/2015/REC-pointerevents-20150224/
-      type: src
-    docid:
-    - id: W3C REC-pointerevents-20150224
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-pointerevents-20150224
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-pointerevents1-20190404
-    link:
-    - content: https://www.w3.org/TR/2019/SPSD-pointerevents1-20190404/
-      type: src
-    docid:
-    - id: W3C SPSD-pointerevents1-20190404
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-pointerevents1-20190404
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-pointerevents-20141216
-    link:
-    - content: http://www.w3.org/TR/2014/PR-pointerevents-20141216/
-      type: src
-    docid:
-    - id: W3C PR-pointerevents-20141216
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-pointerevents-20141216
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-pointerevents-20130509
@@ -82,22 +43,22 @@ relation:
     formattedref:
       content: W3C CR-pointerevents-20130509
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-pointerevents-20121211
+    id: W3CREC-pointerevents-20150224
     link:
-    - content: http://www.w3.org/TR/2012/WD-pointerevents-20121211/
+    - content: http://www.w3.org/TR/2015/REC-pointerevents-20150224/
       type: src
     docid:
-    - id: W3C WD-pointerevents-20121211
+    - id: W3C REC-pointerevents-20150224
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-pointerevents-20121211
+      content: W3C REC-pointerevents-20150224
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: pointerevents
 doctype:

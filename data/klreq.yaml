@@ -2,11 +2,11 @@
 schema-version: v1.2.9
 id: W3Cklreq
 title:
-- content: 'Requirements for Hangul Text Layout and Typography : 한국어 텍스트 레이아웃 및 타이포그래피를
-    위한 요구사항'
+- content: Requirements for Hangul Text Layout and Typography 한국어 텍스트 레이아웃 및 타이포그래피를
+    위한 요구사항
   format: text/plain
 link:
-- content: https://www.w3.org/TR/klreq/
+- content: http://www.w3.org/TR/klreq/
   type: src
 type: standard
 docid:
@@ -27,33 +27,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-klreq-20200527
-    link:
-    - content: https://www.w3.org/TR/2020/NOTE-klreq-20200527/
-      type: src
-    docid:
-    - id: W3C NOTE-klreq-20200527
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-klreq-20200527
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-klreq-20150723
-    link:
-    - content: http://www.w3.org/TR/2015/WD-klreq-20150723/
-      type: src
-    docid:
-    - id: W3C WD-klreq-20150723
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-klreq-20150723
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-klreq-20130514
@@ -67,9 +44,22 @@ relation:
     formattedref:
       content: W3C WD-klreq-20130514
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-klreq-20150723
+    link:
+    - content: http://www.w3.org/TR/2015/WD-klreq-20150723/
+      type: src
+    docid:
+    - id: W3C WD-klreq-20150723
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-klreq-20150723
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: klreq
 doctype:

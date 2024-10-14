@@ -5,7 +5,7 @@ title:
 - content: XFrames
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xframes/
+- content: http://www.w3.org/TR/xframes
   type: src
 type: standard
 docid:
@@ -26,19 +26,22 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-xframes-20101216
+    id: W3CWD-xframes-20020806
     link:
-    - content: https://www.w3.org/TR/2010/NOTE-xframes-20101216/
+    - content: http://www.w3.org/TR/2002/WD-xframes-20020806
       type: src
     docid:
-    - id: W3C NOTE-xframes-20101216
+    - id: W3C WD-xframes-20020806
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-xframes-20101216
+      content: W3C WD-xframes-20020806
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -53,22 +56,22 @@ relation:
     formattedref:
       content: W3C WD-xframes-20051012
       format: text/plain
-- type: hasEdition
+- type: instanceOf
   bibitem:
-    id: W3CWD-xframes-20020806
+    id: W3CNOTE-xframes-20101216
     link:
-    - content: http://www.w3.org/TR/2002/WD-xframes-20020806
+    - content: http://www.w3.org/TR/2010/NOTE-xframes-20101216
       type: src
     docid:
-    - id: W3C WD-xframes-20020806
+    - id: W3C NOTE-xframes-20101216
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-xframes-20020806
+      content: W3C NOTE-xframes-20101216
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: xframes
 doctype:

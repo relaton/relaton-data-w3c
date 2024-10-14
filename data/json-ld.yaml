@@ -5,7 +5,7 @@ title:
 - content: JSON-LD 1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/json-ld/
+- content: http://www.w3.org/TR/json-ld/
   type: src
 type: standard
 docid:
@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Recommendation
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CSPSD-json-ld-20201103
-    link:
-    - content: https://www.w3.org/TR/2020/SPSD-json-ld-20201103/
-      type: src
-    docid:
-    - id: W3C SPSD-json-ld-20201103
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C SPSD-json-ld-20201103
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-json-ld-20140116
-    link:
-    - content: https://www.w3.org/TR/2014/REC-json-ld-20140116/
-      type: src
-    docid:
-    - id: W3C REC-json-ld-20140116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-json-ld-20140116
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CPR-json-ld-20131105
@@ -69,9 +43,22 @@ relation:
     formattedref:
       content: W3C PR-json-ld-20131105
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-json-ld-20140116
+    link:
+    - content: http://www.w3.org/TR/2014/REC-json-ld-20140116/
+      type: src
+    docid:
+    - id: W3C REC-json-ld-20140116
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-json-ld-20140116
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PR
     format: text/plain
   number: json-ld
 doctype:

@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cspeech-synthesis
 title:
-- content: Speech Synthesis Markup Language (SSML) Version 1.0
+- content: Speech Synthesis Markup Language Version 1.0
   format: text/plain
 link:
-- content: https://www.w3.org/TR/speech-synthesis/
+- content: http://www.w3.org/TR/speech-synthesis
   type: src
 type: standard
 docid:
@@ -28,22 +28,9 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
 - type: instanceOf
-  bibitem:
-    id: W3CREC-speech-synthesis-20040907
-    link:
-    - content: https://www.w3.org/TR/2004/REC-speech-synthesis-20040907/
-      type: src
-    docid:
-    - id: W3C REC-speech-synthesis-20040907
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-speech-synthesis-20040907
-      format: text/plain
-- type: hasEdition
   bibitem:
     id: W3CWD-speech-synthesis-20021202
     link:
@@ -58,7 +45,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: speech-synthesis
 doctype:

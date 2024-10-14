@@ -5,7 +5,7 @@ title:
 - content: Runtime and Security Model for Web Applications
   format: text/plain
 link:
-- content: https://www.w3.org/TR/runtime/
+- content: http://www.w3.org/TR/runtime/
   type: src
 type: standard
 docid:
@@ -26,20 +26,10 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-runtime-20150806
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-runtime-20150806/
-      type: src
-    docid:
-    - id: W3C NOTE-runtime-20150806
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-runtime-20150806
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-runtime-20130321
@@ -53,9 +43,22 @@ relation:
     formattedref:
       content: W3C WD-runtime-20130321
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-runtime-20150806
+    link:
+    - content: http://www.w3.org/TR/2015/NOTE-runtime-20150806/
+      type: src
+    docid:
+    - id: W3C NOTE-runtime-20150806
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-runtime-20150806
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: runtime
 doctype:
