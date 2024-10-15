@@ -28,34 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: hasEdition
-  bibitem:
-    id: W3CCR-pub-manifest-20191205
-    link:
-    - content: https://www.w3.org/TR/2019/CR-pub-manifest-20191205/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20191205
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-pub-manifest-20191205
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-pub-manifest-20201110
-    link:
-    - content: https://www.w3.org/TR/2020/REC-pub-manifest-20201110/
-      type: src
-    docid:
-    - id: W3C REC-pub-manifest-20201110
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-pub-manifest-20201110
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-pub-manifest-20190827
@@ -68,32 +42,6 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-pub-manifest-20190827
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-pub-manifest-20200317
-    link:
-    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200317/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20200317
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-pub-manifest-20200317
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-pub-manifest-20191118
-    link:
-    - content: https://www.w3.org/TR/2019/WD-pub-manifest-20191118/
-      type: src
-    docid:
-    - id: W3C WD-pub-manifest-20191118
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-pub-manifest-20191118
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -110,6 +58,32 @@ relation:
       format: text/plain
 - type: hasEdition
   bibitem:
+    id: W3CWD-pub-manifest-20191118
+    link:
+    - content: https://www.w3.org/TR/2019/WD-pub-manifest-20191118/
+      type: src
+    docid:
+    - id: W3C WD-pub-manifest-20191118
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-pub-manifest-20191118
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-pub-manifest-20191205
+    link:
+    - content: https://www.w3.org/TR/2019/CR-pub-manifest-20191205/
+      type: src
+    docid:
+    - id: W3C CR-pub-manifest-20191205
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-pub-manifest-20191205
+      format: text/plain
+- type: hasEdition
+  bibitem:
     id: W3CCR-pub-manifest-20200128
     link:
     - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200128/
@@ -120,6 +94,19 @@ relation:
       primary: true
     formattedref:
       content: W3C CR-pub-manifest-20200128
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-pub-manifest-20200317
+    link:
+    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200317/
+      type: src
+    docid:
+    - id: W3C CR-pub-manifest-20200317
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-pub-manifest-20200317
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -173,9 +160,22 @@ relation:
     formattedref:
       content: W3C PR-pub-manifest-20201001
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-pub-manifest-20201110
+    link:
+    - content: https://www.w3.org/TR/2020/REC-pub-manifest-20201110/
+      type: src
+    docid:
+    - id: W3C REC-pub-manifest-20201110
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-pub-manifest-20201110
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: pub-manifest
 doctype:

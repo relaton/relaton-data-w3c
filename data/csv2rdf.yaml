@@ -28,24 +28,63 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-csv2rdf-20151217
+    id: W3CWD-csv2rdf-20150108
     link:
-    - content: http://www.w3.org/TR/2015/REC-csv2rdf-20151217/
+    - content: http://www.w3.org/TR/2015/WD-csv2rdf-20150108/
       type: src
     docid:
-    - id: W3C REC-csv2rdf-20151217
+    - id: W3C WD-csv2rdf-20150108
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-csv2rdf-20151217
+      content: W3C WD-csv2rdf-20150108
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-csv2rdf-20150416
+    link:
+    - content: http://www.w3.org/TR/2015/WD-csv2rdf-20150416/
+      type: src
+    docid:
+    - id: W3C WD-csv2rdf-20150416
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-csv2rdf-20150416
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-csv2rdf-20150716
+    link:
+    - content: http://www.w3.org/TR/2015/CR-csv2rdf-20150716/
+      type: src
+    docid:
+    - id: W3C CR-csv2rdf-20150716
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-csv2rdf-20150716
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-csv2rdf-20151117
+    link:
+    - content: http://www.w3.org/TR/2015/PR-csv2rdf-20151117/
+      type: src
+    docid:
+    - id: W3C PR-csv2rdf-20151117
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-csv2rdf-20151117
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: csv2rdf
 doctype:

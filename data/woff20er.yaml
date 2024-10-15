@@ -26,23 +26,39 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-WOFF20ER-20160315
+    id: W3CWD-WOFF20ER-20140128
     link:
-    - content: http://www.w3.org/TR/2016/NOTE-WOFF20ER-20160315/
+    - content: http://www.w3.org/TR/2014/WD-WOFF20ER-20140128/
       type: src
     docid:
-    - id: W3C NOTE-WOFF20ER-20160315
+    - id: W3C WD-WOFF20ER-20140128
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-WOFF20ER-20160315
+      content: W3C WD-WOFF20ER-20140128
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-WOFF20ER-20150414
+    link:
+    - content: http://www.w3.org/TR/2015/WD-WOFF20ER-20150414/
+      type: src
+    docid:
+    - id: W3C WD-WOFF20ER-20150414
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WOFF20ER-20150414
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: WOFF20ER
 doctype:

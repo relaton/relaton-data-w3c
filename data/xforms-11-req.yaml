@@ -27,18 +27,31 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-xforms-11-req-20040831
+    id: W3CNOTE-xforms-11-req-20040126
     link:
-    - content: http://www.w3.org/TR/2004/NOTE-xforms-11-req-20040831/
+    - content: http://www.w3.org/TR/2004/NOTE-xforms-11-req-20040126/
       type: src
     docid:
-    - id: W3C NOTE-xforms-11-req-20040831
+    - id: W3C NOTE-xforms-11-req-20040126
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-xforms-11-req-20040831
+      content: W3C NOTE-xforms-11-req-20040126
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CNOTE-xforms-11-req-20040611
+    link:
+    - content: http://www.w3.org/TR/2004/NOTE-xforms-11-req-20040611/
+      type: src
+    docid:
+    - id: W3C NOTE-xforms-11-req-20040611
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C NOTE-xforms-11-req-20040611
       format: text/plain
 series:
 - title:

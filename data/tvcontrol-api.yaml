@@ -26,7 +26,36 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-tvcontrol-api-20160915
+    link:
+    - content: https://www.w3.org/TR/2016/WD-tvcontrol-api-20160915/
+      type: src
+    docid:
+    - id: W3C WD-tvcontrol-api-20160915
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-tvcontrol-api-20160915
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-tvcontrol-api-20170316
+    link:
+    - content: https://www.w3.org/TR/2017/WD-tvcontrol-api-20170316/
+      type: src
+    docid:
+    - id: W3C WD-tvcontrol-api-20170316
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-tvcontrol-api-20170316
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CNOTE-tvcontrol-api-20170518
@@ -42,7 +71,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: tvcontrol-api
 doctype:

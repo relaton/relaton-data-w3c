@@ -28,24 +28,50 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-xml-id-20050909
+    id: W3CWD-xml-id-20040407
     link:
-    - content: http://www.w3.org/TR/2005/REC-xml-id-20050909/
+    - content: http://www.w3.org/TR/2004/WD-xml-id-20040407
       type: src
     docid:
-    - id: W3C REC-xml-id-20050909
+    - id: W3C WD-xml-id-20040407
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-xml-id-20050909
+      content: W3C WD-xml-id-20040407
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-id-20041109
+    link:
+    - content: http://www.w3.org/TR/2004/WD-xml-id-20041109/
+      type: src
+    docid:
+    - id: W3C WD-xml-id-20041109
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xml-id-20041109
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-xml-id-20050208
+    link:
+    - content: http://www.w3.org/TR/2005/CR-xml-id-20050208/
+      type: src
+    docid:
+    - id: W3C CR-xml-id-20050208
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xml-id-20050208
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xml-id
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: Webmention
   format: text/plain
 link:
-- content: https://www.w3.org/TR/webmention/
+- content: http://www.w3.org/TR/webmention/
   type: src
 type: standard
 docid:
@@ -28,24 +28,89 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-webmention-20170112
+    id: W3CWD-webmention-20160112
     link:
-    - content: https://www.w3.org/TR/2017/REC-webmention-20170112/
+    - content: http://www.w3.org/TR/2016/WD-webmention-20160112/
       type: src
     docid:
-    - id: W3C REC-webmention-20170112
+    - id: W3C WD-webmention-20160112
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-webmention-20170112
+      content: W3C WD-webmention-20160112
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webmention-20160301
+    link:
+    - content: http://www.w3.org/TR/2016/WD-webmention-20160301/
+      type: src
+    docid:
+    - id: W3C WD-webmention-20160301
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webmention-20160301
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webmention-20160329
+    link:
+    - content: http://www.w3.org/TR/2016/WD-webmention-20160329/
+      type: src
+    docid:
+    - id: W3C WD-webmention-20160329
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webmention-20160329
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webmention-20160420
+    link:
+    - content: http://www.w3.org/TR/2016/WD-webmention-20160420/
+      type: src
+    docid:
+    - id: W3C WD-webmention-20160420
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webmention-20160420
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webmention-20160429
+    link:
+    - content: http://www.w3.org/TR/2016/WD-webmention-20160429/
+      type: src
+    docid:
+    - id: W3C WD-webmention-20160429
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webmention-20160429
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-webmention-20160524
+    link:
+    - content: http://www.w3.org/TR/2016/CR-webmention-20160524/
+      type: src
+    docid:
+    - id: W3C CR-webmention-20160524
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-webmention-20160524
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: webmention
 doctype:

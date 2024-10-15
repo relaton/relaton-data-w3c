@@ -27,7 +27,7 @@ language:
 script:
 - Latn
 relation:
-- type: hasEdition
+- type: instanceOf
   bibitem:
     id: W3CDNOTE-kore-gap-20230720
     link:
@@ -39,19 +39,6 @@ relation:
       primary: true
     formattedref:
       content: W3C DNOTE-kore-gap-20230720
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CDNOTE-kore-gap-20240710
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240710/
-      type: src
-    docid:
-    - id: W3C DNOTE-kore-gap-20240710
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-kore-gap-20240710
       format: text/plain
 series:
 - title:

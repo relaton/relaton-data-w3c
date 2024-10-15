@@ -28,24 +28,50 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CCR-ws-cdl-10-20051109
+    id: W3CWD-ws-cdl-10-20040427
     link:
-    - content: http://www.w3.org/TR/2005/CR-ws-cdl-10-20051109/
+    - content: http://www.w3.org/TR/2004/WD-ws-cdl-10-20040427/
       type: src
     docid:
-    - id: W3C CR-ws-cdl-10-20051109
+    - id: W3C WD-ws-cdl-10-20040427
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-ws-cdl-10-20051109
+      content: W3C WD-ws-cdl-10-20040427
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-cdl-10-20041012
+    link:
+    - content: http://www.w3.org/TR/2004/WD-ws-cdl-10-20041012/
+      type: src
+    docid:
+    - id: W3C WD-ws-cdl-10-20041012
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ws-cdl-10-20041012
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-ws-cdl-10-20041217
+    link:
+    - content: http://www.w3.org/TR/2004/WD-ws-cdl-10-20041217/
+      type: src
+    docid:
+    - id: W3C WD-ws-cdl-10-20041217
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ws-cdl-10-20041217
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: ws-cdl-10
 doctype:

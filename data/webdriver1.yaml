@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CPR-webdriver1-20180426
+    link:
+    - content: https://www.w3.org/TR/2018/PR-webdriver1-20180426/
+      type: src
+    docid:
+    - id: W3C PR-webdriver1-20180426
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-webdriver1-20180426
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-webdriver1-20180605
@@ -45,7 +58,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PR
     format: text/plain
   number: webdriver1
 doctype:

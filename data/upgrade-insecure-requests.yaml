@@ -28,24 +28,37 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CCR-upgrade-insecure-requests-20151008
+    id: W3CWD-upgrade-insecure-requests-20150226
     link:
-    - content: http://www.w3.org/TR/2015/CR-upgrade-insecure-requests-20151008/
+    - content: http://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150226/
       type: src
     docid:
-    - id: W3C CR-upgrade-insecure-requests-20151008
+    - id: W3C WD-upgrade-insecure-requests-20150226
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-upgrade-insecure-requests-20151008
+      content: W3C WD-upgrade-insecure-requests-20150226
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-upgrade-insecure-requests-20150424
+    link:
+    - content: http://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150424/
+      type: src
+    docid:
+    - id: W3C WD-upgrade-insecure-requests-20150424
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-upgrade-insecure-requests-20150424
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: upgrade-insecure-requests
 doctype:

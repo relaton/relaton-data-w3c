@@ -26,7 +26,23 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-swbp-specified-values-20040803
+    link:
+    - content: http://www.w3.org/TR/2004/WD-swbp-specified-values-20040803/
+      type: src
+    docid:
+    - id: W3C WD-swbp-specified-values-20040803
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-swbp-specified-values-20040803
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CNOTE-swbp-specified-values-20050517
@@ -42,7 +58,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: swbp-specified-values
 doctype:

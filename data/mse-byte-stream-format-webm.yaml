@@ -27,7 +27,7 @@ language:
 script:
 - Latn
 relation:
-- type: hasEdition
+- type: instanceOf
   bibitem:
     id: W3CNOTE-mse-byte-stream-format-webm-20161004
     link:
@@ -39,19 +39,6 @@ relation:
       primary: true
     formattedref:
       content: W3C NOTE-mse-byte-stream-format-webm-20161004
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CNOTE-mse-byte-stream-format-webm-20240723
-    link:
-    - content: https://www.w3.org/TR/2024/NOTE-mse-byte-stream-format-webm-20240723/
-      type: src
-    docid:
-    - id: W3C NOTE-mse-byte-stream-format-webm-20240723
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-mse-byte-stream-format-webm-20240723
       format: text/plain
 series:
 - title:

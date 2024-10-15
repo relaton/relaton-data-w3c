@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-pointerlock-20131217
+    link:
+    - content: http://www.w3.org/TR/2013/CR-pointerlock-20131217/
+      type: src
+    docid:
+    - id: W3C CR-pointerlock-20131217
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-pointerlock-20131217
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-pointerlock-20120529
+    link:
+    - content: http://www.w3.org/TR/2012/WD-pointerlock-20120529/
+      type: src
+    docid:
+    - id: W3C WD-pointerlock-20120529
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-pointerlock-20120529
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-pointerlock-20131031
@@ -45,20 +71,20 @@ relation:
       format: text/plain
 - type: instanceOf
   bibitem:
-    id: W3CCR-pointerlock-20131217
+    id: W3CCR-pointerlock-20160705
     link:
-    - content: http://www.w3.org/TR/2013/CR-pointerlock-20131217/
+    - content: http://www.w3.org/TR/2016/CR-pointerlock-20160705/
       type: src
     docid:
-    - id: W3C CR-pointerlock-20131217
+    - id: W3C CR-pointerlock-20160705
       type: W3C
       primary: true
     formattedref:
-      content: W3C CR-pointerlock-20131217
+      content: W3C CR-pointerlock-20160705
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
   number: pointerlock
 doctype:

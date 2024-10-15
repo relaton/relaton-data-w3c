@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Chtml-ruby-extensions
 title:
-- content: W3C HTML Ruby Markup Extensions
+- content: HTML Ruby Markup Extensions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/html-ruby-extensions/
+- content: https://www.w3.org/TR/html-ruby-extensions/
   type: src
 type: standard
 docid:
@@ -32,22 +32,9 @@ docstatus:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-html-ruby-extensions-20131022
-    link:
-    - content: http://www.w3.org/TR/2013/WD-html-ruby-extensions-20131022/
-      type: src
-    docid:
-    - id: W3C WD-html-ruby-extensions-20131022
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-html-ruby-extensions-20131022
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-html-ruby-extensions-20140204
     link:
-    - content: http://www.w3.org/TR/2014/NOTE-html-ruby-extensions-20140204/
+    - content: https://www.w3.org/TR/2014/NOTE-html-ruby-extensions-20140204/
       type: src
     docid:
     - id: W3C NOTE-html-ruby-extensions-20140204
@@ -56,9 +43,35 @@ relation:
     formattedref:
       content: W3C NOTE-html-ruby-extensions-20140204
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-html-ruby-extensions-20240523
+    link:
+    - content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240523/
+      type: src
+    docid:
+    - id: W3C WD-html-ruby-extensions-20240523
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-html-ruby-extensions-20240523
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-html-ruby-extensions-20240529
+    link:
+    - content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240529/
+      type: src
+    docid:
+    - id: W3C WD-html-ruby-extensions-20240529
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-html-ruby-extensions-20240529
+      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C NOTE
     format: text/plain
   number: html-ruby-extensions
 doctype:

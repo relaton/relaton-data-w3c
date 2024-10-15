@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cvehicle-information-api
 title:
-- content: Vehicle Information API Specification
+- content: Vehicle Information Access API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/vehicle-information-api/
+- content: http://www.w3.org/TR/vehicle-information-api/
   type: src
 type: standard
 docid:
@@ -26,23 +26,39 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-vehicle-information-api-20180626
+    id: W3CWD-vehicle-information-api-20150616
     link:
-    - content: https://www.w3.org/TR/2018/NOTE-vehicle-information-api-20180626/
+    - content: http://www.w3.org/TR/2015/WD-vehicle-information-api-20150616/
       type: src
     docid:
-    - id: W3C NOTE-vehicle-information-api-20180626
+    - id: W3C WD-vehicle-information-api-20150616
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-vehicle-information-api-20180626
+      content: W3C WD-vehicle-information-api-20150616
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-vehicle-information-api-20160119
+    link:
+    - content: http://www.w3.org/TR/2016/WD-vehicle-information-api-20160119/
+      type: src
+    docid:
+    - id: W3C WD-vehicle-information-api-20160119
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vehicle-information-api-20160119
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: vehicle-information-api
 doctype:

@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cxml
 title:
-- content: Extensible Markup Language (XML) 1.0 (Fourth Edition)
+- content: Extensible Markup Language (XML) 1.0 (Fifth Edition)
   format: text/plain
 link:
 - content: http://www.w3.org/TR/xml
@@ -28,9 +28,22 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Edited Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xml-20060614
+    link:
+    - content: http://www.w3.org/TR/2006/PER-xml-20060614
+      type: src
+    docid:
+    - id: W3C PER-xml-20060614
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PER-xml-20060614
+      format: text/plain
+- type: hasEdition
   bibitem:
     id: W3CREC-xml-20060816
     link:
@@ -43,9 +56,22 @@ relation:
     formattedref:
       content: W3C REC-xml-20060816
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPER-xml-20080205
+    link:
+    - content: http://www.w3.org/TR/2008/PER-xml-20080205
+      type: src
+    docid:
+    - id: W3C PER-xml-20080205
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PER-xml-20080205
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PER
     format: text/plain
   number: xml
 doctype:

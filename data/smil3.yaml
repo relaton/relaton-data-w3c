@@ -28,24 +28,63 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-SMIL3-20081201
+    id: W3CWD-SMIL3-20061220
     link:
-    - content: http://www.w3.org/TR/2008/REC-SMIL3-20081201/
+    - content: http://www.w3.org/TR/2006/WD-SMIL3-20061220/
       type: src
     docid:
-    - id: W3C REC-SMIL3-20081201
+    - id: W3C WD-SMIL3-20061220
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-SMIL3-20081201
+      content: W3C WD-SMIL3-20061220
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SMIL3-20070713
+    link:
+    - content: http://www.w3.org/TR/2007/WD-SMIL3-20070713/
+      type: src
+    docid:
+    - id: W3C WD-SMIL3-20070713
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-SMIL3-20070713
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-SMIL3-20080115
+    link:
+    - content: http://www.w3.org/TR/2008/CR-SMIL3-20080115/
+      type: src
+    docid:
+    - id: W3C CR-SMIL3-20080115
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-SMIL3-20080115
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-SMIL3-20081006
+    link:
+    - content: http://www.w3.org/TR/2008/PR-SMIL3-20081006/
+      type: src
+    docid:
+    - id: W3C PR-SMIL3-20081006
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-SMIL3-20081006
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: SMIL3
 doctype:

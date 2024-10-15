@@ -28,8 +28,60 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Proposed Recommendation
 relation:
+- type: instanceOf
+  bibitem:
+    id: W3CPR-exi-profile-20140506
+    link:
+    - content: http://www.w3.org/TR/2014/PR-exi-profile-20140506/
+      type: src
+    docid:
+    - id: W3C PR-exi-profile-20140506
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-exi-profile-20140506
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-exi-profile-20110816
+    link:
+    - content: http://www.w3.org/TR/2011/WD-exi-profile-20110816/
+      type: src
+    docid:
+    - id: W3C WD-exi-profile-20110816
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-exi-profile-20110816
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-exi-profile-20120410
+    link:
+    - content: http://www.w3.org/TR/2012/WD-exi-profile-20120410/
+      type: src
+    docid:
+    - id: W3C WD-exi-profile-20120410
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-exi-profile-20120410
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-exi-profile-20120731
+    link:
+    - content: http://www.w3.org/TR/2012/WD-exi-profile-20120731/
+      type: src
+    docid:
+    - id: W3C WD-exi-profile-20120731
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-exi-profile-20120731
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-exi-profile-20130416
@@ -43,22 +95,9 @@ relation:
     formattedref:
       content: W3C CR-exi-profile-20130416
       format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-exi-profile-20140909
-    link:
-    - content: http://www.w3.org/TR/2014/REC-exi-profile-20140909/
-      type: src
-    docid:
-    - id: W3C REC-exi-profile-20140909
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-exi-profile-20140909
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C PR
     format: text/plain
   number: exi-profile
 doctype:

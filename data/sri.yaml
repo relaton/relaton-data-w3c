@@ -28,24 +28,102 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-SRI-20160623
+    id: W3CWD-SRI-20140318
     link:
-    - content: http://www.w3.org/TR/2016/REC-SRI-20160623/
+    - content: http://www.w3.org/TR/2014/WD-SRI-20140318/
       type: src
     docid:
-    - id: W3C REC-SRI-20160623
+    - id: W3C WD-SRI-20140318
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-SRI-20160623
+      content: W3C WD-SRI-20140318
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SRI-20150409
+    link:
+    - content: http://www.w3.org/TR/2015/WD-SRI-20150409/
+      type: src
+    docid:
+    - id: W3C WD-SRI-20150409
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-SRI-20150409
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SRI-20150505
+    link:
+    - content: http://www.w3.org/TR/2015/WD-SRI-20150505/
+      type: src
+    docid:
+    - id: W3C WD-SRI-20150505
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-SRI-20150505
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SRI-20150707
+    link:
+    - content: http://www.w3.org/TR/2015/WD-SRI-20150707/
+      type: src
+    docid:
+    - id: W3C WD-SRI-20150707
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-SRI-20150707
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SRI-20151006
+    link:
+    - content: http://www.w3.org/TR/2015/WD-SRI-20151006/
+      type: src
+    docid:
+    - id: W3C WD-SRI-20151006
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-SRI-20151006
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-SRI-20151112
+    link:
+    - content: http://www.w3.org/TR/2015/CR-SRI-20151112/
+      type: src
+    docid:
+    - id: W3C CR-SRI-20151112
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-SRI-20151112
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-SRI-20160510
+    link:
+    - content: http://www.w3.org/TR/2016/PR-SRI-20160510/
+      type: src
+    docid:
+    - id: W3C PR-SRI-20160510
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-SRI-20160510
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: SRI
 doctype:

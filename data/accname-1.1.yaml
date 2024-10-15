@@ -28,8 +28,47 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-accname-1.1-20180320
+    link:
+    - content: https://www.w3.org/TR/2018/WD-accname-1.1-20180320/
+      type: src
+    docid:
+    - id: W3C WD-accname-1.1-20180320
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-accname-1.1-20180320
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-accname-1.1-20180619
+    link:
+    - content: https://www.w3.org/TR/2018/CR-accname-1.1-20180619/
+      type: src
+    docid:
+    - id: W3C CR-accname-1.1-20180619
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-accname-1.1-20180619
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-accname-1.1-20181018
+    link:
+    - content: https://www.w3.org/TR/2018/PR-accname-1.1-20181018/
+      type: src
+    docid:
+    - id: W3C PR-accname-1.1-20181018
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-accname-1.1-20181018
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-accname-1.1-20181218
@@ -45,7 +84,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: accname-1.1
 doctype:

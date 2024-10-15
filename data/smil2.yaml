@@ -28,37 +28,50 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Proposed Edited Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-SMIL2-20050107
+    id: W3CPER-SMIL2-20041105
     link:
-    - content: http://www.w3.org/TR/2005/REC-SMIL2-20050107/
+    - content: http://www.w3.org/TR/2004/PER-SMIL2-20041105/
       type: src
     docid:
-    - id: W3C REC-SMIL2-20050107
+    - id: W3C PER-SMIL2-20041105
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-SMIL2-20050107
+      content: W3C PER-SMIL2-20041105
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SMIL2-20050201
+    link:
+    - content: http://www.w3.org/TR/2005/WD-SMIL2-20050201/
+      type: src
+    docid:
+    - id: W3C WD-SMIL2-20050201
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-SMIL2-20050201
       format: text/plain
 - type: instanceOf
   bibitem:
-    id: W3CREC-SMIL2-20051213
+    id: W3CPR-SMIL2-20050927
     link:
-    - content: http://www.w3.org/TR/2005/REC-SMIL2-20051213/
+    - content: http://www.w3.org/TR/2005/PR-SMIL2-20050927/
       type: src
     docid:
-    - id: W3C REC-SMIL2-20051213
+    - id: W3C PR-SMIL2-20050927
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-SMIL2-20051213
+      content: W3C PR-SMIL2-20050927
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C PER
     format: text/plain
   number: SMIL2
 doctype:

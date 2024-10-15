@@ -5,7 +5,7 @@ title:
 - content: XPath and XQuery Functions and Operators 3.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/xpath-functions-31/
+- content: http://www.w3.org/TR/xpath-functions-31/
   type: src
 type: standard
 docid:
@@ -28,24 +28,50 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-xpath-functions-31-20170321
+    id: W3CWD-xpath-functions-31-20140424
     link:
-    - content: https://www.w3.org/TR/2017/REC-xpath-functions-31-20170321/
+    - content: http://www.w3.org/TR/2014/WD-xpath-functions-31-20140424/
       type: src
     docid:
-    - id: W3C REC-xpath-functions-31-20170321
+    - id: W3C WD-xpath-functions-31-20140424
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-xpath-functions-31-20170321
+      content: W3C WD-xpath-functions-31-20140424
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xpath-functions-31-20141007
+    link:
+    - content: http://www.w3.org/TR/2014/WD-xpath-functions-31-20141007/
+      type: src
+    docid:
+    - id: W3C WD-xpath-functions-31-20141007
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xpath-functions-31-20141007
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-xpath-functions-31-20141218
+    link:
+    - content: http://www.w3.org/TR/2014/CR-xpath-functions-31-20141218/
+      type: src
+    docid:
+    - id: W3C CR-xpath-functions-31-20141218
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xpath-functions-31-20141218
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xpath-functions-31
 doctype:

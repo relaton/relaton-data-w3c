@@ -28,8 +28,47 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-addr-metadata-20070202
+    link:
+    - content: http://www.w3.org/TR/2007/WD-ws-addr-metadata-20070202
+      type: src
+    docid:
+    - id: W3C WD-ws-addr-metadata-20070202
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ws-addr-metadata-20070202
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-addr-metadata-20070516
+    link:
+    - content: http://www.w3.org/TR/2007/WD-ws-addr-metadata-20070516
+      type: src
+    docid:
+    - id: W3C WD-ws-addr-metadata-20070516
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ws-addr-metadata-20070516
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-addr-metadata-20070627
+    link:
+    - content: http://www.w3.org/TR/2007/WD-ws-addr-metadata-20070627
+      type: src
+    docid:
+    - id: W3C WD-ws-addr-metadata-20070627
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ws-addr-metadata-20070627
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-ws-addr-metadata-20070904
@@ -45,7 +84,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: ws-addr-metadata
 doctype:

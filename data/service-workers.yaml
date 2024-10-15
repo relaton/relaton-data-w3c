@@ -5,7 +5,7 @@ title:
 - content: Service Workers
   format: text/plain
 link:
-- content: https://www.w3.org/TR/service-workers/
+- content: http://www.w3.org/TR/service-workers/
   type: src
 type: standard
 docid:
@@ -28,24 +28,63 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CCRD-service-workers-20220712
+    id: W3CWD-service-workers-20140508
     link:
-    - content: https://www.w3.org/TR/2022/CRD-service-workers-20220712/
+    - content: http://www.w3.org/TR/2014/WD-service-workers-20140508/
       type: src
     docid:
-    - id: W3C CRD-service-workers-20220712
+    - id: W3C WD-service-workers-20140508
       type: W3C
       primary: true
     formattedref:
-      content: W3C CRD-service-workers-20220712
+      content: W3C WD-service-workers-20140508
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-service-workers-20141118
+    link:
+    - content: http://www.w3.org/TR/2014/WD-service-workers-20141118/
+      type: src
+    docid:
+    - id: W3C WD-service-workers-20141118
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-service-workers-20141118
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-service-workers-20150205
+    link:
+    - content: http://www.w3.org/TR/2015/WD-service-workers-20150205/
+      type: src
+    docid:
+    - id: W3C WD-service-workers-20150205
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-service-workers-20150205
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-service-workers-20150625
+    link:
+    - content: http://www.w3.org/TR/2015/WD-service-workers-20150625/
+      type: src
+    docid:
+    - id: W3C WD-service-workers-20150625
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-service-workers-20150625
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: service-workers
 doctype:

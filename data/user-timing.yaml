@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cuser-timing
 title:
-- content: User Timing
+- content: User Timing Level 3
   format: text/plain
 link:
-- content: http://www.w3.org/TR/user-timing/
+- content: https://www.w3.org/TR/user-timing/
   type: src
 type: standard
 docid:
@@ -28,26 +28,13 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Proposed Recommendation
+    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CPR-user-timing-20131031
-    link:
-    - content: http://www.w3.org/TR/2013/PR-user-timing-20131031/
-      type: src
-    docid:
-    - id: W3C PR-user-timing-20131031
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-user-timing-20131031
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-user-timing-20131212
     link:
-    - content: http://www.w3.org/TR/2013/REC-user-timing-20131212/
+    - content: https://www.w3.org/TR/2013/REC-user-timing-20131212/
       type: src
     docid:
     - id: W3C REC-user-timing-20131212
@@ -56,9 +43,74 @@ relation:
     formattedref:
       content: W3C REC-user-timing-20131212
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-user-timing-20211202
+    link:
+    - content: https://www.w3.org/TR/2021/CR-user-timing-20211202/
+      type: src
+    docid:
+    - id: W3C CR-user-timing-20211202
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-user-timing-20211202
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-user-timing-20220803
+    link:
+    - content: https://www.w3.org/TR/2022/CRD-user-timing-20220803/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20220803
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-user-timing-20220803
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-user-timing-20230426
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-user-timing-20230426/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20230426
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-user-timing-20230426
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-user-timing-20231106
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-user-timing-20231106/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20231106
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-user-timing-20231106
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCRD-user-timing-20231114
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-user-timing-20231114/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20231114
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CRD-user-timing-20231114
+      format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C REC
     format: text/plain
   number: user-timing
 doctype:

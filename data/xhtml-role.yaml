@@ -26,7 +26,49 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-role-20060725
+    link:
+    - content: http://www.w3.org/TR/2006/WD-xhtml-role-20060725
+      type: src
+    docid:
+    - id: W3C WD-xhtml-role-20060725
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xhtml-role-20060725
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-role-20061113
+    link:
+    - content: http://www.w3.org/TR/2006/WD-xhtml-role-20061113
+      type: src
+    docid:
+    - id: W3C WD-xhtml-role-20061113
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xhtml-role-20061113
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-role-20071004
+    link:
+    - content: http://www.w3.org/TR/2007/WD-xhtml-role-20071004
+      type: src
+    docid:
+    - id: W3C WD-xhtml-role-20071004
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xhtml-role-20071004
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CNOTE-xhtml-role-20101216
@@ -40,9 +82,22 @@ relation:
     formattedref:
       content: W3C NOTE-xhtml-role-20101216
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-role-20080407
+    link:
+    - content: http://www.w3.org/TR/2008/WD-xhtml-role-20080407
+      type: src
+    docid:
+    - id: W3C WD-xhtml-role-20080407
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xhtml-role-20080407
+      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: xhtml-role
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: Web Annotation Vocabulary
   format: text/plain
 link:
-- content: https://www.w3.org/TR/annotation-vocab/
+- content: http://www.w3.org/TR/annotation-vocab/
   type: src
 type: standard
 docid:
@@ -28,24 +28,37 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-annotation-vocab-20170223
+    id: W3CWD-annotation-vocab-20160331
     link:
-    - content: https://www.w3.org/TR/2017/REC-annotation-vocab-20170223/
+    - content: http://www.w3.org/TR/2016/WD-annotation-vocab-20160331/
       type: src
     docid:
-    - id: W3C REC-annotation-vocab-20170223
+    - id: W3C WD-annotation-vocab-20160331
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-annotation-vocab-20170223
+      content: W3C WD-annotation-vocab-20160331
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-annotation-vocab-20160705
+    link:
+    - content: http://www.w3.org/TR/2016/CR-annotation-vocab-20160705/
+      type: src
+    docid:
+    - id: W3C CR-annotation-vocab-20160705
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-annotation-vocab-20160705
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: annotation-vocab
 doctype:

@@ -28,8 +28,47 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-ldp-20140619
+    link:
+    - content: http://www.w3.org/TR/2014/CR-ldp-20140619/
+      type: src
+    docid:
+    - id: W3C CR-ldp-20140619
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-ldp-20140619
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ldp-20121025
+    link:
+    - content: http://www.w3.org/TR/2012/WD-ldp-20121025/
+      type: src
+    docid:
+    - id: W3C WD-ldp-20121025
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ldp-20121025
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ldp-20130307
+    link:
+    - content: http://www.w3.org/TR/2013/WD-ldp-20130307/
+      type: src
+    docid:
+    - id: W3C WD-ldp-20130307
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ldp-20130307
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-ldp-20130730
@@ -43,22 +82,48 @@ relation:
     formattedref:
       content: W3C WD-ldp-20130730
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-ldp-20150226
+    id: W3CWD-ldp-20140311
     link:
-    - content: http://www.w3.org/TR/2015/REC-ldp-20150226/
+    - content: http://www.w3.org/TR/2014/WD-ldp-20140311/
       type: src
     docid:
-    - id: W3C REC-ldp-20150226
+    - id: W3C WD-ldp-20140311
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-ldp-20150226
+      content: W3C WD-ldp-20140311
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ldp-20140916
+    link:
+    - content: http://www.w3.org/TR/2014/WD-ldp-20140916/
+      type: src
+    docid:
+    - id: W3C WD-ldp-20140916
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ldp-20140916
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-ldp-20141216
+    link:
+    - content: http://www.w3.org/TR/2014/PR-ldp-20141216/
+      type: src
+    docid:
+    - id: W3C PR-ldp-20141216
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-ldp-20141216
       format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
   number: ldp
 doctype:

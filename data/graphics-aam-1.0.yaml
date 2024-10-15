@@ -28,8 +28,73 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-graphics-aam-1.0-20160908
+    link:
+    - content: https://www.w3.org/TR/2016/WD-graphics-aam-1.0-20160908/
+      type: src
+    docid:
+    - id: W3C WD-graphics-aam-1.0-20160908
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-graphics-aam-1.0-20160908
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-graphics-aam-1.0-20180202
+    link:
+    - content: https://www.w3.org/TR/2018/WD-graphics-aam-1.0-20180202/
+      type: src
+    docid:
+    - id: W3C WD-graphics-aam-1.0-20180202
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-graphics-aam-1.0-20180202
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-graphics-aam-1.0-20180329
+    link:
+    - content: https://www.w3.org/TR/2018/CR-graphics-aam-1.0-20180329/
+      type: src
+    docid:
+    - id: W3C CR-graphics-aam-1.0-20180329
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-graphics-aam-1.0-20180329
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-graphics-aam-1.0-20180419
+    link:
+    - content: https://www.w3.org/TR/2018/CR-graphics-aam-1.0-20180419/
+      type: src
+    docid:
+    - id: W3C CR-graphics-aam-1.0-20180419
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-graphics-aam-1.0-20180419
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-graphics-aam-1.0-20180626
+    link:
+    - content: https://www.w3.org/TR/2018/PR-graphics-aam-1.0-20180626/
+      type: src
+    docid:
+    - id: W3C PR-graphics-aam-1.0-20180626
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-graphics-aam-1.0-20180626
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-graphics-aam-1.0-20181002
@@ -45,7 +110,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: graphics-aam-1.0
 doctype:

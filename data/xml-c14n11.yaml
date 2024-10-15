@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cxml-c14n11
 title:
-- content: Canonical XML Version 1.1
+- content: Canonical XML 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/xml-c14n11/
+- content: http://www.w3.org/TR/xml-c14n11
   type: src
 type: standard
 docid:
@@ -28,24 +28,63 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-xml-c14n11-20080502
+    id: W3CWD-xml-c14n11-20060915
     link:
-    - content: http://www.w3.org/TR/2008/REC-xml-c14n11-20080502/
+    - content: http://www.w3.org/TR/2006/WD-xml-c14n11-20060915
       type: src
     docid:
-    - id: W3C REC-xml-c14n11-20080502
+    - id: W3C WD-xml-c14n11-20060915
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-xml-c14n11-20080502
+      content: W3C WD-xml-c14n11-20060915
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-c14n11-20061220
+    link:
+    - content: http://www.w3.org/TR/2006/WD-xml-c14n11-20061220
+      type: src
+    docid:
+    - id: W3C WD-xml-c14n11-20061220
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xml-c14n11-20061220
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xml-c14n11-20070621
+    link:
+    - content: http://www.w3.org/TR/2007/CR-xml-c14n11-20070621
+      type: src
+    docid:
+    - id: W3C CR-xml-c14n11-20070621
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xml-c14n11-20070621
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-xml-c14n11-20080129
+    link:
+    - content: http://www.w3.org/TR/2008/PR-xml-c14n11-20080129
+      type: src
+    docid:
+    - id: W3C PR-xml-c14n11-20080129
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-xml-c14n11-20080129
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xml-c14n11
 doctype:

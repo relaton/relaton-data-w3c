@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-css-color-3-20171205
+    link:
+    - content: https://www.w3.org/TR/2017/CR-css-color-3-20171205/
+      type: src
+    docid:
+    - id: W3C CR-css-color-3-20171205
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-css-color-3-20171205
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-css-color-3-20180315
+    link:
+    - content: https://www.w3.org/TR/2018/PR-css-color-3-20180315/
+      type: src
+    docid:
+    - id: W3C PR-css-color-3-20180315
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-css-color-3-20180315
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CREC-css-color-3-20180619
@@ -71,7 +97,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: css-color-3
 doctype:

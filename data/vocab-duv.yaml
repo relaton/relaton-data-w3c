@@ -5,7 +5,7 @@ title:
 - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
   format: text/plain
 link:
-- content: https://www.w3.org/TR/vocab-duv/
+- content: http://www.w3.org/TR/vocab-duv/
   type: src
 type: standard
 docid:
@@ -26,23 +26,52 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-vocab-duv-20161215
+    id: W3CWD-vocab-duv-20150625
     link:
-    - content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20161215/
+    - content: http://www.w3.org/TR/2015/WD-vocab-duv-20150625/
       type: src
     docid:
-    - id: W3C NOTE-vocab-duv-20161215
+    - id: W3C WD-vocab-duv-20150625
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-vocab-duv-20161215
+      content: W3C WD-vocab-duv-20150625
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-duv-20160128
+    link:
+    - content: http://www.w3.org/TR/2016/WD-vocab-duv-20160128/
+      type: src
+    docid:
+    - id: W3C WD-vocab-duv-20160128
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vocab-duv-20160128
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-vocab-duv-20160519
+    link:
+    - content: http://www.w3.org/TR/2016/WD-vocab-duv-20160519/
+      type: src
+    docid:
+    - id: W3C WD-vocab-duv-20160519
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vocab-duv-20160519
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: vocab-duv
 doctype:

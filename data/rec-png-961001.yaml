@@ -5,8 +5,10 @@ title:
 - content: PNG (Portable Network Graphics) Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/REC-png-961001
+- content: https://www.w3.org/TR/REC-png-961001
   type: src
+- content: https://w3c.github.io/PNG-spec/
+  type: current
 type: standard
 docid:
 - id: W3C REC-png-961001
@@ -43,6 +45,20 @@ script:
 docstatus:
   stage:
     value: Recommendation
+relation:
+- type: obsoletes
+  bibitem:
+    id: W3CPR-png-960701
+    link:
+    - content: https://www.w3.org/TR/PR-png-960701
+      type: src
+    docid:
+    - id: W3C PR-png-960701
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-png-960701
+      format: text/plain
 series:
 - title:
     content: W3C REC

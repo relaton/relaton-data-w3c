@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3CUISecurity
 title:
-- content: User Interface Security and the Visibility API
+- content: User Interface Security Directives for Content Security Policy
   format: text/plain
 link:
 - content: http://www.w3.org/TR/UISecurity/
@@ -30,6 +30,19 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: instanceOf
+  bibitem:
+    id: W3CWD-UISecurity-20140318
+    link:
+    - content: http://www.w3.org/TR/2014/WD-UISecurity-20140318/
+      type: src
+    docid:
+    - id: W3C WD-UISecurity-20140318
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-UISecurity-20140318
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-UISecurity-20130523
@@ -42,19 +55,6 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-UISecurity-20130523
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CWD-UISecurity-20160607
-    link:
-    - content: http://www.w3.org/TR/2016/WD-UISecurity-20160607/
-      type: src
-    docid:
-    - id: W3C WD-UISecurity-20160607
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-UISecurity-20160607
       format: text/plain
 series:
 - title:

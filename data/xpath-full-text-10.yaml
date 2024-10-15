@@ -28,24 +28,76 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-xpath-full-text-10-20110317
+    id: W3CWD-xpath-full-text-10-20070518
     link:
-    - content: http://www.w3.org/TR/2011/REC-xpath-full-text-10-20110317/
+    - content: http://www.w3.org/TR/2007/WD-xpath-full-text-10-20070518/
       type: src
     docid:
-    - id: W3C REC-xpath-full-text-10-20110317
+    - id: W3C WD-xpath-full-text-10-20070518
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-xpath-full-text-10-20110317
+      content: W3C WD-xpath-full-text-10-20070518
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xpath-full-text-10-20080516
+    link:
+    - content: http://www.w3.org/TR/2008/CR-xpath-full-text-10-20080516/
+      type: src
+    docid:
+    - id: W3C CR-xpath-full-text-10-20080516
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xpath-full-text-10-20080516
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xpath-full-text-10-20090709
+    link:
+    - content: http://www.w3.org/TR/2009/CR-xpath-full-text-10-20090709/
+      type: src
+    docid:
+    - id: W3C CR-xpath-full-text-10-20090709
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xpath-full-text-10-20090709
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xpath-full-text-10-20100128
+    link:
+    - content: http://www.w3.org/TR/2010/CR-xpath-full-text-10-20100128/
+      type: src
+    docid:
+    - id: W3C CR-xpath-full-text-10-20100128
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xpath-full-text-10-20100128
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-xpath-full-text-10-20110125
+    link:
+    - content: http://www.w3.org/TR/2011/PR-xpath-full-text-10-20110125/
+      type: src
+    docid:
+    - id: W3C PR-xpath-full-text-10-20110125
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-xpath-full-text-10-20110125
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xpath-full-text-10
 doctype:

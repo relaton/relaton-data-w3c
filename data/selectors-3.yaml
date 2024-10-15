@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-selectors-3-20180130
+    link:
+    - content: https://www.w3.org/TR/2018/CR-selectors-3-20180130/
+      type: src
+    docid:
+    - id: W3C CR-selectors-3-20180130
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-selectors-3-20180130
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-selectors-3-20180911
+    link:
+    - content: https://www.w3.org/TR/2018/PR-selectors-3-20180911/
+      type: src
+    docid:
+    - id: W3C PR-selectors-3-20180911
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-selectors-3-20180911
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-selectors-3-20181106
@@ -45,7 +71,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C CR
     format: text/plain
   number: selectors-3
 doctype:

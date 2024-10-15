@@ -28,24 +28,50 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-grddl-tests-20070911
+    id: W3CWD-grddl-tests-20070328
     link:
-    - content: http://www.w3.org/TR/2007/REC-grddl-tests-20070911/
+    - content: http://www.w3.org/TR/2007/WD-grddl-tests-20070328/
       type: src
     docid:
-    - id: W3C REC-grddl-tests-20070911
+    - id: W3C WD-grddl-tests-20070328
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-grddl-tests-20070911
+      content: W3C WD-grddl-tests-20070328
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-grddl-tests-20070502
+    link:
+    - content: http://www.w3.org/TR/2007/WD-grddl-tests-20070502/
+      type: src
+    docid:
+    - id: W3C WD-grddl-tests-20070502
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-grddl-tests-20070502
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-grddl-tests-20070716
+    link:
+    - content: http://www.w3.org/TR/2007/PR-grddl-tests-20070716/
+      type: src
+    docid:
+    - id: W3C PR-grddl-tests-20070716
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-grddl-tests-20070716
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: grddl-tests
 doctype:

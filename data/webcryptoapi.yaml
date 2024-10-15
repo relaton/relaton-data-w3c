@@ -30,7 +30,46 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WebCryptoAPI-20140325
+    link:
+    - content: http://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/
+      type: src
+    docid:
+    - id: W3C WD-WebCryptoAPI-20140325
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WebCryptoAPI-20140325
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WebCryptoAPI-20120913
+    link:
+    - content: http://www.w3.org/TR/2012/WD-WebCryptoAPI-20120913/
+      type: src
+    docid:
+    - id: W3C WD-WebCryptoAPI-20120913
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WebCryptoAPI-20120913
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WebCryptoAPI-20130108
+    link:
+    - content: http://www.w3.org/TR/2013/WD-WebCryptoAPI-20130108/
+      type: src
+    docid:
+    - id: W3C WD-WebCryptoAPI-20130108
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-WebCryptoAPI-20130108
+      format: text/plain
+- type: hasEdition
   bibitem:
     id: W3CWD-WebCryptoAPI-20130625
     link:
@@ -42,6 +81,19 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-WebCryptoAPI-20130625
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-WebCryptoAPI-20141211
+    link:
+    - content: http://www.w3.org/TR/2014/CR-WebCryptoAPI-20141211/
+      type: src
+    docid:
+    - id: W3C CR-WebCryptoAPI-20141211
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-WebCryptoAPI-20141211
       format: text/plain
 series:
 - title:

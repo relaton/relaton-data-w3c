@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cxbl
 title:
-- content: XBL 2.0
+- content: XML Binding Language (XBL) 2.0
   format: text/plain
 link:
 - content: http://www.w3.org/TR/xbl/
@@ -26,6 +26,9 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
@@ -40,18 +43,57 @@ relation:
     formattedref:
       content: W3C NOTE-xbl-20010223
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-xbl-20120524
+    id: W3CWD-xbl-20060619
     link:
-    - content: http://www.w3.org/TR/2012/NOTE-xbl-20120524/
+    - content: http://www.w3.org/TR/2006/WD-xbl-20060619/
       type: src
     docid:
-    - id: W3C NOTE-xbl-20120524
+    - id: W3C WD-xbl-20060619
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-xbl-20120524
+      content: W3C WD-xbl-20060619
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xbl-20060907
+    link:
+    - content: http://www.w3.org/TR/2006/WD-xbl-20060907/
+      type: src
+    docid:
+    - id: W3C WD-xbl-20060907
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xbl-20060907
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xbl-20070117
+    link:
+    - content: http://www.w3.org/TR/2007/WD-xbl-20070117/
+      type: src
+    docid:
+    - id: W3C WD-xbl-20070117
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xbl-20070117
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-xbl-20070316
+    link:
+    - content: http://www.w3.org/TR/2007/CR-xbl-20070316/
+      type: src
+    docid:
+    - id: W3C CR-xbl-20070316
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xbl-20070316
       format: text/plain
 series:
 - title:

@@ -28,37 +28,76 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xml-entity-names-20100401
+    id: W3CWD-xml-entity-names-20071214
     link:
-    - content: http://www.w3.org/TR/2010/REC-xml-entity-names-20100401/
+    - content: http://www.w3.org/TR/2007/WD-xml-entity-names-20071214/
       type: src
     docid:
-    - id: W3C REC-xml-entity-names-20100401
+    - id: W3C WD-xml-entity-names-20071214
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-xml-entity-names-20100401
+      content: W3C WD-xml-entity-names-20071214
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-entity-names-20080721
+    link:
+    - content: http://www.w3.org/TR/2008/WD-xml-entity-names-20080721/
+      type: src
+    docid:
+    - id: W3C WD-xml-entity-names-20080721
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xml-entity-names-20080721
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-entity-names-20091117
+    link:
+    - content: http://www.w3.org/TR/2009/WD-xml-entity-names-20091117/
+      type: src
+    docid:
+    - id: W3C WD-xml-entity-names-20091117
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-xml-entity-names-20091117
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xml-entity-names-20100211
+    link:
+    - content: http://www.w3.org/TR/2010/PR-xml-entity-names-20100211/
+      type: src
+    docid:
+    - id: W3C PR-xml-entity-names-20100211
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-xml-entity-names-20100211
       format: text/plain
 - type: instanceOf
   bibitem:
-    id: W3CREC-xml-entity-names-20140410
+    id: W3CPER-xml-entity-names-20140211
     link:
-    - content: http://www.w3.org/TR/2014/REC-xml-entity-names-20140410/
+    - content: http://www.w3.org/TR/2014/PER-xml-entity-names-20140211/
       type: src
     docid:
-    - id: W3C REC-xml-entity-names-20140410
+    - id: W3C PER-xml-entity-names-20140211
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-xml-entity-names-20140410
+      content: W3C PER-xml-entity-names-20140211
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: xml-entity-names
 doctype:

@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Proposed Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-addr-soap-20050215
+    link:
+    - content: http://www.w3.org/TR/2005/WD-ws-addr-soap-20050215
+      type: src
+    docid:
+    - id: W3C WD-ws-addr-soap-20050215
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ws-addr-soap-20050215
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-ws-addr-soap-20050817
+    link:
+    - content: http://www.w3.org/TR/2005/CR-ws-addr-soap-20050817
+      type: src
+    docid:
+    - id: W3C CR-ws-addr-soap-20050817
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-ws-addr-soap-20050817
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CPR-ws-addr-soap-20060321
@@ -58,7 +84,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C WD
     format: text/plain
   number: ws-addr-soap
 doctype:

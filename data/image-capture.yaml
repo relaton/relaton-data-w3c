@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cimage-capture
 title:
-- content: Mediastream Image Capture
+- content: MediaStream Image Capture
   format: text/plain
 link:
 - content: http://www.w3.org/TR/image-capture/
@@ -30,7 +30,7 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-image-capture-20130709
     link:
@@ -42,6 +42,32 @@ relation:
       primary: true
     formattedref:
       content: W3C WD-image-capture-20130709
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-capture-20150127
+    link:
+    - content: http://www.w3.org/TR/2015/WD-image-capture-20150127/
+      type: src
+    docid:
+    - id: W3C WD-image-capture-20150127
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-image-capture-20150127
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-image-capture-20160531
+    link:
+    - content: http://www.w3.org/TR/2016/WD-image-capture-20160531/
+      type: src
+    docid:
+    - id: W3C WD-image-capture-20160531
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-image-capture-20160531
       format: text/plain
 series:
 - title:

@@ -28,8 +28,47 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-20120405
+    link:
+    - content: http://www.w3.org/TR/2012/WD-vocab-dcat-20120405/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20120405
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vocab-dcat-20120405
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-20130312
+    link:
+    - content: http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20130312
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vocab-dcat-20130312
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-20130801
+    link:
+    - content: http://www.w3.org/TR/2013/WD-vocab-dcat-20130801/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20130801
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vocab-dcat-20130801
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-vocab-dcat-20131105
@@ -45,19 +84,6 @@ relation:
       format: text/plain
 - type: instanceOf
   bibitem:
-    id: W3CREC-vocab-dcat-20140116
-    link:
-    - content: http://www.w3.org/TR/2014/REC-vocab-dcat-20140116/
-      type: src
-    docid:
-    - id: W3C REC-vocab-dcat-20140116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-vocab-dcat-20140116
-      format: text/plain
-- type: hasEdition
-  bibitem:
     id: W3CPR-vocab-dcat-20131217
     link:
     - content: http://www.w3.org/TR/2013/PR-vocab-dcat-20131217/
@@ -71,7 +97,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: vocab-dcat
 doctype:

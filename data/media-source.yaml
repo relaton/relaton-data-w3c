@@ -28,8 +28,47 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CCR-media-source-20140717
+    link:
+    - content: http://www.w3.org/TR/2014/CR-media-source-20140717/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20140717
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-media-source-20140717
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-media-source-20130129
+    link:
+    - content: http://www.w3.org/TR/2013/WD-media-source-20130129/
+      type: src
+    docid:
+    - id: W3C WD-media-source-20130129
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-media-source-20130129
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-media-source-20130415
+    link:
+    - content: http://www.w3.org/TR/2013/WD-media-source-20130415/
+      type: src
+    docid:
+    - id: W3C WD-media-source-20130415
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-media-source-20130415
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-media-source-20130905
@@ -43,7 +82,7 @@ relation:
     formattedref:
       content: W3C WD-media-source-20130905
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CCR-media-source-20140109
     link:
@@ -56,9 +95,61 @@ relation:
     formattedref:
       content: W3C CR-media-source-20140109
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-media-source-20150331
+    link:
+    - content: http://www.w3.org/TR/2015/CR-media-source-20150331/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20150331
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-media-source-20150331
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-media-source-20151112
+    link:
+    - content: http://www.w3.org/TR/2015/CR-media-source-20151112/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20151112
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-media-source-20151112
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-media-source-20160503
+    link:
+    - content: http://www.w3.org/TR/2016/CR-media-source-20160503/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20160503
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-media-source-20160503
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-media-source-20160705
+    link:
+    - content: http://www.w3.org/TR/2016/CR-media-source-20160705/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20160705
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-media-source-20160705
+      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C CR
     format: text/plain
   number: media-source
 doctype:

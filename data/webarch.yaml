@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cwebarch
 title:
-- content: Architecture of the World Wide Web, Volume One
+- content: Architecture of the World Wide Web, First Edition
   format: text/plain
 link:
 - content: http://www.w3.org/TR/webarch/
@@ -69,18 +69,70 @@ relation:
     formattedref:
       content: W3C WD-webarch-20030627
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-webarch-20041215
+    id: W3CWD-webarch-20031001
     link:
-    - content: http://www.w3.org/TR/2004/REC-webarch-20041215/
+    - content: http://www.w3.org/TR/2003/WD-webarch-20031001/
       type: src
     docid:
-    - id: W3C REC-webarch-20041215
+    - id: W3C WD-webarch-20031001
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-webarch-20041215
+      content: W3C WD-webarch-20031001
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webarch-20031209
+    link:
+    - content: http://www.w3.org/TR/2003/WD-webarch-20031209/
+      type: src
+    docid:
+    - id: W3C WD-webarch-20031209
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webarch-20031209
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webarch-20040705
+    link:
+    - content: http://www.w3.org/TR/2004/WD-webarch-20040705/
+      type: src
+    docid:
+    - id: W3C WD-webarch-20040705
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webarch-20040705
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webarch-20040816
+    link:
+    - content: http://www.w3.org/TR/2004/WD-webarch-20040816/
+      type: src
+    docid:
+    - id: W3C WD-webarch-20040816
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webarch-20040816
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-webarch-20041105
+    link:
+    - content: http://www.w3.org/TR/2004/PR-webarch-20041105/
+      type: src
+    docid:
+    - id: W3C PR-webarch-20041105
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-webarch-20041105
       format: text/plain
 series:
 - title:

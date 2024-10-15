@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Csoap12-testcollection
 title:
-- content: SOAP Version 1.2 Specification Assertions and Test Collection
+- content: SOAP Version 1.2 Specification Assertions and Test Collection (Second Edition)
   format: text/plain
 link:
 - content: http://www.w3.org/TR/soap12-testcollection
@@ -43,7 +43,7 @@ relation:
     formattedref:
       content: W3C WD-soap12-testcollection-20020626
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CPR-soap12-testcollection-20030507
     link:
@@ -55,6 +55,19 @@ relation:
       primary: true
     formattedref:
       content: W3C PR-soap12-testcollection-20030507
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPER-soap12-testcollection-20061219
+    link:
+    - content: http://www.w3.org/TR/2006/PER-soap12-testcollection-20061219/
+      type: src
+    docid:
+    - id: W3C PER-soap12-testcollection-20061219
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PER-soap12-testcollection-20061219
       format: text/plain
 series:
 - title:

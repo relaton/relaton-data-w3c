@@ -28,8 +28,34 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdfa-syntax-20071018
+    link:
+    - content: http://www.w3.org/TR/2007/WD-rdfa-syntax-20071018
+      type: src
+    docid:
+    - id: W3C WD-rdfa-syntax-20071018
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-rdfa-syntax-20071018
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdfa-syntax-20080221
+    link:
+    - content: http://www.w3.org/TR/2008/WD-rdfa-syntax-20080221
+      type: src
+    docid:
+    - id: W3C WD-rdfa-syntax-20080221
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-rdfa-syntax-20080221
+      format: text/plain
 - type: instanceOf
   bibitem:
     id: W3CREC-rdfa-syntax-20081014
@@ -43,9 +69,22 @@ relation:
     formattedref:
       content: W3C REC-rdfa-syntax-20081014
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CPR-rdfa-syntax-20080904
+    link:
+    - content: http://www.w3.org/TR/2008/PR-rdfa-syntax-20080904
+      type: src
+    docid:
+    - id: W3C PR-rdfa-syntax-20080904
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-rdfa-syntax-20080904
+      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: rdfa-syntax
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: SKOS Simple Knowledge Organization System Reference
   format: text/plain
 link:
-- content: http://www.w3.org/TR/skos-reference/
+- content: http://www.w3.org/TR/skos-reference
   type: src
 type: standard
 docid:
@@ -28,24 +28,63 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-skos-reference-20090818
+    id: W3CWD-skos-reference-20080125
     link:
-    - content: http://www.w3.org/TR/2009/REC-skos-reference-20090818/
+    - content: http://www.w3.org/TR/2008/WD-skos-reference-20080125/
       type: src
     docid:
-    - id: W3C REC-skos-reference-20090818
+    - id: W3C WD-skos-reference-20080125
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-skos-reference-20090818
+      content: W3C WD-skos-reference-20080125
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-skos-reference-20080829
+    link:
+    - content: http://www.w3.org/TR/2008/WD-skos-reference-20080829/
+      type: src
+    docid:
+    - id: W3C WD-skos-reference-20080829
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-skos-reference-20080829
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-skos-reference-20090317
+    link:
+    - content: http://www.w3.org/TR/2009/CR-skos-reference-20090317/
+      type: src
+    docid:
+    - id: W3C CR-skos-reference-20090317
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-skos-reference-20090317
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-skos-reference-20090615
+    link:
+    - content: http://www.w3.org/TR/2009/PR-skos-reference-20090615/
+      type: src
+    docid:
+    - id: W3C PR-skos-reference-20090615
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-skos-reference-20090615
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: skos-reference
 doctype:

@@ -28,7 +28,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
@@ -43,18 +43,57 @@ relation:
     formattedref:
       content: W3C NOTE-grddl-20040413
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-grddl-20070911
+    id: W3CWD-grddl-20061024
     link:
-    - content: http://www.w3.org/TR/2007/REC-grddl-20070911/
+    - content: http://www.w3.org/TR/2006/WD-grddl-20061024/
       type: src
     docid:
-    - id: W3C REC-grddl-20070911
+    - id: W3C WD-grddl-20061024
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-grddl-20070911
+      content: W3C WD-grddl-20061024
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-grddl-20070302
+    link:
+    - content: http://www.w3.org/TR/2007/WD-grddl-20070302/
+      type: src
+    docid:
+    - id: W3C WD-grddl-20070302
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-grddl-20070302
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-grddl-20070502
+    link:
+    - content: http://www.w3.org/TR/2007/CR-grddl-20070502/
+      type: src
+    docid:
+    - id: W3C CR-grddl-20070502
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-grddl-20070502
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-grddl-20070716
+    link:
+    - content: http://www.w3.org/TR/2007/PR-grddl-20070716/
+      type: src
+    docid:
+    - id: W3C PR-grddl-20070716
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-grddl-20070716
       format: text/plain
 series:
 - title:

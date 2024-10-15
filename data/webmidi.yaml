@@ -30,7 +30,7 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: hasEdition
+- type: instanceOf
   bibitem:
     id: W3CWD-webmidi-20131126
     link:
@@ -43,18 +43,31 @@ relation:
     formattedref:
       content: W3C WD-webmidi-20131126
       format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CWD-webmidi-20150317
+    id: W3CWD-webmidi-20121025
     link:
-    - content: http://www.w3.org/TR/2015/WD-webmidi-20150317/
+    - content: http://www.w3.org/TR/2012/WD-webmidi-20121025/
       type: src
     docid:
-    - id: W3C WD-webmidi-20150317
+    - id: W3C WD-webmidi-20121025
       type: W3C
       primary: true
     formattedref:
-      content: W3C WD-webmidi-20150317
+      content: W3C WD-webmidi-20121025
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webmidi-20121213
+    link:
+    - content: http://www.w3.org/TR/2012/WD-webmidi-20121213/
+      type: src
+    docid:
+    - id: W3C WD-webmidi-20121213
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-webmidi-20121213
       format: text/plain
 series:
 - title:

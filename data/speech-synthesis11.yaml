@@ -28,24 +28,128 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-speech-synthesis11-20100907
+    id: W3CWD-speech-synthesis11-20070110
     link:
-    - content: http://www.w3.org/TR/2010/REC-speech-synthesis11-20100907/
+    - content: http://www.w3.org/TR/2007/WD-speech-synthesis11-20070110/
       type: src
     docid:
-    - id: W3C REC-speech-synthesis11-20100907
+    - id: W3C WD-speech-synthesis11-20070110
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-speech-synthesis11-20100907
+      content: W3C WD-speech-synthesis11-20070110
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis11-20070611
+    link:
+    - content: http://www.w3.org/TR/2007/WD-speech-synthesis11-20070611/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis11-20070611
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-speech-synthesis11-20070611
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis11-20070904
+    link:
+    - content: http://www.w3.org/TR/2007/WD-speech-synthesis11-20070904/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis11-20070904
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-speech-synthesis11-20070904
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis11-20071212
+    link:
+    - content: http://www.w3.org/TR/2007/WD-speech-synthesis11-20071212/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis11-20071212
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-speech-synthesis11-20071212
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis11-20080317
+    link:
+    - content: http://www.w3.org/TR/2008/WD-speech-synthesis11-20080317/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis11-20080317
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-speech-synthesis11-20080317
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis11-20080620
+    link:
+    - content: http://www.w3.org/TR/2008/WD-speech-synthesis11-20080620/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis11-20080620
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-speech-synthesis11-20080620
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-speech-synthesis11-20081107
+    link:
+    - content: http://www.w3.org/TR/2008/CR-speech-synthesis11-20081107/
+      type: src
+    docid:
+    - id: W3C CR-speech-synthesis11-20081107
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-speech-synthesis11-20081107
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-speech-synthesis11-20090827
+    link:
+    - content: http://www.w3.org/TR/2009/CR-speech-synthesis11-20090827/
+      type: src
+    docid:
+    - id: W3C CR-speech-synthesis11-20090827
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-speech-synthesis11-20090827
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-speech-synthesis11-20100223
+    link:
+    - content: http://www.w3.org/TR/2010/PR-speech-synthesis11-20100223/
+      type: src
+    docid:
+    - id: W3C PR-speech-synthesis11-20100223
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-speech-synthesis11-20100223
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: speech-synthesis11
 doctype:

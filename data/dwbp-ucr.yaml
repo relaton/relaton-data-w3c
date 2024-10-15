@@ -26,23 +26,39 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-dwbp-ucr-20150224
+    id: W3CWD-dwbp-ucr-20140605
     link:
-    - content: http://www.w3.org/TR/2015/NOTE-dwbp-ucr-20150224/
+    - content: http://www.w3.org/TR/2014/WD-dwbp-ucr-20140605/
       type: src
     docid:
-    - id: W3C NOTE-dwbp-ucr-20150224
+    - id: W3C WD-dwbp-ucr-20140605
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-dwbp-ucr-20150224
+      content: W3C WD-dwbp-ucr-20140605
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-dwbp-ucr-20141014
+    link:
+    - content: http://www.w3.org/TR/2014/WD-dwbp-ucr-20141014/
+      type: src
+    docid:
+    - id: W3C WD-dwbp-ucr-20141014
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-dwbp-ucr-20141014
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: dwbp-ucr
 doctype:

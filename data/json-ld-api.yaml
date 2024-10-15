@@ -5,7 +5,7 @@ title:
 - content: JSON-LD 1.0 Processing Algorithms and API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/json-ld-api/
+- content: https://www.w3.org/TR/json-ld-api/
   type: src
 type: standard
 docid:
@@ -28,26 +28,13 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Proposed Recommendation
+    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CPR-json-ld-api-20131105
-    link:
-    - content: http://www.w3.org/TR/2013/PR-json-ld-api-20131105/
-      type: src
-    docid:
-    - id: W3C PR-json-ld-api-20131105
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-json-ld-api-20131105
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-json-ld-api-20140116
     link:
-    - content: http://www.w3.org/TR/2014/REC-json-ld-api-20140116/
+    - content: https://www.w3.org/TR/2014/REC-json-ld-api-20140116/
       type: src
     docid:
     - id: W3C REC-json-ld-api-20140116
@@ -56,9 +43,22 @@ relation:
     formattedref:
       content: W3C REC-json-ld-api-20140116
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CSPSD-json-ld-api-20201103
+    link:
+    - content: https://www.w3.org/TR/2020/SPSD-json-ld-api-20201103/
+      type: src
+    docid:
+    - id: W3C SPSD-json-ld-api-20201103
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C SPSD-json-ld-api-20201103
+      format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C REC
     format: text/plain
   number: json-ld-api
 doctype:

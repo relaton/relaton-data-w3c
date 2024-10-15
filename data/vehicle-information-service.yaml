@@ -28,8 +28,21 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vehicle-information-service-20161020
+    link:
+    - content: https://www.w3.org/TR/2016/WD-vehicle-information-service-20161020/
+      type: src
+    docid:
+    - id: W3C WD-vehicle-information-service-20161020
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-vehicle-information-service-20161020
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-vehicle-information-service-20180213
@@ -58,7 +71,7 @@ relation:
       format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: vehicle-information-service
 doctype:

@@ -5,7 +5,7 @@ title:
 - content: Social Web Protocols
   format: text/plain
 link:
-- content: https://www.w3.org/TR/social-web-protocols/
+- content: http://www.w3.org/TR/social-web-protocols/
   type: src
 type: standard
 docid:
@@ -26,23 +26,39 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-social-web-protocols-20171225
+    id: W3CWD-social-web-protocols-20160112
     link:
-    - content: https://www.w3.org/TR/2017/NOTE-social-web-protocols-20171225/
+    - content: http://www.w3.org/TR/2016/WD-social-web-protocols-20160112/
       type: src
     docid:
-    - id: W3C NOTE-social-web-protocols-20171225
+    - id: W3C WD-social-web-protocols-20160112
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-social-web-protocols-20171225
+      content: W3C WD-social-web-protocols-20160112
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-social-web-protocols-20160603
+    link:
+    - content: http://www.w3.org/TR/2016/WD-social-web-protocols-20160603/
+      type: src
+    docid:
+    - id: W3C WD-social-web-protocols-20160603
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-social-web-protocols-20160603
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: social-web-protocols
 doctype:

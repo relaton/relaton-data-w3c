@@ -28,24 +28,63 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-ElementTraversal-20081222
+    id: W3CWD-ElementTraversal-20070727
     link:
-    - content: http://www.w3.org/TR/2008/REC-ElementTraversal-20081222/
+    - content: http://www.w3.org/TR/2007/WD-ElementTraversal-20070727/
       type: src
     docid:
-    - id: W3C REC-ElementTraversal-20081222
+    - id: W3C WD-ElementTraversal-20070727
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-ElementTraversal-20081222
+      content: W3C WD-ElementTraversal-20070727
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ElementTraversal-20080303
+    link:
+    - content: http://www.w3.org/TR/2008/WD-ElementTraversal-20080303/
+      type: src
+    docid:
+    - id: W3C WD-ElementTraversal-20080303
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ElementTraversal-20080303
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-ElementTraversal-20080813
+    link:
+    - content: http://www.w3.org/TR/2008/CR-ElementTraversal-20080813/
+      type: src
+    docid:
+    - id: W3C CR-ElementTraversal-20080813
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-ElementTraversal-20080813
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-ElementTraversal-20081117
+    link:
+    - content: http://www.w3.org/TR/2008/PR-ElementTraversal-20081117/
+      type: src
+    docid:
+    - id: W3C PR-ElementTraversal-20081117
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-ElementTraversal-20081117
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: ElementTraversal
 doctype:

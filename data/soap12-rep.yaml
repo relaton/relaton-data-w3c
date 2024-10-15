@@ -28,24 +28,50 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-soap12-rep-20050125
+    id: W3CWD-soap12-rep-20040608
     link:
-    - content: http://www.w3.org/TR/2005/REC-soap12-rep-20050125/
+    - content: http://www.w3.org/TR/2004/WD-soap12-rep-20040608/
       type: src
     docid:
-    - id: W3C REC-soap12-rep-20050125
+    - id: W3C WD-soap12-rep-20040608
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-soap12-rep-20050125
+      content: W3C WD-soap12-rep-20040608
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CCR-soap12-rep-20040826
+    link:
+    - content: http://www.w3.org/TR/2004/CR-soap12-rep-20040826/
+      type: src
+    docid:
+    - id: W3C CR-soap12-rep-20040826
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-soap12-rep-20040826
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPR-soap12-rep-20041116
+    link:
+    - content: http://www.w3.org/TR/2004/PR-soap12-rep-20041116/
+      type: src
+    docid:
+    - id: W3C PR-soap12-rep-20041116
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PR-soap12-rep-20041116
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: soap12-rep
 doctype:

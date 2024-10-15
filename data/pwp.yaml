@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cpwp
 title:
-- content: 'Web Publications for the Open Web Platform: Vision And Technical Challenges'
+- content: Portable Web Publications for the Open Web Platform
   format: text/plain
 link:
-- content: https://www.w3.org/TR/pwp/
+- content: http://www.w3.org/TR/pwp/
   type: src
 type: standard
 docid:
@@ -26,23 +26,39 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CNOTE-pwp-20170502
+    id: W3CWD-pwp-20151015
     link:
-    - content: https://www.w3.org/TR/2017/NOTE-pwp-20170502/
+    - content: http://www.w3.org/TR/2015/WD-pwp-20151015/
       type: src
     docid:
-    - id: W3C NOTE-pwp-20170502
+    - id: W3C WD-pwp-20151015
       type: W3C
       primary: true
     formattedref:
-      content: W3C NOTE-pwp-20170502
+      content: W3C WD-pwp-20151015
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-pwp-20151126
+    link:
+    - content: http://www.w3.org/TR/2015/WD-pwp-20151126/
+      type: src
+    docid:
+    - id: W3C WD-pwp-20151126
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-pwp-20151126
       format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C WD
     format: text/plain
   number: pwp
 doctype:

@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cxhtml-print
 title:
-- content: XHTML-Print
+- content: XHTML-Print - Second Edition
   format: text/plain
 link:
 - content: http://www.w3.org/TR/xhtml-print
@@ -43,7 +43,20 @@ relation:
     formattedref:
       content: W3C WD-xhtml-print-20030729
       format: text/plain
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xhtml-print-20040120
+    link:
+    - content: http://www.w3.org/TR/2004/CR-xhtml-print-20040120
+      type: src
+    docid:
+    - id: W3C CR-xhtml-print-20040120
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-xhtml-print-20040120
+      format: text/plain
+- type: hasEdition
   bibitem:
     id: W3CPR-xhtml-print-20060131
     link:
@@ -55,6 +68,19 @@ relation:
       primary: true
     formattedref:
       content: W3C PR-xhtml-print-20060131
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CPER-xhtml-print-20101007
+    link:
+    - content: http://www.w3.org/TR/2010/PER-xhtml-print-20101007/
+      type: src
+    docid:
+    - id: W3C PER-xhtml-print-20101007
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C PER-xhtml-print-20101007
       format: text/plain
 series:
 - title:

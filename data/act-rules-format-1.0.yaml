@@ -28,8 +28,60 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-act-rules-format-1.0-20170406
+    link:
+    - content: https://www.w3.org/TR/2017/WD-act-rules-format-1.0-20170406/
+      type: src
+    docid:
+    - id: W3C WD-act-rules-format-1.0-20170406
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-act-rules-format-1.0-20170406
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-act-rules-format-1.0-20170912
+    link:
+    - content: https://www.w3.org/TR/2017/WD-act-rules-format-1.0-20170912/
+      type: src
+    docid:
+    - id: W3C WD-act-rules-format-1.0-20170912
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-act-rules-format-1.0-20170912
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-act-rules-format-1.0-20180308
+    link:
+    - content: https://www.w3.org/TR/2018/WD-act-rules-format-1.0-20180308/
+      type: src
+    docid:
+    - id: W3C WD-act-rules-format-1.0-20180308
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-act-rules-format-1.0-20180308
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-act-rules-format-1.0-20180705
+    link:
+    - content: https://www.w3.org/TR/2018/WD-act-rules-format-1.0-20180705/
+      type: src
+    docid:
+    - id: W3C WD-act-rules-format-1.0-20180705
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-act-rules-format-1.0-20180705
+      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CCR-act-rules-format-1.0-20190416
@@ -42,19 +94,6 @@ relation:
       primary: true
     formattedref:
       content: W3C CR-act-rules-format-1.0-20190416
-      format: text/plain
-- type: instanceOf
-  bibitem:
-    id: W3CREC-act-rules-format-1.0-20191031
-    link:
-    - content: https://www.w3.org/TR/2019/REC-act-rules-format-1.0-20191031/
-      type: src
-    docid:
-    - id: W3C REC-act-rules-format-1.0-20191031
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-act-rules-format-1.0-20191031
       format: text/plain
 - type: hasEdition
   bibitem:
@@ -69,9 +108,22 @@ relation:
     formattedref:
       content: W3C PR-act-rules-format-1.0-20190730
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CREC-act-rules-format-1.0-20191031
+    link:
+    - content: https://www.w3.org/TR/2019/REC-act-rules-format-1.0-20191031/
+      type: src
+    docid:
+    - id: W3C REC-act-rules-format-1.0-20191031
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C REC-act-rules-format-1.0-20191031
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: act-rules-format-1.0
 doctype:

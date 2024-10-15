@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Cambient-light
 title:
-- content: Ambient Light Events
+- content: Ambient Light Sensor
   format: text/plain
 link:
 - content: http://www.w3.org/TR/ambient-light/
@@ -28,9 +28,48 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ambient-light-20140619
+    link:
+    - content: http://www.w3.org/TR/2014/WD-ambient-light-20140619/
+      type: src
+    docid:
+    - id: W3C WD-ambient-light-20140619
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ambient-light-20140619
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ambient-light-20120802
+    link:
+    - content: http://www.w3.org/TR/2012/WD-ambient-light-20120802/
+      type: src
+    docid:
+    - id: W3C WD-ambient-light-20120802
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ambient-light-20120802
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ambient-light-20121213
+    link:
+    - content: http://www.w3.org/TR/2012/WD-ambient-light-20121213/
+      type: src
+    docid:
+    - id: W3C WD-ambient-light-20121213
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ambient-light-20121213
+      format: text/plain
+- type: hasEdition
   bibitem:
     id: W3CCR-ambient-light-20131001
     link:
@@ -43,9 +82,35 @@ relation:
     formattedref:
       content: W3C CR-ambient-light-20131001
       format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ambient-light-20150903
+    link:
+    - content: http://www.w3.org/TR/2015/WD-ambient-light-20150903/
+      type: src
+    docid:
+    - id: W3C WD-ambient-light-20150903
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ambient-light-20150903
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-ambient-light-20160329
+    link:
+    - content: http://www.w3.org/TR/2016/WD-ambient-light-20160329/
+      type: src
+    docid:
+    - id: W3C WD-ambient-light-20160329
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-ambient-light-20160329
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: ambient-light
 doctype:

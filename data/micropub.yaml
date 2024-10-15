@@ -5,7 +5,7 @@ title:
 - content: Micropub
   format: text/plain
 link:
-- content: https://www.w3.org/TR/micropub/
+- content: http://www.w3.org/TR/micropub/
   type: src
 type: standard
 docid:
@@ -28,24 +28,76 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
-    id: W3CREC-micropub-20170523
+    id: W3CWD-micropub-20160128
     link:
-    - content: https://www.w3.org/TR/2017/REC-micropub-20170523/
+    - content: http://www.w3.org/TR/2016/WD-micropub-20160128/
       type: src
     docid:
-    - id: W3C REC-micropub-20170523
+    - id: W3C WD-micropub-20160128
       type: W3C
       primary: true
     formattedref:
-      content: W3C REC-micropub-20170523
+      content: W3C WD-micropub-20160128
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-micropub-20160301
+    link:
+    - content: http://www.w3.org/TR/2016/WD-micropub-20160301/
+      type: src
+    docid:
+    - id: W3C WD-micropub-20160301
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-micropub-20160301
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-micropub-20160504
+    link:
+    - content: http://www.w3.org/TR/2016/WD-micropub-20160504/
+      type: src
+    docid:
+    - id: W3C WD-micropub-20160504
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-micropub-20160504
+      format: text/plain
+- type: hasEdition
+  bibitem:
+    id: W3CWD-micropub-20160621
+    link:
+    - content: http://www.w3.org/TR/2016/WD-micropub-20160621/
+      type: src
+    docid:
+    - id: W3C WD-micropub-20160621
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-micropub-20160621
+      format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CWD-micropub-20160713
+    link:
+    - content: http://www.w3.org/TR/2016/WD-micropub-20160713/
+      type: src
+    docid:
+    - id: W3C WD-micropub-20160713
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C WD-micropub-20160713
       format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C WD
     format: text/plain
   number: micropub
 doctype:

@@ -28,21 +28,8 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Working Draft
 relation:
-- type: instanceOf
-  bibitem:
-    id: W3CCR-webrtc-priority-20210318
-    link:
-    - content: https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/
-      type: src
-    docid:
-    - id: W3C CR-webrtc-priority-20210318
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-webrtc-priority-20210318
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-webrtc-priority-20200123
@@ -69,9 +56,22 @@ relation:
     formattedref:
       content: W3C WD-webrtc-priority-20200922
       format: text/plain
+- type: instanceOf
+  bibitem:
+    id: W3CCR-webrtc-priority-20210318
+    link:
+    - content: https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/
+      type: src
+    docid:
+    - id: W3C CR-webrtc-priority-20210318
+      type: W3C
+      primary: true
+    formattedref:
+      content: W3C CR-webrtc-priority-20210318
+      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C WD
     format: text/plain
   number: webrtc-priority
 doctype:
