@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-pwp-ucr-20160913/
   type: src
-- content: https://w3c.github.io/dpub-pwp-ucr/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pwp-ucr-20160913
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Heather Flanagan
+      given:
+        forename:
+        - content: Heather
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Flanagan
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpwp-ucr
+    title:
+    - content: Web Publications Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pwp-ucr/
+      type: src
+    docid:
+    - id: W3C pwp-ucr
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pwp-ucr-20170309
+    title:
+    - content: Web Publications Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-pwp-ucr-20170309/
+      type: src
+    docid:
+    - id: W3C WD-pwp-ucr-20170309
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-pwp-ucr-20160913
 ext:

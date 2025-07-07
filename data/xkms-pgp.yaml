@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-xkms-pgp-20051219
+    title:
+    - content: Using XKMS with PGP
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/NOTE-xkms-pgp-20051219/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-xkms-pgp-20051219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xkms-pgp-20051219
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: xkms-pgp
 ext:

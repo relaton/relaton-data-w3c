@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Arch
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arch
         language:
         - en
         script:
@@ -43,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-age-literature
+    title:
+    - content: 'Web Accessibility for Older Users: A Literature Review'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-age-literature/
+      type: src
+    docid:
+    - id: W3C wai-age-literature
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wai-age-literature-20080514
 ext:
@@ -53,4 +74,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Education and Outreach Working Group
+  - name: Accessibility Education and Outreach Working Group (EOWG)

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-shacl-20170720/
   type: src
-- content: https://w3c.github.io/data-shapes/shacl/
-  type: current
 type: standard
 docid:
 - id: W3C REC-shacl-20170720
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitris Kontokostas
+      given:
+        forename:
+        - content: Holger
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Knublauch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Holger Knublauch
+      given:
+        forename:
+        - content: Dimitris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kontokostas
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshacl
+    title:
+    - content: Shapes Constraint Language (SHACL)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shacl/
+      type: src
+    docid:
+    - id: W3C shacl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-shacl-20170608
+    title:
+    - content: Shapes Constraint Language (SHACL)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-shacl-20170608/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-shacl-20170608
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-shacl-20170608
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2017/shacl/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-shacl-20170720
 ext:
@@ -95,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF Data Shapes Working Group
+  - name: Data Shapes Working Group

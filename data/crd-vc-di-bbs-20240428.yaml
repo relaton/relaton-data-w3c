@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240428/
   type: src
-- content: https://w3c.github.io/vc-di-bbs/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-vc-di-bbs-20240428
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Greg Bernstein
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bernstein
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-di-bbs
+    title:
+    - content: Data Integrity BBS Cryptosuites v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-di-bbs/
+      type: src
+    docid:
+    - id: W3C vc-di-bbs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-vc-di-bbs-20240404
+    title:
+    - content: Data Integrity BBS Cryptosuites v1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-vc-di-bbs-20240404
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-vc-di-bbs-20240404
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-vc-di-bbs-20240614
+    title:
+    - content: Data Integrity BBS Cryptosuites v1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240614/
+      type: src
+    docid:
+    - id: W3C CRD-vc-di-bbs-20240614
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-vc-di-bbs-20240428
 ext:

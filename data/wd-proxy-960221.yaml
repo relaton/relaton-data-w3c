@@ -5,7 +5,7 @@ title:
 - content: Notification for Proxy Caches
   format: text/plain
 link:
-- content: http://www.w3.org/TR/WD-proxy-960221
+- content: https://www.w3.org/TR/WD-proxy-960221
   type: src
 type: standard
 docid:
@@ -25,27 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Phillip M. Hallam-Baker
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1996-02-21'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-proxy
+    title:
+    - content: Notification for Proxy Caches
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-proxy
+      type: src
+    docid:
+    - id: W3C WD-proxy
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: WD-proxy-960221
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

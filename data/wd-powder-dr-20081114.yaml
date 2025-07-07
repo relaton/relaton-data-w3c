@@ -5,7 +5,7 @@ title:
 - content: 'Protocol for Web Description Resources (POWDER): Description Resources'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-powder-dr-20081114/
+- content: https://www.w3.org/TR/2008/WD-powder-dr-20081114/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrea Perego
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kevin Smith
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Andrea
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Perego
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-dr
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Description Resources'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-dr/
+      type: src
+    docid:
+    - id: W3C powder-dr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-powder-dr-20080815
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Description Resources'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-powder-dr-20080815/
+    - content: https://www.w3.org/TR/2008/WD-powder-dr-20080815/
       type: src
     docid:
     - id: W3C WD-powder-dr-20080815
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-powder-dr-20080815
+- type: updatedBy
+  bibitem:
+    id: W3CWD-powder-dr-20090403
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Description Resources'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-powder-dr-20090403/
+      type: src
+    docid:
+    - id: W3C WD-powder-dr-20090403
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-powder-dr-20081114
 ext:
@@ -87,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

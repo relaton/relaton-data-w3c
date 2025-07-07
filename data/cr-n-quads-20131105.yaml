@@ -5,7 +5,7 @@ title:
 - content: RDF 1.1 N-Quads
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-n-quads-20131105/
+- content: https://www.w3.org/TR/2013/CR-n-quads-20131105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gavin Carothers
+      given:
+        forename:
+        - content: Gavin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carothers
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cn-quads
+    title:
+    - content: RDF 1.1 N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/n-quads/
+      type: src
+    docid:
+    - id: W3C n-quads
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-n-quads-20130905
+    title:
+    - content: N-Quads
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-n-quads-20130905/
+    - content: https://www.w3.org/TR/2013/WD-n-quads-20130905/
       type: src
     docid:
     - id: W3C WD-n-quads-20130905
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-n-quads-20130905
+- type: updatedBy
+  bibitem:
+    id: W3CPR-n-quads-20140109
+    title:
+    - content: RDF 1.1 N-Quads
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/PR-n-quads-20140109/
+      type: src
+    docid:
+    - id: W3C PR-n-quads-20140109
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-n-quads-20131105
 ext:

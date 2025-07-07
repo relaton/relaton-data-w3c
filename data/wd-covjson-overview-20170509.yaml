@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-covjson-overview-20170509/
   type: src
-- content: http://w3c.github.io/sdw/coverage-json/
-  type: current
 type: standard
 docid:
 - id: W3C WD-covjson-overview-20170509
@@ -34,10 +32,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccovjson-overview
+    title:
+    - content: Overview of the CoverageJSON format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/covjson-overview/
+      type: src
+    docid:
+    - id: W3C covjson-overview
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-covjson-overview-20170711
+    title:
+    - content: Overview of the CoverageJSON format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-covjson-overview-20170711/
+      type: src
+    docid:
+    - id: W3C NOTE-covjson-overview-20170711
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-covjson-overview-20170509
 ext:
@@ -45,4 +73,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

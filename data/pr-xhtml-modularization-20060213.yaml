@@ -5,7 +5,7 @@ title:
 - content: XHTML™ Modularization 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PR-xhtml-modularization-20060213
+- content: https://www.w3.org/TR/2006/PR-xhtml-modularization-20060213
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frank Boumphrey
+      given:
+        forename:
+        - content: Sam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dooley
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Murray Altheim
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sam Dooley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ted Wugofski
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -84,35 +68,64 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-modularization
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-modularization/
+      type: src
+    docid:
+    - id: W3C xhtml-modularization
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-xhtml-modularization-20010410
+    title:
+    - content: Modularization of XHTML™
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2001/REC-xhtml-modularization-20010410/
+    - content: https://www.w3.org/TR/2001/REC-xhtml-modularization-20010410/
       type: src
     docid:
     - id: W3C REC-xhtml-modularization-20010410
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-modularization-20010410
-      format: text/plain
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-modularization-20040218
+    title:
+    - content: Modularization of XHTML™ 1.0 - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-xhtml-modularization-20040218/
+    - content: https://www.w3.org/TR/2004/WD-xhtml-modularization-20040218
       type: src
     docid:
     - id: W3C WD-xhtml-modularization-20040218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-modularization-20040218
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xhtml-modularization-20060705
+    title:
+    - content: XHTML™ Modularization 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-xhtml-modularization-20060705
+      type: src
+    docid:
+    - id: W3C WD-xhtml-modularization-20060705
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xhtml-modularization-20060213
 ext:

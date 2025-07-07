@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-sparql12-results-xml-20230728/
   type: src
-- content: https://w3c.github.io/sparql-results-xml/spec/
-  type: current
 type: standard
 docid:
 - id: W3C WD-sparql12-results-xml-20230728
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominik Tomaszuk
+      given:
+        forename:
+        - content: Ruben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taelman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ruben Taelman
+      given:
+        forename:
+        - content: Dominik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tomaszuk
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Pellissier Tanon
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql12-results-xml
+    title:
+    - content: SPARQL 1.2 Query Results XML Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql12-results-xml/
+      type: src
+    docid:
+    - id: W3C sparql12-results-xml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql12-results-xml-20230727
+    title:
+    - content: SPARQL 1.2 Query Results XML Format
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-sparql12-results-xml-20230727/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-sparql12-results-xml-20230727
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql12-results-xml-20230727
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sparql12-results-xml-20231130
+    title:
+    - content: SPARQL 1.2 Query Results XML Format
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-sparql12-results-xml-20231130/
+      type: src
+    docid:
+    - id: W3C WD-sparql12-results-xml-20231130
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sparql12-results-xml-20230728
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF-star Working Group
+  - name: RDF & SPARQL Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-elreq-20200526/
   type: src
-- content: https://w3c.github.io/elreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-elreq-20200526
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Mekonnen
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mekonnen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Celreq
+    title:
+    - content: Ethiopic Layout Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/elreq/
+      type: src
+    docid:
+    - id: W3C elreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-elreq-20161115
+    title:
+    - content: Ethiopic Layout Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-elreq-20161115/
       type: src
@@ -66,12 +94,9 @@ relation:
     - id: W3C WD-elreq-20161115
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-elreq-20161115
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-elreq-20200526
 ext:

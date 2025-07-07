@@ -2,7 +2,7 @@
 schema-version: v1.2.9
 id: W3Ctlreq
 title:
-- content: Requirements for Tibetan Text Layout and Typography
+- content: Tibetan Layout Requirements
   format: text/plain
 link:
 - content: https://www.w3.org/TR/tlreq/
@@ -26,26 +26,39 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-tlreq-20200616
+    id: W3CDNOTE-tlreq-20240730
+    title:
+    - content: Tibetan Layout Requirements
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2020/WD-tlreq-20200616/
+    - content: https://www.w3.org/TR/2024/DNOTE-tlreq-20240730/
       type: src
     docid:
-    - id: W3C WD-tlreq-20200616
+    - id: W3C DNOTE-tlreq-20240730
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-tlreq-20200616
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-tlreq-20240705
+    title:
+    - content: Tibetan script Layout Requirements
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-tlreq-20240705/
+      type: src
+    docid:
+    - id: W3C DNOTE-tlreq-20240705
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-tlreq-20240515
+    title:
+    - content: Requirements for Tibetan Text Layout and Typography
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/DNOTE-tlreq-20240515/
       type: src
@@ -53,12 +66,48 @@ relation:
     - id: W3C DNOTE-tlreq-20240515
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-tlreq-20240515
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-tlreq-20240419
+    title:
+    - content: Requirements for Tibetan Text Layout and Typography
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-tlreq-20240419/
+      type: src
+    docid:
+    - id: W3C DNOTE-tlreq-20240419
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-tlreq-20240402
+    title:
+    - content: Requirements for Tibetan Text Layout and Typography
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-tlreq-20240402/
+      type: src
+    docid:
+    - id: W3C DNOTE-tlreq-20240402
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-tlreq-20200616
+    title:
+    - content: Requirements for Tibetan Text Layout and Typography
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-tlreq-20200616/
+      type: src
+    docid:
+    - id: W3C WD-tlreq-20200616
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: tlreq
 ext:

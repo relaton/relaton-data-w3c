@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cfingerprinting-guidance
 title:
-- content: Fingerprinting Guidance for Web Specification Authors (Draft)
+- content: Mitigating Browser Fingerprinting in Web Specifications
   format: text/plain
 link:
-- content: http://www.w3.org/TR/fingerprinting-guidance/
+- content: https://www.w3.org/TR/fingerprinting-guidance/
   type: src
 type: standard
 docid:
@@ -27,22 +27,61 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-fingerprinting-guidance-20250321
+    title:
+    - content: Mitigating Browser Fingerprinting in Web Specifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250321/
+      type: src
+    docid:
+    - id: W3C NOTE-fingerprinting-guidance-20250321
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-fingerprinting-guidance-20250320
+    title:
+    - content: Mitigating Browser Fingerprinting in Web Specifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250320/
+      type: src
+    docid:
+    - id: W3C NOTE-fingerprinting-guidance-20250320
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-fingerprinting-guidance-20190328
+    title:
+    - content: Mitigating Browser Fingerprinting in Web Specifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-fingerprinting-guidance-20190328/
+      type: src
+    docid:
+    - id: W3C NOTE-fingerprinting-guidance-20190328
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CNOTE-fingerprinting-guidance-20151124
+    title:
+    - content: Fingerprinting Guidance for Web Specification Authors (Draft)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/NOTE-fingerprinting-guidance-20151124/
+    - content: https://www.w3.org/TR/2015/NOTE-fingerprinting-guidance-20151124/
       type: src
     docid:
     - id: W3C NOTE-fingerprinting-guidance-20151124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-fingerprinting-guidance-20151124
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: fingerprinting-guidance
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-hr-time-2-20161025/
   type: src
-- content: https://w3c.github.io/hr-time/
-  type: current
 type: standard
 docid:
 - id: W3C WD-hr-time-2-20161025
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-2
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-2/
+      type: src
+    docid:
+    - id: W3C hr-time-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-hr-time-2-20161024
+    title:
+    - content: High Resolution Time Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-hr-time-2-20161024/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-hr-time-2-20161024
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-hr-time-2-20161024
+- type: updatedBy
+  bibitem:
+    id: W3CCR-hr-time-2-20161101
+    title:
+    - content: High Resolution Time Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-hr-time-2-20161101/
+      type: src
+    docid:
+    - id: W3C CR-hr-time-2-20161101
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-hr-time-2-20161025
 ext:

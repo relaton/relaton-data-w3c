@@ -8,8 +8,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-webauthn-3-20230927/
   type: src
-- content: https://w3c.github.io/webauthn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webauthn-3-20230927
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Akshay Kumar
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -40,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Emil Lundberg
+      given:
+        forename:
+        - content: Akshay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kumar
         language:
         - en
         script:
@@ -50,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Jones
+      given:
+        forename:
+        - content: Emil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lundberg
         language:
         - en
         script:
@@ -67,9 +86,27 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebauthn-3
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 3'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webauthn-3/
+      type: src
+    docid:
+    - id: W3C webauthn-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webauthn-3-20210427
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 3'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-webauthn-3-20210427/
       type: src
@@ -77,12 +114,26 @@ relation:
     - id: W3C WD-webauthn-3-20210427
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webauthn-3-20210427
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webauthn-3-20250127
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 3'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/WD-webauthn-3-20250127/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-3-20250127
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webauthn-3-20230927
 ext:

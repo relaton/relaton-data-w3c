@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-netinfo-usecases-20140403/
   type: src
-- content: https://w3c-webmob.github.io/netinfo-usecases/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-netinfo-usecases-20140403
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ernesto Jimenez
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Fernando Jiménez Moreno
+      given:
+        forename:
+        - content: Fernando
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jiménez Moreno
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Ernesto
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jimenez
         language:
         - en
         script:
@@ -62,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnetinfo-usecases
+    title:
+    - content: Review of apps that use network information
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/netinfo-usecases/
+      type: src
+    docid:
+    - id: W3C netinfo-usecases
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-netinfo-usecases-20140403
 ext:

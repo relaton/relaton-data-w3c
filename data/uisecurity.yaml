@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3CUISecurity
 title:
-- content: User Interface Security Directives for Content Security Policy
+- content: User Interface Security and the Visibility API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/UISecurity/
+- content: https://www.w3.org/TR/UISecurity/
   type: src
 type: standard
 docid:
@@ -26,39 +26,62 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-UISecurity-20160607
+    title:
+    - content: User Interface Security and the Visibility API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-UISecurity-20160607/
+      type: src
+    docid:
+    - id: W3C WD-UISecurity-20160607
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-UISecurity-20140318
+    title:
+    - content: User Interface Security Directives for Content Security Policy
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-UISecurity-20140318/
+    - content: https://www.w3.org/TR/2014/WD-UISecurity-20140318/
       type: src
     docid:
     - id: W3C WD-UISecurity-20140318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-UISecurity-20140318
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-UISecurity-20130523
+    title:
+    - content: User Interface Security Directives for Content Security Policy
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-UISecurity-20130523/
+    - content: https://www.w3.org/TR/2013/WD-UISecurity-20130523/
       type: src
     docid:
     - id: W3C WD-UISecurity-20130523
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-UISecurity-20130523
+- type: hasEdition
+  bibitem:
+    id: W3CWD-UISafety-20121120
+    title:
+    - content: User Interface Safety Directives for Content Security Policy
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-UISafety-20121120/
+      type: src
+    docid:
+    - id: W3C WD-UISafety-20121120
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: UISecurity
 ext:

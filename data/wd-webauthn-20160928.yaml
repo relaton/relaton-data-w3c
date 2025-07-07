@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-webauthn-20160928/
   type: src
-- content: https://w3c.github.io/webauthn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webauthn-20160928
@@ -36,9 +34,26 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebauthn-1
+    title:
+    - content: Web Authentication:An API for accessing Public Key Credentials Level
+        1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webauthn-1/
+      type: src
+    docid:
+    - id: W3C webauthn-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webauthn-20160902
+    title:
+    - content: 'Web Authentication: An API for accessing Scoped Credentials none'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-webauthn-20160902/
       type: src
@@ -46,12 +61,25 @@ relation:
     - id: W3C WD-webauthn-20160902
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webauthn-20160902
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webauthn-20161207
+    title:
+    - content: 'Web Authentication: An API for accessing Scoped Credentials'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-webauthn-20161207/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-20161207
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webauthn-20160928
 ext:

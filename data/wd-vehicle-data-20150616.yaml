@@ -5,10 +5,8 @@ title:
 - content: Vehicle Data
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-vehicle-data-20150616/
+- content: https://www.w3.org/TR/2015/WD-vehicle-data-20150616/
   type: src
-- content: http://rawgit.com/w3c/automotive/master/vehicle_data/data_spec.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-vehicle-data-20150616
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Crofts
+      given:
+        forename:
+        - content: Wonsuk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lee
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Justin(JongSeon) Park
+      given:
+        forename:
+        - content: Qing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: An
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kevin Gavigan
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Crofts
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kevron Rees
+      given:
+        forename:
+        - content: Kevin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gavigan
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Qing An
+      given:
+        forename:
+        - content: Justin(JongSeon)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Park
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: WonSuk Lee
+      given:
+        forename:
+        - content: Kevron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rees
         language:
         - en
         script:
@@ -94,10 +134,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvehicle-data
+    title:
+    - content: Vehicle Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vehicle-data/
+      type: src
+    docid:
+    - id: W3C vehicle-data
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vehicle-data-20160119
+    title:
+    - content: Vehicle Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-vehicle-data-20160119/
+      type: src
+    docid:
+    - id: W3C WD-vehicle-data-20160119
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-vehicle-data-20150616
 ext:

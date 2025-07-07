@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-webvtt1-20190404/
   type: src
-- content: https://w3c.github.io/webvtt/
-  type: current
 type: standard
 docid:
 - id: W3C CR-webvtt1-20190404
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Silvia Pfeiffer
+      given:
+        forename:
+        - content: Silvia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pfeiffer
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebvtt1
+    title:
+    - content: 'WebVTT: The Web Video Text Tracks Format'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webvtt1/
+      type: src
+    docid:
+    - id: W3C webvtt1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-webvtt1-20180510
+    title:
+    - content: 'WebVTT: The Web Video Text Tracks Format'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-webvtt1-20180510/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C CR-webvtt1-20180510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webvtt1-20180510
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-webvtt1-20190404
 ext:

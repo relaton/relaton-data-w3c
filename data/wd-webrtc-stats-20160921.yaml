@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-webrtc-stats-20160921/
   type: src
-- content: https://w3c.github.io/webrtc-stats/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webrtc-stats-20160921
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc-stats
+    title:
+    - content: Identifiers for WebRTC's Statistics API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc-stats/
+      type: src
+    docid:
+    - id: W3C webrtc-stats
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webrtc-stats-20160527
+    title:
+    - content: Identifiers for WebRTC's Statistics API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-webrtc-stats-20160527/
+    - content: https://www.w3.org/TR/2016/WD-webrtc-stats-20160527/
       type: src
     docid:
     - id: W3C WD-webrtc-stats-20160527
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webrtc-stats-20160527
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webrtc-stats-20161214
+    title:
+    - content: Identifiers for WebRTC's Statistics API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-webrtc-stats-20161214/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-stats-20161214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webrtc-stats-20160921
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Web Audio API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-webaudio-20121213/
+- content: https://www.w3.org/TR/2012/WD-webaudio-20121213/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Chris Rogers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2012-12-13'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebaudio-1.0
+    title:
+    - content: Web Audio API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webaudio-1.0/
+      type: src
+    docid:
+    - id: W3C webaudio-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webaudio-20120802
+    title:
+    - content: Web Audio API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-webaudio-20120802/
+    - content: https://www.w3.org/TR/2012/WD-webaudio-20120802/
       type: src
     docid:
     - id: W3C WD-webaudio-20120802
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webaudio-20120802
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webaudio-20131010
+    title:
+    - content: Web Audio API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-webaudio-20131010/
+      type: src
+    docid:
+    - id: W3C WD-webaudio-20131010
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webaudio-20121213
 ext:

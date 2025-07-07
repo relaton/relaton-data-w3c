@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml-imsc1
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml-imsc1/
+      type: src
+    docid:
+    - id: W3C ttml-imsc1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-ttml-imsc1-20160421
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/REC-ttml-imsc1-20160421/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C REC-ttml-imsc1-20160421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-ttml-imsc1-20160421
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-ttml-imsc1-20180626
 ext:

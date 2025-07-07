@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nico Poppelier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Patrick D F Ion
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robert R Miner
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -74,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CMathML2
+    title:
+    - content: Mathematical Markup Language (MathML) Version 2.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/MathML2/
+      type: src
+    docid:
+    - id: W3C MathML2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-MathML2-20010108
+    title:
+    - content: Mathematical Markup Language (MathML) Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/PR-MathML2-20010108
       type: src
@@ -84,28 +94,9 @@ relation:
     - id: W3C PR-MathML2-20010108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-MathML2-20010108
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CMathML2-errata
-    link:
-    - content: https://www.w3.org/2001/02/MathML2-errata
-      type: src
-    docid:
-    - id: W3C MathML2-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C MathML2-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-MathML2-20010221
 ext:

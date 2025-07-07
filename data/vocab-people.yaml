@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-vocab-people-20120405
+    title:
+    - content: Terms for describing people
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-vocab-people-20120405/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-vocab-people-20120405
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-people-20120405
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: vocab-people
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/NOTE-json-ld11-streaming-20200507/
   type: src
-- content: https://w3c.github.io/json-ld-streaming/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-json-ld11-streaming-20200507
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ruben Taelman
+      given:
+        forename:
+        - content: Ruben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taelman
         language:
         - en
         script:
@@ -42,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld11-streaming
+    title:
+    - content: Streaming JSON-LD
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld11-streaming/
+      type: src
+    docid:
+    - id: W3C json-ld11-streaming
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-json-ld11-streaming-20200507
 ext:

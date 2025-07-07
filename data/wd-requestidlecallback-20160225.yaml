@@ -5,10 +5,8 @@ title:
 - content: Cooperative Scheduling of Background Tasks
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-requestidlecallback-20160225/
+- content: https://www.w3.org/TR/2016/WD-requestidlecallback-20160225/
   type: src
-- content: https://w3c.github.io/requestidlecallback/
-  type: current
 type: standard
 docid:
 - id: W3C WD-requestidlecallback-20160225
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ross McIlroy
+      given:
+        forename:
+        - content: Ross
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McIlroy
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crequestidlecallback
+    title:
+    - content: requestIdleCallback()
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/requestidlecallback/
+      type: src
+    docid:
+    - id: W3C requestidlecallback
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-requestidlecallback-20160204
+    title:
+    - content: Cooperative Scheduling of Background Tasks
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-requestidlecallback-20160204/
+    - content: https://www.w3.org/TR/2016/WD-requestidlecallback-20160204/
       type: src
     docid:
     - id: W3C WD-requestidlecallback-20160204
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-requestidlecallback-20160204
+- type: updatedBy
+  bibitem:
+    id: W3CWD-requestidlecallback-20160419
+    title:
+    - content: Cooperative Scheduling of Background Tasks
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-requestidlecallback-20160419/
+      type: src
+    docid:
+    - id: W3C WD-requestidlecallback-20160419
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-requestidlecallback-20160225
 ext:

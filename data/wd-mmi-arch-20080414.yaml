@@ -5,7 +5,7 @@ title:
 - content: Multimodal Architecture and Interfaces
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-mmi-arch-20080414/
+- content: https://www.w3.org/TR/2008/WD-mmi-arch-20080414/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jim Barnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2008-04-14'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-arch
+    title:
+    - content: Multimodal Architecture and Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-arch/
+      type: src
+    docid:
+    - id: W3C mmi-arch
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mmi-arch-20061211
+    title:
+    - content: Multimodal Architecture and Interfaces
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-mmi-arch-20061211/
+    - content: https://www.w3.org/TR/2006/WD-mmi-arch-20061211/
       type: src
     docid:
     - id: W3C WD-mmi-arch-20061211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mmi-arch-20061211
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mmi-arch-20081016
+    title:
+    - content: Multimodal Architecture and Interfaces
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-mmi-arch-20081016/
+      type: src
+    docid:
+    - id: W3C WD-mmi-arch-20081016
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mmi-arch-20080414
 ext:

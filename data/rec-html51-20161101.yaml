@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/REC-html51-20161101/
   type: src
-- content: https://rawgit.com/w3c/html/html5.1-2/single-page.html
-  type: current
 type: standard
 docid:
 - id: W3C REC-html51-20161101
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Danilo
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Arron Eicholz
+      given:
+        forename:
+        - content: Arron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eicholz
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Danilo
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml51
+    title:
+    - content: HTML 5.1 2nd Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html51/
+      type: src
+    docid:
+    - id: W3C html51
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-html51-20160915
+    title:
+    - content: HTML 5.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/PR-html51-20160915/
       type: src
@@ -86,28 +128,25 @@ relation:
     - id: W3C PR-html51-20160915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-html51-20160915
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cissues
+    id: W3CCR-html51-20170620
+    title:
+    - content: HTML 5.1 2nd Edition
+      format: text/plain
     link:
-    - content: https://github.com/w3c/html/issues
+    - content: https://www.w3.org/TR/2017/CR-html51-20170620/
       type: src
     docid:
-    - id: W3C issues
+    - id: W3C CR-html51-20170620
       type: W3C
       primary: true
-    formattedref:
-      content: W3C issues
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-html51-20161101
 ext:
@@ -115,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

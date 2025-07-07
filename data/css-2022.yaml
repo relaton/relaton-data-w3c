@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-css-2022-20221122
+    title:
+    - content: CSS Snapshot 2022
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-css-2022-20221122/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C DNOTE-css-2022-20221122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-css-2022-20221122
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: css-2022
 ext:

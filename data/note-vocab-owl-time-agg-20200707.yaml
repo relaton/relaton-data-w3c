@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/NOTE-vocab-owl-time-agg-20200707/
   type: src
-- content: https://w3c.github.io/sdw/time-aggregates/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-vocab-owl-time-agg-20200707
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Shepherd
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cox
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Charles Vardeman
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shepherd
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Cox
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vardeman
         language:
         - en
         script:
@@ -62,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-owl-time-agg
+    title:
+    - content: Extensions to the OWL-Time Ontology - temporal aggregates
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-owl-time-agg/
+      type: src
+    docid:
+    - id: W3C vocab-owl-time-agg
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-vocab-owl-time-agg-20200707
 ext:

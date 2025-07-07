@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-uievents-key-20161024/
   type: src
-- content: https://w3c.github.io/uievents-key/
-  type: current
 type: standard
 docid:
 - id: W3C WD-uievents-key-20161024
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuievents-key
+    title:
+    - content: UI Events KeyboardEvent key Values
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uievents-key/
+      type: src
+    docid:
+    - id: W3C uievents-key
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-uievents-key-20151215
+    title:
+    - content: UI Events KeyboardEvent key Values
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-uievents-key-20151215/
+    - content: https://www.w3.org/TR/2015/WD-uievents-key-20151215/
       type: src
     docid:
     - id: W3C WD-uievents-key-20151215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-uievents-key-20151215
+- type: updatedBy
+  bibitem:
+    id: W3CCR-uievents-key-20170601
+    title:
+    - content: UI Events KeyboardEvent key Values
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-uievents-key-20170601/
+      type: src
+    docid:
+    - id: W3C CR-uievents-key-20170601
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-uievents-key-20161024
 ext:
@@ -59,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

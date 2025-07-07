@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-update-30
+    title:
+    - content: XQuery Update Facility 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-update-30/
+      type: src
+    docid:
+    - id: W3C xquery-update-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-update-30-20150219
+    title:
+    - content: XQuery Update Facility 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-xquery-update-30-20150219/
       type: src
@@ -61,12 +94,9 @@ relation:
     - id: W3C WD-xquery-update-30-20150219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-update-30-20150219
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xquery-update-30-20170124
 ext:

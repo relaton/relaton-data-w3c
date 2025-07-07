@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Rogers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robert O'Callahan
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Callahan
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudioproc
+    title:
+    - content: Audio Processing API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audioproc/
+      type: src
+    docid:
+    - id: W3C audioproc
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDISC-audioproc-20250527
+    title:
+    - content: Audio Processing API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/DISC-audioproc-20250527/
+      type: src
+    docid:
+    - id: W3C DISC-audioproc-20250527
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-audioproc-20111215
 ext:

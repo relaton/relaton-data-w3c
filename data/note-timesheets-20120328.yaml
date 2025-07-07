@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dick Bulterman
+      given:
+        forename:
+        - content: Petri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vuorimaa
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pablo Cesar
+      given:
+        forename:
+        - content: Dick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bulterman
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Petri Vuorimaa
+      given:
+        forename:
+        - content: Pablo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cesar
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctimesheets
+    title:
+    - content: SMIL Timesheets 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/timesheets/
+      type: src
+    docid:
+    - id: W3C timesheets
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-timesheets-20080110
+    title:
+    - content: SMIL Timesheets 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-timesheets-20080110/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-timesheets-20080110
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-timesheets-20080110
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-timesheets-20120328
 ext:
@@ -84,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Synchronized Multimedia Working Group
+  - name: SYMM Working Group

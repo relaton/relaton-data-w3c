@@ -5,7 +5,7 @@ title:
 - content: 'QA Framework: Test Guidelines'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-qaframe-test-20030516/
+- content: https://www.w3.org/TR/2003/WD-qaframe-test-20030516/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitris Dimitriadis
+      given:
+        forename:
+        - content: Dimitris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dimitriadis
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kirill Gavrylyuk
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Curran
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lofton Henderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Skall
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Patrick Curran
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Fawcett
+      given:
+        forename:
+        - content: Lofton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henderson
         language:
         - en
         script:
@@ -94,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cqaframe-test
+    title:
+    - content: 'QA Framework: Test Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/qaframe-test/
+      type: src
+    docid:
+    - id: W3C qaframe-test
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-qaframe-test-20021220
+    title:
+    - content: 'QA Framework: Test Guidelines'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-qaframe-test-20021220/
+    - content: https://www.w3.org/TR/2002/WD-qaframe-test-20021220/
       type: src
     docid:
     - id: W3C WD-qaframe-test-20021220
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-qaframe-test-20021220
+- type: updatedBy
+  bibitem:
+    id: W3CWD-qaframe-test-20040225
+    title:
+    - content: 'QA Framework: Test Guidelines'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-qaframe-test-20040225/
+      type: src
+    docid:
+    - id: W3C WD-qaframe-test-20040225
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-qaframe-test-20030516
 ext:

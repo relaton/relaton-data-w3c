@@ -5,7 +5,7 @@ title:
 - content: Web Services Description Language (WSDL) Version 2.0 SOAP 1.1 Binding
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-wsdl20-soap11-binding-20050803
+- content: https://www.w3.org/TR/2005/WD-wsdl20-soap11-binding-20050803
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Asir S. Vedamuthu
+      given:
+        forename:
+        - content: Asir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vedamuthu
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsdl20-soap11-binding
+    title:
+    - content: Web Services Description Language (WSDL) Version 2.0 SOAP 1.1 Binding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsdl20-soap11-binding/
+      type: src
+    docid:
+    - id: W3C wsdl20-soap11-binding
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsdl20-soap11-binding-20050510
+    title:
+    - content: Web Services Description Language (WSDL) Version 2.0 SOAP 1.1 Binding
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-wsdl20-soap11-binding-20050510
+    - content: https://www.w3.org/TR/2005/WD-wsdl20-soap11-binding-20050510
       type: src
     docid:
     - id: W3C WD-wsdl20-soap11-binding-20050510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsdl20-soap11-binding-20050510
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wsdl20-soap11-binding-20060106
+    title:
+    - content: Web Services Description Language (WSDL) Version 2.0 SOAP 1.1 Binding
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-wsdl20-soap11-binding-20060106
+      type: src
+    docid:
+    - id: W3C WD-wsdl20-soap11-binding-20060106
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-wsdl20-soap11-binding-20050803
 ext:

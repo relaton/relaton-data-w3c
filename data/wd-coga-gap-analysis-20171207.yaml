@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-coga-gap-analysis-20171207/
   type: src
-- content: https://w3c.github.io/coga/gap-analysis/
-  type: current
 type: standard
 docid:
 - id: W3C WD-coga-gap-analysis-20171207
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lisa Seeman-Kestenbaum
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccoga-gap-analysis
+    title:
+    - content: Cognitive Accessibility Roadmap and Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/coga-gap-analysis/
+      type: src
+    docid:
+    - id: W3C coga-gap-analysis
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-coga-gap-analysis-20180607
+    title:
+    - content: Cognitive Accessibility Roadmap and Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-coga-gap-analysis-20180607/
+      type: src
+    docid:
+    - id: W3C WD-coga-gap-analysis-20180607
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-coga-gap-analysis-20171207
 ext:
@@ -65,5 +107,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
   - name: Accessibility Guidelines Working Group
+  - name: Accessible Platform Architectures Working Group

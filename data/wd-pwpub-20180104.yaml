@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-pwpub-20180104/
   type: src
-- content: https://w3c.github.io/pwpub/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pwpub-20180104
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Wood
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpwpub
+    title:
+    - content: Packaged Web Publications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pwpub/
+      type: src
+    docid:
+    - id: W3C pwpub
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-pwpub-20201001
+    title:
+    - content: Packaged Web Publications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-pwpub-20201001/
+      type: src
+    docid:
+    - id: W3C NOTE-pwpub-20201001
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-pwpub-20180104
 ext:

@@ -5,10 +5,8 @@ title:
 - content: WOFF 2.0 Evaluation Report
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-WOFF20ER-20140128/
+- content: https://www.w3.org/TR/2014/WD-WOFF20ER-20140128/
   type: src
-- content: http://www.w3.org/Fonts/WG/WOFF2ER/
-  type: current
 type: standard
 docid:
 - id: W3C WD-WOFF20ER-20140128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWOFF20ER
+    title:
+    - content: WOFF 2.0 Evaluation Report
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WOFF20ER/
+      type: src
+    docid:
+    - id: W3C WOFF20ER
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-WOFF20ER-20150414
+    title:
+    - content: WOFF 2.0 Evaluation Report
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-WOFF20ER-20150414/
+      type: src
+    docid:
+    - id: W3C WD-WOFF20ER-20150414
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-WOFF20ER-20140128
 ext:

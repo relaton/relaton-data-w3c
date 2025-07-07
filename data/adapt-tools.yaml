@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-adapt-tools-20220609
+    title:
+    - content: 'WAI-Adapt: Tools Module'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-adapt-tools-20220609/
       type: src
@@ -40,12 +40,35 @@ relation:
     - id: W3C WD-adapt-tools-20220609
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-adapt-tools-20220609
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-tools-1.0-20190711
+    title:
+    - content: Personalization Tools 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-personalization-semantics-tools-1.0-20190711/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-tools-1.0-20190711
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-tools-1.0-20181018
+    title:
+    - content: Personalization Tools 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-personalization-semantics-tools-1.0-20181018/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-tools-1.0-20181018
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: adapt-tools
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Enabling Read Access for Web Resources
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-access-control-20070215/
+- content: https://www.w3.org/TR/2007/WD-access-control-20070215/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Brad Porter
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -54,22 +51,52 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccors
+    title:
+    - content: Cross-Origin Resource Sharing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cors/
+      type: src
+    docid:
+    - id: W3C cors
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-access-control-20060517
+    title:
+    - content: Authorizing Read Access to XML Content Using the <?access-control?>
+        Processing Instruction 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-access-control-20060517/
+    - content: https://www.w3.org/TR/2006/WD-access-control-20060517/
       type: src
     docid:
     - id: W3C WD-access-control-20060517
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-access-control-20060517
+- type: updatedBy
+  bibitem:
+    id: W3CWD-access-control-20070618
+    title:
+    - content: Enabling Read Access for Web Resources
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-access-control-20070618/
+      type: src
+    docid:
+    - id: W3C WD-access-control-20070618
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-access-control-20070215
 ext:

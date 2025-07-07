@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/REC-html-aria-20240216/
   type: src
-- content: https://w3c.github.io/html-aria/
-  type: current
 type: standard
 docid:
 - id: W3C REC-html-aria-20240216
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Hara
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott O'Hara
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-aria
+    title:
+    - content: ARIA in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-aria/
+      type: src
+    docid:
+    - id: W3C html-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-html-aria-20231221
+    title:
+    - content: ARIA in HTML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/REC-html-aria-20231221/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C REC-html-aria-20231221
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-html-aria-20231221
+- type: updatedBy
+  bibitem:
+    id: W3CREC-html-aria-20240409
+    title:
+    - content: ARIA in HTML
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/REC-html-aria-20240409/
+      type: src
+    docid:
+    - id: W3C REC-html-aria-20240409
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-html-aria-20240216
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-coga-usable-20190716/
   type: src
-- content: https://w3c.github.io/coga/content-usable/
-  type: current
 type: standard
 docid:
 - id: W3C WD-coga-usable-20190716
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lisa Seeman-Kestenbaum
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccoga-usable
+    title:
+    - content: Making Content Usable for People with Cognitive and Learning Disabilities
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/coga-usable/
+      type: src
+    docid:
+    - id: W3C coga-usable
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-coga-usable-20181211
+    title:
+    - content: Making Content Usable for People with Cognitive and Learning Disabilities
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-coga-usable-20181211/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-coga-usable-20181211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-coga-usable-20181211
+- type: updatedBy
+  bibitem:
+    id: W3CWD-coga-usable-20200327
+    title:
+    - content: Making content usable for people with cognitive and learning disabilities
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-coga-usable-20200327/
+      type: src
+    docid:
+    - id: W3C WD-coga-usable-20200327
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-coga-usable-20190716
 ext:
@@ -79,5 +120,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
   - name: Accessibility Guidelines Working Group
+  - name: Accessible Platform Architectures Working Group

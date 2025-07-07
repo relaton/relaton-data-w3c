@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-ldn-20160913/
   type: src
-- content: https://linkedresearch.org/ldn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-ldn-20160913
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldn
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldn/
+      type: src
+    docid:
+    - id: W3C ldn
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ldn-20160824
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-ldn-20160824/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-ldn-20160824
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ldn-20160824
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ldn-20160926
+    title:
+    - content: Linked Data Notifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-ldn-20160926/
+      type: src
+    docid:
+    - id: W3C WD-ldn-20160926
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ldn-20160913
 ext:

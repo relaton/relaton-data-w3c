@@ -5,10 +5,8 @@ title:
 - content: Audio Output Devices API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-audio-output-20150210/
+- content: https://www.w3.org/TR/2015/WD-audio-output-20150210/
   type: src
-- content: http://w3c.github.io/mediacapture-output/
-  type: current
 type: standard
 docid:
 - id: W3C WD-audio-output-20150210
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Justin Uberti
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Victoria Kirst
+      given:
+        forename:
+        - content: Justin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uberti
         language:
         - en
         script:
@@ -54,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudio-output
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audio-output/
+      type: src
+    docid:
+    - id: W3C audio-output
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-audio-output-20160601
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-audio-output-20160601/
+      type: src
+    docid:
+    - id: W3C WD-audio-output-20160601
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-audio-output-20150210
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-vc-di-eddsa-20231021/
   type: src
-- content: https://w3c.github.io/vc-di-eddsa/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vc-di-eddsa-20231021
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dmitri Zagidulin
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Greg Bernstein
+      given:
+        forename:
+        - content: Dmitri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zagidulin
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bernstein
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Crane
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Crane
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-di-eddsa
+    title:
+    - content: Data Integrity EdDSA Cryptosuites v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-di-eddsa/
+      type: src
+    docid:
+    - id: W3C vc-di-eddsa
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vc-di-eddsa-20231017
+    title:
+    - content: Data Integrity EdDSA Cryptosuites v1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-vc-di-eddsa-20231017/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-vc-di-eddsa-20231017
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vc-di-eddsa-20231017
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vc-di-eddsa-20231101
+    title:
+    - content: Data Integrity EdDSA Cryptosuites v1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-di-eddsa-20231101/
+      type: src
+    docid:
+    - id: W3C WD-vc-di-eddsa-20231101
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vc-di-eddsa-20231021
 ext:

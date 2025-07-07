@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240515/
   type: src
-- content: https://w3c.github.io/sealreq/khmer/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-khmr-lreq-20240515
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ckhmr-lreq
+    title:
+    - content: Khmer Script Resources
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/khmr-lreq/
+      type: src
+    docid:
+    - id: W3C khmr-lreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-khmr-lreq-20240419
+    title:
+    - content: Khmer Layout Requirements (Draft)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240419/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C DNOTE-khmr-lreq-20240419
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-khmr-lreq-20240419
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-khmr-lreq-20240630
+    title:
+    - content: Khmer Layout Requirements (Draft)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240630/
+      type: src
+    docid:
+    - id: W3C DNOTE-khmr-lreq-20240630
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-khmr-lreq-20240515
 ext:

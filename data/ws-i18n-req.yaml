@@ -5,7 +5,7 @@ title:
 - content: Requirements for the Internationalization of Web Services
   format: text/plain
 link:
-- content: http://www.w3.org/TR/ws-i18n-req/
+- content: https://www.w3.org/TR/ws-i18n-req/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-ws-i18n-req-20041116
+    title:
+    - content: Requirements for the Internationalization of Web Services
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/NOTE-ws-i18n-req-20041116/
+      type: src
+    docid:
+    - id: W3C NOTE-ws-i18n-req-20041116
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-ws-i18n-req-20031217
+    title:
+    - content: Requirements for the Internationalization of Web Services
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-ws-i18n-req-20031217/
+    - content: https://www.w3.org/TR/2003/WD-ws-i18n-req-20031217/
       type: src
     docid:
     - id: W3C WD-ws-i18n-req-20031217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-i18n-req-20031217
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: ws-i18n-req
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/REC-pointerevents2-20190404/
   type: src
-- content: https://w3c.github.io/pointerevents/
-  type: current
 type: standard
 docid:
 - id: W3C REC-pointerevents2-20190404
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Navid Zolghadr
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Byers
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rick Byers
+      given:
+        forename:
+        - content: Navid
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zolghadr
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerevents2
+    title:
+    - content: Pointer Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerevents2/
+      type: src
+    docid:
+    - id: W3C pointerevents2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-pointerevents2-20190221
+    title:
+    - content: Pointer Events
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/PR-pointerevents2-20190221/
       type: src
@@ -86,12 +128,9 @@ relation:
     - id: W3C PR-pointerevents2-20190221
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-pointerevents2-20190221
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-pointerevents2-20190404
 ext:

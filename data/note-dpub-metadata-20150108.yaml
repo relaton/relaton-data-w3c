@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-dpub-metadata-20150108/
   type: src
-- content: https://w3c.github.io/dpub-metadata/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-dpub-metadata-20150108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bill Kasdorf
+      given:
+        forename:
+        - content: Bill
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kasdorf
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Madi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Solomon
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Madi Solomon
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -62,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-metadata
+    title:
+    - content: DPUB IG Metadata Task Force Report
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-metadata/
+      type: src
+    docid:
+    - id: W3C dpub-metadata
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-dpub-metadata-20150108
 ext:

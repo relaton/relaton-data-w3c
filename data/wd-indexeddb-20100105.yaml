@@ -5,7 +5,7 @@ title:
 - content: Indexed Database API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-IndexedDB-20100105/
+- content: https://www.w3.org/TR/2010/WD-IndexedDB-20100105/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Nikunj Mehta
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2010-01-05'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CIndexedDB
+    title:
+    - content: Indexed Database API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/IndexedDB/
+      type: src
+    docid:
+    - id: W3C IndexedDB
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WebSimpleDB-20090929
+    title:
+    - content: WebSimpleDB API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-WebSimpleDB-20090929/
+    - content: https://www.w3.org/TR/2009/WD-WebSimpleDB-20090929/
       type: src
     docid:
     - id: W3C WD-WebSimpleDB-20090929
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WebSimpleDB-20090929
+- type: updatedBy
+  bibitem:
+    id: W3CWD-IndexedDB-20100819
+    title:
+    - content: Indexed Database API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-IndexedDB-20100819/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-20100819
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-IndexedDB-20100105
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

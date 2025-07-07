@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-wsc-ui-20100812
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/REC-wsc-ui-20100812/
       type: src
@@ -40,12 +40,100 @@ relation:
     - id: W3C REC-wsc-ui-20100812
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-wsc-ui-20100812
+- type: hasEdition
+  bibitem:
+    id: W3CPR-wsc-ui-20100622
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/PR-wsc-ui-20100622/
+      type: src
+    docid:
+    - id: W3C PR-wsc-ui-20100622
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wsc-ui-20100309
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-wsc-ui-20100309/
+      type: src
+    docid:
+    - id: W3C WD-wsc-ui-20100309
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-wsc-ui-20091222
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-wsc-ui-20091222/
+      type: src
+    docid:
+    - id: W3C CR-wsc-ui-20091222
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wsc-ui-20090226
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-wsc-ui-20090226/
+      type: src
+    docid:
+    - id: W3C WD-wsc-ui-20090226
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wsc-ui-20080724
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-wsc-ui-20080724/
+      type: src
+    docid:
+    - id: W3C WD-wsc-ui-20080724
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wsc-xit-20080403
+    title:
+    - content: 'Web Security Context: Experience, Indicators, and Trust'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-wsc-xit-20080403/
+      type: src
+    docid:
+    - id: W3C WD-wsc-xit-20080403
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wsc-xit-20071101
+    title:
+    - content: 'Web Security Context: Experience, Indicators, and Trust'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-wsc-xit-20071101/
+      type: src
+    docid:
+    - id: W3C WD-wsc-xit-20071101
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: wsc-ui
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Guidelines for Web Content Transformation Proxies 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-ct-guidelines-20091006/
+- content: https://www.w3.org/TR/2009/WD-ct-guidelines-20091006/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jo Rabin
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cct-guidelines
+    title:
+    - content: Guidelines for Web Content Transformation Proxies 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ct-guidelines/
+      type: src
+    docid:
+    - id: W3C ct-guidelines
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ct-guidelines-20080801
+    title:
+    - content: Content Transformation Guidelines 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-ct-guidelines-20080801/
+    - content: https://www.w3.org/TR/2008/WD-ct-guidelines-20080801/
       type: src
     docid:
     - id: W3C WD-ct-guidelines-20080801
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ct-guidelines-20080801
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ct-guidelines-20100211
+    title:
+    - content: Guidelines for Web Content Transformation Proxies 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-ct-guidelines-20100211/
+      type: src
+    docid:
+    - id: W3C WD-ct-guidelines-20100211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-ct-guidelines-20091006
 ext:

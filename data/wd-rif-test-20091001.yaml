@@ -5,7 +5,7 @@ title:
 - content: RIF Test Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-rif-test-20091001/
+- content: https://www.w3.org/TR/2009/WD-rif-test-20091001/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Paschke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Leora Morgenstern
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stella Mitchell
+      given:
+        forename:
+        - content: Leora
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Morgenstern
         language:
         - en
         script:
@@ -64,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-test
+    title:
+    - content: RIF Test Cases (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-test/
+      type: src
+    docid:
+    - id: W3C rif-test
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rif-test-20081218
+    title:
+    - content: RIF Test Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-rif-test-20081218/
+    - content: https://www.w3.org/TR/2008/WD-rif-test-20081218/
       type: src
     docid:
     - id: W3C WD-rif-test-20081218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-test-20081218
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rif-test-20100511
+    title:
+    - content: RIF Test Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-rif-test-20100511/
+      type: src
+    docid:
+    - id: W3C WD-rif-test-20100511
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rif-test-20091001
 ext:
@@ -87,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xslfo20-req-20080326
+    title:
+    - content: Extensible Stylesheet Language (XSL) Requirements Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-xslfo20-req-20080326/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-xslfo20-req-20080326
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xslfo20-req-20080326
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xslfo20-req
 ext:

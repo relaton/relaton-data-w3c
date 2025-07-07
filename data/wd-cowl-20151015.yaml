@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/WD-COWL-20151015/
   type: src
-- content: https://w3c.github.io/webappsec-cowl/
-  type: current
 type: standard
 docid:
 - id: W3C WD-COWL-20151015
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Deian Stefan
+      given:
+        forename:
+        - content: Deian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stefan
         language:
         - en
         script:
@@ -44,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CCOWL
+    title:
+    - content: Confinement with Origin Web Labels
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/COWL/
+      type: src
+    docid:
+    - id: W3C COWL
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-COWL-20151015
 ext:

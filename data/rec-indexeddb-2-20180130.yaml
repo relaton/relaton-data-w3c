@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/REC-IndexedDB-2-20180130/
   type: src
-- content: https://w3c.github.io/IndexedDB/
-  type: current
 type: standard
 docid:
 - id: W3C REC-IndexedDB-2-20180130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ali Alabbas
+      given:
+        forename:
+        - content: Ali
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alabbas
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshua Bell
+      given:
+        forename:
+        - content: Joshua
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bell
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CIndexedDB-2
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/IndexedDB-2/
+      type: src
+    docid:
+    - id: W3C IndexedDB-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-IndexedDB-2-20171116
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-IndexedDB-2-20171116/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-IndexedDB-2-20171116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-IndexedDB-2-20171116
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://github.com/w3c/IndexedDB/labels/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-IndexedDB-2-20180130
 ext:
@@ -95,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160907/
   type: src
-- content: https://w3c.github.io/performance-timeline/
-  type: current
 type: standard
 docid:
 - id: W3C WD-performance-timeline-2-20160907
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cperformance-timeline
+    title:
+    - content: Performance Timeline
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/performance-timeline/
+      type: src
+    docid:
+    - id: W3C performance-timeline
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-performance-timeline-2-20160421
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-performance-timeline-2-20160421/
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160421/
       type: src
     docid:
     - id: W3C WD-performance-timeline-2-20160421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-performance-timeline-2-20160421
+- type: updatedBy
+  bibitem:
+    id: W3CWD-performance-timeline-2-20160928
+    title:
+    - content: Performance Timeline Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160928/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20160928
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-performance-timeline-2-20160907
 ext:

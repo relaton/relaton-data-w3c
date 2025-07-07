@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jo Rabin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sean Owen
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CmobileOK-basic10-tests
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobileOK-basic10-tests/
+      type: src
+    docid:
+    - id: W3C mobileOK-basic10-tests
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-mobileOK-basic10-tests-20081103
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-mobileOK-basic10-tests-20081103/
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-mobileOK-basic10-tests-20081103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-mobileOK-basic10-tests-20081103
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cmobileok-errata.html
-    link:
-    - content: https://www.w3.org/2008/12/mobileok-errata.html
-      type: src
-    docid:
-    - id: W3C mobileok-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C mobileok-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-mobileOK-basic10-tests-20081208
 ext:

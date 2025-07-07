@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/WD-capability-urls-20140218/
   type: src
-- content: https://w3ctag.github.io/capability-urls/
-  type: current
 type: standard
 docid:
 - id: W3C WD-capability-urls-20140218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -44,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccapability-urls
+    title:
+    - content: Good Practices for Capability URLs
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/capability-urls/
+      type: src
+    docid:
+    - id: W3C capability-urls
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-capability-urls-20140218
 ext:

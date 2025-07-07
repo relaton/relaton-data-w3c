@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-SVGTiny12-20081222
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/REC-SVGTiny12-20081222/
       type: src
@@ -40,12 +40,152 @@ relation:
     - id: W3C REC-SVGTiny12-20081222
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-SVGTiny12-20081222
+- type: hasEdition
+  bibitem:
+    id: W3CPR-SVGTiny12-20081117
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/PR-SVGTiny12-20081117/
+      type: src
+    docid:
+    - id: W3C PR-SVGTiny12-20081117
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20080915
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-SVGMobile12-20080915/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20080915
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-SVGMobile12-20060810
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/CR-SVGMobile12-20060810/
+      type: src
+    docid:
+    - id: W3C CR-SVGMobile12-20060810
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20060721
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-SVGMobile12-20060721/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20060721
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20051207
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-SVGMobile12-20051207/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20051207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20050413
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-SVGMobile12-20050413/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20050413
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20040813
+    title:
+    - content: 'Mobile SVG Profile: SVG Tiny, Version 1.2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-SVGMobile12-20040813/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20040813
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20040806
+    title:
+    - content: 'Mobile SVG Profile: SVG Tiny, Version 1.2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-SVGMobile12-20040806/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20040806
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20040629
+    title:
+    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic, Version 1.2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-SVGMobile12-20040629/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20040629
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20040325
+    title:
+    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic, Version 1.2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-SVGMobile12-20040325/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20040325
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGMobile12-20031209
+    title:
+    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic, Version 1.2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-SVGMobile12-20031209/
+      type: src
+    docid:
+    - id: W3C WD-SVGMobile12-20031209
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: SVGTiny12
 ext:

@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cxkms2-req
 title:
-- content: XML Key Management (2.0) Requirements
+- content: XML Key Management (XKMS 2.0) Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/xkms2-req
+- content: https://www.w3.org/TR/xkms2-req/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-xkms2-req-20030505
+    title:
+    - content: XML Key Management (XKMS 2.0) Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/NOTE-xkms2-req-20030505
+      type: src
+    docid:
+    - id: W3C NOTE-xkms2-req-20030505
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-xkms2-req-20020318
+    title:
+    - content: XML Key Management (2.0) Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xkms2-req-20020318
+    - content: https://www.w3.org/TR/2002/WD-xkms2-req-20020318
       type: src
     docid:
     - id: W3C WD-xkms2-req-20020318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xkms2-req-20020318
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xkms2-req
 ext:

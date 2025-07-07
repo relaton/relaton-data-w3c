@@ -5,7 +5,7 @@ title:
 - content: WAI-ARIA 1.0 User Agent Implementation Guide
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-wai-aria-implementation-20131105/
+- content: https://www.w3.org/TR/2013/WD-wai-aria-implementation-20131105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joseph Scheuhammer
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheuhammer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-implementation
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-implementation/
+      type: src
+    docid:
+    - id: W3C wai-aria-implementation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wai-aria-implementation-20120816
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-wai-aria-implementation-20120816/
+    - content: https://www.w3.org/TR/2012/WD-wai-aria-implementation-20120816/
       type: src
     docid:
     - id: W3C WD-wai-aria-implementation-20120816
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wai-aria-implementation-20120816
+- type: updatedBy
+  bibitem:
+    id: W3CCR-wai-aria-implementation-20131217
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-wai-aria-implementation-20131217/
+      type: src
+    docid:
+    - id: W3C CR-wai-aria-implementation-20131217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-wai-aria-implementation-20131105
 ext:

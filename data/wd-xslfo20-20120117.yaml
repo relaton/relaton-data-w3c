@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Pawson
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pawson
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslfo20
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslfo20/
+      type: src
+    docid:
+    - id: W3C xslfo20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xslfo20-20110927
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/WD-xslfo20-20110927/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-xslfo20-20110927
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xslfo20-20110927
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xslfo20-20120117
 ext:

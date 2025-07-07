@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Boyer
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boyer
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxforms11
+    title:
+    - content: XForms 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xforms11/
+      type: src
+    docid:
+    - id: W3C xforms11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xforms11-20090818
+    title:
+    - content: XForms 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PR-xforms11-20090818/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-xforms11-20090818
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xforms11-20090818
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-xforms-20091020-errata-20091020.html
-    link:
-    - content: https://www.w3.org/2009/10/REC-xforms-20091020-errata-20091020.html
-      type: src
-    docid:
-    - id: W3C REC-xforms-20091020-errata-20091020.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xforms-20091020-errata-20091020.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xforms-20091020
 ext:

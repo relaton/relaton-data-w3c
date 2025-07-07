@@ -5,7 +5,7 @@ title:
 - content: XMSG - XML Messaging Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-xmsg-20001013
+- content: https://www.w3.org/TR/2000/NOTE-xmsg-20001013
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: R. Alexander Milowski
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miłowski
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmsg
+    title:
+    - content: XMSG - XML Messaging Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmsg/
+      type: src
+    docid:
+    - id: W3C xmsg
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmsg-20001013
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -5,10 +5,8 @@ title:
 - content: Subresource Integrity
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/PR-SRI-20160510/
+- content: https://www.w3.org/TR/2016/PR-SRI-20160510/
   type: src
-- content: https://w3c.github.io/webappsec-subresource-integrity/
-  type: current
 type: standard
 docid:
 - id: W3C PR-SRI-20160510
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Devdatta Akhawe
+      given:
+        forename:
+        - content: Devdatta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Akhawe
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Francois Marier
+      given:
+        forename:
+        - content: Frederik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Braun
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frederik Braun
+      given:
+        forename:
+        - content: Francois
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marier
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joel Weinberger
+      given:
+        forename:
+        - content: Joel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weinberger
         language:
         - en
         script:
@@ -76,22 +102,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSRI
+    title:
+    - content: Subresource Integrity
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SRI/
+      type: src
+    docid:
+    - id: W3C SRI
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-SRI-20151112
+    title:
+    - content: Subresource Integrity
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-SRI-20151112/
+    - content: https://www.w3.org/TR/2015/CR-SRI-20151112/
       type: src
     docid:
     - id: W3C CR-SRI-20151112
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-SRI-20151112
+- type: updatedBy
+  bibitem:
+    id: W3CREC-SRI-20160623
+    title:
+    - content: Subresource Integrity
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/REC-SRI-20160623/
+      type: src
+    docid:
+    - id: W3C REC-SRI-20160623
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-SRI-20160510
 ext:

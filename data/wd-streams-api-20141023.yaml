@@ -5,10 +5,8 @@ title:
 - content: Streams API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-streams-api-20141023/
+- content: https://www.w3.org/TR/2014/WD-streams-api-20141023/
   type: src
-- content: http://dvcs.w3.org/hg/streams-api/raw-file/tip/Overview.htm
-  type: current
 type: standard
 docid:
 - id: W3C WD-streams-api-20141023
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Feras Moussa
+      given:
+        forename:
+        - content: Feras
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moussa
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Takeshi Yoshino
+      given:
+        forename:
+        - content: Takeshi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yoshino
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cstreams-api
+    title:
+    - content: Streams API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/streams-api/
+      type: src
+    docid:
+    - id: W3C streams-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-streams-api-20131105
+    title:
+    - content: Streams API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-streams-api-20131105/
+    - content: https://www.w3.org/TR/2013/WD-streams-api-20131105/
       type: src
     docid:
     - id: W3C WD-streams-api-20131105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-streams-api-20131105
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-streams-api-20161129
+    title:
+    - content: Streams API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-streams-api-20161129/
+      type: src
+    docid:
+    - id: W3C NOTE-streams-api-20161129
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-streams-api-20141023
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

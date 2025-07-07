@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/PR-vocab-ssn-20170907/
   type: src
-- content: https://w3c.github.io/sdw/ssn/
-  type: current
 type: standard
 docid:
 - id: W3C PR-vocab-ssn-20170907
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Armin Haller
+      given:
+        forename:
+        - content: Armin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haller
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Danh Le Phuoc
+      given:
+        forename:
+        - content: Krzysztof
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Janowicz
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kerry Taylor
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cox
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Krzysztof Janowicz
+      given:
+        forename:
+        - content: Danh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Phuoc
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Maxime Lefrançois
+      given:
+        forename:
+        - content: Kerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taylor
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Cox
+      given:
+        forename:
+        - content: Maxime
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lefrançois
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-ssn
+    title:
+    - content: Semantic Sensor Network Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-ssn/
+      type: src
+    docid:
+    - id: W3C vocab-ssn
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-vocab-ssn-20170711
+    title:
+    - content: Semantic Sensor Network Ontology
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-vocab-ssn-20170711/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C CR-vocab-ssn-20170711
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-vocab-ssn-20170711
+- type: updatedBy
+  bibitem:
+    id: W3CREC-vocab-ssn-20171019
+    title:
+    - content: Semantic Sensor Network Ontology
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-vocab-ssn-20171019/
+      type: src
+    docid:
+    - id: W3C REC-vocab-ssn-20171019
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-vocab-ssn-20170907
 ext:
@@ -119,4 +188,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

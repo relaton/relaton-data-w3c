@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arnaud Le Hors
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raggett
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Raggett
+      given:
+        forename:
+        - content: Arnaud
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hors
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml40
+    title:
+    - content: HTML 4.0 Recommendation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html40/
+      type: src
+    docid:
+    - id: W3C html40
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-html40-971107
+    title:
+    - content: HTML 4.0 Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/PR-html40-971107
       type: src
@@ -74,12 +111,25 @@ relation:
     - id: W3C PR-html40-971107
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-html40-971107
+- type: updatedBy
+  bibitem:
+    id: W3CREC-html40-19980424
+    title:
+    - content: HTML 4.0 Recommendation
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/REC-html40-19980424/
+      type: src
+    docid:
+    - id: W3C REC-html40-19980424
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-html40-971218
 ext:

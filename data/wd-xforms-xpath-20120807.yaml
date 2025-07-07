@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Boyer
+      given:
+        forename:
+        - content: Nick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Van Den Bleeken
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nick Van Den Bleeken
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boyer
         language:
         - en
         script:
@@ -53,9 +67,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxforms-xpath
+    title:
+    - content: 'XForms 2.0: XPath expression module'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xforms-xpath/
+      type: src
+    docid:
+    - id: W3C xforms-xpath
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xforms-xpath-20120807
 ext:

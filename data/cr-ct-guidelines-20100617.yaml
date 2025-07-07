@@ -5,7 +5,7 @@ title:
 - content: Guidelines for Web Content Transformation Proxies 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/CR-ct-guidelines-20100617/
+- content: https://www.w3.org/TR/2010/CR-ct-guidelines-20100617/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jo Rabin
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cct-guidelines
+    title:
+    - content: Guidelines for Web Content Transformation Proxies 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ct-guidelines/
+      type: src
+    docid:
+    - id: W3C ct-guidelines
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ct-guidelines-20100211
+    title:
+    - content: Guidelines for Web Content Transformation Proxies 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-ct-guidelines-20100211/
+    - content: https://www.w3.org/TR/2010/WD-ct-guidelines-20100211/
       type: src
     docid:
     - id: W3C WD-ct-guidelines-20100211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ct-guidelines-20100211
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ct-guidelines-20101026
+    title:
+    - content: Guidelines for Web Content Transformation Proxies 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/NOTE-ct-guidelines-20101026/
+      type: src
+    docid:
+    - id: W3C NOTE-ct-guidelines-20101026
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ct-guidelines-20100617
 ext:

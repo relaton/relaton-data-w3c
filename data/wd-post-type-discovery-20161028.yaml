@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-post-type-discovery-20161028/
   type: src
-- content: https://tantek.github.io/post-type-discovery/
-  type: current
 type: standard
 docid:
 - id: W3C WD-post-type-discovery-20161028
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpost-type-discovery
+    title:
+    - content: Post Type Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/post-type-discovery/
+      type: src
+    docid:
+    - id: W3C post-type-discovery
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-post-type-discovery-20160728
+    title:
+    - content: Post Type Discovery
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-post-type-discovery-20160728/
+    - content: https://www.w3.org/TR/2016/WD-post-type-discovery-20160728/
       type: src
     docid:
     - id: W3C WD-post-type-discovery-20160728
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-post-type-discovery-20160728
+- type: updatedBy
+  bibitem:
+    id: W3CWD-post-type-discovery-20170301
+    title:
+    - content: Post Type Discovery
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-post-type-discovery-20170301/
+      type: src
+    docid:
+    - id: W3C WD-post-type-discovery-20170301
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-post-type-discovery-20161028
 ext:

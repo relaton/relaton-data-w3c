@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christian de Sainte Marie
+      given:
+        forename:
+        - content: Christian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Sainte Marie
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-xml-data
+    title:
+    - content: RIF Combination with XML data (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-xml-data/
+      type: src
+    docid:
+    - id: W3C rif-xml-data
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-rif-xml-data-20121211
+    title:
+    - content: RIF Combination with XML data
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/NOTE-rif-xml-data-20121211/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C NOTE-rif-xml-data-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-rif-xml-data-20121211
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-rif-xml-data-20130205
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

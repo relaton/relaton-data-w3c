@@ -5,7 +5,7 @@ title:
 - content: 'Clipboard Operations for the Web 1.0: Copy, Paste, Drag and Drop.'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-clipboard-apis-20061115/
+- content: https://www.w3.org/TR/2006/WD-clipboard-apis-20061115/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles McCathieNevile
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclipboard-apis
+    title:
+    - content: Clipboard API and events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clipboard-apis/
+      type: src
+    docid:
+    - id: W3C clipboard-apis
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-clipboard-apis-20110412
+    title:
+    - content: Clipboard API and events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-clipboard-apis-20110412/
+      type: src
+    docid:
+    - id: W3C WD-clipboard-apis-20110412
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-clipboard-apis-20061115
 ext:

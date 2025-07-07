@@ -5,7 +5,7 @@ title:
 - content: TriG
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-trig-20130919/
+- content: https://www.w3.org/TR/2013/WD-trig-20130919/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Gavin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carothers
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gavin Carothers
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctrig
+    title:
+    - content: RDF 1.1 TriG
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/trig/
+      type: src
+    docid:
+    - id: W3C trig
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-trig-20130409
+    title:
+    - content: TriG
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-trig-20130409/
+    - content: https://www.w3.org/TR/2013/WD-trig-20130409/
       type: src
     docid:
     - id: W3C WD-trig-20130409
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-trig-20130409
+- type: updatedBy
+  bibitem:
+    id: W3CCR-trig-20131105
+    title:
+    - content: RDF 1.1 TriG
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-trig-20131105/
+      type: src
+    docid:
+    - id: W3C CR-trig-20131105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-trig-20130919
 ext:

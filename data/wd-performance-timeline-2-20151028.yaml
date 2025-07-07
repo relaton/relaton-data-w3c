@@ -5,10 +5,8 @@ title:
 - content: Performance Timeline Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-performance-timeline-2-20151028/
+- content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151028/
   type: src
-- content: https://w3c.github.io/performance-timeline/
-  type: current
 type: standard
 docid:
 - id: W3C WD-performance-timeline-2-20151028
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cperformance-timeline
+    title:
+    - content: Performance Timeline
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/performance-timeline/
+      type: src
+    docid:
+    - id: W3C performance-timeline
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-performance-timeline-2-20151024
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-performance-timeline-2-20151024/
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151024/
       type: src
     docid:
     - id: W3C WD-performance-timeline-2-20151024
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-performance-timeline-2-20151024
+- type: updatedBy
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151105
+    title:
+    - content: Performance Timeline Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151105/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-performance-timeline-2-20151028
 ext:

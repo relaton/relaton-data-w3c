@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-rif-in-rdf-20130205
+    title:
+    - content: RIF In RDF (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-rif-in-rdf-20130205/
       type: src
@@ -37,12 +40,48 @@ relation:
     - id: W3C NOTE-rif-in-rdf-20130205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-rif-in-rdf-20130205
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-rif-in-rdf-20121211
+    title:
+    - content: RIF In RDF
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/NOTE-rif-in-rdf-20121211/
+      type: src
+    docid:
+    - id: W3C NOTE-rif-in-rdf-20121211
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-rif-in-rdf-20110512
+    title:
+    - content: RIF In RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/NOTE-rif-in-rdf-20110512/
+      type: src
+    docid:
+    - id: W3C NOTE-rif-in-rdf-20110512
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rif-in-rdf-20100622
+    title:
+    - content: RIF In RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-rif-in-rdf-20100622/
+      type: src
+    docid:
+    - id: W3C WD-rif-in-rdf-20100622
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: rif-in-rdf
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-orientation-sensor-20210608/
   type: src
-- content: https://w3c.github.io/orientation-sensor/
-  type: current
 type: standard
 docid:
 - id: W3C WD-orientation-sensor-20210608
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Corientation-sensor
+    title:
+    - content: Orientation Sensor
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/orientation-sensor/
+      type: src
+    docid:
+    - id: W3C orientation-sensor
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-orientation-sensor-20191212
+    title:
+    - content: Orientation Sensor
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/CR-orientation-sensor-20191212/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-orientation-sensor-20191212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-orientation-sensor-20191212
+- type: updatedBy
+  bibitem:
+    id: W3CWD-orientation-sensor-20210725
+    title:
+    - content: Orientation Sensor
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-orientation-sensor-20210725/
+      type: src
+    docid:
+    - id: W3C WD-orientation-sensor-20210725
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-orientation-sensor-20210608
 ext:

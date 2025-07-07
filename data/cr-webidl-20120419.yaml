@@ -5,10 +5,8 @@ title:
 - content: Web IDL
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-WebIDL-20120419/
+- content: https://www.w3.org/TR/2012/CR-WebIDL-20120419/
   type: src
-- content: http://dev.w3.org/2006/webapi/WebIDL/
-  type: current
 type: standard
 docid:
 - id: W3C CR-WebIDL-20120419
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -44,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWebIDL-1
+    title:
+    - content: WebIDL Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WebIDL-1/
+      type: src
+    docid:
+    - id: W3C WebIDL-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WebIDL-20120207
+    title:
+    - content: Web IDL
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-WebIDL-20120207/
+    - content: https://www.w3.org/TR/2012/WD-WebIDL-20120207/
       type: src
     docid:
     - id: W3C WD-WebIDL-20120207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WebIDL-20120207
+- type: updatedBy
+  bibitem:
+    id: W3CWD-WebIDL-1-20150804
+    title:
+    - content: WebIDL Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-WebIDL-1-20150804/
+      type: src
+    docid:
+    - id: W3C WD-WebIDL-1-20150804
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-WebIDL-20120419
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

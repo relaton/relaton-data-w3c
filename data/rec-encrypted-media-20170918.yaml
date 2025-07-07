@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-encrypted-media-20170918/
   type: src
-- content: https://w3c.github.io/encrypted-media/
-  type: current
 type: standard
 docid:
 - id: W3C REC-encrypted-media-20170918
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dorwin
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Dorwin
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerry Smith
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cencrypted-media-1
+    title:
+    - content: Encrypted Media Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/encrypted-media-1/
+      type: src
+    docid:
+    - id: W3C encrypted-media-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-encrypted-media-20170316
+    title:
+    - content: Encrypted Media Extensions
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-encrypted-media-20170316/
       type: src
@@ -86,28 +128,9 @@ relation:
     - id: W3C PR-encrypted-media-20170316
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-encrypted-media-20170316
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cencrypted-media-respec.html
-    link:
-    - content: https://github.com/w3c/encrypted-media/commits/V1/encrypted-media-respec.html
-      type: src
-    docid:
-    - id: W3C encrypted-media-respec.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C encrypted-media-respec.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-encrypted-media-20170918
 ext:
@@ -115,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

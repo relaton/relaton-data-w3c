@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Josh Spiegel
+      given:
+        forename:
+        - content: Josh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spiegel
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxqueryx-31
+    title:
+    - content: XQueryX 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xqueryx-31/
+      type: src
+    docid:
+    - id: W3C xqueryx-31
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xqueryx-31-20141218
+    title:
+    - content: XQueryX 3.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/CR-xqueryx-31-20141218/
+    - content: https://www.w3.org/TR/2014/CR-xqueryx-31-20141218/
       type: src
     docid:
     - id: W3C CR-xqueryx-31-20141218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xqueryx-31-20141218
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xqueryx-31-20170117
+    title:
+    - content: XQueryX 3.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/PR-xqueryx-31-20170117/
+      type: src
+    docid:
+    - id: W3C PR-xqueryx-31-20170117
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xqueryx-31-20161213
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/
   type: src
-- content: https://drafts.csswg.org/css-speech-1/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-speech-1-20230214
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Léonie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Léonie Watson
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-speech-1
+    title:
+    - content: CSS Speech Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-speech-1/
+      type: src
+    docid:
+    - id: W3C css-speech-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-speech-1-20200310
+    title:
+    - content: CSS Speech Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
       type: src
@@ -66,12 +94,9 @@ relation:
     - id: W3C CR-css-speech-1-20200310
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-speech-1-20200310
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-speech-1-20230214
 ext:
@@ -79,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

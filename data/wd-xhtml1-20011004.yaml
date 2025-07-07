@@ -5,7 +5,7 @@ title:
 - content: 'XHTML™ 1.0: The Extensible HyperText Markup Language (Second Edition)'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/WD-xhtml1-20011004/
+- content: https://www.w3.org/TR/2001/WD-xhtml1-20011004/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Murray Altheim
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -52,24 +49,54 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Proposed Edited Recommendation
+    value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml1
+    title:
+    - content: XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml1/
+      type: src
+    docid:
+    - id: W3C xhtml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-xhtml1-20000126
+    title:
+    - content: 'XHTML™ 1.0: The Extensible HyperText Markup Language - A Reformulation
+        of HTML 4 in XML 1.0'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2000/REC-xhtml1-20000126
+    - content: https://www.w3.org/TR/2000/REC-xhtml1-20000126/
       type: src
     docid:
     - id: W3C REC-xhtml1-20000126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml1-20000126
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml1-20020801
+    title:
+    - content: XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/REC-xhtml1-20020801/
+      type: src
+    docid:
+    - id: W3C REC-xhtml1-20020801
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Working Draft
     format: text/plain
   number: WD-xhtml1-20011004
 ext:

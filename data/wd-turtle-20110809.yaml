@@ -5,7 +5,7 @@ title:
 - content: Turtle
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-turtle-20110809/
+- content: https://www.w3.org/TR/2011/WD-turtle-20110809/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gavin Carothers
+      given:
+        forename:
+        - content: Gavin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carothers
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cturtle
+    title:
+    - content: RDF 1.1 Turtle
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/turtle/
+      type: src
+    docid:
+    - id: W3C turtle
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-turtle-20120710
+    title:
+    - content: Turtle
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-turtle-20120710/
+      type: src
+    docid:
+    - id: W3C WD-turtle-20120710
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-turtle-20110809
 ext:

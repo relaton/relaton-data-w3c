@@ -5,7 +5,7 @@ title:
 - content: RDF Data Access Use Cases and Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-rdf-dawg-uc-20041012/
+- content: https://www.w3.org/TR/2004/WD-rdf-dawg-uc-20041012/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kendall Grant Clark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-10-12'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-dawg-uc
+    title:
+    - content: RDF Data Access Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-dawg-uc/
+      type: src
+    docid:
+    - id: W3C rdf-dawg-uc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-dawg-uc-20040802
+    title:
+    - content: RDF Data Access Use Cases and Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-rdf-dawg-uc-20040802/
+    - content: https://www.w3.org/TR/2004/WD-rdf-dawg-uc-20040802/
       type: src
     docid:
     - id: W3C WD-rdf-dawg-uc-20040802
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-dawg-uc-20040802
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-dawg-uc-20050325
+    title:
+    - content: RDF Data Access Use Cases and Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-dawg-uc-20050325/
+      type: src
+    docid:
+    - id: W3C WD-rdf-dawg-uc-20050325
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-dawg-uc-20041012
 ext:

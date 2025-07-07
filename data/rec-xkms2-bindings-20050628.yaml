@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Phillip Hallam-Baker
+      given:
+        forename:
+        - content: Phillip
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hallam-Baker
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shivaram Mysore
+      given:
+        forename:
+        - content: Shivaram
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mysore
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxkms2-bindings
+    title:
+    - content: XML Key Management Specification (XKMS 2.0) Bindings
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xkms2-bindings/
+      type: src
+    docid:
+    - id: W3C xkms2-bindings
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xkms2-bindings-20050502
+    title:
+    - content: XML Key Management Specification (XKMS 2.0) Bindings
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/PR-xkms2-bindings-20050502/
       type: src
@@ -64,31 +94,14 @@ relation:
     - id: W3C PR-xkms2-bindings-20050502
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xkms2-bindings-20050502
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxkms2-errata.html
-    link:
-    - content: https://www.w3.org/2005/06/xkms2-errata.html
-      type: src
-    docid:
-    - id: W3C xkms2-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xkms2-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xkms2-bindings-20050628
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

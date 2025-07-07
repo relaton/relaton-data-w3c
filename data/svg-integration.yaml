@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-svg-integration-20140417
+    title:
+    - content: SVG Integration
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-svg-integration-20140417/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-svg-integration-20140417
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-svg-integration-20140417
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: svg-integration
 ext:

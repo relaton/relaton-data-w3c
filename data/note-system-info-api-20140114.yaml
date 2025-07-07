@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bryan Sullivan
+      given:
+        forename:
+        - content: Max
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Froumentin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dzung Tran
+      given:
+        forename:
+        - content: Dzung
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tran
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Max Froumentin
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sullivan
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csystem-info-api
+    title:
+    - content: The System Information API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/system-info-api/
+      type: src
+    docid:
+    - id: W3C system-info-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-system-info-api-20100202
+    title:
+    - content: The System Information API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/WD-system-info-api-20100202/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-system-info-api-20100202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-system-info-api-20100202
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-system-info-api-20140114
 ext:

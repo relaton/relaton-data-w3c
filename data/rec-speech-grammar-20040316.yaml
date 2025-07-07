@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Andrew Hunt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott McGlashan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-03-16'
 language:
 - en
@@ -54,9 +34,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cspeech-grammar
+    title:
+    - content: Speech Recognition Grammar Specification Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/speech-grammar/
+      type: src
+    docid:
+    - id: W3C speech-grammar
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-speech-grammar-20031218
+    title:
+    - content: Speech Recognition Grammar Specification Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/PR-speech-grammar-20031218/
       type: src
@@ -64,28 +60,9 @@ relation:
     - id: W3C PR-speech-grammar-20031218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-speech-grammar-20031218
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cspeech-grammar-errata.html
-    link:
-    - content: https://www.w3.org/2004/03/speech-grammar-errata.html
-      type: src
-    docid:
-    - id: W3C speech-grammar-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C speech-grammar-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-speech-grammar-20040316
 ext:

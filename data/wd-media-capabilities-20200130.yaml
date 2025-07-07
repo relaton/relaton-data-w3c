@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-media-capabilities-20200130/
   type: src
-- content: https://w3c.github.io/media-capabilities/
-  type: current
 type: standard
 docid:
 - id: W3C WD-media-capabilities-20200130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Cunningham
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Vi Nguyen
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cunningham
         language:
         - en
         script:
@@ -64,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-capabilities
+    title:
+    - content: Media Capabilities
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-capabilities/
+      type: src
+    docid:
+    - id: W3C media-capabilities
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-media-capabilities-20210316
+    title:
+    - content: Media Capabilities
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-media-capabilities-20210316/
+      type: src
+    docid:
+    - id: W3C WD-media-capabilities-20210316
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-media-capabilities-20200130
 ext:

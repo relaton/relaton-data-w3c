@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cpermissions
 title:
-- content: The Permissions API
+- content: Permissions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/permissions/
+- content: https://www.w3.org/TR/permissions/
   type: src
 type: standard
 docid:
@@ -26,26 +26,777 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20250624
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/WD-permissions-20250624/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20250624
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20241220
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20241220/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20241220
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20241219
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20241219/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20241219
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20240319
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20240319/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20240319
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20240308
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20240308/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20240308
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20240212
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20240212/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20240212
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20240116
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20240116/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20240116
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20240112
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-permissions-20240112/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20240112
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20231201
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-permissions-20231201/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20231201
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20231122
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-permissions-20231122/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20231122
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20231119
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-permissions-20231119/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20231119
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20230613
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-permissions-20230613/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20230613
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20221220
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20221220/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20221220
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20221210
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20221210/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20221210
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20221209
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20221209/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20221209
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20221019
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20221019/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20221019
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220907
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220907/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220907
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220730
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220730/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220730
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220527
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220527/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220527
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220509
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220509/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220509
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220506
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220506/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220506
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220311
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220311/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220311
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220303
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220303/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220303
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220225
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220225/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220225
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220224
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220224/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220224
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220222
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220222/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220222
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220215
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220215/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220215
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220214
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220214/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220214
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220210
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220210/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220210
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220209
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220209/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220209
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220207
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220207/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220204
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220204/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220204
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220202
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220202/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20220118
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-permissions-20220118/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20220118
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211207
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211207/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211124
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211124/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211124
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211123
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211123/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211123
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211121
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211121/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211121
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211119
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211119/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211119
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211028
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211028/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211028
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211027
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211027/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211027
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211026
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211026/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211026
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211023
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211023/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211023
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211017
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211017/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211017
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211014
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211014/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211014
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211013
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211013/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211013
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20211012
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20211012/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20211012
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210907
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210907/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210907
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210831
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210831/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210831
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210830
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210830/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210830
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210720
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210720/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210720
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210713
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210713/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210713
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210624
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210624/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210624
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210622
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210622/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210622
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210617
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210617/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210617
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20210615
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-permissions-20210615/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20210615
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20200720
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-permissions-20200720/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20200720
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-permissions-20170925
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-permissions-20170925/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20170925
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-permissions-20150407
+    title:
+    - content: The Permissions API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-permissions-20150407/
+    - content: https://www.w3.org/TR/2015/WD-permissions-20150407/
       type: src
     docid:
     - id: W3C WD-permissions-20150407
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-permissions-20150407
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: permissions
 ext:

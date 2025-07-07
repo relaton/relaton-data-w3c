@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -37,78 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Denise Draper
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jerome Simeon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kristoffer Rose
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Fernandez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Dyck
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Rys
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Fankhauser
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philip Wadler
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -124,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-semantics
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Formal Semantics (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-semantics/
+      type: src
+    docid:
+    - id: W3C xquery-semantics
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xquery-semantics-20090421
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Formal Semantics (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PER-xquery-semantics-20090421/
       type: src
@@ -134,28 +94,9 @@ relation:
     - id: W3C PER-xquery-semantics-20090421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xquery-semantics-20090421
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxquery-semantics-errata2e.html
-    link:
-    - content: https://www.w3.org/XML/2010/qt-errata/xquery-semantics-errata2e.html
-      type: src
-    docid:
-    - id: W3C xquery-semantics-errata2e.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xquery-semantics-errata2e.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xquery-semantics-20101214
 ext:
@@ -163,5 +104,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

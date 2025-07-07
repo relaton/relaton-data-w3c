@@ -5,7 +5,7 @@ title:
 - content: 'DIAL Part 0: Primer'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-dial-primer-20061010/
+- content: https://www.w3.org/TR/2006/WD-dial-primer-20061010/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kevin Smith
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-10-10'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdial-primer
+    title:
+    - content: 'DIAL Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dial-primer/
+      type: src
+    docid:
+    - id: W3C dial-primer
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dial-primer-20071101
+    title:
+    - content: 'DIAL Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-dial-primer-20071101/
+      type: src
+    docid:
+    - id: W3C WD-dial-primer-20071101
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dial-primer-20061010
 ext:

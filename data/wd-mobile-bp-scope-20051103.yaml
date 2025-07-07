@@ -5,7 +5,7 @@ title:
 - content: Scope of Mobile Web Best Practices
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-mobile-bp-scope-20051103/
+- content: https://www.w3.org/TR/2005/WD-mobile-bp-scope-20051103/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ed Mitukiewicz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmobile-bp-scope
+    title:
+    - content: Scope of Mobile Web Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobile-bp-scope/
+      type: src
+    docid:
+    - id: W3C mobile-bp-scope
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mobile-bp-scope-20050901
+    title:
+    - content: Scope of Mobile Web Best Practices
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-mobile-bp-scope-20050901/
+    - content: https://www.w3.org/TR/2005/WD-mobile-bp-scope-20050901/
       type: src
     docid:
     - id: W3C WD-mobile-bp-scope-20050901
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mobile-bp-scope-20050901
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-mobile-bp-scope-20051220
+    title:
+    - content: Scope of Mobile Web Best Practices
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/NOTE-mobile-bp-scope-20051220/
+      type: src
+    docid:
+    - id: W3C NOTE-mobile-bp-scope-20051220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mobile-bp-scope-20051103
 ext:

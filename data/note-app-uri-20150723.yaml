@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-app-uri-20150723/
   type: src
-- content: https://app-uri.sysapps.org/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-app-uri-20150723
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Capp-uri
+    title:
+    - content: 'The app: URL Scheme'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/app-uri/
+      type: src
+    docid:
+    - id: W3C app-uri
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-app-uri-20140529
+    title:
+    - content: 'The app: URL Scheme'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-app-uri-20140529/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-app-uri-20140529
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-app-uri-20140529
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-app-uri-20150723
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-pointerevents2-20180206/
   type: src
-- content: https://w3c.github.io/pointerevents/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pointerevents2-20180206
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Byers
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rick Byers
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerevents2
+    title:
+    - content: Pointer Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerevents2/
+      type: src
+    docid:
+    - id: W3C pointerevents2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pointerevents2-20160719
+    title:
+    - content: Pointer Events - Level 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-pointerevents2-20160719/
+    - content: https://www.w3.org/TR/2016/WD-pointerevents2-20160719/
       type: src
     docid:
     - id: W3C WD-pointerevents2-20160719
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerevents2-20160719
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pointerevents2-20180404
+    title:
+    - content: Pointer Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-pointerevents2-20180404/
+      type: src
+    docid:
+    - id: W3C WD-pointerevents2-20180404
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-pointerevents2-20180206
 ext:

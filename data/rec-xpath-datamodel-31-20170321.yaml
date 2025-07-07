@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Coleman
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coleman
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-datamodel-31
+    title:
+    - content: XQuery and XPath Data Model 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-datamodel-31/
+      type: src
+    docid:
+    - id: W3C xpath-datamodel-31
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xpath-datamodel-31-20170117
+    title:
+    - content: XQuery and XPath Data Model 3.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-xpath-datamodel-31-20170117/
       type: src
@@ -74,28 +111,9 @@ relation:
     - id: W3C PR-xpath-datamodel-31-20170117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xpath-datamodel-31-20170117
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxpath-datamodel-31-errata.html
-    link:
-    - content: https://www.w3.org/XML/2017/qt-errata/xpath-datamodel-31-errata.html
-      type: src
-    docid:
-    - id: W3C xpath-datamodel-31-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xpath-datamodel-31-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath-datamodel-31-20170321
 ext:
@@ -103,5 +121,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

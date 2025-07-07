@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-json-ld11-api-20190510/
   type: src
-- content: https://w3c.github.io/json-ld-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-json-ld11-api-20190510
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld11-api
+    title:
+    - content: JSON-LD 1.1 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld11-api/
+      type: src
+    docid:
+    - id: W3C json-ld11-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-json-ld11-api-20181214
+    title:
+    - content: JSON-LD 1.1 Processing Algorithms and API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-json-ld11-api-20181214/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-json-ld11-api-20181214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-json-ld11-api-20181214
+- type: updatedBy
+  bibitem:
+    id: W3CWD-json-ld11-api-20190703
+    title:
+    - content: JSON-LD 1.1 Processing Algorithms and API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-json-ld11-api-20190703/
+      type: src
+    docid:
+    - id: W3C WD-json-ld11-api-20190703
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-json-ld11-api-20190510
 ext:

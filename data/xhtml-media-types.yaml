@@ -5,7 +5,7 @@ title:
 - content: XHTML Media Types - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/xhtml-media-types
+- content: https://www.w3.org/TR/xhtml-media-types/
   type: src
 type: standard
 docid:
@@ -29,33 +29,46 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-xhtml-media-types-20020801
-    link:
-    - content: http://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020801
-      type: src
-    docid:
-    - id: W3C NOTE-xhtml-media-types-20020801
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-xhtml-media-types-20020801
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-xhtml-media-types-20090116
+    title:
+    - content: XHTML Media Types - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/NOTE-xhtml-media-types-20090116
+    - content: https://www.w3.org/TR/2009/NOTE-xhtml-media-types-20090116/
       type: src
     docid:
     - id: W3C NOTE-xhtml-media-types-20090116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xhtml-media-types-20090116
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-xhtml-media-types-20020801
+    title:
+    - content: XHTML Media Types
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020801
+      type: src
+    docid:
+    - id: W3C NOTE-xhtml-media-types-20020801
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-xhtml-media-types-20020430
+    title:
+    - content: XHTML Media Types
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020430
+      type: src
+    docid:
+    - id: W3C NOTE-xhtml-media-types-20020430
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: xhtml-media-types
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctimezone
+    title:
+    - content: Working with Time and Timezones
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/timezone/
+      type: src
+    docid:
+    - id: W3C timezone
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-timezone-20051013
+    title:
+    - content: Working with Time Zones
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/NOTE-timezone-20051013/
       type: src
@@ -51,12 +77,25 @@ relation:
     - id: W3C NOTE-timezone-20051013
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-timezone-20051013
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-timezone-20241122
+    title:
+    - content: Working with Time and Timezones
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-timezone-20241122/
+      type: src
+    docid:
+    - id: W3C DNOTE-timezone-20241122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-timezone-20110705
 ext:

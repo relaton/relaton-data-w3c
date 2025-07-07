@@ -5,7 +5,7 @@ title:
 - content: W3C mobileOK Basic Tests 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-mobileOK-basic10-tests-20070130/
+- content: https://www.w3.org/TR/2007/WD-mobileOK-basic10-tests-20070130/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jo Rabin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sean Owen
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CmobileOK-basic10-tests
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobileOK-basic10-tests/
+      type: src
+    docid:
+    - id: W3C mobileOK-basic10-tests
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mobileOK-basic10-tests-20061219
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-mobileOK-basic10-tests-20061219/
+    - content: https://www.w3.org/TR/2006/WD-mobileOK-basic10-tests-20061219/
       type: src
     docid:
     - id: W3C WD-mobileOK-basic10-tests-20061219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mobileOK-basic10-tests-20061219
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mobileOK-basic10-tests-20070525
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-mobileOK-basic10-tests-20070525/
+      type: src
+    docid:
+    - id: W3C WD-mobileOK-basic10-tests-20070525
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-mobileOK-basic10-tests-20070130
 ext:

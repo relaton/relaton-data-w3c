@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-low-vision-needs-20160317
+    title:
+    - content: Accessibility Requirements for People with Low Vision
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-low-vision-needs-20160317/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-low-vision-needs-20160317
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-low-vision-needs-20160317
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: low-vision-needs
 ext:

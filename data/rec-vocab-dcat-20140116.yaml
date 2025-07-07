@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Fadi Maali
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: John Erickson
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Erickson
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-dcat-1
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-dcat-1/
+      type: src
+    docid:
+    - id: W3C vocab-dcat-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-vocab-dcat-20131217
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-vocab-dcat-20131217/
       type: src
@@ -64,12 +77,25 @@ relation:
     - id: W3C PR-vocab-dcat-20131217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-vocab-dcat-20131217
+- type: updatedBy
+  bibitem:
+    id: W3CSPSD-vocab-dcat-20200204
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/SPSD-vocab-dcat-20200204/
+      type: src
+    docid:
+    - id: W3C SPSD-vocab-dcat-20200204
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-vocab-dcat-20140116
 ext:

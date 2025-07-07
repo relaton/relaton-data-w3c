@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arnaud Le Hors
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Wilson
+      given:
+        forename:
+        - content: Arnaud
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hors
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gavin Nicol
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wilson
         language:
         - en
         script:
@@ -67,58 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lauren Wood
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mike Champion
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robert S Sutor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Isaacson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven B Byrne
+      given:
+        forename:
+        - content: Lauren
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
         language:
         - en
         script:
@@ -134,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CREC-DOM-Level-1
+    title:
+    - content: Document Object Model (DOM) Level 1 Specification (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-DOM-Level-1/
+      type: src
+    docid:
+    - id: W3C REC-DOM-Level-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-DOM-Level-1-19980818
+    title:
+    - content: Document Object Model (DOM) Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1998/PR-DOM-Level-1-19980818
       type: src
@@ -144,28 +145,25 @@ relation:
     - id: W3C PR-DOM-Level-1-19980818
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-DOM-Level-1-19980818
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-DOM-Level-1-19981001-errata.html
+    id: W3CWD-DOM-Level-1-20000929
+    title:
+    - content: Document Object Model (DOM) Level 1 Specification (Second Edition)
+      format: text/plain
     link:
-    - content: https://www.w3.org/DOM/updates/REC-DOM-Level-1-19981001-errata.html
+    - content: https://www.w3.org/TR/2000/WD-DOM-Level-1-20000929/
       type: src
     docid:
-    - id: W3C REC-DOM-Level-1-19981001-errata.html
+    - id: W3C WD-DOM-Level-1-20000929
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-DOM-Level-1-19981001-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-DOM-Level-1-19981001
 ext:
@@ -173,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

@@ -5,7 +5,7 @@ title:
 - content: DOM Parsing and Serialization
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-DOM-Parsing-20140501/
+- content: https://www.w3.org/TR/2014/WD-DOM-Parsing-20140501/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Parsing
+    title:
+    - content: DOM Parsing and Serialization
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Parsing/
+      type: src
+    docid:
+    - id: W3C DOM-Parsing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Parsing-20131210
+    title:
+    - content: DOM Parsing and Serialization
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-DOM-Parsing-20131210/
+    - content: https://www.w3.org/TR/2013/WD-DOM-Parsing-20131210/
       type: src
     docid:
     - id: W3C WD-DOM-Parsing-20131210
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Parsing-20131210
+- type: updatedBy
+  bibitem:
+    id: W3CCR-DOM-Parsing-20140617
+    title:
+    - content: DOM Parsing and Serialization
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-DOM-Parsing-20140617/
+      type: src
+    docid:
+    - id: W3C CR-DOM-Parsing-20140617
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-DOM-Parsing-20140501
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

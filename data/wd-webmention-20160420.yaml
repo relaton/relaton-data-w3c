@@ -5,10 +5,8 @@ title:
 - content: Webmention
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-webmention-20160420/
+- content: https://www.w3.org/TR/2016/WD-webmention-20160420/
   type: src
-- content: http://webmention.net/draft/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webmention-20160420
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Parecki
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parecki
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebmention
+    title:
+    - content: Webmention
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webmention/
+      type: src
+    docid:
+    - id: W3C webmention
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webmention-20160329
+    title:
+    - content: Webmention
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-webmention-20160329/
+    - content: https://www.w3.org/TR/2016/WD-webmention-20160329/
       type: src
     docid:
     - id: W3C WD-webmention-20160329
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webmention-20160329
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webmention-20160429
+    title:
+    - content: Webmention
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-webmention-20160429/
+      type: src
+    docid:
+    - id: W3C WD-webmention-20160429
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webmention-20160420
 ext:

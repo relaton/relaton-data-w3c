@@ -5,7 +5,7 @@ title:
 - content: OWL 2 Web Ontology Language:Conformance and Test Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-owl2-test-20081008/
+- content: https://www.w3.org/TR/2008/WD-owl2-test-20081008/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Horrocks
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horrocks
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Smith
+      given:
+        forename:
+        - content: Michael[tm]
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith (sideshowbarker)
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-conformance
+    title:
+    - content: OWL 2 Web Ontology Language Conformance (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-conformance/
+      type: src
+    docid:
+    - id: W3C owl2-conformance
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl2-test-20081202
+    title:
+    - content: OWL 2 Web Ontology Language:Conformance and Test Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-owl2-test-20081202/
+      type: src
+    docid:
+    - id: W3C WD-owl2-test-20081202
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl2-test-20081008
 ext:

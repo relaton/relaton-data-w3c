@@ -5,7 +5,7 @@ title:
 - content: Document Object Model (DOM) Level 3 Validation Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/CR-DOM-Level-3-Val-20030730
+- content: https://www.w3.org/TR/2003/CR-DOM-Level-3-Val-20030730
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ben Chang
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Joe Kesselman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rezaur Rahman
+      given:
+        forename:
+        - content: rezaur
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: rahman
         language:
         - en
         script:
@@ -62,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-Val
+    title:
+    - content: Document Object Model (DOM) Level 3 Validation Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-Val/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-Val
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Level-3-Val-20030205
+    title:
+    - content: Document Object Model (DOM) Level 3 Validation Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-DOM-Level-3-Val-20030205
+    - content: https://www.w3.org/TR/2003/WD-DOM-Level-3-Val-20030205
       type: src
     docid:
     - id: W3C WD-DOM-Level-3-Val-20030205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-Val-20030205
+- type: updatedBy
+  bibitem:
+    id: W3CPR-DOM-Level-3-Val-20031215
+    title:
+    - content: Document Object Model (DOM) Level 3 Validation Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PR-DOM-Level-3-Val-20031215
+      type: src
+    docid:
+    - id: W3C PR-DOM-Level-3-Val-20031215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-DOM-Level-3-Val-20030730
 ext:
@@ -87,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-rdf12-schema-20230928/
   type: src
-- content: https://w3c.github.io/rdf-schema/spec/
-  type: current
 type: standard
 docid:
 - id: W3C WD-rdf12-schema-20230928
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominik Tomaszuk
+      given:
+        forename:
+        - content: Dominik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tomaszuk
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Timothée Haudebourg
+      given:
+        forename:
+        - content: Timothée
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haudebourg
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf12-schema
+    title:
+    - content: RDF 1.2 Schema
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf12-schema/
+      type: src
+    docid:
+    - id: W3C rdf12-schema
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf12-schema-20230615
+    title:
+    - content: RDF 1.2 Schema
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-rdf12-schema-20230615/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-rdf12-schema-20230615
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf12-schema-20230615
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf12-schema-20240418
+    title:
+    - content: RDF 1.2 Schema
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-rdf12-schema-20240418/
+      type: src
+    docid:
+    - id: W3C WD-rdf12-schema-20240418
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf12-schema-20230928
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF-star Working Group
+  - name: RDF & SPARQL Working Group

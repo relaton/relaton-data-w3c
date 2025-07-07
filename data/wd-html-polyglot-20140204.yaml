@@ -5,10 +5,8 @@ title:
 - content: 'Polyglot Markup: A robust profile of the HTML5 vocabulary'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-html-polyglot-20140204/
+- content: https://www.w3.org/TR/2014/WD-html-polyglot-20140204/
   type: src
-- content: http://dev.w3.org/html5/html-polyglot/html-polyglot.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-polyglot-20140204
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eliot Graff
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Leif Halvard Silli
+      given:
+        forename:
+        - content: Eliot
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graff
         language:
         - en
         script:
@@ -54,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-polyglot
+    title:
+    - content: 'Polyglot Markup: A robust profile of the HTML5 vocabulary'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-polyglot/
+      type: src
+    docid:
+    - id: W3C html-polyglot
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-polyglot-20131022
+    title:
+    - content: 'Polyglot Markup: A robust profile of the HTML5 vocabulary'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-html-polyglot-20131022/
+    - content: https://www.w3.org/TR/2013/WD-html-polyglot-20131022/
       type: src
     docid:
     - id: W3C WD-html-polyglot-20131022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-polyglot-20131022
+- type: updatedBy
+  bibitem:
+    id: W3CCR-html-polyglot-20140717
+    title:
+    - content: 'Polyglot Markup: A robust profile of the HTML5 vocabulary'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-html-polyglot-20140717/
+      type: src
+    docid:
+    - id: W3C CR-html-polyglot-20140717
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-html-polyglot-20140204
 ext:
@@ -79,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

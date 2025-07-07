@@ -5,7 +5,7 @@ title:
 - content: XQuery 1.0 and XPath 2.0 Full-Text
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-xquery-full-text-20051103/
+- content: https://www.w3.org/TR/2005/WD-xquery-full-text-20051103/
   type: src
 type: standard
 docid:
@@ -27,78 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chavdar Botev
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Darin McBeath
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jayavel Shanmugasundaram
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jochen Doerre
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Rys
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pat Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sihem Amer-Yahia
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stephen Buxton
+      given:
+        forename:
+        - content: Pat
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Case
         language:
         - en
         script:
@@ -114,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-full-text-10
+    title:
+    - content: XQuery and XPath Full Text 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-full-text-10/
+      type: src
+    docid:
+    - id: W3C xpath-full-text-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-full-text-20050915
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Full-Text
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-xquery-full-text-20050915/
+    - content: https://www.w3.org/TR/2005/WD-xquery-full-text-20050915/
       type: src
     docid:
     - id: W3C WD-xquery-full-text-20050915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-full-text-20050915
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-full-text-20060501
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Full-Text
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-xquery-full-text-20060501/
+      type: src
+    docid:
+    - id: W3C WD-xquery-full-text-20060501
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-full-text-20051103
 ext:
@@ -137,5 +103,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

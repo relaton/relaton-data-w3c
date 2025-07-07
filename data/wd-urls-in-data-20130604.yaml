@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -43,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Curls-in-data
+    title:
+    - content: URLs in Data Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/urls-in-data/
+      type: src
+    docid:
+    - id: W3C urls-in-data
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-urls-in-data-20130604
 ext:

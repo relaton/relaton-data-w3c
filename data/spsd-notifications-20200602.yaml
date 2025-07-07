@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gregg
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Gregg
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -52,24 +66,37 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CREC-html32-19970114
+    id: W3Cnotifications
+    title:
+    - content: Web Notifications
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/REC-html32-19970114
+    - content: https://www.w3.org/TR/notifications/
       type: src
     docid:
-    - id: W3C REC-html32-19970114
+    - id: W3C notifications
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-html32-19970114
+- type: obsoletes
+  bibitem:
+    id: W3CREC-notifications-20151022
+    title:
+    - content: Web Notifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-notifications-20151022/
+      type: src
+    docid:
+    - id: W3C REC-notifications-20151022
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-notifications-20200602
 ext:

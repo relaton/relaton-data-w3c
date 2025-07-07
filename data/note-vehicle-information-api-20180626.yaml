@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/NOTE-vehicle-information-api-20180626/
   type: src
-- content: https://w3c.github.io/automotive/vehicle_information_api/vehicle_information_api_specification.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-vehicle-information-api-20180626
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike Aro
+      given:
+        forename:
+        - content: Powell
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kinney
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Powell Kinney
+      given:
+        forename:
+        - content: Shinjiro
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Urata
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shinjiro Urata
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Aro
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvehicle-information-api
+    title:
+    - content: Vehicle Information API Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vehicle-information-api/
+      type: src
+    docid:
+    - id: W3C vehicle-information-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vehicle-information-api-20170621
+    title:
+    - content: Vehicle Information API Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-vehicle-information-api-20170621/
       type: src
@@ -73,12 +111,9 @@ relation:
     - id: W3C WD-vehicle-information-api-20170621
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vehicle-information-api-20170621
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-vehicle-information-api-20180626
 ext:

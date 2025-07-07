@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CDRY-aac-registry-20221213
+    title:
+    - content: W3C Alternative and Augmented Communication (AAC) Symbol Registry
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DRY-aac-registry-20221213/
       type: src
@@ -37,9 +40,6 @@ relation:
     - id: W3C DRY-aac-registry-20221213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DRY-aac-registry-20221213
-      format: text/plain
 series:
 - title:
     content: W3C technicalReport

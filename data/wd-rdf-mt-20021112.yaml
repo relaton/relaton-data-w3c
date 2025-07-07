@@ -5,7 +5,7 @@ title:
 - content: RDF Semantics
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-rdf-mt-20021112/
+- content: https://www.w3.org/TR/2002/WD-rdf-mt-20021112/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Hayes
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hayes
         language:
         - en
         script:
@@ -44,25 +51,56 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-mt
+    title:
+    - content: RDF Semantics
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-mt/
+      type: src
+    docid:
+    - id: W3C rdf-mt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-mt-20020429
+    title:
+    - content: RDF Model Theory
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-rdf-mt-20020429/
+    - content: https://www.w3.org/TR/2002/WD-rdf-mt-20020429/
       type: src
     docid:
     - id: W3C WD-rdf-mt-20020429
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-mt-20020429
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-mt-20030123
+    title:
+    - content: RDF Semantics
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-mt-20030123/
+      type: src
+    docid:
+    - id: W3C WD-rdf-mt-20030123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-mt-20021112
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -8,8 +8,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-eo-qb-20170928/
   type: src
-- content: https://w3c.github.io/sdw/eo-qb/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-eo-qb-20170928
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dmitry Brizhinev
+      given:
+        forename:
+        - content: Dmitry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brizhinev
         language:
         - en
         script:
@@ -40,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kerry Taylor
+      given:
+        forename:
+        - content: Sam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Toyer
         language:
         - en
         script:
@@ -50,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sam Toyer
+      given:
+        forename:
+        - content: Kerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taylor
         language:
         - en
         script:
@@ -63,10 +82,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ceo-qb
+    title:
+    - content: Publishing and Using Earth Observation Data with the RDF Data Cube
+        and the Discrete Global Grid System
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/eo-qb/
+      type: src
+    docid:
+    - id: W3C eo-qb
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-eo-qb-20170105
+    title:
+    - content: Publishing and Using Earth Observation Data with the RDF Data Cube
+        and the Discrete Global Grid System
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/NOTE-eo-qb-20170105/
       type: src
@@ -74,12 +114,9 @@ relation:
     - id: W3C NOTE-eo-qb-20170105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-eo-qb-20170105
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-eo-qb-20170928
 ext:
@@ -87,4 +124,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bijan Parsia
+      given:
+        forename:
+        - content: Pascal
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hitzler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Krötzsch
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Krötzsch
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pascal Hitzler
+      given:
+        forename:
+        - content: Bijan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parsia
         language:
         - en
         script:
@@ -57,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Patel-Schneider
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sebastian Rudolph
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -84,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-primer
+    title:
+    - content: OWL 2 Web Ontology Language Primer (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-primer/
+      type: src
+    docid:
+    - id: W3C owl2-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-owl2-primer-20090922
+    title:
+    - content: OWL 2 Web Ontology Language Primer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PR-owl2-primer-20090922/
       type: src
@@ -94,28 +128,9 @@ relation:
     - id: W3C PR-owl2-primer-20090922
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-owl2-primer-20090922
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2007/OWL/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-owl2-primer-20091027
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/CR-page-visibility-2-20161122/
   type: src
-- content: https://w3c.github.io/page-visibility/
-  type: current
 type: standard
 docid:
 - id: W3C CR-page-visibility-2-20161122
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arvind Jain
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Arvind
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jain
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpage-visibility-2
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/page-visibility-2/
+      type: src
+    docid:
+    - id: W3C page-visibility-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-page-visibility-2-20161026
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-page-visibility-2-20161026/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-page-visibility-2-20161026
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-page-visibility-2-20161026
+- type: updatedBy
+  bibitem:
+    id: W3CCR-page-visibility-2-20170328
+    title:
+    - content: Page Visibility Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-page-visibility-2-20170328/
+      type: src
+    docid:
+    - id: W3C CR-page-visibility-2-20170328
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-page-visibility-2-20161122
 ext:

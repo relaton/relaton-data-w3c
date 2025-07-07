@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-epub-rs-33-20220328/
   type: src
-- content: https://w3c.github.io/epub-specs/epub33/rs/
-  type: current
 type: standard
 docid:
 - id: W3C WD-epub-rs-33-20220328
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Cramer
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cramer
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cepub-rs-33
+    title:
+    - content: EPUB Reading Systems 3.3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/epub-rs-33/
+      type: src
+    docid:
+    - id: W3C epub-rs-33
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-epub-rs-33-20220325
+    title:
+    - content: EPUB Reading Systems 3.3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-epub-rs-33-20220325/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-epub-rs-33-20220325
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-epub-rs-33-20220325
+- type: updatedBy
+  bibitem:
+    id: W3CWD-epub-rs-33-20220329
+    title:
+    - content: EPUB Reading Systems 3.3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-epub-rs-33-20220329/
+      type: src
+    docid:
+    - id: W3C WD-epub-rs-33-20220329
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-epub-rs-33-20220328
 ext:

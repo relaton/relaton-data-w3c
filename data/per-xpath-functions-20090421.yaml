@@ -5,7 +5,7 @@ title:
 - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/PER-xpath-functions-20090421/
+- content: https://www.w3.org/TR/2009/PER-xpath-functions-20090421/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -76,20 +104,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-xpath-functions-20070123
+    id: W3Cxpath-functions
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/REC-xpath-functions-20070123/
+    - content: https://www.w3.org/TR/xpath-functions/
       type: src
     docid:
-    - id: W3C REC-xpath-functions-20070123
+    - id: W3C xpath-functions
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xpath-functions-20070123
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xpath-functions-20101214
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-xpath-functions-20101214/
+      type: src
+    docid:
+    - id: W3C REC-xpath-functions-20101214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xpath-functions-20090421
 ext:
@@ -97,5 +141,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

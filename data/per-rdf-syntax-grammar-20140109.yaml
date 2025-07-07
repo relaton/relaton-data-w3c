@@ -5,7 +5,7 @@ title:
 - content: RDF 1.1 XML Syntax
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PER-rdf-syntax-grammar-20140109/
+- content: https://www.w3.org/TR/2014/PER-rdf-syntax-grammar-20140109/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Fabien Gandon
+      given:
+        forename:
+        - content: Fabien
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gandon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Guus Schreiber
+      given:
+        forename:
+        - content: Guus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schreiber
         language:
         - en
         script:
@@ -56,20 +70,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-rdf-syntax-grammar-20040210
+    id: W3Crdf-syntax-grammar
+    title:
+    - content: RDF 1.1 XML Syntax
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/
+    - content: https://www.w3.org/TR/rdf-syntax-grammar/
       type: src
     docid:
-    - id: W3C REC-rdf-syntax-grammar-20040210
+    - id: W3C rdf-syntax-grammar
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-rdf-syntax-grammar-20040210
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rdf-syntax-grammar-20140225
+    title:
+    - content: RDF 1.1 XML Syntax
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-rdf-syntax-grammar-20140225/
+      type: src
+    docid:
+    - id: W3C REC-rdf-syntax-grammar-20140225
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-rdf-syntax-grammar-20140109
 ext:

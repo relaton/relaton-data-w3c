@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/CR-tracking-dnt-20171019/
   type: src
-- content: https://w3c.github.io/dnt/drafts/tracking-dnt.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-tracking-dnt-20171019
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Singer
+      given:
+        forename:
+        - content: Roy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fielding
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Roy Fielding
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singer
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctracking-dnt
+    title:
+    - content: Tracking Preference Expression (DNT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tracking-dnt/
+      type: src
+    docid:
+    - id: W3C tracking-dnt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-tracking-dnt-20150820
+    title:
+    - content: Tracking Preference Expression (DNT)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-tracking-dnt-20150820/
+    - content: https://www.w3.org/TR/2015/CR-tracking-dnt-20150820/
       type: src
     docid:
     - id: W3C CR-tracking-dnt-20150820
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-tracking-dnt-20150820
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-tracking-dnt-20190117
+    title:
+    - content: Tracking Preference Expression (DNT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-tracking-dnt-20190117/
+      type: src
+    docid:
+    - id: W3C NOTE-tracking-dnt-20190117
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-tracking-dnt-20171019
 ext:

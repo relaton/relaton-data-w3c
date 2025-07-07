@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Josh Spiegel
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Dyck
+      given:
+        forename:
+        - content: Josh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spiegel
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-31
+    title:
+    - content: 'XQuery 3.1: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-31/
+      type: src
+    docid:
+    - id: W3C xquery-31
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xquery-31-20161213
+    title:
+    - content: 'XQuery 3.1: An XML Query Language'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/CR-xquery-31-20161213/
       type: src
@@ -74,12 +111,25 @@ relation:
     - id: W3C CR-xquery-31-20161213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xquery-31-20161213
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xquery-31-20170321
+    title:
+    - content: 'XQuery 3.1: An XML Query Language'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-xquery-31-20170321/
+      type: src
+    docid:
+    - id: W3C REC-xquery-31-20170321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xquery-31-20170117
 ext:

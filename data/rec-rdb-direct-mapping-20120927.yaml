@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexandre Bertails
+      given:
+        forename:
+        - content: Marcelo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arenas
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Alexandre
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bertails
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Juan Sequeda
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marcelo Arenas
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -74,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdb-direct-mapping
+    title:
+    - content: A Direct Mapping of Relational Data to RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdb-direct-mapping/
+      type: src
+    docid:
+    - id: W3C rdb-direct-mapping
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-rdb-direct-mapping-20120814
+    title:
+    - content: A Direct Mapping of Relational Data to RDF
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-rdb-direct-mapping-20120814/
       type: src
@@ -84,28 +111,9 @@ relation:
     - id: W3C PR-rdb-direct-mapping-20120814
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rdb-direct-mapping-20120814
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: https://www.w3.org/2001/sw/rdb2rdf/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rdb-direct-mapping-20120927
 ext:

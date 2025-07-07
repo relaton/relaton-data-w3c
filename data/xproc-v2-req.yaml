@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xproc-v2-req-20131105
+    title:
+    - content: XProc V2.0 Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-xproc-v2-req-20131105/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-xproc-v2-req-20131105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xproc-v2-req-20131105
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xproc-v2-req
 ext:

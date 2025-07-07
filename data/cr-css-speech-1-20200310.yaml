@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
   type: src
-- content: https://drafts.csswg.org/css-speech-1/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-speech-1-20200310
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Weck
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weck
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-speech-1
+    title:
+    - content: CSS Speech Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-speech-1/
+      type: src
+    docid:
+    - id: W3C css-speech-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-css3-speech-20180605
+    title:
+    - content: CSS Speech Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C NOTE-css3-speech-20180605
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-css3-speech-20180605
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-css-speech-1-20230214
+    title:
+    - content: CSS Speech Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/
+      type: src
+    docid:
+    - id: W3C CRD-css-speech-1-20230214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-speech-1-20200310
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/REC-ttml-imsc1.1-20181108/
   type: src
-- content: https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html
-  type: current
 type: standard
 docid:
 - id: W3C REC-ttml-imsc1.1-20181108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml-imsc1.1
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml-imsc1.1/
+      type: src
+    docid:
+    - id: W3C ttml-imsc1.1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ttml-imsc1.1-20181004
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/PR-ttml-imsc1.1-20181004/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-ttml-imsc1.1-20181004
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ttml-imsc1.1-20181004
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cttml-imsc1.1-errata.html
-    link:
-    - content: https://www.w3.org/2018/11/ttml-imsc1.1-errata.html
-      type: src
-    docid:
-    - id: W3C ttml-imsc1.1-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ttml-imsc1.1-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ttml-imsc1.1-20181108
 ext:

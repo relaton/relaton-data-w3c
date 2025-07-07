@@ -5,7 +5,7 @@ title:
 - content: RDF 1.1 Semantics
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-rdf11-mt-20131105/
+- content: https://www.w3.org/TR/2013/CR-rdf11-mt-20131105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Hayes
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hayes
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Patel-Schneider
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CWD-rdf11-mt-20130409
+    id: W3Crdf11-mt
+    title:
+    - content: RDF 1.1 Semantics
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-rdf11-mt-20130409/
+    - content: https://www.w3.org/TR/rdf11-mt/
       type: src
     docid:
-    - id: W3C WD-rdf11-mt-20130409
+    - id: W3C rdf11-mt
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf11-mt-20130409
+- type: obsoletes
+  bibitem:
+    id: W3CWD-rdf11-mt-20130723
+    title:
+    - content: RDF 1.1 Semantics
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-rdf11-mt-20130723/
+      type: src
+    docid:
+    - id: W3C WD-rdf11-mt-20130723
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rdf11-mt-20140109
+    title:
+    - content: RDF 1.1 Semantics
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/PR-rdf11-mt-20140109/
+      type: src
+    docid:
+    - id: W3C PR-rdf11-mt-20140109
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-rdf11-mt-20131105
 ext:

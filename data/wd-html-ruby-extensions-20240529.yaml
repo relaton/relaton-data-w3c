@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240529/
   type: src
-- content: https://w3c.github.io/html-ruby/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-ruby-extensions-20240529
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-ruby-extensions
+    title:
+    - content: HTML Ruby Markup Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-ruby-extensions/
+      type: src
+    docid:
+    - id: W3C html-ruby-extensions
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-ruby-extensions-20240523
+    title:
+    - content: HTML Ruby Markup Extensions
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240523/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-html-ruby-extensions-20240523
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-ruby-extensions-20240523
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-ruby-extensions-20240618
+    title:
+    - content: HTML Ruby Markup Extensions
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240618/
+      type: src
+    docid:
+    - id: W3C WD-html-ruby-extensions-20240618
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-ruby-extensions-20240529
 ext:

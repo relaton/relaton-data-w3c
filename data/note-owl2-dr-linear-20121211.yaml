@@ -28,18 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bijan Parsia
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Uli Sattler
+      given:
+        forename:
+        - content: Bijan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parsia
         language:
         - en
         script:
@@ -51,10 +48,30 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-dr-linear
+    title:
+    - content: 'OWL 2 Web Ontology Language Data Range Extension: Linear Equations
+        (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-dr-linear/
+      type: src
+    docid:
+    - id: W3C owl2-dr-linear
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-owl2-dr-linear-20121018
+    title:
+    - content: 'OWL 2 Web Ontology Language Data Range Extension: Linear Equations'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/NOTE-owl2-dr-linear-20121018/
       type: src
@@ -62,12 +79,9 @@ relation:
     - id: W3C NOTE-owl2-dr-linear-20121018
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-owl2-dr-linear-20121018
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-owl2-dr-linear-20121211
 ext:

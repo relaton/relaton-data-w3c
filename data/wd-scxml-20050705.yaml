@@ -6,7 +6,7 @@ title:
     1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-scxml-20050705/
+- content: https://www.w3.org/TR/2005/WD-scxml-20050705/
   type: src
 type: standard
 docid:
@@ -28,38 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Barnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Bodell
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: RJ Auburn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: T. V. Raman
+      given:
+        forename:
+        - content: T.V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raman
         language:
         - en
         script:
@@ -74,9 +51,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscxml
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/scxml/
+      type: src
+    docid:
+    - id: W3C scxml
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-scxml-20060124
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-scxml-20060124/
+      type: src
+    docid:
+    - id: W3C WD-scxml-20060124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-scxml-20050705
 ext:

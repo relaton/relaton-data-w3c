@@ -5,7 +5,7 @@ title:
 - content: Use Cases & Exploratory Approaches for Ruby Markup
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/
+- content: https://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cruby-use-cases
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ruby-use-cases/
+      type: src
+    docid:
+    - id: W3C ruby-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ruby-use-cases-20120710
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-ruby-use-cases-20120710/
+    - content: https://www.w3.org/TR/2012/WD-ruby-use-cases-20120710/
       type: src
     docid:
     - id: W3C WD-ruby-use-cases-20120710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ruby-use-cases-20120710
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ruby-use-cases-20131008
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-ruby-use-cases-20131008/
+      type: src
+    docid:
+    - id: W3C NOTE-ruby-use-cases-20131008
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-ruby-use-cases-20130910
 ext:

@@ -5,10 +5,8 @@ title:
 - content: HTML5 Image Description Extension (longdesc)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PR-html-longdesc-20141204/
+- content: https://www.w3.org/TR/2014/PR-html-longdesc-20141204/
   type: src
-- content: https://dvcs.w3.org/hg/html-proposals/raw-file/default/longdesc1/longdesc.html
-  type: current
 type: standard
 docid:
 - id: W3C PR-html-longdesc-20141204
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles McCathieNevile
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Sadecki
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sadecki
         language:
         - en
         script:
@@ -56,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-longdesc
+    title:
+    - content: HTML5 Image Description Extension (longdesc)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-longdesc/
+      type: src
+    docid:
+    - id: W3C html-longdesc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-html-longdesc-20140812
+    title:
+    - content: HTML5 Image Description Extension (longdesc)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/CR-html-longdesc-20140812/
+    - content: https://www.w3.org/TR/2014/CR-html-longdesc-20140812/
       type: src
     docid:
     - id: W3C CR-html-longdesc-20140812
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-html-longdesc-20140812
+- type: updatedBy
+  bibitem:
+    id: W3CREC-html-longdesc-20150226
+    title:
+    - content: HTML5 Image Description Extension (longdesc)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-html-longdesc-20150226/
+      type: src
+    docid:
+    - id: W3C REC-html-longdesc-20150226
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-html-longdesc-20141204
 ext:
@@ -79,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

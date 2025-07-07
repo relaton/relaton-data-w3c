@@ -5,7 +5,7 @@ title:
 - content: 'Polyglot Markup: HTML-Compatible XHTML Documents'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-html-polyglot-20120329/
+- content: https://www.w3.org/TR/2012/WD-html-polyglot-20120329/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eliot Graff
+      given:
+        forename:
+        - content: Eliot
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graff
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-polyglot
+    title:
+    - content: 'Polyglot Markup: A robust profile of the HTML5 vocabulary'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-polyglot/
+      type: src
+    docid:
+    - id: W3C html-polyglot
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-polyglot-20110525
+    title:
+    - content: 'Polyglot Markup: HTML-Compatible XHTML Documents'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-html-polyglot-20110525/
+    - content: https://www.w3.org/TR/2011/WD-html-polyglot-20110525/
       type: src
     docid:
     - id: W3C WD-html-polyglot-20110525
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-polyglot-20110525
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-polyglot-20121025
+    title:
+    - content: 'Polyglot Markup: HTML-Compatible XHTML Documents'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-html-polyglot-20121025/
+      type: src
+    docid:
+    - id: W3C WD-html-polyglot-20121025
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-polyglot-20120329
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

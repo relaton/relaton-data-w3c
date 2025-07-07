@@ -5,10 +5,8 @@ title:
 - content: CSS Counter Styles Level 3
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/CR-css-counter-styles-3-20150611/
+- content: https://www.w3.org/TR/2015/CR-css-counter-styles-3-20150611/
   type: src
-- content: https://drafts.csswg.org/css-counter-styles/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-counter-styles-3-20150611
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -44,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-counter-styles-3
+    title:
+    - content: CSS Counter Styles Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-counter-styles-3/
+      type: src
+    docid:
+    - id: W3C css-counter-styles-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-counter-styles-3-20150203
+    title:
+    - content: CSS Counter Styles Level 3
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-css-counter-styles-3-20150203/
+    - content: https://www.w3.org/TR/2015/CR-css-counter-styles-3-20150203/
       type: src
     docid:
     - id: W3C CR-css-counter-styles-3-20150203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-counter-styles-3-20150203
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-counter-styles-3-20171214
+    title:
+    - content: CSS Counter Styles Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-css-counter-styles-3-20171214/
+      type: src
+    docid:
+    - id: W3C CR-css-counter-styles-3-20171214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-counter-styles-3-20150611
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

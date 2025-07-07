@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Zhiheng Wang
+      given:
+        forename:
+        - content: Zhiheng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnavigation-timing
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/navigation-timing/
+      type: src
+    docid:
+    - id: W3C navigation-timing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-navigation-timing-20120726
+    title:
+    - content: Navigation Timing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-navigation-timing-20120726/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-navigation-timing-20120726
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-navigation-timing-20120726
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cnavigation-timing-errata.html
-    link:
-    - content: https://www.w3.org/2012/12/navigation-timing-errata.html
-      type: src
-    docid:
-    - id: W3C navigation-timing-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C navigation-timing-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-navigation-timing-20121217
 ext:

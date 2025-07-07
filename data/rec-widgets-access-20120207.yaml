@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-access
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-access/
+      type: src
+    docid:
+    - id: W3C widgets-access
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-widgets-access-20111213
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-widgets-access-20111213/
       type: src
@@ -64,28 +94,25 @@ relation:
     - id: W3C PR-widgets-access-20111213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-widgets-access-20111213
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cwidgets-access-errata
+    id: W3COBSL-widgets-access-20181011
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
     link:
-    - content: http://dev.w3.org/2006/waf/widgets-access/errata.html
+    - content: https://www.w3.org/TR/2018/OBSL-widgets-access-20181011/
       type: src
     docid:
-    - id: W3C widgets-access/errata
+    - id: W3C OBSL-widgets-access-20181011
       type: W3C
       primary: true
-    formattedref:
-      content: W3C widgets-access/errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-widgets-access-20120207
 ext:
@@ -93,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

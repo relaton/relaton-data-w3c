@@ -5,7 +5,7 @@ title:
 - content: Web Services Addressing 1.0 - WSDL Binding
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-ws-addr-wsdl-20050215
+- content: https://www.w3.org/TR/2005/WD-ws-addr-wsdl-20050215
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marc Hadley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Martin Gudgin
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-addr-metadata
+    title:
+    - content: Web Services Addressing 1.0 - Metadata
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-addr-metadata/
+      type: src
+    docid:
+    - id: W3C ws-addr-metadata
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ws-addr-wsdl-20041208
+    title:
+    - content: Web Services Addressing - WSDL Binding
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-ws-addr-wsdl-20041208
+    - content: https://www.w3.org/TR/2004/WD-ws-addr-wsdl-20041208
       type: src
     docid:
     - id: W3C WD-ws-addr-wsdl-20041208
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-addr-wsdl-20041208
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ws-addr-wsdl-20050413
+    title:
+    - content: Web Services Addressing 1.0 - WSDL Binding
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-ws-addr-wsdl-20050413
+      type: src
+    docid:
+    - id: W3C WD-ws-addr-wsdl-20050413
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ws-addr-wsdl-20050215
 ext:

@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Ray Whitmer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-02-26'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-Views
+    title:
+    - content: Document Object Model (DOM) Level 3 Views and Formatting Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-Views/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-Views
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Level-3-Views-20001115
+    title:
+    - content: Document Object Model (DOM) Level 3 Views and Formatting Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2000/WD-DOM-Level-3-Views-20001115
       type: src
@@ -51,12 +60,25 @@ relation:
     - id: W3C WD-DOM-Level-3-Views-20001115
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-Views-20001115
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-DOM-Level-3-Views-20201103
+    title:
+    - content: Document Object Model (DOM) Level 3 Views and Formatting Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-DOM-Level-3-Views-20201103/
+      type: src
+    docid:
+    - id: W3C NOTE-DOM-Level-3-Views-20201103
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-DOM-Level-3-Views-20040226
 ext:
@@ -64,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWAI-WEBCONTENT-19990505
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505/
       type: src
@@ -40,12 +40,100 @@ relation:
     - id: W3C WAI-WEBCONTENT-19990505
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WAI-WEBCONTENT-19990505
+- type: hasEdition
+  bibitem:
+    id: W3CWAI-WEBCONTENT-19990324
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WAI-WEBCONTENT-19990324
+      type: src
+    docid:
+    - id: W3C WAI-WEBCONTENT-19990324
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WAI-PAGEAUTH-19990226
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-WAI-PAGEAUTH-19990226
+      type: src
+    docid:
+    - id: W3C WD-WAI-PAGEAUTH-19990226
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WAI-PAGEAUTH-19990217
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-WAI-PAGEAUTH-19990217
+      type: src
+    docid:
+    - id: W3C WD-WAI-PAGEAUTH-19990217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WAI-PAGEAUTH-19990115
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-WAI-PAGEAUTH-19990115
+      type: src
+    docid:
+    - id: W3C WD-WAI-PAGEAUTH-19990115
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WAI-PAGEAUTH-19980918
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-19980918
+      type: src
+    docid:
+    - id: W3C WD-WAI-PAGEAUTH-19980918
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WAI-PAGEAUTH-0414
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-0414
+      type: src
+    docid:
+    - id: W3C WD-WAI-PAGEAUTH-0414
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WAI-PAGEAUTH-0203
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-0203
+      type: src
+    docid:
+    - id: W3C WD-WAI-PAGEAUTH-0203
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: WAI-WEBCONTENT
 ext:

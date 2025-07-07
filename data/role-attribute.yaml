@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-role-attribute-20130328
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-role-attribute-20130328/
       type: src
@@ -40,12 +40,61 @@ relation:
     - id: W3C REC-role-attribute-20130328
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-role-attribute-20130328
+- type: hasEdition
+  bibitem:
+    id: W3CPR-role-attribute-20121213
+    title:
+    - content: Role Attribute 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-role-attribute-20121213/
+      type: src
+    docid:
+    - id: W3C PR-role-attribute-20121213
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-role-attribute-20120712
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-role-attribute-20120712/
+      type: src
+    docid:
+    - id: W3C CR-role-attribute-20120712
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-role-attribute-20110113
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-role-attribute-20110113/
+      type: src
+    docid:
+    - id: W3C WD-role-attribute-20110113
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-role-attribute-20100916
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-role-attribute-20100916/
+      type: src
+    docid:
+    - id: W3C WD-role-attribute-20100916
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: role-attribute
 ext:

@@ -5,7 +5,7 @@ title:
 - content: PICS-NG Metadata Model and Label Syntax
   format: text/plain
 link:
-- content: http://www.w3.org/TR/NOTE-pics-ng-metadata-970514
+- content: https://www.w3.org/TR/NOTE-pics-ng-metadata-970514
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ora Lassila
+      given:
+        forename:
+        - content: Ora
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lassila
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-pics-ng-metadata
+    title:
+    - content: PICS-NG Metadata Model and Label Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-pics-ng-metadata
+      type: src
+    docid:
+    - id: W3C NOTE-pics-ng-metadata
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-pics-ng-metadata-970514
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

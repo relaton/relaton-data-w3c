@@ -26,39 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-html40-971218
-    link:
-    - content: https://www.w3.org/TR/REC-html40-971218
-      type: src
-    docid:
-    - id: W3C REC-html40-971218
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-html40-971218
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-html40-19980424
-    link:
-    - content: https://www.w3.org/TR/1998/REC-html40-19980424/
-      type: src
-    docid:
-    - id: W3C REC-html40-19980424
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-html40-19980424
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CSPSD-html40-20180327
+    title:
+    - content: HTML 4.0 Recommendation
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/SPSD-html40-20180327/
       type: src
@@ -66,12 +40,74 @@ relation:
     - id: W3C SPSD-html40-20180327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C SPSD-html40-20180327
+- type: hasEdition
+  bibitem:
+    id: W3CREC-html40-19980424
+    title:
+    - content: HTML 4.0 Recommendation
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/REC-html40-19980424/
+      type: src
+    docid:
+    - id: W3C REC-html40-19980424
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-html40-971218
+    title:
+    - content: HTML 4.0 Recommendation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-html40-971218
+      type: src
+    docid:
+    - id: W3C REC-html40-971218
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-html40-971107
+    title:
+    - content: HTML 4.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/PR-html40-971107
+      type: src
+    docid:
+    - id: W3C PR-html40-971107
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-html40-970917
+    title:
+    - content: HTML 4.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-html40-970917/
+      type: src
+    docid:
+    - id: W3C WD-html40-970917
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-html40-970708
+    title:
+    - content: HTML 4.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-html40-970708/
+      type: src
+    docid:
+    - id: W3C WD-html40-970708
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: html40
 ext:

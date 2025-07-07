@@ -5,7 +5,7 @@ title:
 - content: HTML 5 differences from HTML 4
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-html5-diff-20080122/
+- content: https://www.w3.org/TR/2008/WD-html5-diff-20080122/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml5-diff
+    title:
+    - content: HTML5 Differences from HTML4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html5-diff/
+      type: src
+    docid:
+    - id: W3C html5-diff
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html5-diff-20080610
+    title:
+    - content: HTML 5 differences from HTML 4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-html5-diff-20080610/
+      type: src
+    docid:
+    - id: W3C WD-html5-diff-20080610
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html5-diff-20080122
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

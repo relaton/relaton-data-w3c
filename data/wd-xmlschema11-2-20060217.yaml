@@ -5,7 +5,7 @@ title:
 - content: 'XML Schema 1.1 Part 2: Datatypes'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-xmlschema11-2-20060217/
+- content: https://www.w3.org/TR/2006/WD-xmlschema11-2-20060217/
   type: src
 type: standard
 docid:
@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: C. M. Sperberg-McQueen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Peterson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul V. Biron
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -72,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema11-2
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema11-2/
+      type: src
+    docid:
+    - id: W3C xmlschema11-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlschema11-2-20060116
+    title:
+    - content: 'XML Schema 1.1 Part 2: Datatypes'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-xmlschema11-2-20060116/
+    - content: https://www.w3.org/TR/2006/WD-xmlschema11-2-20060116/
       type: src
     docid:
     - id: W3C WD-xmlschema11-2-20060116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlschema11-2-20060116
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmlschema11-2-20080620
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-xmlschema11-2-20080620/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema11-2-20080620
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xmlschema11-2-20060217
 ext:

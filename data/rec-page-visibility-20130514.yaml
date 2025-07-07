@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arvind Jain
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Arvind
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jain
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpage-visibility
+    title:
+    - content: Page Visibility (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/page-visibility/
+      type: src
+    docid:
+    - id: W3C page-visibility
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-page-visibility-20130219
+    title:
+    - content: Page Visibility
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-page-visibility-20130219/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-page-visibility-20130219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-page-visibility-20130219
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cpv-errata.html
-    link:
-    - content: https://www.w3.org/2013/05/pv-errata.html
-      type: src
-    docid:
-    - id: W3C pv-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C pv-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-page-visibility-20130514
 ext:

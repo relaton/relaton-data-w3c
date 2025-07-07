@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Clark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven DeRose
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Clark
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-10
+    title:
+    - content: XML Path Language (XPath) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-10/
+      type: src
+    docid:
+    - id: W3C xpath-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xpath-19991008
+    title:
+    - content: XML Path Language (XPath) Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1999/PR-xpath-19991008
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-xpath-19991008
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xpath-19991008
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-xpath-19991116-errata
-    link:
-    - content: https://www.w3.org/1999/11/REC-xpath-19991116-errata
-      type: src
-    docid:
-    - id: W3C REC-xpath-19991116-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xpath-19991116-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath-19991116
 ext:

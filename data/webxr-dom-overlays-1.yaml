@@ -26,39 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-webxr-dom-overlays-1-20210831
+    id: W3CWD-webxr-dom-overlays-1-20240924
+    title:
+    - content: WebXR DOM Overlays Module
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2021/WD-webxr-dom-overlays-1-20210831/
+    - content: https://www.w3.org/TR/2024/WD-webxr-dom-overlays-1-20240924/
       type: src
     docid:
-    - id: W3C WD-webxr-dom-overlays-1-20210831
+    - id: W3C WD-webxr-dom-overlays-1-20240924
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webxr-dom-overlays-1-20210831
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-webxr-dom-overlays-1-20220705
-    link:
-    - content: https://www.w3.org/TR/2022/WD-webxr-dom-overlays-1-20220705/
-      type: src
-    docid:
-    - id: W3C WD-webxr-dom-overlays-1-20220705
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webxr-dom-overlays-1-20220705
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-webxr-dom-overlays-1-20221117
+    title:
+    - content: WebXR DOM Overlays Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-webxr-dom-overlays-1-20221117/
       type: src
@@ -66,12 +53,35 @@ relation:
     - id: W3C WD-webxr-dom-overlays-1-20221117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webxr-dom-overlays-1-20221117
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webxr-dom-overlays-1-20220705
+    title:
+    - content: WebXR DOM Overlays Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-webxr-dom-overlays-1-20220705/
+      type: src
+    docid:
+    - id: W3C WD-webxr-dom-overlays-1-20220705
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webxr-dom-overlays-1-20210831
+    title:
+    - content: WebXR DOM Overlays Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-webxr-dom-overlays-1-20210831/
+      type: src
+    docid:
+    - id: W3C WD-webxr-dom-overlays-1-20210831
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: webxr-dom-overlays-1
 ext:

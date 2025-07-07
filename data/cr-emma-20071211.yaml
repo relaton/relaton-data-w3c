@@ -5,7 +5,7 @@ title:
 - content: 'EMMA: Extensible MultiModal Annotation markup language'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/CR-emma-20071211/
+- content: https://www.w3.org/TR/2007/CR-emma-20071211/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Johnston
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Johnston
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemma
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emma/
+      type: src
+    docid:
+    - id: W3C emma
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-emma-20070409
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-emma-20070409/
+    - content: https://www.w3.org/TR/2007/WD-emma-20070409/
       type: src
     docid:
     - id: W3C WD-emma-20070409
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-emma-20070409
+- type: updatedBy
+  bibitem:
+    id: W3CPR-emma-20081215
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/PR-emma-20081215/
+      type: src
+    docid:
+    - id: W3C PR-emma-20081215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-emma-20071211
 ext:

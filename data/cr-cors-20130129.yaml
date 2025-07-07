@@ -5,7 +5,7 @@ title:
 - content: Cross-Origin Resource Sharing
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-cors-20130129/
+- content: https://www.w3.org/TR/2013/CR-cors-20130129/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccors
+    title:
+    - content: Cross-Origin Resource Sharing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cors/
+      type: src
+    docid:
+    - id: W3C cors
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-cors-20120403
+    title:
+    - content: Cross-Origin Resource Sharing
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-cors-20120403/
+    - content: https://www.w3.org/TR/2012/WD-cors-20120403/
       type: src
     docid:
     - id: W3C WD-cors-20120403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-cors-20120403
+- type: updatedBy
+  bibitem:
+    id: W3CPR-cors-20131205
+    title:
+    - content: Cross-Origin Resource Sharing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-cors-20131205/
+      type: src
+    docid:
+    - id: W3C PR-cors-20131205
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-cors-20130129
 ext:
@@ -67,5 +103,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"
   - name: Web Application Security Working Group

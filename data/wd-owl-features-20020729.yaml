@@ -5,7 +5,7 @@ title:
 - content: Feature Synopsis for OWL Lite and OWL
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-owl-features-20020729/
+- content: https://www.w3.org/TR/2002/WD-owl-features-20020729/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Deborah L. McGuinness
+      given:
+        forename:
+        - content: Deborah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGuinness
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frank van Harmelen
+      given:
+        forename:
+        - content: Frank
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Harmelen
         language:
         - en
         script:
@@ -53,12 +67,44 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-features
+    title:
+    - content: OWL Web Ontology Language Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-features/
+      type: src
+    docid:
+    - id: W3C owl-features
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl-features-20030210
+    title:
+    - content: 'Web Ontology Language (OWL): Overview'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-owl-features-20030210/
+      type: src
+    docid:
+    - id: W3C WD-owl-features-20030210
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl-features-20020729
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

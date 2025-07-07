@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xmldsig-requirements-19991014
+    title:
+    - content: XML-Signature Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1999/WD-xmldsig-requirements-19991014
       type: src
@@ -40,12 +40,48 @@ relation:
     - id: W3C WD-xmldsig-requirements-19991014
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmldsig-requirements-19991014
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-requirements-990820.html
+    title:
+    - content: XML-Signature Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/1999/08/WD-xmldsig-requirements-990820.html
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-requirements-990820.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3Cxmldsig-requirements-990728.html
+    title:
+    - content: XML-Signature Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/Signature/Drafts/xmldsig-requirements-990728.html
+      type: src
+    docid:
+    - id: W3C xmldsig-requirements-990728.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3Cxmldsig-requirements-990720.html
+    title:
+    - content: XML-Signature Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/Signature/Drafts/xmldsig-requirements-990720.html
+      type: src
+    docid:
+    - id: W3C xmldsig-requirements-990720.html
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xmldsig-requirements
 ext:

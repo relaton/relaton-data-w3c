@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antonis Kukurikos
+      given:
+        forename:
+        - content: Antonis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kukurikos
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-test
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Test Suite'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-test/
+      type: src
+    docid:
+    - id: W3C powder-test
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-powder-test-20090604
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Test Suite'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/NOTE-powder-test-20090604/
       type: src
@@ -61,12 +94,9 @@ relation:
     - id: W3C NOTE-powder-test-20090604
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-powder-test-20090604
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-powder-test-20090910
 ext:
@@ -74,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

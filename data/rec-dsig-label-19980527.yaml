@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brian LaMacchia
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Lipp
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philip DesAutels
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yanghua Chu
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaMacchia
         language:
         - en
         script:
@@ -74,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CREC-DSig-label
+    title:
+    - content: PICS Signed Labels (DSig) 1.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-DSig-label/
+      type: src
+    docid:
+    - id: W3C REC-DSig-label
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-DSig-label-19980403
+    title:
+    - content: PICS Signed Labels (DSig) 1.0 Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1998/PR-DSig-label-19980403/
       type: src
@@ -84,15 +77,30 @@ relation:
     - id: W3C PR-DSig-label-19980403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-DSig-label-19980403
+- type: updatedBy
+  bibitem:
+    id: W3CREC-DSig-label-20091124
+    title:
+    - content: PICS Signed Labels (DSig) 1.0 Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/REC-DSig-label-20091124/
+      type: src
+    docid:
+    - id: W3C REC-DSig-label-20091124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-DSig-label-19980527
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

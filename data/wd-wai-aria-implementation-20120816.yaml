@@ -5,7 +5,7 @@ title:
 - content: WAI-ARIA 1.0 User Agent Implementation Guide
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-wai-aria-implementation-20120816/
+- content: https://www.w3.org/TR/2012/WD-wai-aria-implementation-20120816/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andi Snow-Weaver
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-implementation
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-implementation/
+      type: src
+    docid:
+    - id: W3C wai-aria-implementation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wai-aria-implementation-20120110
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-wai-aria-implementation-20120110/
+    - content: https://www.w3.org/TR/2012/WD-wai-aria-implementation-20120110/
       type: src
     docid:
     - id: W3C WD-wai-aria-implementation-20120110
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wai-aria-implementation-20120110
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wai-aria-implementation-20131105
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-wai-aria-implementation-20131105/
+      type: src
+    docid:
+    - id: W3C WD-wai-aria-implementation-20131105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wai-aria-implementation-20120816
 ext:

@@ -5,7 +5,7 @@ title:
 - content: HTML Imports
   format: text/plain
 link:
-- content: http://www.w3.org/TR/html-imports/
+- content: https://www.w3.org/TR/html-imports/
   type: src
 type: standard
 docid:
@@ -26,39 +26,62 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CDISC-html-imports-20230615
+    title:
+    - content: HTML Imports
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DISC-html-imports-20230615/
+      type: src
+    docid:
+    - id: W3C DISC-html-imports-20230615
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-html-imports-20160225
+    title:
+    - content: HTML Imports
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-html-imports-20160225/
+      type: src
+    docid:
+    - id: W3C WD-html-imports-20160225
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-html-imports-20140311
+    title:
+    - content: HTML Imports
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-html-imports-20140311/
+    - content: https://www.w3.org/TR/2014/WD-html-imports-20140311/
       type: src
     docid:
     - id: W3C WD-html-imports-20140311
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-imports-20140311
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-html-imports-20130514
+    title:
+    - content: HTML Imports
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-html-imports-20130514/
+    - content: https://www.w3.org/TR/2013/WD-html-imports-20130514/
       type: src
     docid:
     - id: W3C WD-html-imports-20130514
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-imports-20130514
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: html-imports
 ext:

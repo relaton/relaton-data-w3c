@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CR-webaudio-20200611/
   type: src
-- content: https://webaudio.github.io/web-audio-api/
-  type: current
 type: standard
 docid:
 - id: W3C CR-webaudio-20200611
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hongchan Choi
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adenot
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Adenot
+      given:
+        forename:
+        - content: Hongchan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Choi
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebaudio-1.0
+    title:
+    - content: Web Audio API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webaudio-1.0/
+      type: src
+    docid:
+    - id: W3C webaudio-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-webaudio-20180918
+    title:
+    - content: Web Audio API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-webaudio-20180918/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-webaudio-20180918
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webaudio-20180918
+- type: updatedBy
+  bibitem:
+    id: W3CCR-webaudio-20210114
+    title:
+    - content: Web Audio API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CR-webaudio-20210114/
+      type: src
+    docid:
+    - id: W3C CR-webaudio-20210114
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-webaudio-20200611
 ext:

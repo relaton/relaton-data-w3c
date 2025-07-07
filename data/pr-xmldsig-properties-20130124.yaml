@@ -5,7 +5,7 @@ title:
 - content: XML Signature Properties
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-xmldsig-properties-20130124/
+- content: https://www.w3.org/TR/2013/PR-xmldsig-properties-20130124/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-properties
+    title:
+    - content: XML Signature Properties
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-properties/
+      type: src
+    docid:
+    - id: W3C xmldsig-properties
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xmldsig-properties-20110303
+    title:
+    - content: XML Signature Properties
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/CR-xmldsig-properties-20110303/
+    - content: https://www.w3.org/TR/2011/CR-xmldsig-properties-20110303/
       type: src
     docid:
     - id: W3C CR-xmldsig-properties-20110303
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xmldsig-properties-20110303
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xmldsig-properties-20130411
+    title:
+    - content: XML Signature Properties
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-xmldsig-properties-20130411/
+      type: src
+    docid:
+    - id: W3C REC-xmldsig-properties-20130411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xmldsig-properties-20130124
 ext:

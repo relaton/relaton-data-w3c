@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Orchard
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Orchard
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-part3
+    title:
+    - content: 'SOAP 1.2 Part 3: One-Way MEP'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-part3/
+      type: src
+    docid:
+    - id: W3C soap12-part3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-soap12-part3-20061219
+    title:
+    - content: 'SOAP 1.2 Part 3: One-Way MEP'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-soap12-part3-20061219/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-soap12-part3-20061219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-soap12-part3-20061219
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-soap12-part3-20070702
 ext:

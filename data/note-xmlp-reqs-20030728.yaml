@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Ceponkus
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cotton
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Alex Miłowski
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ezell
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Amr Yassin
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bob Lojek
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miłowski
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Ezell
+      given:
+        forename:
+        - content: Jean-Jacques
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -77,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Fallside
+      given:
+        forename:
+        - content: Henrik Frystyk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
         language:
         - en
         script:
@@ -87,108 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Newcomer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henrik Frystyk Nielsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jean-Jacques Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: John Ibbotson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kevin Mitchell
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Nottingham
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Martin Gudgin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Oisin Hurley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Cotton
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stuart Williams
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Waqar Sadiq
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nottingham
         language:
         - en
         script:
@@ -200,10 +149,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlp-reqs
+    title:
+    - content: XML Protocol (XMLP) Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlp-reqs/
+      type: src
+    docid:
+    - id: W3C xmlp-reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlp-reqs-20020626
+    title:
+    - content: XML Protocol (XMLP) Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-xmlp-reqs-20020626
       type: src
@@ -211,12 +179,9 @@ relation:
     - id: W3C WD-xmlp-reqs-20020626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlp-reqs-20020626
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmlp-reqs-20030728
 ext:

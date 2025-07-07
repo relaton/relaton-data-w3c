@@ -5,7 +5,7 @@ title:
 - content: XML Security RELAX NG Schemas
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-xmlsec-rngschema-20100204/
+- content: https://www.w3.org/TR/2010/WD-xmlsec-rngschema-20100204/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlsec-rngschema
+    title:
+    - content: XML Security RELAX NG Schemas
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlsec-rngschema/
+      type: src
+    docid:
+    - id: W3C xmlsec-rngschema
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmlsec-rngschema-20100316
+    title:
+    - content: XML Security RELAX NG Schemas
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xmlsec-rngschema-20100316/
+      type: src
+    docid:
+    - id: W3C WD-xmlsec-rngschema-20100316
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlsec-rngschema-20100204
 ext:

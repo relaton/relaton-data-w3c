@@ -5,10 +5,8 @@ title:
 - content: Pointer Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PR-pointerevents-20141216/
+- content: https://www.w3.org/TR/2014/PR-pointerevents-20141216/
   type: src
-- content: https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html
-  type: current
 type: standard
 docid:
 - id: W3C PR-pointerevents-20141216
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jacob Rossi
+      given:
+        forename:
+        - content: Jacob
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rossi
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerevents
+    title:
+    - content: Pointer Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerevents/
+      type: src
+    docid:
+    - id: W3C pointerevents
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pointerevents-20141113
+    title:
+    - content: Pointer Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-pointerevents-20141113/
+    - content: https://www.w3.org/TR/2014/WD-pointerevents-20141113/
       type: src
     docid:
     - id: W3C WD-pointerevents-20141113
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerevents-20141113
+- type: updatedBy
+  bibitem:
+    id: W3CREC-pointerevents-20150224
+    title:
+    - content: Pointer Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-pointerevents-20150224/
+      type: src
+    docid:
+    - id: W3C REC-pointerevents-20150224
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-pointerevents-20141216
 ext:

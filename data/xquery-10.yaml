@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-xquery-20101214
+    title:
+    - content: 'XQuery 1.0: An XML Query Language (Second Edition)'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/REC-xquery-20101214/
       type: src
@@ -40,12 +40,217 @@ relation:
     - id: W3C REC-xquery-20101214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xquery-20101214
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xquery-20090421
+    title:
+    - content: 'XQuery 1.0: An XML Query Language (Second Edition)'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/PER-xquery-20090421/
+      type: src
+    docid:
+    - id: W3C PER-xquery-20090421
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xquery-20070123
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/REC-xquery-20070123/
+      type: src
+    docid:
+    - id: W3C REC-xquery-20070123
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xquery-20061121
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/PR-xquery-20061121/
+      type: src
+    docid:
+    - id: W3C PR-xquery-20061121
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xquery-20060608
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/CR-xquery-20060608/
+      type: src
+    docid:
+    - id: W3C CR-xquery-20060608
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xquery-20051103
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/CR-xquery-20051103/
+      type: src
+    docid:
+    - id: W3C CR-xquery-20051103
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20050915
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xquery-20050915/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20050915
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20050404
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xquery-20050404/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20050404
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20050211
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xquery-20050211/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20050211
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20041029
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-xquery-20041029/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20041029
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20040723
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-xquery-20040723/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20040723
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20031112
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-xquery-20031112/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20031112
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20030822
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-xquery-20030822/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20030822
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20030502
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-xquery-20030502/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20030502
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20021115
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xquery-20021115/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20021115
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20020816
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xquery-20020816/
+      type: src
+    docid:
+    - id: W3C WD-xquery-20020816
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xquery-20020430
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xquery-20020430
+      type: src
+    docid:
+    - id: W3C WD-xquery-20020430
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xquery-10
 ext:

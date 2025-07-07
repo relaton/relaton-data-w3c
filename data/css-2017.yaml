@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-css-2017-20170131
+    title:
+    - content: CSS Snapshot 2017
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/NOTE-css-2017-20170131/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-css-2017-20170131
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-css-2017-20170131
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: css-2017
 ext:

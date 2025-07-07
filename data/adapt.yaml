@@ -29,20 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adapt-20220609
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-adapt-20220609/
-      type: src
-    docid:
-    - id: W3C DNOTE-adapt-20220609
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-adapt-20220609
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CDNOTE-adapt-20230103
+    title:
+    - content: WAI-Adapt Explainer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-adapt-20230103/
       type: src
@@ -50,12 +40,113 @@ relation:
     - id: W3C DNOTE-adapt-20230103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-adapt-20230103
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-adapt-20220609
+    title:
+    - content: WAI-Adapt Explainer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-adapt-20220609/
+      type: src
+    docid:
+    - id: W3C DNOTE-adapt-20220609
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20210812
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-personalization-semantics-1.0-20210812/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20210812
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20200127
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-personalization-semantics-1.0-20200127/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20200127
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20190711
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-personalization-semantics-1.0-20190711/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20190711
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20181018
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-personalization-semantics-1.0-20181018/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20181018
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20180316
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-personalization-semantics-1.0-20180316/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20180316
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20180213
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-personalization-semantics-1.0-20180213/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20180213
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20170606
+    title:
+    - content: Personalization Semantics 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-personalization-semantics-1.0-20170606/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20170606
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: adapt
 ext:

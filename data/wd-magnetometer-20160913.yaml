@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-magnetometer-20160913/
   type: src
-- content: https://w3c.github.io/magnetometer/
-  type: current
 type: standard
 docid:
 - id: W3C WD-magnetometer-20160913
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rijubrata Bhaumik
+      given:
+        forename:
+        - content: Rijubrata
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bhaumik
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmagnetometer
+    title:
+    - content: Magnetometer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/magnetometer/
+      type: src
+    docid:
+    - id: W3C magnetometer
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-magnetometer-20170411
+    title:
+    - content: Magnetometer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-magnetometer-20170411/
+      type: src
+    docid:
+    - id: W3C WD-magnetometer-20170411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-magnetometer-20160913
 ext:

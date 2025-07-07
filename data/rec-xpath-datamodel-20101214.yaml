@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Marsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marton Nagy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Fernandez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -94,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-datamodel
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-datamodel/
+      type: src
+    docid:
+    - id: W3C xpath-datamodel
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xpath-datamodel-20090421
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PER-xpath-datamodel-20090421/
       type: src
@@ -104,28 +111,9 @@ relation:
     - id: W3C PER-xpath-datamodel-20090421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xpath-datamodel-20090421
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxpath-datamodel-errata2e.html
-    link:
-    - content: https://www.w3.org/XML/2010/qt-errata/xpath-datamodel-errata2e.html
-      type: src
-    docid:
-    - id: W3C xpath-datamodel-errata2e.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xpath-datamodel-errata2e.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath-datamodel-20101214
 ext:
@@ -133,5 +121,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

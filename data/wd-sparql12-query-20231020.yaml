@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-sparql12-query-20231020/
   type: src
-- content: https://w3c.github.io/sparql-query/spec/
-  type: current
 type: standard
 docid:
 - id: W3C WD-sparql12-query-20231020
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Olaf
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hartig
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregory Williams
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Olaf Hartig
+      given:
+        forename:
+        - content: Ruben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taelman
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ruben Taelman
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Pellissier Tanon
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql12-query
+    title:
+    - content: SPARQL 1.2 Query Language
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql12-query/
+      type: src
+    docid:
+    - id: W3C sparql12-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql12-query-20231013
+    title:
+    - content: SPARQL 1.2 Query Language
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-sparql12-query-20231013/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C WD-sparql12-query-20231013
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql12-query-20231013
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sparql12-query-20231208
+    title:
+    - content: SPARQL 1.2 Query Language
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-sparql12-query-20231208/
+      type: src
+    docid:
+    - id: W3C WD-sparql12-query-20231208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sparql12-query-20231020
 ext:
@@ -109,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF-star Working Group
+  - name: RDF & SPARQL Working Group

@@ -5,10 +5,8 @@ title:
 - content: Push API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-push-api-20141007/
+- content: https://www.w3.org/TR/2014/WD-push-api-20141007/
   type: src
-- content: http://w3c.github.io/push-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-push-api-20141007
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bryan Sullivan
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sullivan
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eduardo Fullea
+      given:
+        forename:
+        - content: Eduardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fullea
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael van Ouwerkerk
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Ouwerkerk
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpush-api
+    title:
+    - content: Push API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/push-api/
+      type: src
+    docid:
+    - id: W3C push-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-push-api-20130815
+    title:
+    - content: Push API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-push-api-20130815/
+    - content: https://www.w3.org/TR/2013/WD-push-api-20130815/
       type: src
     docid:
     - id: W3C WD-push-api-20130815
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-push-api-20130815
+- type: updatedBy
+  bibitem:
+    id: W3CWD-push-api-20150427
+    title:
+    - content: Push API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-push-api-20150427/
+      type: src
+    docid:
+    - id: W3C WD-push-api-20150427
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-push-api-20141007
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

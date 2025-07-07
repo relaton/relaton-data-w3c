@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joseph Scheuhammer
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheuhammer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-implementation
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-implementation/
+      type: src
+    docid:
+    - id: W3C wai-aria-implementation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wai-aria-implementation-20140206
+    title:
+    - content: WAI-ARIA 1.0 User Agent Implementation Guide
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PR-wai-aria-implementation-20140206/
       type: src
@@ -64,12 +94,9 @@ relation:
     - id: W3C PR-wai-aria-implementation-20140206
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wai-aria-implementation-20140206
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wai-aria-implementation-20140320
 ext:

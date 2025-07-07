@@ -5,7 +5,7 @@ title:
 - content: XSL Transformations (XSLT) Version 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/CR-xslt20-20060608/
+- content: https://www.w3.org/TR/2006/CR-xslt20-20060608/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslt20
+    title:
+    - content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslt20/
+      type: src
+    docid:
+    - id: W3C xslt20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xslt20-20051103
+    title:
+    - content: XSL Transformations (XSLT) Version 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/CR-xslt20-20051103/
+    - content: https://www.w3.org/TR/2005/CR-xslt20-20051103/
       type: src
     docid:
     - id: W3C CR-xslt20-20051103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xslt20-20051103
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xslt20-20061121
+    title:
+    - content: XSL Transformations (XSLT) Version 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/PR-xslt20-20061121/
+      type: src
+    docid:
+    - id: W3C PR-xslt20-20061121
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xslt20-20060608
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-spoken-html-20210923/
   type: src
-- content: https://w3c.github.io/pronunciation/technical-approach
-  type: current
 type: standard
 docid:
 - id: W3C WD-spoken-html-20210923
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Irfan Ali
+      given:
+        forename:
+        - content: Markku
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hakkinen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markku Hakkinen
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grenier
         language:
         - en
         script:
@@ -49,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Grenier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ruoxi Ran
+      given:
+        forename:
+        - content: Ruoxi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ran
         language:
         - en
         script:
@@ -76,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cspoken-html
+    title:
+    - content: Specification for Spoken Presentation in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/spoken-html/
+      type: src
+    docid:
+    - id: W3C spoken-html
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-spoken-html-20210518
+    title:
+    - content: Specification for Spoken Presentation in HTML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-spoken-html-20210518/
       type: src
@@ -86,12 +111,9 @@ relation:
     - id: W3C WD-spoken-html-20210518
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-spoken-html-20210518
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-spoken-html-20210923
 ext:
@@ -99,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

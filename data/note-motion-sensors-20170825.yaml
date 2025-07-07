@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-motion-sensors-20170825/
   type: src
-- content: https://w3c.github.io/motion-sensors/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-motion-sensors-20170825
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexander Shalamov
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Alexander
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shalamov
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmotion-sensors
+    title:
+    - content: Motion Sensors Explainer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/motion-sensors/
+      type: src
+    docid:
+    - id: W3C motion-sensors
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-motion-sensors-20170511
+    title:
+    - content: Motion Sensors Explainer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/NOTE-motion-sensors-20170511/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C NOTE-motion-sensors-20170511
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-motion-sensors-20170511
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-motion-sensors-20170830
+    title:
+    - content: Motion Sensors Explainer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-motion-sensors-20170830/
+      type: src
+    docid:
+    - id: W3C NOTE-motion-sensors-20170830
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-motion-sensors-20170825
 ext:

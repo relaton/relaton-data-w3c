@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-dpub-css-priorities-20150820
+    title:
+    - content: Priorities for CSS from the Digital Publishing Interest Group
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-dpub-css-priorities-20150820
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dpub-css-priorities-20150820
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: dpub-css-priorities
 ext:

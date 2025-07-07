@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Schneider
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schneider
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Takuki Kamiya
+      given:
+        forename:
+        - content: Takuki
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kamiya
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi
+    title:
+    - content: Efficient XML Interchange (EXI) Format 1.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi/
+      type: src
+    docid:
+    - id: W3C exi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-exi-20110120
+    title:
+    - content: Efficient XML Interchange (EXI) Format 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-exi-20110120/
       type: src
@@ -64,28 +94,25 @@ relation:
     - id: W3C PR-exi-20110120
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-exi-20110120
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cexi-10-errata
+    id: W3CPER-exi-20131022
+    title:
+    - content: Efficient XML Interchange (EXI) Format 1.0 (Second Edition)
+      format: text/plain
     link:
-    - content: https://www.w3.org/XML/EXI/exi-10-errata
+    - content: https://www.w3.org/TR/2013/PER-exi-20131022/
       type: src
     docid:
-    - id: W3C exi-10-errata
+    - id: W3C PER-exi-20131022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C exi-10-errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-exi-20110310
 ext:
@@ -93,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

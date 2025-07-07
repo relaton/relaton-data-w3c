@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-event-timing-20230703/
   type: src
-- content: https://w3c.github.io/event-timing/
-  type: current
 type: standard
 docid:
 - id: W3C WD-event-timing-20230703
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nicolas Pena Moreno
+      given:
+        forename:
+        - content: Nicolas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pena Moreno
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tim Dresser
+      given:
+        forename:
+        - content: Tim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dresser
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cevent-timing
+    title:
+    - content: Event Timing API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/event-timing/
+      type: src
+    docid:
+    - id: W3C event-timing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-event-timing-20220524
+    title:
+    - content: Event Timing API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-event-timing-20220524/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-event-timing-20220524
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-event-timing-20220524
+- type: updatedBy
+  bibitem:
+    id: W3CWD-event-timing-20240819
+    title:
+    - content: Event Timing API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-event-timing-20240819/
+      type: src
+    docid:
+    - id: W3C WD-event-timing-20240819
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-event-timing-20230703
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Synchronized Multimedia Integration Language (SMIL 3.0)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/CR-SMIL3-20080115/
+- content: https://www.w3.org/TR/2008/CR-SMIL3-20080115/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dick Bulterman
+      given:
+        forename:
+        - content: Dick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bulterman
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL3
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL3/
+      type: src
+    docid:
+    - id: W3C SMIL3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-SMIL3-20070713
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-SMIL3-20070713/
+    - content: https://www.w3.org/TR/2007/WD-SMIL3-20070713/
       type: src
     docid:
     - id: W3C WD-SMIL3-20070713
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SMIL3-20070713
+- type: updatedBy
+  bibitem:
+    id: W3CPR-SMIL3-20081006
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/PR-SMIL3-20081006/
+      type: src
+    docid:
+    - id: W3C PR-SMIL3-20081006
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-SMIL3-20080115
 ext:
@@ -67,5 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Synchronized Multimedia Working Group
-  - name: Synchronized Multimedia Working Group
+  - name: SYMM Working Group

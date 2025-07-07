@@ -5,7 +5,7 @@ title:
 - content: XHTML-Print - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/xhtml-print
+- content: https://www.w3.org/TR/xhtml-print/
   type: src
 type: standard
 docid:
@@ -26,65 +26,101 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-xhtml-print-20030729
+    id: W3CSPSD-xhtml-print-20180327
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-xhtml-print-20030729
+    - content: https://www.w3.org/TR/2018/SPSD-xhtml-print-20180327/
       type: src
     docid:
-    - id: W3C WD-xhtml-print-20030729
+    - id: W3C SPSD-xhtml-print-20180327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-print-20030729
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-xhtml-print-20040120
+    id: W3CREC-xhtml-print-20101123
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/CR-xhtml-print-20040120
+    - content: https://www.w3.org/TR/2010/REC-xhtml-print-20101123/
       type: src
     docid:
-    - id: W3C CR-xhtml-print-20040120
+    - id: W3C REC-xhtml-print-20101123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xhtml-print-20040120
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CPR-xhtml-print-20060131
-    link:
-    - content: http://www.w3.org/TR/2006/PR-xhtml-print-20060131/
-      type: src
-    docid:
-    - id: W3C PR-xhtml-print-20060131
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-xhtml-print-20060131
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CPER-xhtml-print-20101007
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/PER-xhtml-print-20101007/
+    - content: https://www.w3.org/TR/2010/PER-xhtml-print-20101007/
       type: src
     docid:
     - id: W3C PER-xhtml-print-20101007
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xhtml-print-20101007
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xhtml-print-20060920
+    title:
+    - content: XHTML-Print
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/REC-xhtml-print-20060920/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-print-20060920
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xhtml-print-20060131
+    title:
+    - content: XHTML-Print
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/PR-xhtml-print-20060131/
+      type: src
+    docid:
+    - id: W3C PR-xhtml-print-20060131
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xhtml-print-20040120
+    title:
+    - content: XHTML-Print
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/CR-xhtml-print-20040120
+      type: src
+    docid:
+    - id: W3C CR-xhtml-print-20040120
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-print-20030729
+    title:
+    - content: XHTML-Print
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-xhtml-print-20030729
+      type: src
+    docid:
+    - id: W3C WD-xhtml-print-20030729
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xhtml-print
 ext:

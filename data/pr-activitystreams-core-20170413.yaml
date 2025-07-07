@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/PR-activitystreams-core-20170413/
   type: src
-- content: http://w3c.github.io/activitystreams/core/
-  type: current
 type: standard
 docid:
 - id: W3C PR-activitystreams-core-20170413
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Evan Prodromou
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snell
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Snell
+      given:
+        forename:
+        - content: Evan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prodromou
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitystreams-core
+    title:
+    - content: Activity Streams 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitystreams-core/
+      type: src
+    docid:
+    - id: W3C activitystreams-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-activitystreams-core-20161215
+    title:
+    - content: Activity Streams 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/CR-activitystreams-core-20161215/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-activitystreams-core-20161215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-activitystreams-core-20161215
+- type: updatedBy
+  bibitem:
+    id: W3CREC-activitystreams-core-20170523
+    title:
+    - content: Activity Streams 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-activitystreams-core-20170523/
+      type: src
+    docid:
+    - id: W3C REC-activitystreams-core-20170523
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-activitystreams-core-20170413
 ext:

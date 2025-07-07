@@ -6,7 +6,7 @@ title:
     (DFXP)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-ttaf1-dfxp-20050314/
+- content: https://www.w3.org/TR/2005/WD-ttaf1-dfxp-20050314/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -45,22 +52,53 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml1
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml1/
+      type: src
+    docid:
+    - id: W3C ttml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ttaf1-dfxp-20041101
+    title:
+    - content: Timed Text (TT) Authoring Format 1.0 – Distribution Format Exchange
+        Profile (DFXP)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-ttaf1-dfxp-20041101/
+    - content: https://www.w3.org/TR/2004/WD-ttaf1-dfxp-20041101/
       type: src
     docid:
     - id: W3C WD-ttaf1-dfxp-20041101
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ttaf1-dfxp-20041101
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ttaf1-dfxp-20050321
+    title:
+    - content: Timed Text (TT) Authoring Format 1.0 – Distribution Format Exchange
+        Profile (DFXP)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-ttaf1-dfxp-20050321/
+      type: src
+    docid:
+    - id: W3C WD-ttaf1-dfxp-20050321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ttaf1-dfxp-20050314
 ext:

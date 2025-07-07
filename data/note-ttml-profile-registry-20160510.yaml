@@ -5,10 +5,8 @@ title:
 - content: TTML Media Type Definition and Profile Registry
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/NOTE-ttml-profile-registry-20160510/
+- content: https://www.w3.org/TR/2016/NOTE-ttml-profile-registry-20160510/
   type: src
-- content: https://w3c.github.io/tt-profile-registry/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-ttml-profile-registry-20160510
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andreas Tai
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dolan
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike Dolan
+      given:
+        forename:
+        - content: Andreas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tai
         language:
         - en
         script:
@@ -52,9 +64,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml-profile-registry
+    title:
+    - content: TTML Media Type Definition and Profile Registry
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml-profile-registry/
+      type: src
+    docid:
+    - id: W3C ttml-profile-registry
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ttml-profile-registry-20161006
+    title:
+    - content: TTML Media Type Definition and Profile Registry
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-ttml-profile-registry-20161006/
+      type: src
+    docid:
+    - id: W3C NOTE-ttml-profile-registry-20161006
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ttml-profile-registry-20160510
 ext:

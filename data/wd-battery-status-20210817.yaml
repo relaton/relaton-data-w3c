@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-battery-status-20210817/
   type: src
-- content: https://w3c.github.io/battery/
-  type: current
 type: standard
 docid:
 - id: W3C WD-battery-status-20210817
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbattery-status
+    title:
+    - content: Battery Status API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/battery-status/
+      type: src
+    docid:
+    - id: W3C battery-status
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-battery-status-20210814
+    title:
+    - content: Battery Status API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-battery-status-20210814/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-battery-status-20210814
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-battery-status-20210814
+- type: updatedBy
+  bibitem:
+    id: W3CWD-battery-status-20210825
+    title:
+    - content: Battery Status API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-battery-status-20210825/
+      type: src
+    docid:
+    - id: W3C WD-battery-status-20210825
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-battery-status-20210817
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/CR-css-break-3-20170209/
   type: src
-- content: https://drafts.csswg.org/css-break/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-break-3-20170209
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rossen Atanassov
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-break-3
+    title:
+    - content: CSS Fragmentation Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-break-3/
+      type: src
+    docid:
+    - id: W3C css-break-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-break-3-20160114
+    title:
+    - content: CSS Fragmentation Module Level 3
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/CR-css-break-3-20160114/
+    - content: https://www.w3.org/TR/2016/CR-css-break-3-20160114/
       type: src
     docid:
     - id: W3C CR-css-break-3-20160114
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-break-3-20160114
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-break-3-20181204
+    title:
+    - content: CSS Fragmentation Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-css-break-3-20181204/
+      type: src
+    docid:
+    - id: W3C CR-css-break-3-20181204
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-break-3-20170209
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

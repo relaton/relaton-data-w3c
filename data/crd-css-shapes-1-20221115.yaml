@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/CRD-css-shapes-1-20221115/
   type: src
-- content: https://drafts.csswg.org/css-shapes/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-shapes-1-20221115
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alan Stearns
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rossen Atanassov
+      given:
+        forename:
+        - content: Alan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stearns
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-shapes-1
+    title:
+    - content: CSS Shapes Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-shapes-1/
+      type: src
+    docid:
+    - id: W3C css-shapes-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-shapes-1-20140320
+    title:
+    - content: CSS Shapes Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/CR-css-shapes-1-20140320/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-css-shapes-1-20140320
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-shapes-1-20140320
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-css-shapes-1-20250612
+    title:
+    - content: CSS Shapes Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-css-shapes-1-20250612/
+      type: src
+    docid:
+    - id: W3C CRD-css-shapes-1-20250612
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-shapes-1-20221115
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

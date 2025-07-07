@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-geor-gap-20220203/
   type: src
-- content: https://w3c.github.io/eurlreq/gap-analysis/geor-gap.html
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-geor-gap-20220203
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeor-gap
+    title:
+    - content: Georgian Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/geor-gap/
+      type: src
+    docid:
+    - id: W3C geor-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-geor-gap-20220125
+    title:
+    - content: Georgian Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-geor-gap-20220125/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C DNOTE-geor-gap-20220125
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-geor-gap-20220125
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-geor-gap-20220325
+    title:
+    - content: Georgian Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-geor-gap-20220325/
+      type: src
+    docid:
+    - id: W3C DNOTE-geor-gap-20220325
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-geor-gap-20220203
 ext:

@@ -5,7 +5,7 @@ title:
 - content: XHTML™ Basic 1.1 - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PER-xhtml-basic-20101007
+- content: https://www.w3.org/TR/2010/PER-xhtml-basic-20101007
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -46,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-xhtml-basic-20080729
+    id: W3Cxhtml-basic
+    title:
+    - content: XHTML™ Basic 1.1 - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/REC-xhtml-basic-20080729
+    - content: https://www.w3.org/TR/xhtml-basic/
       type: src
     docid:
-    - id: W3C REC-xhtml-basic-20080729
+    - id: W3C xhtml-basic
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-basic-20080729
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml-basic-20101123
+    title:
+    - content: XHTML™ Basic 1.1 - Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-xhtml-basic-20101123/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-basic-20101123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xhtml-basic-20101007
 ext:

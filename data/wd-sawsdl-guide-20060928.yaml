@@ -5,7 +5,7 @@ title:
 - content: Semantic Annotations for WSDL — Usage Guide
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-sawsdl-guide-20060928/
+- content: https://www.w3.org/TR/2006/WD-sawsdl-guide-20060928/
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Brahmananda Sapkota
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rama Akkiraju
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-09-28'
 language:
 - en
@@ -53,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csawsdl-guide
+    title:
+    - content: Semantic Annotations for WSDL and XML Schema — Usage Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sawsdl-guide/
+      type: src
+    docid:
+    - id: W3C sawsdl-guide
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sawsdl-guide-20070126
+    title:
+    - content: Semantic Annotations for WSDL and XML Schema — Usage Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-sawsdl-guide-20070126/
+      type: src
+    docid:
+    - id: W3C WD-sawsdl-guide-20070126
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sawsdl-guide-20060928
 ext:
@@ -63,4 +73,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Semantic Annotations for WSDL Working Group
+  - name: Semantic Annotations for Web Services Description Language Working Group

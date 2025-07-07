@@ -5,7 +5,7 @@ title:
 - content: HTML+RDFa 1.1 - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PER-html-rdfa-20141216/
+- content: https://www.w3.org/TR/2014/PER-html-rdfa-20141216/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -46,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-html-rdfa-20130822
+    id: W3Chtml-rdfa
+    title:
+    - content: HTML+RDFa 1.1 - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/REC-html-rdfa-20130822/
+    - content: https://www.w3.org/TR/html-rdfa/
       type: src
     docid:
-    - id: W3C REC-html-rdfa-20130822
+    - id: W3C html-rdfa
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-html-rdfa-20130822
+- type: updatedBy
+  bibitem:
+    id: W3CREC-html-rdfa-20150317
+    title:
+    - content: HTML+RDFa 1.1 - Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-html-rdfa-20150317/
+      type: src
+    docid:
+    - id: W3C REC-html-rdfa-20150317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-html-rdfa-20141216
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-payment-method-id-20170623/
   type: src
-- content: https://w3c.github.io/webpayments-method-identifiers/
-  type: current
 type: standard
 docid:
 - id: W3C WD-payment-method-id-20170623
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Zach
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koch
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Roy McElmurry
+      given:
+        forename:
+        - content: Roy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McElmurry
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zach Koch
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-method-id
+    title:
+    - content: Payment Method Identifiers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-method-id/
+      type: src
+    docid:
+    - id: W3C payment-method-id
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-payment-method-id-20170505
+    title:
+    - content: Payment Method Identifiers
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-payment-method-id-20170505/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-payment-method-id-20170505
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-payment-method-id-20170505
+- type: updatedBy
+  bibitem:
+    id: W3CWD-payment-method-id-20170726
+    title:
+    - content: Payment Method Identifiers
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-payment-method-id-20170726/
+      type: src
+    docid:
+    - id: W3C WD-payment-method-id-20170726
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-payment-method-id-20170623
 ext:

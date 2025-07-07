@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/NOTE-webcrypto-key-discovery-20160329/
   type: src
-- content: https://dvcs.w3.org/hg/webcrypto-keydiscovery/raw-file/tip/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-webcrypto-key-discovery-20160329
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcrypto-key-discovery
+    title:
+    - content: WebCrypto Key Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcrypto-key-discovery/
+      type: src
+    docid:
+    - id: W3C webcrypto-key-discovery
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webcrypto-key-discovery-20130822
+    title:
+    - content: WebCrypto Key Discovery
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-webcrypto-key-discovery-20130822/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-webcrypto-key-discovery-20130822
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webcrypto-key-discovery-20130822
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-webcrypto-key-discovery-20160329
 ext:

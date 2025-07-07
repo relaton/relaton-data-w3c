@@ -5,7 +5,7 @@ title:
 - content: Semantic Interpretation for Speech Recognition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-semantic-interpretation-20041108/
+- content: https://www.w3.org/TR/2004/WD-semantic-interpretation-20041108/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Luc Van Tichelen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-11-08'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csemantic-interpretation
+    title:
+    - content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/semantic-interpretation/
+      type: src
+    docid:
+    - id: W3C semantic-interpretation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-semantic-interpretation-20030401
+    title:
+    - content: Semantic Interpretation for Speech Recognition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-semantic-interpretation-20030401/
+    - content: https://www.w3.org/TR/2003/WD-semantic-interpretation-20030401/
       type: src
     docid:
     - id: W3C WD-semantic-interpretation-20030401
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-semantic-interpretation-20030401
+- type: updatedBy
+  bibitem:
+    id: W3CCR-semantic-interpretation-20060111
+    title:
+    - content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/CR-semantic-interpretation-20060111/
+      type: src
+    docid:
+    - id: W3C CR-semantic-interpretation-20060111
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-semantic-interpretation-20041108
 ext:

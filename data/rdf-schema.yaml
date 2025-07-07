@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Crdf-schema
 title:
-- content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+- content: RDF Schema 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/rdf-schema
+- content: https://www.w3.org/TR/rdf-schema/
   type: src
 type: standard
 docid:
@@ -26,65 +26,127 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-schema-20021112
+    id: W3CREC-rdf-schema-20140225
+    title:
+    - content: RDF Schema 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-rdf-schema-20021112/
+    - content: https://www.w3.org/TR/2014/REC-rdf-schema-20140225/
       type: src
     docid:
-    - id: W3C WD-rdf-schema-20021112
+    - id: W3C REC-rdf-schema-20140225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-schema-20021112
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-schema-20030123
+    id: W3CPER-rdf-schema-20140109
+    title:
+    - content: RDF Schema 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-schema-20030123/
+    - content: https://www.w3.org/TR/2014/PER-rdf-schema-20140109/
       type: src
     docid:
-    - id: W3C WD-rdf-schema-20030123
+    - id: W3C PER-rdf-schema-20140109
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-schema-20030123
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-schema-20030905
+    id: W3CREC-rdf-schema-20040210
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-schema-20030905/
+    - content: https://www.w3.org/TR/2004/REC-rdf-schema-20040210/
       type: src
     docid:
-    - id: W3C WD-rdf-schema-20030905
+    - id: W3C REC-rdf-schema-20040210
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-schema-20030905
+- type: hasEdition
+  bibitem:
+    id: W3CPR-rdf-schema-20031215
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2003/PR-rdf-schema-20031215/
+      type: src
+    docid:
+    - id: W3C PR-rdf-schema-20031215
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-rdf-schema-20031010
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-schema-20031010/
+    - content: https://www.w3.org/TR/2003/WD-rdf-schema-20031010/
       type: src
     docid:
     - id: W3C WD-rdf-schema-20031010
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-schema-20031010
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-schema-20030905
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-schema-20030905/
+      type: src
+    docid:
+    - id: W3C WD-rdf-schema-20030905
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-schema-20030123
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-schema-20030123/
+      type: src
+    docid:
+    - id: W3C WD-rdf-schema-20030123
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-schema-20021112
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-rdf-schema-20021112/
+      type: src
+    docid:
+    - id: W3C WD-rdf-schema-20021112
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-schema-20020430
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-rdf-schema-20020430/
+      type: src
+    docid:
+    - id: W3C WD-rdf-schema-20020430
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: rdf-schema
 ext:

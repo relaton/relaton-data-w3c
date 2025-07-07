@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glen Daniels
+      given:
+        forename:
+        - content: Highland Mary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mountain
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Highland Mary Mountain
+      given:
+        forename:
+        - content: Jacek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kopecky
         language:
         - en
         script:
@@ -47,28 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jacek Kopecky
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stuart Williams
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -80,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-email
+    title:
+    - content: SOAP Version 1.2 Email Binding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-email/
+      type: src
+    docid:
+    - id: W3C soap12-email
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-soap12-email-20020626
+    title:
+    - content: SOAP Version 1.2 Email Binding
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
       type: src
@@ -91,12 +111,9 @@ relation:
     - id: W3C NOTE-soap12-email-20020626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-soap12-email-20020626
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-soap12-email-20020703
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-viss2-transport-20210729/
   type: src
-- content: https://github.com/w3c/automotive/blob/gh-pages/spec/VISSv2_Transport.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-viss2-transport-20210729
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Lünnemann
+      given:
+        forename:
+        - content: Ulf
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bjorkengren
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ulf Bjorkengren
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lünnemann
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cviss2-transport
+    title:
+    - content: VISS version 2-Transport
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/viss2-transport/
+      type: src
+    docid:
+    - id: W3C viss2-transport
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-viss2-transport-20220311
+    title:
+    - content: VISS version 2-Transport
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-viss2-transport-20220311/
+      type: src
+    docid:
+    - id: W3C WD-viss2-transport-20220311
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-viss2-transport-20210729
 ext:

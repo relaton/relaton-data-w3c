@@ -5,7 +5,7 @@ title:
 - content: The Organization Ontology
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-vocab-org-20131217/
+- content: https://www.w3.org/TR/2013/PR-vocab-org-20131217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Reynolds
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reynolds
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-org
+    title:
+    - content: The Organization Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-org/
+      type: src
+    docid:
+    - id: W3C vocab-org
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-vocab-org-20130625
+    title:
+    - content: The Organization Ontology
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-vocab-org-20130625/
+    - content: https://www.w3.org/TR/2013/CR-vocab-org-20130625/
       type: src
     docid:
     - id: W3C CR-vocab-org-20130625
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-vocab-org-20130625
+- type: updatedBy
+  bibitem:
+    id: W3CREC-vocab-org-20140116
+    title:
+    - content: The Organization Ontology
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-vocab-org-20140116/
+      type: src
+    docid:
+    - id: W3C REC-vocab-org-20140116
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-vocab-org-20131217
 ext:

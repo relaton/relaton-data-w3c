@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-css-multicol-1-20191015/
   type: src
-- content: https://drafts.csswg.org/css-multicol/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-multicol-1-20191015
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rachel Andrew
+      given:
+        forename:
+        - content: Rachel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andrew
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-multicol-1
+    title:
+    - content: CSS Multi-column Layout Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-multicol-1/
+      type: src
+    docid:
+    - id: W3C css-multicol-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-multicol-1-20180528
+    title:
+    - content: CSS Multi-column Layout Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-css-multicol-1-20180528/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-css-multicol-1-20180528
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-multicol-1-20180528
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-multicol-1-20210212
+    title:
+    - content: CSS Multi-column Layout Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-css-multicol-1-20210212/
+      type: src
+    docid:
+    - id: W3C WD-css-multicol-1-20210212
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-multicol-1-20191015
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

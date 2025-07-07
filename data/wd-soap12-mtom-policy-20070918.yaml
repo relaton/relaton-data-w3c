@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christopher Ferris
+      given:
+        forename:
+        - content: Christopher
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ferris
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -52,10 +66,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-mtom-policy
+    title:
+    - content: MTOM Serialization Policy Assertion 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-mtom-policy/
+      type: src
+    docid:
+    - id: W3C soap12-mtom-policy
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-soap12-mtom-policy-20070918
 ext:

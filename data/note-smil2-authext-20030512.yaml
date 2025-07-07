@@ -6,7 +6,7 @@ title:
     Investigation
   format: text/plain
 link:
-- content: http://www.w3.org//TR/2003/NOTE-SMIL2-AuthExt-20030512/
+- content: https://www.w3.org/TR/2003/NOTE-SMIL2-AuthExt-20030512/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Yoshihisa Gonno
+      given:
+        forename:
+        - content: Yoshihisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gonno
         language:
         - en
         script:
@@ -41,10 +48,32 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL2-AuthExt
+    title:
+    - content: SMIL 2.0 Extension for Professional Multimedia Authoring - Preliminary
+        Investigation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL2-AuthExt/
+      type: src
+    docid:
+    - id: W3C SMIL2-AuthExt
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-SMIL2-AuthExt-20030512
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -5,10 +5,8 @@ title:
 - content: The Permissions API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-permissions-20150407/
+- content: https://www.w3.org/TR/2015/WD-permissions-20150407/
   type: src
-- content: https://w3c.github.io/permissions/
-  type: current
 type: standard
 docid:
 - id: W3C WD-permissions-20150407
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpermissions
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/permissions/
+      type: src
+    docid:
+    - id: W3C permissions
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-permissions-20170925
+    title:
+    - content: Permissions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-permissions-20170925/
+      type: src
+    docid:
+    - id: W3C WD-permissions-20170925
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-permissions-20150407
 ext:

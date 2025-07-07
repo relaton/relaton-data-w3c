@@ -5,7 +5,7 @@ title:
 - content: A Direct Mapping of Relational Data to RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-rdb-direct-mapping-20110324/
+- content: https://www.w3.org/TR/2011/WD-rdb-direct-mapping-20110324/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Juan Sequeda
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marcelo Arenas
+      given:
+        forename:
+        - content: Marcelo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arenas
         language:
         - en
         script:
@@ -64,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdb-direct-mapping
+    title:
+    - content: A Direct Mapping of Relational Data to RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdb-direct-mapping/
+      type: src
+    docid:
+    - id: W3C rdb-direct-mapping
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdb-direct-mapping-20101118
+    title:
+    - content: A Direct Mapping of Relational Data to RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-rdb-direct-mapping-20101118/
+    - content: https://www.w3.org/TR/2010/WD-rdb-direct-mapping-20101118/
       type: src
     docid:
     - id: W3C WD-rdb-direct-mapping-20101118
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdb-direct-mapping-20101118
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdb-direct-mapping-20110920
+    title:
+    - content: A Direct Mapping of Relational Data to RDF
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-rdb-direct-mapping-20110920/
+      type: src
+    docid:
+    - id: W3C WD-rdb-direct-mapping-20110920
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdb-direct-mapping-20110324
 ext:

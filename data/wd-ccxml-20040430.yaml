@@ -5,7 +5,7 @@ title:
 - content: 'Voice Browser Call Control: CCXML Version 1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-ccxml-20040430/
+- content: https://www.w3.org/TR/2004/WD-ccxml-20040430/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: RJ Auburn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-04-30'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cccxml
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ccxml/
+      type: src
+    docid:
+    - id: W3C ccxml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ccxml-20030612
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-ccxml-20030612/
+    - content: https://www.w3.org/TR/2003/WD-ccxml-20030612/
       type: src
     docid:
     - id: W3C WD-ccxml-20030612
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ccxml-20030612
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ccxml-20050111
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-ccxml-20050111/
+      type: src
+    docid:
+    - id: W3C WD-ccxml-20050111
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-ccxml-20040430
 ext:

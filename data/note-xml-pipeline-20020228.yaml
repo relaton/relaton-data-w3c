@@ -5,7 +5,7 @@ title:
 - content: XML Pipeline Definition Language Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/NOTE-xml-pipeline-20020228/
+- content: https://www.w3.org/TR/2002/NOTE-xml-pipeline-20020228/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eve Maler
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Eve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maler
         language:
         - en
         script:
@@ -50,12 +64,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-pipeline
+    title:
+    - content: XML Pipeline Definition Language Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-pipeline/
+      type: src
+    docid:
+    - id: W3C xml-pipeline
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml-pipeline-20020228
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

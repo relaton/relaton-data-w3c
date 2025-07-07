@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3CREC-MathML
 title:
-- content: Mathematical Markup Language (MathML) 1.01 Specification
+- content: Mathematical Markup Language (MathML™) 1.01 Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/REC-MathML
+- content: https://www.w3.org/TR/REC-MathML/
   type: src
 type: standard
 docid:
@@ -26,39 +26,101 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CSPSD-MathML-20230307
+    title:
+    - content: Mathematical Markup Language (MathML™) 1.01 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/SPSD-MathML-20230307/
+      type: src
+    docid:
+    - id: W3C SPSD-MathML-20230307
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CREC-MathML-19990707
+    title:
+    - content: Mathematical Markup Language (MathML) 1.01 Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/1999/07/REC-MathML-19990707
+    - content: https://www.w3.org/1999/07/REC-MathML-19990707/
       type: src
     docid:
     - id: W3C REC-MathML-19990707
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-MathML-19990707
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CREC-MathML-19980407
+    title:
+    - content: Mathematical Markup Language (MathML) 1.0 Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/1998/REC-MathML-19980407
+    - content: https://www.w3.org/TR/1998/REC-MathML-19980407/
       type: src
     docid:
     - id: W3C REC-MathML-19980407
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-MathML-19980407
+- type: hasEdition
+  bibitem:
+    id: W3CPR-math-19980224
+    title:
+    - content: Mathematical Markup Language (MathML) 1.0 Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/PR-math-19980224
+      type: src
+    docid:
+    - id: W3C PR-math-19980224
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-math-980106
+    title:
+    - content: Mathematical Markup Language (MathML) 1.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-math-980106
+      type: src
+    docid:
+    - id: W3C WD-math-980106
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-math-970710
+    title:
+    - content: Mathematical Markup Language (MathML) 1.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-math-970710
+      type: src
+    docid:
+    - id: W3C WD-math-970710
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-math-970515
+    title:
+    - content: Mathematical Markup Language (MathML) 1.0 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-math-970515
+      type: src
+    docid:
+    - id: W3C WD-math-970515
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: REC-MathML
 ext:

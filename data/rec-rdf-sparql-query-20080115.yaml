@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/
   type: src
-- content: https://w3c.github.io/sparql-query/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-rdf-sparql-query-20080115
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-sparql-query
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-sparql-query/
+      type: src
+    docid:
+    - id: W3C rdf-sparql-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-rdf-sparql-query-20071112
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/PR-rdf-sparql-query-20071112/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-rdf-sparql-query-20071112
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rdf-sparql-query-20071112
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cquery-errata
-    link:
-    - content: https://www.w3.org/2001/sw/DataAccess/query-errata
-      type: src
-    docid:
-    - id: W3C query-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C query-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rdf-sparql-query-20080115
 ext:

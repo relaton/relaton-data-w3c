@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/NOTE-shadow-dom-20180301/
   type: src
-- content: https://w3c.github.io/webcomponents/spec/shadow/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-shadow-dom-20180301
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hayato Ito
+      given:
+        forename:
+        - content: Hayato
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ito
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshadow-dom
+    title:
+    - content: Shadow DOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shadow-dom/
+      type: src
+    docid:
+    - id: W3C shadow-dom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-shadow-dom-20170905
+    title:
+    - content: Shadow DOM
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-shadow-dom-20170905/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-shadow-dom-20170905
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-shadow-dom-20170905
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-shadow-dom-20180301
 ext:
@@ -66,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccharmod-resid
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/charmod-resid/
+      type: src
+    docid:
+    - id: W3C charmod-resid
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-charmod-resid-20041122
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/CR-charmod-resid-20041122/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C CR-charmod-resid-20041122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-charmod-resid-20041122
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-charmod-resid-20190502
 ext:

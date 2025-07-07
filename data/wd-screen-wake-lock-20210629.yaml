@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-screen-wake-lock-20210629/
   type: src
-- content: https://w3c.github.io/screen-wake-lock/
-  type: current
 type: standard
 docid:
 - id: W3C WD-screen-wake-lock-20210629
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrey Logvinov
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Bogdanovich
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Raphael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kubo da Costa
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bogdanovich
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Raphael Kubo da Costa
+      given:
+        forename:
+        - content: Andrey
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Logvinov
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-wake-lock
+    title:
+    - content: Screen Wake Lock API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-wake-lock/
+      type: src
+    docid:
+    - id: W3C screen-wake-lock
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-screen-wake-lock-20210624
+    title:
+    - content: Screen Wake Lock API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-screen-wake-lock-20210624/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C WD-screen-wake-lock-20210624
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-screen-wake-lock-20210624
+- type: updatedBy
+  bibitem:
+    id: W3CWD-screen-wake-lock-20210826
+    title:
+    - content: Screen Wake Lock API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-screen-wake-lock-20210826/
+      type: src
+    docid:
+    - id: W3C WD-screen-wake-lock-20210826
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-screen-wake-lock-20210629
 ext:

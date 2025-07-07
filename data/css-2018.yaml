@@ -29,20 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-css-2018-20181115
-    link:
-    - content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
-      type: src
-    docid:
-    - id: W3C NOTE-css-2018-20181115
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-css-2018-20181115
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-css-2018-20190122
+    title:
+    - content: CSS Snapshot 2018
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/NOTE-css-2018-20190122/
       type: src
@@ -50,12 +40,22 @@ relation:
     - id: W3C NOTE-css-2018-20190122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-css-2018-20190122
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-css-2018-20181115
+    title:
+    - content: CSS Snapshot 2018
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
+      type: src
+    docid:
+    - id: W3C NOTE-css-2018-20181115
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: css-2018
 ext:

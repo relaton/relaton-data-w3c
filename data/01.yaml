@@ -5,7 +5,7 @@ title:
 - content: 'Editing the Web: Detecting the Lost Update Problem Using Unreserved Checkout'
   format: text/plain
 link:
-- content: http://www.w3.org/1999/04/Editing/01
+- content: https://www.w3.org/1999/04/Editing/01
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel LaLiberte
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henrik Frystyk Nielsen
+      given:
+        forename:
+        - content: Henrik Frystyk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
         language:
         - en
         script:
@@ -50,10 +47,30 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CEditing
+    title:
+    - content: 'Editing the Web: Detecting the Lost Update Problem Using Unreserved
+        Checkout'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/1999/04/Editing/
+      type: src
+    docid:
+    - id: W3C Editing
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: '01'
 ext:
   schema-version: v1.0.0
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

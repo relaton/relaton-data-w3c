@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Scott Boag
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boag
         language:
         - en
         script:
@@ -42,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-xpath-parsing
+    title:
+    - content: Building a Tokenizer for XPath or XQuery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-xpath-parsing/
+      type: src
+    docid:
+    - id: W3C xquery-xpath-parsing
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xquery-xpath-parsing-20050404
 ext:
@@ -53,5 +74,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

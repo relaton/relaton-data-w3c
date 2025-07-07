@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/NOTE-PFE-evaluation-20201015/
   type: src
-- content: https://w3c.github.io/PFE-analysis/report/evaluation-report.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-PFE-evaluation-20201015
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -42,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CPFE-evaluation
+    title:
+    - content: 'Progressive Font Enrichment: Evaluation Report'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/PFE-evaluation/
+      type: src
+    docid:
+    - id: W3C PFE-evaluation
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-PFE-evaluation-20201015
 ext:

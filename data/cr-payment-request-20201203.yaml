@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CR-payment-request-20201203/
   type: src
-- content: https://w3c.github.io/payment-request/
-  type: current
 type: standard
 docid:
 - id: W3C CR-payment-request-20201203
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Danyao Wang
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Danyao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Rouslan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Solomakhin
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rouslan Solomakhin
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-request
+    title:
+    - content: Payment Request API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-request/
+      type: src
+    docid:
+    - id: W3C payment-request
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-payment-request-20191212
+    title:
+    - content: Payment Request API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/CR-payment-request-20191212/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CR-payment-request-20191212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-payment-request-20191212
+- type: updatedBy
+  bibitem:
+    id: W3CCR-payment-request-20210629
+    title:
+    - content: Payment Request API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CR-payment-request-20210629/
+      type: src
+    docid:
+    - id: W3C CR-payment-request-20210629
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-payment-request-20201203
 ext:

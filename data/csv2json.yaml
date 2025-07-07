@@ -5,7 +5,7 @@ title:
 - content: Generating JSON from Tabular Data on the Web
   format: text/plain
 link:
-- content: http://www.w3.org/TR/csv2json/
+- content: https://www.w3.org/TR/csv2json/
   type: src
 type: standard
 docid:
@@ -26,65 +26,75 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-csv2json-20150108
+    id: W3CREC-csv2json-20151217
+    title:
+    - content: Generating JSON from Tabular Data on the Web
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-csv2json-20150108/
+    - content: https://www.w3.org/TR/2015/REC-csv2json-20151217/
       type: src
     docid:
-    - id: W3C WD-csv2json-20150108
+    - id: W3C REC-csv2json-20151217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-csv2json-20150108
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CWD-csv2json-20150416
-    link:
-    - content: http://www.w3.org/TR/2015/WD-csv2json-20150416/
-      type: src
-    docid:
-    - id: W3C WD-csv2json-20150416
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-csv2json-20150416
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-csv2json-20150716
-    link:
-    - content: http://www.w3.org/TR/2015/CR-csv2json-20150716/
-      type: src
-    docid:
-    - id: W3C CR-csv2json-20150716
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-csv2json-20150716
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CPR-csv2json-20151117
+    title:
+    - content: Generating JSON from Tabular Data on the Web
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/PR-csv2json-20151117/
+    - content: https://www.w3.org/TR/2015/PR-csv2json-20151117/
       type: src
     docid:
     - id: W3C PR-csv2json-20151117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-csv2json-20151117
+- type: hasEdition
+  bibitem:
+    id: W3CCR-csv2json-20150716
+    title:
+    - content: Generating JSON from Tabular Data on the Web
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/CR-csv2json-20150716/
+      type: src
+    docid:
+    - id: W3C CR-csv2json-20150716
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-csv2json-20150416
+    title:
+    - content: Generating JSON from Tabular Data on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-csv2json-20150416/
+      type: src
+    docid:
+    - id: W3C WD-csv2json-20150416
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-csv2json-20150108
+    title:
+    - content: Generating JSON from Tabular Data on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-csv2json-20150108/
+      type: src
+    docid:
+    - id: W3C WD-csv2json-20150108
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: csv2json
 ext:

@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Overview
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PR-sparql11-overview-20121108/
+- content: https://www.w3.org/TR/2012/PR-sparql11-overview-20121108/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: The W3C SPARQL Working Group
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2012-11-08'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-overview
+    title:
+    - content: SPARQL 1.1 Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-overview/
+      type: src
+    docid:
+    - id: W3C sparql11-overview
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql11-overview-20120501
+    title:
+    - content: SPARQL 1.1 Overview
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-sparql11-overview-20120501/
+    - content: https://www.w3.org/TR/2012/WD-sparql11-overview-20120501/
       type: src
     docid:
     - id: W3C WD-sparql11-overview-20120501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql11-overview-20120501
+- type: updatedBy
+  bibitem:
+    id: W3CREC-sparql11-overview-20130321
+    title:
+    - content: SPARQL 1.1 Overview
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-sparql11-overview-20130321/
+      type: src
+    docid:
+    - id: W3C REC-sparql11-overview-20130321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-sparql11-overview-20121108
 ext:

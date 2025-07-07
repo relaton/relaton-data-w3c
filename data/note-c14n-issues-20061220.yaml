@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: José Kahan
+      given:
+        forename:
+        - content: José
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kahan
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Konrad Lanz
+      given:
+        forename:
+        - content: Konrad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanz
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CC14N-issues
+    title:
+    - content: Known Issues with Canonical XML 1.0 (C14N/1.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/C14N-issues/
+      type: src
+    docid:
+    - id: W3C C14N-issues
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-C14N-issues-20060915
+    title:
+    - content: Known Issues with Canonical XML 1.0 (C14N/1.0)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-C14N-issues-20060915/
       type: src
@@ -61,12 +94,9 @@ relation:
     - id: W3C WD-C14N-issues-20060915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-C14N-issues-20060915
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-C14N-issues-20061220
 ext:

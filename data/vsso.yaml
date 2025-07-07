@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-vsso-20220303
-    link:
-    - content: https://www.w3.org/TR/2022/WD-vsso-20220303/
-      type: src
-    docid:
-    - id: W3C WD-vsso-20220303
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vsso-20220303
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CDISC-vsso-20240222
+    title:
+    - content: 'VSSo: Vehicle Signal Specification Ontology'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/DISC-vsso-20240222/
       type: src
@@ -53,12 +40,22 @@ relation:
     - id: W3C DISC-vsso-20240222
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DISC-vsso-20240222
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vsso-20220303
+    title:
+    - content: 'VSSo: Vehicle Signal Specification Ontology'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-vsso-20220303/
+      type: src
+    docid:
+    - id: W3C WD-vsso-20220303
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: vsso
 ext:

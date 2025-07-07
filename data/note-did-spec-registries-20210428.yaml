@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210428/
   type: src
-- content: https://w3c.github.io/did-spec-registries/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-did-spec-registries-20210428
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Orie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steele
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Orie Steele
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdid-extensions
+    title:
+    - content: Decentralized Identifier Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/did-extensions/
+      type: src
+    docid:
+    - id: W3C did-extensions
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-did-spec-registries-20210427
+    title:
+    - content: DID Specification Registries
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210427/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C NOTE-did-spec-registries-20210427
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-did-spec-registries-20210427
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-did-spec-registries-20210504
+    title:
+    - content: DID Specification Registries
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210504/
+      type: src
+    docid:
+    - id: W3C NOTE-did-spec-registries-20210504
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-did-spec-registries-20210428
 ext:

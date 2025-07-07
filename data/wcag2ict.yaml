@@ -28,9 +28,13 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-wcag2ict-20130905
+    title:
+    - content: Guidance on Applying WCAG 2.0 to Non-Web Information and Communications
+        Technologies (WCAG2ICT)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/
       type: src
@@ -38,12 +42,50 @@ relation:
     - id: W3C NOTE-wcag2ict-20130905
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-wcag2ict-20130905
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag2ict-20130711
+    title:
+    - content: Guidance on Applying WCAG 2.0 to Non-Web Information and Communications
+        Technologies (WCAG2ICT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-wcag2ict-20130711/
+      type: src
+    docid:
+    - id: W3C WD-wcag2ict-20130711
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag2ict-20121213
+    title:
+    - content: Guidance on Applying WCAG 2.0 to Non-Web Information and Communications
+        Technologies
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-wcag2ict-20121213/
+      type: src
+    docid:
+    - id: W3C WD-wcag2ict-20121213
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag2ict-20120727
+    title:
+    - content: Applying WCAG 2.0 to Non-Web Information and Communications Technologies
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-wcag2ict-20120727/
+      type: src
+    docid:
+    - id: W3C WD-wcag2ict-20120727
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: wcag2ict
 ext:

@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andreas Kellner
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Dave Raggett
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raggett
         language:
         - en
         script:
@@ -52,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cngram-spec
+    title:
+    - content: Stochastic Language Models (N-Gram) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ngram-spec/
+      type: src
+    docid:
+    - id: W3C ngram-spec
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-ngram-spec-20010103
 ext:

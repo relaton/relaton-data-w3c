@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Martin Dürst
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dürst
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccharreq
+    title:
+    - content: Requirements for String Identity Matching and String Indexing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/charreq/
+      type: src
+    docid:
+    - id: W3C charreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-charreq-19980710
+    title:
+    - content: Requirements for String Identity Matching and String Indexing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1998/WD-charreq-19980710
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-charreq-19980710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-charreq-19980710
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-charreq-20090915
 ext:

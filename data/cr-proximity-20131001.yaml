@@ -5,10 +5,8 @@ title:
 - content: Proximity Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-proximity-20131001/
+- content: https://www.w3.org/TR/2013/CR-proximity-20131001/
   type: src
-- content: http://dvcs.w3.org/hg/dap/raw-file/default/proximity/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-proximity-20131001
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dzung Tran
+      given:
+        forename:
+        - content: Dzung
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tran
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cproximity
+    title:
+    - content: Proximity Sensor
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/proximity/
+      type: src
+    docid:
+    - id: W3C proximity
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-proximity-20121206
+    title:
+    - content: Proximity Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-proximity-20121206/
+    - content: https://www.w3.org/TR/2012/WD-proximity-20121206/
       type: src
     docid:
     - id: W3C WD-proximity-20121206
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-proximity-20121206
+- type: updatedBy
+  bibitem:
+    id: W3CWD-proximity-20150903
+    title:
+    - content: Proximity Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-proximity-20150903/
+      type: src
+    docid:
+    - id: W3C WD-proximity-20150903
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-proximity-20131001
 ext:

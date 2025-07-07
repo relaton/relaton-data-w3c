@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-IndexedDB-3-20210311/
   type: src
-- content: https://w3c.github.io/IndexedDB/
-  type: current
 type: standard
 docid:
 - id: W3C WD-IndexedDB-3-20210311
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ali Alabbas
+      given:
+        forename:
+        - content: Ali
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alabbas
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshua Bell
+      given:
+        forename:
+        - content: Joshua
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bell
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CIndexedDB-3
+    title:
+    - content: Indexed Database API 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/IndexedDB-3/
+      type: src
+    docid:
+    - id: W3C IndexedDB-3
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-IndexedDB-3-20210618
+    title:
+    - content: Indexed Database API 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-IndexedDB-3-20210618/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-3-20210618
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-IndexedDB-3-20210311
 ext:

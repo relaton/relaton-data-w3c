@@ -5,10 +5,8 @@ title:
 - content: Upgrade Insecure Requests
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150226/
+- content: https://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150226/
   type: src
-- content: https://w3c.github.io/webappsec/specs/upgrade/
-  type: current
 type: standard
 docid:
 - id: W3C WD-upgrade-insecure-requests-20150226
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cupgrade-insecure-requests
+    title:
+    - content: Upgrade Insecure Requests
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/upgrade-insecure-requests/
+      type: src
+    docid:
+    - id: W3C upgrade-insecure-requests
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-upgrade-insecure-requests-20150424
+    title:
+    - content: Upgrade Insecure Requests
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150424/
+      type: src
+    docid:
+    - id: W3C WD-upgrade-insecure-requests-20150424
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-upgrade-insecure-requests-20150226
 ext:

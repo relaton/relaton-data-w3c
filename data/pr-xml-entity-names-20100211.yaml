@@ -5,7 +5,7 @@ title:
 - content: XML Entity Definitions for Characters
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PR-xml-entity-names-20100211/
+- content: https://www.w3.org/TR/2010/PR-xml-entity-names-20100211/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Ion
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-entity-names
+    title:
+    - content: XML Entity Definitions for Characters (3rd Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-entity-names/
+      type: src
+    docid:
+    - id: W3C xml-entity-names
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-entity-names-20091117
+    title:
+    - content: XML Entity definitions for Characters
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-xml-entity-names-20091117/
+    - content: https://www.w3.org/TR/2009/WD-xml-entity-names-20091117/
       type: src
     docid:
     - id: W3C WD-xml-entity-names-20091117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-entity-names-20091117
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xml-entity-names-20100401
+    title:
+    - content: XML Entity Definitions for Characters
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-xml-entity-names-20100401/
+      type: src
+    docid:
+    - id: W3C REC-xml-entity-names-20100401
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xml-entity-names-20100211
 ext:

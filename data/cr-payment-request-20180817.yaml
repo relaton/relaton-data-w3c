@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-payment-request-20180817/
   type: src
-- content: https://w3c.github.io/payment-request/
-  type: current
 type: standard
 docid:
 - id: W3C CR-payment-request-20180817
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Domenic Denicola
+      given:
+        forename:
+        - content: Zach
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koch
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Roy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McElmurry
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Roy McElmurry
+      given:
+        forename:
+        - content: Domenic
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Denicola
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zach Koch
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -84,11 +117,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-request
+    title:
+    - content: Payment Request API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-request/
+      type: src
+    docid:
+    - id: W3C payment-request
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-payment-request-20180810
+    title:
+    - content: Payment Request API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-payment-request-20180810/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C CR-payment-request-20180810
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-payment-request-20180810
+- type: updatedBy
+  bibitem:
+    id: W3CCR-payment-request-20180820
+    title:
+    - content: Payment Request API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-payment-request-20180820/
+      type: src
+    docid:
+    - id: W3C CR-payment-request-20180820
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-payment-request-20180817
 ext:

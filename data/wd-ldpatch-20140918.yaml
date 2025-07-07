@@ -5,7 +5,7 @@ title:
 - content: Linked Data Patch Format
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-ldpatch-20140918/
+- content: https://www.w3.org/TR/2014/WD-ldpatch-20140918/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexandre Bertails
+      given:
+        forename:
+        - content: Alexandre
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bertails
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrei Sambra
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Andrei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sambra
         language:
         - en
         script:
@@ -62,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldpatch
+    title:
+    - content: Linked Data Patch Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldpatch/
+      type: src
+    docid:
+    - id: W3C ldpatch
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-ldpatch-20150303
+    title:
+    - content: Linked Data Patch Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/CR-ldpatch-20150303/
+      type: src
+    docid:
+    - id: W3C CR-ldpatch-20150303
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-ldpatch-20140918
 ext:
@@ -73,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

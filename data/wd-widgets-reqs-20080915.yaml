@@ -5,7 +5,7 @@ title:
 - content: 'Widgets 1.0: Requirements'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-widgets-reqs-20080915/
+- content: https://www.w3.org/TR/2008/WD-widgets-reqs-20080915/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-reqs
+    title:
+    - content: Requirement For Standardizing Widgets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-reqs/
+      type: src
+    docid:
+    - id: W3C widgets-reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-widgets-reqs-20080625
+    title:
+    - content: 'Widgets 1.0: Requirements'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-widgets-reqs-20080625/
+    - content: https://www.w3.org/TR/2008/WD-widgets-reqs-20080625/
       type: src
     docid:
     - id: W3C WD-widgets-reqs-20080625
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-widgets-reqs-20080625
+- type: updatedBy
+  bibitem:
+    id: W3CWD-widgets-reqs-20090430
+    title:
+    - content: 'Widgets 1.0: Requirements'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-reqs-20090430/
+      type: src
+    docid:
+    - id: W3C WD-widgets-reqs-20090430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-widgets-reqs-20080915
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

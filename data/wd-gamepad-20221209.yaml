@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-gamepad-20221209/
   type: src
-- content: https://w3c.github.io/gamepad/
-  type: current
 type: standard
 docid:
 - id: W3C WD-gamepad-20221209
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Hollyer
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Agoston
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthew Reynolds
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hollyer
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Agoston
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reynolds
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgamepad
+    title:
+    - content: Gamepad
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/gamepad/
+      type: src
+    docid:
+    - id: W3C gamepad
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-gamepad-20221003
+    title:
+    - content: Gamepad
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-gamepad-20221003/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-gamepad-20221003
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-gamepad-20221003
+- type: updatedBy
+  bibitem:
+    id: W3CWD-gamepad-20230210
+    title:
+    - content: Gamepad
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-gamepad-20230210/
+      type: src
+    docid:
+    - id: W3C WD-gamepad-20230210
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-gamepad-20221209
 ext:

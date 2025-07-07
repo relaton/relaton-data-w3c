@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Giuseppe Pascale
+      given:
+        forename:
+        - content: Giuseppe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pascale
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chnreq
+    title:
+    - content: Requirements for Home Networking Scenarios
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hnreq/
+      type: src
+    docid:
+    - id: W3C hnreq
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-hnreq-20111201
 ext:
@@ -50,5 +74,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Media and Entertainment Interest Group
   - name: Devices and Sensors Working Group
+  - name: Media and Entertainment Interest Group

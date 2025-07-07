@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-tvcontrol-api-20160915/
   type: src
-- content: https://w3c.github.io/tvcontrol-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-tvcontrol-api-20160915
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexander Futász
+      given:
+        forename:
+        - content: Sung Hei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kim
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sung Hei Kim
+      given:
+        forename:
+        - content: Alexander
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Futász
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctvcontrol-api
+    title:
+    - content: TV Control API Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tvcontrol-api/
+      type: src
+    docid:
+    - id: W3C tvcontrol-api
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-tvcontrol-api-20170316
+    title:
+    - content: TV Control API Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-tvcontrol-api-20170316/
+      type: src
+    docid:
+    - id: W3C WD-tvcontrol-api-20170316
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-tvcontrol-api-20160915
 ext:

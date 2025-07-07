@@ -26,24 +26,32 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Brandon Porter
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-05-10'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmodality-interface
+    title:
+    - content: Modality Component to Host Environment DOM Requirements and Capabilities
+        Assessment
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/modality-interface/
+      type: src
+    docid:
+    - id: W3C modality-interface
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-modality-interface-20040510
 ext:

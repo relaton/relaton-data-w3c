@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-jf2-20170612/
   type: src
-- content: http://dissolve.github.io/jf2/
-  type: current
 type: standard
 docid:
 - id: W3C WD-jf2-20170612
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Roberts
+      given:
+        forename:
+        - content: BeBe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roberts
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjf2
+    title:
+    - content: JF2 Post Serialization Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/jf2/
+      type: src
+    docid:
+    - id: W3C jf2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-jf2-20160728
+    title:
+    - content: JF2 Post Serialization Format
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-jf2-20160728/
+    - content: https://www.w3.org/TR/2016/WD-jf2-20160728/
       type: src
     docid:
     - id: W3C WD-jf2-20160728
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-jf2-20160728
+- type: updatedBy
+  bibitem:
+    id: W3CWD-jf2-20170627
+    title:
+    - content: JF2 Post Serialization Format
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-jf2-20170627/
+      type: src
+    docid:
+    - id: W3C WD-jf2-20170627
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-jf2-20170612
 ext:

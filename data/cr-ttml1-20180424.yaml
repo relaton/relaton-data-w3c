@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-ttml1-20180424/
   type: src
-- content: https://w3c.github.io/ttml1/index.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-ttml1-20180424
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml1
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml1/
+      type: src
+    docid:
+    - id: W3C ttml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-ttml1-20130924
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/REC-ttml1-20130924/
+    - content: https://www.w3.org/TR/2013/REC-ttml1-20130924/
       type: src
     docid:
     - id: W3C REC-ttml1-20130924
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-ttml1-20130924
+- type: updatedBy
+  bibitem:
+    id: W3CCR-ttml1-20180809
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-ttml1-20180809/
+      type: src
+    docid:
+    - id: W3C CR-ttml1-20180809
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ttml1-20180424
 ext:

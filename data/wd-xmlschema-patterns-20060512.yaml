@@ -5,7 +5,7 @@ title:
 - content: XML Schema Patterns for Common Data Structures Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-xmlschema-patterns-20060512/
+- content: https://www.w3.org/TR/2006/WD-xmlschema-patterns-20060512/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Paul Downey
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Downey
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema-patterns
+    title:
+    - content: Basic XML Schema Patterns for Databinding Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema-patterns/
+      type: src
+    docid:
+    - id: W3C xmlschema-patterns
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmlschema-patterns-20061122
+    title:
+    - content: Basic XML Schema Patterns for Databinding Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-xmlschema-patterns-20061122/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema-patterns-20061122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlschema-patterns-20060512
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Velleman
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Velleman
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shadi Abou-Zahra
+      given:
+        forename:
+        - content: Shadi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Abou-Zahra
         language:
         - en
         script:
@@ -50,10 +64,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWCAG-EM
+    title:
+    - content: Website Accessibility Conformance Evaluation Methodology (WCAG-EM)
+        1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WCAG-EM/
+      type: src
+    docid:
+    - id: W3C WCAG-EM
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WCAG-EM-20140130
+    title:
+    - content: Website Accessibility Conformance Evaluation Methodology (WCAG-EM)
+        1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-WCAG-EM-20140130/
       type: src
@@ -61,12 +96,9 @@ relation:
     - id: W3C WD-WCAG-EM-20140130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WCAG-EM-20140130
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-WCAG-EM-20140710
 ext:

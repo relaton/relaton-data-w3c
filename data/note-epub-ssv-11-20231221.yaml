@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/NOTE-epub-ssv-11-20231221/
   type: src
-- content: https://w3c.github.io/epub-specs/epub33/ssv/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-epub-ssv-11-20231221
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cepub-ssv-11
+    title:
+    - content: EPUB 3 Structural Semantics Vocabulary 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/epub-ssv-11/
+      type: src
+    docid:
+    - id: W3C epub-ssv-11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-epub-ssv-11-20230519
+    title:
+    - content: EPUB 3 Structural Semantics Vocabulary 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/NOTE-epub-ssv-11-20230519/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C NOTE-epub-ssv-11-20230519
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-epub-ssv-11-20230519
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-epub-ssv-11-20250313
+    title:
+    - content: EPUB 3 Structural Semantics Vocabulary 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/NOTE-epub-ssv-11-20250313/
+      type: src
+    docid:
+    - id: W3C NOTE-epub-ssv-11-20250313
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-epub-ssv-11-20231221
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Developers' Guide to Features of Web Accessibility Evaluation Tools
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-WAET-20140724/
+- content: https://www.w3.org/TR/2014/WD-WAET-20140724/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carlos A. Velasco
+      given:
+        forename:
+        - content: Carlos A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Velasco
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shadi Abou-Zahra
+      given:
+        forename:
+        - content: Shadi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Abou-Zahra
         language:
         - en
         script:
@@ -52,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWAET
+    title:
+    - content: Developers' Guide to Features of Web Accessibility Evaluation Tools
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WAET/
+      type: src
+    docid:
+    - id: W3C WAET
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-WAET-20170202
+    title:
+    - content: Developers' Guide to Features of Web Accessibility Evaluation Tools
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-WAET-20170202/
+      type: src
+    docid:
+    - id: W3C NOTE-WAET-20170202
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-WAET-20140724
 ext:

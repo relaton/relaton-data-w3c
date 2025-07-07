@@ -5,7 +5,7 @@ title:
 - content: 'PROV-N: The Provenance Notation'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-prov-n-20120503/
+- content: https://www.w3.org/TR/2012/WD-prov-n-20120503/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Luc Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Missier
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-n
+    title:
+    - content: 'PROV-N: The Provenance Notation'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-n/
+      type: src
+    docid:
+    - id: W3C prov-n
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-prov-n-20120724
+    title:
+    - content: 'PROV-N: The Provenance Notation'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-n-20120724/
+      type: src
+    docid:
+    - id: W3C WD-prov-n-20120724
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-prov-n-20120503
 ext:

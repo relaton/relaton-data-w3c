@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-epub-overview-33-20210921/
   type: src
-- content: https://w3c.github.io/epub-specs/epub33/overview/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-epub-overview-33-20210921
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Weck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Garth Conboy
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Garth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Conboy
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Makoto Murata
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gylling
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Gylling
+      given:
+        forename:
+        - content: William
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCoy
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Makoto
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Murata
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: William McCoy
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weck
         language:
         - en
         script:
@@ -102,10 +149,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cepub-overview-33
+    title:
+    - content: EPUB 3 Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/epub-overview-33/
+      type: src
+    docid:
+    - id: W3C epub-overview-33
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-epub-overview-33-20210914
+    title:
+    - content: EPUB 3 Overview
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-epub-overview-33-20210914/
       type: src
@@ -113,12 +179,25 @@ relation:
     - id: W3C NOTE-epub-overview-33-20210914
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-epub-overview-33-20210914
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-epub-overview-33-20210928
+    title:
+    - content: EPUB 3 Overview
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-epub-overview-33-20210928/
+      type: src
+    docid:
+    - id: W3C NOTE-epub-overview-33-20210928
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-epub-overview-33-20210921
 ext:

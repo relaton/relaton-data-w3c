@@ -5,10 +5,8 @@ title:
 - content: Scalable Vector Graphics (SVG) 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-SVG2-20150915/
+- content: https://www.w3.org/TR/2015/WD-SVG2-20150915/
   type: src
-- content: https://svgwg.org/svg2-draft/
-  type: current
 type: standard
 docid:
 - id: W3C WD-SVG2-20150915
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Nikos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andronikos
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bogdan Brinza
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Brian Birtles
+      given:
+        forename:
+        - content: Tavmjong
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bah
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birtles
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cyril Concolato
+      given:
+        forename:
+        - content: Bogdan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brinza
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dirk Schulze
+      given:
+        forename:
+        - content: Cyril
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Concolato
         language:
         - en
         script:
@@ -99,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Erik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dahlström
         language:
         - en
         script:
@@ -109,8 +163,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Erik Dahlström
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -119,8 +180,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Watt
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -129,8 +197,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nikos Andronikos
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -139,8 +214,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schulze
         language:
         - en
         script:
@@ -149,8 +231,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rossen Atanassov
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -159,8 +248,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Satoru Takagi
+      given:
+        forename:
+        - content: Satoru
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Takagi
         language:
         - en
         script:
@@ -169,8 +265,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tavmjong Bah
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watt
         language:
         - en
         script:
@@ -186,22 +289,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVG2
+    title:
+    - content: Scalable Vector Graphics (SVG) 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVG2/
+      type: src
+    docid:
+    - id: W3C SVG2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-SVG2-20150709
+    title:
+    - content: Scalable Vector Graphics (SVG) 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-SVG2-20150709/
+    - content: https://www.w3.org/TR/2015/WD-SVG2-20150709/
       type: src
     docid:
     - id: W3C WD-SVG2-20150709
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVG2-20150709
+- type: updatedBy
+  bibitem:
+    id: W3CCR-SVG2-20160915
+    title:
+    - content: Scalable Vector Graphics (SVG) 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-SVG2-20160915/
+      type: src
+    docid:
+    - id: W3C CR-SVG2-20160915
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-SVG2-20150915
 ext:

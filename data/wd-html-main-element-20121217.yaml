@@ -5,7 +5,7 @@ title:
 - content: main element - an HTML5 extension specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-html-main-element-20121217/
+- content: https://www.w3.org/TR/2012/WD-html-main-element-20121217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-main-element
+    title:
+    - content: main element - an HTML5 extension specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-main-element/
+      type: src
+    docid:
+    - id: W3C html-main-element
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-html-main-element-20130528
+    title:
+    - content: main element - an HTML5 extension specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-html-main-element-20130528/
+      type: src
+    docid:
+    - id: W3C NOTE-html-main-element-20130528
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-main-element-20121217
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

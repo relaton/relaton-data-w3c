@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-wcag2-ext-req-20160105/
   type: src
-- content: https://w3c.github.io/wcag/wcag20/extensions/requirements.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-wcag2-ext-req-20160105
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Kirkpatrick
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshue O'Connor
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kirkpatrick
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Joshue
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -64,10 +83,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwcag2-ext-req
+    title:
+    - content: Requirements for WCAG 2.0 Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wcag2-ext-req/
+      type: src
+    docid:
+    - id: W3C wcag2-ext-req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-wcag2-ext-req-20160105
 ext:

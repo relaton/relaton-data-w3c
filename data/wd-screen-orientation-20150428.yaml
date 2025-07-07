@@ -5,10 +5,8 @@ title:
 - content: The Screen Orientation API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-screen-orientation-20150428/
+- content: https://www.w3.org/TR/2015/WD-screen-orientation-20150428/
   type: src
-- content: https://w3c.github.io/screen-orientation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-screen-orientation-20150428
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-orientation
+    title:
+    - content: Screen Orientation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-orientation/
+      type: src
+    docid:
+    - id: W3C screen-orientation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-screen-orientation-20141023
+    title:
+    - content: The Screen Orientation API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-screen-orientation-20141023/
+    - content: https://www.w3.org/TR/2014/WD-screen-orientation-20141023/
       type: src
     docid:
     - id: W3C WD-screen-orientation-20141023
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-screen-orientation-20141023
+- type: updatedBy
+  bibitem:
+    id: W3CWD-screen-orientation-20151215
+    title:
+    - content: The Screen Orientation API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-screen-orientation-20151215/
+      type: src
+    docid:
+    - id: W3C WD-screen-orientation-20151215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-screen-orientation-20150428
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

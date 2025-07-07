@@ -26,52 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-fonts-5-20210629
-    link:
-    - content: https://www.w3.org/TR/2021/WD-css-fonts-5-20210629/
-      type: src
-    docid:
-    - id: W3C WD-css-fonts-5-20210629
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-fonts-5-20210629
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-css-fonts-5-20210729
-    link:
-    - content: https://www.w3.org/TR/2021/WD-css-fonts-5-20210729/
-      type: src
-    docid:
-    - id: W3C WD-css-fonts-5-20210729
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-fonts-5-20210729
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-css-fonts-5-20211221
-    link:
-    - content: https://www.w3.org/TR/2021/WD-css-fonts-5-20211221/
-      type: src
-    docid:
-    - id: W3C WD-css-fonts-5-20211221
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-fonts-5-20211221
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-css-fonts-5-20240206
+    title:
+    - content: CSS Fonts Module Level 5
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-css-fonts-5-20240206/
       type: src
@@ -79,12 +40,48 @@ relation:
     - id: W3C WD-css-fonts-5-20240206
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-fonts-5-20240206
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-fonts-5-20211221
+    title:
+    - content: CSS Fonts Module Level 5
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-css-fonts-5-20211221/
+      type: src
+    docid:
+    - id: W3C WD-css-fonts-5-20211221
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-fonts-5-20210729
+    title:
+    - content: CSS Fonts Module Level 5
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-css-fonts-5-20210729/
+      type: src
+    docid:
+    - id: W3C WD-css-fonts-5-20210729
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-fonts-5-20210629
+    title:
+    - content: CSS Fonts Module Level 5
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-css-fonts-5-20210629/
+      type: src
+    docid:
+    - id: W3C WD-css-fonts-5-20210629
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: css-fonts-5
 ext:

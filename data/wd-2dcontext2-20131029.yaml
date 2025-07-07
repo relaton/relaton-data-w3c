@@ -5,10 +5,8 @@ title:
 - content: HTML Canvas 2D Context, Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-2dcontext2-20131029/
+- content: https://www.w3.org/TR/2013/WD-2dcontext2-20131029/
   type: src
-- content: http://www.w3.org/html/wg/drafts/2dcontext/master/
-  type: current
 type: standard
 docid:
 - id: W3C WD-2dcontext2-20131029
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eliot Graff
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Eliot
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graff
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jay Munro
+      given:
+        forename:
+        - content: Jay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Munro
         language:
         - en
         script:
@@ -59,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tom Wiltzius
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -86,22 +102,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3C2dcontext2
+    title:
+    - content: HTML Canvas 2D Context, Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2dcontext2/
+      type: src
+    docid:
+    - id: W3C 2dcontext2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-2dcontext2-20130528
+    title:
+    - content: HTML Canvas 2D Context, Level 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-2dcontext2-20130528/
+    - content: https://www.w3.org/TR/2013/WD-2dcontext2-20130528/
       type: src
     docid:
     - id: W3C WD-2dcontext2-20130528
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-2dcontext2-20130528
+- type: updatedBy
+  bibitem:
+    id: W3CWD-2dcontext2-20140828
+    title:
+    - content: HTML Canvas 2D Context, Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-2dcontext2-20140828/
+      type: src
+    docid:
+    - id: W3C WD-2dcontext2-20140828
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-2dcontext2-20131029
 ext:
@@ -109,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-prov-dm-20130430
+    title:
+    - content: 'PROV-DM: The PROV Data Model'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-prov-dm-20130430/
       type: src
@@ -40,12 +40,100 @@ relation:
     - id: W3C REC-prov-dm-20130430
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-prov-dm-20130430
+- type: hasEdition
+  bibitem:
+    id: W3CPR-prov-dm-20130312
+    title:
+    - content: 'PROV-DM: The PROV Data Model'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-prov-dm-20130312/
+      type: src
+    docid:
+    - id: W3C PR-prov-dm-20130312
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-prov-dm-20121211
+    title:
+    - content: 'PROV-DM: The PROV Data Model'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-prov-dm-20121211/
+      type: src
+    docid:
+    - id: W3C CR-prov-dm-20121211
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-dm-20120724
+    title:
+    - content: 'PROV-DM: The PROV Data Model'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-dm-20120724/
+      type: src
+    docid:
+    - id: W3C WD-prov-dm-20120724
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-dm-20120503
+    title:
+    - content: 'PROV-DM: The PROV Data Model'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-dm-20120503/
+      type: src
+    docid:
+    - id: W3C WD-prov-dm-20120503
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-dm-20120202
+    title:
+    - content: The PROV Data Model and Abstract Syntax Notation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-dm-20120202/
+      type: src
+    docid:
+    - id: W3C WD-prov-dm-20120202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-dm-20111215
+    title:
+    - content: The PROV Data Model and Abstract Syntax Notation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-prov-dm-20111215/
+      type: src
+    docid:
+    - id: W3C WD-prov-dm-20111215
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-dm-20111018
+    title:
+    - content: The PROV Data Model and Abstract Syntax Notation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-prov-dm-20111018/
+      type: src
+    docid:
+    - id: W3C WD-prov-dm-20111018
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: prov-dm
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-webmention-20170112/
   type: src
-- content: https://webmention.net/draft/
-  type: current
 type: standard
 docid:
 - id: W3C REC-webmention-20170112
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Parecki
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parecki
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebmention
+    title:
+    - content: Webmention
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webmention/
+      type: src
+    docid:
+    - id: W3C webmention
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-webmention-20161101
+    title:
+    - content: Webmention
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/PR-webmention-20161101/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-webmention-20161101
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-webmention-20161101
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://webmention.net/errata/
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-webmention-20170112
 ext:

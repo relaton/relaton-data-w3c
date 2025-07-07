@@ -5,10 +5,8 @@ title:
 - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-ATAG20-20131107/
+- content: https://www.w3.org/TR/2013/CR-ATAG20-20131107/
   type: src
-- content: http://www.w3.org/WAI/AU/ATAG20/
-  type: current
 type: standard
 docid:
 - id: W3C CR-ATAG20-20131107
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jan Richards
+      given:
+        forename:
+        - content: Jan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richards
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeanne F Spellman
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jutta Treviranus
+      given:
+        forename:
+        - content: Jutta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Treviranus
         language:
         - en
         script:
@@ -64,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CATAG20
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ATAG20/
+      type: src
+    docid:
+    - id: W3C ATAG20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ATAG20-20130910
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-ATAG20-20130910/
+    - content: https://www.w3.org/TR/2013/WD-ATAG20-20130910/
       type: src
     docid:
     - id: W3C WD-ATAG20-20130910
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20130910
+- type: updatedBy
+  bibitem:
+    id: W3CCR-ATAG20-20150604
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/CR-ATAG20-20150604/
+      type: src
+    docid:
+    - id: W3C CR-ATAG20-20150604
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ATAG20-20131107
 ext:

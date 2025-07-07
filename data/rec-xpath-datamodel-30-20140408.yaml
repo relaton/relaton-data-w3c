@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-datamodel-30
+    title:
+    - content: XQuery and XPath Data Model 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-datamodel-30/
+      type: src
+    docid:
+    - id: W3C xpath-datamodel-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xpath-datamodel-30-20131022
+    title:
+    - content: XQuery and XPath Data Model 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-xpath-datamodel-30-20131022/
       type: src
@@ -74,12 +111,9 @@ relation:
     - id: W3C PR-xpath-datamodel-30-20131022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xpath-datamodel-30-20131022
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath-datamodel-30-20140408
 ext:
@@ -87,5 +121,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

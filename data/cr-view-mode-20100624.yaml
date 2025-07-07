@@ -5,7 +5,7 @@ title:
 - content: The 'view-mode' Media Feature
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/CR-view-mode-20100624/
+- content: https://www.w3.org/TR/2010/CR-view-mode-20100624/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cview-mode
+    title:
+    - content: The 'view-mode' Media Feature
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/view-mode/
+      type: src
+    docid:
+    - id: W3C view-mode
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-view-mode-20100420
+    title:
+    - content: View Mode Media Feature
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-view-mode-20100420/
+    - content: https://www.w3.org/TR/2010/WD-view-mode-20100420/
       type: src
     docid:
     - id: W3C WD-view-mode-20100420
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-view-mode-20100420
+- type: updatedBy
+  bibitem:
+    id: W3CPR-view-mode-20110811
+    title:
+    - content: The 'view-mode' Media Feature
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-view-mode-20110811/
+      type: src
+    docid:
+    - id: W3C PR-view-mode-20110811
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-view-mode-20100624
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

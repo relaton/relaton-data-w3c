@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-soap12-email-20020703
+    title:
+    - content: SOAP Version 1.2 Email Binding
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020703
       type: src
@@ -37,12 +40,22 @@ relation:
     - id: W3C NOTE-soap12-email-20020703
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-soap12-email-20020703
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-soap12-email-20020626
+    title:
+    - content: SOAP Version 1.2 Email Binding
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
+      type: src
+    docid:
+    - id: W3C NOTE-soap12-email-20020626
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: soap12-email
 ext:

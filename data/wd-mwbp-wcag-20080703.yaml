@@ -6,7 +6,7 @@ title:
     Guidelines (WCAG)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-mwbp-wcag-20080703/
+- content: https://www.w3.org/TR/2008/WD-mwbp-wcag-20080703/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alan Chuter
+      given:
+        forename:
+        - content: Alan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chuter
         language:
         - en
         script:
@@ -38,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yeliz Yesilada
+      given:
+        forename:
+        - content: Yeliz
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yesilada
         language:
         - en
         script:
@@ -55,22 +69,54 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmwbp-wcag
+    title:
+    - content: Relationship between Mobile Web Best Practices (MWBP) and Web Content
+        Accessibility Guidelines (WCAG)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mwbp-wcag/
+      type: src
+    docid:
+    - id: W3C mwbp-wcag
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mwbp-wcag-20080122
+    title:
+    - content: Relationship Between Mobile Web Best Practices 1.0 and Web Content
+        Accessibility Guidelines
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-mwbp-wcag-20080122/
+    - content: https://www.w3.org/TR/2008/WD-mwbp-wcag-20080122/
       type: src
     docid:
     - id: W3C WD-mwbp-wcag-20080122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mwbp-wcag-20080122
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mwbp-wcag-20090526
+    title:
+    - content: Relationship between Mobile Web Best Practices (MWBP) and Web Content
+        Accessibility Guidelines (WCAG)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-mwbp-wcag-20090526/
+      type: src
+    docid:
+    - id: W3C WD-mwbp-wcag-20090526
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mwbp-wcag-20080703
 ext:
@@ -78,5 +124,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
+  - name: Accessibility Education and Outreach Working Group (EOWG)
   - name: Mobile Web Best Practices Working Group
-  - name: Education and Outreach Working Group

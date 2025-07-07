@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrea Perego
+      given:
+        forename:
+        - content: Andrea
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Perego
         language:
         - en
         script:
@@ -38,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -53,10 +67,25 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-voc
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Web Description Resources
+        (WDR) Vocabulary'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-voc/
+      type: src
+    docid:
+    - id: W3C powder-voc
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-powder-voc-20070925
 ext:
@@ -64,4 +93,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

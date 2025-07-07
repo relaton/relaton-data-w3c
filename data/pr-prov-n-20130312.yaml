@@ -5,7 +5,7 @@ title:
 - content: 'PROV-N: The Provenance Notation'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-prov-n-20130312/
+- content: https://www.w3.org/TR/2013/PR-prov-n-20130312/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Luc Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Missier
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-n
+    title:
+    - content: 'PROV-N: The Provenance Notation'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-n/
+      type: src
+    docid:
+    - id: W3C prov-n
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-prov-n-20121211
+    title:
+    - content: 'PROV-N: The Provenance Notation'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-prov-n-20121211/
+    - content: https://www.w3.org/TR/2012/CR-prov-n-20121211/
       type: src
     docid:
     - id: W3C CR-prov-n-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-prov-n-20121211
+- type: updatedBy
+  bibitem:
+    id: W3CREC-prov-n-20130430
+    title:
+    - content: 'PROV-N: The Provenance Notation'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-prov-n-20130430/
+      type: src
+    docid:
+    - id: W3C REC-prov-n-20130430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-prov-n-20130312
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Simonsen
+      given:
+        forename:
+        - content: Tobin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Titus
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Simonsen
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tobin Titus
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cresource-priorities
+    title:
+    - content: Resource Priorities
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/resource-priorities/
+      type: src
+    docid:
+    - id: W3C resource-priorities
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-resource-priorities-20131029
+    title:
+    - content: Resource Priorities
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-resource-priorities-20131029/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-resource-priorities-20131029
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-resource-priorities-20131029
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-resource-priorities-20141023
 ext:

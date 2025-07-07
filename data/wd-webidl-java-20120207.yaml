@@ -5,7 +5,7 @@ title:
 - content: Java language binding for Web IDL
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-WebIDL-Java-20120207/
+- content: https://www.w3.org/TR/2012/WD-WebIDL-Java-20120207/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWebIDL-Java
+    title:
+    - content: Java language binding for Web IDL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WebIDL-Java/
+      type: src
+    docid:
+    - id: W3C WebIDL-Java
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-WebIDL-Java-20130514
+    title:
+    - content: Java language binding for Web IDL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-WebIDL-Java-20130514/
+      type: src
+    docid:
+    - id: W3C NOTE-WebIDL-Java-20130514
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-WebIDL-Java-20120207
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

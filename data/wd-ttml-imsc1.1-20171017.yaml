@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-ttml-imsc1.1-20171017/
   type: src
-- content: https://rawgit.com/w3c/imsc/IMSC1.1/imsc1/spec/ttml-ww-profiles.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-ttml-imsc1.1-20171017
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml-imsc1.1
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml-imsc1.1/
+      type: src
+    docid:
+    - id: W3C ttml-imsc1.1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-ttml-imsc1.1-20180503
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-ttml-imsc1.1-20180503/
+      type: src
+    docid:
+    - id: W3C CR-ttml-imsc1.1-20180503
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-ttml-imsc1.1-20171017
 ext:

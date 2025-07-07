@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CRD-secure-contexts-20210918/
   type: src
-- content: https://w3c.github.io/webappsec-secure-contexts/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-secure-contexts-20210918
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csecure-contexts
+    title:
+    - content: Secure Contexts
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/secure-contexts/
+      type: src
+    docid:
+    - id: W3C secure-contexts
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-secure-contexts-20210916
+    title:
+    - content: Secure Contexts
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-secure-contexts-20210916/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C CRD-secure-contexts-20210916
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-secure-contexts-20210916
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-secure-contexts-20231110
+    title:
+    - content: Secure Contexts
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-secure-contexts-20231110/
+      type: src
+    docid:
+    - id: W3C CRD-secure-contexts-20231110
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-secure-contexts-20210918
 ext:

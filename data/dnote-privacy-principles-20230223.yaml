@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-privacy-principles-20230223/
   type: src
-- content: https://w3ctag.github.io/privacy-principles/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-privacy-principles-20230223
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tonya Lee Tonya Dickard
+      given:
+        forename:
+        - content: Tonya Lee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tonya Dickard
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprivacy-principles
+    title:
+    - content: Privacy Principles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/privacy-principles/
+      type: src
+    docid:
+    - id: W3C privacy-principles
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-privacy-principles-20221214
+    title:
+    - content: Privacy Principles
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-privacy-principles-20221214/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C DNOTE-privacy-principles-20221214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-privacy-principles-20221214
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-privacy-principles-20230906
+    title:
+    - content: Privacy Principles
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-privacy-principles-20230906/
+      type: src
+    docid:
+    - id: W3C DNOTE-privacy-principles-20230906
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-privacy-principles-20230223
 ext:

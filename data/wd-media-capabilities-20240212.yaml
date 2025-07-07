@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-media-capabilities-20240212/
   type: src
-- content: https://w3c.github.io/media-capabilities/
-  type: current
 type: standard
 docid:
 - id: W3C WD-media-capabilities-20240212
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jean-Yves Avenard
+      given:
+        forename:
+        - content: Jean-Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Avenard
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-capabilities
+    title:
+    - content: Media Capabilities
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-capabilities/
+      type: src
+    docid:
+    - id: W3C media-capabilities
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-media-capabilities-20240209
+    title:
+    - content: Media Capabilities
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-media-capabilities-20240209/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-media-capabilities-20240209
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-media-capabilities-20240209
+- type: updatedBy
+  bibitem:
+    id: W3CWD-media-capabilities-20240704
+    title:
+    - content: Media Capabilities
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-media-capabilities-20240704/
+      type: src
+    docid:
+    - id: W3C WD-media-capabilities-20240704
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-media-capabilities-20240212
 ext:

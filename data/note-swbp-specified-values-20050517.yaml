@@ -25,25 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Alan Rector
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2005-05-17'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cswbp-specified-values
+    title:
+    - content: 'Representing Specified Values in OWL: "value partitions" and "value
+        sets"'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/swbp-specified-values/
+      type: src
+    docid:
+    - id: W3C swbp-specified-values
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-swbp-specified-values-20040803
+    title:
+    - content: 'Representing Specified Values in OWL: "value partitions" and "value
+        sets"'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/WD-swbp-specified-values-20040803/
       type: src
@@ -51,12 +62,9 @@ relation:
     - id: W3C WD-swbp-specified-values-20040803
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-swbp-specified-values-20040803
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-swbp-specified-values-20050517
 ext:

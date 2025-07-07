@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-pointerlock-2-20161122/
   type: src
-- content: https://w3c.github.io/pointerlock/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pointerlock-2-20161122
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Vincent Scheib
+      given:
+        forename:
+        - content: Vincent
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheib
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerlock-2
+    title:
+    - content: Pointer Lock 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerlock-2/
+      type: src
+    docid:
+    - id: W3C pointerlock-2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pointerlock-2-20180208
+    title:
+    - content: Pointer Lock 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-pointerlock-2-20180208/
+      type: src
+    docid:
+    - id: W3C WD-pointerlock-2-20180208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-pointerlock-2-20161122
 ext:
@@ -55,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

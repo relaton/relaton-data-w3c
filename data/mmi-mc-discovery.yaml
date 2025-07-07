@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cmmi-mc-discovery
 title:
-- content: 'Discovery & Registration of Multimodal Modality Components: State Handling'
+- content: Discovery & Registration of Multimodal Modality Components
   format: text/plain
 link:
-- content: http://www.w3.org/TR/mmi-mc-discovery/
+- content: https://www.w3.org/TR/mmi-mc-discovery/
   type: src
 type: standard
 docid:
@@ -26,39 +26,51 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-mmi-mc-discovery-20150611
+    id: W3CNOTE-mmi-mc-discovery-20170202
+    title:
+    - content: Discovery & Registration of Multimodal Modality Components
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/
+    - content: https://www.w3.org/TR/2017/NOTE-mmi-mc-discovery-20170202/
       type: src
     docid:
-    - id: W3C WD-mmi-mc-discovery-20150611
+    - id: W3C NOTE-mmi-mc-discovery-20170202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mmi-mc-discovery-20150611
-      format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-mmi-mc-discovery-20160411
+    title:
+    - content: 'Discovery & Registration of Multimodal Modality Components: State
+        Handling'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-mmi-mc-discovery-20160411/
+    - content: https://www.w3.org/TR/2016/WD-mmi-mc-discovery-20160411/
       type: src
     docid:
     - id: W3C WD-mmi-mc-discovery-20160411
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mmi-mc-discovery-20160411
+- type: hasEdition
+  bibitem:
+    id: W3CWD-mmi-mc-discovery-20150611
+    title:
+    - content: 'Discovery & Registration of Multimodal Modality Components: State
+        Handling'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/
+      type: src
+    docid:
+    - id: W3C WD-mmi-mc-discovery-20150611
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: mmi-mc-discovery
 ext:

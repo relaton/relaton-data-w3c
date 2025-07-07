@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-low-vision-needs-20160317/
   type: src
-- content: https://w3c.github.io/low-vision-a11y-tf/requirements.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-low-vision-needs-20160317
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Kirkpatrick
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Allan
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Allan
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kirkpatrick
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shawn Lawton Henry (TAdER)
+      given:
+        forename:
+        - content: Shawn Lawton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henry (TAdER)
         language:
         - en
         script:
@@ -64,10 +83,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Clow-vision-needs
+    title:
+    - content: Accessibility Requirements for People with Low Vision
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/low-vision-needs/
+      type: src
+    docid:
+    - id: W3C low-vision-needs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-low-vision-needs-20160317
 ext:

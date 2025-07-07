@@ -5,7 +5,7 @@ title:
 - content: API for Media Resources 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-mediaont-api-1.0-20130411/
+- content: https://www.w3.org/TR/2013/WD-mediaont-api-1.0-20130411/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Poppe
+      given:
+        forename:
+        - content: Werner
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bailer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Stegmaier
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Höffernig
         language:
         - en
         script:
@@ -47,28 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Höffernig
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Werner Bailer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: WonSuk Lee
+      given:
+        forename:
+        - content: Wonsuk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lee
         language:
         - en
         script:
@@ -82,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaont-api-1.0
+    title:
+    - content: Metadata API for Media Resources 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaont-api-1.0/
+      type: src
+    docid:
+    - id: W3C mediaont-api-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-mediaont-api-1.0-20111122
+    title:
+    - content: API for Media Resources 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/CR-mediaont-api-1.0-20111122/
+    - content: https://www.w3.org/TR/2011/CR-mediaont-api-1.0-20111122/
       type: src
     docid:
     - id: W3C CR-mediaont-api-1.0-20111122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-mediaont-api-1.0-20111122
+- type: updatedBy
+  bibitem:
+    id: W3CPR-mediaont-api-1.0-20131015
+    title:
+    - content: API for Media Resources 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-mediaont-api-1.0-20131015/
+      type: src
+    docid:
+    - id: W3C PR-mediaont-api-1.0-20131015
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-mediaont-api-1.0-20130411
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Schema for Object-oriented XML 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/1999/07/NOTE-SOX-19990730
+- content: https://www.w3.org/1999/07/NOTE-SOX-19990730
   type: src
 type: standard
 docid:
@@ -27,78 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Davidson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Chris Lloyd
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jari Koistinen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kelly Schwarzhof
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Matthew Fuchs
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mette Hedin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mudita Jain
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Murray Maloney
+      given:
+        forename:
+        - content: Murray
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maloney
         language:
         - en
         script:
@@ -110,10 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-SOX
+    title:
+    - content: Schema for Object-oriented XML 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-SOX
+      type: src
+    docid:
+    - id: W3C NOTE-SOX
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-SOX-19990730
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

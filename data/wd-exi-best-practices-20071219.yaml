@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Vogelheim
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Cokus
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vogelheim
         language:
         - en
         script:
@@ -53,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-best-practices
+    title:
+    - content: Efficient XML Interchange (EXI) Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-best-practices/
+      type: src
+    docid:
+    - id: W3C exi-best-practices
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-exi-best-practices-20071219
 ext:
@@ -63,4 +74,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

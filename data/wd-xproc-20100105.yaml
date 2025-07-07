@@ -5,7 +5,7 @@ title:
 - content: 'XProc: An XML Pipeline Language'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-xproc-20100105/
+- content: https://www.w3.org/TR/2010/WD-xproc-20100105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Milowski
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henry S. Thompson
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miłowski
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -62,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxproc
+    title:
+    - content: 'XProc: An XML Pipeline Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xproc/
+      type: src
+    docid:
+    - id: W3C xproc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xproc-20090528
+    title:
+    - content: 'XProc: An XML Pipeline Language'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-xproc-20090528/
+    - content: https://www.w3.org/TR/2009/CR-xproc-20090528/
       type: src
     docid:
     - id: W3C CR-xproc-20090528
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xproc-20090528
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xproc-20100309
+    title:
+    - content: 'XProc: An XML Pipeline Language'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/PR-xproc-20100309/
+      type: src
+    docid:
+    - id: W3C PR-xproc-20100309
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xproc-20100105
 ext:

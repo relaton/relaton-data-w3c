@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CR-wot-discovery-20230119/
   type: src
-- content: https://w3c.github.io/wot-discovery/
-  type: current
 type: standard
 docid:
 - id: W3C CR-wot-discovery-20230119
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrea Cimmino
+      given:
+        forename:
+        - content: Andrea
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cimmino
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Farshid Tavakolizadeh
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kunihiko Toumura
+      given:
+        forename:
+        - content: Farshid
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tavakolizadeh
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Kunihiko
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Toumura
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-discovery
+    title:
+    - content: Web of Things (WoT) Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-discovery/
+      type: src
+    docid:
+    - id: W3C wot-discovery
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wot-discovery-20220810
+    title:
+    - content: Web of Things (WoT) Discovery
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-wot-discovery-20220810/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-wot-discovery-20220810
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wot-discovery-20220810
+- type: updatedBy
+  bibitem:
+    id: W3CPR-wot-discovery-20230711
+    title:
+    - content: Web of Things (WoT) Discovery
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/PR-wot-discovery-20230711/
+      type: src
+    docid:
+    - id: W3C PR-wot-discovery-20230711
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-wot-discovery-20230119
 ext:

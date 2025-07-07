@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-web-animations-1-20160913/
   type: src
-- content: https://w3c.github.io/web-animations/
-  type: current
 type: standard
 docid:
 - id: W3C WD-web-animations-1-20160913
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-animations-1
+    title:
+    - content: Web Animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-animations-1/
+      type: src
+    docid:
+    - id: W3C web-animations-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-web-animations-1-20150707
+    title:
+    - content: Web Animations
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-web-animations-1-20150707/
+    - content: https://www.w3.org/TR/2015/WD-web-animations-1-20150707/
       type: src
     docid:
     - id: W3C WD-web-animations-1-20150707
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-web-animations-1-20150707
+- type: updatedBy
+  bibitem:
+    id: W3CWD-web-animations-1-20181011
+    title:
+    - content: Web Animations
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-web-animations-1-20181011/
+      type: src
+    docid:
+    - id: W3C WD-web-animations-1-20181011
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-web-animations-1-20160913
 ext:
@@ -60,4 +87,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: SVG Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

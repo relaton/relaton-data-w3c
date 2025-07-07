@@ -5,7 +5,7 @@ title:
 - content: Internationalization Tag Set (ITS) Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/CR-its-20061102/
+- content: https://www.w3.org/TR/2006/CR-its-20061102/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christian Lieske
+      given:
+        forename:
+        - content: Christian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lieske
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Felix Sasaki
+      given:
+        forename:
+        - content: Felix
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sasaki
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cits
+    title:
+    - content: Internationalization Tag Set (ITS) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/its/
+      type: src
+    docid:
+    - id: W3C its
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-its-20060518
+    title:
+    - content: Internationalization Tag Set (ITS) Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-its-20060518/
+    - content: https://www.w3.org/TR/2006/WD-its-20060518/
       type: src
     docid:
     - id: W3C WD-its-20060518
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-its-20060518
+- type: updatedBy
+  bibitem:
+    id: W3CPR-its-20070226
+    title:
+    - content: Internationalization Tag Set (ITS) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/PR-its-20070226/
+      type: src
+    docid:
+    - id: W3C PR-its-20070226
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-its-20061102
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: ITS Working Group
+  - name: Internationalization Tag Set (ITS) Working Group

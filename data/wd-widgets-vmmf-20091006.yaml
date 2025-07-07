@@ -5,7 +5,7 @@ title:
 - content: 'Widgets 1.0: View Modes Media Feature'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-widgets-vmmf-20091006/
+- content: https://www.w3.org/TR/2009/WD-widgets-vmmf-20091006/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arve Bersvendsen
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcin Hanclik
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -73,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cview-mode
+    title:
+    - content: The 'view-mode' Media Feature
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/view-mode/
+      type: src
+    docid:
+    - id: W3C view-mode
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-view-mode-20100420
+    title:
+    - content: View Mode Media Feature
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-view-mode-20100420/
+      type: src
+    docid:
+    - id: W3C WD-view-mode-20100420
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-widgets-vmmf-20091006
 ext:
@@ -83,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

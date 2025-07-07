@@ -5,7 +5,7 @@ title:
 - content: HTML+RDFa 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-html-rdfa-20130625/
+- content: https://www.w3.org/TR/2013/PR-html-rdfa-20130625/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-rdfa
+    title:
+    - content: HTML+RDFa 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-rdfa/
+      type: src
+    docid:
+    - id: W3C html-rdfa
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-rdfa-20130207
+    title:
+    - content: HTML+RDFa 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-html-rdfa-20130207/
+    - content: https://www.w3.org/TR/2013/WD-html-rdfa-20130207/
       type: src
     docid:
     - id: W3C WD-html-rdfa-20130207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-rdfa-20130207
+- type: updatedBy
+  bibitem:
+    id: W3CREC-html-rdfa-20130822
+    title:
+    - content: HTML+RDFa 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-html-rdfa-20130822/
+      type: src
+    docid:
+    - id: W3C REC-html-rdfa-20130822
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-html-rdfa-20130625
 ext:

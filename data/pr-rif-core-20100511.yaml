@@ -5,7 +5,7 @@ title:
 - content: RIF Core Dialect
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PR-rif-core-20100511/
+- content: https://www.w3.org/TR/2010/PR-rif-core-20100511/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Paschke
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reynolds
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Axel Polleres
+      given:
+        forename:
+        - content: Axel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Polleres
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Reynolds
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Gary Hallmark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Harold Boley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Kifer
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kifer
         language:
         - en
         script:
@@ -94,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-core
+    title:
+    - content: RIF Core Dialect (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-core/
+      type: src
+    docid:
+    - id: W3C rif-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-rif-core-20091001
+    title:
+    - content: RIF Core Dialect
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-rif-core-20091001/
+    - content: https://www.w3.org/TR/2009/CR-rif-core-20091001/
       type: src
     docid:
     - id: W3C CR-rif-core-20091001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-rif-core-20091001
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rif-core-20100622
+    title:
+    - content: RIF Core Dialect
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-rif-core-20100622/
+      type: src
+    docid:
+    - id: W3C REC-rif-core-20100622
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-rif-core-20100511
 ext:
@@ -117,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

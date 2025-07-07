@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-wake-lock-use-cases-20140814/
   type: src
-- content: https://w3c-webmob.github.io/wake-lock-use-cases/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-wake-lock-use-cases-20140814
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominique Hazaël-Massieux
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Natasha
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rooney
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Natasha Rooney
+      given:
+        forename:
+        - content: Dominique
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hazaël-Massieux
         language:
         - en
         script:
@@ -62,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwake-lock-use-cases
+    title:
+    - content: 'Wake Lock: Use cases'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wake-lock-use-cases/
+      type: src
+    docid:
+    - id: W3C wake-lock-use-cases
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wake-lock-use-cases-20140814
 ext:

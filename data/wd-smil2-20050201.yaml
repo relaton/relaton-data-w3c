@@ -5,7 +5,7 @@ title:
 - content: Synchronized Multimedia Integration Language (SMIL 2.1)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-SMIL2-20050201/
+- content: https://www.w3.org/TR/2005/WD-SMIL2-20050201/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dick Bulterman
+      given:
+        forename:
+        - content: Dick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bulterman
         language:
         - en
         script:
@@ -42,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL2
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 2.1)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL2/
+      type: src
+    docid:
+    - id: W3C SMIL2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-SMIL2-20050513
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 2.1)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/CR-SMIL2-20050513/
+      type: src
+    docid:
+    - id: W3C CR-SMIL2-20050513
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-SMIL2-20050201
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Synchronized Multimedia Working Group
+  - name: SYMM Working Group

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDSig-usage
+    title:
+    - content: Using XML Digital Signatures in the 2006 XML Environment
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DSig-usage/
+      type: src
+    docid:
+    - id: W3C DSig-usage
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DSig-usage-20060915
+    title:
+    - content: Using XML Digital Signatures in the 2006 XML Environment
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-DSig-usage-20060915/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-DSig-usage-20060915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DSig-usage-20060915
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-DSig-usage-20061220
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Advanced XML Schema Patterns for Databinding Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-xmlschema-patterns-advanced-20080328/
+- content: https://www.w3.org/TR/2008/WD-xmlschema-patterns-advanced-20080328/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: George Cowe
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Calladine
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Calladine
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Downey
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Downey
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: George
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cowe
         language:
         - en
         script:
@@ -74,22 +102,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema-patterns-advanced
+    title:
+    - content: Advanced XML Schema Patterns for Databinding Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema-patterns-advanced/
+      type: src
+    docid:
+    - id: W3C xmlschema-patterns-advanced
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlschema-patterns-advanced-20071031
+    title:
+    - content: Advanced XML Schema Patterns for Databinding Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-xmlschema-patterns-advanced-20071031/
+    - content: https://www.w3.org/TR/2007/WD-xmlschema-patterns-advanced-20071031/
       type: src
     docid:
     - id: W3C WD-xmlschema-patterns-advanced-20071031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlschema-patterns-advanced-20071031
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xmlschema-patterns-advanced-20090505
+    title:
+    - content: Advanced XML Schema Patterns for Databinding Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/NOTE-xmlschema-patterns-advanced-20090505/
+      type: src
+    docid:
+    - id: W3C NOTE-xmlschema-patterns-advanced-20090505
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlschema-patterns-advanced-20080328
 ext:

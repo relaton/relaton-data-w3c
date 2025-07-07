@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-wpub-20190813/
   type: src
-- content: https://w3c.github.io/wpub/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-wpub-20190813
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwpub
+    title:
+    - content: Web Publications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wpub/
+      type: src
+    docid:
+    - id: W3C wpub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wpub-20190614
+    title:
+    - content: Web Publications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-wpub-20190614/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C WD-wpub-20190614
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wpub-20190614
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-wpub-20190813
 ext:

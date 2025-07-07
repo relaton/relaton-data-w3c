@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-reusable-dialog-reqs-20000426
+    title:
+    - content: Reusable Dialog Requirements for Voice Markup Language
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2000/WD-reusable-dialog-reqs-20000426
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-reusable-dialog-reqs-20000426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-reusable-dialog-reqs-20000426
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: reusable-dialog-reqs
 ext:

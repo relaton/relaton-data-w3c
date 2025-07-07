@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-css-flexbox-1-20181108/
   type: src
-- content: https://drafts.csswg.org/css-flexbox/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-flexbox-1-20181108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rossen Atanassov
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-flexbox-1
+    title:
+    - content: CSS Flexible Box Layout Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-flexbox-1/
+      type: src
+    docid:
+    - id: W3C css-flexbox-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-flexbox-1-20171019
+    title:
+    - content: CSS Flexible Box Layout Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-css-flexbox-1-20171019/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CR-css-flexbox-1-20171019
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-flexbox-1-20171019
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-flexbox-1-20181119
+    title:
+    - content: CSS Flexible Box Layout Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-css-flexbox-1-20181119/
+      type: src
+    docid:
+    - id: W3C CR-css-flexbox-1-20181119
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-flexbox-1-20181108
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

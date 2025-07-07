@@ -5,7 +5,7 @@ title:
 - content: SPARQL Protocol for RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050114/
+- content: https://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050114/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kendall Grant Clark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2005-01-14'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-sparql-protocol
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-sparql-protocol/
+      type: src
+    docid:
+    - id: W3C rdf-sparql-protocol
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-sparql-protocol-20050527
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050527/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-protocol-20050527
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-sparql-protocol-20050114
 ext:

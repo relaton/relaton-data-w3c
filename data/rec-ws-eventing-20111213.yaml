@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Davis
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Doug Davis
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Katy Warr
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Wu Chou
+      given:
+        forename:
+        - content: Wu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chou
         language:
         - en
         script:
@@ -74,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-eventing
+    title:
+    - content: Web Services Eventing (WS-Eventing)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-eventing/
+      type: src
+    docid:
+    - id: W3C ws-eventing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ws-eventing-20110927
+    title:
+    - content: Web Services Eventing (WS-Eventing)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-ws-eventing-20110927
       type: src
@@ -84,28 +111,9 @@ relation:
     - id: W3C PR-ws-eventing-20110927
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ws-eventing-20110927
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cws-eventing-20111213-errata
-    link:
-    - content: https://www.w3.org/2002/ws/ra/errata/ws-eventing-20111213-errata
-      type: src
-    docid:
-    - id: W3C ws-eventing-20111213-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ws-eventing-20111213-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ws-eventing-20111213
 ext:

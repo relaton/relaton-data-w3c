@@ -5,7 +5,7 @@ title:
 - content: Content Security Policy 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-CSP-20121115/
+- content: https://www.w3.org/TR/2012/CR-CSP-20121115/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Barth
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Brandon Sterne
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sterne
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCSP1
+    title:
+    - content: Content Security Policy 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CSP1/
+      type: src
+    docid:
+    - id: W3C CSP1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-CSP-20120710
+    title:
+    - content: Content Security Policy 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-CSP-20120710/
+    - content: https://www.w3.org/TR/2012/WD-CSP-20120710/
       type: src
     docid:
     - id: W3C WD-CSP-20120710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CSP-20120710
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-CSP1-20150219
+    title:
+    - content: Content Security Policy 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-CSP1-20150219/
+      type: src
+    docid:
+    - id: W3C NOTE-CSP1-20150219
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-CSP-20121115
 ext:

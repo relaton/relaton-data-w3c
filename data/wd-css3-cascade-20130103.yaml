@@ -5,7 +5,7 @@ title:
 - content: CSS Cascading and Inheritance Level 3
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-css3-cascade-20130103/
+- content: https://www.w3.org/TR/2013/WD-css3-cascade-20130103/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-cascade-3
+    title:
+    - content: CSS Cascading and Inheritance Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-cascade-3/
+      type: src
+    docid:
+    - id: W3C css-cascade-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css3-cascade-20051215
+    title:
+    - content: 'CSS3 module: Cascading and inheritance'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-css3-cascade-20051215
+    - content: https://www.w3.org/TR/2005/WD-css3-cascade-20051215
       type: src
     docid:
     - id: W3C WD-css3-cascade-20051215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css3-cascade-20051215
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-cascade-3-20130730
+    title:
+    - content: CSS Cascading and Inheritance Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-css-cascade-3-20130730/
+      type: src
+    docid:
+    - id: W3C WD-css-cascade-3-20130730
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css3-cascade-20130103
 ext:
@@ -87,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

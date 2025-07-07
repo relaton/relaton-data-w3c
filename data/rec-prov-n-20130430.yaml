@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Luc Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Missier
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-n
+    title:
+    - content: 'PROV-N: The Provenance Notation'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-n/
+      type: src
+    docid:
+    - id: W3C prov-n
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-prov-n-20130312
+    title:
+    - content: 'PROV-N: The Provenance Notation'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-prov-n-20130312/
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-prov-n-20130312
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-prov-n-20130312
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: https://www.w3.org/2011/prov/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-prov-n-20130430
 ext:

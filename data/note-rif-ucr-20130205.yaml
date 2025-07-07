@@ -27,58 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Paschke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Allen Ginsberg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Hirtle
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Francis McCabe
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Leora Morgenstern
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paula-Lavinia Patranjan
+      given:
+        forename:
+        - content: Leora
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Morgenstern
         language:
         - en
         script:
@@ -90,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-ucr
+    title:
+    - content: RIF Use Cases and Requirements (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-ucr/
+      type: src
+    docid:
+    - id: W3C rif-ucr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rif-ucr-20081218
+    title:
+    - content: RIF Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-rif-ucr-20081218/
       type: src
@@ -101,12 +77,9 @@ relation:
     - id: W3C WD-rif-ucr-20081218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-ucr-20081218
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-rif-ucr-20130205
 ext:
@@ -114,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/REC-json-ld11-framing-20200716/
   type: src
-- content: https://w3c.github.io/json-ld-framing/
-  type: current
 type: standard
 docid:
 - id: W3C REC-json-ld11-framing-20200716
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Longley
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Longley
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -66,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld11-framing
+    title:
+    - content: JSON-LD 1.1 Framing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld11-framing/
+      type: src
+    docid:
+    - id: W3C json-ld11-framing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-json-ld11-framing-20200507
+    title:
+    - content: JSON-LD 1.1 Framing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/PR-json-ld11-framing-20200507/
       type: src
@@ -76,28 +94,9 @@ relation:
     - id: W3C PR-json-ld11-framing-20200507
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-json-ld11-framing-20200507
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cjson-ld-framing-errata
-    link:
-    - content: https://w3c.github.io/json-ld-framing/errata/
-      type: src
-    docid:
-    - id: W3C json-ld-framing/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C json-ld-framing/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-json-ld11-framing-20200716
 ext:

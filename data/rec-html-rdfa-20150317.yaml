@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-rdfa
+    title:
+    - content: HTML+RDFa 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-rdfa/
+      type: src
+    docid:
+    - id: W3C html-rdfa
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-html-rdfa-20141216
+    title:
+    - content: HTML+RDFa 1.1 - Second Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PER-html-rdfa-20141216/
       type: src
@@ -54,25 +77,9 @@ relation:
     - id: W3C PER-html-rdfa-20141216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-html-rdfa-20141216
-      format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-html-rdfa-20130822
-    link:
-    - content: https://www.w3.org/TR/2013/REC-html-rdfa-20130822/
-      type: src
-    docid:
-    - id: W3C REC-html-rdfa-20130822
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-html-rdfa-20130822
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-html-rdfa-20150317
 ext:

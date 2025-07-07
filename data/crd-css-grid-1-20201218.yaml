@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CRD-css-grid-1-20201218/
   type: src
-- content: https://drafts.csswg.org/css-grid/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-grid-1-20201218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Oriol Brufau
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rossen Atanassov
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Oriol
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brufau
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-grid-1
+    title:
+    - content: CSS Grid Layout Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-grid-1/
+      type: src
+    docid:
+    - id: W3C css-grid-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-css-grid-1-20201021
+    title:
+    - content: CSS Grid Layout Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CRD-css-grid-1-20201021/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CRD-css-grid-1-20201021
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-css-grid-1-20201021
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-css-grid-1-20250326
+    title:
+    - content: CSS Grid Layout Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-css-grid-1-20250326/
+      type: src
+    docid:
+    - id: W3C CRD-css-grid-1-20250326
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-grid-1-20201218
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

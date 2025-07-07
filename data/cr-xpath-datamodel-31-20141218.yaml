@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Data Model 3.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/CR-xpath-datamodel-31-20141218/
+- content: https://www.w3.org/TR/2014/CR-xpath-datamodel-31-20141218/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-datamodel-31
+    title:
+    - content: XQuery and XPath Data Model 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-datamodel-31/
+      type: src
+    docid:
+    - id: W3C xpath-datamodel-31
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-datamodel-31-20141007
+    title:
+    - content: XQuery and XPath Data Model 3.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-xpath-datamodel-31-20141007/
+    - content: https://www.w3.org/TR/2014/WD-xpath-datamodel-31-20141007/
       type: src
     docid:
     - id: W3C WD-xpath-datamodel-31-20141007
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-datamodel-31-20141007
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xpath-datamodel-31-20161213
+    title:
+    - content: XQuery and XPath Data Model 3.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-xpath-datamodel-31-20161213/
+      type: src
+    docid:
+    - id: W3C CR-xpath-datamodel-31-20161213
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xpath-datamodel-31-20141218
 ext:
@@ -77,5 +120,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

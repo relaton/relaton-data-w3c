@@ -5,7 +5,7 @@ title:
 - content: 'SVG Print 1.2, Part 2: Language'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/SVGPrint12/
+- content: https://www.w3.org/TR/SVGPrint12/
   type: src
 type: standard
 docid:
@@ -26,26 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGPrint12-20071221
+    title:
+    - content: 'SVG Print 1.2, Part 2: Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-SVGPrint12-20071221/
+      type: src
+    docid:
+    - id: W3C WD-SVGPrint12-20071221
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-SVGPrint12-20070501
+    title:
+    - content: 'SVG Print 1.2, Part 2: Language'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-SVGPrint12-20070501/
+    - content: https://www.w3.org/TR/2007/WD-SVGPrint12-20070501/
       type: src
     docid:
     - id: W3C WD-SVGPrint12-20070501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGPrint12-20070501
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGPrint-20030715
+    title:
+    - content: SVG Print
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-SVGPrint-20030715/
+      type: src
+    docid:
+    - id: W3C WD-SVGPrint-20030715
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: SVGPrint12
 ext:

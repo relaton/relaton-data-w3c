@@ -5,7 +5,7 @@ title:
 - content: SOAP Message Transmission Optimization Mechanism
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/PR-soap12-mtom-20041116/
+- content: https://www.w3.org/TR/2004/PR-soap12-mtom-20041116/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hervé Ruellan
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Nottingham
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Gudgin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nottingham
         language:
         - en
         script:
@@ -74,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-mtom
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-mtom/
+      type: src
+    docid:
+    - id: W3C soap12-mtom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-soap12-mtom-20040826
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/CR-soap12-mtom-20040826/
+    - content: https://www.w3.org/TR/2004/CR-soap12-mtom-20040826/
       type: src
     docid:
     - id: W3C CR-soap12-mtom-20040826
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-soap12-mtom-20040826
+- type: updatedBy
+  bibitem:
+    id: W3CREC-soap12-mtom-20050125
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/REC-soap12-mtom-20050125/
+      type: src
+    docid:
+    - id: W3C REC-soap12-mtom-20050125
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-soap12-mtom-20041116
 ext:

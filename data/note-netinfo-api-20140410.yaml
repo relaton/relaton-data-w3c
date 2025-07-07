@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-netinfo-api-20140410/
   type: src
-- content: https://dvcs.w3.org/hg/dap/raw-file/tip/network-api/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-netinfo-api-20140410
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnetinfo-api
+    title:
+    - content: The Network Information API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/netinfo-api/
+      type: src
+    docid:
+    - id: W3C netinfo-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-netinfo-api-20121129
+    title:
+    - content: The Network Information API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-netinfo-api-20121129/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-netinfo-api-20121129
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-netinfo-api-20121129
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-netinfo-api-20140410
 ext:

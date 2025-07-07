@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-audio-output-20161215/
   type: src
-- content: https://w3c.github.io/mediacapture-output/
-  type: current
 type: standard
 docid:
 - id: W3C WD-audio-output-20161215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Guido Urdaneta
+      given:
+        forename:
+        - content: Justin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uberti
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Justin Uberti
+      given:
+        forename:
+        - content: Guido
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Urdaneta
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudio-output
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audio-output/
+      type: src
+    docid:
+    - id: W3C audio-output
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-audio-output-20161102
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-audio-output-20161102/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-audio-output-20161102
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-audio-output-20161102
+- type: updatedBy
+  bibitem:
+    id: W3CCR-audio-output-20171003
+    title:
+    - content: Audio Output Devices API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-audio-output-20171003/
+      type: src
+    docid:
+    - id: W3C CR-audio-output-20171003
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-audio-output-20161215
 ext:

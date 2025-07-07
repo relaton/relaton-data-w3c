@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-xmlenc-transform20-20130411
+    title:
+    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-xmlenc-transform20-20130411/
       type: src
@@ -37,12 +40,48 @@ relation:
     - id: W3C NOTE-xmlenc-transform20-20130411
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xmlenc-transform20-20130411
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlenc-transform20-20120313
+    title:
+    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-xmlenc-transform20-20120313/
+      type: src
+    docid:
+    - id: W3C CR-xmlenc-transform20-20120313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-transform20-20120105
+    title:
+    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-xmlenc-transform20-20120105/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-transform20-20120105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-transform20-20110707
+    title:
+    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xmlenc-transform20-20110707/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-transform20-20110707
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: xmlenc-transform20
 ext:

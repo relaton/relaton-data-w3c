@@ -5,7 +5,7 @@ title:
 - content: Analysis of P3P and US Patent 5,862,325
   format: text/plain
 link:
-- content: http://www.w3.org/TR/1999/NOTE-P3P-analysis-19991027
+- content: https://www.w3.org/TR/1999/NOTE-P3P-analysis-19991027
   type: src
 type: standard
 docid:
@@ -27,48 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Barry D. Rein
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel J. Weitzner
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Garland T. Stephens
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henry C. Lebowitz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Joseph Reagle
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -80,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CP3P-analysis
+    title:
+    - content: Analysis of P3P and US Patent 5,862,325
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/P3P-analysis
+      type: src
+    docid:
+    - id: W3C P3P-analysis
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-P3P-analysis-19991027
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

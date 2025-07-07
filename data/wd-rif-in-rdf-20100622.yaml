@@ -5,7 +5,7 @@ title:
 - content: RIF In RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-rif-in-rdf-20100622/
+- content: https://www.w3.org/TR/2010/WD-rif-in-rdf-20100622/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Sandro Hawke
+      given:
+        forename:
+        - content: Sandro
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hawke
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-in-rdf
+    title:
+    - content: RIF In RDF (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-in-rdf/
+      type: src
+    docid:
+    - id: W3C rif-in-rdf
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-rif-in-rdf-20110512
+    title:
+    - content: RIF In RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/NOTE-rif-in-rdf-20110512/
+      type: src
+    docid:
+    - id: W3C NOTE-rif-in-rdf-20110512
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rif-in-rdf-20100622
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

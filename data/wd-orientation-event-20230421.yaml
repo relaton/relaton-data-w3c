@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-orientation-event-20230421/
   type: src
-- content: https://w3c.github.io/deviceorientation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-orientation-event-20230421
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Raphael Kubo da Costa
+      given:
+        forename:
+        - content: Reilly
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grant
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Reilly Grant
+      given:
+        forename:
+        - content: Raphael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kubo da Costa
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Corientation-event
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/orientation-event/
+      type: src
+    docid:
+    - id: W3C orientation-event
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-orientation-event-20230412
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-orientation-event-20230412/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-orientation-event-20230412
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-orientation-event-20230412
+- type: updatedBy
+  bibitem:
+    id: W3CWD-orientation-event-20231107
+    title:
+    - content: DeviceOrientation Event Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231107/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231107
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-orientation-event-20230421
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-unicode-xml-20170713/
   type: src
-- content: https://w3c.github.io/unicode-xml/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-unicode-xml-20170713
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cunicode-xml
+    title:
+    - content: Unicode in XML and other Markup Languages
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/unicode-xml/
+      type: src
+    docid:
+    - id: W3C unicode-xml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-unicode-xml-20160503
+    title:
+    - content: Unicode in XML and other Markup Languages
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/NOTE-unicode-xml-20160503/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C NOTE-unicode-xml-20160503
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-unicode-xml-20160503
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-unicode-xml-20170713
 ext:

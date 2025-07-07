@@ -5,10 +5,8 @@ title:
 - content: Screen Capture
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-screen-capture-20160607/
+- content: https://www.w3.org/TR/2016/WD-screen-capture-20160607/
   type: src
-- content: https://w3c.github.io/mediacapture-screen-share/
-  type: current
 type: standard
 docid:
 - id: W3C WD-screen-capture-20160607
@@ -27,6 +25,40 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Keith
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Griffin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
 revdate: '2016-06-07'
 language:
 - en
@@ -36,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-capture
+    title:
+    - content: Screen Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-capture/
+      type: src
+    docid:
+    - id: W3C screen-capture
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-screen-capture-20150210
+    title:
+    - content: Screen Capture
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-screen-capture-20150210/
+    - content: https://www.w3.org/TR/2015/WD-screen-capture-20150210/
       type: src
     docid:
     - id: W3C WD-screen-capture-20150210
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-screen-capture-20150210
+- type: updatedBy
+  bibitem:
+    id: W3CWD-screen-capture-20160714
+    title:
+    - content: Screen Capture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-screen-capture-20160714/
+      type: src
+    docid:
+    - id: W3C WD-screen-capture-20160714
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-screen-capture-20160607
 ext:

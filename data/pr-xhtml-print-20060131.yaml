@@ -5,7 +5,7 @@ title:
 - content: XHTML-Print
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PR-xhtml-print-20060131/
+- content: https://www.w3.org/TR/2006/PR-xhtml-print-20060131/
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jim Bigelow
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Melinda Grant
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-01-31'
 language:
 - en
@@ -54,22 +34,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-print
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-print/
+      type: src
+    docid:
+    - id: W3C xhtml-print
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xhtml-print-20040120
+    title:
+    - content: XHTML-Print
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/CR-xhtml-print-20040120
+    - content: https://www.w3.org/TR/2004/CR-xhtml-print-20040120
       type: src
     docid:
     - id: W3C CR-xhtml-print-20040120
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xhtml-print-20040120
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml-print-20060920
+    title:
+    - content: XHTML-Print
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/REC-xhtml-print-20060920/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-print-20060920
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xhtml-print-20060131
 ext:

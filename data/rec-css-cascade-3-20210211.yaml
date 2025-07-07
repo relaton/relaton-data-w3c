@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/REC-css-cascade-3-20210211/
   type: src
-- content: https://drafts.csswg.org/css-cascade-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css-cascade-3-20210211
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-cascade-3
+    title:
+    - content: CSS Cascading and Inheritance Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-cascade-3/
+      type: src
+    docid:
+    - id: W3C css-cascade-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css-cascade-3-20201222
+    title:
+    - content: CSS Cascading and Inheritance Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/PR-css-cascade-3-20201222/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-css-cascade-3-20201222
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css-cascade-3-20201222
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-css-cascade-3-20210211-errata.html
-    link:
-    - content: https://www.w3.org/Style/2021/REC-css-cascade-3-20210211-errata.html
-      type: src
-    docid:
-    - id: W3C REC-css-cascade-3-20210211-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-css-cascade-3-20210211-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css-cascade-3-20210211
 ext:
@@ -95,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

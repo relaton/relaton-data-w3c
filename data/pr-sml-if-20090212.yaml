@@ -5,7 +5,7 @@ title:
 - content: Service Modeling Language Interchange Format Version 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/PR-sml-if-20090212/
+- content: https://www.w3.org/TR/2009/PR-sml-if-20090212/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bhalchandra Pandit
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Valentina Popescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Virginia Smith
+      given:
+        forename:
+        - content: Virginia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith
         language:
         - en
         script:
@@ -64,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csml-if
+    title:
+    - content: Service Modeling Language Interchange Format Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sml-if/
+      type: src
+    docid:
+    - id: W3C sml-if
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-sml-if-20081125
+    title:
+    - content: Service Modeling Language Interchange Format Version 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/CR-sml-if-20081125/
+    - content: https://www.w3.org/TR/2008/CR-sml-if-20081125/
       type: src
     docid:
     - id: W3C CR-sml-if-20081125
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-sml-if-20081125
+- type: updatedBy
+  bibitem:
+    id: W3CREC-sml-if-20090512
+    title:
+    - content: Service Modeling Language Interchange Format Version 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/REC-sml-if-20090512/
+      type: src
+    docid:
+    - id: W3C REC-sml-if-20090512
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-sml-if-20090212
 ext:
@@ -87,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Service Modeling Language
+  - name: Service Modeling Language Working Group

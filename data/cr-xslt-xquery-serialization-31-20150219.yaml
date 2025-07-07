@@ -5,7 +5,7 @@ title:
 - content: XSLT and XQuery Serialization 3.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/CR-xslt-xquery-serialization-31-20150219/
+- content: https://www.w3.org/TR/2015/CR-xslt-xquery-serialization-31-20150219/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Coleman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Sperberg-McQueen
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coleman
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslt-xquery-serialization-31
+    title:
+    - content: XSLT and XQuery Serialization 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslt-xquery-serialization-31/
+      type: src
+    docid:
+    - id: W3C xslt-xquery-serialization-31
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xslt-xquery-serialization-31-20141007
+    title:
+    - content: XSLT and XQuery Serialization 3.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-xslt-xquery-serialization-31-20141007/
+    - content: https://www.w3.org/TR/2014/WD-xslt-xquery-serialization-31-20141007/
       type: src
     docid:
     - id: W3C WD-xslt-xquery-serialization-31-20141007
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xslt-xquery-serialization-31-20141007
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xslt-xquery-serialization-31-20151217
+    title:
+    - content: XSLT and XQuery Serialization 3.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/CR-xslt-xquery-serialization-31-20151217/
+      type: src
+    docid:
+    - id: W3C CR-xslt-xquery-serialization-31-20151217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xslt-xquery-serialization-31-20150219
 ext:
@@ -77,5 +103,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

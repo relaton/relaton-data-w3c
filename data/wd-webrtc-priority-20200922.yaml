@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200922/
   type: src
-- content: https://w3c.github.io/webrtc-priority/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webrtc-priority-20200922
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Harald Alvestrand
+      given:
+        forename:
+        - content: Harald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvestrand
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc-priority
+    title:
+    - content: WebRTC Priority Control API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc-priority/
+      type: src
+    docid:
+    - id: W3C webrtc-priority
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webrtc-priority-20200123
+    title:
+    - content: WebRTC Priority Control API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200123/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-webrtc-priority-20200123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webrtc-priority-20200123
+- type: updatedBy
+  bibitem:
+    id: W3CCR-webrtc-priority-20210318
+    title:
+    - content: WebRTC Priority Control API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/
+      type: src
+    docid:
+    - id: W3C CR-webrtc-priority-20210318
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webrtc-priority-20200922
 ext:

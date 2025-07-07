@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-longtasks-1-20170907/
   type: src
-- content: https://w3c.github.io/longtasks/
-  type: current
 type: standard
 docid:
 - id: W3C WD-longtasks-1-20170907
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Domenic Denicola
+      given:
+        forename:
+        - content: Shubhie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Panicker
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shubhie Panicker
+      given:
+        forename:
+        - content: Domenic
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Denicola
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Clongtasks-1
+    title:
+    - content: Long Tasks API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/longtasks-1/
+      type: src
+    docid:
+    - id: W3C longtasks-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-longtasks-1-20230703
+    title:
+    - content: Long Tasks API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-longtasks-1-20230703/
+      type: src
+    docid:
+    - id: W3C WD-longtasks-1-20230703
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-longtasks-1-20170907
 ext:

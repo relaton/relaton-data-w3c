@@ -5,7 +5,7 @@ title:
 - content: Touch Events version 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-touch-events-20130124/
+- content: https://www.w3.org/TR/2013/WD-touch-events-20130124/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Sangwhan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moon
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sangwhan Moon
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -62,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctouch-events
+    title:
+    - content: Touch Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/touch-events/
+      type: src
+    docid:
+    - id: W3C touch-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-touch-events-20111215
+    title:
+    - content: Touch Events version 1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/CR-touch-events-20111215/
+    - content: https://www.w3.org/TR/2011/CR-touch-events-20111215/
       type: src
     docid:
     - id: W3C CR-touch-events-20111215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-touch-events-20111215
+- type: updatedBy
+  bibitem:
+    id: W3CPR-touch-events-20130509
+    title:
+    - content: Touch Events version 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-touch-events-20130509/
+      type: src
+    docid:
+    - id: W3C PR-touch-events-20130509
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-touch-events-20130124
 ext:

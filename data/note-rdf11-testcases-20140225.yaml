@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Lanthaler
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanthaler
         language:
         - en
         script:
@@ -50,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf11-testcases
+    title:
+    - content: RDF 1.1 Test Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf11-testcases/
+      type: src
+    docid:
+    - id: W3C rdf11-testcases
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-rdf11-testcases-20140225
 ext:

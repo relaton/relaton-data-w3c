@@ -5,10 +5,8 @@ title:
 - content: Web Telephony API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-telephony-20130620/
+- content: https://www.w3.org/TR/2013/WD-telephony-20130620/
   type: src
-- content: http://www.w3.org/2012/sysapps/telephony/
-  type: current
 type: standard
 docid:
 - id: W3C WD-telephony-20130620
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eduardo Fullea
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jose Manuel Cantera Fonseca
+      given:
+        forename:
+        - content: Jose Manuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cantera Fonseca
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Eduardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fullea
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zoltan Kis
+      given:
+        forename:
+        - content: Zoltan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kis
         language:
         - en
         script:
@@ -74,10 +100,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctelephony
+    title:
+    - content: Web Telephony API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/telephony/
+      type: src
+    docid:
+    - id: W3C telephony
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-telephony-20150602
+    title:
+    - content: Web Telephony API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-telephony-20150602/
+      type: src
+    docid:
+    - id: W3C NOTE-telephony-20150602
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-telephony-20130620
 ext:

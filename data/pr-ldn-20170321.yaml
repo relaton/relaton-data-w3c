@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/PR-ldn-20170321/
   type: src
-- content: https://linkedresearch.org/ldn/
-  type: current
 type: standard
 docid:
 - id: W3C PR-ldn-20170321
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Sarven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Capadisli
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sarven Capadisli
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldn
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldn/
+      type: src
+    docid:
+    - id: W3C ldn
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ldn-20170223
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-ldn-20170223/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-ldn-20170223
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ldn-20170223
+- type: updatedBy
+  bibitem:
+    id: W3CREC-ldn-20170502
+    title:
+    - content: Linked Data Notifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-ldn-20170502/
+      type: src
+    docid:
+    - id: W3C REC-ldn-20170502
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-ldn-20170321
 ext:

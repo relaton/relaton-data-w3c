@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Scott
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Baggia
+      given:
+        forename:
+        - content: Paolo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baggia
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cccxml
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ccxml/
+      type: src
+    docid:
+    - id: W3C ccxml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ccxml-20110510
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-ccxml-20110510/
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-ccxml-20110510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ccxml-20110510
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cccxml-errata
-    link:
-    - content: https://www.w3.org/2011/07/ccxml-errata
-      type: src
-    docid:
-    - id: W3C ccxml-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ccxml-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ccxml-20110705
 ext:

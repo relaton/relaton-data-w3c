@@ -5,7 +5,7 @@ title:
 - content: SOAP Message Transmission Optimization Mechanism
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-soap12-mtom-20040608/
+- content: https://www.w3.org/TR/2004/WD-soap12-mtom-20040608/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hervé Ruellan
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Nottingham
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nottingham
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-mtom
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-mtom/
+      type: src
+    docid:
+    - id: W3C soap12-mtom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-soap12-mtom-20040209
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-soap12-mtom-20040209/
+    - content: https://www.w3.org/TR/2004/WD-soap12-mtom-20040209/
       type: src
     docid:
     - id: W3C WD-soap12-mtom-20040209
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-soap12-mtom-20040209
+- type: updatedBy
+  bibitem:
+    id: W3CCR-soap12-mtom-20040826
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/CR-soap12-mtom-20040826/
+      type: src
+    docid:
+    - id: W3C CR-soap12-mtom-20040826
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-soap12-mtom-20040608
 ext:

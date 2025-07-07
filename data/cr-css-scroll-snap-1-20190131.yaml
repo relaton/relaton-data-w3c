@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-css-scroll-snap-1-20190131/
   type: src
-- content: https://drafts.csswg.org/css-scroll-snap-1/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-scroll-snap-1-20190131
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rakow
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jacob Rossi
+      given:
+        forename:
+        - content: Jacob
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rossi
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Rakow
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-scroll-snap-1
+    title:
+    - content: CSS Scroll Snap Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-scroll-snap-1/
+      type: src
+    docid:
+    - id: W3C css-scroll-snap-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-scroll-snap-1-20180814
+    title:
+    - content: CSS Scroll Snap Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-css-scroll-snap-1-20180814/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CR-css-scroll-snap-1-20180814
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-scroll-snap-1-20180814
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-scroll-snap-1-20190319
+    title:
+    - content: CSS Scroll Snap Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-css-scroll-snap-1-20190319/
+      type: src
+    docid:
+    - id: W3C CR-css-scroll-snap-1-20190319
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-scroll-snap-1-20190131
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

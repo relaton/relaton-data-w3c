@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Miłowski
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miłowski
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Fuller
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fuller
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -62,10 +83,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxproc-v2-req
+    title:
+    - content: XProc V2.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xproc-v2-req/
+      type: src
+    docid:
+    - id: W3C xproc-v2-req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-xproc-v2-req-20131105
 ext:

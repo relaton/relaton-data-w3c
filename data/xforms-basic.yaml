@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Candidate Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CCR-xforms-basic-20031014
+    title:
+    - content: XForms 1.0 Basic Profile
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/CR-xforms-basic-20031014/
       type: src
@@ -40,12 +40,139 @@ relation:
     - id: W3C CR-xforms-basic-20031014
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xforms-basic-20031014
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xforms-20021112
+    title:
+    - content: XForms 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/CR-xforms-20021112/
+      type: src
+    docid:
+    - id: W3C CR-xforms-20021112
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20020821
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xforms-20020821/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20020821
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20020118
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xforms-20020118/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20020118
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20011207
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xforms-20011207/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20011207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20010828
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xforms-20010828/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20010828
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20010608
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xforms-20010608/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20010608
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20010216
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xforms-20010216/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20010216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-20001219
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xforms-20001219/
+      type: src
+    docid:
+    - id: W3C WD-xforms-20001219
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-datamodel-20000815
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xforms-datamodel-20000815/
+      type: src
+    docid:
+    - id: W3C WD-xforms-datamodel-20000815
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xforms-datamodel-20000406
+    title:
+    - content: XForms 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xforms-datamodel-20000406
+      type: src
+    docid:
+    - id: W3C WD-xforms-datamodel-20000406
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C CR
+    content: W3C technicalReport
     format: text/plain
   number: xforms-basic
 ext:

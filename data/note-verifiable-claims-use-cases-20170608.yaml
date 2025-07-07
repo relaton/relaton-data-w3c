@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-verifiable-claims-use-cases-20170608/
   type: src
-- content: https://w3c.github.io/vc-use-cases/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-verifiable-claims-use-cases-20170608
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brian Sletten
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Burnett
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sletten
         language:
         - en
         script:
@@ -59,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -82,9 +98,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-use-cases
+    title:
+    - content: Verifiable Credentials Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-use-cases/
+      type: src
+    docid:
+    - id: W3C vc-use-cases
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-vc-use-cases-20190924
+    title:
+    - content: Verifiable Credentials Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-vc-use-cases-20190924/
+      type: src
+    docid:
+    - id: W3C NOTE-vc-use-cases-20190924
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-verifiable-claims-use-cases-20170608
 ext:

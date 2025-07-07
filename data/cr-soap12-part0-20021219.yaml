@@ -5,7 +5,7 @@ title:
 - content: 'SOAP Version 1.2 Part 0: Primer'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/CR-soap12-part0-20021219
+- content: https://www.w3.org/TR/2002/CR-soap12-part0-20021219
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nilo Mitra
+      given:
+        forename:
+        - content: Nilo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mitra
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-part0
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-part0/
+      type: src
+    docid:
+    - id: W3C soap12-part0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-soap12-part0-20020626
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-soap12-part0-20020626
+    - content: https://www.w3.org/TR/2002/WD-soap12-part0-20020626
       type: src
     docid:
     - id: W3C WD-soap12-part0-20020626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-soap12-part0-20020626
+- type: updatedBy
+  bibitem:
+    id: W3CPR-soap12-part0-20030507
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PR-soap12-part0-20030507/
+      type: src
+    docid:
+    - id: W3C PR-soap12-part0-20030507
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-soap12-part0-20021219
 ext:

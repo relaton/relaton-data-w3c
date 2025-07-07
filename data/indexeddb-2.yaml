@@ -26,78 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-IndexedDB-2-20160818
-    link:
-    - content: https://www.w3.org/TR/2016/WD-IndexedDB-2-20160818/
-      type: src
-    docid:
-    - id: W3C WD-IndexedDB-2-20160818
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-IndexedDB-2-20160818
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-IndexedDB-2-20161101
-    link:
-    - content: https://www.w3.org/TR/2016/WD-IndexedDB-2-20161101/
-      type: src
-    docid:
-    - id: W3C WD-IndexedDB-2-20161101
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-IndexedDB-2-20161101
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-IndexedDB-2-20170313
-    link:
-    - content: https://www.w3.org/TR/2017/WD-IndexedDB-2-20170313/
-      type: src
-    docid:
-    - id: W3C WD-IndexedDB-2-20170313
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-IndexedDB-2-20170313
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-IndexedDB-2-20170810
-    link:
-    - content: https://www.w3.org/TR/2017/CR-IndexedDB-2-20170810/
-      type: src
-    docid:
-    - id: W3C CR-IndexedDB-2-20170810
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-IndexedDB-2-20170810
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-IndexedDB-2-20171116
-    link:
-    - content: https://www.w3.org/TR/2017/PR-IndexedDB-2-20171116/
-      type: src
-    docid:
-    - id: W3C PR-IndexedDB-2-20171116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-IndexedDB-2-20171116
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-IndexedDB-2-20180130
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/REC-IndexedDB-2-20180130/
       type: src
@@ -105,12 +40,87 @@ relation:
     - id: W3C REC-IndexedDB-2-20180130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-IndexedDB-2-20180130
+- type: hasEdition
+  bibitem:
+    id: W3CPR-IndexedDB-2-20171116
+    title:
+    - content: Indexed Database API 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/PR-IndexedDB-2-20171116/
+      type: src
+    docid:
+    - id: W3C PR-IndexedDB-2-20171116
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-IndexedDB-2-20170810
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-IndexedDB-2-20170810/
+      type: src
+    docid:
+    - id: W3C CR-IndexedDB-2-20170810
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-IndexedDB-2-20170804
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-IndexedDB-2-20170804/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-2-20170804
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-IndexedDB-2-20170313
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-IndexedDB-2-20170313/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-2-20170313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-IndexedDB-2-20161101
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-IndexedDB-2-20161101/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-2-20161101
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-IndexedDB-2-20160818
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-IndexedDB-2-20160818/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-2-20160818
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: IndexedDB-2
 ext:

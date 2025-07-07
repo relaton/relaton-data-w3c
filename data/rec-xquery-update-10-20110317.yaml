@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniela Florescu
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Chamberlin
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerome Simeon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Dyck
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -94,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-update-10
+    title:
+    - content: XQuery Update Facility 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-update-10/
+      type: src
+    docid:
+    - id: W3C xquery-update-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xquery-update-10-20110125
+    title:
+    - content: XQuery Update Facility 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-xquery-update-10-20110125/
       type: src
@@ -104,28 +111,9 @@ relation:
     - id: W3C PR-xquery-update-10-20110125
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xquery-update-10-20110125
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxquery-update-10-errata.html
-    link:
-    - content: https://www.w3.org/XML/2012/qt-errata/xquery-update-10-errata.html
-      type: src
-    docid:
-    - id: W3C xquery-update-10-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xquery-update-10-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xquery-update-10-20110317
 ext:

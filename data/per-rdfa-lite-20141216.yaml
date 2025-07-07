@@ -5,7 +5,7 @@ title:
 - content: RDFa Lite 1.1 - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PER-rdfa-lite-20141216/
+- content: https://www.w3.org/TR/2014/PER-rdfa-lite-20141216/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -46,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-rdfa-lite-20120607
+    id: W3Crdfa-lite
+    title:
+    - content: RDFa Lite 1.1 - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/REC-rdfa-lite-20120607/
+    - content: https://www.w3.org/TR/rdfa-lite/
       type: src
     docid:
-    - id: W3C REC-rdfa-lite-20120607
+    - id: W3C rdfa-lite
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-rdfa-lite-20120607
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rdfa-lite-20150317
+    title:
+    - content: RDFa Lite 1.1 - Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-rdfa-lite-20150317/
+      type: src
+    docid:
+    - id: W3C REC-rdfa-lite-20150317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-rdfa-lite-20141216
 ext:

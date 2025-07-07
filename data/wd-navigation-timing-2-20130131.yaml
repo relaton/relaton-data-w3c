@@ -5,7 +5,7 @@ title:
 - content: Navigation Timing 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-navigation-timing-2-20130131/
+- content: https://www.w3.org/TR/2013/WD-navigation-timing-2-20130131/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arvind Jain
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Arvind
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jain
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnavigation-timing-2
+    title:
+    - content: Navigation Timing Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/navigation-timing-2/
+      type: src
+    docid:
+    - id: W3C navigation-timing-2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-navigation-timing-2-20140325
+    title:
+    - content: Navigation Timing 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-navigation-timing-2-20140325/
+      type: src
+    docid:
+    - id: W3C WD-navigation-timing-2-20140325
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-navigation-timing-2-20130131
 ext:

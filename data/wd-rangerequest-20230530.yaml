@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-RangeRequest-20230530/
   type: src
-- content: https://w3c.github.io/IFT/RangeRequest.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-RangeRequest-20230530
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Garret Rieger
+      given:
+        forename:
+        - content: Garret
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rieger
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Myles Maxfield
+      given:
+        forename:
+        - content: Myles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maxfield
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CRangeRequest
+    title:
+    - content: Range Request Incremental Font Transfer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/RangeRequest/
+      type: src
+    docid:
+    - id: W3C RangeRequest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-RangeRequest-20220125
+    title:
+    - content: Incremental Font Transfer via Range Request
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-RangeRequest-20220125/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-RangeRequest-20220125
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-RangeRequest-20220125
+- type: updatedBy
+  bibitem:
+    id: W3CDISC-RangeRequest-20241210
+    title:
+    - content: Range Request Incremental Font Transfer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DISC-RangeRequest-20241210/
+      type: src
+    docid:
+    - id: W3C DISC-RangeRequest-20241210
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-RangeRequest-20230530
 ext:

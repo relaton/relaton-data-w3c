@@ -8,8 +8,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/NOTE-klreq-20200527/
   type: src
-- content: https://w3c.github.io/klreq/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-klreq-20200527
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -43,10 +48,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cklreq
+    title:
+    - content: 'Requirements for Hangul Text Layout and Typography : 한국어 텍스트 레이아웃
+        및 타이포그래피를 위한 요구사항'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/klreq/
+      type: src
+    docid:
+    - id: W3C klreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-klreq-20150723
+    title:
+    - content: Requirements for Hangul Text Layout and Typography 한국어 텍스트 레이아웃 및 타이포그래피를
+        위한 요구사항
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-klreq-20150723/
       type: src
@@ -54,12 +80,9 @@ relation:
     - id: W3C WD-klreq-20150723
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-klreq-20150723
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-klreq-20200527
 ext:

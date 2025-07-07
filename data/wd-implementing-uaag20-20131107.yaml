@@ -5,10 +5,8 @@ title:
 - content: Implementing UAAG 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20131107/
+- content: https://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20131107/
   type: src
-- content: http://www.w3.org/WAI/UA/IMPLEMENTING-UAAG20/
-  type: current
 type: standard
 docid:
 - id: W3C WD-IMPLEMENTING-UAAG20-20131107
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Allan
+      given:
+        forename:
+        - content: Kelly
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ford
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeanne F Spellman
+      given:
+        forename:
+        - content: Kimberly
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patch
         language:
         - en
         script:
@@ -49,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kelly Ford
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kimberly Patch
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -76,22 +85,53 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CUAAG20-Reference
+    title:
+    - content: 'UAAG 2.0 Reference: Explanations, Examples, and Resources for User
+        Agent Accessibility Guidelines 2.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/UAAG20-Reference/
+      type: src
+    docid:
+    - id: W3C UAAG20-Reference
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-IMPLEMENTING-UAAG20-20130606
+    title:
+    - content: Implementing UAAG 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20130606/
+    - content: https://www.w3.org/TR/2013/WD-IMPLEMENTING-UAAG20-20130606/
       type: src
     docid:
     - id: W3C WD-IMPLEMENTING-UAAG20-20130606
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-IMPLEMENTING-UAAG20-20130606
+- type: updatedBy
+  bibitem:
+    id: W3CWD-UAAG20-Reference-20140925
+    title:
+    - content: 'UAAG 2.0 Reference: Explanations, Examples, and Resources for User
+        Agent Accessibility Guidelines 2.0'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-UAAG20-Reference-20140925/
+      type: src
+    docid:
+    - id: W3C WD-UAAG20-Reference-20140925
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-IMPLEMENTING-UAAG20-20131107
 ext:

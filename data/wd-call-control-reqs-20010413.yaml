@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Brandon Porter
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2001-04-13'
 language:
 - en
@@ -42,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccall-control-reqs
+    title:
+    - content: Call Control Requirements in a Voice Browser Framework
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/call-control-reqs/
+      type: src
+    docid:
+    - id: W3C call-control-reqs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-call-control-reqs-20010413
 ext:

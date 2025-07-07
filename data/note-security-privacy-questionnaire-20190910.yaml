@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-security-privacy-questionnaire-20190910/
   type: src
-- content: https://w3ctag.github.io/security-questionnaire/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-security-privacy-questionnaire-20190910
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jason Novak
+      given:
+        forename:
+        - content: Lukasz
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Olejnik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lukasz Olejnik
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Novak
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csecurity-privacy-questionnaire
+    title:
+    - content: 'Self-Review Questionnaire: Security and Privacy'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/security-privacy-questionnaire/
+      type: src
+    docid:
+    - id: W3C security-privacy-questionnaire
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-security-privacy-questionnaire-20190523
+    title:
+    - content: 'Self-Review Questionnaire: Security and Privacy'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/NOTE-security-privacy-questionnaire-20190523/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C NOTE-security-privacy-questionnaire-20190523
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-security-privacy-questionnaire-20190523
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-security-privacy-questionnaire-20200508
+    title:
+    - content: 'Self-Review Questionnaire: Security and Privacy'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-security-privacy-questionnaire-20200508/
+      type: src
+    docid:
+    - id: W3C NOTE-security-privacy-questionnaire-20200508
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-security-privacy-questionnaire-20190910
 ext:

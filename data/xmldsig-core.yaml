@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xmldsig-core-20020212
-    link:
-    - content: https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/
-      type: src
-    docid:
-    - id: W3C REC-xmldsig-core-20020212
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xmldsig-core-20020212
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-xmldsig-core-20080610
+    title:
+    - content: XML Signature Syntax and Processing (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/REC-xmldsig-core-20080610/
       type: src
@@ -53,12 +40,204 @@ relation:
     - id: W3C REC-xmldsig-core-20080610
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xmldsig-core-20080610
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xmldsig-core-20080326
+    title:
+    - content: XML Signature Syntax and Processing (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/PER-xmldsig-core-20080326/
+      type: src
+    docid:
+    - id: W3C PER-xmldsig-core-20080326
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xmldsig-core-20020212
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/
+      type: src
+    docid:
+    - id: W3C REC-xmldsig-core-20020212
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xmldsig-core-20010820
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/PR-xmldsig-core-20010820/
+      type: src
+    docid:
+    - id: W3C PR-xmldsig-core-20010820
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmldsig-core-20010419
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/CR-xmldsig-core-20010419/
+      type: src
+    docid:
+    - id: W3C CR-xmldsig-core-20010419
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmldsig-core-20001031
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/CR-xmldsig-core-20001031/
+      type: src
+    docid:
+    - id: W3C CR-xmldsig-core-20001031
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20001012
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20001012/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20001012
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000918
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20000918/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000918
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000711
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20000711/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000711
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000601
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20000601/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000601
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000510
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20000510/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000510
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000228
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20000228/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000228
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000208
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmldsig-core-20000208/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000203
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/Signature/Drafts/WD-xmldsig-core-20000203/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000203
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000128
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/Signature/Drafts/WD-xmldsig-core-20000128/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000128
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmldsig-core-20000114
+    title:
+    - content: XML-Signature Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/Signature/Drafts/WD-xmldsig-core-20000114/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-core-20000114
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xmldsig-core
 ext:

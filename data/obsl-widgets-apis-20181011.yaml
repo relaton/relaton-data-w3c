@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-apis
+    title:
+    - content: Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-apis/
+      type: src
+    docid:
+    - id: W3C widgets-apis
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-widgets-apis-20131031
+    title:
+    - content: Widget Interface
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-widgets-apis-20131031/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C REC-widgets-apis-20131031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-widgets-apis-20131031
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: OBSL-widgets-apis-20181011
 ext:
@@ -67,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-css-nesting-1-20210831/
   type: src
-- content: https://drafts.csswg.org/css-nesting/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-nesting-1-20210831
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Argyle
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Argyle
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-nesting-1
+    title:
+    - content: CSS Nesting Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-nesting-1/
+      type: src
+    docid:
+    - id: W3C css-nesting-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-nesting-1-20230214
+    title:
+    - content: CSS Nesting Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-css-nesting-1-20230214/
+      type: src
+    docid:
+    - id: W3C WD-css-nesting-1-20230214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-css-nesting-1-20210831
 ext:
@@ -65,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

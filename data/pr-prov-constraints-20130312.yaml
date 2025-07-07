@@ -5,7 +5,7 @@ title:
 - content: Constraints of the PROV Data Model
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-prov-constraints-20130312/
+- content: https://www.w3.org/TR/2013/PR-prov-constraints-20130312/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Cheney
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Luc Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Missier
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cheney
         language:
         - en
         script:
@@ -64,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-constraints
+    title:
+    - content: Constraints of the PROV Data Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-constraints/
+      type: src
+    docid:
+    - id: W3C prov-constraints
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-prov-constraints-20121211
+    title:
+    - content: Constraints of the PROV Data Model
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-prov-constraints-20121211/
+    - content: https://www.w3.org/TR/2012/CR-prov-constraints-20121211/
       type: src
     docid:
     - id: W3C CR-prov-constraints-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-prov-constraints-20121211
+- type: updatedBy
+  bibitem:
+    id: W3CREC-prov-constraints-20130430
+    title:
+    - content: Constraints of the PROV Data Model
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-prov-constraints-20130430/
+      type: src
+    docid:
+    - id: W3C REC-prov-constraints-20130430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-prov-constraints-20130312
 ext:

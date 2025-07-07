@@ -5,7 +5,7 @@ title:
 - content: XML Path Language (XPath) 3.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-xpath-31-20140424/
+- content: https://www.w3.org/TR/2014/WD-xpath-31-20140424/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Dyck
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -52,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-31
+    title:
+    - content: XML Path Language (XPath) 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-31/
+      type: src
+    docid:
+    - id: W3C xpath-31
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xpath-31-20141007
+    title:
+    - content: XML Path Language (XPath) 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-xpath-31-20141007/
+      type: src
+    docid:
+    - id: W3C WD-xpath-31-20141007
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-xpath-31-20140424
 ext:
@@ -63,5 +107,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

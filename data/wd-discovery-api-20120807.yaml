@@ -5,7 +5,7 @@ title:
 - content: Networked Service Discovery and Messaging
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-discovery-api-20120807/
+- content: https://www.w3.org/TR/2012/WD-discovery-api-20120807/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Clarke Stevens
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tibbett
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Tibbett
+      given:
+        forename:
+        - content: Clarke
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stevens
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdiscovery-api
+    title:
+    - content: Network Service Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/discovery-api/
+      type: src
+    docid:
+    - id: W3C discovery-api
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-discovery-api-20121004
+    title:
+    - content: Network Service Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-discovery-api-20121004/
+      type: src
+    docid:
+    - id: W3C WD-discovery-api-20121004
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-discovery-api-20120807
 ext:

@@ -5,7 +5,7 @@ title:
 - content: CSSOM View Module
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-cssom-view-20110804/
+- content: https://www.w3.org/TR/2011/WD-cssom-view-20110804/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccssom-view-1
+    title:
+    - content: CSSOM View Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cssom-view-1/
+      type: src
+    docid:
+    - id: W3C cssom-view-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-cssom-view-20090804
+    title:
+    - content: CSSOM View Module
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-cssom-view-20090804/
+    - content: https://www.w3.org/TR/2009/WD-cssom-view-20090804/
       type: src
     docid:
     - id: W3C WD-cssom-view-20090804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-cssom-view-20090804
+- type: updatedBy
+  bibitem:
+    id: W3CWD-cssom-view-20131217
+    title:
+    - content: CSSOM View Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-cssom-view-20131217/
+      type: src
+    docid:
+    - id: W3C WD-cssom-view-20131217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-cssom-view-20110804
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-dx-prof-20181218/
   type: src
-- content: https://w3c.github.io/dxwg/profilesont/
-  type: current
 type: standard
 docid:
 - id: W3C WD-dx-prof-20181218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nicholas Car
+      given:
+        forename:
+        - content: Rob
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkinson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rob Atkinson
+      given:
+        forename:
+        - content: Nicholas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Car
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdx-prof
+    title:
+    - content: The Profiles Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dx-prof/
+      type: src
+    docid:
+    - id: W3C dx-prof
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dx-prof-20190402
+    title:
+    - content: The Profiles Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-dx-prof-20190402/
+      type: src
+    docid:
+    - id: W3C WD-dx-prof-20190402
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-dx-prof-20181218
 ext:

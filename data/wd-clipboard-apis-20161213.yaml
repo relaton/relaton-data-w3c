@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-clipboard-apis-20161213/
   type: src
-- content: https://w3c.github.io/clipboard-apis/
-  type: current
 type: standard
 docid:
 - id: W3C WD-clipboard-apis-20161213
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hallvord Steen
+      given:
+        forename:
+        - content: Hallvord
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steen
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclipboard-apis
+    title:
+    - content: Clipboard API and events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clipboard-apis/
+      type: src
+    docid:
+    - id: W3C clipboard-apis
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-clipboard-apis-20160403
+    title:
+    - content: Clipboard API and events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-clipboard-apis-20160403/
+    - content: https://www.w3.org/TR/2016/WD-clipboard-apis-20160403/
       type: src
     docid:
     - id: W3C WD-clipboard-apis-20160403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-clipboard-apis-20160403
+- type: updatedBy
+  bibitem:
+    id: W3CWD-clipboard-apis-20170929
+    title:
+    - content: Clipboard API and events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-clipboard-apis-20170929/
+      type: src
+    docid:
+    - id: W3C WD-clipboard-apis-20170929
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-clipboard-apis-20161213
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

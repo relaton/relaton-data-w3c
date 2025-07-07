@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/
   type: src
-- content: https://w3c.github.io/aria/
-  type: current
 type: standard
 docid:
 - id: W3C REC-wai-aria-1.1-20171214
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Craig
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Craig
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-1.1
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-1.1/
+      type: src
+    docid:
+    - id: W3C wai-aria-1.1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wai-aria-1.1-20171102
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-wai-aria-1.1-20171102/
       type: src
@@ -96,28 +145,9 @@ relation:
     - id: W3C PR-wai-aria-1.1-20171102
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wai-aria-1.1-20171102
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Caria
-    link:
-    - content: https://www.w3.org/WAI/ARIA/1.1/errata/aria
-      type: src
-    docid:
-    - id: W3C aria
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C aria
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wai-aria-1.1-20171214
 ext:

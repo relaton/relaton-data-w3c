@@ -5,7 +5,7 @@ title:
 - content: CSS Print Profile
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-css-print-20061013
+- content: https://www.w3.org/TR/2006/WD-css-print-20061013/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Melinda Grant
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-10-13'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-print
+    title:
+    - content: CSS Print Profile
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-print/
+      type: src
+    docid:
+    - id: W3C css-print
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-print-20040225
+    title:
+    - content: CSS Print Profile
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/CR-css-print-20040225
+    - content: https://www.w3.org/TR/2004/CR-css-print-20040225
       type: src
     docid:
     - id: W3C CR-css-print-20040225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-print-20040225
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-css-print-20130314
+    title:
+    - content: CSS Print Profile
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-css-print-20130314/
+      type: src
+    docid:
+    - id: W3C NOTE-css-print-20130314
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-css-print-20061013
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

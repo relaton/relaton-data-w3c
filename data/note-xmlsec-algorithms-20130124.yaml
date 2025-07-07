@@ -5,7 +5,7 @@ title:
 - content: XML Security Algorithm Cross-Reference
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/NOTE-xmlsec-algorithms-20130124/
+- content: https://www.w3.org/TR/2013/NOTE-xmlsec-algorithms-20130124/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kelvin Yiu
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Kelvin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yiu
         language:
         - en
         script:
@@ -60,23 +81,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlsec-algorithms
+    title:
+    - content: XML Security Algorithm Cross-Reference
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlsec-algorithms/
+      type: src
+    docid:
+    - id: W3C xmlsec-algorithms
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlsec-algorithms-20120105
+    title:
+    - content: XML Security Algorithm Cross-Reference
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-xmlsec-algorithms-20120105/
+    - content: https://www.w3.org/TR/2012/WD-xmlsec-algorithms-20120105/
       type: src
     docid:
     - id: W3C WD-xmlsec-algorithms-20120105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlsec-algorithms-20120105
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xmlsec-algorithms-20130411
+    title:
+    - content: XML Security Algorithm Cross-Reference
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-xmlsec-algorithms-20130411/
+      type: src
+    docid:
+    - id: W3C NOTE-xmlsec-algorithms-20130411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmlsec-algorithms-20130124
 ext:

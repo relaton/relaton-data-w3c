@@ -5,7 +5,7 @@ title:
 - content: Evaluation and Report Language (EARL) 1.0 Schema
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-EARL10-Schema-20070323
+- content: https://www.w3.org/TR/2007/WD-EARL10-Schema-20070323
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shadi Abou-Zahra
+      given:
+        forename:
+        - content: Shadi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Abou-Zahra
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CEARL10-Schema
+    title:
+    - content: Evaluation and Report Language (EARL) 1.0 Schema
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/EARL10-Schema/
+      type: src
+    docid:
+    - id: W3C EARL10-Schema
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-EARL10-Schema-20060927
+    title:
+    - content: Evaluation and Report Language (EARL) 1.0 Schema
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-EARL10-Schema-20060927
+    - content: https://www.w3.org/TR/2006/WD-EARL10-Schema-20060927
       type: src
     docid:
     - id: W3C WD-EARL10-Schema-20060927
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-EARL10-Schema-20060927
+- type: updatedBy
+  bibitem:
+    id: W3CWD-EARL10-Schema-20090428
+    title:
+    - content: Evaluation and Report Language (EARL) 1.0 Schema
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-EARL10-Schema-20090428/
+      type: src
+    docid:
+    - id: W3C WD-EARL10-Schema-20090428
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-EARL10-Schema-20070323
 ext:

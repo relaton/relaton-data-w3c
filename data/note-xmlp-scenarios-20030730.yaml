@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: John Ibbotson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-07-30'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlp-scenarios
+    title:
+    - content: SOAP Version 1.2 Usage Scenarios
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlp-scenarios/
+      type: src
+    docid:
+    - id: W3C xmlp-scenarios
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlp-scenarios-20020626
+    title:
+    - content: SOAP Version 1.2 Usage Scenarios
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-xmlp-scenarios-20020626
       type: src
@@ -51,12 +60,9 @@ relation:
     - id: W3C WD-xmlp-scenarios-20020626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlp-scenarios-20020626
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmlp-scenarios-20030730
 ext:

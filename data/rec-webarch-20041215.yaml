@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebarch
+    title:
+    - content: Architecture of the World Wide Web, Volume One
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webarch/
+      type: src
+    docid:
+    - id: W3C webarch
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-webarch-20041105
+    title:
+    - content: Architecture of the World Wide Web, First Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/PR-webarch-20041105/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-webarch-20041105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-webarch-20041105
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: https://www.w3.org/2001/tag/webarch/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-webarch-20041215
 ext:

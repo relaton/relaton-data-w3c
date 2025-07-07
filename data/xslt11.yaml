@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xslt11-20010824
+    title:
+    - content: XSL Transformations (XSLT) Version 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/WD-xslt11-20010824/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-xslt11-20010824
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xslt11-20010824
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xslt11
 ext:

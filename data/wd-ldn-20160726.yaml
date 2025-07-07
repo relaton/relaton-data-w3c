@@ -5,10 +5,8 @@ title:
 - content: Linked Data Notifications
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-ldn-20160726/
+- content: https://www.w3.org/TR/2016/WD-ldn-20160726/
   type: src
-- content: https://linkedresearch.org/ldn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-ldn-20160726
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Sarven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Capadisli
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sarven Capadisli
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldn
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldn/
+      type: src
+    docid:
+    - id: W3C ldn
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ldn-20160824
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-ldn-20160824/
+      type: src
+    docid:
+    - id: W3C WD-ldn-20160824
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-ldn-20160726
 ext:

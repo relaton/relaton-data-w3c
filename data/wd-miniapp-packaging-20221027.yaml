@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-miniapp-packaging-20221027/
   type: src
-- content: https://w3c.github.io/miniapp-packaging/
-  type: current
 type: standard
 docid:
 - id: W3C WD-miniapp-packaging-20221027
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Zhou
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvarez-Espinar
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Alvarez-Espinar
+      given:
+        forename:
+        - content: Qing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: An
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Qing An
+      given:
+        forename:
+        - content: Tengyuan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tengyuan Zhang
+      given:
+        forename:
+        - content: Yongjing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: ZHANG
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yongjing ZHANG
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhou
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cminiapp-packaging
+    title:
+    - content: MiniApp Packaging
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/miniapp-packaging/
+      type: src
+    docid:
+    - id: W3C miniapp-packaging
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-miniapp-packaging-20220729
+    title:
+    - content: MiniApp Packaging
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-miniapp-packaging-20220729/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C WD-miniapp-packaging-20220729
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-miniapp-packaging-20220729
+- type: updatedBy
+  bibitem:
+    id: W3CWD-miniapp-packaging-20230220
+    title:
+    - content: MiniApp Packaging
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-miniapp-packaging-20230220/
+      type: src
+    docid:
+    - id: W3C WD-miniapp-packaging-20230220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-miniapp-packaging-20221027
 ext:

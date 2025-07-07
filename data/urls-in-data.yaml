@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-urls-in-data-20130604
+    title:
+    - content: URLs in Data Primer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-urls-in-data-20130604/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-urls-in-data-20130604
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-urls-in-data-20130604
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: urls-in-data
 ext:

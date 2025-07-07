@@ -5,10 +5,8 @@ title:
 - content: HTML5 Differences from HTML4
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-html5-diff-20140918/
+- content: https://www.w3.org/TR/2014/WD-html5-diff-20140918/
   type: src
-- content: https://rawgit.com/whatwg/html-differences/master/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-html5-diff-20140918
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Simon Pieters
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pieters
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml5-diff
+    title:
+    - content: HTML5 Differences from HTML4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html5-diff/
+      type: src
+    docid:
+    - id: W3C html5-diff
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html5-diff-20130528
+    title:
+    - content: Differences from HTML4
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-html5-diff-20130528/
+    - content: https://www.w3.org/TR/2013/WD-html5-diff-20130528/
       type: src
     docid:
     - id: W3C WD-html5-diff-20130528
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html5-diff-20130528
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-html5-diff-20141209
+    title:
+    - content: HTML5 Differences from HTML4
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-html5-diff-20141209/
+      type: src
+    docid:
+    - id: W3C NOTE-html5-diff-20141209
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html5-diff-20140918
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

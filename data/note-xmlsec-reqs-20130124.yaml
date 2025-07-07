@@ -5,7 +5,7 @@ title:
 - content: XML Security 1.1 Requirements and Design Considerations
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/NOTE-xmlsec-reqs-20130124/
+- content: https://www.w3.org/TR/2013/NOTE-xmlsec-reqs-20130124/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -50,23 +64,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlsec-reqs
+    title:
+    - content: XML Security 1.1 Requirements and Design Considerations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlsec-reqs/
+      type: src
+    docid:
+    - id: W3C xmlsec-reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlsec-reqs-20110303
+    title:
+    - content: XML Security 1.1 Requirements and Design Considerations
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-xmlsec-reqs-20110303/
+    - content: https://www.w3.org/TR/2011/WD-xmlsec-reqs-20110303/
       type: src
     docid:
     - id: W3C WD-xmlsec-reqs-20110303
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlsec-reqs-20110303
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xmlsec-reqs-20130411
+    title:
+    - content: XML Security 1.1 Requirements and Design Considerations
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-xmlsec-reqs-20130411/
+      type: src
+    docid:
+    - id: W3C NOTE-xmlsec-reqs-20130411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmlsec-reqs-20130124
 ext:

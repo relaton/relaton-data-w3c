@@ -5,7 +5,7 @@ title:
 - content: 'Web Security Experience, Indicators and Trust: Scope and Use Cases'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-wsc-usecases-20071101/
+- content: https://www.w3.org/TR/2007/WD-wsc-usecases-20071101/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Tyler Close
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2007-11-01'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsc-usecases
+    title:
+    - content: 'Web Security Experience, Indicators and Trust: Scope and Use Cases'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsc-usecases/
+      type: src
+    docid:
+    - id: W3C wsc-usecases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsc-usecases-20070525
+    title:
+    - content: 'Web Security Experience, Indicators and Trust: Scope and Use Cases'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-wsc-usecases-20070525/
+    - content: https://www.w3.org/TR/2007/WD-wsc-usecases-20070525/
       type: src
     docid:
     - id: W3C WD-wsc-usecases-20070525
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsc-usecases-20070525
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-wsc-usecases-20080306
+    title:
+    - content: 'Web Security Experience, Indicators and Trust: Scope and Use Cases'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/NOTE-wsc-usecases-20080306/
+      type: src
+    docid:
+    - id: W3C NOTE-wsc-usecases-20080306
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-wsc-usecases-20071101
 ext:

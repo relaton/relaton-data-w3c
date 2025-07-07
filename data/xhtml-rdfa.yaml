@@ -26,39 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xhtml-rdfa-20120607
-    link:
-    - content: https://www.w3.org/TR/2012/REC-xhtml-rdfa-20120607/
-      type: src
-    docid:
-    - id: W3C REC-xhtml-rdfa-20120607
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xhtml-rdfa-20120607
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-xhtml-rdfa-20130822
-    link:
-    - content: https://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/
-      type: src
-    docid:
-    - id: W3C REC-xhtml-rdfa-20130822
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xhtml-rdfa-20130822
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-xhtml-rdfa-20150317
+    title:
+    - content: XHTML+RDFa 1.1 - Third Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/REC-xhtml-rdfa-20150317/
       type: src
@@ -66,12 +40,165 @@ relation:
     - id: W3C REC-xhtml-rdfa-20150317
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-rdfa-20150317
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xhtml-rdfa-20141216
+    title:
+    - content: XHTML+RDFa 1.1 - Third Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/PER-xhtml-rdfa-20141216/
+      type: src
+    docid:
+    - id: W3C PER-xhtml-rdfa-20141216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xhtml-rdfa-20130822
+    title:
+    - content: XHTML+RDFa 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-rdfa-20130822
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xhtml-rdfa-20130625
+    title:
+    - content: XHTML+RDFa 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PER-xhtml-rdfa-20130625/
+      type: src
+    docid:
+    - id: W3C PER-xhtml-rdfa-20130625
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xhtml-rdfa-20120607
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/REC-xhtml-rdfa-20120607/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-rdfa-20120607
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xhtml-rdfa-20120508
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-xhtml-rdfa-20120508/
+      type: src
+    docid:
+    - id: W3C PR-xhtml-rdfa-20120508
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xhtml-rdfa-20120313
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-xhtml-rdfa-20120313/
+      type: src
+    docid:
+    - id: W3C CR-xhtml-rdfa-20120313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-rdfa-20120131
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-xhtml-rdfa-20120131/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-20120131
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-rdfa-20111215
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xhtml-rdfa-20111215/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-20111215
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-rdfa-20110331
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xhtml-rdfa-20110331/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-20110331
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-rdfa-20101109
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xhtml-rdfa-20101109/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-20101109
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-rdfa-20100803
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xhtml-rdfa-20100803/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-20100803
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xhtml-rdfa-20100422
+    title:
+    - content: XHTML+RDFa 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xhtml-rdfa-20100422/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-20100422
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xhtml-rdfa
 ext:

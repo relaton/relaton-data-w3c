@@ -5,7 +5,7 @@ title:
 - content: Data Catalog Vocabulary (DCAT)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/
+- content: https://www.w3.org/TR/2013/WD-vocab-dcat-20130312/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Fadi Maali
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Erickson
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Erickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-dcat-1
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-dcat-1/
+      type: src
+    docid:
+    - id: W3C vocab-dcat-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vocab-dcat-20120405
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-vocab-dcat-20120405/
+    - content: https://www.w3.org/TR/2012/WD-vocab-dcat-20120405/
       type: src
     docid:
     - id: W3C WD-vocab-dcat-20120405
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-20120405
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vocab-dcat-20130801
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-vocab-dcat-20130801/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20130801
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-vocab-dcat-20130312
 ext:

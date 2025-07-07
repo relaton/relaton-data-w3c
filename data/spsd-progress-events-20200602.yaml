@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/SPSD-progress-events-20200602/
   type: src
-- content: https://xhr.spec.whatwg.org/
-  type: current
 type: standard
 docid:
 - id: W3C SPSD-progress-events-20200602
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chaals Nevile
+      given:
+        forename:
+        - content: Chaals
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nevile
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jungkee Song
+      given:
+        forename:
+        - content: Jungkee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
         language:
         - en
         script:
@@ -64,24 +83,37 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CREC-html32-19970114
+    id: W3Cprogress-events
+    title:
+    - content: Progress Events
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/REC-html32-19970114
+    - content: https://www.w3.org/TR/progress-events/
       type: src
     docid:
-    - id: W3C REC-html32-19970114
+    - id: W3C progress-events
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-html32-19970114
+- type: obsoletes
+  bibitem:
+    id: W3CREC-progress-events-20140211
+    title:
+    - content: Progress Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-progress-events-20140211/
+      type: src
+    docid:
+    - id: W3C REC-progress-events-20140211
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-progress-events-20200602
 ext:
@@ -89,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

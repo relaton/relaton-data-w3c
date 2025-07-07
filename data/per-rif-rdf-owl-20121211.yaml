@@ -5,7 +5,7 @@ title:
 - content: RIF RDF and OWL Compatibility
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PER-rif-rdf-owl-20121211/
+- content: https://www.w3.org/TR/2012/PER-rif-rdf-owl-20121211/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Welty
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jos de Bruijn
+      given:
+        forename:
+        - content: Christopher
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Welty
         language:
         - en
         script:
@@ -56,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-rif-rdf-owl-20100622
+    id: W3Crif-rdf-owl
+    title:
+    - content: RIF RDF and OWL Compatibility (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/REC-rif-rdf-owl-20100622/
+    - content: https://www.w3.org/TR/rif-rdf-owl/
       type: src
     docid:
-    - id: W3C REC-rif-rdf-owl-20100622
+    - id: W3C rif-rdf-owl
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-rif-rdf-owl-20100622
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rif-rdf-owl-20130205
+    title:
+    - content: RIF RDF and OWL Compatibility (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-rif-rdf-owl-20130205/
+      type: src
+    docid:
+    - id: W3C REC-rif-rdf-owl-20130205
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-rif-rdf-owl-20121211
 ext:
@@ -77,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

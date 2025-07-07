@@ -5,7 +5,7 @@ title:
 - content: CSS Backgrounds and Borders Module Level 3
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/CR-css3-background-20110215
+- content: https://www.w3.org/TR/2011/CR-css3-background-20110215/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Brad Kemper
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elika J. Etemad
+      given:
+        forename:
+        - content: Brad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kemper
         language:
         - en
         script:
@@ -62,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-backgrounds-3
+    title:
+    - content: CSS Backgrounds and Borders Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-backgrounds-3/
+      type: src
+    docid:
+    - id: W3C css-backgrounds-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css3-background-20100612
+    title:
+    - content: CSS Backgrounds and Borders Module Level 3
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-css3-background-20100612
+    - content: https://www.w3.org/TR/2010/WD-css3-background-20100612
       type: src
     docid:
     - id: W3C WD-css3-background-20100612
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css3-background-20100612
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css3-background-20120214
+    title:
+    - content: CSS Backgrounds and Borders Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-css3-background-20120214/
+      type: src
+    docid:
+    - id: W3C WD-css3-background-20120214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css3-background-20110215
 ext:
@@ -87,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

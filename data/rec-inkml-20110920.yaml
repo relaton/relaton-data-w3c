@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Stephen Watt
+      given:
+        forename:
+        - content: Stephen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watt
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tom Underhill
+      given:
+        forename:
+        - content: Tom
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Underhill
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CInkML
+    title:
+    - content: Ink Markup Language (InkML)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/InkML/
+      type: src
+    docid:
+    - id: W3C InkML
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-InkML-20110510
+    title:
+    - content: Ink Markup Language (InkML)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-InkML-20110510/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-InkML-20110510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-InkML-20110510
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CInkML-errata.html
-    link:
-    - content: https://www.w3.org/2011/06/InkML-errata.html
-      type: src
-    docid:
-    - id: W3C InkML-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C InkML-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-InkML-20110920
 ext:

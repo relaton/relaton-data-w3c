@@ -5,7 +5,7 @@ title:
 - content: SPARQL Protocol for RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/rdf-sparql-protocol/
+- content: https://www.w3.org/TR/rdf-sparql-protocol/
   type: src
 type: standard
 docid:
@@ -26,78 +26,101 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-sparql-protocol-20050114
+    id: W3CREC-rdf-sparql-protocol-20080115
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050114/
+    - content: https://www.w3.org/TR/2008/REC-rdf-sparql-protocol-20080115/
       type: src
     docid:
-    - id: W3C WD-rdf-sparql-protocol-20050114
+    - id: W3C REC-rdf-sparql-protocol-20080115
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-sparql-protocol-20050114
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CWD-rdf-sparql-protocol-20050914
-    link:
-    - content: http://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050914/
-      type: src
-    docid:
-    - id: W3C WD-rdf-sparql-protocol-20050914
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rdf-sparql-protocol-20050914
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-rdf-sparql-protocol-20060125
-    link:
-    - content: http://www.w3.org/TR/2006/WD-rdf-sparql-protocol-20060125/
-      type: src
-    docid:
-    - id: W3C WD-rdf-sparql-protocol-20060125
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-rdf-sparql-protocol-20060125
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-rdf-sparql-protocol-20060406
-    link:
-    - content: http://www.w3.org/TR/2006/CR-rdf-sparql-protocol-20060406/
-      type: src
-    docid:
-    - id: W3C CR-rdf-sparql-protocol-20060406
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-rdf-sparql-protocol-20060406
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CPR-rdf-sparql-protocol-20071112
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/PR-rdf-sparql-protocol-20071112/
+    - content: https://www.w3.org/TR/2007/PR-rdf-sparql-protocol-20071112/
       type: src
     docid:
     - id: W3C PR-rdf-sparql-protocol-20071112
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rdf-sparql-protocol-20071112
+- type: hasEdition
+  bibitem:
+    id: W3CCR-rdf-sparql-protocol-20060406
+    title:
+    - content: SPARQL Protocol for RDF
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/CR-rdf-sparql-protocol-20060406/
+      type: src
+    docid:
+    - id: W3C CR-rdf-sparql-protocol-20060406
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-sparql-protocol-20060125
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-rdf-sparql-protocol-20060125/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-protocol-20060125
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-sparql-protocol-20050914
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050914/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-protocol-20050914
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-sparql-protocol-20050527
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050527/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-protocol-20050527
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-sparql-protocol-20050114
+    title:
+    - content: SPARQL Protocol for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-protocol-20050114/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-protocol-20050114
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: rdf-sparql-protocol
 ext:

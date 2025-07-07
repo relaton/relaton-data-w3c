@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-latn-hu-gap-20230614/
   type: src
-- content: https://w3c.github.io/eurlreq/gap-analysis/latn-hu-gap
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-latn-hu-gap-20230614
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Clatn-hu-gap
+    title:
+    - content: Hungarian Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/latn-hu-gap/
+      type: src
+    docid:
+    - id: W3C latn-hu-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-latn-hu-gap-20220119
+    title:
+    - content: Hungarian Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-latn-hu-gap-20220119/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C DNOTE-latn-hu-gap-20220119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-latn-hu-gap-20220119
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-latn-hu-gap-20240724
+    title:
+    - content: Hungarian Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-latn-hu-gap-20240724/
+      type: src
+    docid:
+    - id: W3C DNOTE-latn-hu-gap-20240724
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-latn-hu-gap-20230614
 ext:

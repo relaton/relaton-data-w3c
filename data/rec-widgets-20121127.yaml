@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -44,9 +51,27 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets
+    title:
+    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+        Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets/
+      type: src
+    docid:
+    - id: W3C widgets
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-widgets-20120925
+    title:
+    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+        Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PER-widgets-20120925/
       type: src
@@ -54,41 +79,26 @@ relation:
     - id: W3C PER-widgets-20120925
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-widgets-20120925
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cerrata.html
+    id: W3COBSL-widgets-20181011
+    title:
+    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+        Edition)
+      format: text/plain
     link:
-    - content: http://dev.w3.org/2006/waf/widgets/errata.html
+    - content: https://www.w3.org/TR/2018/OBSL-widgets-20181011/
       type: src
     docid:
-    - id: W3C errata.html
+    - id: W3C OBSL-widgets-20181011
       type: W3C
       primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-widgets-20110927
-    link:
-    - content: https://www.w3.org/TR/2011/REC-widgets-20110927/
-      type: src
-    docid:
-    - id: W3C REC-widgets-20110927
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-widgets-20110927
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-widgets-20121127
 ext:
@@ -96,4 +106,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

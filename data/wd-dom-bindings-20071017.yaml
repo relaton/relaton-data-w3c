@@ -5,7 +5,7 @@ title:
 - content: Language Bindings for DOM Specifications
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-DOM-Bindings-20071017/
+- content: https://www.w3.org/TR/2007/WD-DOM-Bindings-20071017/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWebIDL-1
+    title:
+    - content: WebIDL Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WebIDL-1/
+      type: src
+    docid:
+    - id: W3C WebIDL-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-DOM-Bindings-20080410
+    title:
+    - content: Language Bindings for DOM Specifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-DOM-Bindings-20080410/
+      type: src
+    docid:
+    - id: W3C WD-DOM-Bindings-20080410
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-DOM-Bindings-20071017
 ext:

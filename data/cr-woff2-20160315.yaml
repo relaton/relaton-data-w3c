@@ -5,10 +5,8 @@ title:
 - content: WOFF File Format 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/CR-WOFF2-20160315/
+- content: https://www.w3.org/TR/2016/CR-WOFF2-20160315/
   type: src
-- content: https://dev.w3.org/webfonts/WOFF2/spec/
-  type: current
 type: standard
 docid:
 - id: W3C CR-WOFF2-20160315
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Raph Levien
+      given:
+        forename:
+        - content: Vladimir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Levantovsky
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Vladimir Levantovsky
+      given:
+        forename:
+        - content: Raph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Levien
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWOFF2
+    title:
+    - content: WOFF File Format 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WOFF2/
+      type: src
+    docid:
+    - id: W3C WOFF2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WOFF2-20150414
+    title:
+    - content: WOFF File Format 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-WOFF2-20150414/
+    - content: https://www.w3.org/TR/2015/WD-WOFF2-20150414/
       type: src
     docid:
     - id: W3C WD-WOFF2-20150414
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WOFF2-20150414
+- type: updatedBy
+  bibitem:
+    id: W3CPR-WOFF2-20180111
+    title:
+    - content: WOFF File Format 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/PR-WOFF2-20180111/
+      type: src
+    docid:
+    - id: W3C PR-WOFF2-20180111
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-WOFF2-20160315
 ext:

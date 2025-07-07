@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Felix Sasaki
+      given:
+        forename:
+        - content: Wonsuk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lee
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Stegmaier
+      given:
+        forename:
+        - content: Werner
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bailer
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jean-Pierre EVAIN
+      given:
+        forename:
+        - content: Tobias
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bürger
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joakim Söderberg
+      given:
+        forename:
+        - content: Jean-Pierre
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: EVAIN
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Strassner
+      given:
+        forename:
+        - content: Thierry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Michel
         language:
         - en
         script:
@@ -77,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Felix
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sasaki
         language:
         - en
         script:
@@ -87,48 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thierry Michel
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tobias Bürger
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Véronique Malaisé
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Werner Bailer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Wonsuk Lee
+      given:
+        forename:
+        - content: Joakim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Söderberg
         language:
         - en
         script:
@@ -144,9 +153,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaont-10
+    title:
+    - content: Ontology for Media Resources 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaont-10/
+      type: src
+    docid:
+    - id: W3C mediaont-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-mediaont-10-20111129
+    title:
+    - content: Ontology for Media Resources 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-mediaont-10-20111129/
       type: src
@@ -154,28 +179,9 @@ relation:
     - id: W3C PR-mediaont-10-20111129
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-mediaont-10-20111129
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cmediaont-10-errata.html
-    link:
-    - content: https://www.w3.org/2012/01/mediaont-10-errata.html
-      type: src
-    docid:
-    - id: W3C mediaont-10-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C mediaont-10-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-mediaont-10-20120209
 ext:

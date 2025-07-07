@@ -5,7 +5,7 @@ title:
 - content: WOFF File Format 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/CR-WOFF-20110804
+- content: https://www.w3.org/TR/2011/CR-WOFF-20110804/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Erik van Blokland
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kew
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Kew
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tal Leming
+      given:
+        forename:
+        - content: Tal
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leming
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWOFF
+    title:
+    - content: WOFF File Format 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WOFF/
+      type: src
+    docid:
+    - id: W3C WOFF
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WOFF-20101116
+    title:
+    - content: WOFF File Format 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-WOFF-20101116
+    - content: https://www.w3.org/TR/2010/WD-WOFF-20101116
       type: src
     docid:
     - id: W3C WD-WOFF-20101116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WOFF-20101116
+- type: updatedBy
+  bibitem:
+    id: W3CPR-WOFF-20121011
+    title:
+    - content: WOFF File Format 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-WOFF-20121011/
+      type: src
+    docid:
+    - id: W3C PR-WOFF-20121011
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-WOFF-20110804
 ext:

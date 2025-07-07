@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-css-color-adjust-1-20210520/
   type: src
-- content: https://drafts.csswg.org/css-color-adjust-1/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-color-adjust-1-20210520
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rossen Atanassov
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rune Lillesveen
+      given:
+        forename:
+        - content: Rune
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lillesveen
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-color-adjust-1
+    title:
+    - content: CSS Color Adjustment Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-color-adjust-1/
+      type: src
+    docid:
+    - id: W3C css-color-adjust-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-color-adjust-1-20201109
+    title:
+    - content: CSS Color Adjustment Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-css-color-adjust-1-20201109/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-css-color-adjust-1-20201109
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-color-adjust-1-20201109
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-color-adjust-1-20210616
+    title:
+    - content: CSS Color Adjustment Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-css-color-adjust-1-20210616/
+      type: src
+    docid:
+    - id: W3C WD-css-color-adjust-1-20210616
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-color-adjust-1-20210520
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

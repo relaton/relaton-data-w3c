@@ -5,7 +5,7 @@ title:
 - content: Ink Markup Language (InkML)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/CR-InkML-20110111/
+- content: https://www.w3.org/TR/2011/CR-InkML-20110111/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Stephen M. Watt
+      given:
+        forename:
+        - content: Stephen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watt
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tom Underhill
+      given:
+        forename:
+        - content: Tom
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Underhill
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CInkML
+    title:
+    - content: Ink Markup Language (InkML)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/InkML/
+      type: src
+    docid:
+    - id: W3C InkML
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-InkML-20100527
+    title:
+    - content: Ink Markup Language (InkML)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-InkML-20100527/
+    - content: https://www.w3.org/TR/2010/WD-InkML-20100527/
       type: src
     docid:
     - id: W3C WD-InkML-20100527
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-InkML-20100527
+- type: updatedBy
+  bibitem:
+    id: W3CPR-InkML-20110510
+    title:
+    - content: Ink Markup Language (InkML)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-InkML-20110510/
+      type: src
+    docid:
+    - id: W3C PR-InkML-20110510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-InkML-20110111
 ext:

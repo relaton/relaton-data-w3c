@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CSPSD-user-timing-1-20190226
+    title:
+    - content: User Timing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/SPSD-user-timing-1-20190226/
       type: src
@@ -40,12 +40,87 @@ relation:
     - id: W3C SPSD-user-timing-1-20190226
       type: W3C
       primary: true
-    formattedref:
-      content: W3C SPSD-user-timing-1-20190226
+- type: hasEdition
+  bibitem:
+    id: W3CREC-user-timing-20131212
+    title:
+    - content: User Timing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-user-timing-20131212/
+      type: src
+    docid:
+    - id: W3C REC-user-timing-20131212
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-user-timing-20131031
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-user-timing-20131031/
+      type: src
+    docid:
+    - id: W3C PR-user-timing-20131031
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-user-timing-20120726
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-user-timing-20120726/
+      type: src
+    docid:
+    - id: W3C CR-user-timing-20120726
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-20120508
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-user-timing-20120508/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-20120508
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-20110901
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-user-timing-20110901/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-20110901
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-20110811
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-user-timing-20110811/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-20110811
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: user-timing-1
 ext:

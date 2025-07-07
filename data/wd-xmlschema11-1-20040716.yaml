@@ -5,7 +5,7 @@ title:
 - content: 'XML Schema 1.1 Part 1: Structures'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-xmlschema11-1-20040716/
+- content: https://www.w3.org/TR/2004/WD-xmlschema11-1-20040716/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Beech
+      given:
+        forename:
+        - content: Murray
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maloney
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henry S. Thompson
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Murray Maloney
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -73,9 +84,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema11-1
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema11-1/
+      type: src
+    docid:
+    - id: W3C xmlschema11-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmlschema11-1-20050224
+    title:
+    - content: 'XML Schema 1.1 Part 1: Structures'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xmlschema11-1-20050224/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema11-1-20050224
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlschema11-1-20040716
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-ctaur-20221108/
   type: src
-- content: https://w3c.github.io/ctaur/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-ctaur-20221108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jason White
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: White
         language:
         - en
         script:
@@ -42,9 +47,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cctaur
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ctaur/
+      type: src
+    docid:
+    - id: W3C ctaur
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-ctaur-20231024
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-ctaur-20231024/
+      type: src
+    docid:
+    - id: W3C DNOTE-ctaur-20231024
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-ctaur-20221108
 ext:
@@ -52,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

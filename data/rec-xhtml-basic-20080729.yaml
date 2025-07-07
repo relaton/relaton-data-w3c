@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Baker
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baker
         language:
         - en
         script:
@@ -37,48 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Stark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shinichi Matsui
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ted Wugofski
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Toshihiko Yamakami
+      given:
+        forename:
+        - content: Toshihiko
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yamakami
         language:
         - en
         script:
@@ -94,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-basic
+    title:
+    - content: XHTML™ Basic 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-basic/
+      type: src
+    docid:
+    - id: W3C xhtml-basic
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xhtml-basic-20080611
+    title:
+    - content: XHTML™ Basic 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-xhtml-basic-20080611
       type: src
@@ -104,41 +94,9 @@ relation:
     - id: W3C PR-xhtml-basic-20080611
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xhtml-basic-20080611
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-xhtml-basic-20080729-errata
-    link:
-    - content: https://www.w3.org/2008/07/REC-xhtml-basic-20080729-errata
-      type: src
-    docid:
-    - id: W3C REC-xhtml-basic-20080729-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xhtml-basic-20080729-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-xhtml-basic-20001219
-    link:
-    - content: https://www.w3.org/TR/2000/REC-xhtml-basic-20001219/
-      type: src
-    docid:
-    - id: W3C REC-xhtml-basic-20001219
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xhtml-basic-20001219
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xhtml-basic-20080729
 ext:

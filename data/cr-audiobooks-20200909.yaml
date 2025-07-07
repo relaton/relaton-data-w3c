@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CR-audiobooks-20200909/
   type: src
-- content: https://w3c.github.io/audiobooks/
-  type: current
 type: standard
 docid:
 - id: W3C CR-audiobooks-20200909
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reid
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wendy Reid
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudiobooks
+    title:
+    - content: Audiobooks
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audiobooks/
+      type: src
+    docid:
+    - id: W3C audiobooks
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-audiobooks-20200730
+    title:
+    - content: Audiobooks
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CR-audiobooks-20200730/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-audiobooks-20200730
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-audiobooks-20200730
+- type: updatedBy
+  bibitem:
+    id: W3CCR-audiobooks-20200914
+    title:
+    - content: Audiobooks
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200914/
+      type: src
+    docid:
+    - id: W3C CR-audiobooks-20200914
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-audiobooks-20200909
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Multimodal Architecture and Interfaces
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-mmi-arch-20061211/
+- content: https://www.w3.org/TR/2006/WD-mmi-arch-20061211/
   type: src
 type: standard
 docid:
@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Wahbe
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Raggett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Barnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Bodell
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raggett
         language:
         - en
         script:
@@ -74,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-arch
+    title:
+    - content: Multimodal Architecture and Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-arch/
+      type: src
+    docid:
+    - id: W3C mmi-arch
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mmi-arch-20060414
+    title:
+    - content: Multimodal Architecture and Interfaces
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-mmi-arch-20060414/
+    - content: https://www.w3.org/TR/2006/WD-mmi-arch-20060414/
       type: src
     docid:
     - id: W3C WD-mmi-arch-20060414
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mmi-arch-20060414
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mmi-arch-20080414
+    title:
+    - content: Multimodal Architecture and Interfaces
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-mmi-arch-20080414/
+      type: src
+    docid:
+    - id: W3C WD-mmi-arch-20080414
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mmi-arch-20061211
 ext:

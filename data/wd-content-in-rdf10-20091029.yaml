@@ -5,7 +5,7 @@ title:
 - content: Representing Content in RDF 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-Content-in-RDF10-20091029/
+- content: https://www.w3.org/TR/2009/WD-Content-in-RDF10-20091029/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carlos A Velasco
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Johannes Koch
+      given:
+        forename:
+        - content: Carlos A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Velasco
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CContent-in-RDF10
+    title:
+    - content: Representing Content in RDF 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/Content-in-RDF10/
+      type: src
+    docid:
+    - id: W3C Content-in-RDF10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-Content-in-RDF-20080908
+    title:
+    - content: Representing Content in RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-Content-in-RDF-20080908
+    - content: https://www.w3.org/TR/2008/WD-Content-in-RDF-20080908
       type: src
     docid:
     - id: W3C WD-Content-in-RDF-20080908
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-Content-in-RDF-20080908
+- type: updatedBy
+  bibitem:
+    id: W3CWD-Content-in-RDF10-20110510
+    title:
+    - content: Representing Content in RDF 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-Content-in-RDF10-20110510/
+      type: src
+    docid:
+    - id: W3C WD-Content-in-RDF10-20110510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-Content-in-RDF10-20091029
 ext:

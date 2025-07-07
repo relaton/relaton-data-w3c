@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-alreq-gap-20210119/
   type: src
-- content: https://w3c.github.io/alreq/gap-analysis/
-  type: current
 type: standard
 docid:
 - id: W3C WD-alreq-gap-20210119
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Shervin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Afshar
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shervin Afshar
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Calreq-gap
+    title:
+    - content: Arabic Script Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/alreq-gap/
+      type: src
+    docid:
+    - id: W3C alreq-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-alreq-gap-20200616
+    title:
+    - content: Arabic & Persian Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-alreq-gap-20200616/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-alreq-gap-20200616
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-alreq-gap-20200616
+- type: updatedBy
+  bibitem:
+    id: W3CWD-alreq-gap-20210120
+    title:
+    - content: Arabic and Persian Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-alreq-gap-20210120/
+      type: src
+    docid:
+    - id: W3C WD-alreq-gap-20210120
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-alreq-gap-20210119
 ext:

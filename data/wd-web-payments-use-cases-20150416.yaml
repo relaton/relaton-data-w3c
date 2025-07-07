@@ -5,10 +5,8 @@ title:
 - content: Web Payments Use Cases 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-web-payments-use-cases-20150416/
+- content: https://www.w3.org/TR/2015/WD-web-payments-use-cases-20150416/
   type: src
-- content: https://dvcs.w3.org/hg/webpayments/raw-file/default/latest/use-cases/index.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-web-payments-use-cases-20150416
@@ -27,6 +25,40 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
 revdate: '2015-04-16'
 language:
 - en
@@ -34,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-payments-use-cases
+    title:
+    - content: Web Payments Use Cases 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-payments-use-cases/
+      type: src
+    docid:
+    - id: W3C web-payments-use-cases
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-web-payments-use-cases-20150730
+    title:
+    - content: Web Payments Use Cases 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-web-payments-use-cases-20150730/
+      type: src
+    docid:
+    - id: W3C WD-web-payments-use-cases-20150730
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-web-payments-use-cases-20150416
 ext:

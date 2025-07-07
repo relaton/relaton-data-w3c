@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jos de Bruijn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2010-06-22'
 language:
 - en
@@ -44,9 +34,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-rdf-owl
+    title:
+    - content: RIF RDF and OWL Compatibility (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-rdf-owl/
+      type: src
+    docid:
+    - id: W3C rif-rdf-owl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-rif-rdf-owl-20100511
+    title:
+    - content: RIF RDF and OWL Compatibility
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-rif-rdf-owl-20100511/
       type: src
@@ -54,28 +60,9 @@ relation:
     - id: W3C PR-rif-rdf-owl-20100511
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rif-rdf-owl-20100511
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2010/rif/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rif-rdf-owl-20100622
 ext:
@@ -83,4 +70,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

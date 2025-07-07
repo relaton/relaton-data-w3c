@@ -5,7 +5,7 @@ title:
 - content: RDF Primer
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-rdf-primer-20030905/
+- content: https://www.w3.org/TR/2003/WD-rdf-primer-20030905/
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Eric Miller
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Frank Manola
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-09-05'
 language:
 - en
@@ -54,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-primer
+    title:
+    - content: RDF Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-primer/
+      type: src
+    docid:
+    - id: W3C rdf-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-primer-20030123
+    title:
+    - content: RDF Primer
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-primer-20030123/
+    - content: https://www.w3.org/TR/2003/WD-rdf-primer-20030123/
       type: src
     docid:
     - id: W3C WD-rdf-primer-20030123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-primer-20030123
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-primer-20031010
+    title:
+    - content: RDF Primer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-primer-20031010/
+      type: src
+    docid:
+    - id: W3C WD-rdf-primer-20031010
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-primer-20030905
 ext:
@@ -77,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDFCore Working Group
+  - name: RDF Core Working Group

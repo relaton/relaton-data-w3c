@@ -5,10 +5,8 @@ title:
 - content: Model for Tabular Data and Metadata on the Web
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-tabular-data-model-20140327/
+- content: https://www.w3.org/TR/2014/WD-tabular-data-model-20140327/
   type: src
-- content: http://w3c.github.io/csvw/syntax/
-  type: current
 type: standard
 docid:
 - id: W3C WD-tabular-data-model-20140327
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctabular-data-model
+    title:
+    - content: Model for Tabular Data and Metadata on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tabular-data-model/
+      type: src
+    docid:
+    - id: W3C tabular-data-model
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-tabular-data-model-20140710
+    title:
+    - content: Model for Tabular Data and Metadata on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-tabular-data-model-20140710/
+      type: src
+    docid:
+    - id: W3C WD-tabular-data-model-20140710
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-tabular-data-model-20140327
 ext:

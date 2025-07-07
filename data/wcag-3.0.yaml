@@ -26,78 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wcag-3.0-20210121
+    id: W3CWD-wcag-3.0-20241212
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2021/WD-wcag-3.0-20210121/
+    - content: https://www.w3.org/TR/2024/WD-wcag-3.0-20241212/
       type: src
     docid:
-    - id: W3C WD-wcag-3.0-20210121
+    - id: W3C WD-wcag-3.0-20241212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wcag-3.0-20210121
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CWD-wcag-3.0-20210608
-    link:
-    - content: https://www.w3.org/TR/2021/WD-wcag-3.0-20210608/
-      type: src
-    docid:
-    - id: W3C WD-wcag-3.0-20210608
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wcag-3.0-20210608
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wcag-3.0-20211207
-    link:
-    - content: https://www.w3.org/TR/2021/WD-wcag-3.0-20211207/
-      type: src
-    docid:
-    - id: W3C WD-wcag-3.0-20211207
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wcag-3.0-20211207
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wcag-3.0-20230724
-    link:
-    - content: https://www.w3.org/TR/2023/WD-wcag-3.0-20230724/
-      type: src
-    docid:
-    - id: W3C WD-wcag-3.0-20230724
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wcag-3.0-20230724
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wcag-3.0-20240516
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wcag-3.0-20240516/
-      type: src
-    docid:
-    - id: W3C WD-wcag-3.0-20240516
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wcag-3.0-20240516
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CWD-wcag-3.0-20240528
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-wcag-3.0-20240528/
       type: src
@@ -105,12 +53,74 @@ relation:
     - id: W3C WD-wcag-3.0-20240528
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wcag-3.0-20240528
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag-3.0-20240516
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-wcag-3.0-20240516/
+      type: src
+    docid:
+    - id: W3C WD-wcag-3.0-20240516
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag-3.0-20230724
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-wcag-3.0-20230724/
+      type: src
+    docid:
+    - id: W3C WD-wcag-3.0-20230724
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag-3.0-20211207
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-wcag-3.0-20211207/
+      type: src
+    docid:
+    - id: W3C WD-wcag-3.0-20211207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag-3.0-20210608
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-wcag-3.0-20210608/
+      type: src
+    docid:
+    - id: W3C WD-wcag-3.0-20210608
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wcag-3.0-20210121
+    title:
+    - content: W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-wcag-3.0-20210121/
+      type: src
+    docid:
+    - id: W3C WD-wcag-3.0-20210121
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: wcag-3.0
 ext:

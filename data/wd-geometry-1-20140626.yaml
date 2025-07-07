@@ -5,10 +5,8 @@ title:
 - content: Geometry Interfaces Module Level 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-geometry-1-20140626/
+- content: https://www.w3.org/TR/2014/WD-geometry-1-20140626/
   type: src
-- content: http://dev.w3.org/fxtf/geometry/
-  type: current
 type: standard
 docid:
 - id: W3C WD-geometry-1-20140626
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dirk Schulze
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pieters
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schulze
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Pieters
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -64,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeometry-1
+    title:
+    - content: Geometry Interfaces Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/geometry-1/
+      type: src
+    docid:
+    - id: W3C geometry-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-geometry-1-20140522
+    title:
+    - content: Geometry Interfaces Module Level 1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-geometry-1-20140522/
+    - content: https://www.w3.org/TR/2014/WD-geometry-1-20140522/
       type: src
     docid:
     - id: W3C WD-geometry-1-20140522
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-geometry-1-20140522
+- type: updatedBy
+  bibitem:
+    id: W3CWD-geometry-1-20140918
+    title:
+    - content: Geometry Interfaces Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-geometry-1-20140918/
+      type: src
+    docid:
+    - id: W3C WD-geometry-1-20140918
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-geometry-1-20140626
 ext:
@@ -90,4 +138,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: SVG Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

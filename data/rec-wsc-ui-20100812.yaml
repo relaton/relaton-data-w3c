@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anil Saldhana
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Anil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saldhana
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsc-ui
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsc-ui/
+      type: src
+    docid:
+    - id: W3C wsc-ui
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wsc-ui-20100622
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-wsc-ui-20100622/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-wsc-ui-20100622
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wsc-ui-20100622
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cwsc-errata.html
-    link:
-    - content: https://www.w3.org/2010/08/wsc-errata.html
-      type: src
-    docid:
-    - id: W3C wsc-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C wsc-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wsc-ui-20100812
 ext:

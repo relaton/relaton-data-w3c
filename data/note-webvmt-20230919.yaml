@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/NOTE-webvmt-20230919/
   type: src
-- content: https://w3c.github.io/sdw/proposals/geotagging/webvmt/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-webvmt-20230919
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rob Smith
+      given:
+        forename:
+        - content: Rob
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith
         language:
         - en
         script:
@@ -42,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebvmt
+    title:
+    - content: 'WebVMT: The Web Video Map Tracks Format'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webvmt/
+      type: src
+    docid:
+    - id: W3C webvmt
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-webvmt-20230919
 ext:
@@ -52,4 +74,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

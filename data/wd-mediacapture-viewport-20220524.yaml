@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-mediacapture-viewport-20220524/
   type: src
-- content: https://w3c.github.io/mediacapture-viewport/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediacapture-viewport-20220524
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elad Alon
+      given:
+        forename:
+        - content: Elad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alon
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jan-Ivar Bruaroey
+      given:
+        forename:
+        - content: Jan-Ivar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bruaroey
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-viewport
+    title:
+    - content: Viewport Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-viewport/
+      type: src
+    docid:
+    - id: W3C mediacapture-viewport
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediacapture-viewport-20220621
+    title:
+    - content: Viewport Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-mediacapture-viewport-20220621/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-viewport-20220621
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mediacapture-viewport-20220524
 ext:

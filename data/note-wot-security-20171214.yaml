@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-wot-security-20171214/
   type: src
-- content: https://w3c.github.io/wot-security/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-wot-security-20171214
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elena Reshetova
+      given:
+        forename:
+        - content: Elena
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reshetova
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -52,9 +64,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-security
+    title:
+    - content: Web of Things (WoT) Security and Privacy Guidelines
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-security/
+      type: src
+    docid:
+    - id: W3C wot-security
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-wot-security-20181203
+    title:
+    - content: Web of Things (WoT) Security and Privacy Considerations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/NOTE-wot-security-20181203/
+      type: src
+    docid:
+    - id: W3C NOTE-wot-security-20181203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wot-security-20171214
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cfragid-best-practices
+    title:
+    - content: Best Practices for Fragment Identifiers and Media Type Definitions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/fragid-best-practices/
+      type: src
+    docid:
+    - id: W3C fragid-best-practices
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-fragid-best-practices-20120726
+    title:
+    - content: Best Practices for Fragment Identifiers and Media Type Definitions
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-fragid-best-practices-20120726/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-fragid-best-practices-20120726
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-fragid-best-practices-20120726
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-fragid-best-practices-20121025
 ext:

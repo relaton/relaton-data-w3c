@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Yu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Markus Lauff
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauff
         language:
         - en
         script:
@@ -52,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccpc-req
+    title:
+    - content: Core Presentation Characteristics: Requirements and Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cpc-req/
+      type: src
+    docid:
+    - id: W3C cpc-req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-cpc-req-20030510
 ext:

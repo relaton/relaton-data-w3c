@@ -5,7 +5,7 @@ title:
 - content: 'File API: Writer'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-file-writer-api-20110419/
+- content: https://www.w3.org/TR/2011/WD-file-writer-api-20110419/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Eric Uhrhane
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2011-04-19'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cfile-writer-api
+    title:
+    - content: 'File API: Writer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/file-writer-api/
+      type: src
+    docid:
+    - id: W3C file-writer-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-file-writer-api-20101026
+    title:
+    - content: 'File API: Writer'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-file-writer-api-20101026/
+    - content: https://www.w3.org/TR/2010/WD-file-writer-api-20101026/
       type: src
     docid:
     - id: W3C WD-file-writer-api-20101026
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-file-writer-api-20101026
+- type: updatedBy
+  bibitem:
+    id: W3CWD-file-writer-api-20120417
+    title:
+    - content: 'File API: Writer'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-file-writer-api-20120417/
+      type: src
+    docid:
+    - id: W3C WD-file-writer-api-20120417
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-file-writer-api-20110419
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

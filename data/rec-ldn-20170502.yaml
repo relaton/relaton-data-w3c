@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-ldn-20170502/
   type: src
-- content: https://linkedresearch.org/ldn/
-  type: current
 type: standard
 docid:
 - id: W3C REC-ldn-20170502
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Sarven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Capadisli
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sarven Capadisli
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldn
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldn/
+      type: src
+    docid:
+    - id: W3C ldn
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ldn-20170321
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-ldn-20170321/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-ldn-20170321
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ldn-20170321
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cldn
-    link:
-    - content: https://github.com/w3c/ldn/
-      type: src
-    docid:
-    - id: W3C ldn
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ldn
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ldn-20170502
 ext:

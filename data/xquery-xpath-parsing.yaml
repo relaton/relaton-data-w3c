@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xquery-xpath-parsing-20050404
+    title:
+    - content: Building a Tokenizer for XPath or XQuery
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-xquery-xpath-parsing-20050404/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-xquery-xpath-parsing-20050404
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-xpath-parsing-20050404
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xquery-xpath-parsing
 ext:

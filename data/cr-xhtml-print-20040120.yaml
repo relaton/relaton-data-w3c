@@ -5,7 +5,7 @@ title:
 - content: XHTML-Print
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/CR-xhtml-print-20040120
+- content: https://www.w3.org/TR/2004/CR-xhtml-print-20040120
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jim Bigelow
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-01-20'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-print
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-print/
+      type: src
+    docid:
+    - id: W3C xhtml-print
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-print-20030729
+    title:
+    - content: XHTML-Print
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-xhtml-print-20030729
+    - content: https://www.w3.org/TR/2003/WD-xhtml-print-20030729
       type: src
     docid:
     - id: W3C WD-xhtml-print-20030729
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-print-20030729
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xhtml-print-20060131
+    title:
+    - content: XHTML-Print
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/PR-xhtml-print-20060131/
+      type: src
+    docid:
+    - id: W3C PR-xhtml-print-20060131
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xhtml-print-20040120
 ext:

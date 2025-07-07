@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/DNOTE-wcag-3.0-explainer-20211207/
   type: src
-- content: https://w3c.github.io/silver/explainer/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-wcag-3.0-explainer-20211207
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeanne F Spellman
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Shawn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauriat
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shawn Lauriat
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -62,9 +81,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwcag-3.0-explainer
+    title:
+    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wcag-3.0-explainer/
+      type: src
+    docid:
+    - id: W3C wcag-3.0-explainer
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-wcag-3.0-explainer-20241212
+    title:
+    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/
+      type: src
+    docid:
+    - id: W3C DNOTE-wcag-3.0-explainer-20241212
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-wcag-3.0-explainer-20211207
 ext:

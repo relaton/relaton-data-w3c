@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-cssom-1-20160317
-    link:
-    - content: https://www.w3.org/TR/2016/WD-cssom-1-20160317/
-      type: src
-    docid:
-    - id: W3C WD-cssom-1-20160317
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-cssom-1-20160317
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-cssom-1-20210826
+    title:
+    - content: CSS Object Model (CSSOM)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-cssom-1-20210826/
       type: src
@@ -53,12 +40,48 @@ relation:
     - id: W3C WD-cssom-1-20210826
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-cssom-1-20210826
+- type: hasEdition
+  bibitem:
+    id: W3CWD-cssom-1-20160317
+    title:
+    - content: CSS Object Model (CSSOM)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-cssom-1-20160317/
+      type: src
+    docid:
+    - id: W3C WD-cssom-1-20160317
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-cssom-20131205
+    title:
+    - content: CSS Object Model (CSSOM)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-cssom-20131205/
+      type: src
+    docid:
+    - id: W3C WD-cssom-20131205
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-cssom-20110712
+    title:
+    - content: CSSOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-cssom-20110712/
+      type: src
+    docid:
+    - id: W3C WD-cssom-20110712
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: cssom-1
 ext:

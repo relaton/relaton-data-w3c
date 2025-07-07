@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frank Boumphrey
+      given:
+        forename:
+        - content: Sam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dooley
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Murray Altheim
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sam Dooley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sebastian Schnitzenbaumer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ted Wugofski
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schnitzenbaumer
         language:
         - en
         script:
@@ -94,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-modularization
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-modularization/
+      type: src
+    docid:
+    - id: W3C xhtml-modularization
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xhtml-modularization-20010222
+    title:
+    - content: Modularization of XHTML™
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/PR-xhtml-modularization-20010222
       type: src
@@ -104,28 +111,25 @@ relation:
     - id: W3C PR-xhtml-modularization-20010222
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xhtml-modularization-20010222
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-xhtml-modularization-20010410-errata
+    id: W3CPR-xhtml-modularization-20060213
+    title:
+    - content: XHTML™ Modularization 1.1
+      format: text/plain
     link:
-    - content: https://www.w3.org/2001/04/REC-xhtml-modularization-20010410-errata
+    - content: https://www.w3.org/TR/2006/PR-xhtml-modularization-20060213
       type: src
     docid:
-    - id: W3C REC-xhtml-modularization-20010410-errata
+    - id: W3C PR-xhtml-modularization-20060213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-modularization-20010410-errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xhtml-modularization-20010410
 ext:

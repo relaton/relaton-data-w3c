@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carine Bournez
+      given:
+        forename:
+        - content: Carine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bournez
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-evaluation
+    title:
+    - content: Efficient XML Interchange Evaluation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-evaluation/
+      type: src
+    docid:
+    - id: W3C exi-evaluation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-exi-evaluation-20080728
+    title:
+    - content: Efficient XML Interchange Evaluation
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-exi-evaluation-20080728
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-exi-evaluation-20080728
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-exi-evaluation-20080728
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-exi-evaluation-20090407
 ext:
@@ -67,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

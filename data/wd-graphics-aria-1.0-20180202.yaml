@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-graphics-aria-1.0-20180202/
   type: src
-- content: https://w3c.github.io/graphics-aria/
-  type: current
 type: standard
 docid:
 - id: W3C WD-graphics-aria-1.0-20180202
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Fred Esch
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: Fred
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Esch
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgraphics-aria-1.0
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/graphics-aria-1.0/
+      type: src
+    docid:
+    - id: W3C graphics-aria-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-graphics-aria-1.0-20160908
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-graphics-aria-1.0-20160908/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C WD-graphics-aria-1.0-20160908
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-graphics-aria-1.0-20160908
+- type: updatedBy
+  bibitem:
+    id: W3CCR-graphics-aria-1.0-20180329
+    title:
+    - content: WAI-ARIA Graphics Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-graphics-aria-1.0-20180329/
+      type: src
+    docid:
+    - id: W3C CR-graphics-aria-1.0-20180329
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-graphics-aria-1.0-20180202
 ext:

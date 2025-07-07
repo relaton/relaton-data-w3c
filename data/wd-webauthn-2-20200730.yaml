@@ -2,13 +2,12 @@
 schema-version: v1.2.9
 id: W3CWD-webauthn-2-20200730
 title:
-- content: Web Authentication:An API for accessing Public Key CredentialsLevel 2
+- content: 'Web Authentication: An API for accessing Public Key Credentials: Level
+    2'
   format: text/plain
 link:
 - content: https://www.w3.org/TR/2020/WD-webauthn-2-20200730/
   type: src
-- content: https://w3c.github.io/webauthn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webauthn-2-20200730
@@ -29,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Akshay Kumar
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Balfanz
         language:
         - en
         script:
@@ -39,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Alexei Czeskis
+      given:
+        forename:
+        - content: Alexei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Czeskis
         language:
         - en
         script:
@@ -49,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Arnar Birgisson
+      given:
+        forename:
+        - content: Jeff
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hodges
         language:
         - en
         script:
@@ -59,8 +79,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dirk Balfanz
+      given:
+        forename:
+        - content: J.C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -69,8 +96,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Huakai Liao
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -79,8 +113,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hubert Le Van Gong
+      given:
+        forename:
+        - content: Akshay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kumar
         language:
         - en
         script:
@@ -89,8 +130,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: J.C. Jones
+      given:
+        forename:
+        - content: Rolf
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lindemann
         language:
         - en
         script:
@@ -99,8 +147,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeff Hodges
+      given:
+        forename:
+        - content: Vijay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bharadwaj
         language:
         - en
         script:
@@ -109,8 +164,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Jones
+      given:
+        forename:
+        - content: Arnar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birgisson
         language:
         - en
         script:
@@ -119,8 +181,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rolf Lindemann
+      given:
+        forename:
+        - content: Hubert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Van Gong
         language:
         - en
         script:
@@ -129,8 +198,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Vijay Bharadwaj
+      given:
+        forename:
+        - content: Huakai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liao
         language:
         - en
         script:
@@ -146,9 +222,27 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebauthn-2
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webauthn-2/
+      type: src
+    docid:
+    - id: W3C webauthn-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webauthn-2-20191126
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-webauthn-2-20191126/
       type: src
@@ -156,12 +250,26 @@ relation:
     - id: W3C WD-webauthn-2-20191126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webauthn-2-20191126
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webauthn-2-20201116
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials: Level
+        2'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201116/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20201116
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webauthn-2-20200730
 ext:

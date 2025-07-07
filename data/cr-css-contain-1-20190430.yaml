@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-css-contain-1-20190430/
   type: src
-- content: https://drafts.csswg.org/css-contain/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-contain-1-20190430
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-contain-1
+    title:
+    - content: CSS Containment Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-contain-1/
+      type: src
+    docid:
+    - id: W3C css-contain-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-contain-1-20181108
+    title:
+    - content: CSS Containment Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-css-contain-1-20181108/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-css-contain-1-20181108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-contain-1-20181108
+- type: updatedBy
+  bibitem:
+    id: W3CPR-css-contain-1-20191015
+    title:
+    - content: CSS Containment Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-css-contain-1-20191015/
+      type: src
+    docid:
+    - id: W3C PR-css-contain-1-20191015
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-contain-1-20190430
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bruce Miller
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: Giorgi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chavchanidze
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Giorgi Chavchanidze
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick D F Ion
+      given:
+        forename:
+        - content: Bruce
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miller
         language:
         - en
         script:
@@ -84,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmathml-for-css
+    title:
+    - content: A MathML for CSS Profile
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mathml-for-css/
+      type: src
+    docid:
+    - id: W3C mathml-for-css
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-mathml-for-css-20100810
+    title:
+    - content: A MathML for CSS Profile
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-mathml-for-css-20100810/
       type: src
@@ -94,28 +145,9 @@ relation:
     - id: W3C PR-mathml-for-css-20100810
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-mathml-for-css-20100810
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cmathmlcss-errata.html
-    link:
-    - content: https://www.w3.org/Math/Documents/mathmlcss-errata.html
-      type: src
-    docid:
-    - id: W3C mathmlcss-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C mathmlcss-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-mathml-for-css-20110607
 ext:

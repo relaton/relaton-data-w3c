@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gerald McCobb
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Klaus Reifenrath
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Raj Tumuluri
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sunil Kumar
+      given:
+        forename:
+        - content: Raj
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tumuluri
         language:
         - en
         script:
@@ -70,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-dev-feedback
+    title:
+    - content: Multimodal Application Developer Feedback
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-dev-feedback/
+      type: src
+    docid:
+    - id: W3C mmi-dev-feedback
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mmi-dev-feedback-20060414
 ext:

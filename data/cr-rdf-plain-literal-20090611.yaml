@@ -5,7 +5,7 @@ title:
 - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/CR-rdf-plain-literal-20090611/
+- content: https://www.w3.org/TR/2009/CR-rdf-plain-literal-20090611/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Axel Polleres
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Boris Motik
+      given:
+        forename:
+        - content: Sandro
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hawke
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jie Bao
+      given:
+        forename:
+        - content: Axel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Polleres
         language:
         - en
         script:
@@ -57,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter F. Patel-Schneider
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sandro Hawke
+      given:
+        forename:
+        - content: Boris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Motik
         language:
         - en
         script:
@@ -82,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-plain-literal
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-plain-literal/
+      type: src
+    docid:
+    - id: W3C rdf-plain-literal
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-text-20090421
+    title:
+    - content: 'rdf:text: A Datatype for Internationalized Text'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-rdf-text-20090421/
+    - content: https://www.w3.org/TR/2009/WD-rdf-text-20090421/
       type: src
     docid:
     - id: W3C WD-rdf-text-20090421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-text-20090421
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rdf-plain-literal-20090922
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/PR-rdf-plain-literal-20090922/
+      type: src
+    docid:
+    - id: W3C PR-rdf-plain-literal-20090922
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-rdf-plain-literal-20090611
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/NOTE-tabular-data-primer-20160225/
   type: src
-- content: https://w3c.github.io/csvw/primer/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-tabular-data-primer-20160225
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -42,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctabular-data-primer
+    title:
+    - content: 'CSV on the Web: A Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tabular-data-primer/
+      type: src
+    docid:
+    - id: W3C tabular-data-primer
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-tabular-data-primer-20160225
 ext:

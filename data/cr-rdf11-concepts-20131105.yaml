@@ -5,7 +5,7 @@ title:
 - content: RDF 1.1 Concepts and Abstract Syntax
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-rdf11-concepts-20131105/
+- content: https://www.w3.org/TR/2013/CR-rdf11-concepts-20131105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Wood
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cyganiak
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Lanthaler
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Richard Cyganiak
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanthaler
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf11-concepts
+    title:
+    - content: RDF 1.1 Concepts and Abstract Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf11-concepts/
+      type: src
+    docid:
+    - id: W3C rdf11-concepts
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf11-concepts-20130723
+    title:
+    - content: RDF 1.1 Concepts and Abstract Syntax
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-rdf11-concepts-20130723/
+    - content: https://www.w3.org/TR/2013/WD-rdf11-concepts-20130723/
       type: src
     docid:
     - id: W3C WD-rdf11-concepts-20130723
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf11-concepts-20130723
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rdf11-concepts-20140109
+    title:
+    - content: RDF 1.1 Concepts and Abstract Syntax
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/PR-rdf11-concepts-20140109/
+      type: src
+    docid:
+    - id: W3C PR-rdf11-concepts-20140109
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-rdf11-concepts-20131105
 ext:

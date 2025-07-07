@@ -5,10 +5,8 @@ title:
 - content: HTML 5.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-html51-20140617/
+- content: https://www.w3.org/TR/2014/WD-html51-20140617/
   type: src
-- content: http://www.w3.org/html/wg/drafts/html/master/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html51-20140617
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Edward O'Connor
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Erika Doyle Navara
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Silvia Pfeiffer
+      given:
+        forename:
+        - content: Erika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Doyle Navara
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Theresa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Silvia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pfeiffer
         language:
         - en
         script:
@@ -96,22 +136,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml51
+    title:
+    - content: HTML 5.1 2nd Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html51/
+      type: src
+    docid:
+    - id: W3C html51
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html51-20140204
+    title:
+    - content: HTML 5.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-html51-20140204/
+    - content: https://www.w3.org/TR/2014/WD-html51-20140204/
       type: src
     docid:
     - id: W3C WD-html51-20140204
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html51-20140204
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html51-20150317
+    title:
+    - content: HTML 5.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-html51-20150317/
+      type: src
+    docid:
+    - id: W3C WD-html51-20150317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html51-20140617
 ext:
@@ -119,4 +188,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

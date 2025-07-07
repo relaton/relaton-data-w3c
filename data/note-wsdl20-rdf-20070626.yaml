@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jacek Kopecky
+      given:
+        forename:
+        - content: Jacek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kopecky
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsdl20-rdf
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: RDF Mapping'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsdl20-rdf/
+      type: src
+    docid:
+    - id: W3C wsdl20-rdf
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsdl20-rdf-20070523
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: RDF Mapping'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-wsdl20-rdf-20070523/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-wsdl20-rdf-20070523
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsdl20-rdf-20070523
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wsdl20-rdf-20070626
 ext:

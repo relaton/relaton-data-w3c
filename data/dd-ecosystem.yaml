@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cdd-ecosystem
 title:
-- content: Device Description Ecosystem
+- content: Device Description Ecosystem 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/dd-ecosystem
+- content: https://www.w3.org/TR/dd-ecosystem/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-dd-ecosystem-20071031
+    title:
+    - content: Device Description Ecosystem 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/NOTE-dd-ecosystem-20071031/
+      type: src
+    docid:
+    - id: W3C NOTE-dd-ecosystem-20071031
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-dd-ecosystem-20051121
+    title:
+    - content: Device Description Ecosystem
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-dd-ecosystem-20051121
+    - content: https://www.w3.org/TR/2005/WD-dd-ecosystem-20051121
       type: src
     docid:
     - id: W3C WD-dd-ecosystem-20051121
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dd-ecosystem-20051121
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: dd-ecosystem
 ext:

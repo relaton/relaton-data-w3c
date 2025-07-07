@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jungkee Song
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Jungkee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
         language:
         - en
         script:
@@ -50,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Capi-design
+    title:
+    - content: Web API Design Cookbook
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/api-design/
+      type: src
+    docid:
+    - id: W3C api-design
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-api-design-20121002
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Boyer
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boyer
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-c14n
+    title:
+    - content: Canonical XML Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-c14n/
+      type: src
+    docid:
+    - id: W3C xml-c14n
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xml-c14n-20010119
+    title:
+    - content: Canonical XML Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/PR-xml-c14n-20010119
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-xml-c14n-20010119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xml-c14n-20010119
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CC14N-errata
-    link:
-    - content: https://www.w3.org/2001/03/C14N-errata
-      type: src
-    docid:
-    - id: W3C C14N-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C C14N-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xml-c14n-20010315
 ext:

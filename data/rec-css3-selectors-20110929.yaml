@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2011/REC-css3-selectors-20110929/
   type: src
-- content: https://drafts.csswg.org/selectors-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css3-selectors-20110929
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Glazman
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazman
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Williams
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -69,18 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Linss
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Linss
         language:
         - en
         script:
@@ -96,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cselectors-3
+    title:
+    - content: Selectors Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/selectors-3/
+      type: src
+    docid:
+    - id: W3C selectors-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css3-selectors-20091215
+    title:
+    - content: Selectors Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PR-css3-selectors-20091215/
       type: src
@@ -106,28 +145,25 @@ relation:
     - id: W3C PR-css3-selectors-20091215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css3-selectors-20091215
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-css3-selectors-20110929-errata.html
+    id: W3CCR-selectors-3-20180130
+    title:
+    - content: Selectors Level 3
+      format: text/plain
     link:
-    - content: https://www.w3.org/Style/2011/REC-css3-selectors-20110929-errata.html
+    - content: https://www.w3.org/TR/2018/CR-selectors-3-20180130/
       type: src
     docid:
-    - id: W3C REC-css3-selectors-20110929-errata.html
+    - id: W3C CR-selectors-3-20180130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-css3-selectors-20110929-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css3-selectors-20110929
 ext:
@@ -135,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

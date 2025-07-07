@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/NOTE-dom41-20200317/
   type: src
-- content: https://w3c.github.io/dom/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-dom41-20200317
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Yongsheng Zhu
+      given:
+        forename:
+        - content: Yongsheng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhu
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdom41
+    title:
+    - content: W3C DOM 4.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dom41/
+      type: src
+    docid:
+    - id: W3C dom41
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dom41-20180201
+    title:
+    - content: W3C DOM 4.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-dom41-20180201/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-dom41-20180201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dom41-20180201
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-dom41-20200317
 ext:
@@ -66,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

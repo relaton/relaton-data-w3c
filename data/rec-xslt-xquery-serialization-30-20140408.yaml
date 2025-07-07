@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Coleman
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zongaro
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henry Zongaro
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Sperberg-McQueen
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coleman
         language:
         - en
         script:
@@ -64,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslt-xquery-serialization-30
+    title:
+    - content: XSLT and XQuery Serialization 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslt-xquery-serialization-30/
+      type: src
+    docid:
+    - id: W3C xslt-xquery-serialization-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xslt-xquery-serialization-30-20131022
+    title:
+    - content: XSLT and XQuery Serialization 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-xslt-xquery-serialization-30-20131022/
       type: src
@@ -74,12 +94,9 @@ relation:
     - id: W3C PR-xslt-xquery-serialization-30-20131022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xslt-xquery-serialization-30-20131022
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xslt-xquery-serialization-30-20140408
 ext:
@@ -87,5 +104,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

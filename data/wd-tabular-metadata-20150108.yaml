@@ -5,10 +5,8 @@ title:
 - content: Metadata Vocabulary for Tabular Data
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-tabular-metadata-20150108/
+- content: https://www.w3.org/TR/2015/WD-tabular-metadata-20150108/
   type: src
-- content: http://w3c.github.io/csvw/metadata/
-  type: current
 type: standard
 docid:
 - id: W3C WD-tabular-metadata-20150108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Rufus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pollock
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rufus Pollock
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctabular-metadata
+    title:
+    - content: Metadata Vocabulary for Tabular Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tabular-metadata/
+      type: src
+    docid:
+    - id: W3C tabular-metadata
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-tabular-metadata-20140710
+    title:
+    - content: Metadata Vocabulary for Tabular Data
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-tabular-metadata-20140710/
+    - content: https://www.w3.org/TR/2014/WD-tabular-metadata-20140710/
       type: src
     docid:
     - id: W3C WD-tabular-metadata-20140710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-tabular-metadata-20140710
+- type: updatedBy
+  bibitem:
+    id: W3CWD-tabular-metadata-20150416
+    title:
+    - content: Metadata Vocabulary for Tabular Data
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-tabular-metadata-20150416/
+      type: src
+    docid:
+    - id: W3C WD-tabular-metadata-20150416
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-tabular-metadata-20150108
 ext:

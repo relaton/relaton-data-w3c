@@ -5,7 +5,7 @@ title:
 - content: XLink Markup Name Control
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-xlink-naming-20001220
+- content: https://www.w3.org/TR/2000/NOTE-xlink-naming-20001220
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Veillard
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Veillard
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eve Maler
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henry S. Thompson
+      given:
+        forename:
+        - content: Eve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maler
         language:
         - en
         script:
@@ -60,12 +81,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxlink-naming
+    title:
+    - content: XLink Markup Name Control
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xlink-naming/
+      type: src
+    docid:
+    - id: W3C xlink-naming
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xlink-naming-20001220
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

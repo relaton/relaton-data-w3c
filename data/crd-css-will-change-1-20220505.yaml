@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/CRD-css-will-change-1-20220505/
   type: src
-- content: https://drafts.csswg.org/css-will-change/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-will-change-1-20220505
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-will-change-1
+    title:
+    - content: CSS Will Change Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-will-change-1/
+      type: src
+    docid:
+    - id: W3C css-will-change-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-will-change-1-20151203
+    title:
+    - content: CSS Will Change Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/CR-css-will-change-1-20151203/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C CR-css-will-change-1-20151203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-will-change-1-20151203
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-will-change-1-20220505
 ext:
@@ -69,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

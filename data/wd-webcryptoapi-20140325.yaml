@@ -5,10 +5,8 @@ title:
 - content: Web Cryptography API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/
+- content: https://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/
   type: src
-- content: http://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-WebCryptoAPI-20140325
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Ryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sleevi
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ryan Sleevi
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWebCryptoAPI
+    title:
+    - content: Web Cryptography API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WebCryptoAPI/
+      type: src
+    docid:
+    - id: W3C WebCryptoAPI
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WebCryptoAPI-20130625
+    title:
+    - content: Web Cryptography API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-WebCryptoAPI-20130625/
+    - content: https://www.w3.org/TR/2013/WD-WebCryptoAPI-20130625/
       type: src
     docid:
     - id: W3C WD-WebCryptoAPI-20130625
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WebCryptoAPI-20130625
+- type: updatedBy
+  bibitem:
+    id: W3CCR-WebCryptoAPI-20141211
+    title:
+    - content: Web Cryptography API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-WebCryptoAPI-20141211/
+      type: src
+    docid:
+    - id: W3C CR-WebCryptoAPI-20141211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-WebCryptoAPI-20140325
 ext:

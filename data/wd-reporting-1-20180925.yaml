@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-reporting-1-20180925/
   type: src
-- content: https://w3c.github.io/reporting/
-  type: current
 type: standard
 docid:
 - id: W3C WD-reporting-1-20180925
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Douglas Creager
+      given:
+        forename:
+        - content: Douglas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Creager
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Meyer
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Meyer
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Creporting-1
+    title:
+    - content: Reporting API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/reporting-1/
+      type: src
+    docid:
+    - id: W3C reporting-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-reporting-1-20160607
+    title:
+    - content: Reporting API 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/NOTE-reporting-1-20160607/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C NOTE-reporting-1-20160607
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-reporting-1-20160607
+- type: updatedBy
+  bibitem:
+    id: W3CWD-reporting-1-20220405
+    title:
+    - content: Reporting API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-reporting-1-20220405/
+      type: src
+    docid:
+    - id: W3C WD-reporting-1-20220405
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-reporting-1-20180925
 ext:

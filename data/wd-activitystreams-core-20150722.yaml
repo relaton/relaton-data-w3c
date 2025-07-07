@@ -5,10 +5,8 @@ title:
 - content: Activity Streams 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-activitystreams-core-20150722/
+- content: https://www.w3.org/TR/2015/WD-activitystreams-core-20150722/
   type: src
-- content: http://jasnell.github.io/w3c-socialwg-activitystreams/activitystreams2.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-activitystreams-core-20150722
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Snell
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snell
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitystreams-core
+    title:
+    - content: Activity Streams 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitystreams-core/
+      type: src
+    docid:
+    - id: W3C activitystreams-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-activitystreams-core-20150129
+    title:
+    - content: Activity Streams 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-activitystreams-core-20150129/
+    - content: https://www.w3.org/TR/2015/WD-activitystreams-core-20150129/
       type: src
     docid:
     - id: W3C WD-activitystreams-core-20150129
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-activitystreams-core-20150129
+- type: updatedBy
+  bibitem:
+    id: W3CWD-activitystreams-core-20151006
+    title:
+    - content: Activity Streams 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-activitystreams-core-20151006/
+      type: src
+    docid:
+    - id: W3C WD-activitystreams-core-20151006
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-activitystreams-core-20150722
 ext:

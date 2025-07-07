@@ -30,12 +30,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-imagemap
+    title:
+    - content: Imagemapped Images and Image-Incapable User Agents
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-imagemap
+      type: src
+    docid:
+    - id: W3C NOTE-imagemap
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-imagemap
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

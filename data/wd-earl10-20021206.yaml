@@ -5,7 +5,7 @@ title:
 - content: Evaluation and Report Language (EARL) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-EARL10-20021206/
+- content: https://www.w3.org/TR/2002/WD-EARL10-20021206/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Sean B. Palmer
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chisholm
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wendy Chisholm
+      given:
+        forename:
+        - content: Sean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Palmer
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CEARL10-Schema
+    title:
+    - content: Evaluation and Report Language (EARL) 1.0 Schema
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/EARL10-Schema/
+      type: src
+    docid:
+    - id: W3C EARL10-Schema
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-EARL10-Schema-20050909
+    title:
+    - content: Evaluation and Report Language (EARL) 1.0 Schema
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-EARL10-Schema-20050909
+      type: src
+    docid:
+    - id: W3C WD-EARL10-Schema-20050909
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-EARL10-20021206
 ext:

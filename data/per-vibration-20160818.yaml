@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/PER-vibration-20160818/
   type: src
-- content: https://w3c.github.io/vibration/
-  type: current
 type: standard
 docid:
 - id: W3C PER-vibration-20160818
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -48,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-vibration-20150210
+    id: W3Cvibration
+    title:
+    - content: Vibration API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/REC-vibration-20150210/
+    - content: https://www.w3.org/TR/vibration/
       type: src
     docid:
-    - id: W3C REC-vibration-20150210
+    - id: W3C vibration
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-vibration-20150210
+- type: updatedBy
+  bibitem:
+    id: W3CREC-vibration-20161018
+    title:
+    - content: Vibration API (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/REC-vibration-20161018/
+      type: src
+    docid:
+    - id: W3C REC-vibration-20161018
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-vibration-20160818
 ext:

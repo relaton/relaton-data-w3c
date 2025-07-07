@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-clear-site-data-20171130/
   type: src
-- content: https://w3c.github.io/webappsec-clear-site-data/
-  type: current
 type: standard
 docid:
 - id: W3C WD-clear-site-data-20171130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclear-site-data
+    title:
+    - content: Clear Site Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clear-site-data/
+      type: src
+    docid:
+    - id: W3C clear-site-data
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-clear-site-data-20160720
+    title:
+    - content: Clear Site Data
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-clear-site-data-20160720/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C WD-clear-site-data-20160720
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-clear-site-data-20160720
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-clear-site-data-20171130
 ext:

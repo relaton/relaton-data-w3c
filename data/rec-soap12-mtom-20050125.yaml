@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hervé Ruellan
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Nottingham
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Gudgin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nottingham
         language:
         - en
         script:
@@ -74,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-mtom
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-mtom/
+      type: src
+    docid:
+    - id: W3C soap12-mtom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-soap12-mtom-20041116
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/PR-soap12-mtom-20041116/
       type: src
@@ -84,28 +111,9 @@ relation:
     - id: W3C PR-soap12-mtom-20041116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-soap12-mtom-20041116
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Csoap12-mtom-errata
-    link:
-    - content: https://www.w3.org/2005/01/soap12-mtom-errata
-      type: src
-    docid:
-    - id: W3C soap12-mtom-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C soap12-mtom-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-soap12-mtom-20050125
 ext:

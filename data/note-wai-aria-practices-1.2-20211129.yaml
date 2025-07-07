@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-wai-aria-practices-1.2-20211129/
   type: src
-- content: https://w3c.github.io/aria-practices/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-wai-aria-practices-1.2-20211129
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: JaEun Jemma Ku
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: King
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Nurthen
+      given:
+        forename:
+        - content: JaEun Jemma
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ku
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthew King
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nurthen
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Zoë
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bijl
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zoë Bijl
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -82,10 +115,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-practices-1.2
+    title:
+    - content: WAI-ARIA Authoring Practices 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-practices-1.2/
+      type: src
+    docid:
+    - id: W3C wai-aria-practices-1.2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wai-aria-practices-1.2-20191218
+    title:
+    - content: WAI-ARIA Authoring Practices 1.2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-wai-aria-practices-1.2-20191218/
       type: src
@@ -93,12 +145,25 @@ relation:
     - id: W3C WD-wai-aria-practices-1.2-20191218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wai-aria-practices-1.2-20191218
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-wai-aria-practices-1.2-20220519
+    title:
+    - content: WAI-ARIA Authoring Practices 1.2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/NOTE-wai-aria-practices-1.2-20220519/
+      type: src
+    docid:
+    - id: W3C NOTE-wai-aria-practices-1.2-20220519
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wai-aria-practices-1.2-20211129
 ext:

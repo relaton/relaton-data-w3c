@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-alreq-20211026/
   type: src
-- content: https://w3c.github.io/alreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-alreq-20211026
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Behnam Esfahbod
+      given:
+        forename:
+        - content: Behnam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Esfahbod
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mostafa Hajizadeh
+      given:
+        forename:
+        - content: Mostafa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hajizadeh
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Najib Tounsi
+      given:
+        forename:
+        - content: Najib
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tounsi
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shervin Afshar
+      given:
+        forename:
+        - content: Shervin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Afshar
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Titus Nemeth
+      given:
+        forename:
+        - content: Titus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nemeth
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Calreq
+    title:
+    - content: Arabic & Persian Layout Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/alreq/
+      type: src
+    docid:
+    - id: W3C alreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-alreq-20200520
+    title:
+    - content: Text Layout Requirements for the Arabic Script
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-alreq-20200520/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C WD-alreq-20200520
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-alreq-20200520
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-alreq-20231212
+    title:
+    - content: Arabic & Persian Layout Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-alreq-20231212/
+      type: src
+    docid:
+    - id: W3C DNOTE-alreq-20231212
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-alreq-20211026
 ext:

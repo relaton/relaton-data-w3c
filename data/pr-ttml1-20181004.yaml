@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/PR-ttml1-20181004/
   type: src
-- content: https://w3c.github.io/ttml1/index.html
-  type: current
 type: standard
 docid:
 - id: W3C PR-ttml1-20181004
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml1
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml1/
+      type: src
+    docid:
+    - id: W3C ttml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ttml1-20180809
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-ttml1-20180809/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-ttml1-20180809
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ttml1-20180809
+- type: updatedBy
+  bibitem:
+    id: W3CREC-ttml1-20181108
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/REC-ttml1-20181108/
+      type: src
+    docid:
+    - id: W3C REC-ttml1-20181108
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-ttml1-20181004
 ext:

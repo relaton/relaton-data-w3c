@@ -5,7 +5,7 @@ title:
 - content: 'XProc: An XML Pipeline Language'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-xproc-20061117/
+- content: https://www.w3.org/TR/2006/WD-xproc-20061117/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Milowski
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miłowski
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxproc
+    title:
+    - content: 'XProc: An XML Pipeline Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xproc/
+      type: src
+    docid:
+    - id: W3C xproc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xproc-20060928
+    title:
+    - content: 'XProc: An XML Pipeline Language'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-xproc-20060928/
+    - content: https://www.w3.org/TR/2006/WD-xproc-20060928/
       type: src
     docid:
     - id: W3C WD-xproc-20060928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xproc-20060928
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xproc-20070405
+    title:
+    - content: 'XProc: An XML Pipeline Language'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-xproc-20070405/
+      type: src
+    docid:
+    - id: W3C WD-xproc-20070405
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xproc-20061117
 ext:

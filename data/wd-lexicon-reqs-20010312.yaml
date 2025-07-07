@@ -6,7 +6,7 @@ title:
     Framework
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/WD-lexicon-reqs-20010312/
+- content: https://www.w3.org/TR/2001/WD-lexicon-reqs-20010312/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frank Scahill
+      given:
+        forename:
+        - content: Frank
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scahill
         language:
         - en
         script:
@@ -44,9 +51,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Clexicon-reqs
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/lexicon-reqs/
+      type: src
+    docid:
+    - id: W3C lexicon-reqs
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-lexicon-reqs-20041029
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-lexicon-reqs-20041029/
+      type: src
+    docid:
+    - id: W3C WD-lexicon-reqs-20041029
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-lexicon-reqs-20010312
 ext:

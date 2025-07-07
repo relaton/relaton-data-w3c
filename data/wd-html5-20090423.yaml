@@ -5,7 +5,7 @@ title:
 - content: HTML 5
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-html5-20090423/
+- content: https://www.w3.org/TR/2009/WD-html5-20090423/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Hyatt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml5
+    title:
+    - content: HTML5
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html5/
+      type: src
+    docid:
+    - id: W3C html5
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html5-20090212
+    title:
+    - content: HTML 5
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-html5-20090212/
+    - content: https://www.w3.org/TR/2009/WD-html5-20090212/
       type: src
     docid:
     - id: W3C WD-html5-20090212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html5-20090212
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html5-20090825
+    title:
+    - content: HTML 5
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-html5-20090825/
+      type: src
+    docid:
+    - id: W3C WD-html5-20090825
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html5-20090423
 ext:
@@ -77,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

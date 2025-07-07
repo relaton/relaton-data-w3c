@@ -5,10 +5,8 @@ title:
 - content: HTML5 Image Description Extension (longdesc)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-html-longdesc-20130716/
+- content: https://www.w3.org/TR/2013/WD-html-longdesc-20130716/
   type: src
-- content: https://dvcs.w3.org/hg/html-proposals/raw-file/default/longdesc1/longdesc.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-longdesc-20130716
@@ -27,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Charles McCathieNevile
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2013-07-16'
 language:
 - en
@@ -44,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-longdesc
+    title:
+    - content: HTML5 Image Description Extension (longdesc)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-longdesc/
+      type: src
+    docid:
+    - id: W3C html-longdesc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-longdesc-20130606
+    title:
+    - content: HTML5 Image Description Extension
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-html-longdesc-20130606/
+    - content: https://www.w3.org/TR/2013/WD-html-longdesc-20130606/
       type: src
     docid:
     - id: W3C WD-html-longdesc-20130606
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-longdesc-20130606
+- type: updatedBy
+  bibitem:
+    id: W3CCR-html-longdesc-20140812
+    title:
+    - content: HTML5 Image Description Extension (longdesc)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-html-longdesc-20140812/
+      type: src
+    docid:
+    - id: W3C CR-html-longdesc-20140812
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-html-longdesc-20130716
 ext:
@@ -69,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

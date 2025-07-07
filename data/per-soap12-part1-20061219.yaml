@@ -5,7 +5,7 @@ title:
 - content: 'SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PER-soap12-part1-20061219/
+- content: https://www.w3.org/TR/2006/PER-soap12-part1-20061219/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anish Karmarkar
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henrik Frystyk Nielsen
+      given:
+        forename:
+        - content: Jean-Jacques
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jean-Jacques Moreau
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marc Hadley
+      given:
+        forename:
+        - content: Henrik Frystyk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Gudgin
+      given:
+        forename:
+        - content: Anish
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Karmarkar
         language:
         - en
         script:
@@ -77,18 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Noah Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -106,20 +138,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-soap12-part1-20030624
+    id: W3Csoap12-part1
+    title:
+    - content: 'SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/REC-soap12-part1-20030624/
+    - content: https://www.w3.org/TR/soap12-part1/
       type: src
     docid:
-    - id: W3C REC-soap12-part1-20030624
+    - id: W3C soap12-part1
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-soap12-part1-20030624
+- type: updatedBy
+  bibitem:
+    id: W3CREC-soap12-part1-20070427
+    title:
+    - content: 'SOAP Version 1.2 Part 1: Messaging Framework (Second Edition)'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/REC-soap12-part1-20070427/
+      type: src
+    docid:
+    - id: W3C REC-soap12-part1-20070427
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-soap12-part1-20061219
 ext:

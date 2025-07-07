@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Birte Glimm
+      given:
+        forename:
+        - content: Michael[tm]
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith (sideshowbarker)
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Horrocks
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horrocks
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Krötzsch
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Krötzsch
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael[tm] Smith (sideshowbarker)
+      given:
+        forename:
+        - content: Birte
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glimm
         language:
         - en
         script:
@@ -74,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-conformance
+    title:
+    - content: OWL 2 Web Ontology Language Conformance (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-conformance/
+      type: src
+    docid:
+    - id: W3C owl2-conformance
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-owl2-conformance-20090922
+    title:
+    - content: OWL 2 Web Ontology Language Conformance
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PR-owl2-conformance-20090922/
       type: src
@@ -84,28 +128,9 @@ relation:
     - id: W3C PR-owl2-conformance-20090922
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-owl2-conformance-20090922
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2007/OWL/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-owl2-conformance-20091027
 ext:

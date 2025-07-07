@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/REC-css-ui-3-20180621/
   type: src
-- content: https://drafts.csswg.org/css-ui-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css-ui-3-20180621
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-ui-3
+    title:
+    - content: CSS Basic User Interface Module Level 3 (CSS3 UI)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-ui-3/
+      type: src
+    docid:
+    - id: W3C css-ui-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css-ui-3-20171214
+    title:
+    - content: CSS Basic User Interface Module Level 3 (CSS3 UI)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-css-ui-3-20171214/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-css-ui-3-20171214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css-ui-3-20171214
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-css-ui-3-20180621-errata.html
-    link:
-    - content: https://www.w3.org/Style/2018/REC-css-ui-3-20180621-errata.html
-      type: src
-    docid:
-    - id: W3C REC-css-ui-3-20180621-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-css-ui-3-20180621-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css-ui-3-20180621
 ext:
@@ -95,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

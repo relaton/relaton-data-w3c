@@ -5,7 +5,7 @@ title:
 - content: 'Voice Browser Call Control: CCXML Version 1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/CR-ccxml-20100401/
+- content: https://www.w3.org/TR/2010/CR-ccxml-20100401/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Scott
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Baggia
+      given:
+        forename:
+        - content: Paolo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baggia
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cccxml
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ccxml/
+      type: src
+    docid:
+    - id: W3C ccxml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ccxml-20070119
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-ccxml-20070119/
+    - content: https://www.w3.org/TR/2007/WD-ccxml-20070119/
       type: src
     docid:
     - id: W3C WD-ccxml-20070119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ccxml-20070119
+- type: updatedBy
+  bibitem:
+    id: W3CPR-ccxml-20110510
+    title:
+    - content: 'Voice Browser Call Control: CCXML Version 1.0'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-ccxml-20110510/
+      type: src
+    docid:
+    - id: W3C PR-ccxml-20110510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ccxml-20100401
 ext:

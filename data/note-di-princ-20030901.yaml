@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Roger Gimson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-09-01'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdi-princ
+    title:
+    - content: Device Independence Principles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/di-princ/
+      type: src
+    docid:
+    - id: W3C di-princ
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-di-princ-20010918
+    title:
+    - content: Device Independence Principles
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/WD-di-princ-20010918/
       type: src
@@ -51,12 +60,9 @@ relation:
     - id: W3C WD-di-princ-20010918
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-di-princ-20010918
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-di-princ-20030901
 ext:

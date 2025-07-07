@@ -2,12 +2,10 @@
 schema-version: v1.2.9
 id: W3CWD-DOM-Level-3-Val-20021008
 title:
-- content: |-
-    Document Object Model (DOM) Level 3 Validation
-    Specification
+- content: Document Object Model (DOM) Level 3 Validation Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-DOM-Level-3-Val-20021008
+- content: https://www.w3.org/TR/2002/WD-DOM-Level-3-Val-20021008
   type: src
 type: standard
 docid:
@@ -29,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ben Chang
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Joe Kesselman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rezaur Rahman
+      given:
+        forename:
+        - content: rezaur
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: rahman
         language:
         - en
         script:
@@ -64,27 +49,58 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-Val
+    title:
+    - content: Document Object Model (DOM) Level 3 Validation Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-Val/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-Val
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Level-3-Val-20020725
+    title:
+    - content: Document Object Model (DOM) Level 3 Validation Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-DOM-Level-3-Val-20020725
+    - content: https://www.w3.org/TR/2002/WD-DOM-Level-3-Val-20020725
       type: src
     docid:
     - id: W3C WD-DOM-Level-3-Val-20020725
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-Val-20020725
+- type: updatedBy
+  bibitem:
+    id: W3CWD-DOM-Level-3-Val-20030205
+    title:
+    - content: Document Object Model (DOM) Level 3 Validation Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-DOM-Level-3-Val-20030205
+      type: src
+    docid:
+    - id: W3C WD-DOM-Level-3-Val-20030205
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-DOM-Level-3-Val-20021008
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

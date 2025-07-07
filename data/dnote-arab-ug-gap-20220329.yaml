@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-arab-ug-gap-20220329/
   type: src
-- content: https://w3c.github.io/alreq/gap-analysis/arab-ug-gap.html
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-arab-ug-gap-20220329
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,9 +47,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Carab-ug-gap
+    title:
+    - content: Uighur Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/arab-ug-gap/
+      type: src
+    docid:
+    - id: W3C arab-ug-gap
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-arab-ug-gap-20220407
+    title:
+    - content: Uighur Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-arab-ug-gap-20220407/
+      type: src
+    docid:
+    - id: W3C DNOTE-arab-ug-gap-20220407
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-arab-ug-gap-20220329
 ext:

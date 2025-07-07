@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Sai Prasad
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yi-Min Chee
+      given:
+        forename:
+        - content: Sai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prasad
         language:
         - en
         script:
@@ -50,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cinkreqs
+    title:
+    - content: Requirements for the Ink Markup Language
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/inkreqs/
+      type: src
+    docid:
+    - id: W3C inkreqs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-inkreqs-20030122
 ext:

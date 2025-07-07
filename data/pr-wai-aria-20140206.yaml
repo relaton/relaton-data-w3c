@@ -5,7 +5,7 @@ title:
 - content: Accessible Rich Internet Applications (WAI-ARIA) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PR-wai-aria-20140206/
+- content: https://www.w3.org/TR/2014/PR-wai-aria-20140206/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Craig
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Craig
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria/
+      type: src
+    docid:
+    - id: W3C wai-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-wai-aria-20110118
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/CR-wai-aria-20110118/
+    - content: https://www.w3.org/TR/2011/CR-wai-aria-20110118/
       type: src
     docid:
     - id: W3C CR-wai-aria-20110118
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-wai-aria-20110118
+- type: updatedBy
+  bibitem:
+    id: W3CREC-wai-aria-20140320
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-wai-aria-20140320/
+      type: src
+    docid:
+    - id: W3C REC-wai-aria-20140320
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-wai-aria-20140206
 ext:

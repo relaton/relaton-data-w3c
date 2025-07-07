@@ -5,7 +5,7 @@ title:
 - content: RIF RDF and OWL Compatibility
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-rif-rdf-owl-20090703/
+- content: https://www.w3.org/TR/2009/WD-rif-rdf-owl-20090703/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jos De Bruijn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2009-07-03'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-rdf-owl
+    title:
+    - content: RIF RDF and OWL Compatibility (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-rdf-owl/
+      type: src
+    docid:
+    - id: W3C rif-rdf-owl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rif-rdf-owl-20080730
+    title:
+    - content: RIF RDF and OWL Compatibility
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-rif-rdf-owl-20080730/
+    - content: https://www.w3.org/TR/2008/WD-rif-rdf-owl-20080730/
       type: src
     docid:
     - id: W3C WD-rif-rdf-owl-20080730
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-rdf-owl-20080730
+- type: updatedBy
+  bibitem:
+    id: W3CCR-rif-rdf-owl-20091001
+    title:
+    - content: RIF RDF and OWL Compatibility
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-rif-rdf-owl-20091001/
+      type: src
+    docid:
+    - id: W3C CR-rif-rdf-owl-20091001
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-rif-rdf-owl-20090703
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

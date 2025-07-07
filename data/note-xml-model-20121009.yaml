@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jirka Kosek
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grosso
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Grosso
+      given:
+        forename:
+        - content: Jirka
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kosek
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-model
+    title:
+    - content: Associating Schemas with XML documents 1.0 (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-model/
+      type: src
+    docid:
+    - id: W3C xml-model
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-xml-model-20110811
+    title:
+    - content: Associating Schemas with XML documents 1.0 (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/NOTE-xml-model-20110811/
       type: src
@@ -61,12 +94,9 @@ relation:
     - id: W3C NOTE-xml-model-20110811
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xml-model-20110811
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml-model-20121009
 ext:

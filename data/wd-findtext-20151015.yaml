@@ -5,10 +5,8 @@ title:
 - content: FindText API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-findtext-20151015/
+- content: https://www.w3.org/TR/2015/WD-findtext-20151015/
   type: src
-- content: http://w3c.github.io/findtext/
-  type: current
 type: standard
 docid:
 - id: W3C WD-findtext-20151015
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cfindtext
+    title:
+    - content: FindText API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/findtext/
+      type: src
+    docid:
+    - id: W3C findtext
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-findtext-20170620
+    title:
+    - content: FindText API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-findtext-20170620/
+      type: src
+    docid:
+    - id: W3C NOTE-findtext-20170620
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-findtext-20151015
 ext:
@@ -55,5 +90,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
-  - name: Annotation Working Group
+  - name: Web Annotation Working Group
+  - name: Web Platform Working Group

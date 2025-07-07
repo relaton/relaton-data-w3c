@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-functions-30
+    title:
+    - content: XPath and XQuery Functions and Operators 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-functions-30/
+      type: src
+    docid:
+    - id: W3C xpath-functions-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xpath-functions-30-20131022
+    title:
+    - content: XPath and XQuery Functions and Operators 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-xpath-functions-30-20131022/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C PR-xpath-functions-30-20131022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xpath-functions-30-20131022
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath-functions-30-20140408
 ext:
@@ -67,5 +87,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

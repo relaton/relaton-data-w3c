@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-SVG2Reqs-20020422
+    title:
+    - content: SVG 1.1/1.2/2.0 Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-SVG2Reqs-20020422/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-SVG2Reqs-20020422
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVG2Reqs-20020422
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: SVG2Reqs
 ext:

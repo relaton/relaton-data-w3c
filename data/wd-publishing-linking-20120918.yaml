@@ -5,7 +5,7 @@ title:
 - content: Publishing and Linking on the Web
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-publishing-linking-20120918/
+- content: https://www.w3.org/TR/2012/WD-publishing-linking-20120918/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Appelquist
+      given:
+        forename:
+        - content: Larry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Masinter
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Larry Masinter
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Appelquist
         language:
         - en
         script:
@@ -73,9 +101,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpublishing-linking
+    title:
+    - content: Publishing and Linking on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/publishing-linking/
+      type: src
+    docid:
+    - id: W3C publishing-linking
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-publishing-linking-20121025
+    title:
+    - content: Publishing and Linking on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-publishing-linking-20121025/
+      type: src
+    docid:
+    - id: W3C WD-publishing-linking-20121025
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-publishing-linking-20120918
 ext:

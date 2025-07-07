@@ -5,7 +5,7 @@ title:
 - content: SKOS Simple Knowledge Organization System Reference
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/PR-skos-reference-20090615/
+- content: https://www.w3.org/TR/2009/PR-skos-reference-20090615/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alistair Miles
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sean Bechhofer
+      given:
+        forename:
+        - content: Sean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bechhofer
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cskos-reference
+    title:
+    - content: SKOS Simple Knowledge Organization System Reference
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/skos-reference/
+      type: src
+    docid:
+    - id: W3C skos-reference
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-skos-reference-20090317
+    title:
+    - content: SKOS Simple Knowledge Organization System Reference
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-skos-reference-20090317/
+    - content: https://www.w3.org/TR/2009/CR-skos-reference-20090317/
       type: src
     docid:
     - id: W3C CR-skos-reference-20090317
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-skos-reference-20090317
+- type: updatedBy
+  bibitem:
+    id: W3CREC-skos-reference-20090818
+    title:
+    - content: SKOS Simple Knowledge Organization System Reference
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/REC-skos-reference-20090818/
+      type: src
+    docid:
+    - id: W3C REC-skos-reference-20090818
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-skos-reference-20090615
 ext:

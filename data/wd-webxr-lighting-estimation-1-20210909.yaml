@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-webxr-lighting-estimation-1-20210909/
   type: src
-- content: https://immersive-web.github.io/lighting-estimation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webxr-lighting-estimation-1-20210909
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brandon Jones
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebxr-lighting-estimation-1
+    title:
+    - content: WebXR Lighting Estimation API Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webxr-lighting-estimation-1/
+      type: src
+    docid:
+    - id: W3C webxr-lighting-estimation-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webxr-lighting-estimation-1-20220603
+    title:
+    - content: WebXR Lighting Estimation API Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-webxr-lighting-estimation-1-20220603/
+      type: src
+    docid:
+    - id: W3C WD-webxr-lighting-estimation-1-20220603
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-webxr-lighting-estimation-1-20210909
 ext:

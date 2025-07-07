@@ -5,7 +5,7 @@ title:
 - content: 'PROV-AQ: Provenance Access and Query'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-prov-aq-20130312/
+- content: https://www.w3.org/TR/2013/WD-prov-aq-20130312/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Graham Klyne
+      given:
+        forename:
+        - content: Graham
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Klyne
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Groth
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Groth
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-aq
+    title:
+    - content: 'PROV-AQ: Provenance Access and Query'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-aq/
+      type: src
+    docid:
+    - id: W3C prov-aq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-prov-aq-20120619
+    title:
+    - content: 'PROV-AQ: Provenance Access and Query'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-prov-aq-20120619/
+    - content: https://www.w3.org/TR/2012/WD-prov-aq-20120619/
       type: src
     docid:
     - id: W3C WD-prov-aq-20120619
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-prov-aq-20120619
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-prov-aq-20130430
+    title:
+    - content: 'PROV-AQ: Provenance Access and Query'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-prov-aq-20130430/
+      type: src
+    docid:
+    - id: W3C NOTE-prov-aq-20130430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-prov-aq-20130312
 ext:

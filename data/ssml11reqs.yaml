@@ -5,7 +5,7 @@ title:
 - content: Speech Synthesis Markup Language Version 1.1 Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/ssml11reqs/
+- content: https://www.w3.org/TR/ssml11reqs/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ssml11reqs-20070611
+    title:
+    - content: Speech Synthesis Markup Language Version 1.1 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-ssml11reqs-20070611/
+      type: src
+    docid:
+    - id: W3C WD-ssml11reqs-20070611
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-ssml11reqs-20061219
+    title:
+    - content: Speech Synthesis Markup Language Version 1.1 Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-ssml11reqs-20061219/
+    - content: https://www.w3.org/TR/2006/WD-ssml11reqs-20061219/
       type: src
     docid:
     - id: W3C WD-ssml11reqs-20061219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ssml11reqs-20061219
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: ssml11reqs
 ext:

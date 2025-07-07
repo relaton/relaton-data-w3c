@@ -5,7 +5,7 @@ title:
 - content: 'Widgets 1.0: The widget Interface'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-widgets-apis-20091117/
+- content: https://www.w3.org/TR/2009/WD-widgets-apis-20091117/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arve Bersvendsen
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-apis
+    title:
+    - content: Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-apis/
+      type: src
+    docid:
+    - id: W3C widgets-apis
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-widgets-apis-20090818
+    title:
+    - content: 'Widgets 1.0: APIs and Events'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-widgets-apis-20090818/
+    - content: https://www.w3.org/TR/2009/WD-widgets-apis-20090818/
       type: src
     docid:
     - id: W3C WD-widgets-apis-20090818
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-widgets-apis-20090818
+- type: updatedBy
+  bibitem:
+    id: W3CCR-widgets-apis-20091222
+    title:
+    - content: The Widget Interface
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-widgets-apis-20091222/
+      type: src
+    docid:
+    - id: W3C CR-widgets-apis-20091222
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-widgets-apis-20091117
 ext:
@@ -87,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -5,7 +5,7 @@ title:
 - content: Known Issues with Canonical XML 1.0 (C14N/1.0)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-C14N-issues-20060915/
+- content: https://www.w3.org/TR/2006/WD-C14N-issues-20060915/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: José Kahan
+      given:
+        forename:
+        - content: José
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kahan
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Konrad Lanz
+      given:
+        forename:
+        - content: Konrad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanz
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CC14N-issues
+    title:
+    - content: Known Issues with Canonical XML 1.0 (C14N/1.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/C14N-issues/
+      type: src
+    docid:
+    - id: W3C C14N-issues
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-C14N-issues-20061220
+    title:
+    - content: Known Issues with Canonical XML 1.0 (C14N/1.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/NOTE-C14N-issues-20061220/
+      type: src
+    docid:
+    - id: W3C NOTE-C14N-issues-20061220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-C14N-issues-20060915
 ext:

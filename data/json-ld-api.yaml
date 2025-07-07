@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-json-ld-api-20140116
-    link:
-    - content: https://www.w3.org/TR/2014/REC-json-ld-api-20140116/
-      type: src
-    docid:
-    - id: W3C REC-json-ld-api-20140116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-json-ld-api-20140116
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CSPSD-json-ld-api-20201103
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/SPSD-json-ld-api-20201103/
       type: src
@@ -53,12 +40,87 @@ relation:
     - id: W3C SPSD-json-ld-api-20201103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C SPSD-json-ld-api-20201103
+- type: hasEdition
+  bibitem:
+    id: W3CREC-json-ld-api-20140116
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-json-ld-api-20140116/
+      type: src
+    docid:
+    - id: W3C REC-json-ld-api-20140116
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-json-ld-api-20131105
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-json-ld-api-20131105/
+      type: src
+    docid:
+    - id: W3C PR-json-ld-api-20131105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-json-ld-api-20130910
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-json-ld-api-20130910/
+      type: src
+    docid:
+    - id: W3C CR-json-ld-api-20130910
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld-api-20130516
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-json-ld-api-20130516/
+      type: src
+    docid:
+    - id: W3C WD-json-ld-api-20130516
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld-api-20130411
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-json-ld-api-20130411/
+      type: src
+    docid:
+    - id: W3C WD-json-ld-api-20130411
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-json-ld-api-20120712
+    title:
+    - content: JSON-LD API 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-json-ld-api-20120712/
+      type: src
+    docid:
+    - id: W3C WD-json-ld-api-20120712
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: json-ld-api
 ext:

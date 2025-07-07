@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-vc-use-cases-20190924/
   type: src
-- content: https://w3c.github.io/vc-use-cases/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-vc-use-cases-20190924
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joe Andrieu
+      given:
+        forename:
+        - content: Joe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andrieu
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Stone
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stone
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Tzviya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Siegman
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ted Thibodeau Jr
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tzviya Siegman
+      given:
+        forename:
+        - content: Ted
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thibodeau Jr
         language:
         - en
         script:
@@ -92,10 +132,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-use-cases
+    title:
+    - content: Verifiable Credentials Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-use-cases/
+      type: src
+    docid:
+    - id: W3C vc-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-verifiable-claims-use-cases-20170608
+    title:
+    - content: Verifiable Claims Use Cases
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/NOTE-verifiable-claims-use-cases-20170608/
       type: src
@@ -103,12 +162,9 @@ relation:
     - id: W3C NOTE-verifiable-claims-use-cases-20170608
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-verifiable-claims-use-cases-20170608
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-vc-use-cases-20190924
 ext:

@@ -5,10 +5,8 @@ title:
 - content: Micropub
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-micropub-20160128/
+- content: https://www.w3.org/TR/2016/WD-micropub-20160128/
   type: src
-- content: http://micropub.net/draft/
-  type: current
 type: standard
 docid:
 - id: W3C WD-micropub-20160128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Parecki
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parecki
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmicropub
+    title:
+    - content: Micropub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/micropub/
+      type: src
+    docid:
+    - id: W3C micropub
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-micropub-20160301
+    title:
+    - content: Micropub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-micropub-20160301/
+      type: src
+    docid:
+    - id: W3C WD-micropub-20160301
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-micropub-20160128
 ext:

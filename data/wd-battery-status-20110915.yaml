@@ -5,7 +5,7 @@ title:
 - content: Battery Status Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-battery-status-20110915/
+- content: https://www.w3.org/TR/2011/WD-battery-status-20110915/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbattery-status
+    title:
+    - content: Battery Status API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/battery-status/
+      type: src
+    docid:
+    - id: W3C battery-status
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-battery-status-20110602
+    title:
+    - content: Battery Status Event Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-battery-status-20110602/
+    - content: https://www.w3.org/TR/2011/WD-battery-status-20110602/
       type: src
     docid:
     - id: W3C WD-battery-status-20110602
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-battery-status-20110602
+- type: updatedBy
+  bibitem:
+    id: W3CWD-battery-status-20111129
+    title:
+    - content: Battery Status API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-battery-status-20111129/
+      type: src
+    docid:
+    - id: W3C WD-battery-status-20111129
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-battery-status-20110915
 ext:

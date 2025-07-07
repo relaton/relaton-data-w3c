@@ -5,7 +5,7 @@ title:
 - content: SPARQL Variable Binding Results XML Format
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-rdf-sparql-XMLres-20041221/
+- content: https://www.w3.org/TR/2004/WD-rdf-sparql-XMLres-20041221/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Dave Beckett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-12-21'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-sparql-XMLres
+    title:
+    - content: SPARQL Query Results XML Format (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-sparql-XMLres/
+      type: src
+    docid:
+    - id: W3C rdf-sparql-XMLres
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-sparql-XMLres-20050527
+    title:
+    - content: SPARQL Query Results XML Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-XMLres-20050527/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-XMLres-20050527
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-sparql-XMLres-20041221
 ext:

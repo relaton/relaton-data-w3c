@@ -5,7 +5,7 @@ title:
 - content: Microdata to RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/NOTE-microdata-rdf-20121009/
+- content: https://www.w3.org/TR/2012/NOTE-microdata-rdf-20121009/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -40,26 +47,60 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmicrodata-rdf
+    title:
+    - content: Microdata to RDF – Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/microdata-rdf/
+      type: src
+    docid:
+    - id: W3C microdata-rdf
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-microdata-rdf-20120308
+    title:
+    - content: Microdata to RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/NOTE-microdata-rdf-20120308/
+    - content: https://www.w3.org/TR/2012/NOTE-microdata-rdf-20120308/
       type: src
     docid:
     - id: W3C NOTE-microdata-rdf-20120308
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-microdata-rdf-20120308
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-microdata-rdf-20141216
+    title:
+    - content: Microdata to RDF – Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-microdata-rdf-20141216/
+      type: src
+    docid:
+    - id: W3C NOTE-microdata-rdf-20141216
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-microdata-rdf-20121009
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: Semantic Web Interest Group

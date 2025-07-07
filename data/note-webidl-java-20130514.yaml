@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWebIDL-Java
+    title:
+    - content: Java language binding for Web IDL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WebIDL-Java/
+      type: src
+    docid:
+    - id: W3C WebIDL-Java
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WebIDL-Java-20120207
+    title:
+    - content: Java language binding for Web IDL
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-WebIDL-Java-20120207/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-WebIDL-Java-20120207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WebIDL-Java-20120207
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-WebIDL-Java-20130514
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

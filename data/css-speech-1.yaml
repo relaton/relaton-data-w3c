@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Candidate Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCR-css-speech-1-20200310
-    link:
-    - content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
-      type: src
-    docid:
-    - id: W3C CR-css-speech-1-20200310
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-css-speech-1-20200310
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CCRD-css-speech-1-20230214
+    title:
+    - content: CSS Speech Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/
       type: src
@@ -53,12 +40,113 @@ relation:
     - id: W3C CRD-css-speech-1-20230214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-css-speech-1-20230214
+- type: hasEdition
+  bibitem:
+    id: W3CCR-css-speech-1-20200310
+    title:
+    - content: CSS Speech Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
+      type: src
+    docid:
+    - id: W3C CR-css-speech-1-20200310
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-css3-speech-20180605
+    title:
+    - content: CSS Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/
+      type: src
+    docid:
+    - id: W3C NOTE-css3-speech-20180605
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-css3-speech-20120320
+    title:
+    - content: CSS Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-css3-speech-20120320/
+      type: src
+    docid:
+    - id: W3C CR-css3-speech-20120320
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-speech-20110818
+    title:
+    - content: CSS Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-css3-speech-20110818/
+      type: src
+    docid:
+    - id: W3C WD-css3-speech-20110818
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-speech-20110419
+    title:
+    - content: CSS3 Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-css3-speech-20110419
+      type: src
+    docid:
+    - id: W3C WD-css3-speech-20110419
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-speech-20041216
+    title:
+    - content: CSS3 Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-css3-speech-20041216/
+      type: src
+    docid:
+    - id: W3C WD-css3-speech-20041216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-speech-20040727
+    title:
+    - content: CSS3 Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-css3-speech-20040727
+      type: src
+    docid:
+    - id: W3C WD-css3-speech-20040727
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-speech-20030514
+    title:
+    - content: CSS3 Speech Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-css3-speech-20030514
+      type: src
+    docid:
+    - id: W3C WD-css3-speech-20030514
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C CR
+    content: W3C technicalReport
     format: text/plain
   number: css-speech-1
 ext:

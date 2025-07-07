@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Crif-core
 title:
-- content: RIF Core Dialect
+- content: RIF Core Dialect (Second Edition)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/rif-core
+- content: https://www.w3.org/TR/rif-core/
   type: src
 type: standard
 docid:
@@ -26,65 +26,127 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-rif-core-20070330
+    id: W3CREC-rif-core-20130205
+    title:
+    - content: RIF Core Dialect (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-rif-core-20070330
+    - content: https://www.w3.org/TR/2013/REC-rif-core-20130205/
       type: src
     docid:
-    - id: W3C WD-rif-core-20070330
+    - id: W3C REC-rif-core-20130205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-core-20070330
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rif-core-20071030
+    id: W3CPER-rif-core-20121211
+    title:
+    - content: RIF Core Dialect
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-rif-core-20071030
+    - content: https://www.w3.org/TR/2012/PER-rif-core-20121211/
       type: src
     docid:
-    - id: W3C WD-rif-core-20071030
+    - id: W3C PER-rif-core-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-core-20071030
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rif-core-20081218
+    id: W3CREC-rif-core-20100622
+    title:
+    - content: RIF Core Dialect
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-rif-core-20081218/
+    - content: https://www.w3.org/TR/2010/REC-rif-core-20100622/
       type: src
     docid:
-    - id: W3C WD-rif-core-20081218
+    - id: W3C REC-rif-core-20100622
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-core-20081218
+- type: hasEdition
+  bibitem:
+    id: W3CPR-rif-core-20100511
+    title:
+    - content: RIF Core Dialect
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2010/PR-rif-core-20100511/
+      type: src
+    docid:
+    - id: W3C PR-rif-core-20100511
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-rif-core-20091001
+    title:
+    - content: RIF Core Dialect
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-rif-core-20091001/
+      type: src
+    docid:
+    - id: W3C CR-rif-core-20091001
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-rif-core-20090703
+    title:
+    - content: RIF Core Dialect
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-rif-core-20090703/
+    - content: https://www.w3.org/TR/2009/WD-rif-core-20090703/
       type: src
     docid:
     - id: W3C WD-rif-core-20090703
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-core-20090703
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rif-core-20081218
+    title:
+    - content: RIF Core
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-rif-core-20081218/
+      type: src
+    docid:
+    - id: W3C WD-rif-core-20081218
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rif-core-20071030
+    title:
+    - content: RIF Core Design - Placeholder
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-rif-core-20071030
+      type: src
+    docid:
+    - id: W3C WD-rif-core-20071030
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rif-core-20070330
+    title:
+    - content: RIF Core Design
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-rif-core-20070330
+      type: src
+    docid:
+    - id: W3C WD-rif-core-20070330
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: rif-core
 ext:

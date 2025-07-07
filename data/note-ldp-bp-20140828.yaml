@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-ldp-bp-20140828/
   type: src
-- content: https://dvcs.w3.org/hg/ldpwg/raw-file/default/ldp-bp/ldp-bp.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-ldp-bp-20140828
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cody Burleson
+      given:
+        forename:
+        - content: Cody
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burleson
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Miguel Esteban Gutiérrez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Nandana Mihindukulasooriya
+      given:
+        forename:
+        - content: Nandana
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mihindukulasooriya
         language:
         - en
         script:
@@ -62,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldp-bp
+    title:
+    - content: Linked Data Platform Best Practices and Guidelines
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldp-bp/
+      type: src
+    docid:
+    - id: W3C ldp-bp
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ldp-bp-20140828
 ext:
@@ -72,4 +91,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

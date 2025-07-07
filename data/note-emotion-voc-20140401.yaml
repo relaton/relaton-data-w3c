@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Catherine Pelachaud
+      given:
+        forename:
+        - content: Felix
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burkhardt
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Felix Burkhardt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marc Schröder
+      given:
+        forename:
+        - content: Catherine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pelachaud
         language:
         - en
         script:
@@ -60,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemotion-voc
+    title:
+    - content: Vocabularies for EmotionML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emotion-voc/
+      type: src
+    docid:
+    - id: W3C emotion-voc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-emotion-voc-20120510
+    title:
+    - content: Vocabularies for EmotionML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/NOTE-emotion-voc-20120510/
       type: src
@@ -71,12 +94,9 @@ relation:
     - id: W3C NOTE-emotion-voc-20120510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-emotion-voc-20120510
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-emotion-voc-20140401
 ext:

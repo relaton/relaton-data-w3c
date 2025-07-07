@@ -5,7 +5,7 @@ title:
 - content: Efficient XML Interchange (EXI) Format 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/CR-exi-20091208/
+- content: https://www.w3.org/TR/2009/CR-exi-20091208/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Schneider
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schneider
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Takuki Kamiya
+      given:
+        forename:
+        - content: Takuki
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kamiya
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi
+    title:
+    - content: Efficient XML Interchange (EXI) Format 1.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi/
+      type: src
+    docid:
+    - id: W3C exi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-exi-20080919
+    title:
+    - content: Efficient XML Interchange (EXI) Format 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-exi-20080919/
+    - content: https://www.w3.org/TR/2008/WD-exi-20080919/
       type: src
     docid:
     - id: W3C WD-exi-20080919
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-exi-20080919
+- type: updatedBy
+  bibitem:
+    id: W3CPR-exi-20110120
+    title:
+    - content: Efficient XML Interchange (EXI) Format 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-exi-20110120/
+      type: src
+    docid:
+    - id: W3C PR-exi-20110120
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-exi-20091208
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

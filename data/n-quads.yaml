@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-n-quads-20140225
+    title:
+    - content: RDF 1.1 N-Quads
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/REC-n-quads-20140225/
       type: src
@@ -40,12 +40,61 @@ relation:
     - id: W3C REC-n-quads-20140225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-n-quads-20140225
+- type: hasEdition
+  bibitem:
+    id: W3CPR-n-quads-20140109
+    title:
+    - content: RDF 1.1 N-Quads
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/PR-n-quads-20140109/
+      type: src
+    docid:
+    - id: W3C PR-n-quads-20140109
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-n-quads-20131105
+    title:
+    - content: RDF 1.1 N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-n-quads-20131105/
+      type: src
+    docid:
+    - id: W3C CR-n-quads-20131105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-n-quads-20130905
+    title:
+    - content: N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-n-quads-20130905/
+      type: src
+    docid:
+    - id: W3C WD-n-quads-20130905
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-n-quads-20130409
+    title:
+    - content: N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-n-quads-20130409/
+      type: src
+    docid:
+    - id: W3C NOTE-n-quads-20130409
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: n-quads
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/REC-touch-events-20131010/
   type: src
-- content: https://w3c.github.io/touch-events/
-  type: current
 type: standard
 docid:
 - id: W3C REC-touch-events-20131010
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arthur Barstow
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Sangwhan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moon
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sangwhan Moon
+      given:
+        forename:
+        - content: Arthur
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Barstow
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctouch-events
+    title:
+    - content: Touch Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/touch-events/
+      type: src
+    docid:
+    - id: W3C touch-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-touch-events-20130509
+    title:
+    - content: Touch Events version 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-touch-events-20130509/
       type: src
@@ -86,12 +128,9 @@ relation:
     - id: W3C PR-touch-events-20130509
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-touch-events-20130509
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-touch-events-20131010
 ext:

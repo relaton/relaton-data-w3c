@@ -5,7 +5,7 @@ title:
 - content: An organization ontology
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-vocab-org-20121023/
+- content: https://www.w3.org/TR/2012/WD-vocab-org-20121023/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Reynolds
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reynolds
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-org
+    title:
+    - content: The Organization Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-org/
+      type: src
+    docid:
+    - id: W3C vocab-org
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vocab-org-20120405
+    title:
+    - content: An organization ontology
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-vocab-org-20120405/
+    - content: https://www.w3.org/TR/2012/WD-vocab-org-20120405/
       type: src
     docid:
     - id: W3C WD-vocab-org-20120405
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-org-20120405
+- type: updatedBy
+  bibitem:
+    id: W3CCR-vocab-org-20130625
+    title:
+    - content: The Organization Ontology
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-vocab-org-20130625/
+      type: src
+    docid:
+    - id: W3C CR-vocab-org-20130625
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-vocab-org-20121023
 ext:

@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Corientation-event
 title:
-- content: DeviceOrientation Event Specification
+- content: Device Orientation and Motion
   format: text/plain
 link:
-- content: http://www.w3.org/TR/orientation-event/
+- content: https://www.w3.org/TR/orientation-event/
   type: src
 type: standard
 docid:
@@ -26,39 +26,530 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-orientation-event-20250212
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-orientation-event-20250212/
+      type: src
+    docid:
+    - id: W3C CRD-orientation-event-20250212
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-orientation-event-20241121
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CR-orientation-event-20241121/
+      type: src
+    docid:
+    - id: W3C CR-orientation-event-20241121
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20241024
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20241024/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20241024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240514
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240514/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240514
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240509
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240509/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240509
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240508
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240508/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240508
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240507
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240507/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240507
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240504
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240504/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240504
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240503
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240503/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240503
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240502
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240502/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240502
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240411
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240411/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240411
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240311
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240311/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240311
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240305
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240305/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240305
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240214
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240214/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240214
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240202
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240202/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240131
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240131/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240131
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240130
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240130/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240130
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240129
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240129/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240129
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240122
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240122/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240122
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240105
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240105/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20240104
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240104/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20240104
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20231211
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231211/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231211
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20231205
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231205/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231205
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20231204
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231204/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231204
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20231113
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231113/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231113
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20231110
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231110/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231110
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20231107
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20231107/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20231107
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20230421
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20230421/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20230421
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20230412
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20230412/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20230412
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20230403
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20230403/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20230403
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20230322
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20230322/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20230322
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20230130
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20230130/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20230130
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20230109
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-orientation-event-20230109/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20230109
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20220919
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-orientation-event-20220919/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20220919
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20220610
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-orientation-event-20220610/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20220610
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-orientation-event-20190416
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-orientation-event-20190416/
+      type: src
+    docid:
+    - id: W3C WD-orientation-event-20190416
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-orientation-event-20170530
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-orientation-event-20170530/
+      type: src
+    docid:
+    - id: W3C NOTE-orientation-event-20170530
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-orientation-event-20160818
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-orientation-event-20160818/
+      type: src
+    docid:
+    - id: W3C CR-orientation-event-20160818
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-orientation-event-20111201
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-orientation-event-20111201/
+    - content: https://www.w3.org/TR/2011/WD-orientation-event-20111201/
       type: src
     docid:
     - id: W3C WD-orientation-event-20111201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-orientation-event-20111201
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-orientation-event-20110628
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-orientation-event-20110628/
+    - content: https://www.w3.org/TR/2011/WD-orientation-event-20110628/
       type: src
     docid:
     - id: W3C WD-orientation-event-20110628
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-orientation-event-20110628
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: orientation-event
 ext:

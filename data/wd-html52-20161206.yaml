@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-html52-20161206/
   type: src
-- content: https://w3c.github.io/html/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html52-20161206
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Danilo
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Arron Eicholz
+      given:
+        forename:
+        - content: Arron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eicholz
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Danilo
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml52
+    title:
+    - content: HTML 5.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html52/
+      type: src
+    docid:
+    - id: W3C html52
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html52-20161025
+    title:
+    - content: HTML 5.2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-html52-20161025/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-html52-20161025
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html52-20161025
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html52-20170117
+    title:
+    - content: HTML 5.2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-html52-20170117/
+      type: src
+    docid:
+    - id: W3C WD-html52-20170117
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html52-20161206
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

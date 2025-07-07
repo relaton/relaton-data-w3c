@@ -29,20 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-css-2023-20230214
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-css-2023-20230214/
-      type: src
-    docid:
-    - id: W3C DNOTE-css-2023-20230214
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-css-2023-20230214
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-css-2023-20231207
+    title:
+    - content: CSS Snapshot 2023
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/NOTE-css-2023-20231207/
       type: src
@@ -50,12 +40,22 @@ relation:
     - id: W3C NOTE-css-2023-20231207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-css-2023-20231207
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-css-2023-20230214
+    title:
+    - content: CSS Snapshot 2023
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-css-2023-20230214/
+      type: src
+    docid:
+    - id: W3C DNOTE-css-2023-20230214
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: css-2023
 ext:

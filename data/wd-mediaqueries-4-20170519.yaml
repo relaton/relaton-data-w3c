@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-mediaqueries-4-20170519/
   type: src
-- content: https://drafts.csswg.org/mediaqueries-4/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediaqueries-4-20170519
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaqueries-4
+    title:
+    - content: Media Queries Level 4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaqueries-4/
+      type: src
+    docid:
+    - id: W3C mediaqueries-4
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediaqueries-4-20160706
+    title:
+    - content: Media Queries Level 4
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-mediaqueries-4-20160706/
+    - content: https://www.w3.org/TR/2016/WD-mediaqueries-4-20160706/
       type: src
     docid:
     - id: W3C WD-mediaqueries-4-20160706
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediaqueries-4-20160706
+- type: updatedBy
+  bibitem:
+    id: W3CCR-mediaqueries-4-20170905
+    title:
+    - content: Media Queries Level 4
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-mediaqueries-4-20170905/
+      type: src
+    docid:
+    - id: W3C CR-mediaqueries-4-20170905
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mediaqueries-4-20170519
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

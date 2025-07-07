@@ -5,7 +5,7 @@ title:
 - content: XFrames
   format: text/plain
 link:
-- content: http://www.w3.org/TR/xframes
+- content: https://www.w3.org/TR/xframes/
   type: src
 type: standard
 docid:
@@ -26,52 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-xframes-20020806
-    link:
-    - content: http://www.w3.org/TR/2002/WD-xframes-20020806
-      type: src
-    docid:
-    - id: W3C WD-xframes-20020806
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xframes-20020806
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-xframes-20051012
-    link:
-    - content: http://www.w3.org/TR/2005/WD-xframes-20051012
-      type: src
-    docid:
-    - id: W3C WD-xframes-20051012
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-xframes-20051012
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-xframes-20101216
+    title:
+    - content: XFrames
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/NOTE-xframes-20101216
+    - content: https://www.w3.org/TR/2010/NOTE-xframes-20101216/
       type: src
     docid:
     - id: W3C NOTE-xframes-20101216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xframes-20101216
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xframes-20051012
+    title:
+    - content: XFrames
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xframes-20051012
+      type: src
+    docid:
+    - id: W3C WD-xframes-20051012
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xframes-20020806
+    title:
+    - content: XFrames
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xframes-20020806
+      type: src
+    docid:
+    - id: W3C WD-xframes-20020806
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xframes
 ext:

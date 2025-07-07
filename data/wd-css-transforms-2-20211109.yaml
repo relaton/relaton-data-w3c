@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-css-transforms-2-20211109/
   type: src
-- content: https://drafts.csswg.org/css-transforms-2/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-transforms-2-20211109
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Baron
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dean Jackson
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baron
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Fraser
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fraser
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Dean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jackson
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Theresa O'Connor
+      given:
+        forename:
+        - content: Theresa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-transforms-2
+    title:
+    - content: CSS Transforms Module Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-transforms-2/
+      type: src
+    docid:
+    - id: W3C css-transforms-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-transforms-2-20200303
+    title:
+    - content: CSS Transforms Module Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-css-transforms-2-20200303/
       type: src
@@ -96,12 +145,9 @@ relation:
     - id: W3C WD-css-transforms-2-20200303
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-transforms-2-20200303
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-transforms-2-20211109
 ext:
@@ -109,4 +155,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

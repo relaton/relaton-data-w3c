@@ -5,7 +5,7 @@ title:
 - content: Requirements for the Internationalization of Web Services
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-ws-i18n-req-20031217/
+- content: https://www.w3.org/TR/2003/WD-ws-i18n-req-20031217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-i18n-req
+    title:
+    - content: Requirements for the Internationalization of Web Services
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-i18n-req/
+      type: src
+    docid:
+    - id: W3C ws-i18n-req
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ws-i18n-req-20041116
+    title:
+    - content: Requirements for the Internationalization of Web Services
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/NOTE-ws-i18n-req-20041116/
+      type: src
+    docid:
+    - id: W3C NOTE-ws-i18n-req-20041116
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ws-i18n-req-20031217
 ext:

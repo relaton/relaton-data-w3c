@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-remote-playback-20161107/
   type: src
-- content: https://w3c.github.io/remote-playback/
-  type: current
 type: standard
 docid:
 - id: W3C WD-remote-playback-20161107
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cremote-playback
+    title:
+    - content: Remote Playback API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/remote-playback/
+      type: src
+    docid:
+    - id: W3C remote-playback
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-remote-playback-20160714
+    title:
+    - content: Remote Playback API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-remote-playback-20160714/
+    - content: https://www.w3.org/TR/2016/WD-remote-playback-20160714/
       type: src
     docid:
     - id: W3C WD-remote-playback-20160714
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-remote-playback-20160714
+- type: updatedBy
+  bibitem:
+    id: W3CCR-remote-playback-20171019
+    title:
+    - content: Remote Playback API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-remote-playback-20171019/
+      type: src
+    docid:
+    - id: W3C CR-remote-playback-20171019
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-remote-playback-20161107
 ext:

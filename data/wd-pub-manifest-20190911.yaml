@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-pub-manifest-20190911/
   type: src
-- content: https://w3c.github.io/pub-manifest/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pub-manifest-20190911
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpub-manifest
+    title:
+    - content: Publication Manifest
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pub-manifest/
+      type: src
+    docid:
+    - id: W3C pub-manifest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pub-manifest-20190827
+    title:
+    - content: Publication Manifest
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-pub-manifest-20190827/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-pub-manifest-20190827
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pub-manifest-20190827
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pub-manifest-20191118
+    title:
+    - content: Publication Manifest
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-pub-manifest-20191118/
+      type: src
+    docid:
+    - id: W3C WD-pub-manifest-20191118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-pub-manifest-20190911
 ext:

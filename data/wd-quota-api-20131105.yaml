@@ -5,10 +5,8 @@ title:
 - content: Quota Management API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-quota-api-20131105/
+- content: https://www.w3.org/TR/2013/WD-quota-api-20131105/
   type: src
-- content: http://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-quota-api-20131105
@@ -27,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kinuko Yasuda
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2013-11-05'
 language:
 - en
@@ -46,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cquota-api
+    title:
+    - content: Quota Management API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/quota-api/
+      type: src
+    docid:
+    - id: W3C quota-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-quota-api-20120703
+    title:
+    - content: Quota Management API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-quota-api-20120703/
+    - content: https://www.w3.org/TR/2012/WD-quota-api-20120703/
       type: src
     docid:
     - id: W3C WD-quota-api-20120703
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-quota-api-20120703
+- type: updatedBy
+  bibitem:
+    id: W3CWD-quota-api-20150409
+    title:
+    - content: Quota Management API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-quota-api-20150409/
+      type: src
+    docid:
+    - id: W3C WD-quota-api-20150409
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-quota-api-20131105
 ext:
@@ -69,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

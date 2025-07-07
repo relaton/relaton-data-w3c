@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Emmons
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Emmons
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVGTiny12Reqs
+    title:
+    - content: SVGT 1.2 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVGTiny12Reqs/
+      type: src
+    docid:
+    - id: W3C SVGTiny12Reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-SVGTiny12Reqs-20031209
+    title:
+    - content: SVG Tiny Version 1.2 Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/WD-SVGTiny12Reqs-20031209/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-SVGTiny12Reqs-20031209
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGTiny12Reqs-20031209
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-SVGTiny12Reqs-20060810
 ext:

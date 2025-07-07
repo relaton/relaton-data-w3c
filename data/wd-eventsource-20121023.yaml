@@ -5,7 +5,7 @@ title:
 - content: Server-Sent Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-eventsource-20121023/
+- content: https://www.w3.org/TR/2012/WD-eventsource-20121023/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ceventsource
+    title:
+    - content: Server-Sent Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/eventsource/
+      type: src
+    docid:
+    - id: W3C eventsource
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-eventsource-20120426
+    title:
+    - content: Server-Sent Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-eventsource-20120426/
+    - content: https://www.w3.org/TR/2012/WD-eventsource-20120426/
       type: src
     docid:
     - id: W3C WD-eventsource-20120426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-eventsource-20120426
+- type: updatedBy
+  bibitem:
+    id: W3CCR-eventsource-20121211
+    title:
+    - content: Server-Sent Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-eventsource-20121211/
+      type: src
+    docid:
+    - id: W3C CR-eventsource-20121211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-eventsource-20121023
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

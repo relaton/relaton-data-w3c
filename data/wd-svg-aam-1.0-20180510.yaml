@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-svg-aam-1.0-20180510/
   type: src
-- content: https://w3c.github.io/svg-aam/
-  type: current
 type: standard
 docid:
 - id: W3C WD-svg-aam-1.0-20180510
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Pouncey
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pouncey
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csvg-aam-1.0
+    title:
+    - content: SVG Accessibility API Mappings
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/svg-aam-1.0/
+      type: src
+    docid:
+    - id: W3C svg-aam-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-svg-aam-1.0-20160908
+    title:
+    - content: SVG Accessibility API Mappings
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-svg-aam-1.0-20160908/
       type: src
@@ -66,12 +94,9 @@ relation:
     - id: W3C WD-svg-aam-1.0-20160908
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-svg-aam-1.0-20160908
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-svg-aam-1.0-20180510
 ext:

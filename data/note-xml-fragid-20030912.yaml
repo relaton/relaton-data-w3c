@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Paul Grosso
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grosso
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-fragid
+    title:
+    - content: Proposal for XML Fragment Identifier Syntax 0.9
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-fragid/
+      type: src
+    docid:
+    - id: W3C xml-fragid
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-xml-fragid-20030912
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

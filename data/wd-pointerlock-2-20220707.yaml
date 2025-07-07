@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-pointerlock-2-20220707/
   type: src
-- content: https://w3c.github.io/pointerlock/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pointerlock-2-20220707
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mustaq Ahmed
+      given:
+        forename:
+        - content: Navid
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zolghadr
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Navid Zolghadr
+      given:
+        forename:
+        - content: Mustaq
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ahmed
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerlock-2
+    title:
+    - content: Pointer Lock 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerlock-2/
+      type: src
+    docid:
+    - id: W3C pointerlock-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pointerlock-2-20211117
+    title:
+    - content: Pointer Lock 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-pointerlock-2-20211117/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-pointerlock-2-20211117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerlock-2-20211117
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pointerlock-2-20220708
+    title:
+    - content: Pointer Lock 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-pointerlock-2-20220708/
+      type: src
+    docid:
+    - id: W3C WD-pointerlock-2-20220708
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-pointerlock-2-20220707
 ext:

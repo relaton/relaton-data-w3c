@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-webrtc-20170313/
   type: src
-- content: https://w3c.github.io/webrtc-pc/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webrtc-20170313
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Bergkvist
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bergkvist
         language:
         - en
         script:
@@ -39,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anant Narayanan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Bernard Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Cullen Jennings
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel Burnett
+      given:
+        forename:
+        - content: Cullen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
         language:
         - en
         script:
@@ -86,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc
+    title:
+    - content: 'WebRTC: Real-Time Communication in Browsers'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc/
+      type: src
+    docid:
+    - id: W3C webrtc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webrtc-20161124
+    title:
+    - content: 'WebRTC 1.0: Real-time Communication Between Browsers'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-webrtc-20161124/
       type: src
@@ -96,12 +94,25 @@ relation:
     - id: W3C WD-webrtc-20161124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webrtc-20161124
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webrtc-20170508
+    title:
+    - content: 'WebRTC 1.0: Real-time Communication Between Browsers'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-webrtc-20170508/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-20170508
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webrtc-20170313
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-string-meta-20230720/
   type: src
-- content: https://w3c.github.io/string-meta/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-string-meta-20230720
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cstring-meta
+    title:
+    - content: 'Strings on the Web: Language and Direction Metadata'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/string-meta/
+      type: src
+    docid:
+    - id: W3C string-meta
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-string-meta-20220804
+    title:
+    - content: 'Strings on the Web: Language and Direction Metadata'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-string-meta-20220804/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C DNOTE-string-meta-20220804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-string-meta-20220804
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-string-meta-20240122
+    title:
+    - content: 'Strings on the Web: Language and Direction Metadata'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-string-meta-20240122/
+      type: src
+    docid:
+    - id: W3C DNOTE-string-meta-20240122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-string-meta-20230720
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jose Manuel Cantera Fonseca
+      given:
+        forename:
+        - content: Jose Manuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cantera Fonseca
         language:
         - en
         script:
@@ -43,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdd-structures
+    title:
+    - content: Device Description Structures
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dd-structures/
+      type: src
+    docid:
+    - id: W3C dd-structures
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dd-structures-20081205
 ext:

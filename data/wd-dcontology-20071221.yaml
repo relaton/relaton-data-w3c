@@ -5,7 +5,7 @@ title:
 - content: Delivery Context Ontology
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-dcontology-20071221/
+- content: https://www.w3.org/TR/2007/WD-dcontology-20071221/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Rhys Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2007-12-21'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdcontology
+    title:
+    - content: Delivery Context Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dcontology/
+      type: src
+    docid:
+    - id: W3C dcontology
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dcontology-20080415
+    title:
+    - content: Delivery Context Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-dcontology-20080415/
+      type: src
+    docid:
+    - id: W3C WD-dcontology-20080415
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dcontology-20071221
 ext:

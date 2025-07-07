@@ -5,7 +5,7 @@ title:
 - content: Glossary of Terms for Device Independence
   format: text/plain
 link:
-- content: http://www.w3.org/TR/di-gloss/
+- content: https://www.w3.org/TR/di-gloss/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-di-gloss-20050118
+    title:
+    - content: Glossary of Terms for Device Independence
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-di-gloss-20050118/
+      type: src
+    docid:
+    - id: W3C WD-di-gloss-20050118
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-di-gloss-20030825
+    title:
+    - content: Glossary of Terms for Device Independence
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-di-gloss-20030825/
+    - content: https://www.w3.org/TR/2003/WD-di-gloss-20030825/
       type: src
     docid:
     - id: W3C WD-di-gloss-20030825
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-di-gloss-20030825
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: di-gloss
 ext:

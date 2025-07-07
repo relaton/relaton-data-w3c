@@ -5,7 +5,7 @@ title:
 - content: Device Independence Principles
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/WD-di-princ-20010918/
+- content: https://www.w3.org/TR/2001/WD-di-princ-20010918/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Roger Gimson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2001-09-18'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdi-princ
+    title:
+    - content: Device Independence Principles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/di-princ/
+      type: src
+    docid:
+    - id: W3C di-princ
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-di-princ-20030901
+    title:
+    - content: Device Independence Principles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/NOTE-di-princ-20030901/
+      type: src
+    docid:
+    - id: W3C NOTE-di-princ-20030901
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-di-princ-20010918
 ext:
@@ -53,4 +73,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Device Independence Working Group
+  - name: UNKNOWN WORKING GROUP

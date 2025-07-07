@@ -5,10 +5,8 @@ title:
 - content: 'IndieUI: Events 1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-indie-ui-events-20150115/
+- content: https://www.w3.org/TR/2015/WD-indie-ui-events-20150115/
   type: src
-- content: https://w3c.github.io/indie-ui/indie-ui-events.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-indie-ui-events-20150115
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Craig
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Craig
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cindie-ui-events
+    title:
+    - content: 'IndieUI: Events 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/indie-ui-events/
+      type: src
+    docid:
+    - id: W3C indie-ui-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-indie-ui-events-20140529
+    title:
+    - content: 'IndieUI: Events 1.0'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-indie-ui-events-20140529/
+    - content: https://www.w3.org/TR/2014/WD-indie-ui-events-20140529/
       type: src
     docid:
     - id: W3C WD-indie-ui-events-20140529
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-indie-ui-events-20140529
+- type: updatedBy
+  bibitem:
+    id: W3CWD-indie-ui-events-20150430
+    title:
+    - content: 'IndieUI: Events 1.0'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-indie-ui-events-20150430/
+      type: src
+    docid:
+    - id: W3C WD-indie-ui-events-20150430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-indie-ui-events-20150115
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Independent User Interface Working Group
+  - name: Independent User Interface (Indie UI) Working Group

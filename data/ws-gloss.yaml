@@ -5,7 +5,7 @@ title:
 - content: Web Services Glossary
   format: text/plain
 link:
-- content: http://www.w3.org/TR/ws-gloss/
+- content: https://www.w3.org/TR/ws-gloss/
   type: src
 type: standard
 docid:
@@ -26,52 +26,62 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-gloss-20021114
+    id: W3CNOTE-ws-gloss-20040211
+    title:
+    - content: Web Services Glossary
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-ws-gloss-20021114/
+    - content: https://www.w3.org/TR/2004/NOTE-ws-gloss-20040211/
       type: src
     docid:
-    - id: W3C WD-ws-gloss-20021114
+    - id: W3C NOTE-ws-gloss-20040211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-gloss-20021114
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-gloss-20030514
-    link:
-    - content: http://www.w3.org/TR/2003/WD-ws-gloss-20030514/
-      type: src
-    docid:
-    - id: W3C WD-ws-gloss-20030514
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-ws-gloss-20030514
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-ws-gloss-20030808
+    title:
+    - content: Web Services Glossary
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-ws-gloss-20030808/
+    - content: https://www.w3.org/TR/2003/WD-ws-gloss-20030808/
       type: src
     docid:
     - id: W3C WD-ws-gloss-20030808
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-gloss-20030808
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-gloss-20030514
+    title:
+    - content: Web Services Glossary
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-ws-gloss-20030514/
+      type: src
+    docid:
+    - id: W3C WD-ws-gloss-20030514
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ws-gloss-20021114
+    title:
+    - content: Web Services Glossary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-ws-gloss-20021114/
+      type: src
+    docid:
+    - id: W3C WD-ws-gloss-20021114
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: ws-gloss
 ext:

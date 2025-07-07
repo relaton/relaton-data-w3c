@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -74,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-functions
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-functions/
+      type: src
+    docid:
+    - id: W3C xpath-functions
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xpath-functions-20090421
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PER-xpath-functions-20090421/
       type: src
@@ -84,28 +128,9 @@ relation:
     - id: W3C PER-xpath-functions-20090421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xpath-functions-20090421
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxpath-functions-errata2e.html
-    link:
-    - content: https://www.w3.org/XML/2010/qt-errata/xpath-functions-errata2e.html
-      type: src
-    docid:
-    - id: W3C xpath-functions-errata2e.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xpath-functions-errata2e.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath-functions-20101214
 ext:
@@ -113,5 +138,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

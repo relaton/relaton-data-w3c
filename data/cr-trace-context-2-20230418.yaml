@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CR-trace-context-2-20230418/
   type: src
-- content: https://w3c.github.io/trace-context/
-  type: current
 type: standard
 docid:
 - id: W3C CR-trace-context-2-20230418
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Dyla
+      given:
+        forename:
+        - content: Sergey
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kanzhelev
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sergey Kanzhelev
+      given:
+        forename:
+        - content: Yuri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shkuro
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yuri Shkuro
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyla
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctrace-context-2
+    title:
+    - content: Trace Context Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/trace-context-2/
+      type: src
+    docid:
+    - id: W3C trace-context-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-trace-context-2-20230406
+    title:
+    - content: Trace Context Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-trace-context-2-20230406/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-trace-context-2-20230406
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-trace-context-2-20230406
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-trace-context-2-20240328
+    title:
+    - content: Trace Context Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-trace-context-2-20240328/
+      type: src
+    docid:
+    - id: W3C CRD-trace-context-2-20240328
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-trace-context-2-20230418
 ext:

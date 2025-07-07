@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-personalization-semantics-1.0-20170606/
   type: src
-- content: https://w3c.github.io/personalization-semantics/
-  type: current
 type: standard
 docid:
 - id: W3C WD-personalization-semantics-1.0-20170606
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lisa Seeman-Kestenbaum
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cadapt
+    title:
+    - content: WAI-Adapt Explainer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/adapt/
+      type: src
+    docid:
+    - id: W3C adapt
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-personalization-semantics-1.0-20180213
+    title:
+    - content: Personalization Semantics Explainer 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-personalization-semantics-1.0-20180213/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-1.0-20180213
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-personalization-semantics-1.0-20170606
 ext:

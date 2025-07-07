@@ -5,7 +5,7 @@ title:
 - content: User Agent Accessibility Guidelines 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/PR-UAAG10-20021016/
+- content: https://www.w3.org/TR/2002/PR-UAAG10-20021016/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Hansen
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Jon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gunderson
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jon Gunderson
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hansen
         language:
         - en
         script:
@@ -64,25 +85,56 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CUAAG10
+    title:
+    - content: User Agent Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/UAAG10/
+      type: src
+    docid:
+    - id: W3C UAAG10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-UAAG10-20020821
+    title:
+    - content: User Agent Accessibility Guidelines 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-UAAG10-20020821/
+    - content: https://www.w3.org/TR/2002/WD-UAAG10-20020821/
       type: src
     docid:
     - id: W3C WD-UAAG10-20020821
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-UAAG10-20020821
+- type: updatedBy
+  bibitem:
+    id: W3CREC-UAAG10-20021217
+    title:
+    - content: User Agent Accessibility Guidelines 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/REC-UAAG10-20021217/
+      type: src
+    docid:
+    - id: W3C REC-UAAG10-20021217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-UAAG10-20021016
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

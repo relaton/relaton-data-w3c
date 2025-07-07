@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-pointerevents3-20231002/
   type: src
-- content: https://w3c.github.io/pointerevents/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pointerevents3-20231002
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerevents3
+    title:
+    - content: Pointer Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerevents3/
+      type: src
+    docid:
+    - id: W3C pointerevents3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pointerevents3-20230831
+    title:
+    - content: Pointer Events
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-pointerevents3-20230831/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-pointerevents3-20230831
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerevents3-20230831
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pointerevents3-20231025
+    title:
+    - content: Pointer Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-pointerevents3-20231025/
+      type: src
+    docid:
+    - id: W3C WD-pointerevents3-20231025
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-pointerevents3-20231002
 ext:

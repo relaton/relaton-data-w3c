@@ -5,7 +5,7 @@ title:
 - content: Efficient XML Interchange (EXI) Primer
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-exi-primer-20071219/
+- content: https://www.w3.org/TR/2007/WD-exi-primer-20071219/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Santiago Pericas-Geertsen
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-primer
+    title:
+    - content: Efficient XML Interchange (EXI) Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-primer/
+      type: src
+    docid:
+    - id: W3C exi-primer
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-exi-primer-20091208
+    title:
+    - content: Efficient XML Interchange (EXI) Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-exi-primer-20091208/
+      type: src
+    docid:
+    - id: W3C WD-exi-primer-20091208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-exi-primer-20071219
 ext:
@@ -63,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

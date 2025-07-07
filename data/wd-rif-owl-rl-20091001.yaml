@@ -5,7 +5,7 @@ title:
 - content: OWL 2 RL in RIF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-rif-owl-rl-20091001/
+- content: https://www.w3.org/TR/2009/WD-rif-owl-rl-20091001/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Reynolds
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reynolds
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-owl-rl
+    title:
+    - content: OWL 2 RL in RIF (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-owl-rl/
+      type: src
+    docid:
+    - id: W3C rif-owl-rl
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rif-owl-rl-20100511
+    title:
+    - content: OWL 2 RL in RIF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-rif-owl-rl-20100511/
+      type: src
+    docid:
+    - id: W3C WD-rif-owl-rl-20100511
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rif-owl-rl-20091001
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

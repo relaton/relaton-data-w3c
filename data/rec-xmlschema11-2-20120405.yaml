@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -37,48 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Peterson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henry Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Sperberg-McQueen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul V. Biron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sandy Gao
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -94,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema11-2
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema11-2/
+      type: src
+    docid:
+    - id: W3C xmlschema11-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xmlschema11-2-20120119
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-xmlschema11-2-20120119/
       type: src
@@ -104,28 +94,9 @@ relation:
     - id: W3C PR-xmlschema11-2-20120119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xmlschema11-2-20120119
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: https://www.w3.org/XML/XMLSchema/v1.1/1e/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xmlschema11-2-20120405
 ext:

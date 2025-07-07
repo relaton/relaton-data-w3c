@@ -5,7 +5,7 @@ title:
 - content: Progress Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-progress-events-20110310/
+- content: https://www.w3.org/TR/2011/WD-progress-events-20110310/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprogress-events
+    title:
+    - content: Progress Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/progress-events/
+      type: src
+    docid:
+    - id: W3C progress-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-progress-events-20101019
+    title:
+    - content: Progress Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-progress-events-20101019/
+    - content: https://www.w3.org/TR/2010/WD-progress-events-20101019/
       type: src
     docid:
     - id: W3C WD-progress-events-20101019
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-progress-events-20101019
+- type: updatedBy
+  bibitem:
+    id: W3CWD-progress-events-20110809
+    title:
+    - content: Progress Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-progress-events-20110809/
+      type: src
+    docid:
+    - id: W3C WD-progress-events-20110809
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-progress-events-20110310
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

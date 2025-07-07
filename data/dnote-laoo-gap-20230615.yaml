@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-laoo-gap-20230615/
   type: src
-- content: https://w3c.github.io/sealreq/gap-analysis/laoo-gap
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-laoo-gap-20230615
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Claoo-gap
+    title:
+    - content: Lao Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/laoo-gap/
+      type: src
+    docid:
+    - id: W3C laoo-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-laoo-gap-20220119
+    title:
+    - content: Lao Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-laoo-gap-20220119/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C DNOTE-laoo-gap-20220119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-laoo-gap-20220119
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-laoo-gap-20240630
+    title:
+    - content: Lao Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-laoo-gap-20240630/
+      type: src
+    docid:
+    - id: W3C DNOTE-laoo-gap-20240630
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-laoo-gap-20230615
 ext:

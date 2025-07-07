@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-webdriver-20170221/
   type: src
-- content: https://w3c.github.io/webdriver/webdriver-spec.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-webdriver-20170221
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Burns
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stewart
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Stewart
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burns
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebdriver1
+    title:
+    - content: WebDriver
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webdriver1/
+      type: src
+    docid:
+    - id: W3C webdriver1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webdriver-20170220
+    title:
+    - content: WebDriver
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-webdriver-20170220/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-webdriver-20170220
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webdriver-20170220
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webdriver-20170222
+    title:
+    - content: WebDriver
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-webdriver-20170222/
+      type: src
+    docid:
+    - id: W3C WD-webdriver-20170222
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webdriver-20170221
 ext:

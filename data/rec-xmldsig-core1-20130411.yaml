@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Solo
+      given:
+        forename:
+        - content: Donald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Donald Eastlake
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joseph Reagle
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -67,28 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kelvin Yiu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Magnus Nyström
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Kelvin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yiu
         language:
         - en
         script:
@@ -104,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-core1
+    title:
+    - content: XML Signature Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-core1/
+      type: src
+    docid:
+    - id: W3C xmldsig-core1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xmldsig-core1-20130124
+    title:
+    - content: XML Signature Syntax and Processing Version 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-xmldsig-core1-20130124/
       type: src
@@ -114,12 +145,9 @@ relation:
     - id: W3C PR-xmldsig-core1-20130124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xmldsig-core1-20130124
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xmldsig-core1-20130411
 ext:

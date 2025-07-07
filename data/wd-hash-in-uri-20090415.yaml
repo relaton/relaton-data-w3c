@@ -5,7 +5,7 @@ title:
 - content: Usage Patterns For Client-Side URI parameters
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-hash-in-uri-20090415/
+- content: https://www.w3.org/TR/2009/WD-hash-in-uri-20090415/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: T. V. Raman
+      given:
+        forename:
+        - content: T.V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raman
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chash-in-uri
+    title:
+    - content: Usage Patterns For Client-Side URI parameters
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hash-in-uri/
+      type: src
+    docid:
+    - id: W3C hash-in-uri
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-hash-in-uri-20120209
+    title:
+    - content: Usage Patterns For Client-Side URI parameters
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/NOTE-hash-in-uri-20120209/
+      type: src
+    docid:
+    - id: W3C NOTE-hash-in-uri-20120209
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-hash-in-uri-20090415
 ext:

@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Connors
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Bryan Sullivan
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sullivan
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmwabp
+    title:
+    - content: Mobile Web Application Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mwabp/
+      type: src
+    docid:
+    - id: W3C mwabp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-mwabp-20101021
+    title:
+    - content: Mobile Web Application Best Practices
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-mwabp-20101021/
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-mwabp-20101021
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-mwabp-20101021
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cmwabp-errata.html
-    link:
-    - content: https://www.w3.org/2010/12/mwabp-errata.html
-      type: src
-    docid:
-    - id: W3C mwabp-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C mwabp-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-mwabp-20101214
 ext:

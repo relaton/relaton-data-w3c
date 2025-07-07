@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-i18n-req
+    title:
+    - content: Requirements for the Internationalization of Web Services
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-i18n-req/
+      type: src
+    docid:
+    - id: W3C ws-i18n-req
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ws-i18n-req-20031217
+    title:
+    - content: Requirements for the Internationalization of Web Services
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/WD-ws-i18n-req-20031217/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-ws-i18n-req-20031217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-i18n-req-20031217
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ws-i18n-req-20041116
 ext:

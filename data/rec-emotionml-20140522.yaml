@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Felix Burkhardt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marc Schröder
+      given:
+        forename:
+        - content: Felix
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burkhardt
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemotionml
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emotionml/
+      type: src
+    docid:
+    - id: W3C emotionml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-emotionml-20130416
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-emotionml-20130416/
       type: src
@@ -64,12 +77,9 @@ relation:
     - id: W3C PR-emotionml-20130416
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-emotionml-20130416
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-emotionml-20140522
 ext:

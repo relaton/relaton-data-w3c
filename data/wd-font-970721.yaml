@@ -5,7 +5,7 @@ title:
 - content: Web Fonts
   format: text/plain
 link:
-- content: http://www.w3.org/TR/WD-font-970721
+- content: https://www.w3.org/TR/WD-font-970721
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brad Chase
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zilles
         language:
         - en
         script:
@@ -37,58 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Lilley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Chuck Rowe
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Meltzer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Håkon Lie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robert Stevahn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steve Zilles
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -103,12 +67,44 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-font
+    title:
+    - content: Web Fonts
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-font/
+      type: src
+    docid:
+    - id: W3C WD-font
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-font-19990902
+    title:
+    - content: Web Fonts
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-font-19990902
+      type: src
+    docid:
+    - id: W3C WD-font-19990902
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-font-970721
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

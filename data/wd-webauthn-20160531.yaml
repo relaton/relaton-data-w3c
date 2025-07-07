@@ -5,10 +5,8 @@ title:
 - content: 'Web Authentication: A Web API for accessing scoped credentials'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-webauthn-20160531/
+- content: https://www.w3.org/TR/2016/WD-webauthn-20160531/
   type: src
-- content: http://w3c.github.io/webauthn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webauthn-20160531
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexei Czeskis
+      given:
+        forename:
+        - content: Vijay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bharadwaj
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Arnar Birgisson
+      given:
+        forename:
+        - content: Hubert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Van Gong
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dirk Balfanz
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Balfanz
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hubert Le Van Gong
+      given:
+        forename:
+        - content: Alexei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Czeskis
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeff Hodges
+      given:
+        forename:
+        - content: Arnar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birgisson
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Jones
+      given:
+        forename:
+        - content: Jeff
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hodges
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rolf Lindemann
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -99,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Vijay Bharadwaj
+      given:
+        forename:
+        - content: Rolf
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lindemann
         language:
         - en
         script:
@@ -114,10 +168,41 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebauthn-1
+    title:
+    - content: Web Authentication:An API for accessing Public Key Credentials Level
+        1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webauthn-1/
+      type: src
+    docid:
+    - id: W3C webauthn-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webauthn-20160902
+    title:
+    - content: 'Web Authentication: An API for accessing Scoped Credentials none'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-webauthn-20160902/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-20160902
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-webauthn-20160531
 ext:

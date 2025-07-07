@@ -26,39 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-mediacapture-transform-20220210
+    id: W3CWD-mediacapture-transform-20250403
+    title:
+    - content: MediaStreamTrack Insertable Media Processing using Streams
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/WD-mediacapture-transform-20220210/
+    - content: https://www.w3.org/TR/2025/WD-mediacapture-transform-20250403/
       type: src
     docid:
-    - id: W3C WD-mediacapture-transform-20220210
+    - id: W3C WD-mediacapture-transform-20250403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediacapture-transform-20220210
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-mediacapture-transform-20221020
-    link:
-    - content: https://www.w3.org/TR/2022/WD-mediacapture-transform-20221020/
-      type: src
-    docid:
-    - id: W3C WD-mediacapture-transform-20221020
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-mediacapture-transform-20221020
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-mediacapture-transform-20240531
+    title:
+    - content: MediaStreamTrack Insertable Media Processing using Streams
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-mediacapture-transform-20240531/
       type: src
@@ -66,12 +53,35 @@ relation:
     - id: W3C WD-mediacapture-transform-20240531
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediacapture-transform-20240531
+- type: hasEdition
+  bibitem:
+    id: W3CWD-mediacapture-transform-20221020
+    title:
+    - content: MediaStreamTrack Insertable Media Processing using Streams
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-mediacapture-transform-20221020/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-transform-20221020
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-mediacapture-transform-20220210
+    title:
+    - content: MediaStreamTrack Insertable Media Processing using Streams
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-mediacapture-transform-20220210/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-transform-20220210
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: mediacapture-transform
 ext:

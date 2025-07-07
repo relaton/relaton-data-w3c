@@ -5,7 +5,7 @@ title:
 - content: Web Storage
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-webstorage-20130409/
+- content: https://www.w3.org/TR/2013/PR-webstorage-20130409/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebstorage
+    title:
+    - content: Web Storage (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webstorage/
+      type: src
+    docid:
+    - id: W3C webstorage
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-webstorage-20111208
+    title:
+    - content: Web Storage
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/CR-webstorage-20111208/
+    - content: https://www.w3.org/TR/2011/CR-webstorage-20111208/
       type: src
     docid:
     - id: W3C CR-webstorage-20111208
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webstorage-20111208
+- type: updatedBy
+  bibitem:
+    id: W3CREC-webstorage-20130730
+    title:
+    - content: Web Storage
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-webstorage-20130730/
+      type: src
+    docid:
+    - id: W3C REC-webstorage-20130730
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-webstorage-20130409
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

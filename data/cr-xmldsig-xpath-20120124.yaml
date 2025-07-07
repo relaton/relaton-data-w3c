@@ -5,7 +5,7 @@ title:
 - content: XML Signature Streaming Profile of XPath 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-xmldsig-xpath-20120124/
+- content: https://www.w3.org/TR/2012/CR-xmldsig-xpath-20120124/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Meiko Jensen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pratik Datta
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -62,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-xpath
+    title:
+    - content: XML Signature Streaming Profile of XPath 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-xpath/
+      type: src
+    docid:
+    - id: W3C xmldsig-xpath
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmldsig-xpath-20110421
+    title:
+    - content: XML Signature Streaming Profile of XPath 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-xmldsig-xpath-20110421/
+    - content: https://www.w3.org/TR/2011/WD-xmldsig-xpath-20110421/
       type: src
     docid:
     - id: W3C WD-xmldsig-xpath-20110421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmldsig-xpath-20110421
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xmldsig-xpath-20130411
+    title:
+    - content: XML Signature Streaming Profile of XPath 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-xmldsig-xpath-20130411/
+      type: src
+    docid:
+    - id: W3C NOTE-xmldsig-xpath-20130411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xmldsig-xpath-20120124
 ext:

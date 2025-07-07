@@ -5,10 +5,8 @@ title:
 - content: Encrypted Media Extensions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-encrypted-media-20160601/
+- content: https://www.w3.org/TR/2016/WD-encrypted-media-20160601/
   type: src
-- content: https://w3c.github.io/encrypted-media/
-  type: current
 type: standard
 docid:
 - id: W3C WD-encrypted-media-20160601
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cencrypted-media-1
+    title:
+    - content: Encrypted Media Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/encrypted-media-1/
+      type: src
+    docid:
+    - id: W3C encrypted-media-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-encrypted-media-20160531
+    title:
+    - content: Encrypted Media Extensions
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-encrypted-media-20160531/
+    - content: https://www.w3.org/TR/2016/WD-encrypted-media-20160531/
       type: src
     docid:
     - id: W3C WD-encrypted-media-20160531
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-encrypted-media-20160531
+- type: updatedBy
+  bibitem:
+    id: W3CWD-encrypted-media-20160602
+    title:
+    - content: Encrypted Media Extensions
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-encrypted-media-20160602/
+      type: src
+    docid:
+    - id: W3C WD-encrypted-media-20160602
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-encrypted-media-20160601
 ext:
@@ -59,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

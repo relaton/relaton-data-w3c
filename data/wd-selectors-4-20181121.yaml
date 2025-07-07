@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-selectors-4-20181121/
   type: src
-- content: https://drafts.csswg.org/selectors/
-  type: current
 type: standard
 docid:
 - id: W3C WD-selectors-4-20181121
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cselectors-4
+    title:
+    - content: Selectors Level 4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/selectors-4/
+      type: src
+    docid:
+    - id: W3C selectors-4
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-selectors-4-20180202
+    title:
+    - content: Selectors Level 4
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-selectors-4-20180202/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-selectors-4-20180202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-selectors-4-20180202
+- type: updatedBy
+  bibitem:
+    id: W3CWD-selectors-4-20220507
+    title:
+    - content: Selectors Level 4
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-selectors-4-20220507/
+      type: src
+    docid:
+    - id: W3C WD-selectors-4-20220507
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-selectors-4-20181121
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

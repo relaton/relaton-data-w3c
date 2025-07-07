@@ -5,7 +5,7 @@ title:
 - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-scxml-20140529/
+- content: https://www.w3.org/TR/2014/WD-scxml-20140529/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Burnett
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Barnett
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Barnett
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerry Carter
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carter
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Johan Roxendal
+      given:
+        forename:
+        - content: Torbjörn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lager
         language:
         - en
         script:
@@ -67,98 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Klaus Reifenrath
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marc Helbing
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Bodell
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noam Rosenthal
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: RJ Auburn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rafah Hosn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rahul Akolkar
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott McGlashan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: T.V. Raman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Torbjörn Lager
+      given:
+        forename:
+        - content: T.V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raman
         language:
         - en
         script:
@@ -172,24 +117,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscxml
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/scxml/
+      type: src
+    docid:
+    - id: W3C scxml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-scxml-20140313
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/CR-scxml-20140313/
+    - content: https://www.w3.org/TR/2014/CR-scxml-20140313/
       type: src
     docid:
     - id: W3C CR-scxml-20140313
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-scxml-20140313
+- type: updatedBy
+  bibitem:
+    id: W3CPR-scxml-20150430
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/PR-scxml-20150430/
+      type: src
+    docid:
+    - id: W3C PR-scxml-20150430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-scxml-20140529
 ext:

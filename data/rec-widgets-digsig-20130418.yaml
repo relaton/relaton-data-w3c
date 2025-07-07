@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Priestley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paddy Byers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stuart Knightley
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -84,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-digsig
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-digsig/
+      type: src
+    docid:
+    - id: W3C widgets-digsig
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-widgets-digsig-20110811
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-widgets-digsig-20110811/
       type: src
@@ -94,28 +94,25 @@ relation:
     - id: W3C PR-widgets-digsig-20110811
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-widgets-digsig-20110811
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cwidgets-digsig-errata
+    id: W3COBSL-widgets-digsig-20181011
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
     link:
-    - content: http://dev.w3.org/2006/waf/widgets-digsig/errata.html
+    - content: https://www.w3.org/TR/2018/OBSL-widgets-digsig-20181011/
       type: src
     docid:
-    - id: W3C widgets-digsig/errata
+    - id: W3C OBSL-widgets-digsig-20181011
       type: W3C
       primary: true
-    formattedref:
-      content: W3C widgets-digsig/errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-widgets-digsig-20130418
 ext:
@@ -123,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

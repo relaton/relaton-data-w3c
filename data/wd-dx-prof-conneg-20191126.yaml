@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-dx-prof-conneg-20191126/
   type: src
-- content: https://w3c.github.io/dxwg/connegp/
-  type: current
 type: standard
 docid:
 - id: W3C WD-dx-prof-conneg-20191126
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lars G. Svensson
+      given:
+        forename:
+        - content: Lars G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Svensson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nicholas Car
+      given:
+        forename:
+        - content: Nicholas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Car
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdx-prof-conneg
+    title:
+    - content: Content Negotiation by Profile
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dx-prof-conneg/
+      type: src
+    docid:
+    - id: W3C dx-prof-conneg
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dx-prof-conneg-20190430
+    title:
+    - content: Content Negotiation by Profile
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-dx-prof-conneg-20190430/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-dx-prof-conneg-20190430
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dx-prof-conneg-20190430
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dx-prof-conneg-20231002
+    title:
+    - content: Content Negotiation by Profile
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-dx-prof-conneg-20231002/
+      type: src
+    docid:
+    - id: W3C WD-dx-prof-conneg-20231002
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dx-prof-conneg-20191126
 ext:

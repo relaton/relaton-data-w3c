@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/REC-payment-method-id-20220908/
   type: src
-- content: https://w3c.github.io/payment-method-id/
-  type: current
 type: standard
 docid:
 - id: W3C REC-payment-method-id-20220908
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-method-id
+    title:
+    - content: Payment Method Identifiers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-method-id/
+      type: src
+    docid:
+    - id: W3C payment-method-id
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-payment-method-id-20210930
+    title:
+    - content: Payment Method Identifiers
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/PR-payment-method-id-20210930/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-payment-method-id-20210930
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-payment-method-id-20210930
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: https://www.w3.org/Payments/WG/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-payment-method-id-20220908
 ext:

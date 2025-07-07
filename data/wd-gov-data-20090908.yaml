@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Harvey
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel Bennett
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bennett
         language:
         - en
         script:
@@ -53,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgov-data
+    title:
+    - content: Publishing Open Government Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/gov-data/
+      type: src
+    docid:
+    - id: W3C gov-data
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-gov-data-20090908
 ext:

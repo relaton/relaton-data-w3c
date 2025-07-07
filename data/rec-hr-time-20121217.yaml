@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-1
+    title:
+    - content: High Resolution Time
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-1/
+      type: src
+    docid:
+    - id: W3C hr-time-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-hr-time-20121023
+    title:
+    - content: High Resolution Time
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-hr-time-20121023/
       type: src
@@ -54,28 +77,25 @@ relation:
     - id: W3C PR-hr-time-20121023
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-hr-time-20121023
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Chr-time-errata.html
+    id: W3CSPSD-hr-time-1-20191121
+    title:
+    - content: High Resolution Time
+      format: text/plain
     link:
-    - content: https://www.w3.org/2012/12/hr-time-errata.html
+    - content: https://www.w3.org/TR/2019/SPSD-hr-time-1-20191121/
       type: src
     docid:
-    - id: W3C hr-time-errata.html
+    - id: W3C SPSD-hr-time-1-20191121
       type: W3C
       primary: true
-    formattedref:
-      content: W3C hr-time-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-hr-time-20121217
 ext:

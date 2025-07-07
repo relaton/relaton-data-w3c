@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-webcodecs-20230202/
   type: src
-- content: https://w3c.github.io/webcodecs/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webcodecs-20230202
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernard Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Adenot
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adenot
         language:
         - en
         script:
@@ -56,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcodecs
+    title:
+    - content: WebCodecs
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcodecs/
+      type: src
+    docid:
+    - id: W3C webcodecs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webcodecs-20230201
+    title:
+    - content: WebCodecs
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-webcodecs-20230201/
       type: src
@@ -66,12 +77,25 @@ relation:
     - id: W3C WD-webcodecs-20230201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webcodecs-20230201
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webcodecs-20230208
+    title:
+    - content: WebCodecs
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-webcodecs-20230208/
+      type: src
+    docid:
+    - id: W3C WD-webcodecs-20230208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webcodecs-20230202
 ext:

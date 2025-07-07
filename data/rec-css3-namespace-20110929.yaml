@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2011/REC-css3-namespace-20110929/
   type: src
-- content: https://drafts.csswg.org/css-namespaces/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css3-namespace-20110929
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-namespaces-3
+    title:
+    - content: CSS Namespaces Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-namespaces-3/
+      type: src
+    docid:
+    - id: W3C css-namespaces-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css3-namespace-20110811
+    title:
+    - content: CSS Namespaces Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-css3-namespace-20110811/
       type: src
@@ -66,28 +94,25 @@ relation:
     - id: W3C PR-css3-namespace-20110811
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css3-namespace-20110811
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-css3-namespace-20110929-errata.html
+    id: W3CREC-css-namespaces-3-20140320
+    title:
+    - content: CSS Namespaces Module Level 3
+      format: text/plain
     link:
-    - content: https://www.w3.org/Style/2011/REC-css3-namespace-20110929-errata.html
+    - content: https://www.w3.org/TR/2014/REC-css-namespaces-3-20140320/
       type: src
     docid:
-    - id: W3C REC-css3-namespace-20110929-errata.html
+    - id: W3C REC-css-namespaces-3-20140320
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-css3-namespace-20110929-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css3-namespace-20110929
 ext:
@@ -95,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-device-posture-20240528/
   type: src
-- content: https://w3c.github.io/device-posture/
-  type: current
 type: standard
 docid:
 - id: W3C WD-device-posture-20240528
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexis Menard
+      given:
+        forename:
+        - content: Diego
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gonzalez-Zuniga
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Diego Gonzalez-Zuniga
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Alexis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Menard
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdevice-posture
+    title:
+    - content: Device Posture API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/device-posture/
+      type: src
+    docid:
+    - id: W3C device-posture
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-device-posture-20240408
+    title:
+    - content: Device Posture API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-device-posture-20240408/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-device-posture-20240408
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-device-posture-20240408
+- type: updatedBy
+  bibitem:
+    id: W3CWD-device-posture-20240605
+    title:
+    - content: Device Posture API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-device-posture-20240605/
+      type: src
+    docid:
+    - id: W3C WD-device-posture-20240605
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-device-posture-20240528
 ext:

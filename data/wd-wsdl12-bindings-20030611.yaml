@@ -5,7 +5,7 @@ title:
 - content: 'Web Services Description Language (WSDL) Version 1.2 Part 3: Bindings'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-wsdl12-bindings-20030611
+- content: https://www.w3.org/TR/2003/WD-wsdl12-bindings-20030611
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jean-Jacques Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jeffrey Schlimmer
+      given:
+        forename:
+        - content: Jean-Jacques
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsdl20-adjuncts
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0 Part 2: Adjuncts'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsdl20-adjuncts/
+      type: src
+    docid:
+    - id: W3C wsdl20-adjuncts
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsdl12-bindings-20030124
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 1.2: Bindings'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-wsdl12-bindings-20030124
+    - content: https://www.w3.org/TR/2003/WD-wsdl12-bindings-20030124
       type: src
     docid:
     - id: W3C WD-wsdl12-bindings-20030124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsdl12-bindings-20030124
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wsdl20-bindings-20040803
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0 Part 3: Bindings'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-wsdl20-bindings-20040803
+      type: src
+    docid:
+    - id: W3C WD-wsdl20-bindings-20040803
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wsdl12-bindings-20030611
 ext:

@@ -26,39 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-box-4-20200421
+    id: W3CWD-css-box-4-20240804
+    title:
+    - content: CSS Box Model Module Level 4
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2020/WD-css-box-4-20200421/
+    - content: https://www.w3.org/TR/2024/WD-css-box-4-20240804/
       type: src
     docid:
-    - id: W3C WD-css-box-4-20200421
+    - id: W3C WD-css-box-4-20240804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-box-4-20200421
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-box-4-20221103
-    link:
-    - content: https://www.w3.org/TR/2022/WD-css-box-4-20221103/
-      type: src
-    docid:
-    - id: W3C WD-css-box-4-20221103
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-box-4-20221103
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-css-box-4-20240401
+    title:
+    - content: CSS Box Model Module Level 4
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-css-box-4-20240401/
       type: src
@@ -66,12 +53,35 @@ relation:
     - id: W3C WD-css-box-4-20240401
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-box-4-20240401
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-box-4-20221103
+    title:
+    - content: CSS Box Model Module Level 4
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-css-box-4-20221103/
+      type: src
+    docid:
+    - id: W3C WD-css-box-4-20221103
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-box-4-20200421
+    title:
+    - content: CSS Box Model Module Level 4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-css-box-4-20200421/
+      type: src
+    docid:
+    - id: W3C WD-css-box-4-20200421
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: css-box-4
 ext:

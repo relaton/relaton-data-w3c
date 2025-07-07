@@ -5,7 +5,7 @@ title:
 - content: CSS3 Ruby Module
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/CR-css3-ruby-20030514
+- content: https://www.w3.org/TR/2003/CR-css3-ruby-20030514
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Michel Suignard
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-05-14'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-ruby-1
+    title:
+    - content: CSS Ruby Annotation Layout Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-ruby-1/
+      type: src
+    docid:
+    - id: W3C css-ruby-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css3-ruby-20021024
+    title:
+    - content: 'CSS3 module: Ruby'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-css3-ruby-20021024
+    - content: https://www.w3.org/TR/2002/WD-css3-ruby-20021024
       type: src
     docid:
     - id: W3C WD-css3-ruby-20021024
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css3-ruby-20021024
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css3-ruby-20110630
+    title:
+    - content: CSS3 Ruby Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-css3-ruby-20110630/
+      type: src
+    docid:
+    - id: W3C WD-css3-ruby-20110630
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css3-ruby-20030514
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

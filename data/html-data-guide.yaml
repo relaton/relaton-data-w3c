@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-html-data-guide-20120308
+    title:
+    - content: HTML Data Guide
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/NOTE-html-data-guide-20120308/
       type: src
@@ -37,12 +40,22 @@ relation:
     - id: W3C NOTE-html-data-guide-20120308
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-html-data-guide-20120308
+- type: hasEdition
+  bibitem:
+    id: W3CWD-html-data-guide-20120112
+    title:
+    - content: HTML Data Guide
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-html-data-guide-20120112/
+      type: src
+    docid:
+    - id: W3C WD-html-data-guide-20120112
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: html-data-guide
 ext:

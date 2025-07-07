@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Allen Brown
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Matthew Fuchs
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philip Wadler
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -72,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema-formal
+    title:
+    - content: 'XML Schema: Formal Description'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema-formal/
+      type: src
+    docid:
+    - id: W3C xmlschema-formal
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlschema-formal-20010320
+    title:
+    - content: 'XML Schema: Formal Description'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/WD-xmlschema-formal-20010320/
       type: src
@@ -84,12 +77,9 @@ relation:
     - id: W3C WD-xmlschema-formal-20010320
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlschema-formal-20010320
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xmlschema-formal-20010925
 ext:

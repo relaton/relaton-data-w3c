@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-i18n-html-tech-bidi-20140603/
   type: src
-- content: https://www.w3.org/International/docs/bp-html-bidi/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-i18n-html-tech-bidi-20140603
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ci18n-html-tech-bidi
+    title:
+    - content: 'Authoring HTML: Handling Right-to-left Scripts'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/i18n-html-tech-bidi/
+      type: src
+    docid:
+    - id: W3C i18n-html-tech-bidi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-i18n-html-tech-bidi-20090908
+    title:
+    - content: 'Authoring HTML: Handling Right-to-left Scripts'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/NOTE-i18n-html-tech-bidi-20090908/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C NOTE-i18n-html-tech-bidi-20090908
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-i18n-html-tech-bidi-20090908
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-i18n-html-tech-bidi-20140603
 ext:

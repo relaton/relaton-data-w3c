@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-clreq-20200901/
   type: src
-- content: https://w3c.github.io/clreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-clreq-20200901
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aijie Zhang
+      given:
+        forename:
+        - content: Bobby
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tung
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: An Qi Li
+      given:
+        forename:
+        - content: Yijun
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bobby Tung
+      given:
+        forename:
+        - content: Eric Q
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LIU
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Q LIU
+      given:
+        forename:
+        - content: Hui Jing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Fuqiao Xue
+      given:
+        forename:
+        - content: Fuqiao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xue
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hai Liang
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hui Jing Chen
+      given:
+        forename:
+        - content: An Qi (Angel)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
         language:
         - en
         script:
@@ -99,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Hai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liang
         language:
         - en
         script:
@@ -109,8 +163,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Xiaoqian Wu
+      given:
+        forename:
+        - content: Xiaoqian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wu
         language:
         - en
         script:
@@ -119,8 +180,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yijun Chen
+      given:
+        forename:
+        - content: Aijie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
         language:
         - en
         script:
@@ -136,9 +204,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclreq
+    title:
+    - content: Requirements for Chinese Text Layout - 中文排版需求
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clreq/
+      type: src
+    docid:
+    - id: W3C clreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-clreq-20200801
+    title:
+    - content: Requirements for Chinese Text Layout中文排版需求
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-clreq-20200801/
       type: src
@@ -146,12 +230,25 @@ relation:
     - id: W3C WD-clreq-20200801
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-clreq-20200801
+- type: updatedBy
+  bibitem:
+    id: W3CWD-clreq-20201001
+    title:
+    - content: Requirements for Chinese Text Layout中文排版需求
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-clreq-20201001/
+      type: src
+    docid:
+    - id: W3C WD-clreq-20201001
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-clreq-20200901
 ext:

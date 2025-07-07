@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-webxr-20190205/
   type: src
-- content: https://immersive-web.github.io/webxr/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webxr-20190205
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brandon Jones
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nell Waliczek
+      given:
+        forename:
+        - content: Nell
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Waliczek
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebxr
+    title:
+    - content: WebXR Device API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webxr/
+      type: src
+    docid:
+    - id: W3C webxr
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webxr-20190521
+    title:
+    - content: WebXR Device API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-webxr-20190521/
+      type: src
+    docid:
+    - id: W3C WD-webxr-20190521
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-webxr-20190205
 ext:

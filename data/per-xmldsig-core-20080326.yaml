@@ -5,7 +5,7 @@ title:
 - content: XML Signature Syntax and Processing (Second Edition)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PER-xmldsig-core-20080326/
+- content: https://www.w3.org/TR/2008/PER-xmldsig-core-20080326/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Solo
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Donald Eastlake
+      given:
+        forename:
+        - content: Donald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -57,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joseph Reagle
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -86,20 +104,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-xmldsig-core-20020212
+    id: W3Cxmldsig-core
+    title:
+    - content: XML Signature Syntax and Processing (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/
+    - content: https://www.w3.org/TR/xmldsig-core/
       type: src
     docid:
-    - id: W3C REC-xmldsig-core-20020212
+    - id: W3C xmldsig-core
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xmldsig-core-20020212
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xmldsig-core-20080610
+    title:
+    - content: XML Signature Syntax and Processing (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-xmldsig-core-20080610/
+      type: src
+    docid:
+    - id: W3C REC-xmldsig-core-20080610
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xmldsig-core-20080326
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-mst-content-hint-20200214/
   type: src
-- content: https://w3c.github.io/mst-content-hint/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mst-content-hint-20200214
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Harald Alvestrand
+      given:
+        forename:
+        - content: Harald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvestrand
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmst-content-hint
+    title:
+    - content: MediaStreamTrack Content Hints
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mst-content-hint/
+      type: src
+    docid:
+    - id: W3C mst-content-hint
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mst-content-hint-20180703
+    title:
+    - content: MediaStreamTrack Content Hints
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-mst-content-hint-20180703/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-mst-content-hint-20180703
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mst-content-hint-20180703
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mst-content-hint-20200728
+    title:
+    - content: MediaStreamTrack Content Hints
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-mst-content-hint-20200728/
+      type: src
+    docid:
+    - id: W3C WD-mst-content-hint-20200728
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mst-content-hint-20200214
 ext:

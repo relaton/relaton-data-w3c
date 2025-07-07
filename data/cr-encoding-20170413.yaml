@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/CR-encoding-20170413/
   type: src
-- content: https://encoding.spec.whatwg.org/
-  type: current
 type: standard
 docid:
 - id: W3C CR-encoding-20170413
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Joshua
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bell
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshua Bell
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cencoding
+    title:
+    - content: Encoding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/encoding/
+      type: src
+    docid:
+    - id: W3C encoding
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-encoding-20161215
+    title:
+    - content: Encoding
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/CR-encoding-20161215/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CR-encoding-20161215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-encoding-20161215
+- type: updatedBy
+  bibitem:
+    id: W3CCR-encoding-20180327
+    title:
+    - content: Encoding
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-encoding-20180327/
+      type: src
+    docid:
+    - id: W3C CR-encoding-20180327
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-encoding-20170413
 ext:

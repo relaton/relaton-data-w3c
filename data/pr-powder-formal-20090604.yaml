@@ -5,7 +5,7 @@ title:
 - content: 'Protocol for Web Description Resources (POWDER): Formal Semantics'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/PR-powder-formal-20090604/
+- content: https://www.w3.org/TR/2009/PR-powder-formal-20090604/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stasinos Konstantopoulos
+      given:
+        forename:
+        - content: Stasinos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Konstantopoulos
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-formal
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Formal Semantics'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-formal/
+      type: src
+    docid:
+    - id: W3C powder-formal
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-powder-formal-20090403
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Formal Semantics'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-powder-formal-20090403/
+    - content: https://www.w3.org/TR/2009/WD-powder-formal-20090403/
       type: src
     docid:
     - id: W3C WD-powder-formal-20090403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-powder-formal-20090403
+- type: updatedBy
+  bibitem:
+    id: W3CREC-powder-formal-20090901
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Formal Semantics'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/REC-powder-formal-20090901/
+      type: src
+    docid:
+    - id: W3C REC-powder-formal-20090901
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-powder-formal-20090604
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

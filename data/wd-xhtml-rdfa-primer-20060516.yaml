@@ -5,7 +5,7 @@ title:
 - content: RDFa Primer 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-xhtml-rdfa-primer-20060516/
+- content: https://www.w3.org/TR/2006/WD-xhtml-rdfa-primer-20060516/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ben Adida
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Birbeck
+      given:
+        forename:
+        - content: Ben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adida
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdfa-primer
+    title:
+    - content: RDFa 1.1 Primer - Third Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdfa-primer/
+      type: src
+    docid:
+    - id: W3C rdfa-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-rdfa-primer-20060310
+    title:
+    - content: RDF/A Primer 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-xhtml-rdfa-primer-20060310/
+    - content: https://www.w3.org/TR/2006/WD-xhtml-rdfa-primer-20060310/
       type: src
     docid:
     - id: W3C WD-xhtml-rdfa-primer-20060310
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-rdfa-primer-20060310
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xhtml-rdfa-primer-20070312
+    title:
+    - content: RDFa Primer 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-xhtml-rdfa-primer-20070312/
+      type: src
+    docid:
+    - id: W3C WD-xhtml-rdfa-primer-20070312
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xhtml-rdfa-primer-20060516
 ext:
@@ -77,5 +120,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Semantic Web Best Practices and Deployment Working Group
   - name: XHTML2 Working Group
+  - name: Semantic Web Best Practices and Deployment Working Group

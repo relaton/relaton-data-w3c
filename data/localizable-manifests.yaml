@@ -26,26 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-localizable-manifests-20210824
+    id: W3CNOTE-localizable-manifests-20250214
+    title:
+    - content: Developing Localizable Manifests
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2021/WD-localizable-manifests-20210824/
+    - content: https://www.w3.org/TR/2025/NOTE-localizable-manifests-20250214/
       type: src
     docid:
-    - id: W3C WD-localizable-manifests-20210824
+    - id: W3C NOTE-localizable-manifests-20250214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-localizable-manifests-20210824
-      format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-localizable-manifests-20231206
+    title:
+    - content: Developing Localizable Manifests
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-localizable-manifests-20231206/
       type: src
@@ -53,12 +53,22 @@ relation:
     - id: W3C DNOTE-localizable-manifests-20231206
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-localizable-manifests-20231206
+- type: hasEdition
+  bibitem:
+    id: W3CWD-localizable-manifests-20210824
+    title:
+    - content: Developing Localizable Manifests
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-localizable-manifests-20210824/
+      type: src
+    docid:
+    - id: W3C WD-localizable-manifests-20210824
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: localizable-manifests
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -43,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-land
+    title:
+    - content: 'Widgets 1.0: The Widget Landscape (Q1 2008)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-land/
+      type: src
+    docid:
+    - id: W3C widgets-land
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-widgets-land-20080414
 ext:

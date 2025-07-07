@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/CRD-webxr-20220426/
   type: src
-- content: https://immersive-web.github.io/webxr/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-webxr-20220426
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brandon Jones
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manish Goregaokar
+      given:
+        forename:
+        - content: Manish
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Goregaokar
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebxr
+    title:
+    - content: WebXR Device API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webxr/
+      type: src
+    docid:
+    - id: W3C webxr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-webxr-20220331
+    title:
+    - content: WebXR Device API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/CR-webxr-20220331/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CR-webxr-20220331
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webxr-20220331
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-webxr-20220526
+    title:
+    - content: WebXR Device API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/CRD-webxr-20220526/
+      type: src
+    docid:
+    - id: W3C CRD-webxr-20220526
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-webxr-20220426
 ext:

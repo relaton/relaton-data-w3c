@@ -5,7 +5,7 @@ title:
 - content: HTML 4.01 Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/html401
+- content: https://www.w3.org/TR/html401/
   type: src
 type: standard
 docid:
@@ -26,26 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CSPSD-html401-20180327
+    title:
+    - content: HTML 4.01 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/SPSD-html401-20180327/
+      type: src
+    docid:
+    - id: W3C SPSD-html401-20180327
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CREC-html401-19991224
+    title:
+    - content: HTML 4.01 Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/1999/REC-html401-19991224
+    - content: https://www.w3.org/TR/1999/REC-html401-19991224/
       type: src
     docid:
     - id: W3C REC-html401-19991224
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-html401-19991224
+- type: hasEdition
+  bibitem:
+    id: W3CPR-html40-19990824
+    title:
+    - content: HTML 4.01 Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/PR-html40-19990824
+      type: src
+    docid:
+    - id: W3C PR-html40-19990824
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: html401
 ext:

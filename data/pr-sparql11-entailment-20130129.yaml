@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Entailment Regimes
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-sparql11-entailment-20130129/
+- content: https://www.w3.org/TR/2013/PR-sparql11-entailment-20130129/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Birte Glimm
+      given:
+        forename:
+        - content: Chimezie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ogbuji
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chimezie Ogbuji
+      given:
+        forename:
+        - content: Birte
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glimm
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-entailment
+    title:
+    - content: SPARQL 1.1 Entailment Regimes
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-entailment/
+      type: src
+    docid:
+    - id: W3C sparql11-entailment
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-sparql11-entailment-20121108
+    title:
+    - content: SPARQL 1.1 Entailment Regimes
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-sparql11-entailment-20121108/
+    - content: https://www.w3.org/TR/2012/CR-sparql11-entailment-20121108/
       type: src
     docid:
     - id: W3C CR-sparql11-entailment-20121108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-sparql11-entailment-20121108
+- type: updatedBy
+  bibitem:
+    id: W3CREC-sparql11-entailment-20130321
+    title:
+    - content: SPARQL 1.1 Entailment Regimes
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-sparql11-entailment-20130321/
+      type: src
+    docid:
+    - id: W3C REC-sparql11-entailment-20130321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-sparql11-entailment-20130129
 ext:

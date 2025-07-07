@@ -5,7 +5,7 @@ title:
 - content: 'POWDER: Use Cases and Requirements'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/NOTE-powder-use-cases-20070831/
+- content: https://www.w3.org/TR/2007/NOTE-powder-use-cases-20070831/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -40,23 +47,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-use-cases
+    title:
+    - content: 'POWDER: Use Cases and Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-use-cases/
+      type: src
+    docid:
+    - id: W3C powder-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-powder-use-cases-20070525
+    title:
+    - content: 'POWDER: Use Cases and Requirements'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/NOTE-powder-use-cases-20070525/
+    - content: https://www.w3.org/TR/2007/NOTE-powder-use-cases-20070525/
       type: src
     docid:
     - id: W3C NOTE-powder-use-cases-20070525
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-powder-use-cases-20070525
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-powder-use-cases-20071031
+    title:
+    - content: 'POWDER: Use Cases and Requirements'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/NOTE-powder-use-cases-20071031/
+      type: src
+    docid:
+    - id: W3C NOTE-powder-use-cases-20071031
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-powder-use-cases-20070831
 ext:
@@ -64,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

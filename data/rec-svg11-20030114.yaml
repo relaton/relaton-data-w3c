@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dean Jackson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jon Ferraiolo
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jun Fujisawa
+      given:
+        forename:
+        - content: Jun
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fujisawa
         language:
         - en
         script:
@@ -64,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVG11
+    title:
+    - content: Scalable Vector Graphics (SVG) 1.1 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVG11/
+      type: src
+    docid:
+    - id: W3C SVG11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-SVG11-20021115
+    title:
+    - content: Scalable Vector Graphics (SVG) 1.1 Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/PR-SVG11-20021115/
       type: src
@@ -74,28 +77,9 @@ relation:
     - id: W3C PR-SVG11-20021115
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-SVG11-20021115
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-SVG11-20030114-errata
-    link:
-    - content: https://www.w3.org/2003/01/REC-SVG11-20030114-errata
-      type: src
-    docid:
-    - id: W3C REC-SVG11-20030114-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-SVG11-20030114-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-SVG11-20030114
 ext:

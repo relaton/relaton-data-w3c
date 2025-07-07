@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-html-aria-20210309/
   type: src
-- content: https://w3c.github.io/html-aria/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-aria-20210309
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott O'Hara
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Hara
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-aria
+    title:
+    - content: ARIA in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-aria/
+      type: src
+    docid:
+    - id: W3C html-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-aria-20210308
+    title:
+    - content: ARIA in HTML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-html-aria-20210308/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-html-aria-20210308
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-aria-20210308
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-aria-20210310
+    title:
+    - content: ARIA in HTML
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-html-aria-20210310/
+      type: src
+    docid:
+    - id: W3C WD-html-aria-20210310
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-aria-20210309
 ext:

@@ -5,7 +5,7 @@ title:
 - content: 'Character Model for the World Wide Web 1.0: Fundamentals'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/PR-charmod-20041122/
+- content: https://www.w3.org/TR/2004/PR-charmod-20041122/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: François Yergeau
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dürst
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin J. Dürst
+      given:
+        forename:
+        - content: Misha
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wolf
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Misha Wolf
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: François
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yergeau
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tex Texin
+      given:
+        forename:
+        - content: Tex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Texin
         language:
         - en
         script:
@@ -84,22 +119,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccharmod
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Fundamentals'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/charmod/
+      type: src
+    docid:
+    - id: W3C charmod
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-charmod-20040225
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Fundamentals'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-charmod-20040225/
+    - content: https://www.w3.org/TR/2004/WD-charmod-20040225/
       type: src
     docid:
     - id: W3C WD-charmod-20040225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-charmod-20040225
+- type: updatedBy
+  bibitem:
+    id: W3CREC-charmod-20050215
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Fundamentals'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/REC-charmod-20050215/
+      type: src
+    docid:
+    - id: W3C REC-charmod-20050215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-charmod-20041122
 ext:

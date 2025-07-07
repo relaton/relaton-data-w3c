@@ -5,7 +5,7 @@ title:
 - content: XFA-FormCalc
   format: text/plain
 link:
-- content: http://www.w3.org/1999/05/XFA/xfa-formcalc-19990614
+- content: https://www.w3.org/1999/05/XFA/xfa-formcalc-19990614
   type: src
 type: standard
 docid:
@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Gavin F. McKenzie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1999-06-14'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxfa-formcalc
+    title:
+    - content: XFA-FormCalc
+      format: text/plain
+    link:
+    - content: https://www.w3.org/1999/05/XFA/xfa-formcalc
+      type: src
+    docid:
+    - id: W3C xfa-formcalc
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: xfa-formcalc-19990614
 ext:
   schema-version: v1.0.0
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

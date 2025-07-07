@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-miniapp-manifest-20221125/
   type: src
-- content: https://w3c.github.io/miniapp-manifest/
-  type: current
 type: standard
 docid:
 - id: W3C WD-miniapp-manifest-20221125
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Martin Alvarez-Espinar
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvarez-Espinar
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yongjing ZHANG
+      given:
+        forename:
+        - content: Yongjing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: ZHANG
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cminiapp-manifest
+    title:
+    - content: MiniApp Manifest
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/miniapp-manifest/
+      type: src
+    docid:
+    - id: W3C miniapp-manifest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-miniapp-manifest-20221027
+    title:
+    - content: MiniApp Manifest
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-miniapp-manifest-20221027/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-miniapp-manifest-20221027
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-miniapp-manifest-20221027
+- type: updatedBy
+  bibitem:
+    id: W3CWD-miniapp-manifest-20230220
+    title:
+    - content: MiniApp Manifest
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-miniapp-manifest-20230220/
+      type: src
+    docid:
+    - id: W3C WD-miniapp-manifest-20230220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-miniapp-manifest-20221125
 ext:

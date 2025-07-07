@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxbl
+    title:
+    - content: XBL 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xbl/
+      type: src
+    docid:
+    - id: W3C xbl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xbl-20070316
+    title:
+    - content: XML Binding Language (XBL) 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/CR-xbl-20070316/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C CR-xbl-20070316
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xbl-20070316
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-xbl-20120524
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

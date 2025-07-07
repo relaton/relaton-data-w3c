@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-rdf-json-20131107
+    title:
+    - content: RDF 1.1 JSON Alternate Serialization (RDF/JSON)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-rdf-json-20131107/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-rdf-json-20131107
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-rdf-json-20131107
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: rdf-json
 ext:

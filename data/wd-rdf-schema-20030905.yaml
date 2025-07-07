@@ -5,7 +5,7 @@ title:
 - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-rdf-schema-20030905/
+- content: https://www.w3.org/TR/2003/WD-rdf-schema-20030905/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Brickley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ramanathan V. Guha
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brickley
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-schema
+    title:
+    - content: RDF Schema 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-schema/
+      type: src
+    docid:
+    - id: W3C rdf-schema
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-schema-20030123
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-schema-20030123/
+    - content: https://www.w3.org/TR/2003/WD-rdf-schema-20030123/
       type: src
     docid:
     - id: W3C WD-rdf-schema-20030123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-schema-20030123
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-schema-20031010
+    title:
+    - content: 'RDF Vocabulary Description Language 1.0: RDF Schema'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-schema-20031010/
+      type: src
+    docid:
+    - id: W3C WD-rdf-schema-20031010
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-schema-20030905
 ext:
@@ -77,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDFCore Working Group
+  - name: RDF Core Working Group

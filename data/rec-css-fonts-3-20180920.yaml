@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/REC-css-fonts-3-20180920/
   type: src
-- content: https://drafts.csswg.org/css-fonts-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css-fonts-3-20180920
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Daggett
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Daggett
+      given:
+        forename:
+        - content: Myles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maxfield
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Myles Maxfield
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-fonts-3
+    title:
+    - content: CSS Fonts Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-fonts-3/
+      type: src
+    docid:
+    - id: W3C css-fonts-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css-fonts-3-20180814
+    title:
+    - content: CSS Fonts Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/PR-css-fonts-3-20180814/
       type: src
@@ -76,28 +111,9 @@ relation:
     - id: W3C PR-css-fonts-3-20180814
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css-fonts-3-20180814
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-css-fonts-3-20180920-errata.html
-    link:
-    - content: https://www.w3.org/Style/2018/REC-css-fonts-3-20180920-errata.html
-      type: src
-    docid:
-    - id: W3C REC-css-fonts-3-20180920-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-css-fonts-3-20180920-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css-fonts-3-20180920
 ext:
@@ -105,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kendall Clark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2005-03-25'
 language:
 - en
@@ -42,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-dawg-uc
+    title:
+    - content: RDF Data Access Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-dawg-uc/
+      type: src
+    docid:
+    - id: W3C rdf-dawg-uc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-dawg-uc-20041012
+    title:
+    - content: RDF Data Access Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/WD-rdf-dawg-uc-20041012/
       type: src
@@ -54,12 +60,9 @@ relation:
     - id: W3C WD-rdf-dawg-uc-20041012
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-dawg-uc-20041012
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-rdf-dawg-uc-20050325
 ext:

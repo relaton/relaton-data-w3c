@@ -5,7 +5,7 @@ title:
 - content: The From-Origin Header
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-from-origin-20110721/
+- content: https://www.w3.org/TR/2011/WD-from-origin-20110721/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cfrom-origin
+    title:
+    - content: The From-Origin Header
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/from-origin/
+      type: src
+    docid:
+    - id: W3C from-origin
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-from-origin-20120529
+    title:
+    - content: The From-Origin Header
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/NOTE-from-origin-20120529/
+      type: src
+    docid:
+    - id: W3C NOTE-from-origin-20120529
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-from-origin-20110721
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

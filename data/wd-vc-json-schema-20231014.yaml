@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-vc-json-schema-20231014/
   type: src
-- content: https://w3c.github.io/vc-json-schema/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vc-json-schema-20231014
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andres Uribe
+      given:
+        forename:
+        - content: Gabe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cohen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gabe Cohen
+      given:
+        forename:
+        - content: Orie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steele
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Orie Steele
+      given:
+        forename:
+        - content: Andres
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uribe
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-json-schema
+    title:
+    - content: Verifiable Credentials JSON Schema Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-json-schema/
+      type: src
+    docid:
+    - id: W3C vc-json-schema
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vc-json-schema-20231002
+    title:
+    - content: Verifiable Credentials JSON Schema Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-vc-json-schema-20231002/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-vc-json-schema-20231002
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vc-json-schema-20231002
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vc-json-schema-20231022
+    title:
+    - content: Verifiable Credentials JSON Schema Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-json-schema-20231022/
+      type: src
+    docid:
+    - id: W3C WD-vc-json-schema-20231022
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vc-json-schema-20231014
 ext:

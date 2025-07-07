@@ -5,7 +5,7 @@ title:
 - content: The [NEL] Newline Character
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/NOTE-newline-20010314
+- content: https://www.w3.org/TR/2001/NOTE-newline-20010314
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Susan Malaika
+      given:
+        forename:
+        - content: Susan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malaika
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnewline
+    title:
+    - content: The [NEL] Newline Character
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/newline
+      type: src
+    docid:
+    - id: W3C newline
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-newline-20010314
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

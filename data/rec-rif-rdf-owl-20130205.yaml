@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christopher Welty
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jos de Bruijn
+      given:
+        forename:
+        - content: Christopher
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Welty
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-rdf-owl
+    title:
+    - content: RIF RDF and OWL Compatibility (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-rdf-owl/
+      type: src
+    docid:
+    - id: W3C rif-rdf-owl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-rif-rdf-owl-20121211
+    title:
+    - content: RIF RDF and OWL Compatibility
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PER-rif-rdf-owl-20121211/
       type: src
@@ -64,41 +77,9 @@ relation:
     - id: W3C PER-rif-rdf-owl-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-rif-rdf-owl-20121211
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2010/rif/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-rif-rdf-owl-20100622
-    link:
-    - content: https://www.w3.org/TR/2010/REC-rif-rdf-owl-20100622/
-      type: src
-    docid:
-    - id: W3C REC-rif-rdf-owl-20100622
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rif-rdf-owl-20100622
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rif-rdf-owl-20130205
 ext:
@@ -106,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CRD-generic-sensor-20210724/
   type: src
-- content: https://w3c.github.io/sensors/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-generic-sensor-20210724
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexander Shalamov
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Waldron
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mikhail Pozdnyakov
+      given:
+        forename:
+        - content: Mikhail
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pozdnyakov
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rick Waldron
+      given:
+        forename:
+        - content: Alexander
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shalamov
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tobie Langel
+      given:
+        forename:
+        - content: Tobie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Langel
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeneric-sensor
+    title:
+    - content: Generic Sensor API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/generic-sensor/
+      type: src
+    docid:
+    - id: W3C generic-sensor
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-generic-sensor-20210619
+    title:
+    - content: Generic Sensor API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-generic-sensor-20210619/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CRD-generic-sensor-20210619
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-generic-sensor-20210619
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-generic-sensor-20210729
+    title:
+    - content: Generic Sensor API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CRD-generic-sensor-20210729/
+      type: src
+    docid:
+    - id: W3C CRD-generic-sensor-20210729
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-generic-sensor-20210724
 ext:

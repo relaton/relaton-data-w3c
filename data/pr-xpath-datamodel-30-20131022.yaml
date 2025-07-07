@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Data Model 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-xpath-datamodel-30-20131022/
+- content: https://www.w3.org/TR/2013/PR-xpath-datamodel-30-20131022/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-datamodel-30
+    title:
+    - content: XQuery and XPath Data Model 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-datamodel-30/
+      type: src
+    docid:
+    - id: W3C xpath-datamodel-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xpath-datamodel-30-20130108
+    title:
+    - content: XQuery and XPath Data Model 3.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-xpath-datamodel-30-20130108/
+    - content: https://www.w3.org/TR/2013/CR-xpath-datamodel-30-20130108/
       type: src
     docid:
     - id: W3C CR-xpath-datamodel-30-20130108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xpath-datamodel-30-20130108
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xpath-datamodel-30-20140408
+    title:
+    - content: XQuery and XPath Data Model 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-xpath-datamodel-30-20140408/
+      type: src
+    docid:
+    - id: W3C REC-xpath-datamodel-30-20140408
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xpath-datamodel-30-20131022
 ext:
@@ -87,5 +137,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

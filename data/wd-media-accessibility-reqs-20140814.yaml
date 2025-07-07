@@ -5,10 +5,8 @@ title:
 - content: Media Accessibility User Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140814/
+- content: https://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140814/
   type: src
-- content: https://w3c.github.io/pfwg/media-accessibility-reqs/
-  type: current
 type: standard
 docid:
 - id: W3C WD-media-accessibility-reqs-20140814
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Sadecki
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sadecki
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-accessibility-reqs
+    title:
+    - content: Media Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-accessibility-reqs/
+      type: src
+    docid:
+    - id: W3C media-accessibility-reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-media-accessibility-reqs-20120103
+    title:
+    - content: Media Accessibility User Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-media-accessibility-reqs-20120103/
+    - content: https://www.w3.org/TR/2012/WD-media-accessibility-reqs-20120103/
       type: src
     docid:
     - id: W3C WD-media-accessibility-reqs-20120103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-media-accessibility-reqs-20120103
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-media-accessibility-reqs-20151203
+    title:
+    - content: Media Accessibility User Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-media-accessibility-reqs-20151203/
+      type: src
+    docid:
+    - id: W3C NOTE-media-accessibility-reqs-20151203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-media-accessibility-reqs-20140814
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/REC-css-writing-modes-3-20191210/
   type: src
-- content: https://drafts.csswg.org/css-writing-modes-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css-writing-modes-3-20191210
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Koji Ishii
+      given:
+        forename:
+        - content: Koji
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishii
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-writing-modes-3
+    title:
+    - content: CSS Writing Modes Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-writing-modes-3/
+      type: src
+    docid:
+    - id: W3C css-writing-modes-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css-writing-modes-3-20191024
+    title:
+    - content: CSS Writing Modes Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/PR-css-writing-modes-3-20191024/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-css-writing-modes-3-20191024
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css-writing-modes-3-20191024
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-css-writing-modes-3-20191210-errata.html
-    link:
-    - content: https://www.w3.org/Style/2019/REC-css-writing-modes-3-20191210-errata.html
-      type: src
-    docid:
-    - id: W3C REC-css-writing-modes-3-20191210-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-css-writing-modes-3-20191210-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css-writing-modes-3-20191210
 ext:
@@ -95,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

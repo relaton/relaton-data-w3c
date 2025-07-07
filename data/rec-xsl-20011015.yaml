@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Miłowski
+      given:
+        forename:
+        - content: Sharon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eduardo Gutentag
+      given:
+        forename:
+        - content: Jeffrey
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caruso
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeffrey Caruso
+      given:
+        forename:
+        - content: Tony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graham
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeremy Richman
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grosso
         language:
         - en
         script:
@@ -77,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Grosso
+      given:
+        forename:
+        - content: Eduardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gutentag
         language:
         - en
         script:
@@ -87,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott Parnell
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miłowski
         language:
         - en
         script:
@@ -97,38 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sharon Adler
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stephen Deach
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steve Zilles
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tony Graham
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zilles
         language:
         - en
         script:
@@ -144,9 +170,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxsl
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xsl/
+      type: src
+    docid:
+    - id: W3C xsl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xsl-20010828
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/PR-xsl-20010828/
       type: src
@@ -154,28 +196,9 @@ relation:
     - id: W3C PR-xsl-20010828
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xsl-20010828
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-XSL-20011015-errata
-    link:
-    - content: https://www.w3.org/2001/10/REC-XSL-20011015-errata
-      type: src
-    docid:
-    - id: W3C REC-XSL-20011015-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-XSL-20011015-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xsl-20011015
 ext:
@@ -183,4 +206,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

@@ -5,7 +5,7 @@ title:
 - content: XML Query Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-xquery-use-cases-20050211/
+- content: https://www.w3.org/TR/2005/WD-xquery-use-cases-20050211/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniela Florescu
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Massimo Marchiori
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Fankhauser
+      given:
+        forename:
+        - content: Massimo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marchiori
         language:
         - en
         script:
@@ -84,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-use-cases
+    title:
+    - content: XML Query Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-use-cases/
+      type: src
+    docid:
+    - id: W3C xquery-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-use-cases-20031112
+    title:
+    - content: XML Query Use Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-xquery-use-cases-20031112/
+    - content: https://www.w3.org/TR/2003/WD-xquery-use-cases-20031112/
       type: src
     docid:
     - id: W3C WD-xquery-use-cases-20031112
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-use-cases-20031112
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-use-cases-20050404
+    title:
+    - content: XML Query Use Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xquery-use-cases-20050404/
+      type: src
+    docid:
+    - id: W3C WD-xquery-use-cases-20050404
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-use-cases-20050211
 ext:

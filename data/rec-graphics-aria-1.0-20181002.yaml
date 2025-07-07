@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/REC-graphics-aria-1.0-20181002/
   type: src
-- content: https://w3c.github.io/graphics-aria/
-  type: current
 type: standard
 docid:
 - id: W3C REC-graphics-aria-1.0-20181002
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgraphics-aria-1.0
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/graphics-aria-1.0/
+      type: src
+    docid:
+    - id: W3C graphics-aria-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-graphics-aria-1.0-20180626
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/PR-graphics-aria-1.0-20180626/
       type: src
@@ -76,28 +111,9 @@ relation:
     - id: W3C PR-graphics-aria-1.0-20180626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-graphics-aria-1.0-20180626
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cgraphics-aria
-    link:
-    - content: https://www.w3.org/WAI/ARIA/1.0/errata/graphics-aria
-      type: src
-    docid:
-    - id: W3C graphics-aria
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C graphics-aria
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-graphics-aria-1.0-20181002
 ext:

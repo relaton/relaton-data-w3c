@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-CSS22-20160412/
   type: src
-- content: https://drafts.csswg.org/css2/
-  type: current
 type: standard
 docid:
 - id: W3C WD-CSS22-20160412
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -44,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CCSS22
+    title:
+    - content: Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CSS22/
+      type: src
+    docid:
+    - id: W3C CSS22
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-CSS22-20160412
 ext:
@@ -55,4 +74,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

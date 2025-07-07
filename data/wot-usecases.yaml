@@ -29,20 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-wot-usecases-20210518
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-wot-usecases-20210518/
-      type: src
-    docid:
-    - id: W3C NOTE-wot-usecases-20210518
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-wot-usecases-20210518
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-wot-usecases-20220307
+    title:
+    - content: 'Web of Things (WoT): Use Cases and Requirements'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/NOTE-wot-usecases-20220307/
       type: src
@@ -50,12 +40,22 @@ relation:
     - id: W3C NOTE-wot-usecases-20220307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-wot-usecases-20220307
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-wot-usecases-20210518
+    title:
+    - content: 'Web of Things (WoT): Use Cases and Requirements'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-wot-usecases-20210518/
+      type: src
+    docid:
+    - id: W3C NOTE-wot-usecases-20210518
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: wot-usecases
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charlton Barreto
+      given:
+        forename:
+        - content: Nickolas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kavantzas
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Burdett
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burdett
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Greg Ritzinger
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Nickolas Kavantzas
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tony Fletcher
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -92,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-cdl-10
+    title:
+    - content: Web Services Choreography Description Language Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-cdl-10/
+      type: src
+    docid:
+    - id: W3C ws-cdl-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ws-cdl-10-20041217
+    title:
+    - content: Web Services Choreography Description Language Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20041217/
       type: src
@@ -104,12 +111,9 @@ relation:
     - id: W3C WD-ws-cdl-10-20041217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-cdl-10-20041217
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Retired
     format: text/plain
   number: CR-ws-cdl-10-20051109
 ext:

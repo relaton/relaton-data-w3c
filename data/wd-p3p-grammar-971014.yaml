@@ -27,48 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joseph Reagle
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lorrie Cranor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Ackerman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Melissa W Dunn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philip DesAutels
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -82,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-P3P-grammar
+    title:
+    - content: 'P3P Vocabulary Working Group: Grammatical Model and Data Design Model'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-P3P-grammar
+      type: src
+    docid:
+    - id: W3C WD-P3P-grammar
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-P3P-grammar-971014
 ext:

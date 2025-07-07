@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-mbui-intro-20140107/
   type: src
-- content: https://www.w3.org/2011/mbui/drafts/mbui-intro/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-mbui-intro-20140107
@@ -27,34 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Gaelle Calvary
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Gerrit Meixner
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2014-01-07'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmbui-intro
+    title:
+    - content: Introduction to Model-Based User Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mbui-intro/
+      type: src
+    docid:
+    - id: W3C mbui-intro
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mbui-intro-20140107
 ext:

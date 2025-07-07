@@ -26,39 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-webrtc-priority-20200123
-    link:
-    - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200123/
-      type: src
-    docid:
-    - id: W3C WD-webrtc-priority-20200123
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webrtc-priority-20200123
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webrtc-priority-20200922
-    link:
-    - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200922/
-      type: src
-    docid:
-    - id: W3C WD-webrtc-priority-20200922
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webrtc-priority-20200922
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CCR-webrtc-priority-20210318
+    title:
+    - content: WebRTC Priority Control API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/
       type: src
@@ -66,12 +40,48 @@ relation:
     - id: W3C CR-webrtc-priority-20210318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webrtc-priority-20210318
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webrtc-priority-20200922
+    title:
+    - content: WebRTC Priority Control API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200922/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-priority-20200922
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webrtc-priority-20200123
+    title:
+    - content: WebRTC Priority Control API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200123/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-priority-20200123
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webrtc-dscp-20180703
+    title:
+    - content: WebRTC DSCP Control API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-webrtc-dscp-20180703/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-dscp-20180703
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: webrtc-priority
 ext:

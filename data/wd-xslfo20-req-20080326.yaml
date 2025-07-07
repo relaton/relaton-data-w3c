@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Klaas Bals
+      given:
+        forename:
+        - content: Klaas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bals
         language:
         - en
         script:
@@ -43,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslfo20-req
+    title:
+    - content: Extensible Stylesheet Language (XSL) Requirements Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslfo20-req/
+      type: src
+    docid:
+    - id: W3C xslfo20-req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xslfo20-req-20080326
 ext:
@@ -53,4 +74,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

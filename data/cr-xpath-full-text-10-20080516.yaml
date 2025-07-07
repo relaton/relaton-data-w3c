@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Full Text 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/CR-xpath-full-text-10-20080516/
+- content: https://www.w3.org/TR/2008/CR-xpath-full-text-10-20080516/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chavdar Botev
+      given:
+        forename:
+        - content: Mary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Holstege
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jayavel Shanmugasundaram
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -47,68 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jochen Doerre
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Holstege
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Rys
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pat Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sihem Amer-Yahia
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stephen Buxton
+      given:
+        forename:
+        - content: Pat
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Case
         language:
         - en
         script:
@@ -122,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-full-text-10
+    title:
+    - content: XQuery and XPath Full Text 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-full-text-10/
+      type: src
+    docid:
+    - id: W3C xpath-full-text-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-full-text-10-20070518
+    title:
+    - content: XQuery 1.0 and XPath 2.0 Full-Text 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-xpath-full-text-10-20070518/
+    - content: https://www.w3.org/TR/2007/WD-xpath-full-text-10-20070518/
       type: src
     docid:
     - id: W3C WD-xpath-full-text-10-20070518
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-full-text-10-20070518
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xpath-full-text-10-20090709
+    title:
+    - content: XQuery and XPath Full Text 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-xpath-full-text-10-20090709/
+      type: src
+    docid:
+    - id: W3C CR-xpath-full-text-10-20090709
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xpath-full-text-10-20080516
 ext:
@@ -148,3 +138,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: XML Query Working Group
+  - name: XSLT Working Group

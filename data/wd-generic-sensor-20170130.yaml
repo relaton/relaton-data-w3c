@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-generic-sensor-20170130/
   type: src
-- content: https://w3c.github.io/sensors/
-  type: current
 type: standard
 docid:
 - id: W3C WD-generic-sensor-20170130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rick Waldron
+      given:
+        forename:
+        - content: Tobie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Langel
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tobie Langel
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Waldron
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeneric-sensor
+    title:
+    - content: Generic Sensor API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/generic-sensor/
+      type: src
+    docid:
+    - id: W3C generic-sensor
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-generic-sensor-20160830
+    title:
+    - content: Generic Sensor API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-generic-sensor-20160830/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-generic-sensor-20160830
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-generic-sensor-20160830
+- type: updatedBy
+  bibitem:
+    id: W3CWD-generic-sensor-20170524
+    title:
+    - content: Generic Sensor API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-generic-sensor-20170524/
+      type: src
+    docid:
+    - id: W3C WD-generic-sensor-20170524
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-generic-sensor-20170130
 ext:

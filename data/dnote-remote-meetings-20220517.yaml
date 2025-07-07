@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-remote-meetings-20220517/
   type: src
-- content: https://w3c.github.io/remote-meetings/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-remote-meetings-20220517
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Janina Sajka
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hollier
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jason White
+      given:
+        forename:
+        - content: Judy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brewer
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshue O'Connor
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: White
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Judy Brewer
+      given:
+        forename:
+        - content: Janina
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajka
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott Hollier
+      given:
+        forename:
+        - content: Joshue
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Noble
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Noble
         language:
         - en
         script:
@@ -92,10 +132,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cremote-meetings
+    title:
+    - content: Accessibility of Remote Meetings
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/remote-meetings/
+      type: src
+    docid:
+    - id: W3C remote-meetings
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-remote-meetings-20211014
+    title:
+    - content: Accessibility of Remote Meetings
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-remote-meetings-20211014/
       type: src
@@ -103,12 +162,25 @@ relation:
     - id: W3C WD-remote-meetings-20211014
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-remote-meetings-20211014
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-remote-meetings-20220722
+    title:
+    - content: Accessibility of Remote Meetings
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/NOTE-remote-meetings-20220722/
+      type: src
+    docid:
+    - id: W3C NOTE-remote-meetings-20220722
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-remote-meetings-20220517
 ext:
@@ -116,4 +188,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

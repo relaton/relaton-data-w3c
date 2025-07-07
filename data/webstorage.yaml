@@ -26,39 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-webstorage-20130730
-    link:
-    - content: https://www.w3.org/TR/2013/REC-webstorage-20130730/
-      type: src
-    docid:
-    - id: W3C REC-webstorage-20130730
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-webstorage-20130730
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-webstorage-20160419
-    link:
-    - content: https://www.w3.org/TR/2016/REC-webstorage-20160419/
-      type: src
-    docid:
-    - id: W3C REC-webstorage-20160419
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-webstorage-20160419
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CSPSD-webstorage-20210128
+    title:
+    - content: Web Storage (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/SPSD-webstorage-20210128/
       type: src
@@ -66,12 +40,178 @@ relation:
     - id: W3C SPSD-webstorage-20210128
       type: W3C
       primary: true
-    formattedref:
-      content: W3C SPSD-webstorage-20210128
+- type: hasEdition
+  bibitem:
+    id: W3CREC-webstorage-20160419
+    title:
+    - content: Web Storage (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/REC-webstorage-20160419/
+      type: src
+    docid:
+    - id: W3C REC-webstorage-20160419
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-webstorage-20151126
+    title:
+    - content: Web Storage (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/PR-webstorage-20151126/
+      type: src
+    docid:
+    - id: W3C PR-webstorage-20151126
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-webstorage-20150609
+    title:
+    - content: Web Storage (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/CR-webstorage-20150609/
+      type: src
+    docid:
+    - id: W3C CR-webstorage-20150609
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-webstorage-20130730
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-webstorage-20130730/
+      type: src
+    docid:
+    - id: W3C REC-webstorage-20130730
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-webstorage-20130409
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-webstorage-20130409/
+      type: src
+    docid:
+    - id: W3C PR-webstorage-20130409
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-webstorage-20111208
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-webstorage-20111208/
+      type: src
+    docid:
+    - id: W3C CR-webstorage-20111208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20111025
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-webstorage-20111025/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20111025
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20110901
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-webstorage-20110901/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20110901
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20110208
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-webstorage-20110208/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20110208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20091222
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-webstorage-20091222/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20091222
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20091029
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-webstorage-20091029/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20091029
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20090910
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-webstorage-20090910/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20090910
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webstorage-20090423
+    title:
+    - content: Web Storage
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-webstorage-20090423/
+      type: src
+    docid:
+    - id: W3C WD-webstorage-20090423
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: webstorage
 ext:

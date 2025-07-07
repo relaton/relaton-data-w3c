@@ -5,7 +5,7 @@ title:
 - content: An RDF Schema for P3P
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/NOTE-p3p-rdfschema-20020125/
+- content: https://www.w3.org/TR/2002/NOTE-p3p-rdfschema-20020125/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brian McBride
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lorrie Cranor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rigo Wenning
+      given:
+        forename:
+        - content: Rigo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wenning
         language:
         - en
         script:
@@ -60,12 +47,47 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cp3p-rdfschema
+    title:
+    - content: An RDF Schema for P3P
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/p3p-rdfschema/
+      type: src
+    docid:
+    - id: W3C p3p-rdfschema
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-p3p-rdfschema-20180830
+    title:
+    - content: An RDF Schema for P3P
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/NOTE-p3p-rdfschema-20180830/
+      type: src
+    docid:
+    - id: W3C NOTE-p3p-rdfschema-20180830
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-p3p-rdfschema-20020125
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

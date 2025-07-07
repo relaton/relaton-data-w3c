@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/CRD-accelerometer-20240108/
   type: src
-- content: https://w3c.github.io/accelerometer/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-accelerometer-20240108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Caccelerometer
+    title:
+    - content: Accelerometer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/accelerometer/
+      type: src
+    docid:
+    - id: W3C accelerometer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-accelerometer-20240105
+    title:
+    - content: Accelerometer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/CRD-accelerometer-20240105/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C CRD-accelerometer-20240105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-accelerometer-20240105
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-accelerometer-20240607
+    title:
+    - content: Accelerometer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-accelerometer-20240607/
+      type: src
+    docid:
+    - id: W3C CRD-accelerometer-20240607
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-accelerometer-20240108
 ext:

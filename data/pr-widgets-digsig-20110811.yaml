@@ -5,7 +5,7 @@ title:
 - content: XML Digital Signatures for Widgets
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/PR-widgets-digsig-20110811/
+- content: https://www.w3.org/TR/2011/PR-widgets-digsig-20110811/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Priestley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paddy Byers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stuart Knightley
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -84,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-digsig
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-digsig/
+      type: src
+    docid:
+    - id: W3C widgets-digsig
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-widgets-digsig-20110607
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-widgets-digsig-20110607/
+    - content: https://www.w3.org/TR/2011/WD-widgets-digsig-20110607/
       type: src
     docid:
     - id: W3C WD-widgets-digsig-20110607
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-widgets-digsig-20110607
+- type: updatedBy
+  bibitem:
+    id: W3CREC-widgets-digsig-20130418
+    title:
+    - content: XML Digital Signatures for Widgets
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-widgets-digsig-20130418/
+      type: src
+    docid:
+    - id: W3C REC-widgets-digsig-20130418
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-widgets-digsig-20110811
 ext:
@@ -107,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-wot-thing-description-20190516/
   type: src
-- content: https://w3c.github.io/wot-thing-description/
-  type: current
 type: standard
 docid:
 - id: W3C CR-wot-thing-description-20190516
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Käbisch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Käbisch
+      given:
+        forename:
+        - content: Takuki
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kamiya
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Takuki Kamiya
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Victor Charpenay
+      given:
+        forename:
+        - content: Victor
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Charpenay
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-thing-description10
+    title:
+    - content: Web of Things (WoT) Thing Description
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-thing-description10/
+      type: src
+    docid:
+    - id: W3C wot-thing-description10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wot-thing-description-20181021
+    title:
+    - content: Web of Things (WoT) Thing Description
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-wot-thing-description-20181021/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-wot-thing-description-20181021
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wot-thing-description-20181021
+- type: updatedBy
+  bibitem:
+    id: W3CCR-wot-thing-description-20191106
+    title:
+    - content: Web of Things (WoT) Thing Description
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-wot-thing-description-20191106/
+      type: src
+    docid:
+    - id: W3C CR-wot-thing-description-20191106
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-wot-thing-description-20190516
 ext:

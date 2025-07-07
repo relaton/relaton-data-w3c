@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-using-aria-20180924/
   type: src
-- content: https://w3c.github.io/using-aria/
-  type: current
 type: standard
 docid:
 - id: W3C WD-using-aria-20180924
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David MacDonald
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: MacDonald
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cusing-aria
+    title:
+    - content: Using ARIA
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/using-aria/
+      type: src
+    docid:
+    - id: W3C using-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-using-aria-20180920
+    title:
+    - content: Using ARIA
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-using-aria-20180920/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-using-aria-20180920
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-using-aria-20180920
+- type: updatedBy
+  bibitem:
+    id: W3CWD-using-aria-20180927
+    title:
+    - content: Using ARIA
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-using-aria-20180927/
+      type: src
+    docid:
+    - id: W3C WD-using-aria-20180927
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-using-aria-20180924
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

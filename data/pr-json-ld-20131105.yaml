@@ -5,7 +5,7 @@ title:
 - content: JSON-LD 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-json-ld-20131105/
+- content: https://www.w3.org/TR/2013/PR-json-ld-20131105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Lanthaler
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanthaler
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld
+    title:
+    - content: JSON-LD 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld/
+      type: src
+    docid:
+    - id: W3C json-ld
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-json-ld-20130910
+    title:
+    - content: JSON-LD 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-json-ld-20130910/
+    - content: https://www.w3.org/TR/2013/CR-json-ld-20130910/
       type: src
     docid:
     - id: W3C CR-json-ld-20130910
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-json-ld-20130910
+- type: updatedBy
+  bibitem:
+    id: W3CREC-json-ld-20140116
+    title:
+    - content: JSON-LD 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-json-ld-20140116/
+      type: src
+    docid:
+    - id: W3C REC-json-ld-20140116
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-json-ld-20131105
 ext:

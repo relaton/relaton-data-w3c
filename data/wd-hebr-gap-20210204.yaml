@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-hebr-gap-20210204/
   type: src
-- content: https://w3c.github.io/hlreq/gap-analysis/
-  type: current
 type: standard
 docid:
 - id: W3C WD-hebr-gap-20210204
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chebr-gap
+    title:
+    - content: Hebrew Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hebr-gap/
+      type: src
+    docid:
+    - id: W3C hebr-gap
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-hebr-gap-20210525
+    title:
+    - content: Hebrew Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-hebr-gap-20210525/
+      type: src
+    docid:
+    - id: W3C WD-hebr-gap-20210525
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-hebr-gap-20210204
 ext:

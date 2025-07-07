@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-beng-gap-20210126/
   type: src
-- content: https://w3c.github.io/iip/gap-analysis/beng-gap
-  type: current
 type: standard
 docid:
 - id: W3C WD-beng-gap-20210126
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbeng-gap
+    title:
+    - content: Bengali Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/beng-gap/
+      type: src
+    docid:
+    - id: W3C beng-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-beng-gap-20200616
+    title:
+    - content: Bengali Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-beng-gap-20200616/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-beng-gap-20200616
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-beng-gap-20200616
+- type: updatedBy
+  bibitem:
+    id: W3CWD-beng-gap-20210210
+    title:
+    - content: Bengali Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-beng-gap-20210210/
+      type: src
+    docid:
+    - id: W3C WD-beng-gap-20210210
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-beng-gap-20210126
 ext:

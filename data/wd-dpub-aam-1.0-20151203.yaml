@@ -5,10 +5,8 @@ title:
 - content: Digital Publishing Accessibility API Mappings
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-dpub-aam-1.0-20151203/
+- content: https://www.w3.org/TR/2015/WD-dpub-aam-1.0-20151203/
   type: src
-- content: http://w3c.github.io/aria/dpub-aam/dpub-aam.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-dpub-aam-1.0-20151203
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-aam-1.0
+    title:
+    - content: Digital Publishing Accessibility API Mappings
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-aam-1.0/
+      type: src
+    docid:
+    - id: W3C dpub-aam-1.0
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dpub-aam-1.0-20160317
+    title:
+    - content: Digital Publishing Accessibility API Mappings
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-dpub-aam-1.0-20160317/
+      type: src
+    docid:
+    - id: W3C WD-dpub-aam-1.0-20160317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-dpub-aam-1.0-20151203
 ext:

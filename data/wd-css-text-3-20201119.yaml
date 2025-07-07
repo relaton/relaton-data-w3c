@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-css-text-3-20201119/
   type: src
-- content: https://drafts.csswg.org/css-text-3/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-text-3-20201119
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Koji
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishii
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Koji Ishii
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-text-3
+    title:
+    - content: CSS Text Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-text-3/
+      type: src
+    docid:
+    - id: W3C css-text-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-text-3-20200429
+    title:
+    - content: CSS Text Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-css-text-3-20200429/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-css-text-3-20200429
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-text-3-20200429
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-text-3-20201222
+    title:
+    - content: CSS Text Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/CR-css-text-3-20201222/
+      type: src
+    docid:
+    - id: W3C CR-css-text-3-20201222
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-text-3-20201119
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

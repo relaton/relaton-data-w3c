@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/CRD-geolocation-20220314/
   type: src
-- content: https://w3c.github.io/geolocation-api/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-geolocation-20220314
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Reilly Grant
+      given:
+        forename:
+        - content: Reilly
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grant
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeolocation
+    title:
+    - content: Geolocation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/geolocation/
+      type: src
+    docid:
+    - id: W3C geolocation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-geolocation-20220307
+    title:
+    - content: Geolocation API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/CRD-geolocation-20220307/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CRD-geolocation-20220307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-geolocation-20220307
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-geolocation-20220318
+    title:
+    - content: Geolocation API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/CRD-geolocation-20220318/
+      type: src
+    docid:
+    - id: W3C CRD-geolocation-20220318
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-geolocation-20220314
 ext:

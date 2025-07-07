@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-edge-cloud-reqs-20230926/
   type: src
-- content: https://w3c.github.io/edge-computing-web-exploration/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-edge-cloud-reqs-20230926
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dapeng(Max) Liu
+      given:
+        forename:
+        - content: Dapeng(Max)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liu
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Song XU
+      given:
+        forename:
+        - content: Song
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: XU
         language:
         - en
         script:
@@ -62,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cedge-cloud-reqs
+    title:
+    - content: Client-Edge-Cloud coordination Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/edge-cloud-reqs/
+      type: src
+    docid:
+    - id: W3C edge-cloud-reqs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-edge-cloud-reqs-20230926
 ext:

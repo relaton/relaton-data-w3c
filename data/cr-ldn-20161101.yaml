@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/CR-ldn-20161101/
   type: src
-- content: https://linkedresearch.org/ldn/
-  type: current
 type: standard
 docid:
 - id: W3C CR-ldn-20161101
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Sarven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Capadisli
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sarven Capadisli
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldn
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldn/
+      type: src
+    docid:
+    - id: W3C ldn
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ldn-20161011
+    title:
+    - content: Linked Data Notifications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-ldn-20161011/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-ldn-20161011
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ldn-20161011
+- type: updatedBy
+  bibitem:
+    id: W3CCR-ldn-20170223
+    title:
+    - content: Linked Data Notifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-ldn-20170223/
+      type: src
+    docid:
+    - id: W3C CR-ldn-20170223
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ldn-20161101
 ext:

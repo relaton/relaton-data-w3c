@@ -5,10 +5,8 @@ title:
 - content: JF2 Post Serialization Format
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-jf2-20160728/
+- content: https://www.w3.org/TR/2016/WD-jf2-20160728/
   type: src
-- content: http://dissolve.github.io/jf2/
-  type: current
 type: standard
 docid:
 - id: W3C WD-jf2-20160728
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Roberts
+      given:
+        forename:
+        - content: BeBe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roberts
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kevin Marks
+      given:
+        forename:
+        - content: Kevin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marks
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjf2
+    title:
+    - content: JF2 Post Serialization Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/jf2/
+      type: src
+    docid:
+    - id: W3C jf2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-jf2-20170612
+    title:
+    - content: JF2 Post Serialization Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-jf2-20170612/
+      type: src
+    docid:
+    - id: W3C WD-jf2-20170612
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-jf2-20160728
 ext:

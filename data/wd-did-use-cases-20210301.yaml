@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-did-use-cases-20210301/
   type: src
-- content: https://w3c.github.io/did-use-cases/
-  type: current
 type: standard
 docid:
 - id: W3C WD-did-use-cases-20210301
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Gropper
+      given:
+        forename:
+        - content: Joe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andrieu
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joe Andrieu
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kim Duffy
+      given:
+        forename:
+        - content: Kim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Duffy
         language:
         - en
         script:
@@ -59,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Phil Archer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ryan Grant
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gropper
         language:
         - en
         script:
@@ -86,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdid-use-cases
+    title:
+    - content: Use Cases and Requirements for Decentralized Identifiers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/did-use-cases/
+      type: src
+    docid:
+    - id: W3C did-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-did-use-cases-20210212
+    title:
+    - content: Use Cases and Requirements for Decentralized Identifiers
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-did-use-cases-20210212/
       type: src
@@ -96,12 +128,25 @@ relation:
     - id: W3C WD-did-use-cases-20210212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-did-use-cases-20210212
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-did-use-cases-20210317
+    title:
+    - content: Use Cases and Requirements for Decentralized Identifiers
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-use-cases-20210317/
+      type: src
+    docid:
+    - id: W3C NOTE-did-use-cases-20210317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-did-use-cases-20210301
 ext:

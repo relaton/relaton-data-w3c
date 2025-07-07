@@ -5,7 +5,7 @@ title:
 - content: 'DIAL Part 0: Primer'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/dial-primer/
+- content: https://www.w3.org/TR/dial-primer/
   type: src
 type: standard
 docid:
@@ -26,39 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-dial-primer-20061010
+    id: W3CNOTE-dial-primer-20100629
+    title:
+    - content: 'DIAL Part 0: Primer'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-dial-primer-20061010/
+    - content: https://www.w3.org/TR/2010/NOTE-dial-primer-20100629/
       type: src
     docid:
-    - id: W3C WD-dial-primer-20061010
+    - id: W3C NOTE-dial-primer-20100629
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dial-primer-20061010
-      format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-dial-primer-20071101
+    title:
+    - content: 'DIAL Part 0: Primer'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-dial-primer-20071101/
+    - content: https://www.w3.org/TR/2007/WD-dial-primer-20071101/
       type: src
     docid:
     - id: W3C WD-dial-primer-20071101
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dial-primer-20071101
+- type: hasEdition
+  bibitem:
+    id: W3CWD-dial-primer-20061010
+    title:
+    - content: 'DIAL Part 0: Primer'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-dial-primer-20061010/
+      type: src
+    docid:
+    - id: W3C WD-dial-primer-20061010
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: dial-primer
 ext:

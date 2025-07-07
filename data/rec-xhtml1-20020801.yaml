@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml1
+    title:
+    - content: XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml1/
+      type: src
+    docid:
+    - id: W3C xhtml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml1-20011004
+    title:
+    - content: 'XHTML™ 1.0: The Extensible HyperText Markup Language (Second Edition)'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/WD-xhtml1-20011004/
       type: src
@@ -54,41 +77,25 @@ relation:
     - id: W3C WD-xhtml1-20011004
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml1-20011004
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-xhtml1-20020801-errata
+    id: W3CSPSD-xhtml1-20180327
+    title:
+    - content: XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)
+      format: text/plain
     link:
-    - content: https://www.w3.org/2002/08/REC-xhtml1-20020801-errata
+    - content: https://www.w3.org/TR/2018/SPSD-xhtml1-20180327/
       type: src
     docid:
-    - id: W3C REC-xhtml1-20020801-errata
+    - id: W3C SPSD-xhtml1-20180327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml1-20020801-errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-xhtml1-20000126
-    link:
-    - content: https://www.w3.org/TR/2000/REC-xhtml1-20000126/
-      type: src
-    docid:
-    - id: W3C REC-xhtml1-20000126
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xhtml1-20000126
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xhtml1-20020801
 ext:

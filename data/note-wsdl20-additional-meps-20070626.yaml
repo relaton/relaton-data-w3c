@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Amelia Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2007-06-26'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsdl20-additional-meps
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsdl20-additional-meps/
+      type: src
+    docid:
+    - id: W3C wsdl20-additional-meps
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsdl20-additional-meps-20070523
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-wsdl20-additional-meps-20070523
       type: src
@@ -51,12 +60,9 @@ relation:
     - id: W3C WD-wsdl20-additional-meps-20070523
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsdl20-additional-meps-20070523
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wsdl20-additional-meps-20070626
 ext:

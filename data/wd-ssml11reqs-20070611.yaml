@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Zhi Wei Shuang
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cssml11reqs
+    title:
+    - content: Speech Synthesis Markup Language Version 1.1 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ssml11reqs/
+      type: src
+    docid:
+    - id: W3C ssml11reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ssml11reqs-20061219
+    title:
+    - content: Speech Synthesis Markup Language Version 1.1 Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-ssml11reqs-20061219/
       type: src
@@ -64,12 +77,9 @@ relation:
     - id: W3C WD-ssml11reqs-20061219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ssml11reqs-20061219
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ssml11reqs-20070611
 ext:

@@ -5,7 +5,7 @@ title:
 - content: HTML+RDFa 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-rdfa-in-html-20100624/
+- content: https://www.w3.org/TR/2010/WD-rdfa-in-html-20100624/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-rdfa
+    title:
+    - content: HTML+RDFa 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-rdfa/
+      type: src
+    docid:
+    - id: W3C html-rdfa
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdfa-in-html-20100304
+    title:
+    - content: HTML+RDFa
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-rdfa-in-html-20100304/
+    - content: https://www.w3.org/TR/2010/WD-rdfa-in-html-20100304/
       type: src
     docid:
     - id: W3C WD-rdfa-in-html-20100304
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdfa-in-html-20100304
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdfa-in-html-20101019
+    title:
+    - content: HTML+RDFa 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-rdfa-in-html-20101019/
+      type: src
+    docid:
+    - id: W3C WD-rdfa-in-html-20101019
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdfa-in-html-20100624
 ext:
@@ -77,5 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDFa Working Group
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

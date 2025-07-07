@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2010/REC-ttaf1-dfxp-20101118/
   type: src
-- content: https://w3c.github.io/ttml1/index.html
-  type: current
 type: standard
 docid:
 - id: W3C REC-ttaf1-dfxp-20101118
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml1
+    title:
+    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml1/
+      type: src
+    docid:
+    - id: W3C ttml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ttaf1-dfxp-20100914
+    title:
+    - content: Timed Text Markup Language (TTML) 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-ttaf1-dfxp-20100914/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-ttaf1-dfxp-20100914
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ttaf1-dfxp-20100914
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cttml-issues.html
-    link:
-    - content: https://www.w3.org/2010/11/ttml-issues.html
-      type: src
-    docid:
-    - id: W3C ttml-issues.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ttml-issues.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ttaf1-dfxp-20101118
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/PR-WebCryptoAPI-20161215/
   type: src
-- content: http://w3c.github.io/webcrypto/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C PR-WebCryptoAPI-20161215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWebCryptoAPI
+    title:
+    - content: Web Cryptography API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WebCryptoAPI/
+      type: src
+    docid:
+    - id: W3C WebCryptoAPI
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-WebCryptoAPI-20141211
+    title:
+    - content: Web Cryptography API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/CR-WebCryptoAPI-20141211/
+    - content: https://www.w3.org/TR/2014/CR-WebCryptoAPI-20141211/
       type: src
     docid:
     - id: W3C CR-WebCryptoAPI-20141211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-WebCryptoAPI-20141211
+- type: updatedBy
+  bibitem:
+    id: W3CREC-WebCryptoAPI-20170126
+    title:
+    - content: Web Cryptography API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-WebCryptoAPI-20170126/
+      type: src
+    docid:
+    - id: W3C REC-WebCryptoAPI-20170126
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-WebCryptoAPI-20161215
 ext:

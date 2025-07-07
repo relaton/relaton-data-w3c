@@ -5,7 +5,7 @@ title:
 - content: HTML to Platform Accessibility APIs Implementation Guide
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-html-aapi-20110525/
+- content: https://www.w3.org/TR/2011/WD-html-aapi-20110525/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cynthia Shelly
+      given:
+        forename:
+        - content: Cynthia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shelly
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-aapi
+    title:
+    - content: HTML to Platform Accessibility APIs Implementation Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-aapi/
+      type: src
+    docid:
+    - id: W3C html-aapi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-aapi-20110414
+    title:
+    - content: HTML to Platform Accessibility APIs Implementation Guide
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-html-aapi-20110414/
+    - content: https://www.w3.org/TR/2011/WD-html-aapi-20110414/
       type: src
     docid:
     - id: W3C WD-html-aapi-20110414
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-aapi-20110414
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-aapi-20120329
+    title:
+    - content: HTML to Platform Accessibility APIs Implementation Guide
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-html-aapi-20120329/
+      type: src
+    docid:
+    - id: W3C WD-html-aapi-20120329
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-aapi-20110525
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

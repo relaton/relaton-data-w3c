@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-grek-gap-20200611/
   type: src
-- content: https://w3c.github.io/eurlreq/gap-analysis/grek-gap
-  type: current
 type: standard
 docid:
 - id: W3C WD-grek-gap-20200611
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgrek-gap
+    title:
+    - content: Modern Greek Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/grek-gap/
+      type: src
+    docid:
+    - id: W3C grek-gap
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-grek-gap-20200715
+    title:
+    - content: Modern Greek Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-grek-gap-20200715/
+      type: src
+    docid:
+    - id: W3C WD-grek-gap-20200715
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-grek-gap-20200611
 ext:

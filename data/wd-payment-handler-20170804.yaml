@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-payment-handler-20170804/
   type: src
-- content: https://w3c.github.io/payment-handler/
-  type: current
 type: standard
 docid:
 - id: W3C WD-payment-handler-20170804
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Roach
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hope-Bailie
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Adrian Hope-Bailie
+      given:
+        forename:
+        - content: Tommy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thorsen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roach
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jason Normore
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Normore
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jinho Bang
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rouslan Solomakhin
+      given:
+        forename:
+        - content: Rouslan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Solomakhin
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tommy Thorsen
+      given:
+        forename:
+        - content: Jinho
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bang
         language:
         - en
         script:
@@ -106,9 +153,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-handler
+    title:
+    - content: Payment Handler API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-handler/
+      type: src
+    docid:
+    - id: W3C payment-handler
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-payment-handler-20170803
+    title:
+    - content: Payment Handler API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-payment-handler-20170803/
       type: src
@@ -116,12 +179,25 @@ relation:
     - id: W3C WD-payment-handler-20170803
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-payment-handler-20170803
+- type: updatedBy
+  bibitem:
+    id: W3CWD-payment-handler-20170815
+    title:
+    - content: Payment Handler API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-payment-handler-20170815/
+      type: src
+    docid:
+    - id: W3C WD-payment-handler-20170815
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-payment-handler-20170804
 ext:

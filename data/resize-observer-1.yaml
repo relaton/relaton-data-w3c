@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-resize-observer-1-20200211
+    title:
+    - content: Resize Observer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-resize-observer-1-20200211/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-resize-observer-1-20200211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-resize-observer-1-20200211
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: resize-observer-1
 ext:

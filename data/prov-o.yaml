@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-prov-o-20130430
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-prov-o-20130430/
       type: src
@@ -40,12 +40,74 @@ relation:
     - id: W3C REC-prov-o-20130430
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-prov-o-20130430
+- type: hasEdition
+  bibitem:
+    id: W3CPR-prov-o-20130312
+    title:
+    - content: 'PROV-O: The PROV Ontology'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-prov-o-20130312/
+      type: src
+    docid:
+    - id: W3C PR-prov-o-20130312
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-prov-o-20121211
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-prov-o-20121211/
+      type: src
+    docid:
+    - id: W3C CR-prov-o-20121211
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-o-20120724
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-o-20120724/
+      type: src
+    docid:
+    - id: W3C WD-prov-o-20120724
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-o-20120503
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-o-20120503/
+      type: src
+    docid:
+    - id: W3C WD-prov-o-20120503
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-prov-o-20111213
+    title:
+    - content: 'The PROV Ontology: Model and Formal Semantics'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-prov-o-20111213/
+      type: src
+    docid:
+    - id: W3C WD-prov-o-20111213
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: prov-o
 ext:

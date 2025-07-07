@@ -5,7 +5,7 @@ title:
 - content: Personalized Information Description Language (PIDL)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/1999/NOTE-PIDL-19990209
+- content: https://www.w3.org/TR/1999/NOTE-PIDL-19990209
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marc Langheinrich
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tomonari Kamba
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yuichi Koike
+      given:
+        forename:
+        - content: Yuichi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koike
         language:
         - en
         script:
@@ -60,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-PIDL
+    title:
+    - content: Personalized Information Description Language (PIDL)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-PIDL
+      type: src
+    docid:
+    - id: W3C NOTE-PIDL
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-PIDL-19990209
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

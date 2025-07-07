@@ -5,7 +5,7 @@ title:
 - content: Pronunciation Lexicon Specification (PLS) Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PR-pronunciation-lexicon-20080818/
+- content: https://www.w3.org/TR/2008/PR-pronunciation-lexicon-20080818/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Paolo Baggia
+      given:
+        forename:
+        - content: Paolo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baggia
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpronunciation-lexicon
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pronunciation-lexicon/
+      type: src
+    docid:
+    - id: W3C pronunciation-lexicon
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-pronunciation-lexicon-20071212
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/
+    - content: https://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/
       type: src
     docid:
     - id: W3C CR-pronunciation-lexicon-20071212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-pronunciation-lexicon-20071212
+- type: updatedBy
+  bibitem:
+    id: W3CREC-pronunciation-lexicon-20081014
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-pronunciation-lexicon-20081014/
+      type: src
+    docid:
+    - id: W3C REC-pronunciation-lexicon-20081014
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-pronunciation-lexicon-20080818
 ext:

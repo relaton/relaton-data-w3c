@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-CDFReqs-20051219
+    title:
+    - content: Compound Document Use Cases and Requirements Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-CDFReqs-20051219/
       type: src
@@ -40,12 +40,48 @@ relation:
     - id: W3C WD-CDFReqs-20051219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CDFReqs-20051219
+- type: hasEdition
+  bibitem:
+    id: W3CWD-CDRReqs-20050809
+    title:
+    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-CDRReqs-20050809/
+      type: src
+    docid:
+    - id: W3C WD-CDRReqs-20050809
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-CDRReqs-20050404
+    title:
+    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-CDRReqs-20050404/
+      type: src
+    docid:
+    - id: W3C WD-CDRReqs-20050404
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-CDRReqs-20050315
+    title:
+    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-CDRReqs-20050315/
+      type: src
+    docid:
+    - id: W3C WD-CDRReqs-20050315
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: CDFReqs
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Resource Representation SOAP Header Block
   format: text/plain
 link:
-- content: http://www.w3.org/TR/soap12-rep/
+- content: https://www.w3.org/TR/soap12-rep/
   type: src
 type: standard
 docid:
@@ -26,52 +26,75 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-soap12-rep-20040608
+    id: W3CREC-soap12-rep-20050125
+    title:
+    - content: Resource Representation SOAP Header Block
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-soap12-rep-20040608/
+    - content: https://www.w3.org/TR/2005/REC-soap12-rep-20050125/
       type: src
     docid:
-    - id: W3C WD-soap12-rep-20040608
+    - id: W3C REC-soap12-rep-20050125
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-soap12-rep-20040608
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-soap12-rep-20040826
-    link:
-    - content: http://www.w3.org/TR/2004/CR-soap12-rep-20040826/
-      type: src
-    docid:
-    - id: W3C CR-soap12-rep-20040826
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-soap12-rep-20040826
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CPR-soap12-rep-20041116
+    title:
+    - content: Resource Representation SOAP Header Block
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/PR-soap12-rep-20041116/
+    - content: https://www.w3.org/TR/2004/PR-soap12-rep-20041116/
       type: src
     docid:
     - id: W3C PR-soap12-rep-20041116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-soap12-rep-20041116
+- type: hasEdition
+  bibitem:
+    id: W3CCR-soap12-rep-20040826
+    title:
+    - content: Resource Representation SOAP Header Block
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/CR-soap12-rep-20040826/
+      type: src
+    docid:
+    - id: W3C CR-soap12-rep-20040826
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soap12-rep-20040608
+    title:
+    - content: SOAP Resource Representation Header
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-soap12-rep-20040608/
+      type: src
+    docid:
+    - id: W3C WD-soap12-rep-20040608
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soap12-rep-20040428
+    title:
+    - content: SOAP Resource Representation Header
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-soap12-rep-20040428/
+      type: src
+    docid:
+    - id: W3C WD-soap12-rep-20040428
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: soap12-rep
 ext:

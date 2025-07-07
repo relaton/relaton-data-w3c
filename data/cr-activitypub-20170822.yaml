@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/CR-activitypub-20170822/
   type: src
-- content: https://w3c.github.io/activitypub/
-  type: current
 type: standard
 docid:
 - id: W3C CR-activitypub-20170822
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christopher Webber
+      given:
+        forename:
+        - content: Christine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemmer-Webber
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jessica Tallon
+      given:
+        forename:
+        - content: Jessica
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tallon
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitypub
+    title:
+    - content: ActivityPub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitypub/
+      type: src
+    docid:
+    - id: W3C activitypub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-activitypub-20170509
+    title:
+    - content: ActivityPub
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-activitypub-20170509/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-activitypub-20170509
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-activitypub-20170509
+- type: updatedBy
+  bibitem:
+    id: W3CCR-activitypub-20170907
+    title:
+    - content: ActivityPub
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-activitypub-20170907/
+      type: src
+    docid:
+    - id: W3C CR-activitypub-20170907
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-activitypub-20170822
 ext:

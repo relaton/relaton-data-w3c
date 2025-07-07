@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernadette Hyland
+      given:
+        forename:
+        - content: Bernadette
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hyland
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Boris Villazón-Terrazas
+      given:
+        forename:
+        - content: Ghislain Auguste
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atemezing
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ghislain Auguste Atemezing
+      given:
+        forename:
+        - content: Boris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Villazón-Terrazas
         language:
         - en
         script:
@@ -60,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cld-bp
+    title:
+    - content: Best Practices for Publishing Linked Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ld-bp/
+      type: src
+    docid:
+    - id: W3C ld-bp
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ld-bp-20140109
 ext:

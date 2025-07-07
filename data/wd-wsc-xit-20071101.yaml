@@ -5,7 +5,7 @@ title:
 - content: 'Web Security Context: Experience, Indicators, and Trust'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-wsc-xit-20071101/
+- content: https://www.w3.org/TR/2007/WD-wsc-xit-20071101/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anil Saldhana
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Anil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saldhana
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsc-ui
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsc-ui/
+      type: src
+    docid:
+    - id: W3C wsc-ui
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wsc-xit-20080403
+    title:
+    - content: 'Web Security Context: Experience, Indicators, and Trust'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-wsc-xit-20080403/
+      type: src
+    docid:
+    - id: W3C WD-wsc-xit-20080403
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wsc-xit-20071101
 ext:

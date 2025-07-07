@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-respimg-usecases-20131107
+    title:
+    - content: Use Cases and Requirements for Standardizing Responsive Images
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-respimg-usecases-20131107/
       type: src
@@ -37,12 +40,22 @@ relation:
     - id: W3C NOTE-respimg-usecases-20131107
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-respimg-usecases-20131107
+- type: hasEdition
+  bibitem:
+    id: W3CWD-respimg-usecases-20130226
+    title:
+    - content: Use Cases and Requirements for Standardizing Responsive Images
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-respimg-usecases-20130226/
+      type: src
+    docid:
+    - id: W3C WD-respimg-usecases-20130226
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: respimg-usecases
 ext:

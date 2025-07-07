@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-did-core-20191107/
   type: src
-- content: https://w3c.github.io/did-core/
-  type: current
 type: standard
 docid:
 - id: W3C WD-did-core-20191107
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Drummond Reed
+      given:
+        forename:
+        - content: Drummond
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reed
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Sabadello
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sabadello
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdid-core
+    title:
+    - content: Decentralized Identifiers (DIDs) v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/did-core/
+      type: src
+    docid:
+    - id: W3C did-core
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-did-core-20191113
+    title:
+    - content: Decentralized Identifiers (DIDs) v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-did-core-20191113/
+      type: src
+    docid:
+    - id: W3C WD-did-core-20191113
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-did-core-20191107
 ext:

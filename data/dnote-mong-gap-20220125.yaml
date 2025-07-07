@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-mong-gap-20220125/
   type: src
-- content: https://w3c.github.io/mlreq/gap-analysis/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-mong-gap-20220125
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmong-gap
+    title:
+    - content: Mongolian Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mong-gap/
+      type: src
+    docid:
+    - id: W3C mong-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mong-gap-20211117
+    title:
+    - content: Mongolian Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-mong-gap-20211117/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C WD-mong-gap-20211117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mong-gap-20211117
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-mong-gap-20230614
+    title:
+    - content: Mongolian Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-mong-gap-20230614/
+      type: src
+    docid:
+    - id: W3C DNOTE-mong-gap-20230614
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-mong-gap-20220125
 ext:

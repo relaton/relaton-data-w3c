@@ -5,10 +5,8 @@ title:
 - content: TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/CR-ttml-imsc1-20160128/
+- content: https://www.w3.org/TR/2016/CR-ttml-imsc1-20160128/
   type: src
-- content: https://rawgit.com/w3c/imsc1/master/spec/ttml-ww-profiles.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-ttml-imsc1-20160128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -44,24 +49,54 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml-imsc1
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml-imsc1/
+      type: src
+    docid:
+    - id: W3C ttml-imsc1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ttml-imsc1-20150519
+    title:
+    - content: TTML Text and Image Profiles for Internet Media Subtitles and Captions
+        1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-ttml-imsc1-20150519/
+    - content: https://www.w3.org/TR/2015/CR-ttml-imsc1-20150519/
       type: src
     docid:
     - id: W3C CR-ttml-imsc1-20150519
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ttml-imsc1-20150519
+- type: updatedBy
+  bibitem:
+    id: W3CPR-ttml-imsc1-20160308
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/PR-ttml-imsc1-20160308/
+      type: src
+    docid:
+    - id: W3C PR-ttml-imsc1-20160308
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ttml-imsc1-20160128
 ext:

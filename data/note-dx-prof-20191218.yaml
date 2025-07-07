@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-dx-prof-20191218/
   type: src
-- content: https://w3c.github.io/dxwg/prof/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-dx-prof-20191218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nicholas Car
+      given:
+        forename:
+        - content: Nicholas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Car
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdx-prof
+    title:
+    - content: The Profiles Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dx-prof/
+      type: src
+    docid:
+    - id: W3C dx-prof
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dx-prof-20190402
+    title:
+    - content: The Profiles Vocabulary
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-dx-prof-20190402/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-dx-prof-20190402
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dx-prof-20190402
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-dx-prof-20191218
 ext:

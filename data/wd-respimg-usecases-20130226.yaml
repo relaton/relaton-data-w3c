@@ -5,7 +5,7 @@ title:
 - content: Use Cases and Requirements for Standardizing Responsive Images
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-respimg-usecases-20130226/
+- content: https://www.w3.org/TR/2013/WD-respimg-usecases-20130226/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mathew Marquis
+      given:
+        forename:
+        - content: Mathew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marquis
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yoav Weiss
+      given:
+        forename:
+        - content: Yoav
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weiss
         language:
         - en
         script:
@@ -63,9 +84,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crespimg-usecases
+    title:
+    - content: Use Cases and Requirements for Standardizing Responsive Images
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/respimg-usecases/
+      type: src
+    docid:
+    - id: W3C respimg-usecases
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-respimg-usecases-20131107
+    title:
+    - content: Use Cases and Requirements for Standardizing Responsive Images
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-respimg-usecases-20131107/
+      type: src
+    docid:
+    - id: W3C NOTE-respimg-usecases-20131107
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-respimg-usecases-20130226
 ext:
@@ -73,4 +124,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

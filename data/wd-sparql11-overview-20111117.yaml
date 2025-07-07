@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Overview
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-sparql11-overview-20111117/
+- content: https://www.w3.org/TR/2011/WD-sparql11-overview-20111117/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: The W3C SPARQL Working Group
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2011-11-17'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-overview
+    title:
+    - content: SPARQL 1.1 Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-overview/
+      type: src
+    docid:
+    - id: W3C sparql11-overview
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sparql11-overview-20120501
+    title:
+    - content: SPARQL 1.1 Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-sparql11-overview-20120501/
+      type: src
+    docid:
+    - id: W3C WD-sparql11-overview-20120501
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sparql11-overview-20111117
 ext:

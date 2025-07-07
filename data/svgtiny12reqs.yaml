@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3CSVGTiny12Reqs
 title:
-- content: SVG Tiny Version 1.2 Requirements
+- content: SVGT 1.2 Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/SVGTiny12Reqs
+- content: https://www.w3.org/TR/SVGTiny12Reqs/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-SVGTiny12Reqs-20060810
+    title:
+    - content: SVGT 1.2 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-SVGTiny12Reqs-20060810/
+      type: src
+    docid:
+    - id: W3C WD-SVGTiny12Reqs-20060810
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-SVGTiny12Reqs-20031209
+    title:
+    - content: SVG Tiny Version 1.2 Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-SVGTiny12Reqs-20031209/
+    - content: https://www.w3.org/TR/2003/WD-SVGTiny12Reqs-20031209/
       type: src
     docid:
     - id: W3C WD-SVGTiny12Reqs-20031209
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGTiny12Reqs-20031209
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: SVGTiny12Reqs
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Giorgio Brajnik
+      given:
+        forename:
+        - content: Markel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vigo
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshue O'Connor
+      given:
+        forename:
+        - content: Giorgio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brajnik
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markel Vigo
+      given:
+        forename:
+        - content: Joshue
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -63,9 +84,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Caccessibility-metrics-report
+    title:
+    - content: Research Report on Web Accessibility Metrics
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/accessibility-metrics-report/
+      type: src
+    docid:
+    - id: W3C accessibility-metrics-report
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-accessibility-metrics-report-20120830
 ext:

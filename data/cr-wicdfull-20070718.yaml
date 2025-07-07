@@ -5,7 +5,7 @@ title:
 - content: WICD Full 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/CR-WICDFull-20070718/
+- content: https://www.w3.org/TR/2007/CR-WICDFull-20070718/
   type: src
 type: standard
 docid:
@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Appelquist
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Julien Quint
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lasse Pajunen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Timur Mehrvarz
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Appelquist
         language:
         - en
         script:
@@ -72,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWICDFull
+    title:
+    - content: WICD Full 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WICDFull/
+      type: src
+    docid:
+    - id: W3C WICDFull
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WICDFull-20061122
+    title:
+    - content: WICD Full 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-WICDFull-20061122/
+    - content: https://www.w3.org/TR/2006/WD-WICDFull-20061122/
       type: src
     docid:
     - id: W3C WD-WICDFull-20061122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WICDFull-20061122
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-WICDFull-20100819
+    title:
+    - content: WICD Full 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/NOTE-WICDFull-20100819/
+      type: src
+    docid:
+    - id: W3C NOTE-WICDFull-20100819
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-WICDFull-20070718
 ext:

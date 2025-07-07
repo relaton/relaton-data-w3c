@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-ethical-web-principles-20221207/
   type: src
-- content: https://w3ctag.github.io/ethical-web-principles/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-ethical-web-principles-20221207
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Appelquist
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Appelquist
+      given:
+        forename:
+        - content: Hadley
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Beeman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hadley Beeman
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cethical-web-principles
+    title:
+    - content: Ethical Web Principles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ethical-web-principles/
+      type: src
+    docid:
+    - id: W3C ethical-web-principles
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-ethical-web-principles-20220512
+    title:
+    - content: W3C TAG Ethical Web Principles
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-ethical-web-principles-20220512/
       type: src
@@ -73,12 +111,25 @@ relation:
     - id: W3C DNOTE-ethical-web-principles-20220512
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-ethical-web-principles-20220512
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-ethical-web-principles-20230906
+    title:
+    - content: W3C TAG Ethical Web Principles
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-ethical-web-principles-20230906/
+      type: src
+    docid:
+    - id: W3C DNOTE-ethical-web-principles-20230906
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-ethical-web-principles-20221207
 ext:

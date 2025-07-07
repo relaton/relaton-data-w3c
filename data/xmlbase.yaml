@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xmlbase-20010627
-    link:
-    - content: https://www.w3.org/TR/2001/REC-xmlbase-20010627/
-      type: src
-    docid:
-    - id: W3C REC-xmlbase-20010627
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xmlbase-20010627
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-xmlbase-20090128
+    title:
+    - content: XML Base (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/REC-xmlbase-20090128/
       type: src
@@ -53,12 +40,100 @@ relation:
     - id: W3C REC-xmlbase-20090128
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xmlbase-20090128
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xmlbase-20080320
+    title:
+    - content: XML Base (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/PER-xmlbase-20080320/
+      type: src
+    docid:
+    - id: W3C PER-xmlbase-20080320
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xmlbase-20061220
+    title:
+    - content: XML Base (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/PER-xmlbase-20061220/
+      type: src
+    docid:
+    - id: W3C PER-xmlbase-20061220
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xmlbase-20010627
+    title:
+    - content: XML Base
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/REC-xmlbase-20010627/
+      type: src
+    docid:
+    - id: W3C REC-xmlbase-20010627
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xmlbase-20001220
+    title:
+    - content: XML Base
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/PR-xmlbase-20001220/
+      type: src
+    docid:
+    - id: W3C PR-xmlbase-20001220
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlbase-20000908
+    title:
+    - content: XML Base
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/CR-xmlbase-20000908
+      type: src
+    docid:
+    - id: W3C CR-xmlbase-20000908
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlbase-20000607
+    title:
+    - content: XML Base
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmlbase-20000607
+      type: src
+    docid:
+    - id: W3C WD-xmlbase-20000607
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlbase-19991220
+    title:
+    - content: XML Base
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-xmlbase-19991220
+      type: src
+    docid:
+    - id: W3C WD-xmlbase-19991220
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xmlbase
 ext:

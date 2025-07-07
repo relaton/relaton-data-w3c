@@ -5,7 +5,7 @@ title:
 - content: 'SAC: Simple API for CSS'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-SAC-20000728
+- content: https://www.w3.org/TR/2000/NOTE-SAC-20000728
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Philippe Le Hégaret
+      given:
+        forename:
+        - content: Philippe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hegaret
         language:
         - en
         script:
@@ -50,12 +64,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSAC
+    title:
+    - content: 'SAC: Simple API for CSS'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SAC/
+      type: src
+    docid:
+    - id: W3C SAC
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-SAC-20000728
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

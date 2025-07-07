@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-worklets-1-20200908/
   type: src
-- content: https://drafts.css-houdini.org/worklets/
-  type: current
 type: standard
 docid:
 - id: W3C WD-worklets-1-20200908
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Kilpatrick
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kilpatrick
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cworklets-1
+    title:
+    - content: Worklets Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/worklets-1/
+      type: src
+    docid:
+    - id: W3C worklets-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-worklets-1-20160607
+    title:
+    - content: Worklets Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-worklets-1-20160607/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-worklets-1-20160607
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-worklets-1-20160607
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-worklets-1-20210729
+    title:
+    - content: Worklets Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-worklets-1-20210729/
+      type: src
+    docid:
+    - id: W3C NOTE-worklets-1-20210729
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-worklets-1-20200908
 ext:
@@ -69,5 +103,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
+  - name: Cascading Style Sheets (CSS) Working Group
   - name: Technical Architecture Group
-  - name: Cascading Style Sheets Working Group

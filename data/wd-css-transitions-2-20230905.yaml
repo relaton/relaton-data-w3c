@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-css-transitions-2-20230905/
   type: src
-- content: https://drafts.csswg.org/css-transitions-2/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-transitions-2-20230905
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brian Birtles
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baron
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Baron
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birtles
         language:
         - en
         script:
@@ -54,10 +66,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-transitions-2
+    title:
+    - content: CSS Transitions Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-transitions-2/
+      type: src
+    docid:
+    - id: W3C css-transitions-2
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-css-transitions-2-20230905
 ext:
@@ -65,4 +91,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

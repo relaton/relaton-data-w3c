@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-rdf12-concepts-20230516/
   type: src
-- content: https://w3c.github.io/rdf-concepts/spec/
-  type: current
 type: standard
 docid:
 - id: W3C WD-rdf12-concepts-20230516
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Olaf Hartig
+      given:
+        forename:
+        - content: Olaf
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hartig
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Pierre-Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Champin
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf12-concepts
+    title:
+    - content: RDF 1.2 Concepts and Abstract Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf12-concepts/
+      type: src
+    docid:
+    - id: W3C rdf12-concepts
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf12-concepts-20230612
+    title:
+    - content: RDF 1.2 Concepts and Abstract Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-rdf12-concepts-20230612/
+      type: src
+    docid:
+    - id: W3C WD-rdf12-concepts-20230612
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-rdf12-concepts-20230516
 ext:
@@ -75,4 +124,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF-star Working Group
+  - name: RDF & SPARQL Working Group

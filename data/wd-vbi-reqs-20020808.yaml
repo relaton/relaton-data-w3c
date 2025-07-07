@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kenneth Rehor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-08-08'
 language:
 - en
@@ -42,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvbi-reqs
+    title:
+    - content: 'Voice Browser Interoperation: Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vbi-reqs/
+      type: src
+    docid:
+    - id: W3C vbi-reqs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-vbi-reqs-20020808
 ext:

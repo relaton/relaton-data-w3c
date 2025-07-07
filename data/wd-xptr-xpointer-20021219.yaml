@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eve Maler
+      given:
+        forename:
+        - content: Eve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maler
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ron Daniel
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven DeRose
+      given:
+        forename:
+        - content: Ron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Daniel
         language:
         - en
         script:
@@ -62,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxptr-xpointer
+    title:
+    - content: XPointer xpointer() Scheme
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xptr-xpointer/
+      type: src
+    docid:
+    - id: W3C xptr-xpointer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xptr-xpointer-20020710
+    title:
+    - content: XPointer xpointer() Scheme
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-xptr-xpointer-20020710/
       type: src
@@ -74,12 +94,9 @@ relation:
     - id: W3C WD-xptr-xpointer-20020710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xptr-xpointer-20020710
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xptr-xpointer-20021219
 ext:

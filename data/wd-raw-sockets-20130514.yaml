@@ -5,7 +5,7 @@ title:
 - content: Raw Socket API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-raw-sockets-20130514/
+- content: https://www.w3.org/TR/2013/WD-raw-sockets-20130514/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Claes Nilsson
+      given:
+        forename:
+        - content: Claes
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nilsson
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctcp-udp-sockets
+    title:
+    - content: TCP and UDP Socket API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tcp-udp-sockets/
+      type: src
+    docid:
+    - id: W3C tcp-udp-sockets
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-tcp-udp-sockets-20141202
+    title:
+    - content: TCP and UDP Socket API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-tcp-udp-sockets-20141202/
+      type: src
+    docid:
+    - id: W3C WD-tcp-udp-sockets-20141202
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-raw-sockets-20130514
 ext:

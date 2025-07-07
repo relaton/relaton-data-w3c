@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Käbisch
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Käbisch
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-c14n
+    title:
+    - content: Canonical EXI
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-c14n/
+      type: src
+    docid:
+    - id: W3C exi-c14n
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-exi-c14n-20180426
+    title:
+    - content: Canonical EXI
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/PR-exi-c14n-20180426/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-exi-c14n-20180426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-exi-c14n-20180426
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cexi-c14n-errata
-    link:
-    - content: https://www.w3.org/XML/EXI/exi-c14n-errata
-      type: src
-    docid:
-    - id: W3C exi-c14n-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C exi-c14n-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-exi-c14n-20180607
 ext:
@@ -93,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

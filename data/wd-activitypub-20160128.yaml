@@ -5,7 +5,7 @@ title:
 - content: ActivityPub
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-activitypub-20160128/
+- content: https://www.w3.org/TR/2016/WD-activitypub-20160128/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christopher Webber
+      given:
+        forename:
+        - content: Christine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemmer-Webber
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jessica Tallon
+      given:
+        forename:
+        - content: Jessica
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tallon
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Owen Shepherd
+      given:
+        forename:
+        - content: Owen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shepherd
         language:
         - en
         script:
@@ -62,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitypub
+    title:
+    - content: ActivityPub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitypub/
+      type: src
+    docid:
+    - id: W3C activitypub
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-activitypub-20160614
+    title:
+    - content: ActivityPub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-activitypub-20160614/
+      type: src
+    docid:
+    - id: W3C WD-activitypub-20160614
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-activitypub-20160128
 ext:

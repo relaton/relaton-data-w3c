@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/PR-dom-20200514/
   type: src
-- content: https://dom.spec.whatwg.org/
-  type: current
 type: standard
 docid:
 - id: W3C PR-dom-20200514
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdom
+    title:
+    - content: DOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dom/
+      type: src
+    docid:
+    - id: W3C dom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-dom-20200317
+    title:
+    - content: DOM
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CR-dom-20200317/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C CR-dom-20200317
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-dom-20200317
+- type: updatedBy
+  bibitem:
+    id: W3CREC-dom-20201103
+    title:
+    - content: DOM
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/REC-dom-20201103/
+      type: src
+    docid:
+    - id: W3C REC-dom-20201103
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-dom-20200514
 ext:

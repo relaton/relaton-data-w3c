@@ -5,7 +5,7 @@ title:
 - content: Uniform Messaging Policy, Level One
   format: text/plain
 link:
-- content: http://www.w3.org/TR/UMP/
+- content: https://www.w3.org/TR/UMP/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-UMP-20141002
+    title:
+    - content: Uniform Messaging Policy, Level One
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-UMP-20141002/
+      type: src
+    docid:
+    - id: W3C NOTE-UMP-20141002
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-UMP-20100126
+    title:
+    - content: Uniform Messaging Policy, Level One
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-UMP-20100126/
+    - content: https://www.w3.org/TR/2010/WD-UMP-20100126/
       type: src
     docid:
     - id: W3C WD-UMP-20100126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-UMP-20100126
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: UMP
 ext:

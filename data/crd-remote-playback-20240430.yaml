@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/CRD-remote-playback-20240430/
   type: src
-- content: https://w3c.github.io/remote-playback/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-remote-playback-20240430
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Foltz
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Foltz
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cremote-playback
+    title:
+    - content: Remote Playback API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/remote-playback/
+      type: src
+    docid:
+    - id: W3C remote-playback
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-remote-playback-20240415
+    title:
+    - content: Remote Playback API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/CRD-remote-playback-20240415/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C CRD-remote-playback-20240415
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-remote-playback-20240415
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-remote-playback-20240430
 ext:

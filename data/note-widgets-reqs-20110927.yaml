@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-reqs
+    title:
+    - content: Requirement For Standardizing Widgets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-reqs/
+      type: src
+    docid:
+    - id: W3C widgets-reqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-widgets-reqs-20101026
+    title:
+    - content: Widget Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/WD-widgets-reqs-20101026/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-widgets-reqs-20101026
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-widgets-reqs-20101026
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-widgets-reqs-20110927
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

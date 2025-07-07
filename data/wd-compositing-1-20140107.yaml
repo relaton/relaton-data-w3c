@@ -5,7 +5,7 @@ title:
 - content: Compositing and Blending Level 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-compositing-1-20140107/
+- content: https://www.w3.org/TR/2014/WD-compositing-1-20140107/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nikos Andronikos
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
+      given:
+        forename:
+        - content: Nikos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andronikos
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccompositing-1
+    title:
+    - content: Compositing and Blending Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/compositing-1/
+      type: src
+    docid:
+    - id: W3C compositing-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-compositing-1-20131010
+    title:
+    - content: Compositing and Blending Level 1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-compositing-1-20131010/
+    - content: https://www.w3.org/TR/2013/WD-compositing-1-20131010/
       type: src
     docid:
     - id: W3C WD-compositing-1-20131010
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-compositing-1-20131010
+- type: updatedBy
+  bibitem:
+    id: W3CCR-compositing-1-20140220
+    title:
+    - content: Compositing and Blending Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-compositing-1-20140220/
+      type: src
+    docid:
+    - id: W3C CR-compositing-1-20140220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-compositing-1-20140107
 ext:
@@ -78,4 +121,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: SVG Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

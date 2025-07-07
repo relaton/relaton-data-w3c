@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-ldp-paging-20150630/
   type: src
-- content: https://www.w3.org/2012/ldp/hg/ldp-paging.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-ldp-paging-20150630
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Speicher
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Arwe
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arwe
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Speicher
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldp-paging
+    title:
+    - content: Linked Data Platform Paging 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldp-paging/
+      type: src
+    docid:
+    - id: W3C ldp-paging
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ldp-paging-20141216
+    title:
+    - content: Linked Data Platform Paging 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/CR-ldp-paging-20141216/
       type: src
@@ -73,12 +111,9 @@ relation:
     - id: W3C CR-ldp-paging-20141216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ldp-paging-20141216
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ldp-paging-20150630
 ext:
@@ -86,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Fallside
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Priscilla Walmsley
+      given:
+        forename:
+        - content: Priscilla
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walmsley
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema-0
+    title:
+    - content: 'XML Schema Part 0: Primer Second Edition'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema-0/
+      type: src
+    docid:
+    - id: W3C xmlschema-0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xmlschema-0-20040318
+    title:
+    - content: 'XML Schema Part 0: Primer Second Edition'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/PER-xmlschema-0-20040318/
       type: src
@@ -64,41 +77,9 @@ relation:
     - id: W3C PER-xmlschema-0-20040318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xmlschema-0-20040318
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxmlschema-errata
-    link:
-    - content: https://www.w3.org/2004/03/xmlschema-errata
-      type: src
-    docid:
-    - id: W3C xmlschema-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xmlschema-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-xmlschema-0-20010502
-    link:
-    - content: https://www.w3.org/TR/2001/REC-xmlschema-0-20010502/
-      type: src
-    docid:
-    - id: W3C REC-xmlschema-0-20010502
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xmlschema-0-20010502
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xmlschema-0-20041028
 ext:

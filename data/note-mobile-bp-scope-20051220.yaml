@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Edward Mitukiewicz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -50,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmobile-bp-scope
+    title:
+    - content: Scope of Mobile Web Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobile-bp-scope/
+      type: src
+    docid:
+    - id: W3C mobile-bp-scope
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mobile-bp-scope-20051103
+    title:
+    - content: Scope of Mobile Web Best Practices
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-mobile-bp-scope-20051103/
       type: src
@@ -61,12 +77,9 @@ relation:
     - id: W3C WD-mobile-bp-scope-20051103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mobile-bp-scope-20051103
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mobile-bp-scope-20051220
 ext:

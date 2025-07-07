@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-tracking-compliance-20190122/
   type: src
-- content: https://www.w3.org/2011/tracking-protection/drafts/tracking-compliance.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-tracking-compliance-20190122
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Erica Newland
+      given:
+        forename:
+        - content: Nick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Doty
         language:
         - en
         script:
@@ -39,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Heather West
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Justin Brookman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Nick Doty
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sean Harvey
+      given:
+        forename:
+        - content: Sean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Harvey
         language:
         - en
         script:
@@ -82,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctracking-compliance
+    title:
+    - content: Tracking Compliance and Scope
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tracking-compliance/
+      type: src
+    docid:
+    - id: W3C tracking-compliance
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-tracking-compliance-20160426
+    title:
+    - content: Tracking Compliance and Scope
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/CR-tracking-compliance-20160426/
       type: src
@@ -93,12 +94,9 @@ relation:
     - id: W3C CR-tracking-compliance-20160426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-tracking-compliance-20160426
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-tracking-compliance-20190122
 ext:

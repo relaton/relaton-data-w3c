@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-pwp-20170502/
   type: src
-- content: https://w3c.github.io/dpub-pwp/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-pwp-20170502
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ben De Meester
+      given:
+        forename:
+        - content: Ben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: De Meester
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Cramer
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Tzviya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Siegman
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Leonard Rosenthol
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cramer
         language:
         - en
         script:
@@ -69,18 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Gylling
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tzviya Siegman
+      given:
+        forename:
+        - content: Leonard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosenthol
         language:
         - en
         script:
@@ -92,10 +115,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpwp
+    title:
+    - content: 'Web Publications for the Open Web Platform: Vision And Technical Challenges'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pwp/
+      type: src
+    docid:
+    - id: W3C pwp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pwp-20170309
+    title:
+    - content: Web Publications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-pwp-20170309/
       type: src
@@ -103,12 +145,9 @@ relation:
     - id: W3C WD-pwp-20170309
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pwp-20170309
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-pwp-20170502
 ext:

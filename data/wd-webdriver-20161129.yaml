@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-webdriver-20161129/
   type: src
-- content: https://w3c.github.io/webdriver/webdriver-spec.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-webdriver-20161129
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebdriver1
+    title:
+    - content: WebDriver
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webdriver1/
+      type: src
+    docid:
+    - id: W3C webdriver1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webdriver-20161116
+    title:
+    - content: WebDriver
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-webdriver-20161116/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-webdriver-20161116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webdriver-20161116
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webdriver-20170105
+    title:
+    - content: WebDriver
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-webdriver-20170105/
+      type: src
+    docid:
+    - id: W3C WD-webdriver-20170105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webdriver-20161129
 ext:

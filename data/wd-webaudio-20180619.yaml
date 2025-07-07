@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-webaudio-20180619/
   type: src
-- content: https://webaudio.github.io/web-audio-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webaudio-20180619
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bryan Garaventa
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garaventa
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Raymond Toy
+      given:
+        forename:
+        - content: Raymond
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Toy
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebaudio-1.0
+    title:
+    - content: Web Audio API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webaudio-1.0/
+      type: src
+    docid:
+    - id: W3C webaudio-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webaudio-20151208
+    title:
+    - content: Web Audio API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-webaudio-20151208/
+    - content: https://www.w3.org/TR/2015/WD-webaudio-20151208/
       type: src
     docid:
     - id: W3C WD-webaudio-20151208
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webaudio-20151208
+- type: updatedBy
+  bibitem:
+    id: W3CCR-webaudio-20180918
+    title:
+    - content: Web Audio API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-webaudio-20180918/
+      type: src
+    docid:
+    - id: W3C CR-webaudio-20180918
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webaudio-20180619
 ext:

@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-DDR-Simple-API-20081205
+    title:
+    - content: Device Description Repository Simple API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/REC-DDR-Simple-API-20081205/
       type: src
@@ -40,12 +40,35 @@ relation:
     - id: W3C REC-DDR-Simple-API-20081205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-DDR-Simple-API-20081205
+- type: hasEdition
+  bibitem:
+    id: W3CPR-DDR-Simple-API-20080917
+    title:
+    - content: Device Description Repository Simple API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/PR-DDR-Simple-API-20080917/
+      type: src
+    docid:
+    - id: W3C PR-DDR-Simple-API-20080917
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-DDR-Simple-API-20080404
+    title:
+    - content: Device Description Repository Simple API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-DDR-Simple-API-20080404/
+      type: src
+    docid:
+    - id: W3C WD-DDR-Simple-API-20080404
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: DDR-Simple-API
 ext:

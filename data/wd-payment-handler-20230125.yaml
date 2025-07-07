@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-payment-handler-20230125/
   type: src
-- content: https://w3c.github.io/payment-handler/
-  type: current
 type: standard
 docid:
 - id: W3C WD-payment-handler-20230125
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Hope-Bailie
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hope-Bailie
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jinho Bang
+      given:
+        forename:
+        - content: Rouslan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Solomakhin
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rouslan Solomakhin
+      given:
+        forename:
+        - content: Jinho
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bang
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-handler
+    title:
+    - content: Payment Handler API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-handler/
+      type: src
+    docid:
+    - id: W3C payment-handler
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-payment-handler-20230124
+    title:
+    - content: Payment Handler API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-payment-handler-20230124/
       type: src
@@ -86,12 +128,9 @@ relation:
     - id: W3C WD-payment-handler-20230124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-payment-handler-20230124
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-payment-handler-20230125
 ext:

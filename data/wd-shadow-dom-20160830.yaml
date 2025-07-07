@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-shadow-dom-20160830/
   type: src
-- content: https://w3c.github.io/webcomponents/spec/shadow/
-  type: current
 type: standard
 docid:
 - id: W3C WD-shadow-dom-20160830
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshadow-dom
+    title:
+    - content: Shadow DOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shadow-dom/
+      type: src
+    docid:
+    - id: W3C shadow-dom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-shadow-dom-20160624
+    title:
+    - content: Shadow DOM
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-shadow-dom-20160624/
+    - content: https://www.w3.org/TR/2016/WD-shadow-dom-20160624/
       type: src
     docid:
     - id: W3C WD-shadow-dom-20160624
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-shadow-dom-20160624
+- type: updatedBy
+  bibitem:
+    id: W3CWD-shadow-dom-20161013
+    title:
+    - content: Shadow DOM
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-shadow-dom-20161013/
+      type: src
+    docid:
+    - id: W3C WD-shadow-dom-20161013
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-shadow-dom-20160830
 ext:
@@ -59,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

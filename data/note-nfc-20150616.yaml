@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Don Coleman
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yriarte
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Luc Yriarte
+      given:
+        forename:
+        - content: Samuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ortiz
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Samuel Ortiz
+      given:
+        forename:
+        - content: Don
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coleman
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnfc
+    title:
+    - content: Web NFC API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/nfc/
+      type: src
+    docid:
+    - id: W3C nfc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-nfc-20140114
+    title:
+    - content: Web NFC API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-nfc-20140114/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-nfc-20140114
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-nfc-20140114
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-nfc-20150616
 ext:

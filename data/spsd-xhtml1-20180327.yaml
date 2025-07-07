@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml1
+    title:
+    - content: XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml1/
+      type: src
+    docid:
+    - id: W3C xhtml1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-xhtml1-20020801
+    title:
+    - content: XHTML™ 1.0 The Extensible HyperText Markup Language (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/REC-xhtml1-20020801/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C REC-xhtml1-20020801
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml1-20020801
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-xhtml1-20180327
 ext:

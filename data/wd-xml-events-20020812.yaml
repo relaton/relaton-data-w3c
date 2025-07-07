@@ -5,7 +5,7 @@ title:
 - content: XML Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-xml-events-20020812
+- content: https://www.w3.org/TR/2002/WD-xml-events-20020812
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: T.V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raman
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: T. V. Raman
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -64,25 +85,56 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-events
+    title:
+    - content: XML Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-events/
+      type: src
+    docid:
+    - id: W3C xml-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-events-20011026
+    title:
+    - content: XML Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2001/WD-xml-events-20011026
+    - content: https://www.w3.org/TR/2001/WD-xml-events-20011026/
       type: src
     docid:
     - id: W3C WD-xml-events-20011026
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-events-20011026
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xml-events-20030207
+    title:
+    - content: XML Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/CR-xml-events-20030207
+      type: src
+    docid:
+    - id: W3C CR-xml-events-20030207
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xml-events-20020812
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

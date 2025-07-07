@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-FileAPI-20171026/
   type: src
-- content: https://w3c.github.io/FileAPI/
-  type: current
 type: standard
 docid:
 - id: W3C WD-FileAPI-20171026
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marijn Kruisselbrink
+      given:
+        forename:
+        - content: Marijn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kruisselbrink
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CFileAPI
+    title:
+    - content: File API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/FileAPI/
+      type: src
+    docid:
+    - id: W3C FileAPI
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-FileAPI-20150421
+    title:
+    - content: File API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-FileAPI-20150421/
+    - content: https://www.w3.org/TR/2015/WD-FileAPI-20150421/
       type: src
     docid:
     - id: W3C WD-FileAPI-20150421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-FileAPI-20150421
+- type: updatedBy
+  bibitem:
+    id: W3CWD-FileAPI-20181106
+    title:
+    - content: File API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-FileAPI-20181106/
+      type: src
+    docid:
+    - id: W3C WD-FileAPI-20181106
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-FileAPI-20171026
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

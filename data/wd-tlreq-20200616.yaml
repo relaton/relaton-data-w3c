@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-tlreq-20200616/
   type: src
-- content: https://w3c.github.io/tlreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-tlreq-20200616
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chunming Hu
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Chunming
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hu
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctlreq
+    title:
+    - content: Tibetan Layout Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tlreq/
+      type: src
+    docid:
+    - id: W3C tlreq
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-tlreq-20240402
+    title:
+    - content: Requirements for Tibetan Text Layout and Typography
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-tlreq-20240402/
+      type: src
+    docid:
+    - id: W3C DNOTE-tlreq-20240402
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-tlreq-20200616
 ext:

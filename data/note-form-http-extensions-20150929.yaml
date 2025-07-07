@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron Jones
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cform-http-extensions
+    title:
+    - content: W3C HTML Form HTTP Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/form-http-extensions/
+      type: src
+    docid:
+    - id: W3C form-http-extensions
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-form-http-extensions-20140529
+    title:
+    - content: W3C HTML Form HTTP Extensions
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-form-http-extensions-20140529/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-form-http-extensions-20140529
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-form-http-extensions-20140529
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-form-http-extensions-20150929
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

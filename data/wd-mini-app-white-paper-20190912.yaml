@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-mini-app-white-paper-20190912/
   type: src
-- content: https://w3c.github.io/mini-app-white-paper/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mini-app-white-paper-20190912
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Angel Li
+      given:
+        forename:
+        - content: Qing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: An
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dapeng(Max) Liu
+      given:
+        forename:
+        - content: Dapeng(Max)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liu
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Fuqiao Xue
+      given:
+        forename:
+        - content: Hongru (Judy)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhu
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hongru (Judy) Zhu
+      given:
+        forename:
+        - content: Qingqian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tao
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lei Zhao
+      given:
+        forename:
+        - content: Zhixing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lei
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Qing An
+      given:
+        forename:
+        - content: Zhiqiang
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yu
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Qingqian Tao
+      given:
+        forename:
+        - content: Wanming
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
         language:
         - en
         script:
@@ -99,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wanming Lin
+      given:
+        forename:
+        - content: xiaowei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: jiang
         language:
         - en
         script:
@@ -109,8 +163,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zhiqiang Yu
+      given:
+        forename:
+        - content: Fuqiao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xue
         language:
         - en
         script:
@@ -119,28 +180,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zhixing Lei
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Zhou Shen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: xiaowei jiang
+      given:
+        forename:
+        - content: Lei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhao
         language:
         - en
         script:
@@ -154,10 +202,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmini-app-white-paper
+    title:
+    - content: MiniApp Standardization White Paper version 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mini-app-white-paper/
+      type: src
+    docid:
+    - id: W3C mini-app-white-paper
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-mini-app-white-paper-20220510
+    title:
+    - content: MiniApp Standardization White Paper version 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-mini-app-white-paper-20220510/
+      type: src
+    docid:
+    - id: W3C DNOTE-mini-app-white-paper-20220510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mini-app-white-paper-20190912
 ext:

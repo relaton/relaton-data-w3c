@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CRD-audio-output-20210119/
   type: src
-- content: https://w3c.github.io/mediacapture-output/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-audio-output-20210119
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Guido Urdaneta
+      given:
+        forename:
+        - content: Justin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uberti
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Justin Uberti
+      given:
+        forename:
+        - content: Guido
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Urdaneta
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: youenn fablet
+      given:
+        forename:
+        - content: youenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: fablet
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudio-output
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audio-output/
+      type: src
+    docid:
+    - id: W3C audio-output
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-audio-output-20210107
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-audio-output-20210107/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CRD-audio-output-20210107
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-audio-output-20210107
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-audio-output-20210215
+    title:
+    - content: Audio Output Devices API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CRD-audio-output-20210215/
+      type: src
+    docid:
+    - id: W3C CRD-audio-output-20210215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-audio-output-20210119
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-dpub-annotation-uc-20141204/
   type: src
-- content: https://w3c.github.io/dpub-annotation/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-dpub-annotation-uc-20141204
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robert Sanderson
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sanderson
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-annotation-uc
+    title:
+    - content: Digital Publishing Annotation Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-annotation-uc/
+      type: src
+    docid:
+    - id: W3C dpub-annotation-uc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dpub-annotation-uc-20140313
+    title:
+    - content: Annotation Use Cases
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-dpub-annotation-uc-20140313/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-dpub-annotation-uc-20140313
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dpub-annotation-uc-20140313
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-dpub-annotation-uc-20141204
 ext:

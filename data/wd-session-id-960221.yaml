@@ -5,7 +5,7 @@ title:
 - content: Session Identification URI
   format: text/plain
 link:
-- content: http://www.w3.org/TR/WD-session-id-960221
+- content: https://www.w3.org/TR/WD-session-id-960221
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Connolly
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phillip M. Hallam-Baker
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Connolly
         language:
         - en
         script:
@@ -50,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-session-id
+    title:
+    - content: Session Identification URI
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-session-id
+      type: src
+    docid:
+    - id: W3C WD-session-id
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: WD-session-id-960221
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

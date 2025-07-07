@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttaf1-req
+    title:
+    - content: Timed Text (TT) Authoring Format 1.0 Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttaf1-req/
+      type: src
+    docid:
+    - id: W3C ttaf1-req
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-tt-af-1-0-req-20030915
+    title:
+    - content: Timed Text (TT) Authoring Format 1.0 Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/WD-tt-af-1-0-req-20030915/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-tt-af-1-0-req-20030915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-tt-af-1-0-req-20030915
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ttaf1-req-20060427
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Raggett
+      given:
+        forename:
+        - content: Micah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dubinko
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Micah Dubinko
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schnitzenbaumer
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Schnitzenbaumer
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raggett
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-forms-req
+    title:
+    - content: XForms Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-forms-req/
+      type: src
+    docid:
+    - id: W3C xhtml-forms-req
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-forms-req-20000821
+    title:
+    - content: XForms Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2000/WD-xhtml-forms-req-20000821
       type: src
@@ -74,12 +111,9 @@ relation:
     - id: W3C WD-xhtml-forms-req-20000821
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-forms-req-20000821
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xhtml-forms-req-20010404
 ext:

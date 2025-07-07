@@ -5,7 +5,7 @@ title:
 - content: High Resolution Time
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-hr-time-20120313/
+- content: https://www.w3.org/TR/2012/WD-hr-time-20120313/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -42,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-1
+    title:
+    - content: High Resolution Time
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-1/
+      type: src
+    docid:
+    - id: W3C hr-time-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-hr-time-20120522
+    title:
+    - content: High Resolution Time
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-hr-time-20120522/
+      type: src
+    docid:
+    - id: W3C CR-hr-time-20120522
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-hr-time-20120313
 ext:

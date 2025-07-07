@@ -5,7 +5,7 @@ title:
 - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-scxml-20070221/
+- content: https://www.w3.org/TR/2007/WD-scxml-20070221/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Burnett
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerry Carter
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Barnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Bodell
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rafah Hosn
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carter
         language:
         - en
         script:
@@ -84,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscxml
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/scxml/
+      type: src
+    docid:
+    - id: W3C scxml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-scxml-20060124
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-scxml-20060124/
+    - content: https://www.w3.org/TR/2006/WD-scxml-20060124/
       type: src
     docid:
     - id: W3C WD-scxml-20060124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-scxml-20060124
+- type: updatedBy
+  bibitem:
+    id: W3CWD-scxml-20080516
+    title:
+    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-scxml-20080516/
+      type: src
+    docid:
+    - id: W3C WD-scxml-20080516
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-scxml-20070221
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-WCAG22-20200227/
   type: src
-- content: https://w3c.github.io/wcag/guidelines/22/
-  type: current
 type: standard
 docid:
 - id: W3C WD-WCAG22-20200227
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alastair Campbell
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kirkpatrick
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrew Kirkpatrick
+      given:
+        forename:
+        - content: Alastair
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Campbell
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWCAG22
+    title:
+    - content: Web Content Accessibility Guidelines (WCAG) 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WCAG22/
+      type: src
+    docid:
+    - id: W3C WCAG22
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-WCAG22-20200811
+    title:
+    - content: Web Content Accessibility Guidelines (WCAG) 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-WCAG22-20200811/
+      type: src
+    docid:
+    - id: W3C WD-WCAG22-20200811
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-WCAG22-20200227
 ext:

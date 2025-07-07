@@ -5,7 +5,7 @@ title:
 - content: Accessibility Features of SMIL
   format: text/plain
 link:
-- content: http://www.w3.org/TR/1999/NOTE-SMIL-access-19990921
+- content: https://www.w3.org/TR/1999/NOTE-SMIL-access-19990921
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marja-Riitta Koivunen
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -50,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL-access
+    title:
+    - content: Accessibility Features of SMIL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL-access
+      type: src
+    docid:
+    - id: W3C SMIL-access
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-SMIL-access-19990921
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

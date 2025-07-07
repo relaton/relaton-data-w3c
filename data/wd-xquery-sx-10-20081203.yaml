@@ -5,7 +5,7 @@ title:
 - content: XQuery Scripting Extension 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-xquery-sx-10-20081203
+- content: https://www.w3.org/TR/2008/WD-xquery-sx-10-20081203/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dana Florescu
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -37,58 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Engovatov
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Giorgio Ghelli
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jerome Simeon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -104,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-sx-10
+    title:
+    - content: XQuery Scripting Extension 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-sx-10/
+      type: src
+    docid:
+    - id: W3C xquery-sx-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-sx-10-20080328
+    title:
+    - content: XQuery Scripting Extension 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-xquery-sx-10-20080328/
+    - content: https://www.w3.org/TR/2008/WD-xquery-sx-10-20080328/
       type: src
     docid:
     - id: W3C WD-xquery-sx-10-20080328
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-sx-10-20080328
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-sx-10-20100408
+    title:
+    - content: XQuery Scripting Extension 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xquery-sx-10-20100408/
+      type: src
+    docid:
+    - id: W3C WD-xquery-sx-10-20100408
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-sx-10-20081203
 ext:

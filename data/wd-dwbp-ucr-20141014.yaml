@@ -5,10 +5,8 @@ title:
 - content: Data on the Web Best Practices Use Cases & Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-dwbp-ucr-20141014/
+- content: https://www.w3.org/TR/2014/WD-dwbp-ucr-20141014/
   type: src
-- content: http://w3c.github.io/dwbp/usecasesv1.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-dwbp-ucr-20141014
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernadette Farias Loscio
+      given:
+        forename:
+        - content: Deirdre
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lee
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Deirdre Lee
+      given:
+        forename:
+        - content: Bernadette
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Farias Loscio
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdwbp-ucr
+    title:
+    - content: Data on the Web Best Practices Use Cases & Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dwbp-ucr/
+      type: src
+    docid:
+    - id: W3C dwbp-ucr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dwbp-ucr-20140605
+    title:
+    - content: Data on the Web Best Practices Use Cases &Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-dwbp-ucr-20140605/
+    - content: https://www.w3.org/TR/2014/WD-dwbp-ucr-20140605/
       type: src
     docid:
     - id: W3C WD-dwbp-ucr-20140605
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dwbp-ucr-20140605
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-dwbp-ucr-20150224
+    title:
+    - content: Data on the Web Best Practices Use Cases & Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-dwbp-ucr-20150224/
+      type: src
+    docid:
+    - id: W3C NOTE-dwbp-ucr-20150224
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dwbp-ucr-20141014
 ext:

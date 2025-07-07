@@ -29,85 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-did-imp-guide-20210826
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210826/
-      type: src
-    docid:
-    - id: W3C NOTE-did-imp-guide-20210826
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20210826
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-did-imp-guide-20210831
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210831/
-      type: src
-    docid:
-    - id: W3C NOTE-did-imp-guide-20210831
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20210831
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-did-imp-guide-20210901
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210901/
-      type: src
-    docid:
-    - id: W3C NOTE-did-imp-guide-20210901
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20210901
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-did-imp-guide-20210909
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210909/
-      type: src
-    docid:
-    - id: W3C NOTE-did-imp-guide-20210909
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20210909
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-did-imp-guide-20210917
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210917/
-      type: src
-    docid:
-    - id: W3C NOTE-did-imp-guide-20210917
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20210917
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-did-imp-guide-20210921
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210921/
-      type: src
-    docid:
-    - id: W3C NOTE-did-imp-guide-20210921
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20210921
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-did-imp-guide-20211012
+    title:
+    - content: DID Implementation Guide v1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20211012/
       type: src
@@ -115,12 +40,87 @@ relation:
     - id: W3C NOTE-did-imp-guide-20211012
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-did-imp-guide-20211012
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-did-imp-guide-20210921
+    title:
+    - content: DID Implementation Guide v1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210921/
+      type: src
+    docid:
+    - id: W3C NOTE-did-imp-guide-20210921
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-did-imp-guide-20210917
+    title:
+    - content: DID Implementation Guide v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210917/
+      type: src
+    docid:
+    - id: W3C NOTE-did-imp-guide-20210917
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-did-imp-guide-20210909
+    title:
+    - content: DID Implementation Guide v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210909/
+      type: src
+    docid:
+    - id: W3C NOTE-did-imp-guide-20210909
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-did-imp-guide-20210901
+    title:
+    - content: DID Implementation Guide v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210901/
+      type: src
+    docid:
+    - id: W3C NOTE-did-imp-guide-20210901
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-did-imp-guide-20210831
+    title:
+    - content: DID Implementation Guide v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210831/
+      type: src
+    docid:
+    - id: W3C NOTE-did-imp-guide-20210831
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-did-imp-guide-20210826
+    title:
+    - content: DID Implementation Guide v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-did-imp-guide-20210826/
+      type: src
+    docid:
+    - id: W3C NOTE-did-imp-guide-20210826
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: did-imp-guide
 ext:

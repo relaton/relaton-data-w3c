@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Paolo Baggia
+      given:
+        forename:
+        - content: Paolo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baggia
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpronunciation-lexicon
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pronunciation-lexicon/
+      type: src
+    docid:
+    - id: W3C pronunciation-lexicon
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-pronunciation-lexicon-20080818
+    title:
+    - content: Pronunciation Lexicon Specification (PLS) Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-pronunciation-lexicon-20080818/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-pronunciation-lexicon-20080818
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-pronunciation-lexicon-20080818
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cpronunciation-lexicon-errata.html
-    link:
-    - content: https://www.w3.org/2008/10/pronunciation-lexicon-errata.html
-      type: src
-    docid:
-    - id: W3C pronunciation-lexicon-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C pronunciation-lexicon-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-pronunciation-lexicon-20081014
 ext:

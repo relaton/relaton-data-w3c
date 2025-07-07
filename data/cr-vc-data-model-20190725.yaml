@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-vc-data-model-20190725/
   type: src
-- content: https://w3c.github.io/vc-data-model/
-  type: current
 type: standard
 docid:
 - id: W3C CR-vc-data-model-20190725
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brent Zundel
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Burnett
+      given:
+        forename:
+        - content: Grant
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Noble
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Longley
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Longley
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Grant Noble
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Brent
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zundel
         language:
         - en
         script:
@@ -84,11 +117,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-data-model
+    title:
+    - content: Verifiable Credentials Data Model v1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-data-model/
+      type: src
+    docid:
+    - id: W3C vc-data-model
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-verifiable-claims-data-model-20190328
+    title:
+    - content: Verifiable Credentials Data Model 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/CR-verifiable-claims-data-model-20190328/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C CR-verifiable-claims-data-model-20190328
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-verifiable-claims-data-model-20190328
+- type: updatedBy
+  bibitem:
+    id: W3CPR-vc-data-model-20190905
+    title:
+    - content: Verifiable Credentials Data Model 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-vc-data-model-20190905/
+      type: src
+    docid:
+    - id: W3C PR-vc-data-model-20190905
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-vc-data-model-20190725
 ext:

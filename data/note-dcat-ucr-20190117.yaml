@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-dcat-ucr-20190117/
   type: src
-- content: https://w3c.github.io/dxwg/ucr/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-dcat-ucr-20190117
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Isaac
+      given:
+        forename:
+        - content: Jaroslav
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pullmann
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ixchel Faniel
+      given:
+        forename:
+        - content: Rob
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkinson
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jaroslav Pullmann
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Isaac
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rob Atkinson
+      given:
+        forename:
+        - content: Ixchel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faniel
         language:
         - en
         script:
@@ -72,10 +98,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdcat-ucr
+    title:
+    - content: Dataset Exchange Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dcat-ucr/
+      type: src
+    docid:
+    - id: W3C dcat-ucr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-dcat-ucr-20171212
+    title:
+    - content: Dataset Exchange Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/NOTE-dcat-ucr-20171212/
       type: src
@@ -83,12 +128,9 @@ relation:
     - id: W3C NOTE-dcat-ucr-20171212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-dcat-ucr-20171212
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-dcat-ucr-20190117
 ext:

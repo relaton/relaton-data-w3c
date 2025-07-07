@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/CR-vc-bitstring-status-list-20240521/
   type: src
-- content: https://w3c.github.io/vc-bitstring-status-list/
-  type: current
 type: standard
 docid:
 - id: W3C CR-vc-bitstring-status-list-20240521
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Longley
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mahmoud Alkhraishi
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Longley
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Mahmoud
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alkhraishi
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Prorock
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prorock
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-bitstring-status-list
+    title:
+    - content: Bitstring Status List v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-bitstring-status-list/
+      type: src
+    docid:
+    - id: W3C vc-bitstring-status-list
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vc-bitstring-status-list-20240516
+    title:
+    - content: Bitstring Status List v1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-vc-bitstring-status-list-20240516/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-vc-bitstring-status-list-20240516
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vc-bitstring-status-list-20240516
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-vc-bitstring-status-list-20240608
+    title:
+    - content: Bitstring Status List v1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-bitstring-status-list-20240608/
+      type: src
+    docid:
+    - id: W3C CRD-vc-bitstring-status-list-20240608
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-vc-bitstring-status-list-20240521
 ext:

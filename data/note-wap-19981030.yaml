@@ -5,7 +5,7 @@ title:
 - content: WAP Forum - W3C Cooperation White Paper
   format: text/plain
 link:
-- content: http://www.w3.org/TR/1998/NOTE-WAP-19981030
+- content: https://www.w3.org/TR/1998/NOTE-WAP-19981030
   type: src
 type: standard
 docid:
@@ -25,47 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Bruce Martin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Johan Hjelm
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter King
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1998-10-30'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-WAP
+    title:
+    - content: WAP Forum - W3C Cooperation White Paper
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-WAP
+      type: src
+    docid:
+    - id: W3C NOTE-WAP
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-WAP-19981030
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

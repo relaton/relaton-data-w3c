@@ -5,7 +5,7 @@ title:
 - content: Compositing and Blending Level 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-compositing-1-20130625/
+- content: https://www.w3.org/TR/2013/WD-compositing-1-20130625/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nikos Andronikos
+      given:
+        forename:
+        - content: Nikos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andronikos
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccompositing-1
+    title:
+    - content: Compositing and Blending Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/compositing-1/
+      type: src
+    docid:
+    - id: W3C compositing-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-compositing-20120816
+    title:
+    - content: Compositing and Blending 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-compositing-20120816/
+    - content: https://www.w3.org/TR/2012/WD-compositing-20120816/
       type: src
     docid:
     - id: W3C WD-compositing-20120816
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-compositing-20120816
+- type: updatedBy
+  bibitem:
+    id: W3CWD-compositing-1-20131010
+    title:
+    - content: Compositing and Blending Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-compositing-1-20131010/
+      type: src
+    docid:
+    - id: W3C WD-compositing-1-20131010
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-compositing-1-20130625
 ext:
@@ -68,4 +104,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: SVG Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

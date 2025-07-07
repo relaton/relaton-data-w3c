@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Alistair Miles
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2005-05-17'
 language:
 - en
@@ -42,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cswbp-thesaurus-pubguide
+    title:
+    - content: Quick Guide to Publishing a Thesaurus on the Semantic Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/swbp-thesaurus-pubguide/
+      type: src
+    docid:
+    - id: W3C swbp-thesaurus-pubguide
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-swbp-thesaurus-pubguide-20050510
+    title:
+    - content: Quick Guide to Publishing a Thesaurus on the Semantic Web
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-swbp-thesaurus-pubguide-20050510
       type: src
@@ -54,12 +60,9 @@ relation:
     - id: W3C WD-swbp-thesaurus-pubguide-20050510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-swbp-thesaurus-pubguide-20050510
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-swbp-thesaurus-pubguide-20050517
 ext:

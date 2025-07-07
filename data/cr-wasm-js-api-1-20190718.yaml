@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-wasm-js-api-1-20190718/
   type: src
-- content: https://webassembly.github.io/spec/js-api/
-  type: current
 type: standard
 docid:
 - id: W3C CR-wasm-js-api-1-20190718
@@ -27,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Daniel Ehrenberg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2019-07-18'
 language:
 - en
@@ -44,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwasm-js-api-1
+    title:
+    - content: WebAssembly JavaScript Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wasm-js-api-1/
+      type: src
+    docid:
+    - id: W3C wasm-js-api-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wasm-js-api-1-20180904
+    title:
+    - content: WebAssembly JavaScript Interface
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-wasm-js-api-1-20180904/
       type: src
@@ -56,12 +60,25 @@ relation:
     - id: W3C WD-wasm-js-api-1-20180904
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wasm-js-api-1-20180904
+- type: updatedBy
+  bibitem:
+    id: W3CPR-wasm-js-api-1-20191001
+    title:
+    - content: WebAssembly JavaScript Interface
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-wasm-js-api-1-20191001/
+      type: src
+    docid:
+    - id: W3C PR-wasm-js-api-1-20191001
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-wasm-js-api-1-20190718
 ext:

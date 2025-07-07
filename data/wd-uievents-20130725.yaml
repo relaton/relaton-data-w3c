@@ -5,7 +5,7 @@ title:
 - content: UI Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-uievents-20130725/
+- content: https://www.w3.org/TR/2013/WD-uievents-20130725/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gary Kacmarcik
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Gary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kacmarcik
         language:
         - en
         script:
@@ -52,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuievents
+    title:
+    - content: UI Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uievents/
+      type: src
+    docid:
+    - id: W3C uievents
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-uievents-20131105
+    title:
+    - content: UI Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-uievents-20131105/
+      type: src
+    docid:
+    - id: W3C WD-uievents-20131105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-uievents-20130725
 ext:
@@ -63,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

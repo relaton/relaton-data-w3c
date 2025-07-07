@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Marcy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: John Boyer
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boyer
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-c14n11
+    title:
+    - content: Canonical XML Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-c14n11/
+      type: src
+    docid:
+    - id: W3C xml-c14n11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xml-c14n11-20080129
+    title:
+    - content: Canonical XML 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-xml-c14n11-20080129
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-xml-c14n11-20080129
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xml-c14n11-20080129
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxml-c14n11-errata
-    link:
-    - content: https://www.w3.org/2008/05/xml-c14n11-errata
-      type: src
-    docid:
-    - id: W3C xml-c14n11-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xml-c14n11-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xml-c14n11-20080502
 ext:

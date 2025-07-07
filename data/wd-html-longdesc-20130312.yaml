@@ -5,7 +5,7 @@ title:
 - content: HTML Image Description Extension
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-html-longdesc-20130312/
+- content: https://www.w3.org/TR/2013/WD-html-longdesc-20130312/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Charles McCathieNevile
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2013-03-12'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-longdesc
+    title:
+    - content: HTML5 Image Description Extension (longdesc)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-longdesc/
+      type: src
+    docid:
+    - id: W3C html-longdesc
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-longdesc-20130606
+    title:
+    - content: HTML5 Image Description Extension
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-html-longdesc-20130606/
+      type: src
+    docid:
+    - id: W3C WD-html-longdesc-20130606
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-longdesc-20130312
 ext:
@@ -53,4 +73,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

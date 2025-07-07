@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-xmldsig-core2-20150723/
   type: src
-- content: https://www.w3.org/2008/xmlsec/Drafts/xmldsig-core-20/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-xmldsig-core2-20150723
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Solo
+      given:
+        forename:
+        - content: Donald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Donald Eastlake
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joseph Reagle
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kelvin Yiu
+      given:
+        forename:
+        - content: Kelvin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yiu
         language:
         - en
         script:
@@ -79,28 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pratik Datta
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Cantor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cantor
         language:
         - en
         script:
@@ -112,10 +132,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-core2
+    title:
+    - content: XML Signature Syntax and Processing Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-core2/
+      type: src
+    docid:
+    - id: W3C xmldsig-core2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-xmldsig-core2-20130411
+    title:
+    - content: XML Signature Syntax and Processing Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-xmldsig-core2-20130411/
       type: src
@@ -123,12 +162,9 @@ relation:
     - id: W3C NOTE-xmldsig-core2-20130411
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xmldsig-core2-20130411
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmldsig-core2-20150723
 ext:

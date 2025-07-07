@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/NOTE-csp-pinning-20160913/
   type: src
-- content: https://w3c.github.io/webappsec-csp/pinning/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-csp-pinning-20160913
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsp-pinning
+    title:
+    - content: Content Security Policy Pinning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csp-pinning/
+      type: src
+    docid:
+    - id: W3C csp-pinning
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-csp-pinning-20150226
+    title:
+    - content: Content Security Policy Pinning
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-csp-pinning-20150226/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-csp-pinning-20150226
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-csp-pinning-20150226
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-csp-pinning-20160913
 ext:

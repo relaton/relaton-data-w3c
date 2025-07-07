@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Austin
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Austin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Birbeck
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,28 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Subramanian Peruvemba
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -84,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-modularization
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-modularization/
+      type: src
+    docid:
+    - id: W3C xhtml-modularization
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xhtml-modularization-20080611
+    title:
+    - content: XHTML™ Modularization 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-xhtml-modularization-20080611
       type: src
@@ -94,28 +111,25 @@ relation:
     - id: W3C PR-xhtml-modularization-20080611
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xhtml-modularization-20080611
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-xhtml-modularization-20081008-errata
+    id: W3CPER-xhtml-modularization-20100414
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
     link:
-    - content: https://www.w3.org/MarkUp/2008/REC-xhtml-modularization-20081008-errata
+    - content: https://www.w3.org/TR/2010/PER-xhtml-modularization-20100414
       type: src
     docid:
-    - id: W3C REC-xhtml-modularization-20081008-errata
+    - id: W3C PER-xhtml-modularization-20100414
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-modularization-20081008-errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xhtml-modularization-20081008
 ext:

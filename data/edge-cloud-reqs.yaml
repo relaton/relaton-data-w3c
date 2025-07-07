@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-edge-cloud-reqs-20230926
+    title:
+    - content: Client-Edge-Cloud coordination Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-edge-cloud-reqs-20230926/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C DNOTE-edge-cloud-reqs-20230926
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-edge-cloud-reqs-20230926
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: edge-cloud-reqs
 ext:

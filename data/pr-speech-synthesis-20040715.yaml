@@ -5,7 +5,7 @@ title:
 - content: Speech Synthesis Markup Language (SSML) Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/PR-speech-synthesis-20040715/
+- content: https://www.w3.org/TR/2004/PR-speech-synthesis-20040715/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Hunt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel C. Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark R. Walker
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -64,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cspeech-synthesis
+    title:
+    - content: Speech Synthesis Markup Language (SSML) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/speech-synthesis/
+      type: src
+    docid:
+    - id: W3C speech-synthesis
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-speech-synthesis-20031218
+    title:
+    - content: Speech Synthesis Markup Language Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/CR-speech-synthesis-20031218/
+    - content: https://www.w3.org/TR/2003/CR-speech-synthesis-20031218/
       type: src
     docid:
     - id: W3C CR-speech-synthesis-20031218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-speech-synthesis-20031218
+- type: updatedBy
+  bibitem:
+    id: W3CREC-speech-synthesis-20040907
+    title:
+    - content: Speech Synthesis Markup Language (SSML) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/REC-speech-synthesis-20040907/
+      type: src
+    docid:
+    - id: W3C REC-speech-synthesis-20040907
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-speech-synthesis-20040715
 ext:

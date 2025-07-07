@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/PR-micropub-20170413/
   type: src
-- content: https://micropub.net/draft/
-  type: current
 type: standard
 docid:
 - id: W3C PR-micropub-20170413
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Parecki
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parecki
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmicropub
+    title:
+    - content: Micropub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/micropub/
+      type: src
+    docid:
+    - id: W3C micropub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-micropub-20161018
+    title:
+    - content: Micropub
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/CR-micropub-20161018/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C CR-micropub-20161018
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-micropub-20161018
+- type: updatedBy
+  bibitem:
+    id: W3CREC-micropub-20170523
+    title:
+    - content: Micropub
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-micropub-20170523/
+      type: src
+    docid:
+    - id: W3C REC-micropub-20170523
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-micropub-20170413
 ext:

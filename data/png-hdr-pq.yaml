@@ -29,20 +29,23 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-png-hdr-pq-20170727
+    id: W3CNOTE-png-hdr-pq-20250518
+    title:
+    - content: Using the ITU BT.2100 PQ EOTF with the PNG Format
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2017/NOTE-png-hdr-pq-20170727/
+    - content: https://www.w3.org/TR/2025/NOTE-png-hdr-pq-20250518/
       type: src
     docid:
-    - id: W3C NOTE-png-hdr-pq-20170727
+    - id: W3C NOTE-png-hdr-pq-20250518
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-png-hdr-pq-20170727
-      format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-png-hdr-pq-20170911
+    title:
+    - content: Using the ITU BT.2100 PQ EOTF with the PNG Format
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/NOTE-png-hdr-pq-20170911/
       type: src
@@ -50,12 +53,35 @@ relation:
     - id: W3C NOTE-png-hdr-pq-20170911
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-png-hdr-pq-20170911
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-png-hdr-pq-20170727
+    title:
+    - content: Using the ITU BT.2100 PQ EOTF with the PNG Format
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-png-hdr-pq-20170727/
+      type: src
+    docid:
+    - id: W3C NOTE-png-hdr-pq-20170727
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-png-hdr-pq-20170725
+    title:
+    - content: Using the ITU BT.2100 PQ EOTF with the PNG Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-png-hdr-pq-20170725/
+      type: src
+    docid:
+    - id: W3C NOTE-png-hdr-pq-20170725
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: png-hdr-pq
 ext:

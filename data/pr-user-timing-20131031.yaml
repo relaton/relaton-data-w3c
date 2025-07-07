@@ -5,7 +5,7 @@ title:
 - content: User Timing
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-user-timing-20131031/
+- content: https://www.w3.org/TR/2013/PR-user-timing-20131031/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anderson Quach
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Zhiheng Wang
+      given:
+        forename:
+        - content: Zhiheng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -64,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuser-timing-1
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/user-timing-1/
+      type: src
+    docid:
+    - id: W3C user-timing-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-user-timing-20120726
+    title:
+    - content: User Timing
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-user-timing-20120726/
+    - content: https://www.w3.org/TR/2012/CR-user-timing-20120726/
       type: src
     docid:
     - id: W3C CR-user-timing-20120726
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-user-timing-20120726
+- type: updatedBy
+  bibitem:
+    id: W3CREC-user-timing-20131212
+    title:
+    - content: User Timing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-user-timing-20131212/
+      type: src
+    docid:
+    - id: W3C REC-user-timing-20131212
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-user-timing-20131031
 ext:

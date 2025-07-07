@@ -5,7 +5,7 @@ title:
 - content: 'Web Services Description Language (WSDL) Version 2.0: RDF Mapping'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-wsdl20-rdf-20060518
+- content: https://www.w3.org/TR/2006/WD-wsdl20-rdf-20060518
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bijan Parsia
+      given:
+        forename:
+        - content: Bijan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parsia
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jacek Kopecky
+      given:
+        forename:
+        - content: Jacek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kopecky
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsdl20-rdf
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: RDF Mapping'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsdl20-rdf/
+      type: src
+    docid:
+    - id: W3C wsdl20-rdf
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsdl20-rdf-20060327
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: RDF Mapping'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-wsdl20-rdf-20060327
+    - content: https://www.w3.org/TR/2006/WD-wsdl20-rdf-20060327
       type: src
     docid:
     - id: W3C WD-wsdl20-rdf-20060327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsdl20-rdf-20060327
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wsdl20-rdf-20070326
+    title:
+    - content: 'Web Services Description Language (WSDL) Version 2.0: RDF Mapping'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-wsdl20-rdf-20070326/
+      type: src
+    docid:
+    - id: W3C WD-wsdl20-rdf-20070326
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-wsdl20-rdf-20060518
 ext:

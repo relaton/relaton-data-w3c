@@ -26,65 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Candidate Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCR-vc-data-model-20190725
-    link:
-    - content: https://www.w3.org/TR/2019/CR-vc-data-model-20190725/
-      type: src
-    docid:
-    - id: W3C CR-vc-data-model-20190725
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-vc-data-model-20190725
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-vc-data-model-20190905
-    link:
-    - content: https://www.w3.org/TR/2019/PR-vc-data-model-20190905/
-      type: src
-    docid:
-    - id: W3C PR-vc-data-model-20190905
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-vc-data-model-20190905
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-vc-data-model-20191119
-    link:
-    - content: https://www.w3.org/TR/2019/REC-vc-data-model-20191119/
-      type: src
-    docid:
-    - id: W3C REC-vc-data-model-20191119
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-vc-data-model-20191119
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CREC-vc-data-model-20211109
-    link:
-    - content: https://www.w3.org/TR/2021/REC-vc-data-model-20211109/
-      type: src
-    docid:
-    - id: W3C REC-vc-data-model-20211109
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-vc-data-model-20211109
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-vc-data-model-20220303
+    title:
+    - content: Verifiable Credentials Data Model v1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/REC-vc-data-model-20220303/
       type: src
@@ -92,12 +40,100 @@ relation:
     - id: W3C REC-vc-data-model-20220303
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-vc-data-model-20220303
+- type: hasEdition
+  bibitem:
+    id: W3CREC-vc-data-model-20211109
+    title:
+    - content: Verifiable Credentials Data Model v1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/REC-vc-data-model-20211109/
+      type: src
+    docid:
+    - id: W3C REC-vc-data-model-20211109
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-vc-data-model-20191119
+    title:
+    - content: Verifiable Credentials Data Model 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/REC-vc-data-model-20191119/
+      type: src
+    docid:
+    - id: W3C REC-vc-data-model-20191119
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-vc-data-model-20190905
+    title:
+    - content: Verifiable Credentials Data Model 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-vc-data-model-20190905/
+      type: src
+    docid:
+    - id: W3C PR-vc-data-model-20190905
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-vc-data-model-20190725
+    title:
+    - content: Verifiable Credentials Data Model 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-vc-data-model-20190725/
+      type: src
+    docid:
+    - id: W3C CR-vc-data-model-20190725
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-verifiable-claims-data-model-20190328
+    title:
+    - content: Verifiable Credentials Data Model 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-verifiable-claims-data-model-20190328/
+      type: src
+    docid:
+    - id: W3C CR-verifiable-claims-data-model-20190328
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-verifiable-claims-data-model-20190208
+    title:
+    - content: Verifiable Credentials Data Model 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-verifiable-claims-data-model-20190208/
+      type: src
+    docid:
+    - id: W3C WD-verifiable-claims-data-model-20190208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-verifiable-claims-data-model-20170803
+    title:
+    - content: Verifiable Claims Data Model and Representations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-verifiable-claims-data-model-20170803/
+      type: src
+    docid:
+    - id: W3C WD-verifiable-claims-data-model-20170803
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C CR
+    content: W3C technicalReport
     format: text/plain
   number: vc-data-model
 ext:

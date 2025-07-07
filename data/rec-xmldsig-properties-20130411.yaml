@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-properties
+    title:
+    - content: XML Signature Properties
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-properties/
+      type: src
+    docid:
+    - id: W3C xmldsig-properties
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xmldsig-properties-20130124
+    title:
+    - content: XML Signature Properties
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-xmldsig-properties-20130124/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C PR-xmldsig-properties-20130124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xmldsig-properties-20130124
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xmldsig-properties-20130411
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Best Practices for XML Internationalization
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-xml-i18n-bp-20071031/
+- content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20071031/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jirka Kosek
+      given:
+        forename:
+        - content: Jirka
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kosek
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Savourel
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Savourel
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-i18n-bp
+    title:
+    - content: Best Practices for XML Internationalization
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-i18n-bp/
+      type: src
+    docid:
+    - id: W3C xml-i18n-bp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-i18n-bp-20070628
+    title:
+    - content: Best Practices for XML Internationalization
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-xml-i18n-bp-20070628/
+    - content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20070628/
       type: src
     docid:
     - id: W3C WD-xml-i18n-bp-20070628
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-i18n-bp-20070628
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xml-i18n-bp-20080213
+    title:
+    - content: Best Practices for XML Internationalization
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/NOTE-xml-i18n-bp-20080213/
+      type: src
+    docid:
+    - id: W3C NOTE-xml-i18n-bp-20080213
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xml-i18n-bp-20071031
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: ITS Working Group
+  - name: Internationalization Tag Set (ITS) Working Group

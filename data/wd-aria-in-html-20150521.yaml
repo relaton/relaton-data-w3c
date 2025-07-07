@@ -5,10 +5,8 @@ title:
 - content: Notes on Using ARIA in HTML
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-aria-in-html-20150521/
+- content: https://www.w3.org/TR/2015/WD-aria-in-html-20150521/
   type: src
-- content: http://w3c.github.io/aria-in-html/
-  type: current
 type: standard
 docid:
 - id: W3C WD-aria-in-html-20150521
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David MacDonald
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hans Hillen
+      given:
+        forename:
+        - content: Hans
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hillen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: MacDonald
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cusing-aria
+    title:
+    - content: Using ARIA
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/using-aria/
+      type: src
+    docid:
+    - id: W3C using-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-aria-in-html-20150514
+    title:
+    - content: Notes on Using ARIA in HTML
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-aria-in-html-20150514/
+    - content: https://www.w3.org/TR/2015/WD-aria-in-html-20150514/
       type: src
     docid:
     - id: W3C WD-aria-in-html-20150514
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-aria-in-html-20150514
+- type: updatedBy
+  bibitem:
+    id: W3CWD-aria-in-html-20170214
+    title:
+    - content: Notes on Using ARIA in HTML
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-aria-in-html-20170214/
+      type: src
+    docid:
+    - id: W3C WD-aria-in-html-20170214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-aria-in-html-20150521
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

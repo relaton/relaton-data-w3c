@@ -5,7 +5,7 @@ title:
 - content: WebCGM 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/webcgm20/
+- content: https://www.w3.org/TR/webcgm20/
   type: src
 type: standard
 docid:
@@ -26,52 +26,75 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-webcgm20-20060623
+    id: W3CSPSD-webcgm20-20191205
+    title:
+    - content: WebCGM 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-webcgm20-20060623/
+    - content: https://www.w3.org/TR/2019/SPSD-webcgm20-20191205/
       type: src
     docid:
-    - id: W3C WD-webcgm20-20060623
+    - id: W3C SPSD-webcgm20-20191205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webcgm20-20060623
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-webcgm20-20060906
+    id: W3CREC-webcgm20-20070130
+    title:
+    - content: WebCGM 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/CR-webcgm20-20060906/
+    - content: https://www.w3.org/TR/2007/REC-webcgm20-20070130/
       type: src
     docid:
-    - id: W3C CR-webcgm20-20060906
+    - id: W3C REC-webcgm20-20070130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webcgm20-20060906
-      format: text/plain
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CPR-webcgm20-20061017
+    title:
+    - content: WebCGM 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/PR-webcgm20-20061017/
+    - content: https://www.w3.org/TR/2006/PR-webcgm20-20061017/
       type: src
     docid:
     - id: W3C PR-webcgm20-20061017
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-webcgm20-20061017
+- type: hasEdition
+  bibitem:
+    id: W3CCR-webcgm20-20060906
+    title:
+    - content: WebCGM 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/CR-webcgm20-20060906/
+      type: src
+    docid:
+    - id: W3C CR-webcgm20-20060906
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webcgm20-20060623
+    title:
+    - content: WebCGM 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-webcgm20-20060623/
+      type: src
+    docid:
+    - id: W3C WD-webcgm20-20060623
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: webcgm20
 ext:

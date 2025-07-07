@@ -5,10 +5,8 @@ title:
 - content: 'Content Security Policy: Embedded Enforcement'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-csp-embedded-enforcement-20151215/
+- content: https://www.w3.org/TR/2015/WD-csp-embedded-enforcement-20151215/
   type: src
-- content: https://w3c.github.io/webappsec-csp/embedded/
-  type: current
 type: standard
 docid:
 - id: W3C WD-csp-embedded-enforcement-20151215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsp-embedded-enforcement
+    title:
+    - content: 'Content Security Policy: Embedded Enforcement'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csp-embedded-enforcement/
+      type: src
+    docid:
+    - id: W3C csp-embedded-enforcement
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-csp-embedded-enforcement-20160909
+    title:
+    - content: 'Content Security Policy: Embedded Enforcement'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-csp-embedded-enforcement-20160909/
+      type: src
+    docid:
+    - id: W3C WD-csp-embedded-enforcement-20160909
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-csp-embedded-enforcement-20151215
 ext:

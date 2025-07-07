@@ -5,7 +5,7 @@ title:
 - content: 'Resource Description Framework (RDF): Concepts and Abstract Syntax'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-rdf-concepts-20030905/
+- content: https://www.w3.org/TR/2003/WD-rdf-concepts-20030905/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Graham Klyne
+      given:
+        forename:
+        - content: Graham
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Klyne
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeremy J. Carroll
+      given:
+        forename:
+        - content: Jeremy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carroll
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-concepts
+    title:
+    - content: 'Resource Description Framework (RDF): Concepts and Abstract Syntax'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-concepts/
+      type: src
+    docid:
+    - id: W3C rdf-concepts
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-concepts-20030123
+    title:
+    - content: 'Resource Description Framework (RDF): Concepts and Abstract     Syntax'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-concepts-20030123/
+    - content: https://www.w3.org/TR/2003/WD-rdf-concepts-20030123/
       type: src
     docid:
     - id: W3C WD-rdf-concepts-20030123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-concepts-20030123
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-concepts-20031010
+    title:
+    - content: 'Resource Description Framework (RDF): Concepts and Abstract Syntax'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-concepts-20031010/
+      type: src
+    docid:
+    - id: W3C WD-rdf-concepts-20031010
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-concepts-20030905
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDFCore Working Group
+  - name: RDF Core Working Group

@@ -32,13 +32,29 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-HTTP-NG-wire
+    title:
+    - content: HTTP-ng Binary Wire Protocol
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-HTTP-NG-wire/
+      type: src
+    docid:
+    - id: W3C WD-HTTP-NG-wire
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-HTTP-NG-wire-19980710
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-soap11-ror-httpbinding-20060321
+    title:
+    - content: SOAP 1.1 Request Optional Response HTTP Binding
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/NOTE-soap11-ror-httpbinding-20060321/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-soap11-ror-httpbinding-20060321
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-soap11-ror-httpbinding-20060321
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: soap11-ror-httpbinding
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Speech Synthesis Markup Language (SSML) Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/speech-synthesis
+- content: https://www.w3.org/TR/speech-synthesis/
   type: src
 type: standard
 docid:
@@ -26,52 +26,75 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-speech-synthesis-20021202
+    id: W3CREC-speech-synthesis-20040907
+    title:
+    - content: Speech Synthesis Markup Language (SSML) Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-speech-synthesis-20021202/
+    - content: https://www.w3.org/TR/2004/REC-speech-synthesis-20040907/
       type: src
     docid:
-    - id: W3C WD-speech-synthesis-20021202
+    - id: W3C REC-speech-synthesis-20040907
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-speech-synthesis-20021202
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-speech-synthesis-20031218
-    link:
-    - content: http://www.w3.org/TR/2003/CR-speech-synthesis-20031218/
-      type: src
-    docid:
-    - id: W3C CR-speech-synthesis-20031218
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-speech-synthesis-20031218
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CPR-speech-synthesis-20040715
+    title:
+    - content: Speech Synthesis Markup Language (SSML) Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/PR-speech-synthesis-20040715/
+    - content: https://www.w3.org/TR/2004/PR-speech-synthesis-20040715/
       type: src
     docid:
     - id: W3C PR-speech-synthesis-20040715
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-speech-synthesis-20040715
+- type: hasEdition
+  bibitem:
+    id: W3CCR-speech-synthesis-20031218
+    title:
+    - content: Speech Synthesis Markup Language Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/CR-speech-synthesis-20031218/
+      type: src
+    docid:
+    - id: W3C CR-speech-synthesis-20031218
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis-20021202
+    title:
+    - content: Speech Synthesis Markup Language Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-speech-synthesis-20021202/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis-20021202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-speech-synthesis-20020405
+    title:
+    - content: Speech Synthesis Markup Language Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-speech-synthesis-20020405/
+      type: src
+    docid:
+    - id: W3C WD-speech-synthesis-20020405
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: speech-synthesis
 ext:

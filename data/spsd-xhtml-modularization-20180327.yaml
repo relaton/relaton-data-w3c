@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-modularization
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-modularization/
+      type: src
+    docid:
+    - id: W3C xhtml-modularization
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-xhtml-modularization-20100729
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/REC-xhtml-modularization-20100729/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C REC-xhtml-modularization-20100729
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-modularization-20100729
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-xhtml-modularization-20180327
 ext:

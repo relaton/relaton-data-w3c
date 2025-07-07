@@ -5,7 +5,7 @@ title:
 - content: Media Queries
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-css3-mediaqueries-20081015/
+- content: https://www.w3.org/TR/2008/WD-css3-mediaqueries-20081015/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Glazman
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazman
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -72,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaqueries-3
+    title:
+    - content: Media Queries Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaqueries-3/
+      type: src
+    docid:
+    - id: W3C mediaqueries-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css3-mediaqueries-20070606
+    title:
+    - content: Media Queries
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/CR-css3-mediaqueries-20070606
+    - content: https://www.w3.org/TR/2007/CR-css3-mediaqueries-20070606
       type: src
     docid:
     - id: W3C CR-css3-mediaqueries-20070606
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css3-mediaqueries-20070606
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css3-mediaqueries-20090423
+    title:
+    - content: Media Queries
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-css3-mediaqueries-20090423/
+      type: src
+    docid:
+    - id: W3C CR-css3-mediaqueries-20090423
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-css3-mediaqueries-20081015
 ext:
@@ -97,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

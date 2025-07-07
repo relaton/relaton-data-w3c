@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-soapjms-20120216
+    title:
+    - content: SOAP over Java Message Service 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/REC-soapjms-20120216/
       type: src
@@ -40,12 +40,74 @@ relation:
     - id: W3C REC-soapjms-20120216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-soapjms-20120216
+- type: hasEdition
+  bibitem:
+    id: W3CPR-soapjms-20111208
+    title:
+    - content: SOAP over Java Message Service 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-soapjms-20111208/
+      type: src
+    docid:
+    - id: W3C PR-soapjms-20111208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soapjms-20101026
+    title:
+    - content: SOAP over Java Message Service 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-soapjms-20101026/
+      type: src
+    docid:
+    - id: W3C WD-soapjms-20101026
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-soapjms-20090604
+    title:
+    - content: SOAP over Java Message Service 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-soapjms-20090604
+      type: src
+    docid:
+    - id: W3C CR-soapjms-20090604
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soapjms-20081121
+    title:
+    - content: SOAP over Java Message Service 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-soapjms-20081121
+      type: src
+    docid:
+    - id: W3C WD-soapjms-20081121
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soapjms-20080723
+    title:
+    - content: SOAP over Java Message Service 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-soapjms-20080723
+      type: src
+    docid:
+    - id: W3C WD-soapjms-20080723
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: soapjms
 ext:

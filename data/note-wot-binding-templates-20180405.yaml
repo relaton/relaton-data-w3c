@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/NOTE-wot-binding-templates-20180405/
   type: src
-- content: https://w3c.github.io/wot-binding-templates/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-wot-binding-templates-20180405
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Koster
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koster
         language:
         - en
         script:
@@ -42,9 +47,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-binding-templates
+    title:
+    - content: Web of Things (WoT) Binding Templates
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-binding-templates/
+      type: src
+    docid:
+    - id: W3C wot-binding-templates
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-wot-binding-templates-20200130
+    title:
+    - content: Web of Things (WoT) Binding Templates
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-wot-binding-templates-20200130/
+      type: src
+    docid:
+    - id: W3C NOTE-wot-binding-templates-20200130
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wot-binding-templates-20180405
 ext:

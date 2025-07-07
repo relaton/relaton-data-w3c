@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Natasha Noy
+      given:
+        forename:
+        - content: Natasha
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Noy
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cswbp-classes-as-values
+    title:
+    - content: Representing Classes As Property Values on the Semantic Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/swbp-classes-as-values/
+      type: src
+    docid:
+    - id: W3C swbp-classes-as-values
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-swbp-classes-as-values-20040721
+    title:
+    - content: Representing Classes As Property Values on the Semantic Web
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/WD-swbp-classes-as-values-20040721/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-swbp-classes-as-values-20040721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-swbp-classes-as-values-20040721
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-swbp-classes-as-values-20050405
 ext:

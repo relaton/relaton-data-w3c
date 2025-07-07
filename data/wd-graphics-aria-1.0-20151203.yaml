@@ -5,10 +5,8 @@ title:
 - content: WAI-ARIA Graphics Module
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-graphics-aria-1.0-20151203/
+- content: https://www.w3.org/TR/2015/WD-graphics-aria-1.0-20151203/
   type: src
-- content: http://w3c.github.io/aria/aria/graphics.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-graphics-aria-1.0-20151203
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Fred Esch
+      given:
+        forename:
+        - content: Fred
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Esch
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Léonie Watson
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Léonie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -74,10 +100,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgraphics-aria-1.0
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/graphics-aria-1.0/
+      type: src
+    docid:
+    - id: W3C graphics-aria-1.0
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-graphics-aria-1.0-20160908
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-graphics-aria-1.0-20160908/
+      type: src
+    docid:
+    - id: W3C WD-graphics-aria-1.0-20160908
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-graphics-aria-1.0-20151203
 ext:

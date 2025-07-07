@@ -5,7 +5,7 @@ title:
 - content: Content Selection for Device Independence (DISelect) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-cselection-20040611/
+- content: https://www.w3.org/TR/2004/WD-cselection-20040611/
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Rhys Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Roland Merrick
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2004-06-11'
 language:
 - en
@@ -53,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccselection
+    title:
+    - content: Content Selection for Device Independence (DISelect) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cselection/
+      type: src
+    docid:
+    - id: W3C cselection
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-cselection-20050502
+    title:
+    - content: Content Selection for Device Independence (DISelect) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-cselection-20050502/
+      type: src
+    docid:
+    - id: W3C WD-cselection-20050502
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-cselection-20040611
 ext:

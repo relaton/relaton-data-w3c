@@ -5,7 +5,7 @@ title:
 - content: Digital Signatures for Widgets
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-widgets-digsig-20100415/
+- content: https://www.w3.org/TR/2010/WD-widgets-digsig-20100415/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Priestley
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-digsig
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-digsig/
+      type: src
+    docid:
+    - id: W3C widgets-digsig
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-widgets-digsig-20090625
+    title:
+    - content: 'Widgets 1.0: Digital Signatures'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-widgets-digsig-20090625/
+    - content: https://www.w3.org/TR/2009/CR-widgets-digsig-20090625/
       type: src
     docid:
     - id: W3C CR-widgets-digsig-20090625
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-widgets-digsig-20090625
+- type: updatedBy
+  bibitem:
+    id: W3CWD-widgets-digsig-20100511
+    title:
+    - content: Digital Signatures for Widgets
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-widgets-digsig-20100511/
+      type: src
+    docid:
+    - id: W3C WD-widgets-digsig-20100511
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-widgets-digsig-20100415
 ext:
@@ -87,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kevin Smith
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2010-06-29'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdial
+    title:
+    - content: Device Independent Authoring Language (DIAL)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dial/
+      type: src
+    docid:
+    - id: W3C dial
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dial-20070727
+    title:
+    - content: Device Independent Authoring Language (DIAL)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-dial-20070727/
       type: src
@@ -51,12 +60,9 @@ relation:
     - id: W3C WD-dial-20070727
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dial-20070727
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-dial-20100629
 ext:

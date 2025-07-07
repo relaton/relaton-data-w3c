@@ -5,7 +5,7 @@ title:
 - content: Battery Status API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-battery-status-20120508/
+- content: https://www.w3.org/TR/2012/CR-battery-status-20120508/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbattery-status
+    title:
+    - content: Battery Status API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/battery-status/
+      type: src
+    docid:
+    - id: W3C battery-status
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-battery-status-20111129
+    title:
+    - content: Battery Status API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-battery-status-20111129/
+    - content: https://www.w3.org/TR/2011/WD-battery-status-20111129/
       type: src
     docid:
     - id: W3C WD-battery-status-20111129
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-battery-status-20111129
+- type: updatedBy
+  bibitem:
+    id: W3CWD-battery-status-20140828
+    title:
+    - content: Battery Status API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-battery-status-20140828/
+      type: src
+    docid:
+    - id: W3C WD-battery-status-20140828
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-battery-status-20120508
 ext:

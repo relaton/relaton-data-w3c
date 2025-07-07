@@ -5,10 +5,8 @@ title:
 - content: SHACL Use Cases and Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-shacl-ucr-20150414/
+- content: https://www.w3.org/TR/2015/WD-shacl-ucr-20150414/
   type: src
-- content: http://w3c.github.io/data-shapes/data-shapes-ucr/
-  type: current
 type: standard
 docid:
 - id: W3C WD-shacl-ucr-20150414
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Karen Coyle
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steyskal
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Steyskal
+      given:
+        forename:
+        - content: Karen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coyle
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshacl-ucr
+    title:
+    - content: SHACL Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shacl-ucr/
+      type: src
+    docid:
+    - id: W3C shacl-ucr
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-shacl-ucr-20150930
+    title:
+    - content: SHACL Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-shacl-ucr-20150930/
+      type: src
+    docid:
+    - id: W3C WD-shacl-ucr-20150930
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-shacl-ucr-20150414
 ext:
@@ -65,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF Data Shapes Working Group
+  - name: Data Shapes Working Group

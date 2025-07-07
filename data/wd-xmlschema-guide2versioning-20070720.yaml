@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Orchard
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Orchard
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema-guide2versioning
+    title:
+    - content: Guide to Versioning XML Languages using new XML Schema 1.1 features
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema-guide2versioning/
+      type: src
+    docid:
+    - id: W3C xmlschema-guide2versioning
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlschema-guide2versioning-20060928
+    title:
+    - content: Guide to Versioning XML Languages using XML Schema 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-xmlschema-guide2versioning-20060928
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-xmlschema-guide2versioning-20060928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlschema-guide2versioning-20060928
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlschema-guide2versioning-20070720
 ext:

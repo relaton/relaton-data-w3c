@@ -25,24 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Ingmar Kliche
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2012-01-24'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-interop
+    title:
+    - content: MMI interoperability test report
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-interop/
+      type: src
+    docid:
+    - id: W3C mmi-interop
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mmi-interop-20120124
 ext:

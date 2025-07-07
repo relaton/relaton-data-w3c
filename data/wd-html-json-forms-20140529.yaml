@@ -5,10 +5,8 @@ title:
 - content: W3C HTML JSON form submission
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-html-json-forms-20140529/
+- content: https://www.w3.org/TR/2014/WD-html-json-forms-20140529/
   type: src
-- content: http://darobin.github.com/formic/specs/json/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-json-forms-20140529
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-json-forms
+    title:
+    - content: W3C HTML JSON form submission
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-json-forms/
+      type: src
+    docid:
+    - id: W3C html-json-forms
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-html-json-forms-20150929
+    title:
+    - content: W3C HTML JSON form submission
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-html-json-forms-20150929/
+      type: src
+    docid:
+    - id: W3C NOTE-html-json-forms-20150929
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-html-json-forms-20140529
 ext:
@@ -55,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

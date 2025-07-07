@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-core-aam-1.2-20180719/
   type: src
-- content: https://w3c.github.io/core-aam/
-  type: current
 type: standard
 docid:
 - id: W3C WD-core-aam-1.2-20180719
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccore-aam-1.2
+    title:
+    - content: Core Accessibility API Mappings 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/core-aam-1.2/
+      type: src
+    docid:
+    - id: W3C core-aam-1.2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-core-aam-1.2-20181218
+    title:
+    - content: Core Accessibility API Mappings 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-core-aam-1.2-20181218/
+      type: src
+    docid:
+    - id: W3C WD-core-aam-1.2-20181218
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-core-aam-1.2-20180719
 ext:

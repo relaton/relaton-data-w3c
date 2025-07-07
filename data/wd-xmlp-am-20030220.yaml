@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Mark Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stuart Williams
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-02-20'
 language:
 - en
@@ -52,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlp-am
+    title:
+    - content: XML Protocol Abstract Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlp-am/
+      type: src
+    docid:
+    - id: W3C xmlp-am
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlp-am-20010709
+    title:
+    - content: XML Protocol Abstract Model
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/WD-xmlp-am-20010709/
       type: src
@@ -64,12 +60,9 @@ relation:
     - id: W3C WD-xmlp-am-20010709
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlp-am-20010709
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xmlp-am-20030220
 ext:

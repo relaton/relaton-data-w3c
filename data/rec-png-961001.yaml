@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/REC-png-961001
   type: src
-- content: https://w3c.github.io/PNG-spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-png-961001
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Tom Lane
+      given:
+        forename:
+        - content: Tom
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lane
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CPNG
+    title:
+    - content: Portable Network Graphics (PNG) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/PNG/
+      type: src
+    docid:
+    - id: W3C PNG
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-png-960701
+    title:
+    - content: PNG (Portable Network Graphics) Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/PR-png-960701
       type: src
@@ -56,15 +77,14 @@ relation:
     - id: W3C PR-png-960701
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-png-960701
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-png-961001
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

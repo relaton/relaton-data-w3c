@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xslfo20-20120117
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-xslfo20-20120117/
       type: src
@@ -40,12 +40,61 @@ relation:
     - id: W3C WD-xslfo20-20120117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xslfo20-20120117
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xslfo20-20110927
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xslfo20-20110927/
+      type: src
+    docid:
+    - id: W3C WD-xslfo20-20110927
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xslfo20-20101216
+    title:
+    - content: Design Notes for Extensible Stylesheet Language (XSL) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xslfo20-20101216/
+      type: src
+    docid:
+    - id: W3C WD-xslfo20-20101216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xslfo20-20100204
+    title:
+    - content: Design Notes for Extensible Stylesheet Language (XSL) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xslfo20-20100204/
+      type: src
+    docid:
+    - id: W3C WD-xslfo20-20100204
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xslfo20-20090929
+    title:
+    - content: Design Notes for Extensible Stylesheet Language (XSL) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-xslfo20-20090929/
+      type: src
+    docid:
+    - id: W3C WD-xslfo20-20090929
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xslfo20
 ext:

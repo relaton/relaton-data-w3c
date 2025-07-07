@@ -5,7 +5,7 @@ title:
 - content: SOAP Message Transmission Optimization Mechanism
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-soap12-mtom-20030721
+- content: https://www.w3.org/TR/2003/WD-soap12-mtom-20030721
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hervé Ruellan
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Nottingham
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nottingham
         language:
         - en
         script:
@@ -63,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-mtom
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-mtom/
+      type: src
+    docid:
+    - id: W3C soap12-mtom
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-soap12-mtom-20040209
+    title:
+    - content: SOAP Message Transmission Optimization Mechanism
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-soap12-mtom-20040209/
+      type: src
+    docid:
+    - id: W3C WD-soap12-mtom-20040209
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-soap12-mtom-20030721
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-maturity-model-20230824/
   type: src
-- content: https://w3c.github.io/maturity-model/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-maturity-model-20230824
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles LaPierre
+      given:
+        forename:
+        - content: Sheri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Byrne-Haber
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Fazio
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fazio
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Janina Sajka
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaPierre
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sheri Byrne-Haber
+      given:
+        forename:
+        - content: Janina
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajka
         language:
         - en
         script:
@@ -72,10 +98,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmaturity-model
+    title:
+    - content: Accessibility Maturity Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/maturity-model/
+      type: src
+    docid:
+    - id: W3C maturity-model
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-maturity-model-20220906
+    title:
+    - content: W3C Accessibility Maturity Model
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-maturity-model-20220906/
       type: src
@@ -83,12 +128,25 @@ relation:
     - id: W3C DNOTE-maturity-model-20220906
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-maturity-model-20220906
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-maturity-model-20231215
+    title:
+    - content: Accessibility Maturity Model
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-maturity-model-20231215/
+      type: src
+    docid:
+    - id: W3C DNOTE-maturity-model-20231215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-maturity-model-20230824
 ext:
@@ -96,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

@@ -5,7 +5,7 @@ title:
 - content: RIF Datatypes and Built-Ins 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/CR-rif-dtb-20091001/
+- content: https://www.w3.org/TR/2009/CR-rif-dtb-20091001/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Axel Polleres
+      given:
+        forename:
+        - content: Axel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Polleres
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Harold Boley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Kifer
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kifer
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-dtb
+    title:
+    - content: RIF Datatypes and Built-Ins 1.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-dtb/
+      type: src
+    docid:
+    - id: W3C rif-dtb
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rif-dtb-20090703
+    title:
+    - content: RIF Datatypes and Built-Ins 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-rif-dtb-20090703/
+    - content: https://www.w3.org/TR/2009/WD-rif-dtb-20090703/
       type: src
     docid:
     - id: W3C WD-rif-dtb-20090703
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-dtb-20090703
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rif-dtb-20100511
+    title:
+    - content: RIF Datatypes and Built-Ins 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/PR-rif-dtb-20100511/
+      type: src
+    docid:
+    - id: W3C PR-rif-dtb-20100511
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-rif-dtb-20091001
 ext:
@@ -87,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

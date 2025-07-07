@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-rdf11-datasets-20140225
+    title:
+    - content: 'RDF 1.1: On Semantics of RDF Datasets'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/NOTE-rdf11-datasets-20140225/
       type: src
@@ -37,12 +40,22 @@ relation:
     - id: W3C NOTE-rdf11-datasets-20140225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-rdf11-datasets-20140225
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf11-datasets-20131217
+    title:
+    - content: 'RDF 1.1: On Semantics of RDF Datasets'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-rdf11-datasets-20131217/
+      type: src
+    docid:
+    - id: W3C WD-rdf11-datasets-20131217
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: rdf11-datasets
 ext:

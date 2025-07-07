@@ -5,7 +5,7 @@ title:
 - content: CSS Mobile Profile 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-css-mobile-20061208
+- content: https://www.w3.org/TR/2006/WD-css-mobile-20061208
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Svante Schubert
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-12-08'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-mobile
+    title:
+    - content: CSS Mobile Profile 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-mobile/
+      type: src
+    docid:
+    - id: W3C css-mobile
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-mobile-20020725
+    title:
+    - content: CSS Mobile Profile 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/CR-css-mobile-20020725
+    - content: https://www.w3.org/TR/2002/CR-css-mobile-20020725
       type: src
     docid:
     - id: W3C CR-css-mobile-20020725
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-mobile-20020725
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-mobile-20071019
+    title:
+    - content: CSS Mobile Profile 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-css-mobile-20071019
+      type: src
+    docid:
+    - id: W3C WD-css-mobile-20071019
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-mobile-20061208
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

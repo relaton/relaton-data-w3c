@@ -5,10 +5,8 @@ title:
 - content: XMLHttpRequest Level 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-XMLHttpRequest-20140130/
+- content: https://www.w3.org/TR/2014/WD-XMLHttpRequest-20140130/
   type: src
-- content: http://dvcs.w3.org/hg/xhr/raw-file/default/xhr-1/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-XMLHttpRequest-20140130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hallvord Steen
+      given:
+        forename:
+        - content: Julian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Aubourg
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Julian Aubourg
+      given:
+        forename:
+        - content: Jungkee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jungkee Song
+      given:
+        forename:
+        - content: Hallvord
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steen
         language:
         - en
         script:
@@ -76,22 +102,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CXMLHttpRequest
+    title:
+    - content: XMLHttpRequest Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/XMLHttpRequest/
+      type: src
+    docid:
+    - id: W3C XMLHttpRequest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-XMLHttpRequest-20121206
+    title:
+    - content: XMLHttpRequest
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-XMLHttpRequest-20121206/
+    - content: https://www.w3.org/TR/2012/WD-XMLHttpRequest-20121206/
       type: src
     docid:
     - id: W3C WD-XMLHttpRequest-20121206
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20121206
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-XMLHttpRequest-20161006
+    title:
+    - content: XMLHttpRequest Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-XMLHttpRequest-20161006/
+      type: src
+    docid:
+    - id: W3C NOTE-XMLHttpRequest-20161006
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-XMLHttpRequest-20140130
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -5,10 +5,8 @@ title:
 - content: Shapes Constraint Language (SHACL)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-shacl-20160128/
+- content: https://www.w3.org/TR/2016/WD-shacl-20160128/
   type: src
-- content: http://w3c.github.io/data-shapes/shacl/
-  type: current
 type: standard
 docid:
 - id: W3C WD-shacl-20160128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arthur Ryman
+      given:
+        forename:
+        - content: Holger
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Knublauch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Holger Knublauch
+      given:
+        forename:
+        - content: Arthur
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ryman
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshacl
+    title:
+    - content: Shapes Constraint Language (SHACL)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shacl/
+      type: src
+    docid:
+    - id: W3C shacl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-shacl-20151008
+    title:
+    - content: Shapes Constraint Language (SHACL)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-shacl-20151008/
+    - content: https://www.w3.org/TR/2015/WD-shacl-20151008/
       type: src
     docid:
     - id: W3C WD-shacl-20151008
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-shacl-20151008
+- type: updatedBy
+  bibitem:
+    id: W3CWD-shacl-20160530
+    title:
+    - content: Shapes Constraint Language (SHACL)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-shacl-20160530/
+      type: src
+    docid:
+    - id: W3C WD-shacl-20160530
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-shacl-20160128
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF Data Shapes Working Group
+  - name: Data Shapes Working Group

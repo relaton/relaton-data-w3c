@@ -5,10 +5,8 @@ title:
 - content: Linked Data Patch Format
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/CR-ldpatch-20150303/
+- content: https://www.w3.org/TR/2015/CR-ldpatch-20150303/
   type: src
-- content: https://dvcs.w3.org/hg/ldpwg/raw-file/ldpatch/ldpatch.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-ldpatch-20150303
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexandre Bertails
+      given:
+        forename:
+        - content: Alexandre
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bertails
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrei Sambra
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Andrei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sambra
         language:
         - en
         script:
@@ -64,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldpatch
+    title:
+    - content: Linked Data Patch Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldpatch/
+      type: src
+    docid:
+    - id: W3C ldpatch
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ldpatch-20140918
+    title:
+    - content: Linked Data Patch Format
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-ldpatch-20140918/
+    - content: https://www.w3.org/TR/2014/WD-ldpatch-20140918/
       type: src
     docid:
     - id: W3C WD-ldpatch-20140918
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ldpatch-20140918
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ldpatch-20150728
+    title:
+    - content: Linked Data Patch Format
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-ldpatch-20150728/
+      type: src
+    docid:
+    - id: W3C NOTE-ldpatch-20150728
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ldpatch-20150303
 ext:
@@ -89,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

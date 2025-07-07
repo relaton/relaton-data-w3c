@@ -5,7 +5,7 @@ title:
 - content: GRDDL Test Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-grddl-tests-20070502/
+- content: https://www.w3.org/TR/2007/WD-grddl-tests-20070502/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chimezie Ogbuji
+      given:
+        forename:
+        - content: Chimezie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ogbuji
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgrddl-tests
+    title:
+    - content: GRDDL Test Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/grddl-tests/
+      type: src
+    docid:
+    - id: W3C grddl-tests
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-grddl-tests-20070328
+    title:
+    - content: GRDDL Test Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-grddl-tests-20070328/
+    - content: https://www.w3.org/TR/2007/WD-grddl-tests-20070328/
       type: src
     docid:
     - id: W3C WD-grddl-tests-20070328
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-grddl-tests-20070328
+- type: updatedBy
+  bibitem:
+    id: W3CPR-grddl-tests-20070716
+    title:
+    - content: GRDDL Test Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/PR-grddl-tests-20070716/
+      type: src
+    docid:
+    - id: W3C PR-grddl-tests-20070716
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-grddl-tests-20070502
 ext:

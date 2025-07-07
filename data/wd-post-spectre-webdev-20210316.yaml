@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-post-spectre-webdev-20210316/
   type: src
-- content: https://w3c.github.io/webappsec-post-spectre-webdev/
-  type: current
 type: standard
 docid:
 - id: W3C WD-post-spectre-webdev-20210316
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -44,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpost-spectre-webdev
+    title:
+    - content: Post-Spectre Web Development
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/post-spectre-webdev/
+      type: src
+    docid:
+    - id: W3C post-spectre-webdev
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-post-spectre-webdev-20210316
 ext:

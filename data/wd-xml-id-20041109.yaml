@@ -5,7 +5,7 @@ title:
 - content: xml:id Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-xml-id-20041109/
+- content: https://www.w3.org/TR/2004/WD-xml-id-20041109/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Veillard
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Marsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Veillard
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-id
+    title:
+    - content: xml:id Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-id/
+      type: src
+    docid:
+    - id: W3C xml-id
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-id-20040407
+    title:
+    - content: xml:id Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-xml-id-20040407
+    - content: https://www.w3.org/TR/2004/WD-xml-id-20040407
       type: src
     docid:
     - id: W3C WD-xml-id-20040407
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-id-20040407
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xml-id-20050208
+    title:
+    - content: xml:id Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/CR-xml-id-20050208/
+      type: src
+    docid:
+    - id: W3C CR-xml-id-20050208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xml-id-20041109
 ext:

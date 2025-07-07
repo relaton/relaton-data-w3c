@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/NOTE-epub-a11y-eaa-mapping-20220517/
   type: src
-- content: https://w3c.github.io/epub-specs/epub33/epub-a11y-eaa-mapping/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-epub-a11y-eaa-mapping-20220517
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cristina Mussinelli
+      given:
+        forename:
+        - content: Cristina
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mussinelli
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregorio Pellegrino
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Luc Audrain
+      given:
+        forename:
+        - content: Gregorio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellegrino
         language:
         - en
         script:
@@ -62,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cepub-a11y-eaa-mapping
+    title:
+    - content: EPUB Accessibility - EU Accessibility Act Mapping
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/epub-a11y-eaa-mapping/
+      type: src
+    docid:
+    - id: W3C epub-a11y-eaa-mapping
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-epub-a11y-eaa-mapping-20220419
+    title:
+    - content: EPUB Accessibility - EU Accessibility Act Mapping
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/NOTE-epub-a11y-eaa-mapping-20220419/
       type: src
@@ -73,12 +94,25 @@ relation:
     - id: W3C NOTE-epub-a11y-eaa-mapping-20220419
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-epub-a11y-eaa-mapping-20220419
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-epub-a11y-eaa-mapping-20220519
+    title:
+    - content: EPUB Accessibility - EU Accessibility Act Mapping
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/NOTE-epub-a11y-eaa-mapping-20220519/
+      type: src
+    docid:
+    - id: W3C NOTE-epub-a11y-eaa-mapping-20220519
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-epub-a11y-eaa-mapping-20220517
 ext:

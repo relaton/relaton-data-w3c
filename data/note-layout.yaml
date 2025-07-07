@@ -5,7 +5,7 @@ title:
 - content: Frame-based layout via Style Sheets
   format: text/plain
 link:
-- content: http://www.w3.org/TR/NOTE-layout
+- content: https://www.w3.org/TR/NOTE-layout
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raggett
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Raggett
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -60,12 +81,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-layout
+    title:
+    - content: Frame-based layout via Style Sheets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-layout
+      type: src
+    docid:
+    - id: W3C NOTE-layout
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-layout
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

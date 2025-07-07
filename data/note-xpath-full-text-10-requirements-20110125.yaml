@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Rys
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pat Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stephen Buxton
+      given:
+        forename:
+        - content: Pat
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Case
         language:
         - en
         script:
@@ -60,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-full-text-10-requirements
+    title:
+    - content: XQuery and XPath Full Text 1.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-full-text-10-requirements/
+      type: src
+    docid:
+    - id: W3C xpath-full-text-10-requirements
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-full-text-10-requirements-20080516
+    title:
+    - content: XQuery and XPath Full Text 1.0 Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-xpath-full-text-10-requirements-20080516/
       type: src
@@ -71,12 +77,9 @@ relation:
     - id: W3C WD-xpath-full-text-10-requirements-20080516
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-full-text-10-requirements-20080516
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xpath-full-text-10-requirements-20110125
 ext:
@@ -84,5 +87,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

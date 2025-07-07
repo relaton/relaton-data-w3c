@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-clipboard-apis-20210521/
   type: src
-- content: https://w3c.github.io/clipboard-apis/
-  type: current
 type: standard
 docid:
 - id: W3C WD-clipboard-apis-20210521
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gary Kacmarcik
+      given:
+        forename:
+        - content: Gary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kacmarcik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Grisha Lyukshin
+      given:
+        forename:
+        - content: Grisha
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lyukshin
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclipboard-apis
+    title:
+    - content: Clipboard API and events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clipboard-apis/
+      type: src
+    docid:
+    - id: W3C clipboard-apis
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-clipboard-apis-20210203
+    title:
+    - content: Clipboard API and events
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-clipboard-apis-20210203/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-clipboard-apis-20210203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-clipboard-apis-20210203
+- type: updatedBy
+  bibitem:
+    id: W3CWD-clipboard-apis-20210525
+    title:
+    - content: Clipboard API and events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-clipboard-apis-20210525/
+      type: src
+    docid:
+    - id: W3C WD-clipboard-apis-20210525
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-clipboard-apis-20210521
 ext:

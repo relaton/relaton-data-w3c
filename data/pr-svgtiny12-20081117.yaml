@@ -5,7 +5,7 @@ title:
 - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PR-SVGTiny12-20081117/
+- content: https://www.w3.org/TR/2008/PR-SVGTiny12-20081117/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andreas Neumann
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrew Emmons
+      given:
+        forename:
+        - content: Vincent
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hardy
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrew Shellshear
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anthony Grasso
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Antoine Quint
+      given:
+        forename:
+        - content: Erik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dahlström
         language:
         - en
         script:
@@ -77,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Emmons
         language:
         - en
         script:
@@ -87,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Nandini
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ramani
         language:
         - en
         script:
@@ -97,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Craig Northway
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -107,88 +163,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dean Jackson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Doug Schepers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Erik Dahlström
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jon Ferraiolo
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Nandini Ramani
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ola Andersson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robin Berjon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Hayman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Vincent Hardy
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Quint
         language:
         - en
         script:
@@ -204,22 +187,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVGTiny12
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVGTiny12/
+      type: src
+    docid:
+    - id: W3C SVGTiny12
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-SVGMobile12-20080915
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-SVGMobile12-20080915/
+    - content: https://www.w3.org/TR/2008/WD-SVGMobile12-20080915/
       type: src
     docid:
     - id: W3C WD-SVGMobile12-20080915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGMobile12-20080915
+- type: updatedBy
+  bibitem:
+    id: W3CREC-SVGTiny12-20081222
+    title:
+    - content: Scalable Vector Graphics (SVG) Tiny 1.2 Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-SVGTiny12-20081222/
+      type: src
+    docid:
+    - id: W3C REC-SVGTiny12-20081222
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-SVGTiny12-20081117
 ext:

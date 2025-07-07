@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-SVGFilterPrimer12-20070501
+    title:
+    - content: 'SVG Filters 1.2, Part 1: Primer'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-SVGFilterPrimer12-20070501/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-SVGFilterPrimer12-20070501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGFilterPrimer12-20070501
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: SVGFilterPrimer12
 ext:

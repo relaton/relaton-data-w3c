@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/NOTE-ruby-use-cases-20131008/
   type: src
-- content: https://www.w3.org/International/docs/ruby/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-ruby-use-cases-20131008
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cruby-use-cases
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ruby-use-cases/
+      type: src
+    docid:
+    - id: W3C ruby-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ruby-use-cases-20130910
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-ruby-use-cases-20130910
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ruby-use-cases-20130910
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ruby-use-cases-20131008
 ext:

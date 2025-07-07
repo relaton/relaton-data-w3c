@@ -25,24 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-09-02'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml1-schema
+    title:
+    - content: XHTML 1.0 in XML Schema
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml1-schema/
+      type: src
+    docid:
+    - id: W3C xhtml1-schema
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xhtml1-schema-20020902
 ext:

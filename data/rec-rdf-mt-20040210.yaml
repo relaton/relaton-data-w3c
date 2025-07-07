@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2004/REC-rdf-mt-20040210/
   type: src
-- content: https://w3c.github.io/rdf-semantics/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-rdf-mt-20040210
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Hayes
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hayes
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-mt
+    title:
+    - content: RDF Semantics
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-mt/
+      type: src
+    docid:
+    - id: W3C rdf-mt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-rdf-mt-20031215
+    title:
+    - content: RDF Semantics
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/PR-rdf-mt-20031215/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-rdf-mt-20031215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rdf-mt-20031215
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata#rdf-mt
-    link:
-    - content: https://www.w3.org/2001/sw/RDFCore/errata#rdf-mt
-      type: src
-    docid:
-    - id: W3C errata#rdf-mt
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata#rdf-mt
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rdf-mt-20040210
 ext:
@@ -85,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDFCore Working Group
+  - name: RDF Core Working Group

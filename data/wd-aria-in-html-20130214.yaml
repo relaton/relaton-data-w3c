@@ -5,7 +5,7 @@ title:
 - content: Using WAI-ARIA in HTML
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-aria-in-html-20130214/
+- content: https://www.w3.org/TR/2013/WD-aria-in-html-20130214/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cusing-aria
+    title:
+    - content: Using ARIA
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/using-aria/
+      type: src
+    docid:
+    - id: W3C using-aria
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-aria-in-html-20131003
+    title:
+    - content: Using WAI-ARIA in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-aria-in-html-20131003/
+      type: src
+    docid:
+    - id: W3C WD-aria-in-html-20131003
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-aria-in-html-20130214
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

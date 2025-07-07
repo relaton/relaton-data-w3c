@@ -5,7 +5,7 @@ title:
 - content: WebCGM 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PR-webcgm20-20061017/
+- content: https://www.w3.org/TR/2006/PR-webcgm20-20061017/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benoit Bezaire
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Cruikshank
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lofton Henderson
+      given:
+        forename:
+        - content: Lofton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henderson
         language:
         - en
         script:
@@ -64,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcgm20
+    title:
+    - content: WebCGM 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcgm20/
+      type: src
+    docid:
+    - id: W3C webcgm20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-webcgm20-20060906
+    title:
+    - content: WebCGM 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/CR-webcgm20-20060906/
+    - content: https://www.w3.org/TR/2006/CR-webcgm20-20060906/
       type: src
     docid:
     - id: W3C CR-webcgm20-20060906
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webcgm20-20060906
+- type: updatedBy
+  bibitem:
+    id: W3CREC-webcgm20-20070130
+    title:
+    - content: WebCGM 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/REC-webcgm20-20070130/
+      type: src
+    docid:
+    - id: W3C REC-webcgm20-20070130
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-webcgm20-20061017
 ext:

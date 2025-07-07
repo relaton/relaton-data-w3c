@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-css-page-3-20181018/
   type: src
-- content: https://drafts.csswg.org/css-page-3/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-page-3-20181018
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Sapin
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sapin
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-page-3
+    title:
+    - content: CSS Paged Media Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-page-3/
+      type: src
+    docid:
+    - id: W3C css-page-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css3-page-20130314
+    title:
+    - content: CSS Paged Media Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-css3-page-20130314/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-css3-page-20130314
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css3-page-20130314
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-page-3-20230914
+    title:
+    - content: CSS Paged Media Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-css-page-3-20230914/
+      type: src
+    docid:
+    - id: W3C WD-css-page-3-20230914
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-page-3-20181018
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

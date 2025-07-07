@@ -5,7 +5,7 @@ title:
 - content: XML Indirection Facility
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/NOTE-XIndirect-20030612
+- content: https://www.w3.org/TR/2003/NOTE-XIndirect-20030612
   type: src
 type: standard
 docid:
@@ -25,27 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: W. Eliot Kimber
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-06-12'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CXIndirect
+    title:
+    - content: XML Indirection Facility
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/XIndirect
+      type: src
+    docid:
+    - id: W3C XIndirect
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-XIndirect-20030612
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -5,7 +5,7 @@ title:
 - content: XPath Requirements Version 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-xpath20req-20030822
+- content: https://www.w3.org/TR/2003/WD-xpath20req-20030822
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Mark Scardina
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Fernández
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-08-22'
 language:
 - en
@@ -54,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath20req
+    title:
+    - content: XPath Requirements Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath20req/
+      type: src
+    docid:
+    - id: W3C xpath20req
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath20req-20010214
+    title:
+    - content: XPath Requirements Version 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2001/WD-xpath20req-20010214
+    - content: https://www.w3.org/TR/2001/WD-xpath20req-20010214
       type: src
     docid:
     - id: W3C WD-xpath20req-20010214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath20req-20010214
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xpath20req-20050603
+    title:
+    - content: XPath Requirements Version 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xpath20req-20050603/
+      type: src
+    docid:
+    - id: W3C WD-xpath20req-20050603
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xpath20req-20030822
 ext:
@@ -77,5 +86,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

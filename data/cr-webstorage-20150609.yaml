@@ -5,10 +5,8 @@ title:
 - content: Web Storage (Second Edition)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/CR-webstorage-20150609/
+- content: https://www.w3.org/TR/2015/CR-webstorage-20150609/
   type: src
-- content: https://w3c.github.io/webstorage/
-  type: current
 type: standard
 docid:
 - id: W3C CR-webstorage-20150609
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -44,24 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-webstorage-20130730
+    id: W3Cwebstorage
+    title:
+    - content: Web Storage (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/REC-webstorage-20130730/
+    - content: https://www.w3.org/TR/webstorage/
       type: src
     docid:
-    - id: W3C REC-webstorage-20130730
+    - id: W3C webstorage
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-webstorage-20130730
+- type: updatedBy
+  bibitem:
+    id: W3CPR-webstorage-20151126
+    title:
+    - content: Web Storage (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/PR-webstorage-20151126/
+      type: src
+    docid:
+    - id: W3C PR-webstorage-20151126
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-webstorage-20150609
 ext:
@@ -69,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

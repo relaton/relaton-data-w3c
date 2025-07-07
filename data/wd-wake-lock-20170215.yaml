@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-wake-lock-20170215/
   type: src
-- content: https://w3c.github.io/wake-lock/
-  type: current
 type: standard
 docid:
 - id: W3C WD-wake-lock-20170215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrey Logvinov
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bogdanovich
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Bogdanovich
+      given:
+        forename:
+        - content: Andrey
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Logvinov
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-wake-lock
+    title:
+    - content: Screen Wake Lock API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-wake-lock/
+      type: src
+    docid:
+    - id: W3C screen-wake-lock
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wake-lock-20170127
+    title:
+    - content: Wake Lock API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-wake-lock-20170127/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-wake-lock-20170127
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wake-lock-20170127
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wake-lock-20170222
+    title:
+    - content: Wake Lock API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-wake-lock-20170222/
+      type: src
+    docid:
+    - id: W3C WD-wake-lock-20170222
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wake-lock-20170215
 ext:

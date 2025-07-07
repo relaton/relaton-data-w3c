@@ -5,7 +5,7 @@ title:
 - content: Internationalization and Localization Markup Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-itsreq-20050805
+- content: https://www.w3.org/TR/2005/WD-itsreq-20050805
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Yves Savourel
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Savourel
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Citsreq
+    title:
+    - content: Internationalization and Localization Markup Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/itsreq/
+      type: src
+    docid:
+    - id: W3C itsreq
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-itsreq-20051122
+    title:
+    - content: Internationalization and Localization Markup Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-itsreq-20051122/
+      type: src
+    docid:
+    - id: W3C WD-itsreq-20051122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-itsreq-20050805
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: ITS Working Group
+  - name: Internationalization Tag Set (ITS) Working Group

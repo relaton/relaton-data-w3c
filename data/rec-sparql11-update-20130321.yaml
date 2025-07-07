@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/REC-sparql11-update-20130321/
   type: src
-- content: https://w3c.github.io/sparql-update/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-sparql11-update-20130321
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexandre Passant
+      given:
+        forename:
+        - content: Paula
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gearon
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Axel Polleres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paula Gearon
+      given:
+        forename:
+        - content: Axel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Polleres
         language:
         - en
         script:
@@ -66,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-update
+    title:
+    - content: SPARQL 1.1 Update
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-update/
+      type: src
+    docid:
+    - id: W3C sparql11-update
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-sparql11-update-20121108
+    title:
+    - content: SPARQL 1.1 Update
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-sparql11-update-20121108/
       type: src
@@ -76,28 +94,9 @@ relation:
     - id: W3C PR-sparql11-update-20121108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-sparql11-update-20121108
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Csparql-errata
-    link:
-    - content: https://www.w3.org/2013/sparql-errata#sparql11-update
-      type: src
-    docid:
-    - id: W3C sparql-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C sparql-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-sparql11-update-20130321
 ext:

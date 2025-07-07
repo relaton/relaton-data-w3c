@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Michael Hausenblas
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2012-04-05'
 language:
 - en
@@ -43,9 +33,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-people
+    title:
+    - content: Terms for describing people
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-people/
+      type: src
+    docid:
+    - id: W3C vocab-people
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vocab-people-20120405
 ext:

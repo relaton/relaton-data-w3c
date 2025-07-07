@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/CR-upgrade-insecure-requests-20151008/
   type: src
-- content: https://w3c.github.io/webappsec-upgrade-insecure-requests/
-  type: current
 type: standard
 docid:
 - id: W3C CR-upgrade-insecure-requests-20151008
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cupgrade-insecure-requests
+    title:
+    - content: Upgrade Insecure Requests
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/upgrade-insecure-requests/
+      type: src
+    docid:
+    - id: W3C upgrade-insecure-requests
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-upgrade-insecure-requests-20150424
+    title:
+    - content: Upgrade Insecure Requests
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150424/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C WD-upgrade-insecure-requests-20150424
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-upgrade-insecure-requests-20150424
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-upgrade-insecure-requests-20151008
 ext:

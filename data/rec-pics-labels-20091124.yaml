@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Miller
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Resnick
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tim Krauskopf
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Win Treese
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Resnick
         language:
         - en
         script:
@@ -74,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CREC-PICS-labels
+    title:
+    - content: PICS 1.1 Label Distribution -- Label Syntax and Communication Protocols
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-PICS-labels/
+      type: src
+    docid:
+    - id: W3C REC-PICS-labels
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-PICS-labels-961031
+    title:
+    - content: PICS 1.1 Label Distribution -- Label Syntax and Communication Protocols
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/REC-PICS-labels-961031
       type: src
@@ -84,28 +77,14 @@ relation:
     - id: W3C REC-PICS-labels-961031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-PICS-labels-961031
-      format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-PICS-labels-961031
-    link:
-    - content: https://www.w3.org/TR/REC-PICS-labels-961031
-      type: src
-    docid:
-    - id: W3C REC-PICS-labels-961031
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-PICS-labels-961031
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-PICS-labels-20091124
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

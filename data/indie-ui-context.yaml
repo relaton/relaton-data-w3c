@@ -5,7 +5,7 @@ title:
 - content: 'IndieUI: User Context 1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/indie-ui-context/
+- content: https://www.w3.org/TR/indie-ui-context/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-indie-ui-context-20150430
+    title:
+    - content: 'IndieUI: User Context 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-indie-ui-context-20150430/
+      type: src
+    docid:
+    - id: W3C WD-indie-ui-context-20150430
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-indie-ui-context-20140626
+    title:
+    - content: 'IndieUI: User Context 1.0'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-indie-ui-context-20140626/
+    - content: https://www.w3.org/TR/2014/WD-indie-ui-context-20140626/
       type: src
     docid:
     - id: W3C WD-indie-ui-context-20140626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-indie-ui-context-20140626
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: indie-ui-context
 ext:

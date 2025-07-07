@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Adrian
+      given:
+        forename:
+        - content: Nathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rixham
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nathan Rixham
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adrian
         language:
         - en
         script:
@@ -60,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-api
+    title:
+    - content: RDF API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-api/
+      type: src
+    docid:
+    - id: W3C rdf-api
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-rdf-api-20120705
 ext:

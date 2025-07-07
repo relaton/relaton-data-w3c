@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-from-origin-20120529
+    title:
+    - content: The From-Origin Header
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/NOTE-from-origin-20120529/
       type: src
@@ -37,12 +40,22 @@ relation:
     - id: W3C NOTE-from-origin-20120529
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-from-origin-20120529
+- type: hasEdition
+  bibitem:
+    id: W3CWD-from-origin-20110721
+    title:
+    - content: The From-Origin Header
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-from-origin-20110721/
+      type: src
+    docid:
+    - id: W3C WD-from-origin-20110721
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: from-origin
 ext:

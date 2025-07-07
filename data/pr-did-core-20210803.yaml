@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/PR-did-core-20210803/
   type: src
-- content: https://w3c.github.io/did-core/
-  type: current
 type: standard
 docid:
 - id: W3C PR-did-core-20210803
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Drummond Reed
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sabadello
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Sabadello
+      given:
+        forename:
+        - content: Drummond
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reed
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdid-core
+    title:
+    - content: Decentralized Identifiers (DIDs) v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/did-core/
+      type: src
+    docid:
+    - id: W3C did-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-did-core-20210730
+    title:
+    - content: Decentralized Identifiers (DIDs) v1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-did-core-20210730/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CRD-did-core-20210730
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-did-core-20210730
+- type: updatedBy
+  bibitem:
+    id: W3CREC-did-core-20220719
+    title:
+    - content: Decentralized Identifiers (DIDs) v1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/REC-did-core-20220719/
+      type: src
+    docid:
+    - id: W3C REC-did-core-20220719
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-did-core-20210803
 ext:

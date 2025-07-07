@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Juan Carlos Cruellas
+      given:
+        forename:
+        - content: Juan Carlos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cruellas
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Konrad Lanz
+      given:
+        forename:
+        - content: Konrad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanz
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sean Mullan
+      given:
+        forename:
+        - content: Sean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mullan
         language:
         - en
         script:
@@ -60,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig2ed-tests
+    title:
+    - content: Test Cases for C14N 1.1 and XMLDSig Interoperability
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig2ed-tests/
+      type: src
+    docid:
+    - id: W3C xmldsig2ed-tests
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xmldsig2ed-tests-20080610
 ext:

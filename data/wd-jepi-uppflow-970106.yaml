@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Donald Eastlake
+      given:
+        forename:
+        - content: Donald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Miller
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rohit Khare
+      given:
+        forename:
+        - content: Rohit
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Khare
         language:
         - en
         script:
@@ -62,13 +66,29 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-jepi-uppflow
+    title:
+    - content: Selecting Payment Mechanisms Over HTTP
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-jepi-uppflow
+      type: src
+    docid:
+    - id: W3C WD-jepi-uppflow
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-jepi-uppflow-970106
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

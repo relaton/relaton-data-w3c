@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Lee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Feigenbaum
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elias Torres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lee Feigenbaum
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -62,10 +66,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csprot11
+    title:
+    - content: SPARQL Protocol for RDF Using WSDL 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sprot11/
+      type: src
+    docid:
+    - id: W3C sprot11
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-sprot11-20051024
 ext:

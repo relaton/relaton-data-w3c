@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ci18n-guide-framework
+    title:
+    - content: Framework Document for i18n Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/i18n-guide-framework/
+      type: src
+    docid:
+    - id: W3C i18n-guide-framework
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-i18n-guide-framework-20030417
 ext:

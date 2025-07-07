@@ -5,10 +5,8 @@ title:
 - content: 'Character Model for the World Wide Web: String Matching and Searching'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-charmod-norm-20140715/
+- content: https://www.w3.org/TR/2014/WD-charmod-norm-20140715/
   type: src
-- content: http://www.w3.org/International/docs/charmod-norm/
-  type: current
 type: standard
 docid:
 - id: W3C WD-charmod-norm-20140715
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccharmod-norm
+    title:
+    - content: 'Character Model for the World Wide Web: String Matching'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/charmod-norm/
+      type: src
+    docid:
+    - id: W3C charmod-norm
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-charmod-norm-20120501
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Normalization'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-charmod-norm-20120501/
+    - content: https://www.w3.org/TR/2012/WD-charmod-norm-20120501/
       type: src
     docid:
     - id: W3C WD-charmod-norm-20120501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-charmod-norm-20120501
+- type: updatedBy
+  bibitem:
+    id: W3CWD-charmod-norm-20150721
+    title:
+    - content: 'Character Model for the World Wide Web: String Matching and Searching'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-charmod-norm-20150721/
+      type: src
+    docid:
+    - id: W3C WD-charmod-norm-20150721
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-charmod-norm-20140715
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-pointerevents2-20181211/
   type: src
-- content: https://w3c.github.io/pointerevents/
-  type: current
 type: standard
 docid:
 - id: W3C CR-pointerevents2-20181211
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Navid Zolghadr
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Byers
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rick Byers
+      given:
+        forename:
+        - content: Navid
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zolghadr
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerevents2
+    title:
+    - content: Pointer Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerevents2/
+      type: src
+    docid:
+    - id: W3C pointerevents2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-pointerevents2-20181016
+    title:
+    - content: Pointer Events
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/PR-pointerevents2-20181016/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C PR-pointerevents2-20181016
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-pointerevents2-20181016
+- type: updatedBy
+  bibitem:
+    id: W3CPR-pointerevents2-20190221
+    title:
+    - content: Pointer Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-pointerevents2-20190221/
+      type: src
+    docid:
+    - id: W3C PR-pointerevents2-20190221
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-pointerevents2-20181211
 ext:

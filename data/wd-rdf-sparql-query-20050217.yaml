@@ -5,7 +5,7 @@ title:
 - content: SPARQL Query Language for RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-rdf-sparql-query-20050217/
+- content: https://www.w3.org/TR/2005/WD-rdf-sparql-query-20050217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-sparql-query
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-sparql-query/
+      type: src
+    docid:
+    - id: W3C rdf-sparql-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-sparql-query-20041012
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-rdf-sparql-query-20041012/
+    - content: https://www.w3.org/TR/2004/WD-rdf-sparql-query-20041012/
       type: src
     docid:
     - id: W3C WD-rdf-sparql-query-20041012
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-sparql-query-20041012
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-sparql-query-20050419
+    title:
+    - content: SPARQL Query Language for RDF
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-query-20050419/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-query-20050419
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-sparql-query-20050217
 ext:

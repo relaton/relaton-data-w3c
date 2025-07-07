@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xml-infoset-20011024
-    link:
-    - content: https://www.w3.org/TR/2001/REC-xml-infoset-20011024/
-      type: src
-    docid:
-    - id: W3C REC-xml-infoset-20011024
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xml-infoset-20011024
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-xml-infoset-20040204
+    title:
+    - content: XML Information Set (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/REC-xml-infoset-20040204/
       type: src
@@ -53,12 +40,139 @@ relation:
     - id: W3C REC-xml-infoset-20040204
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xml-infoset-20040204
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xml-infoset-20031210
+    title:
+    - content: XML Information Set, second edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PER-xml-infoset-20031210
+      type: src
+    docid:
+    - id: W3C PER-xml-infoset-20031210
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xml-infoset-20011024
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/REC-xml-infoset-20011024/
+      type: src
+    docid:
+    - id: W3C REC-xml-infoset-20011024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xml-infoset-20010810
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/PR-xml-infoset-20010810
+      type: src
+    docid:
+    - id: W3C PR-xml-infoset-20010810
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xml-infoset-20010514
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/CR-xml-infoset-20010514
+      type: src
+    docid:
+    - id: W3C CR-xml-infoset-20010514
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-infoset-20010316
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xml-infoset-20010316
+      type: src
+    docid:
+    - id: W3C WD-xml-infoset-20010316
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-infoset-20010202
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xml-infoset-20010202
+      type: src
+    docid:
+    - id: W3C WD-xml-infoset-20010202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-infoset-20001220
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xml-infoset-20001220
+      type: src
+    docid:
+    - id: W3C WD-xml-infoset-20001220
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-infoset-20000726
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xml-infoset-20000726
+      type: src
+    docid:
+    - id: W3C WD-xml-infoset-20000726
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-infoset-19991220
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-xml-infoset-19991220
+      type: src
+    docid:
+    - id: W3C WD-xml-infoset-19991220
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xml-infoset-19990517
+    title:
+    - content: XML Information Set
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-xml-infoset-19990517
+      type: src
+    docid:
+    - id: W3C WD-xml-infoset-19990517
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xml-infoset
 ext:

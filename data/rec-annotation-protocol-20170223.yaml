@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-annotation-protocol-20170223/
   type: src
-- content: https://w3c.github.io/web-annotation/protocol/wd/
-  type: current
 type: standard
 docid:
 - id: W3C REC-annotation-protocol-20170223
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robert Sanderson
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sanderson
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cannotation-protocol
+    title:
+    - content: Web Annotation Protocol
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/annotation-protocol/
+      type: src
+    docid:
+    - id: W3C annotation-protocol
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-annotation-protocol-20170117
+    title:
+    - content: Web Annotation Protocol
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-annotation-protocol-20170117/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-annotation-protocol-20170117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-annotation-protocol-20170117
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/annotation/errata/
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-annotation-protocol-20170223
 ext:
@@ -85,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Annotation Working Group
+  - name: Web Annotation Working Group

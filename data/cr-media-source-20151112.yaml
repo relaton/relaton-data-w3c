@@ -5,10 +5,8 @@ title:
 - content: Media Source Extensions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/CR-media-source-20151112/
+- content: https://www.w3.org/TR/2015/CR-media-source-20151112/
   type: src
-- content: http://w3c.github.io/media-source/
-  type: current
 type: standard
 docid:
 - id: W3C CR-media-source-20151112
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Colwell
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wolenetz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerry Smith
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Colwell
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthew Wolenetz
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -84,24 +117,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-source-1
+    title:
+    - content: Media Source Extensions™
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-source-1/
+      type: src
+    docid:
+    - id: W3C media-source-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-media-source-20150331
+    title:
+    - content: Media Source Extensions
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-media-source-20150331/
+    - content: https://www.w3.org/TR/2015/CR-media-source-20150331/
       type: src
     docid:
     - id: W3C CR-media-source-20150331
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-media-source-20150331
+- type: updatedBy
+  bibitem:
+    id: W3CCR-media-source-20160503
+    title:
+    - content: Media Source Extensions
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-media-source-20160503/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20160503
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-media-source-20151112
 ext:
@@ -109,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

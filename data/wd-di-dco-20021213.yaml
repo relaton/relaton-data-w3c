@@ -5,7 +5,7 @@ title:
 - content: Delivery Context Overview for Device Independence
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-di-dco-20021213/
+- content: https://www.w3.org/TR/2002/WD-di-dco-20021213/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Roger Gimson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-12-13'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdi-dco
+    title:
+    - content: Delivery Context Overview for Device Independence
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/di-dco/
+      type: src
+    docid:
+    - id: W3C di-dco
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-di-dco-20050118
+    title:
+    - content: Delivery Context Overview for Device Independence
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/NOTE-di-dco-20050118/
+      type: src
+    docid:
+    - id: W3C NOTE-di-dco-20050118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-di-dco-20021213
 ext:

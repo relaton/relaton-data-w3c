@@ -5,7 +5,7 @@ title:
 - content: Pointer Lock
   format: text/plain
 link:
-- content: http://www.w3.org/TR/pointerlock/
+- content: https://www.w3.org/TR/pointerlock/
   type: src
 type: standard
 docid:
@@ -26,65 +26,88 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Candidate Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCR-pointerlock-20131217
+    id: W3CREC-pointerlock-20161027
+    title:
+    - content: Pointer Lock
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-pointerlock-20131217/
+    - content: https://www.w3.org/TR/2016/REC-pointerlock-20161027/
       type: src
     docid:
-    - id: W3C CR-pointerlock-20131217
+    - id: W3C REC-pointerlock-20161027
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-pointerlock-20131217
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-pointerlock-20120529
+    id: W3CPR-pointerlock-20160830
+    title:
+    - content: Pointer Lock
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-pointerlock-20120529/
+    - content: https://www.w3.org/TR/2016/PR-pointerlock-20160830/
       type: src
     docid:
-    - id: W3C WD-pointerlock-20120529
+    - id: W3C PR-pointerlock-20160830
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerlock-20120529
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CWD-pointerlock-20131031
-    link:
-    - content: http://www.w3.org/TR/2013/WD-pointerlock-20131031/
-      type: src
-    docid:
-    - id: W3C WD-pointerlock-20131031
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-pointerlock-20131031
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CCR-pointerlock-20160705
+    title:
+    - content: Pointer Lock
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/CR-pointerlock-20160705/
+    - content: https://www.w3.org/TR/2016/CR-pointerlock-20160705/
       type: src
     docid:
     - id: W3C CR-pointerlock-20160705
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-pointerlock-20160705
+- type: hasEdition
+  bibitem:
+    id: W3CCR-pointerlock-20131217
+    title:
+    - content: Pointer Lock
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-pointerlock-20131217/
+      type: src
+    docid:
+    - id: W3C CR-pointerlock-20131217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-pointerlock-20131031
+    title:
+    - content: Pointer Lock
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-pointerlock-20131031/
+      type: src
+    docid:
+    - id: W3C WD-pointerlock-20131031
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-pointerlock-20120529
+    title:
+    - content: Pointer Lock
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-pointerlock-20120529/
+      type: src
+    docid:
+    - id: W3C WD-pointerlock-20120529
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C CR
+    content: W3C technicalReport
     format: text/plain
   number: pointerlock
 ext:

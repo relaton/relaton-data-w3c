@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-latn-nl-gap-20200611/
   type: src
-- content: https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap
-  type: current
 type: standard
 docid:
 - id: W3C WD-latn-nl-gap-20200611
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Clatn-nl-gap
+    title:
+    - content: Dutch Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/latn-nl-gap/
+      type: src
+    docid:
+    - id: W3C latn-nl-gap
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-latn-nl-gap-20200623
+    title:
+    - content: Dutch Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-latn-nl-gap-20200623/
+      type: src
+    docid:
+    - id: W3C WD-latn-nl-gap-20200623
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-latn-nl-gap-20200611
 ext:

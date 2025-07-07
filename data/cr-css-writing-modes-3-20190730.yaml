@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-css-writing-modes-3-20190730/
   type: src
-- content: https://drafts.csswg.org/css-writing-modes-3/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-writing-modes-3-20190730
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Koji Ishii
+      given:
+        forename:
+        - content: Koji
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishii
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-writing-modes-3
+    title:
+    - content: CSS Writing Modes Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-writing-modes-3/
+      type: src
+    docid:
+    - id: W3C css-writing-modes-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-writing-modes-3-20180524
+    title:
+    - content: CSS Writing Modes Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-css-writing-modes-3-20180524/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-css-writing-modes-3-20180524
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-writing-modes-3-20180524
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-writing-modes-3-20190903
+    title:
+    - content: CSS Writing Modes Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-css-writing-modes-3-20190903/
+      type: src
+    docid:
+    - id: W3C CR-css-writing-modes-3-20190903
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-writing-modes-3-20190730
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

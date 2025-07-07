@@ -5,7 +5,7 @@ title:
 - content: OWL 2 Web Ontology Language RDF-Based Semantics
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-owl2-rdf-based-semantics-20090421/
+- content: https://www.w3.org/TR/2009/WD-owl2-rdf-based-semantics-20090421/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Schneider
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schneider
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-rdf-based-semantics
+    title:
+    - content: OWL 2 Web Ontology Language RDF-Based Semantics (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-rdf-based-semantics/
+      type: src
+    docid:
+    - id: W3C owl2-rdf-based-semantics
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-owl2-rdf-based-semantics-20081202
+    title:
+    - content: OWL 2 Web Ontology Language:RDF-Based Semantics
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-owl2-rdf-based-semantics-20081202/
+    - content: https://www.w3.org/TR/2008/WD-owl2-rdf-based-semantics-20081202/
       type: src
     docid:
     - id: W3C WD-owl2-rdf-based-semantics-20081202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-owl2-rdf-based-semantics-20081202
+- type: updatedBy
+  bibitem:
+    id: W3CCR-owl2-rdf-based-semantics-20090611
+    title:
+    - content: OWL 2 Web Ontology Language RDF-Based Semantics
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-owl2-rdf-based-semantics-20090611/
+      type: src
+    docid:
+    - id: W3C CR-owl2-rdf-based-semantics-20090611
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-owl2-rdf-based-semantics-20090421
 ext:

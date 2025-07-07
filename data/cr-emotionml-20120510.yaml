@@ -5,7 +5,7 @@ title:
 - content: Emotion Markup Language (EmotionML) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-emotionml-20120510/
+- content: https://www.w3.org/TR/2012/CR-emotionml-20120510/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Marc Schröder
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2012-05-10'
 language:
 - en
@@ -42,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemotionml
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emotionml/
+      type: src
+    docid:
+    - id: W3C emotionml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-emotionml-20110407
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-emotionml-20110407/
+    - content: https://www.w3.org/TR/2011/WD-emotionml-20110407/
       type: src
     docid:
     - id: W3C WD-emotionml-20110407
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-emotionml-20110407
+- type: updatedBy
+  bibitem:
+    id: W3CPR-emotionml-20130416
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-emotionml-20130416/
+      type: src
+    docid:
+    - id: W3C PR-emotionml-20130416
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-emotionml-20120510
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-largest-contentful-paint-20220524/
   type: src
-- content: https://w3c.github.io/largest-contentful-paint/
-  type: current
 type: standard
 docid:
 - id: W3C WD-largest-contentful-paint-20220524
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nicolas Pena Moreno
+      given:
+        forename:
+        - content: Yoav
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weiss
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yoav Weiss
+      given:
+        forename:
+        - content: Nicolas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pena Moreno
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Clargest-contentful-paint
+    title:
+    - content: Largest Contentful Paint
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/largest-contentful-paint/
+      type: src
+    docid:
+    - id: W3C largest-contentful-paint
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-largest-contentful-paint-20230901
+    title:
+    - content: Largest Contentful Paint
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-largest-contentful-paint-20230901/
+      type: src
+    docid:
+    - id: W3C WD-largest-contentful-paint-20230901
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-largest-contentful-paint-20220524
 ext:

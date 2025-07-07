@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jérôme Euzenat
+      given:
+        forename:
+        - content: Jérôme
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Euzenat
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Masahiro Hori
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Patel-Schneider
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -60,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-xmlsyntax
+    title:
+    - content: OWL Web Ontology Language XML Presentation Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-xmlsyntax/
+      type: src
+    docid:
+    - id: W3C owl-xmlsyntax
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-owl-xmlsyntax-20030611
 ext:
@@ -70,4 +91,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web-Ontology Working Group
+  - name: Web Ontology Working Group

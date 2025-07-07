@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-mini-app-white-paper-20220516/
   type: src
-- content: https://w3c.github.io/miniapp/white-paper/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-mini-app-white-paper-20220516
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: An Qi (Angel) Li
+      given:
+        forename:
+        - content: Qing
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: An
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Canfeng Chen
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhou
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chen Yinli
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvarez-Espinar
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dan Zhou
+      given:
+        forename:
+        - content: Zitao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Fuqiao Xue
+      given:
+        forename:
+        - content: Wanming
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenny Yuan
+      given:
+        forename:
+        - content: Kenny
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yuan
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Alvarez-Espinar
+      given:
+        forename:
+        - content: Canfeng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
         language:
         - en
         script:
@@ -99,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Qing An
+      given:
+        forename:
+        - content: Chen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yinli
         language:
         - en
         script:
@@ -109,8 +163,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wanming Lin
+      given:
+        forename:
+        - content: An Qi (Angel)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
         language:
         - en
         script:
@@ -119,8 +180,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zitao Wang
+      given:
+        forename:
+        - content: Fuqiao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xue
         language:
         - en
         script:
@@ -132,10 +200,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmini-app-white-paper
+    title:
+    - content: MiniApp Standardization White Paper version 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mini-app-white-paper/
+      type: src
+    docid:
+    - id: W3C mini-app-white-paper
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-mini-app-white-paper-20220511
+    title:
+    - content: MiniApp Standardization White Paper version 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-mini-app-white-paper-20220511/
       type: src
@@ -143,12 +230,25 @@ relation:
     - id: W3C DNOTE-mini-app-white-paper-20220511
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-mini-app-white-paper-20220511
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-mini-app-white-paper-20220518
+    title:
+    - content: MiniApp Standardization White Paper version 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-mini-app-white-paper-20220518/
+      type: src
+    docid:
+    - id: W3C DNOTE-mini-app-white-paper-20220518
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-mini-app-white-paper-20220516
 ext:

@@ -5,10 +5,8 @@ title:
 - content: ODRL Information Model
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-odrl-model-20160721/
+- content: https://www.w3.org/TR/2016/WD-odrl-model-20160721/
   type: src
-- content: https://w3c.github.io/poe/model/
-  type: current
 type: standard
 docid:
 - id: W3C WD-odrl-model-20160721
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Renato Iannella
+      given:
+        forename:
+        - content: Renato
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Iannella
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Serena Villata
+      given:
+        forename:
+        - content: Serena
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Villata
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Codrl-model
+    title:
+    - content: ODRL Information Model 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/odrl-model/
+      type: src
+    docid:
+    - id: W3C odrl-model
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-odrl-model-20170223
+    title:
+    - content: ODRL Information Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-odrl-model-20170223/
+      type: src
+    docid:
+    - id: W3C WD-odrl-model-20170223
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-odrl-model-20160721
 ext:

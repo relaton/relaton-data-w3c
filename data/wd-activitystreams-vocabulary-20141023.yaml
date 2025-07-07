@@ -5,10 +5,8 @@ title:
 - content: Activity Vocabulary
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-activitystreams-vocabulary-20141023/
+- content: https://www.w3.org/TR/2014/WD-activitystreams-vocabulary-20141023/
   type: src
-- content: http://jasnell.github.io/w3c-socialwg-activitystreams/activitystreams2-vocabulary.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-activitystreams-vocabulary-20141023
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Snell
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snell
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitystreams-vocabulary
+    title:
+    - content: Activity Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitystreams-vocabulary/
+      type: src
+    docid:
+    - id: W3C activitystreams-vocabulary
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-activitystreams-vocabulary-20150129
+    title:
+    - content: Activity Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-activitystreams-vocabulary-20150129/
+      type: src
+    docid:
+    - id: W3C WD-activitystreams-vocabulary-20150129
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-activitystreams-vocabulary-20141023
 ext:

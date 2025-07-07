@@ -5,7 +5,7 @@ title:
 - content: RDF 1.1 Primer
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-rdf11-primer-20131217/
+- content: https://www.w3.org/TR/2013/WD-rdf11-primer-20131217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Guus Schreiber
+      given:
+        forename:
+        - content: Guus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schreiber
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Raimond
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raimond
         language:
         - en
         script:
@@ -52,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf11-primer
+    title:
+    - content: RDF 1.1 Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf11-primer/
+      type: src
+    docid:
+    - id: W3C rdf11-primer
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-rdf11-primer-20140225
+    title:
+    - content: RDF 1.1 Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/
+      type: src
+    docid:
+    - id: W3C NOTE-rdf11-primer-20140225
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-rdf11-primer-20131217
 ext:

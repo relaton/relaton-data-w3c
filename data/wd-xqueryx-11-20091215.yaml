@@ -5,7 +5,7 @@ title:
 - content: XQueryX 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-xqueryx-11-20091215/
+- content: https://www.w3.org/TR/2009/WD-xqueryx-11-20091215/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxqueryx-30
+    title:
+    - content: XQueryX 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xqueryx-30/
+      type: src
+    docid:
+    - id: W3C xqueryx-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xqueryx-11-20081203
+    title:
+    - content: XQueryX 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-xqueryx-11-20081203/
+    - content: https://www.w3.org/TR/2008/WD-xqueryx-11-20081203/
       type: src
     docid:
     - id: W3C WD-xqueryx-11-20081203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xqueryx-11-20081203
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xqueryx-30-20101214
+    title:
+    - content: XQueryX 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xqueryx-30-20101214/
+      type: src
+    docid:
+    - id: W3C WD-xqueryx-30-20101214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xqueryx-11-20091215
 ext:

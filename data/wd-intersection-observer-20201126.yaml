@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-intersection-observer-20201126/
   type: src
-- content: https://w3c.github.io/IntersectionObserver/
-  type: current
 type: standard
 docid:
 - id: W3C WD-intersection-observer-20201126
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Emilio Cobos Álvarez
+      given:
+        forename:
+        - content: Stefan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zager
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Blain
+      given:
+        forename:
+        - content: Emilio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cobos Álvarez
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stefan Zager
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Blain
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cintersection-observer
+    title:
+    - content: Intersection Observer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/intersection-observer/
+      type: src
+    docid:
+    - id: W3C intersection-observer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-intersection-observer-20201102
+    title:
+    - content: Intersection Observer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-intersection-observer-20201102/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-intersection-observer-20201102
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-intersection-observer-20201102
+- type: updatedBy
+  bibitem:
+    id: W3CWD-intersection-observer-20210203
+    title:
+    - content: Intersection Observer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-intersection-observer-20210203/
+      type: src
+    docid:
+    - id: W3C WD-intersection-observer-20210203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-intersection-observer-20201126
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Solo
+      given:
+        forename:
+        - content: Donald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Donald Eastlake
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -57,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joseph Reagle
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -84,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-core
+    title:
+    - content: XML Signature Syntax and Processing (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-core/
+      type: src
+    docid:
+    - id: W3C xmldsig-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xmldsig-core-20080326
+    title:
+    - content: XML Signature Syntax and Processing (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PER-xmldsig-core-20080326/
       type: src
@@ -94,28 +128,25 @@ relation:
     - id: W3C PER-xmldsig-core-20080326
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xmldsig-core-20080326
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cxmldsigcore-errata.html
+    id: W3CWD-xmldsig-core1-20090226
+    title:
+    - content: XML Signature Syntax and Processing Version 1.1
+      format: text/plain
     link:
-    - content: https://www.w3.org/2008/06/xmldsigcore-errata.html
+    - content: https://www.w3.org/TR/2009/WD-xmldsig-core1-20090226/
       type: src
     docid:
-    - id: W3C xmldsigcore-errata.html
+    - id: W3C WD-xmldsig-core1-20090226
       type: W3C
       primary: true
-    formattedref:
-      content: W3C xmldsigcore-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xmldsig-core-20080610
 ext:

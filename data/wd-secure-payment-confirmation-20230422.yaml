@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-secure-payment-confirmation-20230422/
   type: src
-- content: https://w3c.github.io/secure-payment-confirmation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-secure-payment-confirmation-20230422
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rouslan Solomakhin
+      given:
+        forename:
+        - content: Rouslan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Solomakhin
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stephen McGruer
+      given:
+        forename:
+        - content: Stephen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGruer
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csecure-payment-confirmation
+    title:
+    - content: Secure Payment Confirmation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/secure-payment-confirmation/
+      type: src
+    docid:
+    - id: W3C secure-payment-confirmation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-secure-payment-confirmation-20230417
+    title:
+    - content: Secure Payment Confirmation
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-secure-payment-confirmation-20230417/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-secure-payment-confirmation-20230417
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-secure-payment-confirmation-20230417
+- type: updatedBy
+  bibitem:
+    id: W3CWD-secure-payment-confirmation-20230424
+    title:
+    - content: Secure Payment Confirmation
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-secure-payment-confirmation-20230424/
+      type: src
+    docid:
+    - id: W3C WD-secure-payment-confirmation-20230424
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-secure-payment-confirmation-20230422
 ext:

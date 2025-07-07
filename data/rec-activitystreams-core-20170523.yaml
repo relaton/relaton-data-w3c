@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-activitystreams-core-20170523/
   type: src
-- content: https://w3c.github.io/activitystreams/core/
-  type: current
 type: standard
 docid:
 - id: W3C REC-activitystreams-core-20170523
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Evan Prodromou
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snell
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Snell
+      given:
+        forename:
+        - content: Evan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prodromou
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitystreams-core
+    title:
+    - content: Activity Streams 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitystreams-core/
+      type: src
+    docid:
+    - id: W3C activitystreams-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-activitystreams-core-20170413
+    title:
+    - content: Activity Streams 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-activitystreams-core-20170413/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-activitystreams-core-20170413
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-activitystreams-core-20170413
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CERRATA.md
-    link:
-    - content: https://github.com/w3c/activitystreams/blob/master/ERRATA.md
-      type: src
-    docid:
-    - id: W3C ERRATA.md
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ERRATA.md
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-activitystreams-core-20170523
 ext:

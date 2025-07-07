@@ -5,7 +5,7 @@ title:
 - content: CSS Techniques for WCAG 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-WCAG20-CSS-TECHS-20050630/
+- content: https://www.w3.org/TR/2005/WD-WCAG20-CSS-TECHS-20050630/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Becky Gibson
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chisholm
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wendy Chisholm
+      given:
+        forename:
+        - content: Becky
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gibson
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWCAG20-TECHS
+    title:
+    - content: Techniques for WCAG 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WCAG20-TECHS/
+      type: src
+    docid:
+    - id: W3C WCAG20-TECHS
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WCAG20-CSS-TECHS-20041119
+    title:
+    - content: CSS Techniques for WCAG 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-WCAG20-CSS-TECHS-20041119/
+    - content: https://www.w3.org/TR/2004/WD-WCAG20-CSS-TECHS-20041119/
       type: src
     docid:
     - id: W3C WD-WCAG20-CSS-TECHS-20041119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WCAG20-CSS-TECHS-20041119
+- type: updatedBy
+  bibitem:
+    id: W3CWD-WCAG20-TECHS-20060427
+    title:
+    - content: Techniques for WCAG 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-WCAG20-TECHS-20060427/
+      type: src
+    docid:
+    - id: W3C WD-WCAG20-TECHS-20060427
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-WCAG20-CSS-TECHS-20050630
 ext:

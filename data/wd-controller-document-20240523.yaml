@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-controller-document-20240523/
   type: src
-- content: https://w3c.github.io/vc-controller-document/
-  type: current
 type: standard
 docid:
 - id: W3C WD-controller-document-20240523
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Jones
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccid-1.0
+    title:
+    - content: Controlled Identifiers v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cid-1.0/
+      type: src
+    docid:
+    - id: W3C cid-1.0
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-controller-document-20240611
+    title:
+    - content: Controller Documents 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-controller-document-20240611/
+      type: src
+    docid:
+    - id: W3C WD-controller-document-20240611
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-controller-document-20240523
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-mediacapture-depth-20170227/
   type: src
-- content: https://w3c.github.io/mediacapture-depth/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediacapture-depth-20170227
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ningxin Hu
+      given:
+        forename:
+        - content: Ningxin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hu
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rob Manson
+      given:
+        forename:
+        - content: Rob
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Manson
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-depth
+    title:
+    - content: Media Capture Depth Stream Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-depth/
+      type: src
+    docid:
+    - id: W3C mediacapture-depth
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediacapture-depth-20160712
+    title:
+    - content: Media Capture Depth Stream Extensions
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-mediacapture-depth-20160712/
+    - content: https://www.w3.org/TR/2016/WD-mediacapture-depth-20160712/
       type: src
     docid:
     - id: W3C WD-mediacapture-depth-20160712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediacapture-depth-20160712
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediacapture-depth-20170328
+    title:
+    - content: Media Capture Depth Stream Extensions
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-mediacapture-depth-20170328/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-depth-20170328
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mediacapture-depth-20170227
 ext:

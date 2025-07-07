@@ -5,10 +5,8 @@ title:
 - content: Preload
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-preload-20160209/
+- content: https://www.w3.org/TR/2016/WD-preload-20160209/
   type: src
-- content: http://w3c.github.io/preload/
-  type: current
 type: standard
 docid:
 - id: W3C WD-preload-20160209
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpreload
+    title:
+    - content: Preload
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/preload/
+      type: src
+    docid:
+    - id: W3C preload
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-preload-20160208
+    title:
+    - content: Preload
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-preload-20160208/
+    - content: https://www.w3.org/TR/2016/WD-preload-20160208/
       type: src
     docid:
     - id: W3C WD-preload-20160208
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-preload-20160208
+- type: updatedBy
+  bibitem:
+    id: W3CWD-preload-20160216
+    title:
+    - content: Preload
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-preload-20160216/
+      type: src
+    docid:
+    - id: W3C WD-preload-20160216
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-preload-20160209
 ext:

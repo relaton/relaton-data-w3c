@@ -5,7 +5,7 @@ title:
 - content: 'OWL 1.1 Web Ontology Language: Mapping to RDF Graphs'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-owl11-mapping-to-rdf-20080108/
+- content: https://www.w3.org/TR/2008/WD-owl11-mapping-to-rdf-20080108/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernardo Cuenca Grau
+      given:
+        forename:
+        - content: Bernardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cuenca Grau
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Boris Motik
+      given:
+        forename:
+        - content: Boris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Motik
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-mapping-to-rdf
+    title:
+    - content: OWL 2 Web Ontology Language Mapping to RDF Graphs (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-mapping-to-rdf/
+      type: src
+    docid:
+    - id: W3C owl2-mapping-to-rdf
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl2-mapping-to-rdf-20080411
+    title:
+    - content: OWL 2 Web Ontology Language:Mapping to RDF Graphs
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-owl2-mapping-to-rdf-20080411/
+      type: src
+    docid:
+    - id: W3C WD-owl2-mapping-to-rdf-20080411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl11-mapping-to-rdf-20080108
 ext:

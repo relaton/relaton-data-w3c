@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/REC-mediaqueries-3-20220405/
   type: src
-- content: https://drafts.csswg.org/mediaqueries-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-mediaqueries-3-20220405
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaqueries-3
+    title:
+    - content: Media Queries Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaqueries-3/
+      type: src
+    docid:
+    - id: W3C mediaqueries-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-css3-mediaqueries-20120619
+    title:
+    - content: Media Queries
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/
       type: src
@@ -56,28 +77,25 @@ relation:
     - id: W3C REC-css3-mediaqueries-20120619
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-css3-mediaqueries-20120619
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-mediaqueries-3-20220405-errata.html
+    id: W3CREC-mediaqueries-3-20240521
+    title:
+    - content: Media Queries Level 3
+      format: text/plain
     link:
-    - content: https://www.w3.org/Style/2022/REC-mediaqueries-3-20220405-errata.html
+    - content: https://www.w3.org/TR/2024/REC-mediaqueries-3-20240521/
       type: src
     docid:
-    - id: W3C REC-mediaqueries-3-20220405-errata.html
+    - id: W3C REC-mediaqueries-3-20240521
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-mediaqueries-3-20220405-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-mediaqueries-3-20220405
 ext:
@@ -85,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

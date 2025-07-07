@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Dean Jackson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-04-22'
 language:
 - en
@@ -43,9 +33,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVG2Reqs
+    title:
+    - content: SVG 1.1/1.2/2.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVG2Reqs/
+      type: src
+    docid:
+    - id: W3C SVG2Reqs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-SVG2Reqs-20020422
 ext:

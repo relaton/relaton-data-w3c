@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Weck
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weck
         language:
         - en
         script:
@@ -40,23 +47,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-speech-1
+    title:
+    - content: CSS Speech Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-speech-1/
+      type: src
+    docid:
+    - id: W3C css-speech-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css3-speech-20120320
+    title:
+    - content: CSS Speech Module
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-css3-speech-20120320/
+    - content: https://www.w3.org/TR/2012/CR-css3-speech-20120320/
       type: src
     docid:
     - id: W3C CR-css3-speech-20120320
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css3-speech-20120320
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-speech-1-20200310
+    title:
+    - content: CSS Speech Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
+      type: src
+    docid:
+    - id: W3C CR-css-speech-1-20200310
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-css3-speech-20180605
 ext:
@@ -64,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

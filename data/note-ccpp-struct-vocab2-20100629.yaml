@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cédric Kiss
+      given:
+        forename:
+        - content: Cédric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kiss
         language:
         - en
         script:
@@ -41,10 +48,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCCPP-struct-vocab2
+    title:
+    - content: 'Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies
+        2.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CCPP-struct-vocab2/
+      type: src
+    docid:
+    - id: W3C CCPP-struct-vocab2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-CCPP-struct-vocab2-20070430
+    title:
+    - content: 'Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies
+        2.0'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-CCPP-struct-vocab2-20070430
       type: src
@@ -52,12 +80,9 @@ relation:
     - id: W3C WD-CCPP-struct-vocab2-20070430
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CCPP-struct-vocab2-20070430
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-CCPP-struct-vocab2-20100629
 ext:

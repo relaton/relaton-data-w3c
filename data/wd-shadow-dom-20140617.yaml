@@ -5,10 +5,8 @@ title:
 - content: Shadow DOM
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-shadow-dom-20140617/
+- content: https://www.w3.org/TR/2014/WD-shadow-dom-20140617/
   type: src
-- content: http://w3c.github.io/webcomponents/spec/shadow/
-  type: current
 type: standard
 docid:
 - id: W3C WD-shadow-dom-20140617
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitri Glazkov
+      given:
+        forename:
+        - content: Dimitri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazkov
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hayato Ito
+      given:
+        forename:
+        - content: Hayato
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ito
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshadow-dom
+    title:
+    - content: Shadow DOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shadow-dom/
+      type: src
+    docid:
+    - id: W3C shadow-dom
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-shadow-dom-20130514
+    title:
+    - content: Shadow DOM
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-shadow-dom-20130514/
+    - content: https://www.w3.org/TR/2013/WD-shadow-dom-20130514/
       type: src
     docid:
     - id: W3C WD-shadow-dom-20130514
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-shadow-dom-20130514
+- type: updatedBy
+  bibitem:
+    id: W3CWD-shadow-dom-20151006
+    title:
+    - content: Shadow DOM
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-shadow-dom-20151006/
+      type: src
+    docid:
+    - id: W3C WD-shadow-dom-20151006
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-shadow-dom-20140617
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

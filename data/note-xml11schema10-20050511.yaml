@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Henry Thompson
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml11schema10
+    title:
+    - content: Processing XML 1.1 documents with XML Schema 1.0 processors
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml11schema10/
+      type: src
+    docid:
+    - id: W3C xml11schema10
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml11schema10-20050511
 ext:

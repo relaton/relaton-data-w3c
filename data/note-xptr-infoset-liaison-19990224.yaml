@@ -25,24 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Steven DeRose
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1999-02-24'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-xptr-infoset-liaison
+    title:
+    - content: XPointer-Information Set Liaison Statement Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-xptr-infoset-liaison
+      type: src
+    docid:
+    - id: W3C NOTE-xptr-infoset-liaison
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xptr-infoset-liaison-19990224
 ext:

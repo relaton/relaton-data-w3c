@@ -5,10 +5,8 @@ title:
 - content: Linked Data Platform 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/CR-ldp-20140619/
+- content: https://www.w3.org/TR/2014/CR-ldp-20140619/
   type: src
-- content: http://www.w3.org/2012/ldp/hg/ldp.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-ldp-20140619
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Speicher
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Arwe
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arwe
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Speicher
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -64,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldp
+    title:
+    - content: Linked Data Platform 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldp/
+      type: src
+    docid:
+    - id: W3C ldp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ldp-20140311
+    title:
+    - content: Linked Data Platform 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-ldp-20140311/
+    - content: https://www.w3.org/TR/2014/WD-ldp-20140311/
       type: src
     docid:
     - id: W3C WD-ldp-20140311
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ldp-20140311
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ldp-20140916
+    title:
+    - content: Linked Data Platform 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-ldp-20140916/
+      type: src
+    docid:
+    - id: W3C WD-ldp-20140916
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ldp-20140619
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

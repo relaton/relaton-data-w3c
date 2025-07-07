@@ -5,7 +5,7 @@ title:
 - content: XML Path Language (XPath) 2.0 (Second Edition)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/PER-xpath20-20090421/
+- content: https://www.w3.org/TR/2009/PER-xpath20-20090421/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Chamberlin
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boag
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -57,38 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jérôme Siméon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary F. Fernández
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Kay
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Boag
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -106,20 +104,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-xpath20-20070123
+    id: W3Cxpath20
+    title:
+    - content: XML Path Language (XPath) 2.0 (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/REC-xpath20-20070123/
+    - content: https://www.w3.org/TR/xpath20/
       type: src
     docid:
-    - id: W3C REC-xpath20-20070123
+    - id: W3C xpath20
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xpath20-20070123
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xpath20-20101214
+    title:
+    - content: XML Path Language (XPath) 2.0 (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-xpath20-20101214/
+      type: src
+    docid:
+    - id: W3C REC-xpath20-20101214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xpath20-20090421
 ext:
@@ -127,5 +141,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

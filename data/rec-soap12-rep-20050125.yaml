@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anish Karmarkar
+      given:
+        forename:
+        - content: Anish
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Karmarkar
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Gudgin
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-rep
+    title:
+    - content: Resource Representation SOAP Header Block
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-rep/
+      type: src
+    docid:
+    - id: W3C soap12-rep
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-soap12-rep-20041116
+    title:
+    - content: Resource Representation SOAP Header Block
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/PR-soap12-rep-20041116/
       type: src
@@ -74,28 +111,9 @@ relation:
     - id: W3C PR-soap12-rep-20041116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-soap12-rep-20041116
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Csoap12-rep-errata
-    link:
-    - content: https://www.w3.org/2005/01/soap12-rep-errata
-      type: src
-    docid:
-    - id: W3C soap12-rep-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C soap12-rep-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-soap12-rep-20050125
 ext:

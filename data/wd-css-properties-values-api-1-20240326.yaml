@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-css-properties-values-api-1-20240326/
   type: src
-- content: https://drafts.css-houdini.org/css-properties-values-api-1/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-properties-values-api-1-20240326
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alan Stearns
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Greg Whitworth
+      given:
+        forename:
+        - content: Alan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stearns
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Whitworth
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-properties-values-api-1
+    title:
+    - content: CSS Properties and Values API Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-properties-values-api-1/
+      type: src
+    docid:
+    - id: W3C css-properties-values-api-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-properties-values-api-1-20201013
+    title:
+    - content: CSS Properties and Values API Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-css-properties-values-api-1-20201013/
       type: src
@@ -76,12 +111,9 @@ relation:
     - id: W3C WD-css-properties-values-api-1-20201013
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-properties-values-api-1-20201013
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-properties-values-api-1-20240326
 ext:
@@ -89,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

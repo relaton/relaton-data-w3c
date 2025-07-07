@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-mediastream-recording-20210215/
   type: src
-- content: https://w3c.github.io/mediacapture-record/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediastream-recording-20210215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Barnett
+      given:
+        forename:
+        - content: Miguel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Casas-sanchez
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Miguel Casas-sanchez
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Barnett
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediastream-recording
+    title:
+    - content: MediaStream Recording
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediastream-recording/
+      type: src
+    docid:
+    - id: W3C mediastream-recording
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediastream-recording-20210208
+    title:
+    - content: MediaStream Recording
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-mediastream-recording-20210208/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-mediastream-recording-20210208
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediastream-recording-20210208
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediastream-recording-20210216
+    title:
+    - content: MediaStream Recording
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-mediastream-recording-20210216/
+      type: src
+    docid:
+    - id: W3C WD-mediastream-recording-20210216
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mediastream-recording-20210215
 ext:

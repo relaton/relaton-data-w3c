@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Crdf-syntax-grammar
 title:
-- content: RDF/XML Syntax Specification (Revised)
+- content: RDF 1.1 XML Syntax
   format: text/plain
 link:
-- content: http://www.w3.org/TR/rdf-syntax-grammar
+- content: https://www.w3.org/TR/rdf-syntax-grammar/
   type: src
 type: standard
 docid:
@@ -26,65 +26,244 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-syntax-grammar-20021108
+    id: W3CREC-rdf-syntax-grammar-20140225
+    title:
+    - content: RDF 1.1 XML Syntax
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-rdf-syntax-grammar-20021108
+    - content: https://www.w3.org/TR/2014/REC-rdf-syntax-grammar-20140225/
       type: src
     docid:
-    - id: W3C WD-rdf-syntax-grammar-20021108
+    - id: W3C REC-rdf-syntax-grammar-20140225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-syntax-grammar-20021108
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-syntax-grammar-20030123
+    id: W3CPER-rdf-syntax-grammar-20140109
+    title:
+    - content: RDF 1.1 XML Syntax
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20030123
+    - content: https://www.w3.org/TR/2014/PER-rdf-syntax-grammar-20140109/
       type: src
     docid:
-    - id: W3C WD-rdf-syntax-grammar-20030123
+    - id: W3C PER-rdf-syntax-grammar-20140109
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-syntax-grammar-20030123
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-syntax-grammar-20030905
+    id: W3CREC-rdf-syntax-grammar-20040210
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20030905
+    - content: https://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/
       type: src
     docid:
-    - id: W3C WD-rdf-syntax-grammar-20030905
+    - id: W3C REC-rdf-syntax-grammar-20040210
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-syntax-grammar-20030905
+- type: hasEdition
+  bibitem:
+    id: W3CPR-rdf-syntax-grammar-20031215
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2003/PR-rdf-syntax-grammar-20031215/
+      type: src
+    docid:
+    - id: W3C PR-rdf-syntax-grammar-20031215
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-rdf-syntax-grammar-20031010
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20031010/
+    - content: https://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20031010/
       type: src
     docid:
     - id: W3C WD-rdf-syntax-grammar-20031010
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-syntax-grammar-20031010
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20030905
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20030905
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20030905
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20030123
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-rdf-syntax-grammar-20030123
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20030123
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20021108
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-rdf-syntax-grammar-20021108
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20021108
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20020325
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-rdf-syntax-grammar-20020325
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20020325
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20011218
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20011218
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20011218
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-grammar-20010906
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20010906
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-grammar-20010906
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-rdf-syntax-19990222
+    title:
+    - content: Resource Description Framework (RDF) Model and Syntax Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/
+      type: src
+    docid:
+    - id: W3C REC-rdf-syntax-19990222
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-rdf-syntax-19990105
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/PR-rdf-syntax-19990105
+      type: src
+    docid:
+    - id: W3C PR-rdf-syntax-19990105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-19981008
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/1998/10/WD-rdf-syntax-19981008
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-19981008
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-19980819
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-rdf-syntax-19980819
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-19980819
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-19980720
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-rdf-syntax-19980720
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-19980720
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-19980216
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-rdf-syntax-19980216
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-19980216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-syntax-971002
+    title:
+    - content: RDF/XML Syntax Specification (Revised)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-rdf-syntax-971002
+      type: src
+    docid:
+    - id: W3C WD-rdf-syntax-971002
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: rdf-syntax-grammar
 ext:

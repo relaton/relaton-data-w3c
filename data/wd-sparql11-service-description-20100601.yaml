@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Service Description
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-sparql11-service-description-20100601/
+- content: https://www.w3.org/TR/2010/WD-sparql11-service-description-20100601/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregory Todd Williams
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-service-description
+    title:
+    - content: SPARQL 1.1 Service Description
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-service-description/
+      type: src
+    docid:
+    - id: W3C sparql11-service-description
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql11-service-description-20100126
+    title:
+    - content: SPARQL 1.1 Service Description
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-sparql11-service-description-20100126/
+    - content: https://www.w3.org/TR/2010/WD-sparql11-service-description-20100126/
       type: src
     docid:
     - id: W3C WD-sparql11-service-description-20100126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql11-service-description-20100126
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sparql11-service-description-20101014
+    title:
+    - content: SPARQL 1.1 Service Description
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-sparql11-service-description-20101014/
+      type: src
+    docid:
+    - id: W3C WD-sparql11-service-description-20101014
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sparql11-service-description-20100601
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-push-api-20170427/
   type: src
-- content: https://w3c.github.io/push-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-push-api-20170427
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bryan Sullivan
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Beverloo
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eduardo Fullea
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Thomson
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Ouwerkerk
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael van Ouwerkerk
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sullivan
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Beverloo
+      given:
+        forename:
+        - content: Eduardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fullea
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpush-api
+    title:
+    - content: Push API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/push-api/
+      type: src
+    docid:
+    - id: W3C push-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-push-api-20170425
+    title:
+    - content: Push API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-push-api-20170425/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C WD-push-api-20170425
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-push-api-20170425
+- type: updatedBy
+  bibitem:
+    id: W3CWD-push-api-20170503
+    title:
+    - content: Push API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-push-api-20170503/
+      type: src
+    docid:
+    - id: W3C WD-push-api-20170503
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-push-api-20170427
 ext:
@@ -109,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

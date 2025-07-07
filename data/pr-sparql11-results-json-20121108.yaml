@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Query Results JSON Format
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PR-sparql11-results-json-20121108/
+- content: https://www.w3.org/TR/2012/PR-sparql11-results-json-20121108/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-results-json
+    title:
+    - content: SPARQL 1.1 Query Results JSON Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-results-json/
+      type: src
+    docid:
+    - id: W3C sparql11-results-json
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql11-results-json-20110913
+    title:
+    - content: SPARQL 1.1 Query Results JSON Format
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
+    - content: https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
       type: src
     docid:
     - id: W3C WD-sparql11-results-json-20110913
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql11-results-json-20110913
+- type: updatedBy
+  bibitem:
+    id: W3CREC-sparql11-results-json-20130321
+    title:
+    - content: SPARQL 1.1 Query Results JSON Format
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321/
+      type: src
+    docid:
+    - id: W3C REC-sparql11-results-json-20130321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-sparql11-results-json-20121108
 ext:

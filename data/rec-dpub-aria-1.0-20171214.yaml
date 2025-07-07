@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/REC-dpub-aria-1.0-20171214/
   type: src
-- content: https://w3c.github.io/dpub-aria/
-  type: current
 type: standard
 docid:
 - id: W3C REC-dpub-aria-1.0-20171214
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Markus Gylling
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Tzviya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Siegman
         language:
         - en
         script:
@@ -49,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tzviya Siegman
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -76,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-aria-1.0
+    title:
+    - content: Digital Publishing WAI-ARIA Module 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-aria-1.0/
+      type: src
+    docid:
+    - id: W3C dpub-aria-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-dpub-aria-1.0-20171102
+    title:
+    - content: Digital Publishing WAI-ARIA Module 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-dpub-aria-1.0-20171102/
       type: src
@@ -86,28 +111,9 @@ relation:
     - id: W3C PR-dpub-aria-1.0-20171102
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-dpub-aria-1.0-20171102
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cdpub
-    link:
-    - content: https://www.w3.org/WAI/ARIA/1.1/errata/dpub
-      type: src
-    docid:
-    - id: W3C dpub
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C dpub
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-dpub-aria-1.0-20171214
 ext:

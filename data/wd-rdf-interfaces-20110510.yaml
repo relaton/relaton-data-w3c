@@ -5,7 +5,7 @@ title:
 - content: RDF Interfaces 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-rdf-interfaces-20110510/
+- content: https://www.w3.org/TR/2011/WD-rdf-interfaces-20110510/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Adrian
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Nathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rixham
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nathan Rixham
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adrian
         language:
         - en
         script:
@@ -63,9 +84,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-interfaces
+    title:
+    - content: RDF Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-interfaces/
+      type: src
+    docid:
+    - id: W3C rdf-interfaces
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-rdf-interfaces-20120705
+    title:
+    - content: RDF Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/NOTE-rdf-interfaces-20120705/
+      type: src
+    docid:
+    - id: W3C NOTE-rdf-interfaces-20120705
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-interfaces-20110510
 ext:

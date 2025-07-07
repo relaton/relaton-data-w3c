@@ -5,7 +5,7 @@ title:
 - content: XFrames
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-xframes-20051012
+- content: https://www.w3.org/TR/2005/WD-xframes-20051012
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxframes
+    title:
+    - content: XFrames
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xframes/
+      type: src
+    docid:
+    - id: W3C xframes
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xframes-20020806
+    title:
+    - content: XFrames
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xframes-20020806
+    - content: https://www.w3.org/TR/2002/WD-xframes-20020806
       type: src
     docid:
     - id: W3C WD-xframes-20020806
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xframes-20020806
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xframes-20101216
+    title:
+    - content: XFrames
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/NOTE-xframes-20101216/
+      type: src
+    docid:
+    - id: W3C NOTE-xframes-20101216
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xframes-20051012
 ext:

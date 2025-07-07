@@ -5,7 +5,7 @@ title:
 - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/
+- content: https://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -37,48 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: C. M. Sperberg-McQueen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Peterson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henry S. Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul V. Biron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shudi (Sandy) Gao
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -92,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema11-2
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema11-2/
+      type: src
+    docid:
+    - id: W3C xmlschema11-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xmlschema11-2-20090430
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-xmlschema11-2-20090430/
+    - content: https://www.w3.org/TR/2009/CR-xmlschema11-2-20090430/
       type: src
     docid:
     - id: W3C CR-xmlschema11-2-20090430
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xmlschema11-2-20090430
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xmlschema11-2-20110721
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-xmlschema11-2-20110721/
+      type: src
+    docid:
+    - id: W3C CR-xmlschema11-2-20110721
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xmlschema11-2-20091203
 ext:

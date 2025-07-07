@@ -5,7 +5,7 @@ title:
 - content: OWL 2 Web Ontology Language Document Overview
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-owl2-overview-20090421/
+- content: https://www.w3.org/TR/2009/WD-owl2-overview-20090421/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: W3C OWL Working Group
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2009-04-21'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-overview
+    title:
+    - content: OWL 2 Web Ontology Language Document Overview (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-overview/
+      type: src
+    docid:
+    - id: W3C owl2-overview
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-owl2-overview-20090327
+    title:
+    - content: OWL 2 Web Ontology Language Document Overview
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-owl2-overview-20090327/
+    - content: https://www.w3.org/TR/2009/WD-owl2-overview-20090327/
       type: src
     docid:
     - id: W3C WD-owl2-overview-20090327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-owl2-overview-20090327
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl2-overview-20090611
+    title:
+    - content: OWL 2 Web Ontology Language Document Overview
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-owl2-overview-20090611/
+      type: src
+    docid:
+    - id: W3C WD-owl2-overview-20090611
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl2-overview-20090421
 ext:

@@ -5,7 +5,7 @@ title:
 - content: XML Key Management Specification (XKMS)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/NOTE-xkms-20010330/
+- content: https://www.w3.org/TR/2001/NOTE-xkms-20010330/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Barbara Fox
+      given:
+        forename:
+        - content: Phillip
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hallam-Baker
         language:
         - en
         script:
@@ -37,58 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Blair Dillaway
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Brian LaMacchia
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jeremy Epstein
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Joe Lapp
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phillip Hallam-Baker
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Warwick Ford
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaMacchia
         language:
         - en
         script:
@@ -100,12 +64,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxkms
+    title:
+    - content: XML Key Management Specification (XKMS)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xkms/
+      type: src
+    docid:
+    - id: W3C xkms
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xkms-20010330
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

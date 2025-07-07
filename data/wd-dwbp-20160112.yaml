@@ -5,10 +5,8 @@ title:
 - content: Data on the Web Best Practices
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-dwbp-20160112/
+- content: https://www.w3.org/TR/2016/WD-dwbp-20160112/
   type: src
-- content: http://w3c.github.io/dwbp/bp.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-dwbp-20160112
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernadette Farias Loscio
+      given:
+        forename:
+        - content: Bernadette
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Farias Loscio
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Caroline Burle
+      given:
+        forename:
+        - content: Caroline
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burle
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Newton Calegari
+      given:
+        forename:
+        - content: Newton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Calegari
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdwbp
+    title:
+    - content: Data on the Web Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dwbp/
+      type: src
+    docid:
+    - id: W3C dwbp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dwbp-20151217
+    title:
+    - content: Data on the Web Best Practices
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-dwbp-20151217/
+    - content: https://www.w3.org/TR/2015/WD-dwbp-20151217/
       type: src
     docid:
     - id: W3C WD-dwbp-20151217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dwbp-20151217
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dwbp-20160519
+    title:
+    - content: Data on the Web Best Practices
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-dwbp-20160519/
+      type: src
+    docid:
+    - id: W3C WD-dwbp-20160519
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dwbp-20160112
 ext:

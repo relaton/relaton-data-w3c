@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Birbeck
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: T.V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raman
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: T.V. Raman
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -80,10 +115,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-role
+    title:
+    - content: XHTML Role Attribute Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-role/
+      type: src
+    docid:
+    - id: W3C xhtml-role
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-role-20080407
+    title:
+    - content: XHTML Role Attribute Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-xhtml-role-20080407
       type: src
@@ -91,12 +145,9 @@ relation:
     - id: W3C WD-xhtml-role-20080407
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-role-20080407
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-xhtml-role-20101216
 ext:

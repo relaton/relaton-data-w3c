@@ -5,7 +5,7 @@ title:
 - content: Media Accessibility User Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-media-accessibility-reqs-20120103/
+- content: https://www.w3.org/TR/2012/WD-media-accessibility-reqs-20120103/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-accessibility-reqs
+    title:
+    - content: Media Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-accessibility-reqs/
+      type: src
+    docid:
+    - id: W3C media-accessibility-reqs
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-media-accessibility-reqs-20140814
+    title:
+    - content: Media Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140814/
+      type: src
+    docid:
+    - id: W3C WD-media-accessibility-reqs-20140814
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-media-accessibility-reqs-20120103
 ext:

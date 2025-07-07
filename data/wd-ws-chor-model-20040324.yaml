@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Burdett
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burdett
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nickolas Kavantzas
+      given:
+        forename:
+        - content: Nickolas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kavantzas
         language:
         - en
         script:
@@ -52,10 +66,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-chor-model
+    title:
+    - content: WS Choreography Model Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-chor-model/
+      type: src
+    docid:
+    - id: W3C ws-chor-model
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-ws-chor-model-20040324
 ext:

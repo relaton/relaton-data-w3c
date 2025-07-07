@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-annotation-html-20170223/
   type: src
-- content: https://w3c.github.io/web-annotation/serialization-html-note/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-annotation-html-20170223
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Young
+      given:
+        forename:
+        - content: Timothy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cole
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Sarven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Capadisli
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sarven Capadisli
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Young
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Timothy Cole
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -72,9 +98,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cannotation-html
+    title:
+    - content: Embedding Web Annotations in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/annotation-html/
+      type: src
+    docid:
+    - id: W3C annotation-html
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-annotation-html-20170223
 ext:
@@ -82,4 +125,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Annotation Working Group
+  - name: Web Annotation Working Group

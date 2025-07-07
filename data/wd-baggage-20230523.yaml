@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-baggage-20230523/
   type: src
-- content: https://w3c.github.io/baggage/
-  type: current
 type: standard
 docid:
 - id: W3C WD-baggage-20230523
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Sergey Kanzhelev
+      given:
+        forename:
+        - content: Sergey
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kanzhelev
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yuri Shkuro
+      given:
+        forename:
+        - content: Yuri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shkuro
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbaggage
+    title:
+    - content: 'Propagation format for distributed context: Baggage'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/baggage/
+      type: src
+    docid:
+    - id: W3C baggage
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-baggage-20220928
+    title:
+    - content: 'Propagation format for distributed context: Baggage'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-baggage-20220928/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-baggage-20220928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-baggage-20220928
+- type: updatedBy
+  bibitem:
+    id: W3CWD-baggage-20230810
+    title:
+    - content: 'Propagation format for distributed context: Baggage'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-baggage-20230810/
+      type: src
+    docid:
+    - id: W3C WD-baggage-20230810
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-baggage-20230523
 ext:

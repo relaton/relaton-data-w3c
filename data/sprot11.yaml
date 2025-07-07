@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-sprot11-20051024
+    title:
+    - content: SPARQL Protocol for RDF Using WSDL 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-sprot11-20051024/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-sprot11-20051024
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sprot11-20051024
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: sprot11
 ext:

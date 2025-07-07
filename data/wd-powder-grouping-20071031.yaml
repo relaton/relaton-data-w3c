@@ -5,7 +5,7 @@ title:
 - content: 'Protocol for Web Description Resources (POWDER): Grouping of Resources'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-powder-grouping-20071031/
+- content: https://www.w3.org/TR/2007/WD-powder-grouping-20071031/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrea Perego
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Andrea
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Perego
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-grouping
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Grouping of Resources'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-grouping/
+      type: src
+    docid:
+    - id: W3C powder-grouping
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-powder-grouping-20070709
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Grouping of Resources'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-powder-grouping-20070709/
+    - content: https://www.w3.org/TR/2007/WD-powder-grouping-20070709/
       type: src
     docid:
     - id: W3C WD-powder-grouping-20070709
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-powder-grouping-20070709
+- type: updatedBy
+  bibitem:
+    id: W3CWD-powder-grouping-20080324
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Grouping of Resources'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-powder-grouping-20080324/
+      type: src
+    docid:
+    - id: W3C WD-powder-grouping-20080324
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-powder-grouping-20071031
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

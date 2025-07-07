@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-mlreq-20200616/
   type: src
-- content: https://w3c.github.io/mlreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mlreq-20200616
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmlreq
+    title:
+    - content: Mongolian Layout Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mlreq/
+      type: src
+    docid:
+    - id: W3C mlreq
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-mlreq-20231124
+    title:
+    - content: Mongolian Layout Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-mlreq-20231124/
+      type: src
+    docid:
+    - id: W3C DNOTE-mlreq-20231124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mlreq-20200616
 ext:

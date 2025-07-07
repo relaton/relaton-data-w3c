@@ -5,10 +5,8 @@ title:
 - content: Media Source Extensions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/CR-media-source-20140109/
+- content: https://www.w3.org/TR/2014/CR-media-source-20140109/
   type: src
-- content: http://dvcs.w3.org/hg/html-media/raw-file/default/media-source/media-source.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-media-source-20140109
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Colwell
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Colwell
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -64,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-source-1
+    title:
+    - content: Media Source Extensions™
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-source-1/
+      type: src
+    docid:
+    - id: W3C media-source-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-media-source-20130905
+    title:
+    - content: Media Source Extensions
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-media-source-20130905/
+    - content: https://www.w3.org/TR/2013/WD-media-source-20130905/
       type: src
     docid:
     - id: W3C WD-media-source-20130905
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-media-source-20130905
+- type: updatedBy
+  bibitem:
+    id: W3CCR-media-source-20140717
+    title:
+    - content: Media Source Extensions
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-media-source-20140717/
+      type: src
+    docid:
+    - id: W3C CR-media-source-20140717
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-media-source-20140109
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

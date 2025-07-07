@@ -5,10 +5,8 @@ title:
 - content: Spatial Data on the Web Best Practices
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-sdw-bp-20160119/
+- content: https://www.w3.org/TR/2016/WD-sdw-bp-20160119/
   type: src
-- content: http://w3c.github.io/sdw/bp/
-  type: current
 type: standard
 docid:
 - id: W3C WD-sdw-bp-20160119
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeremy Tandy
+      given:
+        forename:
+        - content: Jeremy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tandy
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Linda van den Brink
+      given:
+        forename:
+        - content: Payam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Barnaghi
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Payam Barnaghi
+      given:
+        forename:
+        - content: Linda
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van den Brink
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csdw-bp
+    title:
+    - content: Spatial Data on the Web Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sdw-bp/
+      type: src
+    docid:
+    - id: W3C sdw-bp
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-sdw-bp-20161025
+    title:
+    - content: Spatial Data on the Web Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-sdw-bp-20161025/
+      type: src
+    docid:
+    - id: W3C NOTE-sdw-bp-20161025
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-sdw-bp-20160119
 ext:
@@ -75,4 +124,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

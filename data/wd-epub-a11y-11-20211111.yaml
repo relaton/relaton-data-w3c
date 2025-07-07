@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-epub-a11y-11-20211111/
   type: src
-- content: https://w3c.github.io/epub-specs/epub33/a11y/
-  type: current
 type: standard
 docid:
 - id: W3C WD-epub-a11y-11-20211111
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Avneesh Singh
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Charles LaPierre
+      given:
+        forename:
+        - content: George
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kerscher
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: George Kerscher
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaPierre
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregorio Pellegrino
+      given:
+        forename:
+        - content: Gregorio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellegrino
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Avneesh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singh
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cepub-a11y-11
+    title:
+    - content: EPUB Accessibility 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/epub-a11y-11/
+      type: src
+    docid:
+    - id: W3C epub-a11y-11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-epub-a11y-11-20211101
+    title:
+    - content: EPUB Accessibility 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-epub-a11y-11-20211101/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C WD-epub-a11y-11-20211101
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-epub-a11y-11-20211101
+- type: updatedBy
+  bibitem:
+    id: W3CWD-epub-a11y-11-20211123
+    title:
+    - content: EPUB Accessibility 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-epub-a11y-11-20211123/
+      type: src
+    docid:
+    - id: W3C WD-epub-a11y-11-20211123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-epub-a11y-11-20211111
 ext:

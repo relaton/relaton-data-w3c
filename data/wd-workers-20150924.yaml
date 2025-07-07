@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/WD-workers-20150924/
   type: src
-- content: https://html.spec.whatwg.org/multipage/workers.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-workers-20150924
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cworkers
+    title:
+    - content: Web Workers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/workers/
+      type: src
+    docid:
+    - id: W3C workers
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-workers-20120501
+    title:
+    - content: Web Workers
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/CR-workers-20120501/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C CR-workers-20120501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-workers-20120501
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-workers-20210128
+    title:
+    - content: Web Workers
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-workers-20210128/
+      type: src
+    docid:
+    - id: W3C NOTE-workers-20210128
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-workers-20150924
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

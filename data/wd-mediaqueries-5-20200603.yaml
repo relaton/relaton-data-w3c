@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-mediaqueries-5-20200603/
   type: src
-- content: https://drafts.csswg.org/mediaqueries-5/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediaqueries-5-20200603
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dean Jackson
+      given:
+        forename:
+        - content: Dean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jackson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaqueries-5
+    title:
+    - content: Media Queries Level 5
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaqueries-5/
+      type: src
+    docid:
+    - id: W3C mediaqueries-5
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediaqueries-5-20200318
+    title:
+    - content: Media Queries Level 5
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-mediaqueries-5-20200318/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-mediaqueries-5-20200318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediaqueries-5-20200318
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediaqueries-5-20200715
+    title:
+    - content: Media Queries Level 5
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-mediaqueries-5-20200715/
+      type: src
+    docid:
+    - id: W3C WD-mediaqueries-5-20200715
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mediaqueries-5-20200603
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

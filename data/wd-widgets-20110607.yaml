@@ -5,7 +5,7 @@ title:
 - content: Widget Packaging and XML Configuration
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-widgets-20110607/
+- content: https://www.w3.org/TR/2011/WD-widgets-20110607/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -42,24 +49,54 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets
+    title:
+    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+        Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets/
+      type: src
+    docid:
+    - id: W3C widgets
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-widgets-20110322
+    title:
+    - content: Widget Packaging and Configuration
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-widgets-20110322/
+    - content: https://www.w3.org/TR/2011/WD-widgets-20110322/
       type: src
     docid:
     - id: W3C WD-widgets-20110322
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-widgets-20110322
+- type: updatedBy
+  bibitem:
+    id: W3CPR-widgets-20110811
+    title:
+    - content: Widget Packaging and XML Configuration
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-widgets-20110811/
+      type: src
+    docid:
+    - id: W3C PR-widgets-20110811
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-widgets-20110607
 ext:
@@ -67,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

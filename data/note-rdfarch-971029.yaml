@@ -5,7 +5,7 @@ title:
 - content: W3C Data Formats
   format: text/plain
 link:
-- content: http://www.w3.org/TR/NOTE-rdfarch-971029
+- content: https://www.w3.org/TR/NOTE-rdfarch-971029
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Tim Berners-Lee
+      given:
+        forename:
+        - content: Tim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berners-Lee
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-rdfarch
+    title:
+    - content: W3C Data Formats
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-rdfarch
+      type: src
+    docid:
+    - id: W3C NOTE-rdfarch
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-rdfarch-971029
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

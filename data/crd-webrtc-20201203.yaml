@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CRD-webrtc-20201203/
   type: src
-- content: https://w3c.github.io/webrtc-pc/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-webrtc-20201203
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Bergkvist
+      given:
+        forename:
+        - content: Cullen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anant Narayanan
+      given:
+        forename:
+        - content: Henrik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boström
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bernard Aboba
+      given:
+        forename:
+        - content: Jan-Ivar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bruaroey
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cullen Jennings
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bergkvist
         language:
         - en
         script:
@@ -69,38 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henrik Boström
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jan-Ivar Bruaroey
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Taylor Brandstetter
+      given:
+        forename:
+        - content: Taylor
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brandstetter
         language:
         - en
         script:
@@ -114,11 +117,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc
+    title:
+    - content: 'WebRTC: Real-Time Communication in Browsers'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc/
+      type: src
+    docid:
+    - id: W3C webrtc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-webrtc-20201201
+    title:
+    - content: 'WebRTC 1.0: Real-Time Communication Between Browsers'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CRD-webrtc-20201201/
       type: src
@@ -126,12 +145,25 @@ relation:
     - id: W3C CRD-webrtc-20201201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-webrtc-20201201
+- type: updatedBy
+  bibitem:
+    id: W3CPR-webrtc-20201215
+    title:
+    - content: 'WebRTC 1.0: Real-Time Communication Between Browsers'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/PR-webrtc-20201215/
+      type: src
+    docid:
+    - id: W3C PR-webrtc-20201215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-webrtc-20201203
 ext:

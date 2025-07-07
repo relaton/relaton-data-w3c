@@ -5,7 +5,7 @@ title:
 - content: 'QA Framework: Specification Guidelines'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/CR-qaframe-spec-20031110/
+- content: https://www.w3.org/TR/2003/CR-qaframe-spec-20031110/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominique Hazaël-Massieux
+      given:
+        forename:
+        - content: Dominique
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hazaël-Massieux
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lofton Henderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lynne Rosenthal
+      given:
+        forename:
+        - content: Lofton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henderson
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cqaframe-spec
+    title:
+    - content: 'QA Framework: Specification Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/qaframe-spec/
+      type: src
+    docid:
+    - id: W3C qaframe-spec
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-qaframe-spec-20030912
+    title:
+    - content: 'QA Framework: Specification Guidelines'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-qaframe-spec-20030912/
+    - content: https://www.w3.org/TR/2003/WD-qaframe-spec-20030912/
       type: src
     docid:
     - id: W3C WD-qaframe-spec-20030912
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-qaframe-spec-20030912
+- type: updatedBy
+  bibitem:
+    id: W3CWD-qaframe-spec-20040602
+    title:
+    - content: QA Specification Guidelines
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-qaframe-spec-20040602/
+      type: src
+    docid:
+    - id: W3C WD-qaframe-spec-20040602
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-qaframe-spec-20031110
 ext:

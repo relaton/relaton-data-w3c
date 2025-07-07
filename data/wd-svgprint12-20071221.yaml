@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Danilo
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Danilo
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrew Shellshear
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Anthony Grasso
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Chris Lilley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Craig Northway
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -82,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVGPrint12
+    title:
+    - content: 'SVG Print 1.2, Part 2: Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVGPrint12/
+      type: src
+    docid:
+    - id: W3C SVGPrint12
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-SVGPrint12-20070501
+    title:
+    - content: 'SVG Print 1.2, Part 2: Language'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-SVGPrint12-20070501/
       type: src
@@ -94,12 +94,9 @@ relation:
     - id: W3C WD-SVGPrint12-20070501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGPrint12-20070501
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-SVGPrint12-20071221
 ext:

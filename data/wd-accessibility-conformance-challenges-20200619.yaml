@@ -8,8 +8,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-accessibility-conformance-challenges-20200619/
   type: src
-- content: https://w3c.github.io/wcag/conformance-challenges/
-  type: current
 type: standard
 docid:
 - id: W3C WD-accessibility-conformance-challenges-20200619
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles Hall
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -40,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Korn
         language:
         - en
         script:
@@ -50,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Korn
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hall
         language:
         - en
         script:
@@ -67,9 +86,27 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Caccessibility-conformance-challenges
+    title:
+    - content: Challenges with Accessibility Guidelines Conformance and Testing, and
+        Approaches for Mitigating Them
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/accessibility-conformance-challenges/
+      type: src
+    docid:
+    - id: W3C accessibility-conformance-challenges
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-accessibility-conformance-challenges-20200604
+    title:
+    - content: Challenges with Accessibility Guidelines Conformance and Testing, and
+        Approaches for Mitigating Them
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-accessibility-conformance-challenges-20200604/
       type: src
@@ -77,12 +114,9 @@ relation:
     - id: W3C WD-accessibility-conformance-challenges-20200604
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-accessibility-conformance-challenges-20200604
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-accessibility-conformance-challenges-20200619
 ext:

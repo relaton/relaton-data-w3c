@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/WD-svg-markers-20150409/
   type: src
-- content: https://svgwg.org/specs/markers/
-  type: current
 type: standard
 docid:
 - id: W3C WD-svg-markers-20150409
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -44,10 +49,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csvg-markers
+    title:
+    - content: SVG Markers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/svg-markers/
+      type: src
+    docid:
+    - id: W3C svg-markers
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-svg-markers-20150409
 ext:

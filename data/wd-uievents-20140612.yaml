@@ -5,10 +5,8 @@ title:
 - content: UI Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-uievents-20140612/
+- content: https://www.w3.org/TR/2014/WD-uievents-20140612/
   type: src
-- content: https://dvcs.w3.org/hg/d4e/raw-file/tip/source_respec.htm
-  type: current
 type: standard
 docid:
 - id: W3C WD-uievents-20140612
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gary Kacmarcik
+      given:
+        forename:
+        - content: Gary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kacmarcik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -56,22 +68,35 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuievents
+    title:
+    - content: UI Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uievents/
+      type: src
+    docid:
+    - id: W3C uievents
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-uievents-20131105
+    title:
+    - content: UI Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-uievents-20131105/
+    - content: https://www.w3.org/TR/2013/WD-uievents-20131105/
       type: src
     docid:
     - id: W3C WD-uievents-20131105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-uievents-20131105
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-uievents-20140612
 ext:
@@ -79,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -5,7 +5,7 @@ title:
 - content: CSS3 Hyperlink Presentation Module
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-css3-hyperlinks-20040224
+- content: https://www.w3.org/TR/2004/WD-css3-hyperlinks-20040224
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Glazman
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazman
         language:
         - en
         script:
@@ -63,9 +84,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss3-hyperlinks
+    title:
+    - content: CSS3 Hyperlink Presentation Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css3-hyperlinks/
+      type: src
+    docid:
+    - id: W3C css3-hyperlinks
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-css3-hyperlinks-20141014
+    title:
+    - content: CSS3 Hyperlink Presentation Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-css3-hyperlinks-20141014/
+      type: src
+    docid:
+    - id: W3C NOTE-css3-hyperlinks-20141014
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css3-hyperlinks-20040224
 ext:
@@ -73,4 +124,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

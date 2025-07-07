@@ -5,7 +5,7 @@ title:
 - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/CR-charmod-resid-20041122/
+- content: https://www.w3.org/TR/2004/CR-charmod-resid-20041122/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: François Yergeau
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dürst
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Dürst
+      given:
+        forename:
+        - content: François
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yergeau
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Misha Wolf
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Misha
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wolf
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tex Texin
+      given:
+        forename:
+        - content: Tex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Texin
         language:
         - en
         script:
@@ -82,24 +117,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccharmod-resid
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/charmod-resid/
+      type: src
+    docid:
+    - id: W3C charmod-resid
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-charmod-20040225
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Fundamentals'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-charmod-20040225/
+    - content: https://www.w3.org/TR/2004/WD-charmod-20040225/
       type: src
     docid:
     - id: W3C WD-charmod-20040225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-charmod-20040225
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-charmod-resid-20190502
+    title:
+    - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-charmod-resid-20190502/
+      type: src
+    docid:
+    - id: W3C NOTE-charmod-resid-20190502
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-charmod-resid-20041122
 ext:

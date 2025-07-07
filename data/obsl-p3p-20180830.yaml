@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Massimo Marchiori
+      given:
+        forename:
+        - content: Massimo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marchiori
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CP3P
+    title:
+    - content: The Platform for Privacy Preferences 1.0 (P3P1.0) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/P3P/
+      type: src
+    docid:
+    - id: W3C P3P
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-P3P-20020416
+    title:
+    - content: The Platform for Privacy Preferences 1.0 (P3P1.0) Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/REC-P3P-20020416/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C REC-P3P-20020416
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-P3P-20020416
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: OBSL-P3P-20180830
 ext:

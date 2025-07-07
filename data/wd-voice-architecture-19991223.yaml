@@ -32,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvoice-architecture
+    title:
+    - content: Model Architecture for Voice Browser Systems
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/voice-architecture/
+      type: src
+    docid:
+    - id: W3C voice-architecture
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-voice-architecture-19991223
 ext:

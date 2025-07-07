@@ -26,52 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-websub-20161124
-    link:
-    - content: https://www.w3.org/TR/2016/WD-websub-20161124/
-      type: src
-    docid:
-    - id: W3C WD-websub-20161124
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-websub-20161124
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-websub-20170411
-    link:
-    - content: https://www.w3.org/TR/2017/CR-websub-20170411/
-      type: src
-    docid:
-    - id: W3C CR-websub-20170411
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-websub-20170411
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-websub-20171003
-    link:
-    - content: https://www.w3.org/TR/2017/PR-websub-20171003/
-      type: src
-    docid:
-    - id: W3C PR-websub-20171003
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-websub-20171003
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-websub-20180123
+    title:
+    - content: WebSub
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/REC-websub-20180123/
       type: src
@@ -79,12 +40,61 @@ relation:
     - id: W3C REC-websub-20180123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-websub-20180123
+- type: hasEdition
+  bibitem:
+    id: W3CPR-websub-20171003
+    title:
+    - content: WebSub
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/PR-websub-20171003/
+      type: src
+    docid:
+    - id: W3C PR-websub-20171003
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-websub-20170411
+    title:
+    - content: WebSub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-websub-20170411/
+      type: src
+    docid:
+    - id: W3C CR-websub-20170411
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-websub-20161124
+    title:
+    - content: WebSub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-websub-20161124/
+      type: src
+    docid:
+    - id: W3C WD-websub-20161124
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-pubsub-20161020
+    title:
+    - content: PubSub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-pubsub-20161020/
+      type: src
+    docid:
+    - id: W3C WD-pubsub-20161020
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: websub
 ext:

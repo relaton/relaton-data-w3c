@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-network-error-logging-20231005/
   type: src
-- content: https://w3c.github.io/network-error-logging/
-  type: current
 type: standard
 docid:
 - id: W3C WD-network-error-logging-20231005
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Douglas Creager
+      given:
+        forename:
+        - content: Douglas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Creager
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Clelland
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Clelland
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnetwork-error-logging
+    title:
+    - content: Network Error Logging
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/network-error-logging/
+      type: src
+    docid:
+    - id: W3C network-error-logging
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-network-error-logging-20231003
+    title:
+    - content: Network Error Logging
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-network-error-logging-20231003/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-network-error-logging-20231003
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-network-error-logging-20231003
+- type: updatedBy
+  bibitem:
+    id: W3CWD-network-error-logging-20250203
+    title:
+    - content: Network Error Logging
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/WD-network-error-logging-20250203/
+      type: src
+    docid:
+    - id: W3C WD-network-error-logging-20250203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-network-error-logging-20231005
 ext:

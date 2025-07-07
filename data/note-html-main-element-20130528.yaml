@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-main-element
+    title:
+    - content: main element - an HTML5 extension specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-main-element/
+      type: src
+    docid:
+    - id: W3C html-main-element
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-main-element-20121217
+    title:
+    - content: main element - an HTML5 extension specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-html-main-element-20121217/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-html-main-element-20121217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-main-element-20121217
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-html-main-element-20130528
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

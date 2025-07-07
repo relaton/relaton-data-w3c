@@ -5,7 +5,7 @@ title:
 - content: Generic Diff Format Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/NOTE-gdiff-19970901
+- content: https://www.w3.org/TR/NOTE-gdiff-19970901
   type: src
 type: standard
 docid:
@@ -25,37 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Arthur van Hoff
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Payne
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1997-09-01'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-gdiff
+    title:
+    - content: Generic Diff Format Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-gdiff
+      type: src
+    docid:
+    - id: W3C NOTE-gdiff
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-gdiff-19970901
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -5,7 +5,7 @@ title:
 - content: N-Quads
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/NOTE-n-quads-20130409/
+- content: https://www.w3.org/TR/2013/NOTE-n-quads-20130409/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gavin Carothers
+      given:
+        forename:
+        - content: Gavin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carothers
         language:
         - en
         script:
@@ -40,9 +47,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cn-quads
+    title:
+    - content: RDF 1.1 N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/n-quads/
+      type: src
+    docid:
+    - id: W3C n-quads
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-n-quads-20130905
+    title:
+    - content: N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-n-quads-20130905/
+      type: src
+    docid:
+    - id: W3C WD-n-quads-20130905
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-n-quads-20130409
 ext:

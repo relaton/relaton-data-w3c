@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/REC-media-source-20161117/
   type: src
-- content: https://w3c.github.io/media-source/
-  type: current
 type: standard
 docid:
 - id: W3C REC-media-source-20161117
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Colwell
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wolenetz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerry Smith
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Colwell
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthew Wolenetz
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-source-1
+    title:
+    - content: Media Source Extensions™
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-source-1/
+      type: src
+    docid:
+    - id: W3C media-source-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-media-source-20161004
+    title:
+    - content: Media Source Extensions™
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/PR-media-source-20161004/
       type: src
@@ -96,28 +145,9 @@ relation:
     - id: W3C PR-media-source-20161004
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-media-source-20161004
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cmse-1-errata.html
-    link:
-    - content: https://w3c.github.io/media-source/mse-1-errata.html
-      type: src
-    docid:
-    - id: W3C mse-1-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C mse-1-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-media-source-20161117
 ext:
@@ -125,4 +155,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

@@ -5,7 +5,7 @@ title:
 - content: RDF 1.1 Turtle
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PR-turtle-20140109/
+- content: https://www.w3.org/TR/2014/PR-turtle-20140109/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gavin Carothers
+      given:
+        forename:
+        - content: Gavin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carothers
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cturtle
+    title:
+    - content: RDF 1.1 Turtle
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/turtle/
+      type: src
+    docid:
+    - id: W3C turtle
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-turtle-20130219
+    title:
+    - content: Turtle
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-turtle-20130219/
+    - content: https://www.w3.org/TR/2013/CR-turtle-20130219/
       type: src
     docid:
     - id: W3C CR-turtle-20130219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-turtle-20130219
+- type: updatedBy
+  bibitem:
+    id: W3CREC-turtle-20140225
+    title:
+    - content: RDF 1.1 Turtle
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-turtle-20140225/
+      type: src
+    docid:
+    - id: W3C REC-turtle-20140225
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-turtle-20140109
 ext:

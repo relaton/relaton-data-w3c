@@ -5,7 +5,7 @@ title:
 - content: Evaluation and Report Language (EARL) 1.0 Guide
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-EARL10-Guide-20091029/
+- content: https://www.w3.org/TR/2009/WD-EARL10-Guide-20091029/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carlos A Velasco
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Johannes Koch
+      given:
+        forename:
+        - content: Carlos A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Velasco
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CEARL10-Guide
+    title:
+    - content: Developer Guide for Evaluation and Report Language (EARL) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/EARL10-Guide/
+      type: src
+    docid:
+    - id: W3C EARL10-Guide
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-EARL10-Guide-20110510
+    title:
+    - content: Developer Guide for Evaluation and Report Language (EARL) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-EARL10-Guide-20110510/
+      type: src
+    docid:
+    - id: W3C WD-EARL10-Guide-20110510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-EARL10-Guide-20091029
 ext:

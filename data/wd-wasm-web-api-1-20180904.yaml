@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-wasm-web-api-1-20180904/
   type: src
-- content: https://webassembly.github.io/spec/web-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-wasm-web-api-1-20180904
@@ -27,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Daniel Ehrenberg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2018-09-04'
 language:
 - en
@@ -46,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwasm-web-api-1
+    title:
+    - content: WebAssembly Web API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wasm-web-api-1/
+      type: src
+    docid:
+    - id: W3C wasm-web-api-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wasm-web-api-1-20180215
+    title:
+    - content: WebAssembly Web API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-wasm-web-api-1-20180215/
       type: src
@@ -56,12 +60,25 @@ relation:
     - id: W3C WD-wasm-web-api-1-20180215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wasm-web-api-1-20180215
+- type: updatedBy
+  bibitem:
+    id: W3CCR-wasm-web-api-1-20190718
+    title:
+    - content: WebAssembly Web API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-wasm-web-api-1-20190718/
+      type: src
+    docid:
+    - id: W3C CR-wasm-web-api-1-20190718
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wasm-web-api-1-20180904
 ext:

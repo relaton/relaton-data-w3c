@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CRD-css-text-3-20230127/
   type: src
-- content: https://drafts.csswg.org/css-text-3/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-text-3-20230127
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Koji
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishii
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Koji Ishii
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-text-3
+    title:
+    - content: CSS Text Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-text-3/
+      type: src
+    docid:
+    - id: W3C css-text-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-css-text-3-20220505
+    title:
+    - content: CSS Text Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/CRD-css-text-3-20220505/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CRD-css-text-3-20220505
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-css-text-3-20220505
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-css-text-3-20230213
+    title:
+    - content: CSS Text Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-css-text-3-20230213/
+      type: src
+    docid:
+    - id: W3C CRD-css-text-3-20230213
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-text-3-20230127
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -5,7 +5,7 @@ title:
 - content: 'XML Signature Transform Simplification: Requirements and Design'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-xmldsig-simplify-20090226/
+- content: https://www.w3.org/TR/2009/WD-xmldsig-simplify-20090226/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pratik Datta
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-simplify
+    title:
+    - content: 'XML Signature Transform Simplification: Requirements and Design'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-simplify/
+      type: src
+    docid:
+    - id: W3C xmldsig-simplify
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmldsig-simplify-20090730
+    title:
+    - content: 'XML Signature Transform Simplification: Requirements and Design'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-xmldsig-simplify-20090730/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-simplify-20090730
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmldsig-simplify-20090226
 ext:

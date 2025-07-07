@@ -5,7 +5,7 @@ title:
 - content: Annotated DAML+OIL Ontology Markup
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/NOTE-daml+oil-walkthru-20011218/
+- content: https://www.w3.org/TR/2001/NOTE-daml+oil-walkthru-20011218/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Connolly
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Connolly
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Deborah L. McGuinness
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frank van Harmelen
+      given:
+        forename:
+        - content: Deborah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGuinness
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Horrocks
+      given:
+        forename:
+        - content: Frank
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Harmelen
         language:
         - en
         script:
@@ -67,18 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lynn Andrea Stein
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter F. Patel-Schneider
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horrocks
         language:
         - en
         script:
@@ -90,12 +115,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdaml+oil-walkthru
+    title:
+    - content: Annotated DAML+OIL Ontology Markup
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/daml+oil-walkthru/
+      type: src
+    docid:
+    - id: W3C daml+oil-walkthru
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-daml+oil-walkthru-20011218
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

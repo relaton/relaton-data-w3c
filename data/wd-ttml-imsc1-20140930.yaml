@@ -6,10 +6,8 @@ title:
     1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-ttml-imsc1-20140930/
+- content: https://www.w3.org/TR/2014/WD-ttml-imsc1-20140930/
   type: src
-- content: https://dvcs.w3.org/hg/ttml/raw-file/tip/ttml-ww-profiles/ttml-ww-profiles.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-ttml-imsc1-20140930
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Pierre-Anthony Lemieux
+      given:
+        forename:
+        - content: Pierre-Anthony
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
         language:
         - en
         script:
@@ -47,22 +52,53 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml-imsc1
+    title:
+    - content: TTML Profiles for Internet Media Subtitles and Captions 1.0 (IMSC1)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml-imsc1/
+      type: src
+    docid:
+    - id: W3C ttml-imsc1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ttml-imsc1-20140501
+    title:
+    - content: TTML Text and Image Profiles for Internet Media Subtitles and Captions
+        1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-ttml-imsc1-20140501/
+    - content: https://www.w3.org/TR/2014/WD-ttml-imsc1-20140501/
       type: src
     docid:
     - id: W3C WD-ttml-imsc1-20140501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ttml-imsc1-20140501
+- type: updatedBy
+  bibitem:
+    id: W3CCR-ttml-imsc1-20141209
+    title:
+    - content: TTML Text and Image Profiles for Internet Media Subtitles and Captions
+        1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-ttml-imsc1-20141209/
+      type: src
+    docid:
+    - id: W3C CR-ttml-imsc1-20141209
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ttml-imsc1-20140930
 ext:

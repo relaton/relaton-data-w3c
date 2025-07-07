@@ -26,78 +26,39 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-dcat-3-20201217
+    id: W3CREC-vocab-dcat-3-20240822
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2020/WD-vocab-dcat-3-20201217/
+    - content: https://www.w3.org/TR/2024/REC-vocab-dcat-3-20240822/
       type: src
     docid:
-    - id: W3C WD-vocab-dcat-3-20201217
+    - id: W3C REC-vocab-dcat-3-20240822
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20201217
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-dcat-3-20210504
+    id: W3CPR-vocab-dcat-3-20240613
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2021/WD-vocab-dcat-3-20210504/
+    - content: https://www.w3.org/TR/2024/PR-vocab-dcat-3-20240613/
       type: src
     docid:
-    - id: W3C WD-vocab-dcat-3-20210504
+    - id: W3C PR-vocab-dcat-3-20240613
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20210504
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CWD-vocab-dcat-3-20220111
-    link:
-    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220111/
-      type: src
-    docid:
-    - id: W3C WD-vocab-dcat-3-20220111
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20220111
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-vocab-dcat-3-20220510
-    link:
-    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220510/
-      type: src
-    docid:
-    - id: W3C WD-vocab-dcat-3-20220510
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20220510
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-vocab-dcat-3-20230307
-    link:
-    - content: https://www.w3.org/TR/2023/WD-vocab-dcat-3-20230307/
-      type: src
-    docid:
-    - id: W3C WD-vocab-dcat-3-20230307
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20230307
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CCR-vocab-dcat-3-20240118
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/CR-vocab-dcat-3-20240118/
       type: src
@@ -105,12 +66,74 @@ relation:
     - id: W3C CR-vocab-dcat-3-20240118
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-vocab-dcat-3-20240118
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20230307
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vocab-dcat-3-20230307/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20230307
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20220510
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220510/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20220510
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20220111
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220111/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20220111
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20210504
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-vocab-dcat-3-20210504/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20210504
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20201217
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-vocab-dcat-3-20201217/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20201217
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: vocab-dcat-3
 ext:

@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kevin Smith
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2010-06-29'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdial-primer
+    title:
+    - content: 'DIAL Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dial-primer/
+      type: src
+    docid:
+    - id: W3C dial-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dial-primer-20071101
+    title:
+    - content: 'DIAL Part 0: Primer'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-dial-primer-20071101/
       type: src
@@ -51,12 +60,9 @@ relation:
     - id: W3C WD-dial-primer-20071101
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dial-primer-20071101
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-dial-primer-20100629
 ext:

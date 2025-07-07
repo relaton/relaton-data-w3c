@@ -5,7 +5,7 @@ title:
 - content: The QA Handbook
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/NOTE-qa-handbook-20041122/
+- content: https://www.w3.org/TR/2004/NOTE-qa-handbook-20041122/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lofton Henderson
+      given:
+        forename:
+        - content: Lofton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henderson
         language:
         - en
         script:
@@ -40,23 +47,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cqa-handbook
+    title:
+    - content: The QA Handbook
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/qa-handbook/
+      type: src
+    docid:
+    - id: W3C qa-handbook
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-qa-handbook-20040830
+    title:
+    - content: The QA Handbook
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-qa-handbook-20040830/
+    - content: https://www.w3.org/TR/2004/WD-qa-handbook-20040830/
       type: src
     docid:
     - id: W3C WD-qa-handbook-20040830
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-qa-handbook-20040830
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-qa-handbook-20050906
+    title:
+    - content: The QA Handbook
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/NOTE-qa-handbook-20050906/
+      type: src
+    docid:
+    - id: W3C NOTE-qa-handbook-20050906
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-qa-handbook-20041122
 ext:
@@ -64,5 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Quality Assurance Interest Group
   - name: Quality Assurance Working Group

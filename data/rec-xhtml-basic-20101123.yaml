@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-basic
+    title:
+    - content: XHTML™ Basic 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-basic/
+      type: src
+    docid:
+    - id: W3C xhtml-basic
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xhtml-basic-20101007
+    title:
+    - content: XHTML™ Basic 1.1 - Second Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PER-xhtml-basic-20101007
       type: src
@@ -54,41 +77,25 @@ relation:
     - id: W3C PER-xhtml-basic-20101007
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xhtml-basic-20101007
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cxhtml-basic-2nd-edition-errata.html
+    id: W3CSPSD-xhtml-basic-20180327
+    title:
+    - content: XHTML™ Basic 1.1 - Second Edition
+      format: text/plain
     link:
-    - content: https://www.w3.org/MarkUp/2010/xhtml-basic-2nd-edition-errata.html
+    - content: https://www.w3.org/TR/2018/SPSD-xhtml-basic-20180327/
       type: src
     docid:
-    - id: W3C xhtml-basic-2nd-edition-errata.html
+    - id: W3C SPSD-xhtml-basic-20180327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C xhtml-basic-2nd-edition-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-xhtml-basic-20080729
-    link:
-    - content: https://www.w3.org/TR/2008/REC-xhtml-basic-20080729/
-      type: src
-    docid:
-    - id: W3C REC-xhtml-basic-20080729
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xhtml-basic-20080729
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xhtml-basic-20101123
 ext:

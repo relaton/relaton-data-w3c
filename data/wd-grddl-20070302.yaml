@@ -5,7 +5,7 @@ title:
 - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-grddl-20070302/
+- content: https://www.w3.org/TR/2007/WD-grddl-20070302/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Connolly
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Connolly
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgrddl
+    title:
+    - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/grddl/
+      type: src
+    docid:
+    - id: W3C grddl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-grddl-20061024
+    title:
+    - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-grddl-20061024/
+    - content: https://www.w3.org/TR/2006/WD-grddl-20061024/
       type: src
     docid:
     - id: W3C WD-grddl-20061024
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-grddl-20061024
+- type: updatedBy
+  bibitem:
+    id: W3CCR-grddl-20070502
+    title:
+    - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/CR-grddl-20070502/
+      type: src
+    docid:
+    - id: W3C CR-grddl-20070502
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-grddl-20070302
 ext:

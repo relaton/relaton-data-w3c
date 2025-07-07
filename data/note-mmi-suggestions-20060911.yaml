@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Larson
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Larson
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-suggestions
+    title:
+    - content: Common Sense Suggestions for Developing Multimodal User Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-suggestions/
+      type: src
+    docid:
+    - id: W3C mmi-suggestions
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mmi-suggestions-20060911
 ext:

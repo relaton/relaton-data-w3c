@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CR-uievents-code-20230530/
   type: src
-- content: https://w3c.github.io/uievents-code/
-  type: current
 type: standard
 docid:
 - id: W3C CR-uievents-code-20230530
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gary Kacmarcik
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Gary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kacmarcik
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuievents-code
+    title:
+    - content: UI Events KeyboardEvent code Values
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uievents-code/
+      type: src
+    docid:
+    - id: W3C uievents-code
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-uievents-code-20170601
+    title:
+    - content: UI Events KeyboardEvent code Values
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-uievents-code-20170601/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-uievents-code-20170601
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-uievents-code-20170601
+- type: updatedBy
+  bibitem:
+    id: W3CPR-uievents-code-20241126
+    title:
+    - content: UI Events KeyboardEvent code Values
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/PR-uievents-code-20241126/
+      type: src
+    docid:
+    - id: W3C PR-uievents-code-20241126
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-uievents-code-20230530
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-edit-context-20211221/
   type: src
-- content: https://w3c.github.io/edit-context/
-  type: current
 type: standard
 docid:
 - id: W3C WD-edit-context-20211221
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: alex keng
+      given:
+        forename:
+        - content: alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: keng
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cedit-context
+    title:
+    - content: EditContext API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/edit-context/
+      type: src
+    docid:
+    - id: W3C edit-context
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-edit-context-20241119
+    title:
+    - content: EditContext API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-edit-context-20241119/
+      type: src
+    docid:
+    - id: W3C WD-edit-context-20241119
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-edit-context-20211221
 ext:

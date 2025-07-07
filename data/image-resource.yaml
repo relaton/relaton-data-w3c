@@ -26,117 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-image-resource-20200507
-    link:
-    - content: https://www.w3.org/TR/2020/WD-image-resource-20200507/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20200507
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20200507
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20200508
-    link:
-    - content: https://www.w3.org/TR/2020/WD-image-resource-20200508/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20200508
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20200508
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20200511
-    link:
-    - content: https://www.w3.org/TR/2020/WD-image-resource-20200511/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20200511
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20200511
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20200520
-    link:
-    - content: https://www.w3.org/TR/2020/WD-image-resource-20200520/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20200520
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20200520
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20210309
-    link:
-    - content: https://www.w3.org/TR/2021/WD-image-resource-20210309/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20210309
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20210309
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20210313
-    link:
-    - content: https://www.w3.org/TR/2021/WD-image-resource-20210313/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20210313
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20210313
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20210329
-    link:
-    - content: https://www.w3.org/TR/2021/WD-image-resource-20210329/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20210329
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20210329
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-image-resource-20210426
-    link:
-    - content: https://www.w3.org/TR/2021/WD-image-resource-20210426/
-      type: src
-    docid:
-    - id: W3C WD-image-resource-20210426
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-image-resource-20210426
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-image-resource-20210604
+    title:
+    - content: Image Resource
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-image-resource-20210604/
       type: src
@@ -144,12 +40,113 @@ relation:
     - id: W3C WD-image-resource-20210604
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-image-resource-20210604
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20210426
+    title:
+    - content: Image Resource
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-image-resource-20210426/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20210426
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20210329
+    title:
+    - content: Image Resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-image-resource-20210329/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20210329
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20210313
+    title:
+    - content: Image Resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-image-resource-20210313/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20210313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20210309
+    title:
+    - content: Image Resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-image-resource-20210309/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20210309
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20200520
+    title:
+    - content: Image Resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-image-resource-20200520/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20200520
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20200511
+    title:
+    - content: Image Resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-image-resource-20200511/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20200511
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20200508
+    title:
+    - content: Image resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-image-resource-20200508/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20200508
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-image-resource-20200507
+    title:
+    - content: Image Resource
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-image-resource-20200507/
+      type: src
+    docid:
+    - id: W3C WD-image-resource-20200507
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: image-resource
 ext:

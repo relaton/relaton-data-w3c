@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-motion-1-20181218/
   type: src
-- content: https://drafts.fxtf.org/motion-1/
-  type: current
 type: standard
 docid:
 - id: W3C WD-motion-1-20181218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dirk Schulze
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schulze
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Willigers
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stephens
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jihye Hong
+      given:
+        forename:
+        - content: Jihye
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hong
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane Stephens
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Willigers
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmotion-1
+    title:
+    - content: Motion Path Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/motion-1/
+      type: src
+    docid:
+    - id: W3C motion-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-motion-1-20170711
+    title:
+    - content: Motion Path Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-motion-1-20170711/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-motion-1-20170711
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-motion-1-20170711
+- type: updatedBy
+  bibitem:
+    id: W3CWD-motion-1-20241105
+    title:
+    - content: Motion Path Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-motion-1-20241105/
+      type: src
+    docid:
+    - id: W3C WD-motion-1-20241105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-motion-1-20181218
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-web-animations-1-20230605/
   type: src
-- content: https://drafts.csswg.org/web-animations-1/
-  type: current
 type: standard
 docid:
 - id: W3C WD-web-animations-1-20230605
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Quint
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birtles
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Brian Birtles
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Flack
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robert Flack
+      given:
+        forename:
+        - content: Stephen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGruer
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stephen McGruer
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Quint
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-animations-1
+    title:
+    - content: Web Animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-animations-1/
+      type: src
+    docid:
+    - id: W3C web-animations-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-web-animations-1-20220908
+    title:
+    - content: Web Animations
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-web-animations-1-20220908/
       type: src
@@ -86,12 +128,9 @@ relation:
     - id: W3C WD-web-animations-1-20220908
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-web-animations-1-20220908
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-web-animations-1-20230605
 ext:
@@ -99,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

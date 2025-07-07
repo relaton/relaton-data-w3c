@@ -5,10 +5,8 @@ title:
 - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-vocab-duv-20160519/
+- content: https://www.w3.org/TR/2016/WD-vocab-duv-20160519/
   type: src
-- content: http://w3c.github.io/dwbp/vocab-du.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-vocab-duv-20160519
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernadette Farias Loscio
+      given:
+        forename:
+        - content: Bernadette
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Farias Loscio
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Stephan
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stephan
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sumit Purohit
+      given:
+        forename:
+        - content: Sumit
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Purohit
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-duv
+    title:
+    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-duv/
+      type: src
+    docid:
+    - id: W3C vocab-duv
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vocab-duv-20160128
+    title:
+    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-vocab-duv-20160128/
+    - content: https://www.w3.org/TR/2016/WD-vocab-duv-20160128/
       type: src
     docid:
     - id: W3C WD-vocab-duv-20160128
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-duv-20160128
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-vocab-duv-20160830
+    title:
+    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20160830/
+      type: src
+    docid:
+    - id: W3C NOTE-vocab-duv-20160830
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vocab-duv-20160519
 ext:

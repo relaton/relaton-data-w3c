@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-webcodecs-vorbis-codec-registration-20230202/
   type: src
-- content: https://w3c.github.io/webcodecs/vorbis_codec_registration.html
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-webcodecs-vorbis-codec-registration-20230202
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernard Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Adenot
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adenot
         language:
         - en
         script:
@@ -52,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcodecs-vorbis-codec-registration
+    title:
+    - content: Vorbis WebCodecs Registration
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcodecs-vorbis-codec-registration/
+      type: src
+    docid:
+    - id: W3C webcodecs-vorbis-codec-registration
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-webcodecs-vorbis-codec-registration-20230201
+    title:
+    - content: Vorbis WebCodecs Registration
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-webcodecs-vorbis-codec-registration-20230201/
       type: src
@@ -63,12 +77,25 @@ relation:
     - id: W3C DNOTE-webcodecs-vorbis-codec-registration-20230201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-webcodecs-vorbis-codec-registration-20230201
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-webcodecs-vorbis-codec-registration-20230208
+    title:
+    - content: Vorbis WebCodecs Registration
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-webcodecs-vorbis-codec-registration-20230208/
+      type: src
+    docid:
+    - id: W3C DNOTE-webcodecs-vorbis-codec-registration-20230208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-webcodecs-vorbis-codec-registration-20230202
 ext:

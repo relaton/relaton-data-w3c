@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-contact-picker-20240430/
   type: src
-- content: https://w3c.github.io/contact-picker/
-  type: current
 type: standard
 docid:
 - id: W3C WD-contact-picker-20240430
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Peter Beverloo
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Beverloo
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccontact-picker
+    title:
+    - content: Contact Picker API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/contact-picker/
+      type: src
+    docid:
+    - id: W3C contact-picker
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-contact-picker-20240227
+    title:
+    - content: Contact Picker API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-contact-picker-20240227/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-contact-picker-20240227
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-contact-picker-20240227
+- type: updatedBy
+  bibitem:
+    id: W3CWD-contact-picker-20240618
+    title:
+    - content: Contact Picker API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-contact-picker-20240618/
+      type: src
+    docid:
+    - id: W3C WD-contact-picker-20240618
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-contact-picker-20240430
 ext:

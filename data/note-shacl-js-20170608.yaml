@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-shacl-js-20170608/
   type: src
-- content: https://w3c.github.io/data-shapes/shacl-js/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-shacl-js-20170608
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Holger Knublauch
+      given:
+        forename:
+        - content: Holger
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Knublauch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Pano Maria
+      given:
+        forename:
+        - content: Pano
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maria
         language:
         - en
         script:
@@ -52,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshacl-js
+    title:
+    - content: SHACL JavaScript Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shacl-js/
+      type: src
+    docid:
+    - id: W3C shacl-js
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-shacl-js-20170608
 ext:
@@ -62,4 +91,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF Data Shapes Working Group
+  - name: Data Shapes Working Group

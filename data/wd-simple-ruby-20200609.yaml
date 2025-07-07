@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-simple-ruby-20200609/
   type: src
-- content: https://w3c.github.io/simple-ruby/
-  type: current
 type: standard
 docid:
 - id: W3C WD-simple-ruby-20200609
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Atsushi Shimono
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Atsushi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shimono
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -64,10 +83,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csimple-ruby
+    title:
+    - content: Rules for Simple Placement of Japanese Ruby
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/simple-ruby/
+      type: src
+    docid:
+    - id: W3C simple-ruby
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-simple-ruby-20200609
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-media-source-2-20220510/
   type: src
-- content: https://w3c.github.io/media-source/
-  type: current
 type: standard
 docid:
 - id: W3C WD-media-source-2-20220510
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wolenetz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthew Wolenetz
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-source-2
+    title:
+    - content: Media Source Extensions™
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-source-2/
+      type: src
+    docid:
+    - id: W3C media-source-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-media-source-2-20220505
+    title:
+    - content: Media Source Extensions™
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-media-source-2-20220505/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-media-source-2-20220505
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-media-source-2-20220505
+- type: updatedBy
+  bibitem:
+    id: W3CWD-media-source-2-20220518
+    title:
+    - content: Media Source Extensions™
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-media-source-2-20220518/
+      type: src
+    docid:
+    - id: W3C WD-media-source-2-20220518
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-media-source-2-20220510
 ext:

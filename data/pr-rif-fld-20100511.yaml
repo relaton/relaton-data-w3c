@@ -5,7 +5,7 @@ title:
 - content: RIF Framework for Logic Dialects
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PR-rif-fld-20100511/
+- content: https://www.w3.org/TR/2010/PR-rif-fld-20100511/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Harold Boley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Kifer
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kifer
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-fld
+    title:
+    - content: RIF Framework for Logic Dialects (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-fld/
+      type: src
+    docid:
+    - id: W3C rif-fld
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-rif-fld-20091001
+    title:
+    - content: RIF Framework for Logic Dialects
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-rif-fld-20091001/
+    - content: https://www.w3.org/TR/2009/CR-rif-fld-20091001/
       type: src
     docid:
     - id: W3C CR-rif-fld-20091001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-rif-fld-20091001
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rif-fld-20100622
+    title:
+    - content: RIF Framework for Logic Dialects
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-rif-fld-20100622/
+      type: src
+    docid:
+    - id: W3C REC-rif-fld-20100622
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-rif-fld-20100511
 ext:
@@ -77,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

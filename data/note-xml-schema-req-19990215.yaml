@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Murray Maloney
+      given:
+        forename:
+        - content: Murray
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maloney
         language:
         - en
         script:
@@ -50,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-xml-schema-req
+    title:
+    - content: XML Schema Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-xml-schema-req
+      type: src
+    docid:
+    - id: W3C NOTE-xml-schema-req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml-schema-req-19990215
 ext:

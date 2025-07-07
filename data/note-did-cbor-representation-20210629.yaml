@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-did-cbor-representation-20210629/
   type: src
-- content: https://w3c.github.io/did-cbor-note/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-did-cbor-representation-20210629
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Drummond Reed
+      given:
+        forename:
+        - content: Drummond
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reed
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -52,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdid-cbor-representation
+    title:
+    - content: The Plain CBOR Representation v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/did-cbor-representation/
+      type: src
+    docid:
+    - id: W3C did-cbor-representation
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-did-cbor-representation-20210629
 ext:

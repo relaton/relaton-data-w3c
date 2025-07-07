@@ -5,7 +5,7 @@ title:
 - content: RDFa Core 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-rdfa-core-20120313/
+- content: https://www.w3.org/TR/2012/CR-rdfa-core-20120313/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ben Adida
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Birbeck
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Ben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adida
         language:
         - en
         script:
@@ -72,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdfa-core
+    title:
+    - content: RDFa Core 1.1 - Third Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdfa-core/
+      type: src
+    docid:
+    - id: W3C rdfa-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdfa-core-20120131
+    title:
+    - content: RDFa Core 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-rdfa-core-20120131/
+    - content: https://www.w3.org/TR/2012/WD-rdfa-core-20120131/
       type: src
     docid:
     - id: W3C WD-rdfa-core-20120131
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdfa-core-20120131
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rdfa-core-20120508
+    title:
+    - content: RDFa Core 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-rdfa-core-20120508/
+      type: src
+    docid:
+    - id: W3C PR-rdfa-core-20120508
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-rdfa-core-20120313
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-i18n-glossary-20220211/
   type: src
-- content: https://w3c.github.io/i18n-glossary/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-i18n-glossary-20220211
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ci18n-glossary
+    title:
+    - content: Internationalization Glossary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/i18n-glossary/
+      type: src
+    docid:
+    - id: W3C i18n-glossary
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-i18n-glossary-20220126
+    title:
+    - content: Internationalization Glossary
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-i18n-glossary-20220126/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C DNOTE-i18n-glossary-20220126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-i18n-glossary-20220126
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-i18n-glossary-20230424
+    title:
+    - content: Internationalization Glossary
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-i18n-glossary-20230424/
+      type: src
+    docid:
+    - id: W3C DNOTE-i18n-glossary-20230424
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-i18n-glossary-20220211
 ext:

@@ -5,10 +5,8 @@ title:
 - content: High Resolution Time Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-hr-time-2-20150928/
+- content: https://www.w3.org/TR/2015/WD-hr-time-2-20150928/
   type: src
-- content: https://w3c.github.io/hr-time/
-  type: current
 type: standard
 docid:
 - id: W3C WD-hr-time-2-20150928
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Simonsen
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Simonsen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-2
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-2/
+      type: src
+    docid:
+    - id: W3C hr-time-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-hr-time-2-20150918
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-hr-time-2-20150918/
+    - content: https://www.w3.org/TR/2015/WD-hr-time-2-20150918/
       type: src
     docid:
     - id: W3C WD-hr-time-2-20150918
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-hr-time-2-20150918
+- type: updatedBy
+  bibitem:
+    id: W3CWD-hr-time-2-20151021
+    title:
+    - content: High Resolution Time Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-hr-time-2-20151021/
+      type: src
+    docid:
+    - id: W3C WD-hr-time-2-20151021
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-hr-time-2-20150928
 ext:

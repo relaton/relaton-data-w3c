@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-webtransport-20230712/
   type: src
-- content: https://w3c.github.io/webtransport/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webtransport-20230712
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernard Aboba
+      given:
+        forename:
+        - content: Nidhi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jaju
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nidhi Jaju
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Victor Vasiliev
+      given:
+        forename:
+        - content: Victor
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vasiliev
         language:
         - en
         script:
@@ -66,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebtransport
+    title:
+    - content: WebTransport
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webtransport/
+      type: src
+    docid:
+    - id: W3C webtransport
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webtransport-20230405
+    title:
+    - content: WebTransport
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-webtransport-20230405/
       type: src
@@ -76,12 +94,25 @@ relation:
     - id: W3C WD-webtransport-20230405
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webtransport-20230405
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webtransport-20231220
+    title:
+    - content: WebTransport
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-webtransport-20231220/
+      type: src
+    docid:
+    - id: W3C WD-webtransport-20231220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webtransport-20230712
 ext:

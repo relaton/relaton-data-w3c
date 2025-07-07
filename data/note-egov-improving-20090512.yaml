@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: José Manuel Alonso
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kevin Novak
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Suzanne Acar
+      given:
+        forename:
+        - content: José Manuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alonso
         language:
         - en
         script:
@@ -60,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cegov-improving
+    title:
+    - content: Improving Access to Government through Better Use of the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/egov-improving/
+      type: src
+    docid:
+    - id: W3C egov-improving
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-egov-improving-20090310
+    title:
+    - content: Improving Access to Government through Better Use of the Web
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/WD-egov-improving-20090310/
       type: src
@@ -71,12 +77,9 @@ relation:
     - id: W3C WD-egov-improving-20090310
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-egov-improving-20090310
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-egov-improving-20090512
 ext:

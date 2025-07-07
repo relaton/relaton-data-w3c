@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-cssom-1-20210826/
   type: src
-- content: https://drafts.csswg.org/cssom/
-  type: current
 type: standard
 docid:
 - id: W3C WD-cssom-1-20210826
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Glazman
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazman
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Emilio Cobos Álvarez
+      given:
+        forename:
+        - content: Emilio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cobos Álvarez
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccssom-1
+    title:
+    - content: CSS Object Model (CSSOM)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cssom-1/
+      type: src
+    docid:
+    - id: W3C cssom-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-cssom-1-20160317
+    title:
+    - content: CSS Object Model (CSSOM)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-cssom-1-20160317/
       type: src
@@ -66,12 +94,9 @@ relation:
     - id: W3C WD-cssom-1-20160317
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-cssom-1-20160317
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-cssom-1-20210826
 ext:
@@ -79,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

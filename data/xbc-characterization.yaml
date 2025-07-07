@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-xbc-characterization-20050331
+    title:
+    - content: XML Binary Characterization
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/NOTE-xbc-characterization-20050331/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-xbc-characterization-20050331
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xbc-characterization-20050331
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: xbc-characterization
 ext:

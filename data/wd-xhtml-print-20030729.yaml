@@ -5,7 +5,7 @@ title:
 - content: XHTML-Print
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-xhtml-print-20030729
+- content: https://www.w3.org/TR/2003/WD-xhtml-print-20030729
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jim Bigelow
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-07-29'
 language:
 - en
@@ -42,24 +32,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CXHTML-Print-20030331.html
+    id: W3Cxhtml-print
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
     link:
-    - content: http://www.pwg.org/xhtml-print/HTML-Version/XHTML-Print-20030331.html
+    - content: https://www.w3.org/TR/xhtml-print/
       type: src
     docid:
-    - id: W3C XHTML-Print-20030331.html
+    - id: W3C xhtml-print
       type: W3C
       primary: true
-    formattedref:
-      content: W3C XHTML-Print-20030331.html
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xhtml-print-20040120
+    title:
+    - content: XHTML-Print
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/CR-xhtml-print-20040120
+      type: src
+    docid:
+    - id: W3C CR-xhtml-print-20040120
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xhtml-print-20030729
 ext:

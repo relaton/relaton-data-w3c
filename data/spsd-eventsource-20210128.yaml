@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/SPSD-eventsource-20210128/
   type: src
-- content: https://html.spec.whatwg.org/multipage/server-sent-events.html
-  type: current
 type: standard
 docid:
 - id: W3C SPSD-eventsource-20210128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ceventsource
+    title:
+    - content: Server-Sent Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/eventsource/
+      type: src
+    docid:
+    - id: W3C eventsource
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-eventsource-20150203
+    title:
+    - content: Server-Sent Events
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/REC-eventsource-20150203/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C REC-eventsource-20150203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-eventsource-20150203
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-eventsource-20210128
 ext:

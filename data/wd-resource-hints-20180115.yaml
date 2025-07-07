@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-resource-hints-20180115/
   type: src
-- content: https://w3c.github.io/resource-hints/
-  type: current
 type: standard
 docid:
 - id: W3C WD-resource-hints-20180115
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cresource-hints
+    title:
+    - content: Resource Hints
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/resource-hints/
+      type: src
+    docid:
+    - id: W3C resource-hints
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-resource-hints-20170504
+    title:
+    - content: Resource Hints
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-resource-hints-20170504/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-resource-hints-20170504
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-resource-hints-20170504
+- type: updatedBy
+  bibitem:
+    id: W3CWD-resource-hints-20190307
+    title:
+    - content: Resource Hints
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-resource-hints-20190307/
+      type: src
+    docid:
+    - id: W3C WD-resource-hints-20190307
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-resource-hints-20180115
 ext:

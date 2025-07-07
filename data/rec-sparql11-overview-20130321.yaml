@@ -34,9 +34,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-overview
+    title:
+    - content: SPARQL 1.1 Overview
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-overview/
+      type: src
+    docid:
+    - id: W3C sparql11-overview
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-sparql11-overview-20121108
+    title:
+    - content: SPARQL 1.1 Overview
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-sparql11-overview-20121108/
       type: src
@@ -44,28 +60,9 @@ relation:
     - id: W3C PR-sparql11-overview-20121108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-sparql11-overview-20121108
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Csparql-errata
-    link:
-    - content: https://www.w3.org/2013/sparql-errata#sparql11-overview
-      type: src
-    docid:
-    - id: W3C sparql-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C sparql-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-sparql11-overview-20130321
 ext:

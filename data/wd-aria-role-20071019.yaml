@@ -6,7 +6,7 @@ title:
     1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-aria-role-20071019/
+- content: https://www.w3.org/TR/2007/WD-aria-role-20071019/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lisa Seeman
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -38,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -55,22 +69,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria/
+      type: src
+    docid:
+    - id: W3C wai-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-aria-role-20070601
+    title:
+    - content: Roles for Accessible Rich Internet Applications (WAI-ARIA Roles)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-aria-role-20070601/
+    - content: https://www.w3.org/TR/2007/WD-aria-role-20070601/
       type: src
     docid:
     - id: W3C WD-aria-role-20070601
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-aria-role-20070601
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wai-aria-20080204
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-wai-aria-20080204/
+      type: src
+    docid:
+    - id: W3C WD-wai-aria-20080204
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-aria-role-20071019
 ext:

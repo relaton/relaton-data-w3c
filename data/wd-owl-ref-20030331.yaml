@@ -5,7 +5,7 @@ title:
 - content: OWL Web Ontology Language Reference
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-owl-ref-20030331/
+- content: https://www.w3.org/TR/2003/WD-owl-ref-20030331/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Guus Schreiber
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dean
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike Dean
+      given:
+        forename:
+        - content: Guus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schreiber
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-ref
+    title:
+    - content: OWL Web Ontology Language Reference
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-ref/
+      type: src
+    docid:
+    - id: W3C owl-ref
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-owl-ref-20030221
+    title:
+    - content: Web Ontology Language (OWL) Reference Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-owl-ref-20030221/
+    - content: https://www.w3.org/TR/2003/WD-owl-ref-20030221/
       type: src
     docid:
     - id: W3C WD-owl-ref-20030221
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-owl-ref-20030221
+- type: updatedBy
+  bibitem:
+    id: W3CCR-owl-ref-20030818
+    title:
+    - content: OWL Web Ontology Language Reference
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/CR-owl-ref-20030818/
+      type: src
+    docid:
+    - id: W3C CR-owl-ref-20030818
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-owl-ref-20030331
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web-Ontology Working Group
+  - name: Web Ontology Working Group

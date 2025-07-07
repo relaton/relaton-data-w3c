@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-websub-20161124/
   type: src
-- content: https://w3c.github.io/websub/
-  type: current
 type: standard
 docid:
 - id: W3C WD-websub-20161124
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Parecki
+      given:
+        forename:
+        - content: Julien
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Genestoux
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Julien Genestoux
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parecki
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebsub
+    title:
+    - content: WebSub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/websub/
+      type: src
+    docid:
+    - id: W3C websub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pubsub-20161020
+    title:
+    - content: PubSub
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-pubsub-20161020/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-pubsub-20161020
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pubsub-20161020
+- type: updatedBy
+  bibitem:
+    id: W3CCR-websub-20170411
+    title:
+    - content: WebSub
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-websub-20170411/
+      type: src
+    docid:
+    - id: W3C CR-websub-20170411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-websub-20161124
 ext:

@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rich Salz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yunhao Zhang
+      given:
+        forename:
+        - content: Yunhao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
         language:
         - en
         script:
@@ -50,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxkms-wsdl
+    title:
+    - content: A WSDL 1.1 description for XKMS
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xkms-wsdl/
+      type: src
+    docid:
+    - id: W3C xkms-wsdl
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xkms-wsdl-20051118
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

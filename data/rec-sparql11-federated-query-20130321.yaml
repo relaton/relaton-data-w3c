@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/REC-sparql11-federated-query-20130321/
   type: src
-- content: https://w3c.github.io/sparql-federated-query/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-sparql11-federated-query-20130321
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carlos Buil Aranda
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Carlos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Buil Aranda
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-federated-query
+    title:
+    - content: SPARQL 1.1 Federated Query
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-federated-query/
+      type: src
+    docid:
+    - id: W3C sparql11-federated-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-sparql11-federated-query-20121108
+    title:
+    - content: SPARQL 1.1 Federated Query
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-sparql11-federated-query-20121108/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-sparql11-federated-query-20121108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-sparql11-federated-query-20121108
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Csparql-errata
-    link:
-    - content: https://www.w3.org/2013/sparql-errata#sparql11-federated-query
-      type: src
-    docid:
-    - id: W3C sparql-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C sparql-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-sparql11-federated-query-20130321
 ext:

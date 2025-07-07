@@ -5,7 +5,7 @@ title:
 - content: 'The app: URI scheme'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-app-uri-20130516/
+- content: https://www.w3.org/TR/2013/WD-app-uri-20130516/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Capp-uri
+    title:
+    - content: 'The app: URL Scheme'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/app-uri/
+      type: src
+    docid:
+    - id: W3C app-uri
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-app-uri-20140529
+    title:
+    - content: 'The app: URL Scheme'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-app-uri-20140529/
+      type: src
+    docid:
+    - id: W3C WD-app-uri-20140529
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-app-uri-20130516
 ext:

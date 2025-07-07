@@ -2,12 +2,10 @@
 schema-version: v1.2.9
 id: W3CWD-DOM-Level-3-XPath-20020328
 title:
-- content: |-
-    Document Object Model (DOM) Level 3 XPath
-    Specification
+- content: Document Object Model (DOM) Level 3 XPath Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-DOM-Level-3-XPath-20020328
+- content: https://www.w3.org/TR/2002/WD-DOM-Level-3-XPath-20020328
   type: src
 type: standard
 docid:
@@ -27,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Ray Whitmer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-03-28'
 language:
 - en
@@ -44,13 +32,58 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-XPath
+    title:
+    - content: Document Object Model (DOM) Level 3 XPath Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-XPath/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-XPath
+      type: W3C
+      primary: true
+- type: obsoletes
+  bibitem:
+    id: W3CWD-DOM-Level-3-XPath-20020208
+    title:
+    - content: Document Object Model (DOM) Level 3 XPath Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-DOM-Level-3-XPath-20020208/
+      type: src
+    docid:
+    - id: W3C WD-DOM-Level-3-XPath-20020208
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-DOM-Level-3-XPath-20030331
+    title:
+    - content: Document Object Model (DOM) Level 3 XPath Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/CR-DOM-Level-3-XPath-20030331
+      type: src
+    docid:
+    - id: W3C CR-DOM-Level-3-XPath-20030331
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-DOM-Level-3-XPath-20020328
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

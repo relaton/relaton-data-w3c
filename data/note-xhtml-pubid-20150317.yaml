@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-xhtml-pubid-20150317/
   type: src
-- content: https://www.w3.org/2003/entities/2007doc/xhtml-pubid.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-xhtml-pubid-20150317
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-pubid
+    title:
+    - content: Public Identifiers for entity resolution in XHTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-pubid/
+      type: src
+    docid:
+    - id: W3C xhtml-pubid
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-pubid-20130822
+    title:
+    - content: Public Identifiers for entity resolution in XHTML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-xhtml-pubid-20130822/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-xhtml-pubid-20130822
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-pubid-20130822
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-xhtml-pubid-20150317
 ext:
@@ -66,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

@@ -5,7 +5,7 @@ title:
 - content: XML Key Management Specification (XKMS)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-xkms2-20030418/
+- content: https://www.w3.org/TR/2003/WD-xkms2-20030418/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Phillip Hallam-Baker
+      given:
+        forename:
+        - content: Phillip
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hallam-Baker
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxkms2
+    title:
+    - content: XML Key Management Specification (XKMS 2.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xkms2/
+      type: src
+    docid:
+    - id: W3C xkms2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xkms2-20020318
+    title:
+    - content: XML Key Management Specification (XKMS 2.0)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xkms2-20020318/
+    - content: https://www.w3.org/TR/2002/WD-xkms2-20020318/
       type: src
     docid:
     - id: W3C WD-xkms2-20020318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xkms2-20020318
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xkms2-20040405
+    title:
+    - content: XML Key Management Specification (XKMS 2.0)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/CR-xkms2-20040405/
+      type: src
+    docid:
+    - id: W3C CR-xkms2-20040405
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xkms2-20030418
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: XML Key Management Working Group
+  - name: UNKNOWN WORKING GROUP

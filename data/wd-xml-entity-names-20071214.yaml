@@ -5,7 +5,7 @@ title:
 - content: XML Entity definitions for Characters
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-xml-entity-names-20071214/
+- content: https://www.w3.org/TR/2007/WD-xml-entity-names-20071214/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-entity-names
+    title:
+    - content: XML Entity Definitions for Characters (3rd Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-entity-names/
+      type: src
+    docid:
+    - id: W3C xml-entity-names
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xml-entity-names-20080721
+    title:
+    - content: XML Entity definitions for Characters
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-xml-entity-names-20080721/
+      type: src
+    docid:
+    - id: W3C WD-xml-entity-names-20080721
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xml-entity-names-20071214
 ext:

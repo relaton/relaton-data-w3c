@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-scroll-animations-1-20230406/
   type: src
-- content: https://drafts.csswg.org/scroll-animations-1/
-  type: current
 type: standard
 docid:
 - id: W3C WD-scroll-animations-1-20230406
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Quint
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birtles
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Botond Ballo
+      given:
+        forename:
+        - content: Botond
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ballo
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Brian Birtles
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Quint
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Olga
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gerchikov
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Olga Gerchikov
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robert Flack
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Flack
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscroll-animations-1
+    title:
+    - content: Scroll-driven Animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/scroll-animations-1/
+      type: src
+    docid:
+    - id: W3C scroll-animations-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-scroll-animations-1-20221208
+    title:
+    - content: Scroll-linked Animations
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-scroll-animations-1-20221208/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C WD-scroll-animations-1-20221208
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-scroll-animations-1-20221208
+- type: updatedBy
+  bibitem:
+    id: W3CWD-scroll-animations-1-20230428
+    title:
+    - content: Scroll-driven Animations
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/
+      type: src
+    docid:
+    - id: W3C WD-scroll-animations-1-20230428
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-scroll-animations-1-20230406
 ext:
@@ -119,4 +188,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

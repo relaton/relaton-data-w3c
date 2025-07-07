@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CRD-css-images-3-20231218/
   type: src
-- content: https://drafts.csswg.org/css-images-3/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-images-3-20231218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lea Verou
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Lea
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Verou
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-images-3
+    title:
+    - content: CSS Images Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-images-3/
+      type: src
+    docid:
+    - id: W3C css-images-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-css-images-3-20201217
+    title:
+    - content: CSS Images Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CRD-css-images-3-20201217/
       type: src
@@ -76,12 +111,9 @@ relation:
     - id: W3C CRD-css-images-3-20201217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-css-images-3-20201217
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-images-3-20231218
 ext:
@@ -89,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

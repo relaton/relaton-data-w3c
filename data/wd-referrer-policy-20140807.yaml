@@ -5,10 +5,8 @@ title:
 - content: Referrer Policy
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-referrer-policy-20140807/
+- content: https://www.w3.org/TR/2014/WD-referrer-policy-20140807/
   type: src
-- content: https://w3c.github.io/webappsec/specs/referrer-policy/
-  type: current
 type: standard
 docid:
 - id: W3C WD-referrer-policy-20140807
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jochen Eisinger
+      given:
+        forename:
+        - content: Jochen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eisinger
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Creferrer-policy
+    title:
+    - content: Referrer Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/referrer-policy/
+      type: src
+    docid:
+    - id: W3C referrer-policy
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-referrer-policy-20160601
+    title:
+    - content: Referrer Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-referrer-policy-20160601/
+      type: src
+    docid:
+    - id: W3C WD-referrer-policy-20160601
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-referrer-policy-20140807
 ext:

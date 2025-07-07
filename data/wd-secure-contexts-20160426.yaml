@@ -5,10 +5,8 @@ title:
 - content: Secure Contexts
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-secure-contexts-20160426/
+- content: https://www.w3.org/TR/2016/WD-secure-contexts-20160426/
   type: src
-- content: https://w3c.github.io/webappsec-secure-contexts/
-  type: current
 type: standard
 docid:
 - id: W3C WD-secure-contexts-20160426
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csecure-contexts
+    title:
+    - content: Secure Contexts
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/secure-contexts/
+      type: src
+    docid:
+    - id: W3C secure-contexts
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-powerful-features-20160413
+    title:
+    - content: Secure Contexts
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-powerful-features-20160413/
+    - content: https://www.w3.org/TR/2016/WD-powerful-features-20160413/
       type: src
     docid:
     - id: W3C WD-powerful-features-20160413
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-powerful-features-20160413
+- type: updatedBy
+  bibitem:
+    id: W3CWD-secure-contexts-20160715
+    title:
+    - content: Secure Contexts
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-secure-contexts-20160715/
+      type: src
+    docid:
+    - id: W3C WD-secure-contexts-20160715
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-secure-contexts-20160426
 ext:

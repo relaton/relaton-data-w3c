@@ -5,7 +5,7 @@ title:
 - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-xmlenc-transform20-20110707/
+- content: https://www.w3.org/TR/2011/WD-xmlenc-transform20-20110707/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlenc-transform20
+    title:
+    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlenc-transform20/
+      type: src
+    docid:
+    - id: W3C xmlenc-transform20
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmlenc-transform20-20120105
+    title:
+    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-xmlenc-transform20-20120105/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-transform20-20120105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlenc-transform20-20110707
 ext:

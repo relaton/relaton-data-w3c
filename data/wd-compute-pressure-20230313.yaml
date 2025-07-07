@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-compute-pressure-20230313/
   type: src
-- content: https://w3c.github.io/compute-pressure/
-  type: current
 type: standard
 docid:
 - id: W3C WD-compute-pressure-20230313
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arnaud Mandy
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Arnaud
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mandy
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccompute-pressure
+    title:
+    - content: Compute Pressure Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/compute-pressure/
+      type: src
+    docid:
+    - id: W3C compute-pressure
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-compute-pressure-20230203
+    title:
+    - content: Compute Pressure Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-compute-pressure-20230203/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-compute-pressure-20230203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-compute-pressure-20230203
+- type: updatedBy
+  bibitem:
+    id: W3CWD-compute-pressure-20230314
+    title:
+    - content: Compute Pressure Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-compute-pressure-20230314/
+      type: src
+    docid:
+    - id: W3C WD-compute-pressure-20230314
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-compute-pressure-20230313
 ext:

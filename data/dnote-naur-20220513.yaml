@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-naur-20220513/
   type: src
-- content: https://w3c.github.io/naur/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-naur-20220513
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jason White
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: White
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshue O'Connor
+      given:
+        forename:
+        - content: Joshue
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnaur
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/naur/
+      type: src
+    docid:
+    - id: W3C naur
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-naur-20211012
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-naur-20211012/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C WD-naur-20211012
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-naur-20211012
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-naur-20220722
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220722/
+      type: src
+    docid:
+    - id: W3C DNOTE-naur-20220722
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-naur-20220513
 ext:
@@ -76,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

@@ -5,7 +5,7 @@ title:
 - content: XQuery Update Facility 3.0 Requirements and Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-xquery-update-30-requirements-use-cases-20120327/
+- content: https://www.w3.org/TR/2012/WD-xquery-update-30-requirements-use-cases-20120327/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Coleman
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coleman
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-update-30-requirements-use-cases
+    title:
+    - content: XQuery Update Facility 3.0 Requirements and Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-update-30-requirements-use-cases/
+      type: src
+    docid:
+    - id: W3C xquery-update-30-requirements-use-cases
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xquery-update-30-requirements-use-cases-20170124
+    title:
+    - content: XQuery Update Facility 3.0 Requirements and Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-xquery-update-30-requirements-use-cases-20170124/
+      type: src
+    docid:
+    - id: W3C NOTE-xquery-update-30-requirements-use-cases-20170124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-update-30-requirements-use-cases-20120327
 ext:

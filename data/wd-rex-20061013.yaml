@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crex
+    title:
+    - content: Remote Events for XML (REX) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rex/
+      type: src
+    docid:
+    - id: W3C rex
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rex-20060202
+    title:
+    - content: Remote Events for XML (REX) 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-rex-20060202
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-rex-20060202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rex-20060202
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-rex-20061013
 ext:
@@ -67,5 +87,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web API Working Group
   - name: SVG Working Group
+  - name: Web API Working Group

@@ -5,7 +5,7 @@ title:
 - content: Registered Organization Vocabulary
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-vocab-regorg-20130108/
+- content: https://www.w3.org/TR/2013/WD-vocab-regorg-20130108/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Agisilaos Papantoniou
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Phil Archer
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-regorg
+    title:
+    - content: Registered Organization Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-regorg/
+      type: src
+    docid:
+    - id: W3C vocab-regorg
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-vocab-regorg-20130528
+    title:
+    - content: Registered Organization Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-vocab-regorg-20130528/
+      type: src
+    docid:
+    - id: W3C NOTE-vocab-regorg-20130528
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vocab-regorg-20130108
 ext:

@@ -5,7 +5,7 @@ title:
 - content: CURIE Syntax 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-curie-20071126
+- content: https://www.w3.org/TR/2007/WD-curie-20071126
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Birbeck
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccurie
+    title:
+    - content: CURIE Syntax 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/curie/
+      type: src
+    docid:
+    - id: W3C curie
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-curie-20070307
+    title:
+    - content: CURIE Syntax 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-curie-20070307
+    - content: https://www.w3.org/TR/2007/WD-curie-20070307
       type: src
     docid:
     - id: W3C WD-curie-20070307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-curie-20070307
+- type: updatedBy
+  bibitem:
+    id: W3CWD-curie-20080402
+    title:
+    - content: CURIE Syntax 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-curie-20080402
+      type: src
+    docid:
+    - id: W3C WD-curie-20080402
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-curie-20071126
 ext:

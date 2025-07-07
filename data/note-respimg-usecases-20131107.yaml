@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/NOTE-respimg-usecases-20131107/
   type: src
-- content: https://usecases.responsiveimages.org
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-respimg-usecases-20131107
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Newton
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Mathew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marquis
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mathew Marquis
+      given:
+        forename:
+        - content: Yoav
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weiss
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yoav Weiss
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Newton
         language:
         - en
         script:
@@ -72,10 +98,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crespimg-usecases
+    title:
+    - content: Use Cases and Requirements for Standardizing Responsive Images
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/respimg-usecases/
+      type: src
+    docid:
+    - id: W3C respimg-usecases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-respimg-usecases-20130226
+    title:
+    - content: Use Cases and Requirements for Standardizing Responsive Images
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-respimg-usecases-20130226/
       type: src
@@ -83,12 +128,9 @@ relation:
     - id: W3C WD-respimg-usecases-20130226
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-respimg-usecases-20130226
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-respimg-usecases-20131107
 ext:
@@ -96,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

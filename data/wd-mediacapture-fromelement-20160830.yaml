@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-mediacapture-fromelement-20160830/
   type: src
-- content: https://w3c.github.io/mediacapture-fromelement/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediacapture-fromelement-20160830
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-fromelement
+    title:
+    - content: Media Capture from DOM Elements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-fromelement/
+      type: src
+    docid:
+    - id: W3C mediacapture-fromelement
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediacapture-fromelement-20160804
+    title:
+    - content: Media Capture from DOM Elements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-mediacapture-fromelement-20160804/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-mediacapture-fromelement-20160804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediacapture-fromelement-20160804
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediacapture-fromelement-20170203
+    title:
+    - content: Media Capture from DOM Elements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-mediacapture-fromelement-20170203/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-fromelement-20170203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mediacapture-fromelement-20160830
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Cool URIs for the Semantic Web
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-cooluris-20071217/
+- content: https://www.w3.org/TR/2007/WD-cooluris-20071217/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Leo Sauermann
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Richard Cyganiak
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cyganiak
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccooluris
+    title:
+    - content: Cool URIs for the Semantic Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cooluris/
+      type: src
+    docid:
+    - id: W3C cooluris
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-cooluris-20080321
+    title:
+    - content: Cool URIs for the Semantic Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-cooluris-20080321/
+      type: src
+    docid:
+    - id: W3C WD-cooluris-20080321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-cooluris-20071217
 ext:
@@ -63,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Semantic Web Education and Outreach Interest Group
+  - name: Semantic Web Education and Outreach (SWEO) Interest Group

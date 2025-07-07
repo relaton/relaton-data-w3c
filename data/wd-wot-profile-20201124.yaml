@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-wot-profile-20201124/
   type: src
-- content: https://w3c.github.io/wot-profile/
-  type: current
 type: standard
 docid:
 - id: W3C WD-wot-profile-20201124
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Lagally
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lagally
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ryuichi Matsukura
+      given:
+        forename:
+        - content: Ryuichi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Matsukura
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Käbisch
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Käbisch
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tomoaki Mizushima
+      given:
+        forename:
+        - content: Tomoaki
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mizushima
         language:
         - en
         script:
@@ -84,10 +117,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-profile
+    title:
+    - content: Web of Things (WoT) Profile
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-profile/
+      type: src
+    docid:
+    - id: W3C wot-profile
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wot-profile-20230118
+    title:
+    - content: Web of Things (WoT) Profile
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-wot-profile-20230118/
+      type: src
+    docid:
+    - id: W3C WD-wot-profile-20230118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-wot-profile-20201124
 ext:

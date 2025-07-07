@@ -5,7 +5,7 @@ title:
 - content: XML Syntax for XQuery 1.0 (XQueryX)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-xqueryx-20031219
+- content: https://www.w3.org/TR/2003/WD-xqueryx-20031219
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Rys
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -74,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxqueryx
+    title:
+    - content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xqueryx/
+      type: src
+    docid:
+    - id: W3C xqueryx
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xqueryx-20010607
+    title:
+    - content: XML Syntax for XQuery 1.0 (XQueryX)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2001/WD-xqueryx-20010607
+    - content: https://www.w3.org/TR/2001/WD-xqueryx-20010607
       type: src
     docid:
     - id: W3C WD-xqueryx-20010607
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xqueryx-20010607
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xqueryx-20050211
+    title:
+    - content: XML Syntax for XQuery 1.0 (XQueryX)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-xqueryx-20050211
+      type: src
+    docid:
+    - id: W3C WD-xqueryx-20050211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xqueryx-20031219
 ext:
@@ -97,5 +137,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

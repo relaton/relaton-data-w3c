@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Full Text 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/PR-xpath-full-text-10-20110125/
+- content: https://www.w3.org/TR/2011/PR-xpath-full-text-10-20110125/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chavdar Botev
+      given:
+        forename:
+        - content: Mary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Holstege
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jayavel Shanmugasundaram
+      given:
+        forename:
+        - content: Pat
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Case
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -57,68 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jochen Doerre
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Holstege
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Dyck
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Rys
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pat Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sihem Amer-Yahia
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stephen Buxton
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -134,22 +102,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-full-text-10
+    title:
+    - content: XQuery and XPath Full Text 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-full-text-10/
+      type: src
+    docid:
+    - id: W3C xpath-full-text-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xpath-full-text-10-20100128
+    title:
+    - content: XQuery and XPath Full Text 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/CR-xpath-full-text-10-20100128/
+    - content: https://www.w3.org/TR/2010/CR-xpath-full-text-10-20100128/
       type: src
     docid:
     - id: W3C CR-xpath-full-text-10-20100128
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xpath-full-text-10-20100128
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xpath-full-text-10-20110317
+    title:
+    - content: XQuery and XPath Full Text 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/REC-xpath-full-text-10-20110317/
+      type: src
+    docid:
+    - id: W3C REC-xpath-full-text-10-20110317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xpath-full-text-10-20110125
 ext:
@@ -157,5 +154,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

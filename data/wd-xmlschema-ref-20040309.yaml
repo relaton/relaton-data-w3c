@@ -5,7 +5,7 @@ title:
 - content: 'XML Schema: Component Designators'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-xmlschema-ref-20040309/
+- content: https://www.w3.org/TR/2004/WD-xmlschema-ref-20040309/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Asir S. Vedamuthu
+      given:
+        forename:
+        - content: Mary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Holstege
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mary Holstege
+      given:
+        forename:
+        - content: Asir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vedamuthu
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema-ref
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD): Component Designators'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema-ref/
+      type: src
+    docid:
+    - id: W3C xmlschema-ref
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmlschema-ref-20030109
+    title:
+    - content: 'XML Schema: Component Designators'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-xmlschema-ref-20030109/
+    - content: https://www.w3.org/TR/2003/WD-xmlschema-ref-20030109/
       type: src
     docid:
     - id: W3C WD-xmlschema-ref-20030109
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmlschema-ref-20030109
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmlschema-ref-20040716
+    title:
+    - content: 'XML Schema: Component Designators'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-xmlschema-ref-20040716/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema-ref-20040716
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlschema-ref-20040309
 ext:

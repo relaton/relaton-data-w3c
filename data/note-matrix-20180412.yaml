@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/NOTE-matrix-20180412/
   type: src
-- content: https://drafts.fxtf.org/matrix/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-matrix-20180412
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dirk Schulze
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schulze
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmatrix
+    title:
+    - content: DOMMatrix interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/matrix/
+      type: src
+    docid:
+    - id: W3C matrix
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-matrix-20130919
+    title:
+    - content: DOMMatrix interface
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-matrix-20130919/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C WD-matrix-20130919
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-matrix-20130919
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-matrix-20180412
 ext:
@@ -76,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

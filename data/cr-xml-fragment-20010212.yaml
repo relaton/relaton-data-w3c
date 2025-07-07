@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Veillard
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grosso
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Grosso
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Veillard
         language:
         - en
         script:
@@ -52,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-fragment
+    title:
+    - content: XML Fragment Interchange
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-fragment
+      type: src
+    docid:
+    - id: W3C xml-fragment
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-fragment-19990630.html
+    title:
+    - content: XML Fragment Interchange
+      format: text/plain
     link:
     - content: https://www.w3.org/1999/06/WD-xml-fragment-19990630.html
       type: src
@@ -64,12 +94,9 @@ relation:
     - id: W3C WD-xml-fragment-19990630.html
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-fragment-19990630.html
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Retired
     format: text/plain
   number: CR-xml-fragment-20010212
 ext:

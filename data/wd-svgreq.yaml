@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-SVGReq-19981029
+    title:
+    - content: Scalable Vector Graphics (SVG) Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1998/WD-SVGReq-19981029
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-SVGReq-19981029
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SVGReq-19981029
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: WD-SVGReq
 ext:

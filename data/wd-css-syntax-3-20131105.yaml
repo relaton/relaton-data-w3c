@@ -5,7 +5,7 @@ title:
 - content: CSS Syntax Module Level 3
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-css-syntax-3-20131105/
+- content: https://www.w3.org/TR/2013/WD-css-syntax-3-20131105/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Simon Sapin
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sapin
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-syntax-3
+    title:
+    - content: CSS Syntax Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-syntax-3/
+      type: src
+    docid:
+    - id: W3C css-syntax-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-syntax-3-20130919
+    title:
+    - content: CSS Syntax Module Level 3
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-css-syntax-3-20130919/
+    - content: https://www.w3.org/TR/2013/WD-css-syntax-3-20130919/
       type: src
     docid:
     - id: W3C WD-css-syntax-3-20130919
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-syntax-3-20130919
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-syntax-3-20140220
+    title:
+    - content: CSS Syntax Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-css-syntax-3-20140220/
+      type: src
+    docid:
+    - id: W3C CR-css-syntax-3-20140220
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-css-syntax-3-20131105
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

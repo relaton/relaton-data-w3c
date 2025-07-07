@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-rdb2rdf-ucr-20100608
+    title:
+    - content: Use Cases and Requirements for Mapping Relational Databases to RDF
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/WD-rdb2rdf-ucr-20100608/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-rdb2rdf-ucr-20100608
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdb2rdf-ucr-20100608
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: rdb2rdf-ucr
 ext:

@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mark Miller
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tyler Close
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miller
         language:
         - en
         script:
@@ -50,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CUMP
+    title:
+    - content: Uniform Messaging Policy, Level One
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/UMP/
+      type: src
+    docid:
+    - id: W3C UMP
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-UMP-20100126
+    title:
+    - content: Uniform Messaging Policy, Level One
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/WD-UMP-20100126/
       type: src
@@ -61,12 +77,9 @@ relation:
     - id: W3C WD-UMP-20100126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-UMP-20100126
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-UMP-20141002
 ext:
@@ -74,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

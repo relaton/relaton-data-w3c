@@ -5,10 +5,8 @@ title:
 - content: 'HTML5: Techniques for providing useful text alternatives'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-html-alt-techniques-20141023/
+- content: https://www.w3.org/TR/2014/WD-html-alt-techniques-20141023/
   type: src
-- content: http://w3c.github.io/alt-techniques/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-alt-techniques-20141023
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-alt-techniques
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-alt-techniques/
+      type: src
+    docid:
+    - id: W3C html-alt-techniques
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-alt-techniques-20121025
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-html-alt-techniques-20121025/
+    - content: https://www.w3.org/TR/2012/WD-html-alt-techniques-20121025/
       type: src
     docid:
     - id: W3C WD-html-alt-techniques-20121025
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-alt-techniques-20121025
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-html-alt-techniques-20150521
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-html-alt-techniques-20150521/
+      type: src
+    docid:
+    - id: W3C NOTE-html-alt-techniques-20150521
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-alt-techniques-20141023
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

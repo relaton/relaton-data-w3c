@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/PR-wot-architecture-20200130/
   type: src
-- content: https://w3c.github.io/wot-architecture/
-  type: current
 type: standard
 docid:
 - id: W3C PR-wot-architecture-20200130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Kazuo Kajimoto
+      given:
+        forename:
+        - content: Matthias
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kovatsch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kunihiko Toumura
+      given:
+        forename:
+        - content: Ryuichi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Matsukura
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthias Kovatsch
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lagally
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Lagally
+      given:
+        forename:
+        - content: Toru
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kawaguchi
         language:
         - en
         script:
@@ -69,18 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ryuichi Matsukura
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Toru Kawaguchi
+      given:
+        forename:
+        - content: Kunihiko
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Toumura
         language:
         - en
         script:
@@ -96,9 +119,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-architecture10
+    title:
+    - content: Web of Things (WoT) Architecture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-architecture10/
+      type: src
+    docid:
+    - id: W3C wot-architecture10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-wot-architecture-20191106
+    title:
+    - content: Web of Things (WoT) Architecture
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/CR-wot-architecture-20191106/
       type: src
@@ -106,12 +145,25 @@ relation:
     - id: W3C CR-wot-architecture-20191106
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-wot-architecture-20191106
+- type: updatedBy
+  bibitem:
+    id: W3CREC-wot-architecture-20200409
+    title:
+    - content: Web of Things (WoT) Architecture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/REC-wot-architecture-20200409/
+      type: src
+    docid:
+    - id: W3C REC-wot-architecture-20200409
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-wot-architecture-20200130
 ext:

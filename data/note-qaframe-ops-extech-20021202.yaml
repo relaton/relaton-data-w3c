@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitris Dimitriadis
+      given:
+        forename:
+        - content: Lofton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henderson
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kirill Gavrylyuk
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lofton Henderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lynne Rosenthal
+      given:
+        forename:
+        - content: Dimitris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dimitriadis
         language:
         - en
         script:
@@ -70,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cqaframe-ops-extech
+    title:
+    - content: 'QA Framework: Operational Examples & Techniques'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/qaframe-ops-extech/
+      type: src
+    docid:
+    - id: W3C qaframe-ops-extech
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-qaframe-ops-extech-20020515
+    title:
+    - content: 'QA Framework: Operational Examples & Techniques'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-qaframe-ops-extech-20020515/
       type: src
@@ -81,12 +94,9 @@ relation:
     - id: W3C WD-qaframe-ops-extech-20020515
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-qaframe-ops-extech-20020515
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-qaframe-ops-extech-20021202
 ext:

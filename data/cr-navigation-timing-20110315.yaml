@@ -5,7 +5,7 @@ title:
 - content: Navigation Timing
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/CR-navigation-timing-20110315/
+- content: https://www.w3.org/TR/2011/CR-navigation-timing-20110315/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Zhiheng Wang
+      given:
+        forename:
+        - content: Zhiheng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnavigation-timing
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/navigation-timing/
+      type: src
+    docid:
+    - id: W3C navigation-timing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-navigation-timing-20110111
+    title:
+    - content: Navigation Timing
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-navigation-timing-20110111/
+    - content: https://www.w3.org/TR/2011/WD-navigation-timing-20110111/
       type: src
     docid:
     - id: W3C WD-navigation-timing-20110111
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-navigation-timing-20110111
+- type: updatedBy
+  bibitem:
+    id: W3CCR-navigation-timing-20110602
+    title:
+    - content: Navigation Timing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-navigation-timing-20110602/
+      type: src
+    docid:
+    - id: W3C CR-navigation-timing-20110602
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-navigation-timing-20110315
 ext:

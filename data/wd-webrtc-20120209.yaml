@@ -5,7 +5,7 @@ title:
 - content: 'WebRTC 1.0: Real-time Communication Between Browsers'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-webrtc-20120209/
+- content: https://www.w3.org/TR/2012/WD-webrtc-20120209/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Bergkvist
+      given:
+        forename:
+        - content: Cullen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anant Narayanan
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cullen Jennings
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel C. Burnett
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bergkvist
         language:
         - en
         script:
@@ -74,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc
+    title:
+    - content: 'WebRTC: Real-Time Communication in Browsers'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc/
+      type: src
+    docid:
+    - id: W3C webrtc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webrtc-20111027
+    title:
+    - content: 'WebRTC 1.0: Real-time Communication Between Browsers'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-webrtc-20111027/
+    - content: https://www.w3.org/TR/2011/WD-webrtc-20111027/
       type: src
     docid:
     - id: W3C WD-webrtc-20111027
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webrtc-20111027
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webrtc-20120821
+    title:
+    - content: 'WebRTC 1.0: Real-time Communication Between Browsers'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-webrtc-20120821/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-20120821
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webrtc-20120209
 ext:

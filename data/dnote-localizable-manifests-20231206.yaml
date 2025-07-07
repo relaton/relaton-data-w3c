@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-localizable-manifests-20231206/
   type: src
-- content: https://w3c.github.io/localizable-manifests
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-localizable-manifests-20231206
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Clocalizable-manifests
+    title:
+    - content: Developing Localizable Manifests
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/localizable-manifests/
+      type: src
+    docid:
+    - id: W3C localizable-manifests
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-localizable-manifests-20210824
+    title:
+    - content: Developing Localizable Manifests
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-localizable-manifests-20210824/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C WD-localizable-manifests-20210824
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-localizable-manifests-20210824
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-localizable-manifests-20250214
+    title:
+    - content: Developing Localizable Manifests
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/NOTE-localizable-manifests-20250214/
+      type: src
+    docid:
+    - id: W3C NOTE-localizable-manifests-20250214
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-localizable-manifests-20231206
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2011/REC-css3-color-20110607/
   type: src
-- content: https://drafts.csswg.org/css-color-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-css3-color-20110607
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Baron
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baron
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-color-3
+    title:
+    - content: CSS Color Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-color-3/
+      type: src
+    docid:
+    - id: W3C css-color-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-css3-color-20101028
+    title:
+    - content: CSS Color Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-css3-color-20101028
       type: src
@@ -76,28 +111,25 @@ relation:
     - id: W3C PR-css3-color-20101028
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-css3-color-20101028
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-css3-color-20110607-errata.html
+    id: W3CCR-css-color-3-20171205
+    title:
+    - content: CSS Color Module Level 3
+      format: text/plain
     link:
-    - content: https://www.w3.org/Style/2011/REC-css3-color-20110607-errata.html
+    - content: https://www.w3.org/TR/2017/CR-css-color-3-20171205/
       type: src
     docid:
-    - id: W3C REC-css3-color-20110607-errata.html
+    - id: W3C CR-css-color-3-20171205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-css3-color-20110607-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-css3-color-20110607
 ext:
@@ -105,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

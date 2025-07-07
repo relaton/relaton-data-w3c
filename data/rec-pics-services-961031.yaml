@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Singer
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Resnick
         language:
         - en
         script:
@@ -38,18 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Miller
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Resnick
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singer
         language:
         - en
         script:
@@ -64,12 +68,46 @@ script:
 docstatus:
   stage:
     value: Recommendation
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CREC-PICS-services
+    title:
+    - content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
+        Descriptions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-PICS-services/
+      type: src
+    docid:
+    - id: W3C REC-PICS-services
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CREC-PICS-services-20091124
+    title:
+    - content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
+        Descriptions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/REC-PICS-services-20091124/
+      type: src
+    docid:
+    - id: W3C REC-PICS-services-20091124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-PICS-services-961031
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

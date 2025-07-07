@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-components-intro-20140724/
   type: src
-- content: https://w3c.github.io/webcomponents/explainer/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-components-intro-20140724
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitri Glazkov
+      given:
+        forename:
+        - content: Dimitri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazkov
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hayato Ito
+      given:
+        forename:
+        - content: Hayato
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ito
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccomponents-intro
+    title:
+    - content: Introduction to Web Components
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/components-intro/
+      type: src
+    docid:
+    - id: W3C components-intro
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-components-intro-20130606
+    title:
+    - content: Introduction to Web Components
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-components-intro-20130606/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C WD-components-intro-20130606
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-components-intro-20130606
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-components-intro-20140724
 ext:
@@ -76,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

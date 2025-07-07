@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-device-memory-1-20220722/
   type: src
-- content: https://www.w3.org/TR/device-memory/
-  type: current
 type: standard
 docid:
 - id: W3C WD-device-memory-1-20220722
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shubhie Panicker
+      given:
+        forename:
+        - content: Shubhie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Panicker
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdevice-memory-1
+    title:
+    - content: Device Memory
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/device-memory-1/
+      type: src
+    docid:
+    - id: W3C device-memory-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-device-memory-1-20180925
+    title:
+    - content: Device Memory
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-device-memory-1-20180925/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C WD-device-memory-1-20180925
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-device-memory-1-20180925
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-device-memory-1-20220722
 ext:

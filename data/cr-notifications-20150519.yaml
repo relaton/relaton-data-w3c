@@ -5,10 +5,8 @@ title:
 - content: Web Notifications
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/CR-notifications-20150519/
+- content: https://www.w3.org/TR/2015/CR-notifications-20150519/
   type: src
-- content: http://dvcs.w3.org/hg/notifications/raw-file/tip/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-notifications-20150519
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gregg
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Gregg
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnotifications
+    title:
+    - content: Web Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/notifications/
+      type: src
+    docid:
+    - id: W3C notifications
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-notifications-20130912
+    title:
+    - content: Web Notifications
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-notifications-20130912/
+    - content: https://www.w3.org/TR/2013/WD-notifications-20130912/
       type: src
     docid:
     - id: W3C WD-notifications-20130912
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-notifications-20130912
+- type: updatedBy
+  bibitem:
+    id: W3CPR-notifications-20150910
+    title:
+    - content: Web Notifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/PR-notifications-20150910/
+      type: src
+    docid:
+    - id: W3C PR-notifications-20150910
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-notifications-20150519
 ext:

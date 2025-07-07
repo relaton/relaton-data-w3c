@@ -6,7 +6,7 @@ title:
     Text 1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-i18n-html-tech-bidi-20040509/
+- content: https://www.w3.org/TR/2004/WD-i18n-html-tech-bidi-20040509/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -45,22 +52,52 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ci18n-html-tech-bidi
+    title:
+    - content: 'Authoring HTML: Handling Right-to-left Scripts'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/i18n-html-tech-bidi/
+      type: src
+    docid:
+    - id: W3C i18n-html-tech-bidi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-i18n-html-tech-20031009
+    title:
+    - content: Authoring Techniques for XHTML & HTML Internationalization 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-i18n-html-tech-20031009/
+    - content: https://www.w3.org/TR/2003/WD-i18n-html-tech-20031009/
       type: src
     docid:
     - id: W3C WD-i18n-html-tech-20031009
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-i18n-html-tech-20031009
+- type: updatedBy
+  bibitem:
+    id: W3CWD-i18n-html-tech-bidi-20070606
+    title:
+    - content: 'Internationalization Best Practices: Handling Right-to-left Scripts
+        in XHTML and HTML Content'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-i18n-html-tech-bidi-20070606/
+      type: src
+    docid:
+    - id: W3C WD-i18n-html-tech-bidi-20070606
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-i18n-html-tech-bidi-20040509
 ext:

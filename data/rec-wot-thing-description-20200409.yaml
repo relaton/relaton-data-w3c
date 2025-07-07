@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/REC-wot-thing-description-20200409/
   type: src
-- content: https://w3c.github.io/wot-thing-description/
-  type: current
 type: standard
 docid:
 - id: W3C REC-wot-thing-description-20200409
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matthias Kovatsch
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Käbisch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Takuki
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kamiya
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Käbisch
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Takuki Kamiya
+      given:
+        forename:
+        - content: Victor
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Charpenay
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Victor Charpenay
+      given:
+        forename:
+        - content: Matthias
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kovatsch
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-thing-description10
+    title:
+    - content: Web of Things (WoT) Thing Description
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-thing-description10/
+      type: src
+    docid:
+    - id: W3C wot-thing-description10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wot-thing-description-20200130
+    title:
+    - content: Web of Things (WoT) Thing Description
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/PR-wot-thing-description-20200130/
       type: src
@@ -96,28 +145,9 @@ relation:
     - id: W3C PR-wot-thing-description-20200130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wot-thing-description-20200130
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cwot-thing-description-errata
-    link:
-    - content: https://w3c.github.io/wot-thing-description/errata.html
-      type: src
-    docid:
-    - id: W3C wot-thing-description/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C wot-thing-description/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wot-thing-description-20200409
 ext:

@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Marianne Hickey
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2000-07-10'
 language:
 - en
@@ -42,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmultimodal-reqs
+    title:
+    - content: Multimodal Requirements for Voice Markup Languages
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/multimodal-reqs/
+      type: src
+    docid:
+    - id: W3C multimodal-reqs
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-multimodal-reqs-20000710
 ext:

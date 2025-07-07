@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-wslc-20040211
+    title:
+    - content: 'Web Service Management: Service Life Cycle'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/NOTE-wslc-20040211/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-wslc-20040211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-wslc-20040211
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: wslc
 ext:

@@ -5,7 +5,7 @@ title:
 - content: 'Discovery & Registration of Multimodal Modality Components: State Handling'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/
+- content: https://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: B Helena RODRIGUEZ
+      given:
+        forename:
+        - content: B Helena
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: RODRIGUEZ
         language:
         - en
         script:
@@ -42,10 +49,41 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-mc-discovery
+    title:
+    - content: Discovery & Registration of Multimodal Modality Components
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-mc-discovery/
+      type: src
+    docid:
+    - id: W3C mmi-mc-discovery
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mmi-mc-discovery-20160411
+    title:
+    - content: 'Discovery & Registration of Multimodal Modality Components: State
+        Handling'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-mmi-mc-discovery-20160411/
+      type: src
+    docid:
+    - id: W3C WD-mmi-mc-discovery-20160411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mmi-mc-discovery-20150611
 ext:

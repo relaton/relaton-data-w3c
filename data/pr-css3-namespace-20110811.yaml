@@ -5,7 +5,7 @@ title:
 - content: CSS Namespaces Module
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/PR-css3-namespace-20110811/
+- content: https://www.w3.org/TR/2011/PR-css3-namespace-20110811/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elika J. Etemad
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-namespaces-3
+    title:
+    - content: CSS Namespaces Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-namespaces-3/
+      type: src
+    docid:
+    - id: W3C css-namespaces-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css3-namespace-20080523
+    title:
+    - content: CSS Namespaces Module
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/CR-css3-namespace-20080523/
+    - content: https://www.w3.org/TR/2008/CR-css3-namespace-20080523/
       type: src
     docid:
     - id: W3C CR-css3-namespace-20080523
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css3-namespace-20080523
+- type: updatedBy
+  bibitem:
+    id: W3CREC-css3-namespace-20110929
+    title:
+    - content: CSS Namespaces Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/REC-css3-namespace-20110929/
+      type: src
+    docid:
+    - id: W3C REC-css3-namespace-20110929
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-css3-namespace-20110811
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

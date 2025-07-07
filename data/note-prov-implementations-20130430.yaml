@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Paul Groth
+      given:
+        forename:
+        - content: Trung Dong
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Huynh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stephan Zednik
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Groth
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Trung Dong Huynh
+      given:
+        forename:
+        - content: Stephan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zednik
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-implementations
+    title:
+    - content: PROV Implementation Report
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-implementations/
+      type: src
+    docid:
+    - id: W3C prov-implementations
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-prov-implementations-20130312
+    title:
+    - content: PROV Implementation Report
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-prov-implementations-20130312/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-prov-implementations-20130312
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-prov-implementations-20130312
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-prov-implementations-20130430
 ext:

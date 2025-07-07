@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-widgets-apis-20131031
-    link:
-    - content: https://www.w3.org/TR/2013/REC-widgets-apis-20131031/
-      type: src
-    docid:
-    - id: W3C REC-widgets-apis-20131031
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-widgets-apis-20131031
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3COBSL-widgets-apis-20181011
+    title:
+    - content: Widget Interface
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/OBSL-widgets-apis-20181011/
       type: src
@@ -53,12 +40,139 @@ relation:
     - id: W3C OBSL-widgets-apis-20181011
       type: W3C
       primary: true
-    formattedref:
-      content: W3C OBSL-widgets-apis-20181011
+- type: hasEdition
+  bibitem:
+    id: W3CREC-widgets-apis-20131031
+    title:
+    - content: Widget Interface
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-widgets-apis-20131031/
+      type: src
+    docid:
+    - id: W3C REC-widgets-apis-20131031
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-widgets-apis-20120522
+    title:
+    - content: Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-widgets-apis-20120522/
+      type: src
+    docid:
+    - id: W3C PR-widgets-apis-20120522
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-widgets-apis-20111213
+    title:
+    - content: Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-widgets-apis-20111213/
+      type: src
+    docid:
+    - id: W3C CR-widgets-apis-20111213
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-apis-20110607
+    title:
+    - content: Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-widgets-apis-20110607/
+      type: src
+    docid:
+    - id: W3C WD-widgets-apis-20110607
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-apis-20100907
+    title:
+    - content: The Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-widgets-apis-20100907/
+      type: src
+    docid:
+    - id: W3C WD-widgets-apis-20100907
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-widgets-apis-20091222
+    title:
+    - content: The Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-widgets-apis-20091222/
+      type: src
+    docid:
+    - id: W3C CR-widgets-apis-20091222
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-apis-20091117
+    title:
+    - content: 'Widgets 1.0: The widget Interface'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-apis-20091117/
+      type: src
+    docid:
+    - id: W3C WD-widgets-apis-20091117
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-apis-20090818
+    title:
+    - content: 'Widgets 1.0: APIs and Events'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-apis-20090818/
+      type: src
+    docid:
+    - id: W3C WD-widgets-apis-20090818
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-apis-20090423
+    title:
+    - content: 'Widgets 1.0: APIs and Events'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-apis-20090423/
+      type: src
+    docid:
+    - id: W3C WD-widgets-apis-20090423
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-apis-20090205
+    title:
+    - content: 'Widgets 1.0: APIs and Events'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-apis-20090205/
+      type: src
+    docid:
+    - id: W3C WD-widgets-apis-20090205
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: widgets-apis
 ext:

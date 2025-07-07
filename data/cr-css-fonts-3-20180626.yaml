@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-css-fonts-3-20180626/
   type: src
-- content: https://drafts.csswg.org/css-fonts/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-fonts-3-20180626
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Daggett
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Daggett
+      given:
+        forename:
+        - content: Myles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maxfield
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Myles Maxfield
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-fonts-3
+    title:
+    - content: CSS Fonts Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-fonts-3/
+      type: src
+    docid:
+    - id: W3C css-fonts-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-fonts-3-20180315
+    title:
+    - content: CSS Fonts Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-css-fonts-3-20180315/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CR-css-fonts-3-20180315
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-fonts-3-20180315
+- type: updatedBy
+  bibitem:
+    id: W3CPR-css-fonts-3-20180814
+    title:
+    - content: CSS Fonts Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/PR-css-fonts-3-20180814/
+      type: src
+    docid:
+    - id: W3C PR-css-fonts-3-20180814
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-fonts-3-20180626
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

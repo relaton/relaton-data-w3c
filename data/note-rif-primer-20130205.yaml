@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christopher Welty
+      given:
+        forename:
+        - content: Leora
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Morgenstern
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gary Hallmark
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Harold Boley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Leora Morgenstern
+      given:
+        forename:
+        - content: Christopher
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Welty
         language:
         - en
         script:
@@ -70,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-primer
+    title:
+    - content: RIF Primer (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-primer/
+      type: src
+    docid:
+    - id: W3C rif-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-rif-primer-20121211
+    title:
+    - content: RIF Primer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/NOTE-rif-primer-20121211/
       type: src
@@ -81,12 +94,9 @@ relation:
     - id: W3C NOTE-rif-primer-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-rif-primer-20121211
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-rif-primer-20130205
 ext:
@@ -94,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

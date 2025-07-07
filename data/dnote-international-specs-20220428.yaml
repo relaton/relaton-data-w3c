@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-international-specs-20220428/
   type: src
-- content: https://w3c.github.io/bp-i18n-specdev/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-international-specs-20220428
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Addison Phillips
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Addison
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phillips
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cinternational-specs
+    title:
+    - content: Internationalization Best Practices for Spec Developers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/international-specs/
+      type: src
+    docid:
+    - id: W3C international-specs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-international-specs-20220420
+    title:
+    - content: Internationalization Best Practices for Spec Developers
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-international-specs-20220420/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C DNOTE-international-specs-20220420
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-international-specs-20220420
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-international-specs-20220429
+    title:
+    - content: Internationalization Best Practices for Spec Developers
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-international-specs-20220429/
+      type: src
+    docid:
+    - id: W3C DNOTE-international-specs-20220429
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-international-specs-20220428
 ext:

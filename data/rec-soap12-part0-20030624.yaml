@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nilo Mitra
+      given:
+        forename:
+        - content: Nilo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mitra
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-part0
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-part0/
+      type: src
+    docid:
+    - id: W3C soap12-part0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-soap12-part0-20030507
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/PR-soap12-part0-20030507/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-soap12-part0-20030507
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-soap12-part0-20030507
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-soap12-20030624-errata
-    link:
-    - content: https://www.w3.org/2003/06/REC-soap12-20030624-errata
-      type: src
-    docid:
-    - id: W3C REC-soap12-20030624-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-soap12-20030624-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-soap12-part0-20030624
 ext:

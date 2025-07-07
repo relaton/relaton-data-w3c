@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-WCAG21-20180130/
   type: src
-- content: https://w3c.github.io/wcag21/guidelines/
-  type: current
 type: standard
 docid:
 - id: W3C CR-WCAG21-20180130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Kirkpatrick
+      given:
+        forename:
+        - content: Andrew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kirkpatrick
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshue O Connor
+      given:
+        forename:
+        - content: Joshue
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWCAG21
+    title:
+    - content: Web Content Accessibility Guidelines (WCAG) 2.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WCAG21/
+      type: src
+    docid:
+    - id: W3C WCAG21
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-WCAG21-20171207
+    title:
+    - content: Web Content Accessibility Guidelines (WCAG) 2.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-WCAG21-20171207/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-WCAG21-20171207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-WCAG21-20171207
+- type: updatedBy
+  bibitem:
+    id: W3CPR-WCAG21-20180424
+    title:
+    - content: Web Content Accessibility Guidelines (WCAG) 2.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/PR-WCAG21-20180424/
+      type: src
+    docid:
+    - id: W3C PR-WCAG21-20180424
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-WCAG21-20180130
 ext:

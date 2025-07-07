@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-audiobooks-20190620/
   type: src
-- content: https://w3c.github.io/audiobooks/index.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-audiobooks-20190620
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Wendy Reid
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reid
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudiobooks
+    title:
+    - content: Audiobooks
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audiobooks/
+      type: src
+    docid:
+    - id: W3C audiobooks
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-audiobooks-20190830
+    title:
+    - content: Audiobook Profile for Publication Manifest
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190830/
+      type: src
+    docid:
+    - id: W3C WD-audiobooks-20190830
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-audiobooks-20190620
 ext:

@@ -5,10 +5,8 @@ title:
 - content: Web Annotation Data Model
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-annotation-model-20160331/
+- content: https://www.w3.org/TR/2016/WD-annotation-model-20160331/
   type: src
-- content: http://w3c.github.io/web-annotation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-annotation-model-20160331
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Young
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sanderson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paolo Ciccarese
+      given:
+        forename:
+        - content: Paolo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ciccarese
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robert Sanderson
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Young
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cannotation-model
+    title:
+    - content: Web Annotation Data Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/annotation-model/
+      type: src
+    docid:
+    - id: W3C annotation-model
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-annotation-model-20151015
+    title:
+    - content: Web Annotation Data Model
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-annotation-model-20151015/
+    - content: https://www.w3.org/TR/2015/WD-annotation-model-20151015/
       type: src
     docid:
     - id: W3C WD-annotation-model-20151015
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-annotation-model-20151015
+- type: updatedBy
+  bibitem:
+    id: W3CCR-annotation-model-20160705
+    title:
+    - content: Web Annotation Data Model
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-annotation-model-20160705/
+      type: src
+    docid:
+    - id: W3C CR-annotation-model-20160705
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-annotation-model-20160331
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Annotation Working Group
+  - name: Web Annotation Working Group

@@ -5,7 +5,7 @@ title:
 - content: XML Binding Language (XBL) 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-xbl-20060619/
+- content: https://www.w3.org/TR/2006/WD-xbl-20060619/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxbl
+    title:
+    - content: XBL 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xbl/
+      type: src
+    docid:
+    - id: W3C xbl
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xbl-20060907
+    title:
+    - content: XML Binding Language (XBL) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-xbl-20060907/
+      type: src
+    docid:
+    - id: W3C WD-xbl-20060907
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xbl-20060619
 ext:

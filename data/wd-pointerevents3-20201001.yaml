@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-pointerevents3-20201001/
   type: src
-- content: https://w3c.github.io/pointerevents/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pointerevents3-20201001
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Navid Zolghadr
+      given:
+        forename:
+        - content: Navid
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zolghadr
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rick Byers
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Byers
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerevents3
+    title:
+    - content: Pointer Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerevents3/
+      type: src
+    docid:
+    - id: W3C pointerevents3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pointerevents3-20200921
+    title:
+    - content: Pointer Events
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-pointerevents3-20200921/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-pointerevents3-20200921
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerevents3-20200921
+- type: updatedBy
+  bibitem:
+    id: W3CWD-pointerevents3-20210512
+    title:
+    - content: Pointer Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-pointerevents3-20210512/
+      type: src
+    docid:
+    - id: W3C WD-pointerevents3-20210512
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-pointerevents3-20201001
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Isaac
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Isaac
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Rubin
+      given:
+        forename:
+        - content: Jon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phipps
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jon Phipps
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rubin
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cskos-ucr
+    title:
+    - content: SKOS Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/skos-ucr/
+      type: src
+    docid:
+    - id: W3C skos-ucr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-skos-ucr-20070516
+    title:
+    - content: SKOS Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-skos-ucr-20070516/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-skos-ucr-20070516
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-skos-ucr-20070516
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-skos-ucr-20090818
 ext:

@@ -5,7 +5,7 @@ title:
 - content: W3C mobileOK Scheme 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-mobileOK-20060712/
+- content: https://www.w3.org/TR/2006/WD-mobileOK-20060712/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jo Rabin
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Phil Archer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sean Owen
+      given:
+        forename:
+        - content: Phil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Archer
         language:
         - en
         script:
@@ -63,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CmobileOK
+    title:
+    - content: W3C mobileOK Scheme 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobileOK/
+      type: src
+    docid:
+    - id: W3C mobileOK
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mobileOK-20070504
+    title:
+    - content: W3C mobileOK Scheme 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-mobileOK-20070504/
+      type: src
+    docid:
+    - id: W3C WD-mobileOK-20070504
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mobileOK-20060712
 ext:

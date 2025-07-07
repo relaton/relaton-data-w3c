@@ -5,10 +5,8 @@ title:
 - content: Input Method Editor API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-ime-api-20151215/
+- content: https://www.w3.org/TR/2015/WD-ime-api-20151215/
   type: src
-- content: http://w3c.github.io/ime-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-ime-api-20151215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hironori Bono
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenji Baheux
+      given:
+        forename:
+        - content: Takayoshi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kochi
         language:
         - en
         script:
@@ -49,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Takayoshi Kochi
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Kenji
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baheux
         language:
         - en
         script:
@@ -76,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cime-api
+    title:
+    - content: Input Method Editor API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ime-api/
+      type: src
+    docid:
+    - id: W3C ime-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ime-api-20150526
+    title:
+    - content: Input Method Editor API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-ime-api-20150526/
+    - content: https://www.w3.org/TR/2015/WD-ime-api-20150526/
       type: src
     docid:
     - id: W3C WD-ime-api-20150526
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ime-api-20150526
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ime-api-20160515
+    title:
+    - content: Input Method Editor API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-ime-api-20160515/
+      type: src
+    docid:
+    - id: W3C NOTE-ime-api-20160515
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ime-api-20151215
 ext:
@@ -99,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

@@ -5,10 +5,8 @@ title:
 - content: ActivityPub
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-activitypub-20160614/
+- content: https://www.w3.org/TR/2016/WD-activitypub-20160614/
   type: src
-- content: http://w3c-social.github.io/activitypub/
-  type: current
 type: standard
 docid:
 - id: W3C WD-activitypub-20160614
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitypub
+    title:
+    - content: ActivityPub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitypub/
+      type: src
+    docid:
+    - id: W3C activitypub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-activitypub-20160128
+    title:
+    - content: ActivityPub
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-activitypub-20160128/
+    - content: https://www.w3.org/TR/2016/WD-activitypub-20160128/
       type: src
     docid:
     - id: W3C WD-activitypub-20160128
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-activitypub-20160128
+- type: updatedBy
+  bibitem:
+    id: W3CWD-activitypub-20160823
+    title:
+    - content: ActivityPub
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-activitypub-20160823/
+      type: src
+    docid:
+    - id: W3C WD-activitypub-20160823
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-activitypub-20160614
 ext:

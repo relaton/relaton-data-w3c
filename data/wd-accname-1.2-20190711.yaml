@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-accname-1.2-20190711/
   type: src
-- content: https://w3c.github.io/accname/
-  type: current
 type: standard
 docid:
 - id: W3C WD-accname-1.2-20190711
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bryan Garaventa
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garaventa
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Caccname-1.2
+    title:
+    - content: Accessible Name and Description Computation 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/accname-1.2/
+      type: src
+    docid:
+    - id: W3C accname-1.2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-accname-1.2-20240227
+    title:
+    - content: Accessible Name and Description Computation 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-accname-1.2-20240227/
+      type: src
+    docid:
+    - id: W3C WD-accname-1.2-20240227
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-accname-1.2-20190711
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Authoring Tool Accessibility Guidelines 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-ATAG20-20081124/
+- content: https://www.w3.org/TR/2008/WD-ATAG20-20081124/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jan Richards
+      given:
+        forename:
+        - content: Jutta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Treviranus
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeanne Spellman
+      given:
+        forename:
+        - content: Jan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richards
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jutta Treviranus
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CATAG20
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ATAG20/
+      type: src
+    docid:
+    - id: W3C ATAG20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ATAG20-20080310
+    title:
+    - content: Authoring Tool Accessibility Guidelines 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-ATAG20-20080310/
+    - content: https://www.w3.org/TR/2008/WD-ATAG20-20080310/
       type: src
     docid:
     - id: W3C WD-ATAG20-20080310
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20080310
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ATAG20-20090217
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-ATAG20-20090217/
+      type: src
+    docid:
+    - id: W3C WD-ATAG20-20090217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ATAG20-20081124
 ext:

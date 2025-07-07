@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-mediacapture-region-20220414/
   type: src
-- content: https://w3c.github.io/mediacapture-region/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediacapture-region-20220414
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elad Alon
+      given:
+        forename:
+        - content: Elad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alon
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-region
+    title:
+    - content: Region Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-region/
+      type: src
+    docid:
+    - id: W3C mediacapture-region
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediacapture-region-20220405
+    title:
+    - content: Region Capture
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-mediacapture-region-20220405/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-mediacapture-region-20220405
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediacapture-region-20220405
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediacapture-region-20220510
+    title:
+    - content: Region Capture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-mediacapture-region-20220510/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-region-20220510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mediacapture-region-20220414
 ext:

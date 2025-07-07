@@ -2,12 +2,10 @@
 schema-version: v1.2.9
 id: W3CWD-DOM-Level-3-LS-20030226
 title:
-- content: |-
-    Document Object Model (DOM) Level 3 Load and Save
-    Specification
+- content: Document Object Model (DOM) Level 3 Load and Save Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-DOM-Level-3-LS-20030226
+- content: https://www.w3.org/TR/2003/WD-DOM-Level-3-LS-20030226
   type: src
 type: standard
 docid:
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Heninger
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Johnny Stenback
+      given:
+        forename:
+        - content: Johnny
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stenback
         language:
         - en
         script:
@@ -56,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-LS
+    title:
+    - content: Document Object Model (DOM) Level 3 Load and Save Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-LS/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-LS
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Level-3-LS-20020725
+    title:
+    - content: Document Object Model (DOM) Level 3 Load and Save Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-DOM-Level-3-LS-20020725
+    - content: https://www.w3.org/TR/2002/WD-DOM-Level-3-LS-20020725
       type: src
     docid:
     - id: W3C WD-DOM-Level-3-LS-20020725
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-LS-20020725
+- type: updatedBy
+  bibitem:
+    id: W3CWD-DOM-Level-3-LS-20030619
+    title:
+    - content: Document Object Model (DOM) Level 3 Load and Save Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-DOM-Level-3-LS-20030619
+      type: src
+    docid:
+    - id: W3C WD-DOM-Level-3-LS-20030619
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-DOM-Level-3-LS-20030226
 ext:
@@ -79,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

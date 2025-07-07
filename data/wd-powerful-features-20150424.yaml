@@ -5,7 +5,7 @@ title:
 - content: Privileged Contexts
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-powerful-features-20150424/
+- content: https://www.w3.org/TR/2015/WD-powerful-features-20150424/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yan Zhu
+      given:
+        forename:
+        - content: Yan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhu
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csecure-contexts
+    title:
+    - content: Secure Contexts
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/secure-contexts/
+      type: src
+    docid:
+    - id: W3C secure-contexts
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-powerful-features-20141204
+    title:
+    - content: Requirements for Powerful Features
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-powerful-features-20141204/
+    - content: https://www.w3.org/TR/2014/WD-powerful-features-20141204/
       type: src
     docid:
     - id: W3C WD-powerful-features-20141204
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-powerful-features-20141204
+- type: updatedBy
+  bibitem:
+    id: W3CWD-powerful-features-20160413
+    title:
+    - content: Secure Contexts
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-powerful-features-20160413/
+      type: src
+    docid:
+    - id: W3C WD-powerful-features-20160413
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-powerful-features-20150424
 ext:

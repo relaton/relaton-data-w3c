@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/REC-wasm-web-api-1-20191205/
   type: src
-- content: https://webassembly.github.io/spec/web-api/
-  type: current
 type: standard
 docid:
 - id: W3C REC-wasm-web-api-1-20191205
@@ -27,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Daniel Ehrenberg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2019-12-05'
 language:
 - en
@@ -46,9 +34,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwasm-web-api-1
+    title:
+    - content: WebAssembly Web API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wasm-web-api-1/
+      type: src
+    docid:
+    - id: W3C wasm-web-api-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wasm-web-api-1-20191001
+    title:
+    - content: WebAssembly Web API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/PR-wasm-web-api-1-20191001/
       type: src
@@ -56,28 +60,9 @@ relation:
     - id: W3C PR-wasm-web-api-1-20191001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wasm-web-api-1-20191001
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cwasm-errata
-    link:
-    - content: https://www.w3.org/2019/12/wasm-errata
-      type: src
-    docid:
-    - id: W3C wasm-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C wasm-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wasm-web-api-1-20191205
 ext:

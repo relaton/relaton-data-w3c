@@ -5,10 +5,8 @@ title:
 - content: Annotation Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-dpub-annotation-uc-20140313/
+- content: https://www.w3.org/TR/2014/WD-dpub-annotation-uc-20140313/
   type: src
-- content: http://w3c.github.io/dpub-annotation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-dpub-annotation-uc-20140313
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Robert Sanderson
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sanderson
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-annotation-uc
+    title:
+    - content: Digital Publishing Annotation Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-annotation-uc/
+      type: src
+    docid:
+    - id: W3C dpub-annotation-uc
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-dpub-annotation-uc-20141204
+    title:
+    - content: Digital Publishing Annotation Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-dpub-annotation-uc-20141204/
+      type: src
+    docid:
+    - id: W3C NOTE-dpub-annotation-uc-20141204
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-dpub-annotation-uc-20140313
 ext:

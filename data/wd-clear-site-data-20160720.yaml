@@ -5,10 +5,8 @@ title:
 - content: Clear Site Data
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-clear-site-data-20160720/
+- content: https://www.w3.org/TR/2016/WD-clear-site-data-20160720/
   type: src
-- content: https://w3c.github.io/webappsec-clear-site-data/
-  type: current
 type: standard
 docid:
 - id: W3C WD-clear-site-data-20160720
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclear-site-data
+    title:
+    - content: Clear Site Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clear-site-data/
+      type: src
+    docid:
+    - id: W3C clear-site-data
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-clear-site-data-20150804
+    title:
+    - content: Clear Site Data
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-clear-site-data-20150804/
+    - content: https://www.w3.org/TR/2015/WD-clear-site-data-20150804/
       type: src
     docid:
     - id: W3C WD-clear-site-data-20150804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-clear-site-data-20150804
+- type: updatedBy
+  bibitem:
+    id: W3CWD-clear-site-data-20171130
+    title:
+    - content: Clear Site Data
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-clear-site-data-20171130/
+      type: src
+    docid:
+    - id: W3C WD-clear-site-data-20171130
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-clear-site-data-20160720
 ext:

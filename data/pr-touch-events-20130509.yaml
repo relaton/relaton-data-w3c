@@ -5,7 +5,7 @@ title:
 - content: Touch Events version 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-touch-events-20130509/
+- content: https://www.w3.org/TR/2013/PR-touch-events-20130509/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arthur Barstow
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Sangwhan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moon
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sangwhan Moon
+      given:
+        forename:
+        - content: Arthur
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Barstow
         language:
         - en
         script:
@@ -74,22 +102,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctouch-events
+    title:
+    - content: Touch Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/touch-events/
+      type: src
+    docid:
+    - id: W3C touch-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-touch-events-20130124
+    title:
+    - content: Touch Events version 1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-touch-events-20130124/
+    - content: https://www.w3.org/TR/2013/WD-touch-events-20130124/
       type: src
     docid:
     - id: W3C WD-touch-events-20130124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-touch-events-20130124
+- type: updatedBy
+  bibitem:
+    id: W3CREC-touch-events-20131010
+    title:
+    - content: Touch Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-touch-events-20131010/
+      type: src
+    docid:
+    - id: W3C REC-touch-events-20131010
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-touch-events-20130509
 ext:

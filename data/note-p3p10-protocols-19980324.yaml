@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joseph Reagle
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philip DesAutels
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven Lucas
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -60,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-P3P10-Protocols
+    title:
+    - content: P3P Protocol and Data Transport Working Group Draft White Paper
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/NOTE-P3P10-Protocols
+      type: src
+    docid:
+    - id: W3C NOTE-P3P10-Protocols
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-P3P10-Protocols-19980324
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

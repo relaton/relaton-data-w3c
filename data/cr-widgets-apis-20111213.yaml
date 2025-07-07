@@ -5,7 +5,7 @@ title:
 - content: Widget Interface
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/CR-widgets-apis-20111213/
+- content: https://www.w3.org/TR/2011/CR-widgets-apis-20111213/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-apis
+    title:
+    - content: Widget Interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-apis/
+      type: src
+    docid:
+    - id: W3C widgets-apis
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-widgets-apis-20110607
+    title:
+    - content: Widget Interface
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-widgets-apis-20110607/
+    - content: https://www.w3.org/TR/2011/WD-widgets-apis-20110607/
       type: src
     docid:
     - id: W3C WD-widgets-apis-20110607
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-widgets-apis-20110607
+- type: updatedBy
+  bibitem:
+    id: W3CPR-widgets-apis-20120522
+    title:
+    - content: Widget Interface
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-widgets-apis-20120522/
+      type: src
+    docid:
+    - id: W3C PR-widgets-apis-20120522
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-widgets-apis-20111213
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -5,7 +5,7 @@ title:
 - content: SOAP 1.2 Attachment Feature
   format: text/plain
 link:
-- content: http://www.w3.org/TR/soap12-af
+- content: https://www.w3.org/TR/soap12-af/
   type: src
 type: standard
 docid:
@@ -26,26 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-soap12-af-20040608
+    title:
+    - content: SOAP 1.2 Attachment Feature
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/NOTE-soap12-af-20040608/
+      type: src
+    docid:
+    - id: W3C NOTE-soap12-af-20040608
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-soap12-af-20020924
+    title:
+    - content: SOAP 1.2 Attachment Feature
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-soap12-af-20020924
+    - content: https://www.w3.org/TR/2002/WD-soap12-af-20020924
       type: src
     docid:
     - id: W3C WD-soap12-af-20020924
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-soap12-af-20020924
+- type: hasEdition
+  bibitem:
+    id: W3CWD-soap12-af-20020814
+    title:
+    - content: SOAP 1.2 Attachment Feature
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-soap12-af-20020814
+      type: src
+    docid:
+    - id: W3C WD-soap12-af-20020814
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: soap12-af
 ext:

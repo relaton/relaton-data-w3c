@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CRD-css-syntax-3-20211224/
   type: src
-- content: https://drafts.csswg.org/css-syntax/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-css-syntax-3-20211224
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Simon Sapin
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sapin
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-syntax-3
+    title:
+    - content: CSS Syntax Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-syntax-3/
+      type: src
+    docid:
+    - id: W3C css-syntax-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-syntax-3-20190716
+    title:
+    - content: CSS Syntax Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/CR-css-syntax-3-20190716/
       type: src
@@ -66,12 +94,9 @@ relation:
     - id: W3C CR-css-syntax-3-20190716
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-syntax-3-20190716
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-css-syntax-3-20211224
 ext:
@@ -79,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -5,7 +5,7 @@ title:
 - content: Form-based Device Input and Upload in HTML
   format: text/plain
 link:
-- content: http://www.w3.org/1999/07/NOTE-device-upload-19990706
+- content: https://www.w3.org/1999/07/NOTE-device-upload-19990706
   type: src
 type: standard
 docid:
@@ -25,25 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: James P. Salsman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1999-07-06'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdevice-upload
+    title:
+    - content: Form-based Device Input and Upload in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/device-upload
+      type: src
+    docid:
+    - id: W3C device-upload
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-device-upload-19990706
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

@@ -6,7 +6,7 @@ title:
     Preferences'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/NOTE-TPRC-970930/
+- content: https://www.w3.org/TR/NOTE-TPRC-970930/
   type: src
 type: standard
 docid:
@@ -26,37 +26,37 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Joseph Reagle Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lorrie Faith Cranor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1997-09-30'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CTPRC
+    title:
+    - content: 'Designing a Social Protocol: Lessons Learned from the Platform for
+        Privacy Preferences'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/TPRC/
+      type: src
+    docid:
+    - id: W3C TPRC
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-TPRC-970930
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

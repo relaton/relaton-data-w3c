@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-raur-20200319/
   type: src
-- content: https://w3c.github.io/apa/raur/
-  type: current
 type: standard
 docid:
 - id: W3C WD-raur-20200319
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Janina Sajka
+      given:
+        forename:
+        - content: Joshue
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jason White
+      given:
+        forename:
+        - content: Janina
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajka
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshue O Connor
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: White
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -74,10 +100,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Craur
+    title:
+    - content: RTC Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/raur/
+      type: src
+    docid:
+    - id: W3C raur
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-raur-20201207
+    title:
+    - content: RTC Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-raur-20201207/
+      type: src
+    docid:
+    - id: W3C WD-raur-20201207
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-raur-20200319
 ext:
@@ -85,4 +141,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

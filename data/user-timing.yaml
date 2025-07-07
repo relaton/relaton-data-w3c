@@ -26,78 +26,39 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-user-timing-20131212
+    id: W3CCRD-user-timing-20250213
+    title:
+    - content: User Timing
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2013/REC-user-timing-20131212/
+    - content: https://www.w3.org/TR/2025/CRD-user-timing-20250213/
       type: src
     docid:
-    - id: W3C REC-user-timing-20131212
+    - id: W3C CRD-user-timing-20250213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-user-timing-20131212
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CCR-user-timing-20211202
+    id: W3CCRD-user-timing-20241031
+    title:
+    - content: User Timing
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2021/CR-user-timing-20211202/
+    - content: https://www.w3.org/TR/2024/CRD-user-timing-20241031/
       type: src
     docid:
-    - id: W3C CR-user-timing-20211202
+    - id: W3C CRD-user-timing-20241031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-user-timing-20211202
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CCRD-user-timing-20220803
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-user-timing-20220803/
-      type: src
-    docid:
-    - id: W3C CRD-user-timing-20220803
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-user-timing-20220803
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-user-timing-20230426
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-user-timing-20230426/
-      type: src
-    docid:
-    - id: W3C CRD-user-timing-20230426
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-user-timing-20230426
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-user-timing-20231106
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-user-timing-20231106/
-      type: src
-    docid:
-    - id: W3C CRD-user-timing-20231106
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-user-timing-20231106
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CCRD-user-timing-20231114
+    title:
+    - content: User Timing Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/CRD-user-timing-20231114/
       type: src
@@ -105,12 +66,269 @@ relation:
     - id: W3C CRD-user-timing-20231114
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-user-timing-20231114
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-user-timing-20231106
+    title:
+    - content: User Timing Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-user-timing-20231106/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20231106
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-user-timing-20230426
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-user-timing-20230426/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20230426
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-user-timing-20220803
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/CRD-user-timing-20220803/
+      type: src
+    docid:
+    - id: W3C CRD-user-timing-20220803
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-user-timing-20211202
+    title:
+    - content: User Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CR-user-timing-20211202/
+      type: src
+    docid:
+    - id: W3C CR-user-timing-20211202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20210913
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-user-timing-3-20210913/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20210913
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20210713
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-user-timing-3-20210713/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20210713
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20210308
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-user-timing-3-20210308/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20210308
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20200818
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-user-timing-3-20200818/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20200818
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20200421
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-user-timing-3-20200421/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20200421
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20200326
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-user-timing-3-20200326/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20200326
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190927
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190927/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190927
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190809
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190809/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190809
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190717
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190717/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190717
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190628
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190628/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190628
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190627
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190627/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190627
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190626
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190626/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190626
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190619
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190619/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190619
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190425
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190425/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190425
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190308
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190308/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190308
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-user-timing-3-20190305
+    title:
+    - content: User Timing Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-user-timing-3-20190305/
+      type: src
+    docid:
+    - id: W3C WD-user-timing-3-20190305
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: user-timing
 ext:

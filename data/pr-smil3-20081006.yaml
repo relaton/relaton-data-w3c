@@ -5,7 +5,7 @@ title:
 - content: Synchronized Multimedia Integration Language (SMIL 3.0)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PR-SMIL3-20081006/
+- content: https://www.w3.org/TR/2008/PR-SMIL3-20081006/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dick Bulterman
+      given:
+        forename:
+        - content: Dick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bulterman
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL3
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL3/
+      type: src
+    docid:
+    - id: W3C SMIL3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-SMIL3-20080115
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/CR-SMIL3-20080115/
+    - content: https://www.w3.org/TR/2008/CR-SMIL3-20080115/
       type: src
     docid:
     - id: W3C CR-SMIL3-20080115
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-SMIL3-20080115
+- type: updatedBy
+  bibitem:
+    id: W3CREC-SMIL3-20081201
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-SMIL3-20081201/
+      type: src
+    docid:
+    - id: W3C REC-SMIL3-20081201
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-SMIL3-20081006
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Synchronized Multimedia Working Group
+  - name: SYMM Working Group

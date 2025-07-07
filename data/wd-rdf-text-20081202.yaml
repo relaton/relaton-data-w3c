@@ -5,7 +5,7 @@ title:
 - content: 'rdf:text: A Datatype for Internationalized Text'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-rdf-text-20081202/
+- content: https://www.w3.org/TR/2008/WD-rdf-text-20081202/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Axel Polleres
+      given:
+        forename:
+        - content: Axel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Polleres
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Boris Motik
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jie Bao
+      given:
+        forename:
+        - content: Boris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Motik
         language:
         - en
         script:
@@ -63,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-plain-literal
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-plain-literal/
+      type: src
+    docid:
+    - id: W3C rdf-plain-literal
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-text-20090421
+    title:
+    - content: 'rdf:text: A Datatype for Internationalized Text'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-rdf-text-20090421/
+      type: src
+    docid:
+    - id: W3C WD-rdf-text-20090421
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rdf-text-20081202
 ext:
@@ -73,5 +107,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group
   - name: OWL Working Group

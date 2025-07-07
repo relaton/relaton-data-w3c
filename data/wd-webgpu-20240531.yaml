@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-webgpu-20240531/
   type: src
-- content: https://gpuweb.github.io/gpuweb/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webgpu-20240531
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brandon Jones
+      given:
+        forename:
+        - content: Kai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ninomiya
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Blandy
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kai Ninomiya
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Blandy
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebgpu
+    title:
+    - content: WebGPU
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webgpu/
+      type: src
+    docid:
+    - id: W3C webgpu
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webgpu-20240530
+    title:
+    - content: WebGPU
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-webgpu-20240530/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-webgpu-20240530
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webgpu-20240530
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webgpu-20240604
+    title:
+    - content: WebGPU
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-webgpu-20240604/
+      type: src
+    docid:
+    - id: W3C WD-webgpu-20240604
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webgpu-20240531
 ext:

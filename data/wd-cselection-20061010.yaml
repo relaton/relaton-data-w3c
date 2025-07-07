@@ -5,7 +5,7 @@ title:
 - content: Content Selection for Device Independence (DISelect) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-cselection-20061010/
+- content: https://www.w3.org/TR/2006/WD-cselection-20061010/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Max Froumentin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rhys Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Roland Merrick
+      given:
+        forename:
+        - content: Max
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Froumentin
         language:
         - en
         script:
@@ -62,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccselection
+    title:
+    - content: Content Selection for Device Independence (DISelect) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cselection/
+      type: src
+    docid:
+    - id: W3C cselection
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-cselection-20050502
+    title:
+    - content: Content Selection for Device Independence (DISelect) 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-cselection-20050502/
+    - content: https://www.w3.org/TR/2005/WD-cselection-20050502/
       type: src
     docid:
     - id: W3C WD-cselection-20050502
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-cselection-20050502
+- type: updatedBy
+  bibitem:
+    id: W3CCR-cselection-20070725
+    title:
+    - content: Content Selection for Device Independence (DISelect) 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/CR-cselection-20070725/
+      type: src
+    docid:
+    - id: W3C CR-cselection-20070725
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-cselection-20061010
 ext:

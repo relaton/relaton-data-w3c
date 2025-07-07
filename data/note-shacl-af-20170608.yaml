@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-shacl-af-20170608/
   type: src
-- content: https://w3c.github.io/data-shapes/shacl-af/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-shacl-af-20170608
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dean Allemang
+      given:
+        forename:
+        - content: Holger
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Knublauch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Holger Knublauch
+      given:
+        forename:
+        - content: Dean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Allemang
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Steyskal
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steyskal
         language:
         - en
         script:
@@ -62,9 +81,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshacl-af
+    title:
+    - content: SHACL Advanced Features
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shacl-af/
+      type: src
+    docid:
+    - id: W3C shacl-af
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-shacl-af-20170608
 ext:
@@ -72,4 +108,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF Data Shapes Working Group
+  - name: Data Shapes Working Group

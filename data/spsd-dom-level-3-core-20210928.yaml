@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arnaud Le Hors
+      given:
+        forename:
+        - content: Arnaud
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hors
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gavin Nicol
+      given:
+        forename:
+        - content: Philippe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hegaret
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Lauren
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
         language:
         - en
         script:
@@ -57,38 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lauren Wood
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mike Champion
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philippe Le Hegaret
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven B Byrne
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -102,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-Core
+    title:
+    - content: Document Object Model (DOM) Level 3 Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-Core/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-Core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-DOM-Level-3-Core-20040407
+    title:
+    - content: Document Object Model (DOM) Level 3 Core Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/
       type: src
@@ -114,12 +128,9 @@ relation:
     - id: W3C REC-DOM-Level-3-Core-20040407
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-DOM-Level-3-Core-20040407
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-DOM-Level-3-Core-20210928
 ext:
@@ -127,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

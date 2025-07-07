@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/1998/REC-CSS2-19980512/fonts.html
   type: src
-- content: https://drafts.csswg.org/css-fonts-3/
-  type: current
 type: standard
 docid:
 - id: W3C REC-CSS2-19980512/fonts
@@ -35,12 +33,44 @@ script:
 docstatus:
   stage:
     value: Recommendation
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-fonts-3
+    title:
+    - content: CSS Fonts Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-fonts-3/
+      type: src
+    docid:
+    - id: W3C css-fonts-3
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css3-fonts-20020802
+    title:
+    - content: 'CSS3 module: Fonts'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-css3-fonts-20020802
+      type: src
+    docid:
+    - id: W3C WD-css3-fonts-20020802
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-CSS2-19980512/fonts
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

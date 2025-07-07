@@ -5,7 +5,7 @@ title:
 - content: Common HTTP Implementation Problems
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/NOTE-chips-20030128/
+- content: https://www.w3.org/TR/2003/NOTE-chips-20030128/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Olivier Théreaux
+      given:
+        forename:
+        - content: Olivier
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thereaux
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cchips
+    title:
+    - content: Common HTTP Implementation Problems
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/chips
+      type: src
+    docid:
+    - id: W3C chips
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-chips-20030128
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

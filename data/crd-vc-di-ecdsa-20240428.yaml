@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20240428/
   type: src
-- content: https://w3c.github.io/vc-di-ecdsa/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-vc-di-ecdsa-20240428
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Greg Bernstein
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reed
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Reed
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bernstein
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Crane
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Crane
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-di-ecdsa
+    title:
+    - content: Data Integrity ECDSA Cryptosuites v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-di-ecdsa/
+      type: src
+    docid:
+    - id: W3C vc-di-ecdsa
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-vc-di-ecdsa-20240331
+    title:
+    - content: Data Integrity ECDSA Cryptosuites v1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20240331/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CRD-vc-di-ecdsa-20240331
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-vc-di-ecdsa-20240331
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-vc-di-ecdsa-20240609
+    title:
+    - content: Data Integrity ECDSA Cryptosuites v1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-di-ecdsa-20240609/
+      type: src
+    docid:
+    - id: W3C CRD-vc-di-ecdsa-20240609
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-vc-di-ecdsa-20240428
 ext:

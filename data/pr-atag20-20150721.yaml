@@ -5,7 +5,7 @@ title:
 - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/PR-ATAG20-20150721/
+- content: https://www.w3.org/TR/2015/PR-ATAG20-20150721/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jan Richards
+      given:
+        forename:
+        - content: Jan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richards
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeanne F Spellman
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jutta Treviranus
+      given:
+        forename:
+        - content: Jutta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Treviranus
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CATAG20
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ATAG20/
+      type: src
+    docid:
+    - id: W3C ATAG20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ATAG20-20150604
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-ATAG20-20150604/
+    - content: https://www.w3.org/TR/2015/CR-ATAG20-20150604/
       type: src
     docid:
     - id: W3C CR-ATAG20-20150604
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ATAG20-20150604
+- type: updatedBy
+  bibitem:
+    id: W3CREC-ATAG20-20150924
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-ATAG20-20150924/
+      type: src
+    docid:
+    - id: W3C REC-ATAG20-20150924
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-ATAG20-20150721
 ext:

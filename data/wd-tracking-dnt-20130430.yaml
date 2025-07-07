@@ -5,7 +5,7 @@ title:
 - content: Tracking Preference Expression (DNT)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-tracking-dnt-20130430/
+- content: https://www.w3.org/TR/2013/WD-tracking-dnt-20130430/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Singer
+      given:
+        forename:
+        - content: Roy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fielding
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Roy Fielding
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singer
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctracking-dnt
+    title:
+    - content: Tracking Preference Expression (DNT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tracking-dnt/
+      type: src
+    docid:
+    - id: W3C tracking-dnt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-tracking-dnt-20121002
+    title:
+    - content: Tracking Preference Expression (DNT)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-tracking-dnt-20121002/
+    - content: https://www.w3.org/TR/2012/WD-tracking-dnt-20121002/
       type: src
     docid:
     - id: W3C WD-tracking-dnt-20121002
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-tracking-dnt-20121002
+- type: updatedBy
+  bibitem:
+    id: W3CWD-tracking-dnt-20130912
+    title:
+    - content: Tracking Preference Expression (DNT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-tracking-dnt-20130912/
+      type: src
+    docid:
+    - id: W3C WD-tracking-dnt-20130912
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-tracking-dnt-20130430
 ext:

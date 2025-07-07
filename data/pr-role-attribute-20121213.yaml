@@ -5,7 +5,7 @@ title:
 - content: Role Attribute 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PR-role-attribute-20121213/
+- content: https://www.w3.org/TR/2012/PR-role-attribute-20121213/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crole-attribute
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/role-attribute/
+      type: src
+    docid:
+    - id: W3C role-attribute
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-role-attribute-20120712
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-role-attribute-20120712/
+    - content: https://www.w3.org/TR/2012/CR-role-attribute-20120712/
       type: src
     docid:
     - id: W3C CR-role-attribute-20120712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-role-attribute-20120712
+- type: updatedBy
+  bibitem:
+    id: W3CREC-role-attribute-20130328
+    title:
+    - content: Role Attribute 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-role-attribute-20130328/
+      type: src
+    docid:
+    - id: W3C REC-role-attribute-20130328
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-role-attribute-20121213
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Greg Billock
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Billock
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Hawkins
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hawkins
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Kinlan
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kinlan
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-intents
+    title:
+    - content: Web Intents
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-intents/
+      type: src
+    docid:
+    - id: W3C web-intents
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-web-intents-20120626
+    title:
+    - content: Web Intents
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-web-intents-20120626/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-web-intents-20120626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-web-intents-20120626
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-web-intents-20130523
 ext:
@@ -84,5 +121,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"
   - name: Devices and Sensors Working Group

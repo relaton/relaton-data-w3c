@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Connolly
+      given:
+        forename:
+        - content: Henrik Frystyk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Connolly
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henrik Frystyk Nielsen
+      given:
+        forename:
+        - content: Rohit
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Khare
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rohit Khare
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -72,13 +100,29 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-http-pep
+    title:
+    - content: 'PEP Specification: an Extension Mechanism for HTTP'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-http-pep
+      type: src
+    docid:
+    - id: W3C WD-http-pep
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-http-pep-971121
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

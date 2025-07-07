@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gregg
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Gregg
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnotifications
+    title:
+    - content: Web Notifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/notifications/
+      type: src
+    docid:
+    - id: W3C notifications
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-notifications-20150910
+    title:
+    - content: Web Notifications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/PR-notifications-20150910/
       type: src
@@ -64,12 +94,25 @@ relation:
     - id: W3C PR-notifications-20150910
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-notifications-20150910
+- type: updatedBy
+  bibitem:
+    id: W3CSPSD-notifications-20200602
+    title:
+    - content: Web Notifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/SPSD-notifications-20200602/
+      type: src
+    docid:
+    - id: W3C SPSD-notifications-20200602
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-notifications-20151022
 ext:

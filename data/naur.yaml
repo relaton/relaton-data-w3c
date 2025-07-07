@@ -26,52 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-naur-20211012
-    link:
-    - content: https://www.w3.org/TR/2021/WD-naur-20211012/
-      type: src
-    docid:
-    - id: W3C WD-naur-20211012
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-naur-20211012
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-naur-20220513
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220513/
-      type: src
-    docid:
-    - id: W3C DNOTE-naur-20220513
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-naur-20220513
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-naur-20220722
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220722/
-      type: src
-    docid:
-    - id: W3C DNOTE-naur-20220722
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-naur-20220722
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CDNOTE-naur-20220903
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-naur-20220903/
       type: src
@@ -79,12 +40,48 @@ relation:
     - id: W3C DNOTE-naur-20220903
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-naur-20220903
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-naur-20220722
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220722/
+      type: src
+    docid:
+    - id: W3C DNOTE-naur-20220722
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-naur-20220513
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220513/
+      type: src
+    docid:
+    - id: W3C DNOTE-naur-20220513
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-naur-20211012
+    title:
+    - content: Natural Language Interface Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-naur-20211012/
+      type: src
+    docid:
+    - id: W3C WD-naur-20211012
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: naur
 ext:

@@ -5,7 +5,7 @@ title:
 - content: XMLHttpRequest Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080225/
+- content: https://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080225/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CXMLHttpRequest2
+    title:
+    - content: XMLHttpRequest Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/XMLHttpRequest2/
+      type: src
+    docid:
+    - id: W3C XMLHttpRequest2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-XMLHttpRequest2-20080930
+    title:
+    - content: XMLHttpRequest Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080930/
+      type: src
+    docid:
+    - id: W3C WD-XMLHttpRequest2-20080930
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-XMLHttpRequest2-20080225
 ext:

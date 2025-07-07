@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Johnston
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Johnston
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemma11
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emma11/
+      type: src
+    docid:
+    - id: W3C emma11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-emma11-20120209
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-emma11-20120209/
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-emma11-20120209
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-emma11-20120209
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-emma11-20130627
 ext:

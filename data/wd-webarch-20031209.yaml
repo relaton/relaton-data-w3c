@@ -5,7 +5,7 @@ title:
 - content: Architecture of the World Wide Web, First Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-webarch-20031209/
+- content: https://www.w3.org/TR/2003/WD-webarch-20031209/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebarch
+    title:
+    - content: Architecture of the World Wide Web, Volume One
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webarch/
+      type: src
+    docid:
+    - id: W3C webarch
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webarch-20031001
+    title:
+    - content: Architecture of the World Wide Web
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-webarch-20031001/
+    - content: https://www.w3.org/TR/2003/WD-webarch-20031001/
       type: src
     docid:
     - id: W3C WD-webarch-20031001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webarch-20031001
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webarch-20040705
+    title:
+    - content: Architecture of the World Wide Web, First Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/WD-webarch-20040705/
+      type: src
+    docid:
+    - id: W3C WD-webarch-20040705
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-webarch-20031209
 ext:

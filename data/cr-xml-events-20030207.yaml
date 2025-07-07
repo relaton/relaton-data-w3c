@@ -5,7 +5,7 @@ title:
 - content: XML Events
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/CR-xml-events-20030207
+- content: https://www.w3.org/TR/2003/CR-xml-events-20030207
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: T.V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raman
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: T. V. Raman
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -62,27 +83,58 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-events
+    title:
+    - content: XML Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-events/
+      type: src
+    docid:
+    - id: W3C xml-events
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-events-20020812
+    title:
+    - content: XML Events
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xml-events-20020812
+    - content: https://www.w3.org/TR/2002/WD-xml-events-20020812
       type: src
     docid:
     - id: W3C WD-xml-events-20020812
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-events-20020812
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xml-events-20030804
+    title:
+    - content: XML Events
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PR-xml-events-20030804
+      type: src
+    docid:
+    - id: W3C PR-xml-events-20030804
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xml-events-20030207
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

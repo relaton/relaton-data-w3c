@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Michael McKeough
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2019-11-21'
 language:
 - en
@@ -42,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-1
+    title:
+    - content: High Resolution Time
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-1/
+      type: src
+    docid:
+    - id: W3C hr-time-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-hr-time-20121217
+    title:
+    - content: High Resolution Time
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/REC-hr-time-20121217/
       type: src
@@ -54,12 +60,9 @@ relation:
     - id: W3C REC-hr-time-20121217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-hr-time-20121217
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-hr-time-1-20191121
 ext:

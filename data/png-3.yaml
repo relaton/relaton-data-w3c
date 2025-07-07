@@ -26,26 +26,78 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-png-3-20221025
+    id: W3CREC-png-3-20250624
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/WD-png-3-20221025/
+    - content: https://www.w3.org/TR/2025/REC-png-3-20250624/
       type: src
     docid:
-    - id: W3C WD-png-3-20221025
+    - id: W3C REC-png-3-20250624
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-png-3-20221025
+- type: hasEdition
+  bibitem:
+    id: W3CPR-png-3-20250515
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2025/PR-png-3-20250515/
+      type: src
+    docid:
+    - id: W3C PR-png-3-20250515
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-png-3-20250313
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CR-png-3-20250313/
+      type: src
+    docid:
+    - id: W3C CR-png-3-20250313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-png-3-20250121
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-png-3-20250121/
+      type: src
+    docid:
+    - id: W3C CRD-png-3-20250121
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCRD-png-3-20240718
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-png-3-20240718/
+      type: src
+    docid:
+    - id: W3C CRD-png-3-20240718
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CCR-png-3-20230921
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/CR-png-3-20230921/
       type: src
@@ -53,12 +105,35 @@ relation:
     - id: W3C CR-png-3-20230921
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-png-3-20230921
+- type: hasEdition
+  bibitem:
+    id: W3CWD-png-3-20230720
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-png-3-20230720/
+      type: src
+    docid:
+    - id: W3C WD-png-3-20230720
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-png-3-20221025
+    title:
+    - content: Portable Network Graphics (PNG) Specification (Third Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-png-3-20221025/
+      type: src
+    docid:
+    - id: W3C WD-png-3-20221025
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: png-3
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Käbisch
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Käbisch
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-c14n
+    title:
+    - content: Canonical EXI
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-c14n/
+      type: src
+    docid:
+    - id: W3C exi-c14n
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-exi-c14n-20150521
+    title:
+    - content: Canonical EXI
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-exi-c14n-20150521/
+    - content: https://www.w3.org/TR/2015/WD-exi-c14n-20150521/
       type: src
     docid:
     - id: W3C WD-exi-c14n-20150521
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-exi-c14n-20150521
+- type: updatedBy
+  bibitem:
+    id: W3CPR-exi-c14n-20180426
+    title:
+    - content: Canonical EXI
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/PR-exi-c14n-20180426/
+      type: src
+    docid:
+    - id: W3C PR-exi-c14n-20180426
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-exi-c14n-20161103
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

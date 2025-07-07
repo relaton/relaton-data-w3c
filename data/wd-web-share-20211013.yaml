@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-web-share-20211013/
   type: src
-- content: https://w3c.github.io/web-share/
-  type: current
 type: standard
 docid:
 - id: W3C WD-web-share-20211013
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Willigers
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Giuca
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Willigers
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Giuca
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-share
+    title:
+    - content: Web Share API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-share/
+      type: src
+    docid:
+    - id: W3C web-share
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-web-share-20210920
+    title:
+    - content: Web Share API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-web-share-20210920/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-web-share-20210920
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-web-share-20210920
+- type: updatedBy
+  bibitem:
+    id: W3CWD-web-share-20211122
+    title:
+    - content: Web Share API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-web-share-20211122/
+      type: src
+    docid:
+    - id: W3C WD-web-share-20211122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-web-share-20211013
 ext:

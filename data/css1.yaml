@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-CSS1-20080411
-    link:
-    - content: https://www.w3.org/TR/2008/REC-CSS1-20080411/
-      type: src
-    docid:
-    - id: W3C REC-CSS1-20080411
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-CSS1-20080411
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CSPSD-CSS1-20180913
+    title:
+    - content: Cascading Style Sheets, level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/SPSD-CSS1-20180913/
       type: src
@@ -53,12 +40,178 @@ relation:
     - id: W3C SPSD-CSS1-20180913
       type: W3C
       primary: true
-    formattedref:
-      content: W3C SPSD-CSS1-20180913
+- type: hasEdition
+  bibitem:
+    id: W3CREC-CSS1-20080411
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-CSS1-20080411/
+      type: src
+    docid:
+    - id: W3C REC-CSS1-20080411
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-CSS1-19990111
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/REC-CSS1-19990111
+      type: src
+    docid:
+    - id: W3C REC-CSS1-19990111
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-CSS1-961217
+    title:
+    - content: Cascading Style Sheets, level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-CSS1-961217
+      type: src
+    docid:
+    - id: W3C REC-CSS1-961217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-CSS1
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/PR-CSS1
+      type: src
+    docid:
+    - id: W3C PR-CSS1
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-960911.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-960911.html
+      type: src
+    docid:
+    - id: W3C WD-css1-960911.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-960726.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-960726.html
+      type: src
+    docid:
+    - id: W3C WD-css1-960726.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-960505.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-960505.html
+      type: src
+    docid:
+    - id: W3C WD-css1-960505.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-960418.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-960418.html
+      type: src
+    docid:
+    - id: W3C WD-css1-960418.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-960220.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-960220.html
+      type: src
+    docid:
+    - id: W3C WD-css1-960220.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-951222.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-951222.html
+      type: src
+    docid:
+    - id: W3C WD-css1-951222.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-951209.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-951209.html
+      type: src
+    docid:
+    - id: W3C WD-css1-951209.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-951123.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-951123.html
+      type: src
+    docid:
+    - id: W3C WD-css1-951123.html
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css1-951117.html
+    title:
+    - content: Cascading Style Sheets (CSS1) Level 1 Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/pub/WWW/TR/WD-css1-951117.html
+      type: src
+    docid:
+    - id: W3C WD-css1-951117.html
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: CSS1
 ext:

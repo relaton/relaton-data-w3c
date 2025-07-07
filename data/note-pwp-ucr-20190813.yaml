@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190813/
   type: src
-- content: https://w3c.github.io/dpub-pwp-ucr/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-pwp-ucr-20190813
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Franco Alvarado
+      given:
+        forename:
+        - content: Franco
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvarado
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joshua Pyle
+      given:
+        forename:
+        - content: Joshua
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pyle
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpwp-ucr
+    title:
+    - content: Web Publications Use Cases and Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pwp-ucr/
+      type: src
+    docid:
+    - id: W3C pwp-ucr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-pwp-ucr-20190219
+    title:
+    - content: Web Publications Use Cases and Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190219/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C NOTE-pwp-ucr-20190219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-pwp-ucr-20190219
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-pwp-ucr-20190813
 ext:

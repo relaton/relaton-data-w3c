@@ -5,7 +5,7 @@ title:
 - content: Content Transformation Landscape 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/ct-landscape/
+- content: https://www.w3.org/TR/ct-landscape/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-ct-landscape-20091027
+    title:
+    - content: Content Transformation Landscape 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/NOTE-ct-landscape-20091027/
+      type: src
+    docid:
+    - id: W3C NOTE-ct-landscape-20091027
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-ct-landscape-20071025
+    title:
+    - content: Content Transformation Landscape 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-ct-landscape-20071025/
+    - content: https://www.w3.org/TR/2007/WD-ct-landscape-20071025/
       type: src
     docid:
     - id: W3C WD-ct-landscape-20071025
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ct-landscape-20071025
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: ct-landscape
 ext:

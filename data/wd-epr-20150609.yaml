@@ -5,10 +5,8 @@ title:
 - content: Entry Point Regulation
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-epr-20150609/
+- content: https://www.w3.org/TR/2015/WD-epr-20150609/
   type: src
-- content: https://w3c.github.io/webappsec/specs/epr/
-  type: current
 type: standard
 docid:
 - id: W3C WD-epr-20150609
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Ross
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ross
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cepr
+    title:
+    - content: Entry Point Regulation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/epr/
+      type: src
+    docid:
+    - id: W3C epr
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-epr-20160913
+    title:
+    - content: Entry Point Regulation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-epr-20160913/
+      type: src
+    docid:
+    - id: W3C NOTE-epr-20160913
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-epr-20150609
 ext:

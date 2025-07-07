@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Kai Scheppe
+      given:
+        forename:
+        - content: Kai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheppe
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmwbp-guidelines
+    title:
+    - content: Extended Guidelines for Mobile Web Best Practices 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mwbp-guidelines/
+      type: src
+    docid:
+    - id: W3C mwbp-guidelines
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-mwbp-guidelines-20091020
 ext:

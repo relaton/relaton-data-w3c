@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitris Dimitriadis
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Curran
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Curran
+      given:
+        forename:
+        - content: Dimitris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dimitriadis
         language:
         - en
         script:
@@ -52,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cqaframe-test
+    title:
+    - content: 'QA Framework: Test Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/qaframe-test/
+      type: src
+    docid:
+    - id: W3C qaframe-test
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-qaframe-test-20040225
+    title:
+    - content: 'QA Framework: Test Guidelines'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/WD-qaframe-test-20040225/
       type: src
@@ -64,12 +94,9 @@ relation:
     - id: W3C WD-qaframe-test-20040225
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-qaframe-test-20040225
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-qaframe-test-20040820
 ext:

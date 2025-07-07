@@ -5,7 +5,7 @@ title:
 - content: Extensible Markup Language (XML) 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/CR-xml11-20021015
+- content: https://www.w3.org/TR/2002/CR-xml11-20021015
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Cowan
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cowan
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml11
+    title:
+    - content: Extensible Markup Language (XML) 1.1 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml11/
+      type: src
+    docid:
+    - id: W3C xml11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml11-20020425
+    title:
+    - content: XML 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xml11-20020425/
+    - content: https://www.w3.org/TR/2002/WD-xml11-20020425/
       type: src
     docid:
     - id: W3C WD-xml11-20020425
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml11-20020425
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xml11-20031105
+    title:
+    - content: Extensible Markup Language (XML) 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PR-xml11-20031105/
+      type: src
+    docid:
+    - id: W3C PR-xml11-20031105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xml11-20021015
 ext:

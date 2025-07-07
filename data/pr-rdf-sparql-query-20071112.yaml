@@ -5,7 +5,7 @@ title:
 - content: SPARQL Query Language for RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/PR-rdf-sparql-query-20071112/
+- content: https://www.w3.org/TR/2007/PR-rdf-sparql-query-20071112/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-sparql-query
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-sparql-query/
+      type: src
+    docid:
+    - id: W3C rdf-sparql-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-rdf-sparql-query-20070614
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/
+    - content: https://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/
       type: src
     docid:
     - id: W3C CR-rdf-sparql-query-20070614
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-rdf-sparql-query-20070614
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rdf-sparql-query-20080115
+    title:
+    - content: SPARQL Query Language for RDF
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/
+      type: src
+    docid:
+    - id: W3C REC-rdf-sparql-query-20080115
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-rdf-sparql-query-20071112
 ext:

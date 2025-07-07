@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Vanderheiden
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chisholm
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vanderheiden
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wendy Chisholm
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -62,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CWAI-WEBCONTENT
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WAI-WEBCONTENT/
+      type: src
+    docid:
+    - id: W3C WAI-WEBCONTENT
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWAI-WEBCONTENT-19990324
+    title:
+    - content: Web Content Accessibility Guidelines 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1999/WAI-WEBCONTENT-19990324
       type: src
@@ -74,28 +111,9 @@ relation:
     - id: W3C WAI-WEBCONTENT-19990324
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WAI-WEBCONTENT-19990324
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CWAI-WEBCONTENT-ERRATA
-    link:
-    - content: https://www.w3.org/WAI/GL/WAI-WEBCONTENT-ERRATA
-      type: src
-    docid:
-    - id: W3C WAI-WEBCONTENT-ERRATA
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WAI-WEBCONTENT-ERRATA
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: WAI-WEBCONTENT-19990505
 ext:

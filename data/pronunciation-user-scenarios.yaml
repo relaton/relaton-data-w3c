@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-pronunciation-user-scenarios-20190905
+    title:
+    - content: Pronunciation User Scenarios
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-pronunciation-user-scenarios-20190905/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-pronunciation-user-scenarios-20190905
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pronunciation-user-scenarios-20190905
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: pronunciation-user-scenarios
 ext:

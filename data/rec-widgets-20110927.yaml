@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -44,9 +51,26 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets
+    title:
+    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+        Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets/
+      type: src
+    docid:
+    - id: W3C widgets
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-widgets-20110811
+    title:
+    - content: Widget Packaging and XML Configuration
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-widgets-20110811/
       type: src
@@ -54,28 +78,9 @@ relation:
     - id: W3C PR-widgets-20110811
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-widgets-20110811
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: http://dev.w3.org/2006/waf/widgets/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-widgets-20110927
 ext:
@@ -83,4 +88,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

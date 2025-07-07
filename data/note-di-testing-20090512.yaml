@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carmelo Montanez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Dominique Hazaël-Massieux
+      given:
+        forename:
+        - content: Dominique
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hazaël-Massieux
         language:
         - en
         script:
@@ -50,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdi-testing
+    title:
+    - content: Guidelines for writing device independent tests
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/di-testing/
+      type: src
+    docid:
+    - id: W3C di-testing
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-di-testing-20090512
 ext:

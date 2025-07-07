@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jan Richards
+      given:
+        forename:
+        - content: Jan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richards
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeanne F Spellman
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jutta Treviranus
+      given:
+        forename:
+        - content: Jutta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Treviranus
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CIMPLEMENTING-ATAG20
+    title:
+    - content: Implementing ATAG 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/IMPLEMENTING-ATAG20/
+      type: src
+    docid:
+    - id: W3C IMPLEMENTING-ATAG20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-IMPLEMENTING-ATAG20-20150721
+    title:
+    - content: Implementing ATAG 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-IMPLEMENTING-ATAG20-20150721/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-IMPLEMENTING-ATAG20-20150721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-IMPLEMENTING-ATAG20-20150721
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-IMPLEMENTING-ATAG20-20150924
 ext:

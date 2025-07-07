@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-social-web-protocols-20171225/
   type: src
-- content: https://w3c-social.github.io/social-web-protocols
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-social-web-protocols-20171225
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amy Guy
+      given:
+        forename:
+        - content: Amy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guy
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csocial-web-protocols
+    title:
+    - content: Social Web Protocols
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/social-web-protocols/
+      type: src
+    docid:
+    - id: W3C social-web-protocols
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-social-web-protocols-20170504
+    title:
+    - content: Social Web Protocols
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-social-web-protocols-20170504/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-social-web-protocols-20170504
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-social-web-protocols-20170504
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-social-web-protocols-20171225
 ext:

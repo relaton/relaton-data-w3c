@@ -27,9 +27,51 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-kore-gap-20250531
+    title:
+    - content: Korean Layout Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/DNOTE-kore-gap-20250531/
+      type: src
+    docid:
+    - id: W3C DNOTE-kore-gap-20250531
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-kore-gap-20240710
+    title:
+    - content: Korean Layout Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240710/
+      type: src
+    docid:
+    - id: W3C DNOTE-kore-gap-20240710
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-kore-gap-20240705
+    title:
+    - content: Korean Layout Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240705/
+      type: src
+    docid:
+    - id: W3C DNOTE-kore-gap-20240705
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-kore-gap-20230720
+    title:
+    - content: Korean Layout Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-kore-gap-20230720/
       type: src
@@ -37,12 +79,22 @@ relation:
     - id: W3C DNOTE-kore-gap-20230720
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-kore-gap-20230720
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-kore-gap-20230711
+    title:
+    - content: Korean Layout Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-kore-gap-20230711/
+      type: src
+    docid:
+    - id: W3C DNOTE-kore-gap-20230711
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: kore-gap
 ext:

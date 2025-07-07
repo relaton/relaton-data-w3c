@@ -5,7 +5,7 @@ title:
 - content: Page Visibility
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-page-visibility-20110721/
+- content: https://www.w3.org/TR/2011/WD-page-visibility-20110721/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arvind Jain
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Arvind
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jain
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpage-visibility
+    title:
+    - content: Page Visibility (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/page-visibility/
+      type: src
+    docid:
+    - id: W3C page-visibility
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-page-visibility-20110602
+    title:
+    - content: Page Visibility
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-page-visibility-20110602/
+    - content: https://www.w3.org/TR/2011/WD-page-visibility-20110602/
       type: src
     docid:
     - id: W3C WD-page-visibility-20110602
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-page-visibility-20110602
+- type: updatedBy
+  bibitem:
+    id: W3CCR-page-visibility-20120726
+    title:
+    - content: Page Visibility
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-page-visibility-20120726/
+      type: src
+    docid:
+    - id: W3C CR-page-visibility-20120726
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-page-visibility-20110721
 ext:

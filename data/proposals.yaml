@@ -5,7 +5,7 @@ title:
 - content: Proposals for Gathering Consumer Demographics
   format: text/plain
 link:
-- content: http://www.w3.org/Demographics/Proposals
+- content: https://www.w3.org/Demographics/Proposals
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Connolly
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Connolly
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CProposals
+    title:
+    - content: Proposals for Gathering Consumer Demographics
+      format: text/plain
+    link:
+    - content: https://www.w3.org/Demographics/Proposals
+      type: src
+    docid:
+    - id: W3C Proposals
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: Proposals
 ext:
   schema-version: v1.0.0
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

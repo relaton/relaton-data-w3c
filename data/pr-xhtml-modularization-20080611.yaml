@@ -5,7 +5,7 @@ title:
 - content: XHTML™ Modularization 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PR-xhtml-modularization-20080611
+- content: https://www.w3.org/TR/2008/PR-xhtml-modularization-20080611
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Austin
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Birbeck
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -47,28 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Subramanian Peruvemba
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Austin
         language:
         - en
         script:
@@ -84,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-modularization
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-modularization/
+      type: src
+    docid:
+    - id: W3C xhtml-modularization
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml-modularization-20060705
+    title:
+    - content: XHTML™ Modularization 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-xhtml-modularization-20060705
+    - content: https://www.w3.org/TR/2006/WD-xhtml-modularization-20060705
       type: src
     docid:
     - id: W3C WD-xhtml-modularization-20060705
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml-modularization-20060705
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml-modularization-20081008
+    title:
+    - content: XHTML™ Modularization 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-xhtml-modularization-20081008/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-modularization-20081008
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xhtml-modularization-20080611
 ext:

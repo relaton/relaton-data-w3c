@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/REC-ldp-20150226/
   type: src
-- content: https://www.w3.org/2012/ldp/hg/ldp.html
-  type: current
 type: standard
 docid:
 - id: W3C REC-ldp-20150226
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Speicher
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Arwe
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arwe
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Speicher
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldp
+    title:
+    - content: Linked Data Platform 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldp/
+      type: src
+    docid:
+    - id: W3C ldp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ldp-20141216
+    title:
+    - content: Linked Data Platform 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PR-ldp-20141216/
       type: src
@@ -76,12 +111,9 @@ relation:
     - id: W3C PR-ldp-20141216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ldp-20141216
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ldp-20150226
 ext:
@@ -89,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

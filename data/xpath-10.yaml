@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-xpath-19991116
+    title:
+    - content: XML Path Language (XPath) Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1999/REC-xpath-19991116/
       type: src
@@ -40,12 +40,87 @@ relation:
     - id: W3C REC-xpath-19991116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xpath-19991116
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xpath-19991008
+    title:
+    - content: XML Path Language (XPath) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/PR-xpath-19991008
+      type: src
+    docid:
+    - id: W3C PR-xpath-19991008
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xpath-19990813
+    title:
+    - content: XML Path Language (XPath) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/1999/08/WD-xpath-19990813
+      type: src
+    docid:
+    - id: W3C WD-xpath-19990813
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xpath-19990709
+    title:
+    - content: XML Path Language (XPath) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/1999/07/WD-xpath-19990709
+      type: src
+    docid:
+    - id: W3C WD-xpath-19990709
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xslt-19990421
+    title:
+    - content: XSL Transformations (XSLT) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1999/WD-xslt-19990421
+      type: src
+    docid:
+    - id: W3C WD-xslt-19990421
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xsl-19981216
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-xsl-19981216
+      type: src
+    docid:
+    - id: W3C WD-xsl-19981216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xsl-19980818
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/1998/WD-xsl-19980818
+      type: src
+    docid:
+    - id: W3C WD-xsl-19980818
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xpath-10
 ext:

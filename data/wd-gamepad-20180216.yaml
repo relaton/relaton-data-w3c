@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-gamepad-20180216/
   type: src
-- content: https://w3c.github.io/gamepad/
-  type: current
 type: standard
 docid:
 - id: W3C WD-gamepad-20180216
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brandon Jones
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graham
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott Graham
+      given:
+        forename:
+        - content: Theodore
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mielczarek
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Theodore Mielczarek
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CWD-gamepad-20170726
+    id: W3Cgamepad
+    title:
+    - content: Gamepad
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2017/WD-gamepad-20170726/
+    - content: https://www.w3.org/TR/gamepad/
       type: src
     docid:
-    - id: W3C WD-gamepad-20170726
+    - id: W3C gamepad
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-gamepad-20170726
+- type: obsoletes
+  bibitem:
+    id: W3CWD-gamepad-20171027
+    title:
+    - content: Gamepad
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-gamepad-20171027/
+      type: src
+    docid:
+    - id: W3C WD-gamepad-20171027
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-gamepad-20180505
+    title:
+    - content: Gamepad
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-gamepad-20180505/
+      type: src
+    docid:
+    - id: W3C WD-gamepad-20180505
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-gamepad-20180216
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

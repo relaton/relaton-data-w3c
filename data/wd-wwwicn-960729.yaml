@@ -5,7 +5,7 @@ title:
 - content: HTML predefined icon-like symbols
   format: text/plain
 link:
-- content: http://www.w3.org/TR/WD-wwwicn-960729
+- content: https://www.w3.org/TR/WD-wwwicn-960729
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CWD-wwwicn
+    title:
+    - content: HTML predefined icon-like symbols
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/WD-wwwicn
+      type: src
+    docid:
+    - id: W3C WD-wwwicn
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: WD-wwwicn-960729
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

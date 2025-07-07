@@ -5,7 +5,7 @@ title:
 - content: 'CSS3 module: Presentation Levels'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-css3-preslev-20030813
+- content: https://www.w3.org/TR/2003/WD-css3-preslev-20030813
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss3-preslev
+    title:
+    - content: CSS Presentation Levels Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css3-preslev/
+      type: src
+    docid:
+    - id: W3C css3-preslev
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-css3-preslev-20141014
+    title:
+    - content: CSS Presentation Levels Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-css3-preslev-20141014/
+      type: src
+    docid:
+    - id: W3C NOTE-css3-preslev-20141014
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css3-preslev-20030813
 ext:
@@ -63,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

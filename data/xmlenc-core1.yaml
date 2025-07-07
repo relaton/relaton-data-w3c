@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xmlenc-core-20021210
-    link:
-    - content: https://www.w3.org/TR/2002/REC-xmlenc-core-20021210/
-      type: src
-    docid:
-    - id: W3C REC-xmlenc-core-20021210
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xmlenc-core-20021210
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-xmlenc-core1-20130411
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-xmlenc-core1-20130411/
       type: src
@@ -53,12 +40,217 @@ relation:
     - id: W3C REC-xmlenc-core1-20130411
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xmlenc-core1-20130411
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xmlenc-core1-20130124
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-xmlenc-core1-20130124/
+      type: src
+    docid:
+    - id: W3C PR-xmlenc-core1-20130124
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20121018
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-xmlenc-core1-20121018/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20121018
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlenc-core1-20120313
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-xmlenc-core1-20120313/
+      type: src
+    docid:
+    - id: W3C CR-xmlenc-core1-20120313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20120105
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-xmlenc-core1-20120105/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20120105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlenc-core1-20110303
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-xmlenc-core1-20110303/
+      type: src
+    docid:
+    - id: W3C CR-xmlenc-core1-20110303
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20101130
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xmlenc-core1-20101130/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20101130
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20100513
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xmlenc-core1-20100513/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20100513
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20100316
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xmlenc-core1-20100316/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20100316
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20090730
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-xmlenc-core1-20090730/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20090730
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core1-20090226
+    title:
+    - content: XML Encryption Syntax and Processing Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-xmlenc-core1-20090226/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core1-20090226
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xmlenc-core-20021210
+    title:
+    - content: XML Encryption Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/REC-xmlenc-core-20021210/
+      type: src
+    docid:
+    - id: W3C REC-xmlenc-core-20021210
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xmlenc-core-20021003
+    title:
+    - content: XML Encryption Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/PR-xmlenc-core-20021003/
+      type: src
+    docid:
+    - id: W3C PR-xmlenc-core-20021003
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlenc-core-20020802
+    title:
+    - content: XML Encryption Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/CR-xmlenc-core-20020802/
+      type: src
+    docid:
+    - id: W3C CR-xmlenc-core-20020802
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlenc-core-20020304
+    title:
+    - content: XML Encryption Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/CR-xmlenc-core-20020304/
+      type: src
+    docid:
+    - id: W3C CR-xmlenc-core-20020304
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core-20011018
+    title:
+    - content: XML Encryption Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xmlenc-core-20011018/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core-20011018
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlenc-core-20010626
+    title:
+    - content: XML Encryption Syntax and Processing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/WD-xmlenc-core-20010626/
+      type: src
+    docid:
+    - id: W3C WD-xmlenc-core-20010626
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xmlenc-core1
 ext:

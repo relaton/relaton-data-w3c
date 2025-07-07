@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcin Sawicki
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dürst
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Dürst
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michel Suignard
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tex Texin
+      given:
+        forename:
+        - content: Tex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Texin
         language:
         - en
         script:
@@ -84,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cruby
+    title:
+    - content: Ruby Annotation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ruby/
+      type: src
+    docid:
+    - id: W3C ruby
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-ruby-20010406
+    title:
+    - content: Ruby Annotation
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/PR-ruby-20010406/
       type: src
@@ -94,28 +94,9 @@ relation:
     - id: W3C PR-ruby-20010406
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-ruby-20010406
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cruby-errata
-    link:
-    - content: https://www.w3.org/2001/05/ruby-errata
-      type: src
-    docid:
-    - id: W3C ruby-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ruby-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-ruby-20010531
 ext:

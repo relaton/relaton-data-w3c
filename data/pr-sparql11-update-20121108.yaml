@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Update
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PR-sparql11-update-20121108/
+- content: https://www.w3.org/TR/2012/PR-sparql11-update-20121108/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexandre Passant
+      given:
+        forename:
+        - content: Axel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Polleres
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Axel Polleres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Gearon
+      given:
+        forename:
+        - content: Paula
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gearon
         language:
         - en
         script:
@@ -64,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-update
+    title:
+    - content: SPARQL 1.1 Update
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-update/
+      type: src
+    docid:
+    - id: W3C sparql11-update
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql11-update-20120105
+    title:
+    - content: SPARQL 1.1 Update
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-sparql11-update-20120105/
+    - content: https://www.w3.org/TR/2012/WD-sparql11-update-20120105/
       type: src
     docid:
     - id: W3C WD-sparql11-update-20120105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql11-update-20120105
+- type: updatedBy
+  bibitem:
+    id: W3CREC-sparql11-update-20130321
+    title:
+    - content: SPARQL 1.1 Update
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-sparql11-update-20130321/
+      type: src
+    docid:
+    - id: W3C REC-sparql11-update-20130321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-sparql11-update-20121108
 ext:

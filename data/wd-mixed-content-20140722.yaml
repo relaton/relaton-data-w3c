@@ -5,10 +5,8 @@ title:
 - content: Mixed Content
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-mixed-content-20140722/
+- content: https://www.w3.org/TR/2014/WD-mixed-content-20140722/
   type: src
-- content: https://w3c.github.io/webappsec/specs/mixedcontent/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mixed-content-20140722
@@ -27,6 +25,23 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
 revdate: '2014-07-22'
 language:
 - en
@@ -34,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmixed-content
+    title:
+    - content: Mixed Content
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mixed-content/
+      type: src
+    docid:
+    - id: W3C mixed-content
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mixed-content-20140916
+    title:
+    - content: Mixed Content
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-mixed-content-20140916/
+      type: src
+    docid:
+    - id: W3C WD-mixed-content-20140916
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mixed-content-20140722
 ext:

@@ -29,20 +29,36 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-ctaur-20221108
+    id: W3CNOTE-ctaur-20250121
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/DNOTE-ctaur-20221108/
+    - content: https://www.w3.org/TR/2025/NOTE-ctaur-20250121/
       type: src
     docid:
-    - id: W3C DNOTE-ctaur-20221108
+    - id: W3C NOTE-ctaur-20250121
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-ctaur-20221108
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-ctaur-20240710
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-ctaur-20240710/
+      type: src
+    docid:
+    - id: W3C DNOTE-ctaur-20240710
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-ctaur-20240320
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/DNOTE-ctaur-20240320/
       type: src
@@ -50,12 +66,35 @@ relation:
     - id: W3C DNOTE-ctaur-20240320
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-ctaur-20240320
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-ctaur-20231024
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-ctaur-20231024/
+      type: src
+    docid:
+    - id: W3C DNOTE-ctaur-20231024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-ctaur-20221108
+    title:
+    - content: Collaboration Tools Accessibility User Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-ctaur-20221108/
+      type: src
+    docid:
+    - id: W3C DNOTE-ctaur-20221108
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: ctaur
 ext:

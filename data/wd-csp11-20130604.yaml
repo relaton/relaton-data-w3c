@@ -5,7 +5,7 @@ title:
 - content: Content Security Policy 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-CSP11-20130604/
+- content: https://www.w3.org/TR/2013/WD-CSP11-20130604/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Barth
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Veditz
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Veditz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -64,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCSP2
+    title:
+    - content: Content Security Policy Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CSP2/
+      type: src
+    docid:
+    - id: W3C CSP2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-CSP11-20121213
+    title:
+    - content: Content Security Policy 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-CSP11-20121213/
+    - content: https://www.w3.org/TR/2012/WD-CSP11-20121213/
       type: src
     docid:
     - id: W3C WD-CSP11-20121213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CSP11-20121213
+- type: updatedBy
+  bibitem:
+    id: W3CWD-CSP11-20140211
+    title:
+    - content: Content Security Policy 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-CSP11-20140211/
+      type: src
+    docid:
+    - id: W3C WD-CSP11-20140211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-CSP11-20130604
 ext:

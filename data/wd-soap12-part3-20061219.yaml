@@ -5,7 +5,7 @@ title:
 - content: 'SOAP 1.2 Part 3: One-Way MEP'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-soap12-part3-20061219/
+- content: https://www.w3.org/TR/2006/WD-soap12-part3-20061219/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Orchard
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Orchard
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-part3
+    title:
+    - content: 'SOAP 1.2 Part 3: One-Way MEP'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-part3/
+      type: src
+    docid:
+    - id: W3C soap12-part3
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-soap12-part3-20070702
+    title:
+    - content: 'SOAP 1.2 Part 3: One-Way MEP'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/NOTE-soap12-part3-20070702/
+      type: src
+    docid:
+    - id: W3C NOTE-soap12-part3-20070702
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-soap12-part3-20061219
 ext:

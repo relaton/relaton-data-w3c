@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-its20-20131029
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-its20-20131029/
       type: src
@@ -40,12 +40,126 @@ relation:
     - id: W3C REC-its20-20131029
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-its20-20131029
+- type: hasEdition
+  bibitem:
+    id: W3CPR-its20-20130924
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-its20-20130924/
+      type: src
+    docid:
+    - id: W3C PR-its20-20130924
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20130820
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-its20-20130820/
+      type: src
+    docid:
+    - id: W3C WD-its20-20130820
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20130521
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-its20-20130521/
+      type: src
+    docid:
+    - id: W3C WD-its20-20130521
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20130411
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-its20-20130411/
+      type: src
+    docid:
+    - id: W3C WD-its20-20130411
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20121206
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-its20-20121206/
+      type: src
+    docid:
+    - id: W3C WD-its20-20121206
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20121023
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-its20-20121023/
+      type: src
+    docid:
+    - id: W3C WD-its20-20121023
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20120829
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-its20-20120829/
+      type: src
+    docid:
+    - id: W3C WD-its20-20120829
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20120731
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-its20-20120731/
+      type: src
+    docid:
+    - id: W3C WD-its20-20120731
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-its20-20120626
+    title:
+    - content: Internationalization Tag Set (ITS) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-its20-20120626/
+      type: src
+    docid:
+    - id: W3C WD-its20-20120626
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: its20
 ext:

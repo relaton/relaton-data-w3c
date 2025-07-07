@@ -5,10 +5,8 @@ title:
 - content: Content Security Policy Pinning
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-csp-pinning-20150226/
+- content: https://www.w3.org/TR/2015/WD-csp-pinning-20150226/
   type: src
-- content: https://w3c.github.io/webappsec/specs/csp-pinning/
-  type: current
 type: standard
 docid:
 - id: W3C WD-csp-pinning-20150226
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsp-pinning
+    title:
+    - content: Content Security Policy Pinning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csp-pinning/
+      type: src
+    docid:
+    - id: W3C csp-pinning
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-csp-pinning-20160913
+    title:
+    - content: Content Security Policy Pinning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-csp-pinning-20160913/
+      type: src
+    docid:
+    - id: W3C NOTE-csp-pinning-20160913
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-csp-pinning-20150226
 ext:

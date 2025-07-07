@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-webvtt1-20170808/
   type: src
-- content: https://w3c.github.io/webvtt/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webvtt1-20170808
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Simon Pieters
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pieters
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebvtt1
+    title:
+    - content: 'WebVTT: The Web Video Text Tracks Format'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webvtt1/
+      type: src
+    docid:
+    - id: W3C webvtt1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webvtt1-20170713
+    title:
+    - content: 'WebVTT: The Web Video Text Tracks Format'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-webvtt1-20170713/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-webvtt1-20170713
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webvtt1-20170713
+- type: updatedBy
+  bibitem:
+    id: W3CCR-webvtt1-20180510
+    title:
+    - content: 'WebVTT: The Web Video Text Tracks Format'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/CR-webvtt1-20180510/
+      type: src
+    docid:
+    - id: W3C CR-webvtt1-20180510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webvtt1-20170808
 ext:

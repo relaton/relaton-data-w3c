@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Full Text 1.0 Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-xpath-full-text-10-use-cases-20090709/
+- content: https://www.w3.org/TR/2009/WD-xpath-full-text-10-use-cases-20090709/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Pat Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sihem Amer-Yahia
+      given:
+        forename:
+        - content: Pat
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Case
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-full-text-10-use-cases
+    title:
+    - content: XQuery and XPath Full Text 1.0 Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-full-text-10-use-cases/
+      type: src
+    docid:
+    - id: W3C xpath-full-text-10-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-full-text-10-use-cases-20080516
+    title:
+    - content: XQuery and XPath Full Text 1.0 Use Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-xpath-full-text-10-use-cases-20080516/
+    - content: https://www.w3.org/TR/2008/WD-xpath-full-text-10-use-cases-20080516/
       type: src
     docid:
     - id: W3C WD-xpath-full-text-10-use-cases-20080516
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-full-text-10-use-cases-20080516
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xpath-full-text-10-use-cases-20100128
+    title:
+    - content: XQuery and XPath Full Text 1.0 Use Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-xpath-full-text-10-use-cases-20100128/
+      type: src
+    docid:
+    - id: W3C WD-xpath-full-text-10-use-cases-20100128
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xpath-full-text-10-use-cases-20090709
 ext:
@@ -77,5 +103,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

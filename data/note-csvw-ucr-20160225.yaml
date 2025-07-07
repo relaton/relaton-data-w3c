@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/NOTE-csvw-ucr-20160225/
   type: src
-- content: https://w3c.github.io/csvw/use-cases-and-requirements/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-csvw-ucr-20160225
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Davide Ceolin
+      given:
+        forename:
+        - content: Jeremy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tandy
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Stephan
+      given:
+        forename:
+        - content: Davide
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ceolin
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeremy Tandy
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stephan
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsvw-ucr
+    title:
+    - content: 'CSV on the Web: Use Cases and Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csvw-ucr/
+      type: src
+    docid:
+    - id: W3C csvw-ucr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-csvw-ucr-20140701
+    title:
+    - content: 'CSV on the Web: Use Cases and Requirements'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-csvw-ucr-20140701/
       type: src
@@ -73,12 +111,9 @@ relation:
     - id: W3C WD-csvw-ucr-20140701
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-csvw-ucr-20140701
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-csvw-ucr-20160225
 ext:

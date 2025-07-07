@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-payments-use-cases
+    title:
+    - content: Web Payments Use Cases 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-payments-use-cases/
+      type: src
+    docid:
+    - id: W3C web-payments-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-web-payments-use-cases-20150730
+    title:
+    - content: Web Payments Use Cases 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-web-payments-use-cases-20150730/
       type: src
@@ -61,12 +94,9 @@ relation:
     - id: W3C WD-web-payments-use-cases-20150730
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-web-payments-use-cases-20150730
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-web-payments-use-cases-20180719
 ext:

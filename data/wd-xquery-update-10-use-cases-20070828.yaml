@@ -5,7 +5,7 @@ title:
 - content: XQuery Update Facility 1.0 Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-xquery-update-10-use-cases-20070828/
+- content: https://www.w3.org/TR/2007/WD-xquery-update-10-use-cases-20070828/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ioana Manolescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CWD-xqupdateusecases-20060127
+    id: W3Cxquery-update-10-use-cases
+    title:
+    - content: XQuery Update Facility 1.0 Use Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-xqupdateusecases-20060127/
+    - content: https://www.w3.org/TR/xquery-update-10-use-cases/
       type: src
     docid:
-    - id: W3C WD-xqupdateusecases-20060127
+    - id: W3C xquery-update-10-use-cases
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xqupdateusecases-20060127
+- type: obsoletes
+  bibitem:
+    id: W3CWD-xqupdateusecases-20060508
+    title:
+    - content: XQuery Update Facility Use Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-xqupdateusecases-20060508/
+      type: src
+    docid:
+    - id: W3C WD-xqupdateusecases-20060508
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xquery-update-10-use-cases-20080314
+    title:
+    - content: XQuery Update Facility 1.0 Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/CR-xquery-update-10-use-cases-20080314/
+      type: src
+    docid:
+    - id: W3C CR-xquery-update-10-use-cases-20080314
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xquery-update-10-use-cases-20070828
 ext:

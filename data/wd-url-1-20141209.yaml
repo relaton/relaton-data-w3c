@@ -5,10 +5,8 @@ title:
 - content: URL
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-url-1-20141209/
+- content: https://www.w3.org/TR/2014/WD-url-1-20141209/
   type: src
-- content: https://url.spec.whatwg.org/
-  type: current
 type: standard
 docid:
 - id: W3C WD-url-1-20141209
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sam Ruby
+      given:
+        forename:
+        - content: Sam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ruby
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Curl-1
+    title:
+    - content: URL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/url-1/
+      type: src
+    docid:
+    - id: W3C url-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-url-20120524
+    title:
+    - content: URL
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-url-20120524/
+    - content: https://www.w3.org/TR/2012/WD-url-20120524/
       type: src
     docid:
     - id: W3C WD-url-20120524
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-url-20120524
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-url-1-20161206
+    title:
+    - content: URL
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-url-1-20161206/
+      type: src
+    docid:
+    - id: W3C NOTE-url-1-20161206
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-url-1-20141209
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

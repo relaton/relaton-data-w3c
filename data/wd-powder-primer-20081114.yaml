@@ -5,7 +5,7 @@ title:
 - content: 'Protocol for Web Description Resources (POWDER): Primer'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-powder-primer-20081114/
+- content: https://www.w3.org/TR/2008/WD-powder-primer-20081114/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Kai Scheppe
+      given:
+        forename:
+        - content: Kai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheppe
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-primer
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-primer/
+      type: src
+    docid:
+    - id: W3C powder-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-powder-primer-20080815
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Primer'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-powder-primer-20080815/
+    - content: https://www.w3.org/TR/2008/WD-powder-primer-20080815/
       type: src
     docid:
     - id: W3C WD-powder-primer-20080815
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-powder-primer-20080815
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-powder-primer-20090403
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Primer'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/NOTE-powder-primer-20090403/
+      type: src
+    docid:
+    - id: W3C NOTE-powder-primer-20090403
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-powder-primer-20081114
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

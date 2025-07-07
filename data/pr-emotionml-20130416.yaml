@@ -5,7 +5,7 @@ title:
 - content: Emotion Markup Language (EmotionML) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-emotionml-20130416/
+- content: https://www.w3.org/TR/2013/PR-emotionml-20130416/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Felix Burkhardt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marc Schröder
+      given:
+        forename:
+        - content: Felix
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burkhardt
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemotionml
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emotionml/
+      type: src
+    docid:
+    - id: W3C emotionml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-emotionml-20120510
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-emotionml-20120510/
+    - content: https://www.w3.org/TR/2012/CR-emotionml-20120510/
       type: src
     docid:
     - id: W3C CR-emotionml-20120510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-emotionml-20120510
+- type: updatedBy
+  bibitem:
+    id: W3CREC-emotionml-20140522
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-emotionml-20140522/
+      type: src
+    docid:
+    - id: W3C REC-emotionml-20140522
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-emotionml-20130416
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-fingerprinting-guidance-20190328/
   type: src
-- content: https://w3c.github.io/fingerprinting-guidance/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-fingerprinting-guidance-20190328
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nick Doty
+      given:
+        forename:
+        - content: Nick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Doty
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cfingerprinting-guidance
+    title:
+    - content: Mitigating Browser Fingerprinting in Web Specifications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/fingerprinting-guidance/
+      type: src
+    docid:
+    - id: W3C fingerprinting-guidance
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-fingerprinting-guidance-20151124
+    title:
+    - content: Fingerprinting Guidance for Web Specification Authors (Draft)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/NOTE-fingerprinting-guidance-20151124/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C NOTE-fingerprinting-guidance-20151124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-fingerprinting-guidance-20151124
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-fingerprinting-guidance-20250320
+    title:
+    - content: Mitigating Browser Fingerprinting in Web Specifications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250320/
+      type: src
+    docid:
+    - id: W3C NOTE-fingerprinting-guidance-20250320
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-fingerprinting-guidance-20190328
 ext:

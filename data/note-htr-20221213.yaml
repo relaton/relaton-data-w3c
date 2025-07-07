@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtr
+    title:
+    - content: How EMVCo, FIDO, and W3C Technologies Relate
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/htr/
+      type: src
+    docid:
+    - id: W3C htr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-htr-20201105
+    title:
+    - content: How EMVCo, FIDO, and W3C Technologies Relate
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/NOTE-htr-20201105/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C NOTE-htr-20201105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-htr-20201105
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-htr-20221213
 ext:

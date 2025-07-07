@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Rhys Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2005-01-18'
 language:
 - en
@@ -42,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdi-gloss
+    title:
+    - content: Glossary of Terms for Device Independence
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/di-gloss/
+      type: src
+    docid:
+    - id: W3C di-gloss
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-di-gloss-20030825
+    title:
+    - content: Glossary of Terms for Device Independence
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/WD-di-gloss-20030825/
       type: src
@@ -54,12 +60,9 @@ relation:
     - id: W3C WD-di-gloss-20030825
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-di-gloss-20030825
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-di-gloss-20050118
 ext:

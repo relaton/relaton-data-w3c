@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CRD-resource-timing-20230303/
   type: src
-- content: https://w3c.github.io/resource-timing/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-resource-timing-20230303
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Noam Rosenthal
+      given:
+        forename:
+        - content: Yoav
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weiss
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yoav Weiss
+      given:
+        forename:
+        - content: Noam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosenthal
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3CCR-resource-timing-20221004
+    id: W3Cresource-timing
+    title:
+    - content: Resource Timing
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/CR-resource-timing-20221004/
+    - content: https://www.w3.org/TR/resource-timing/
       type: src
     docid:
-    - id: W3C CR-resource-timing-20221004
+    - id: W3C resource-timing
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-resource-timing-20221004
+- type: obsoletes
+  bibitem:
+    id: W3CCRD-resource-timing-20221110
+    title:
+    - content: Resource Timing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/CRD-resource-timing-20221110/
+      type: src
+    docid:
+    - id: W3C CRD-resource-timing-20221110
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-resource-timing-20230313
+    title:
+    - content: Resource Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-resource-timing-20230313/
+      type: src
+    docid:
+    - id: W3C CRD-resource-timing-20230313
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-resource-timing-20230303
 ext:

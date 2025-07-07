@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-screen-orientation-20230809/
   type: src
-- content: https://w3c.github.io/screen-orientation/
-  type: current
 type: standard
 docid:
 - id: W3C WD-screen-orientation-20230809
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-orientation
+    title:
+    - content: Screen Orientation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-orientation/
+      type: src
+    docid:
+    - id: W3C screen-orientation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-screen-orientation-20230803
+    title:
+    - content: Screen Orientation
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-screen-orientation-20230803/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C WD-screen-orientation-20230803
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-screen-orientation-20230803
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-screen-orientation-20230809
 ext:

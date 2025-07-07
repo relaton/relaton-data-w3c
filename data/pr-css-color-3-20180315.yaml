@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Baron
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baron
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-color-3
+    title:
+    - content: CSS Color Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-color-3/
+      type: src
+    docid:
+    - id: W3C css-color-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-color-3-20171205
+    title:
+    - content: CSS Color Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-css-color-3-20171205/
       type: src
@@ -74,12 +111,25 @@ relation:
     - id: W3C CR-css-color-3-20171205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-color-3-20171205
+- type: updatedBy
+  bibitem:
+    id: W3CREC-css-color-3-20180619
+    title:
+    - content: CSS Color Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/REC-css-color-3-20180619/
+      type: src
+    docid:
+    - id: W3C REC-css-color-3-20180619
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-css-color-3-20180315
 ext:
@@ -87,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-webxr-lighting-estimation-1-20210909
-    link:
-    - content: https://www.w3.org/TR/2021/WD-webxr-lighting-estimation-1-20210909/
-      type: src
-    docid:
-    - id: W3C WD-webxr-lighting-estimation-1-20210909
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webxr-lighting-estimation-1-20210909
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-webxr-lighting-estimation-1-20220603
+    title:
+    - content: WebXR Lighting Estimation API Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-webxr-lighting-estimation-1-20220603/
       type: src
@@ -53,12 +40,22 @@ relation:
     - id: W3C WD-webxr-lighting-estimation-1-20220603
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webxr-lighting-estimation-1-20220603
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webxr-lighting-estimation-1-20210909
+    title:
+    - content: WebXR Lighting Estimation API Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-webxr-lighting-estimation-1-20210909/
+      type: src
+    docid:
+    - id: W3C WD-webxr-lighting-estimation-1-20210909
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: webxr-lighting-estimation-1
 ext:

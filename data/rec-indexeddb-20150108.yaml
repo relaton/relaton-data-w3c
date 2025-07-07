@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/REC-IndexedDB-20150108/
   type: src
-- content: https://w3c.github.io/IndexedDB/
-  type: current
 type: standard
 docid:
 - id: W3C REC-IndexedDB-20150108
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrei Popescu
+      given:
+        forename:
+        - content: Jonas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sicking
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eliot Graff
+      given:
+        forename:
+        - content: Eliot
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graff
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeremy Orlow
+      given:
+        forename:
+        - content: Jeremy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Orlow
         language:
         - en
         script:
@@ -59,28 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonas Sicking
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Joshua Bell
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Nikunj Mehta
+      given:
+        forename:
+        - content: Joshua
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bell
         language:
         - en
         script:
@@ -96,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CIndexedDB
+    title:
+    - content: Indexed Database API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/IndexedDB/
+      type: src
+    docid:
+    - id: W3C IndexedDB
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-IndexedDB-20141120
+    title:
+    - content: Indexed Database API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PR-IndexedDB-20141120/
       type: src
@@ -106,12 +128,9 @@ relation:
     - id: W3C PR-IndexedDB-20141120
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-IndexedDB-20141120
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-IndexedDB-20150108
 ext:
@@ -119,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

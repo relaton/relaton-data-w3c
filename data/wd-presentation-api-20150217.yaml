@@ -5,10 +5,8 @@ title:
 - content: Presentation API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-presentation-api-20150217/
+- content: https://www.w3.org/TR/2015/WD-presentation-api-20150217/
   type: src
-- content: http://w3c.github.io/presentation-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-presentation-api-20150217
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominik Röttsches
+      given:
+        forename:
+        - content: Dominik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Röttsches
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpresentation-api
+    title:
+    - content: Presentation API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/presentation-api/
+      type: src
+    docid:
+    - id: W3C presentation-api
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-presentation-api-20150701
+    title:
+    - content: Presentation API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-presentation-api-20150701/
+      type: src
+    docid:
+    - id: W3C WD-presentation-api-20150701
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-presentation-api-20150217
 ext:

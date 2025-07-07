@@ -5,7 +5,7 @@ title:
 - content: SPARQL Query Language for RDF
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/CR-rdf-sparql-query-20060406/
+- content: https://www.w3.org/TR/2006/CR-rdf-sparql-query-20060406/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-sparql-query
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-sparql-query/
+      type: src
+    docid:
+    - id: W3C rdf-sparql-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-sparql-query-20060220
+    title:
+    - content: SPARQL Query Language for RDF
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-rdf-sparql-query-20060220/
+    - content: https://www.w3.org/TR/2006/WD-rdf-sparql-query-20060220/
       type: src
     docid:
     - id: W3C WD-rdf-sparql-query-20060220
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-sparql-query-20060220
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf-sparql-query-20061004
+    title:
+    - content: SPARQL Query Language for RDF
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-rdf-sparql-query-20061004/
+      type: src
+    docid:
+    - id: W3C WD-rdf-sparql-query-20061004
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-rdf-sparql-query-20060406
 ext:

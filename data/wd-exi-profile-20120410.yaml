@@ -5,7 +5,7 @@ title:
 - content: Efficient XML Interchange (EXI) Profile
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-exi-profile-20120410/
+- content: https://www.w3.org/TR/2012/WD-exi-profile-20120410/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
+      given:
+        forename:
+        - content: Youenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fablet
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Youenn Fablet
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -54,22 +68,52 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-profile
+    title:
+    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+        memory
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-profile/
+      type: src
+    docid:
+    - id: W3C exi-profile
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-exi-profile-20110816
+    title:
+    - content: Efficient XML Interchange (EXI) Profile
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-exi-profile-20110816/
+    - content: https://www.w3.org/TR/2011/WD-exi-profile-20110816/
       type: src
     docid:
     - id: W3C WD-exi-profile-20110816
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-exi-profile-20110816
+- type: updatedBy
+  bibitem:
+    id: W3CWD-exi-profile-20120731
+    title:
+    - content: Efficient XML Interchange (EXI) Profile
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-exi-profile-20120731/
+      type: src
+    docid:
+    - id: W3C WD-exi-profile-20120731
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-exi-profile-20120410
 ext:
@@ -77,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

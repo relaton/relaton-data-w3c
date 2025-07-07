@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-html-templates-20140318/
   type: src
-- content: https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/templates/index.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-html-templates-20140318
@@ -29,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitri Glazkov
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rafael Weinstein
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tony Ross
+      given:
+        forename:
+        - content: Dimitri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazkov
         language:
         - en
         script:
@@ -62,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-templates
+    title:
+    - content: HTML Templates
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-templates/
+      type: src
+    docid:
+    - id: W3C html-templates
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-templates-20130214
+    title:
+    - content: HTML Templates
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-html-templates-20130214/
       type: src
@@ -73,12 +77,9 @@ relation:
     - id: W3C WD-html-templates-20130214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-templates-20130214
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-html-templates-20140318
 ext:
@@ -86,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Chamberlin
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boag
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerome Simeon
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -57,38 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Fernandez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Kay
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Boag
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -104,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath20
+    title:
+    - content: XML Path Language (XPath) 2.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath20/
+      type: src
+    docid:
+    - id: W3C xpath20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xpath20-20090421
+    title:
+    - content: XML Path Language (XPath) 2.0 (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PER-xpath20-20090421/
       type: src
@@ -114,28 +128,9 @@ relation:
     - id: W3C PER-xpath20-20090421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xpath20-20090421
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxpath20-errata2e.html
-    link:
-    - content: https://www.w3.org/XML/2010/qt-errata/xpath20-errata2e.html
-      type: src
-    docid:
-    - id: W3C xpath20-errata2e.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xpath20-errata2e.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xpath20-20101214
 ext:
@@ -143,5 +138,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

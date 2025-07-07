@@ -5,10 +5,8 @@ title:
 - content: Custom Elements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-custom-elements-20160226/
+- content: https://www.w3.org/TR/2016/WD-custom-elements-20160226/
   type: src
-- content: https://w3c.github.io/webcomponents/spec/custom/
-  type: current
 type: standard
 docid:
 - id: W3C WD-custom-elements-20160226
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitri Glazkov
+      given:
+        forename:
+        - content: Dimitri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazkov
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccustom-elements
+    title:
+    - content: Custom Elements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/custom-elements/
+      type: src
+    docid:
+    - id: W3C custom-elements
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-custom-elements-20160119
+    title:
+    - content: Custom Elements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-custom-elements-20160119/
+    - content: https://www.w3.org/TR/2016/WD-custom-elements-20160119/
       type: src
     docid:
     - id: W3C WD-custom-elements-20160119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-custom-elements-20160119
+- type: updatedBy
+  bibitem:
+    id: W3CWD-custom-elements-20160517
+    title:
+    - content: Custom Elements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-custom-elements-20160517/
+      type: src
+    docid:
+    - id: W3C WD-custom-elements-20160517
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-custom-elements-20160226
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

@@ -29,72 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-webmachinelearning-ethics-20220628
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20220628/
-      type: src
-    docid:
-    - id: W3C DNOTE-webmachinelearning-ethics-20220628
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-webmachinelearning-ethics-20220628
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-webmachinelearning-ethics-20221125
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20221125/
-      type: src
-    docid:
-    - id: W3C DNOTE-webmachinelearning-ethics-20221125
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-webmachinelearning-ethics-20221125
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-webmachinelearning-ethics-20221128
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20221128/
-      type: src
-    docid:
-    - id: W3C DNOTE-webmachinelearning-ethics-20221128
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-webmachinelearning-ethics-20221128
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-webmachinelearning-ethics-20221129
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20221129/
-      type: src
-    docid:
-    - id: W3C DNOTE-webmachinelearning-ethics-20221129
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-webmachinelearning-ethics-20221129
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-webmachinelearning-ethics-20230811
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-webmachinelearning-ethics-20230811/
-      type: src
-    docid:
-    - id: W3C DNOTE-webmachinelearning-ethics-20230811
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-webmachinelearning-ethics-20230811
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CDNOTE-webmachinelearning-ethics-20240108
+    title:
+    - content: Ethical Principles for Web Machine Learning
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/DNOTE-webmachinelearning-ethics-20240108/
       type: src
@@ -102,12 +40,74 @@ relation:
     - id: W3C DNOTE-webmachinelearning-ethics-20240108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-webmachinelearning-ethics-20240108
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-webmachinelearning-ethics-20230811
+    title:
+    - content: Ethical Principles for Web Machine Learning
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-webmachinelearning-ethics-20230811/
+      type: src
+    docid:
+    - id: W3C DNOTE-webmachinelearning-ethics-20230811
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-webmachinelearning-ethics-20221129
+    title:
+    - content: Ethical Principles for Web Machine Learning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20221129/
+      type: src
+    docid:
+    - id: W3C DNOTE-webmachinelearning-ethics-20221129
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-webmachinelearning-ethics-20221128
+    title:
+    - content: Ethical Principles for Web Machine Learning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20221128/
+      type: src
+    docid:
+    - id: W3C DNOTE-webmachinelearning-ethics-20221128
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-webmachinelearning-ethics-20221125
+    title:
+    - content: Ethical Principles for Web Machine Learning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20221125/
+      type: src
+    docid:
+    - id: W3C DNOTE-webmachinelearning-ethics-20221125
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-webmachinelearning-ethics-20220628
+    title:
+    - content: Ethical Principles for Web Machine Learning
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-webmachinelearning-ethics-20220628/
+      type: src
+    docid:
+    - id: W3C DNOTE-webmachinelearning-ethics-20220628
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: webmachinelearning-ethics
 ext:

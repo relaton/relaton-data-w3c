@@ -5,10 +5,8 @@ title:
 - content: Media Capture Depth Stream Extensions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-mediacapture-depth-20141007/
+- content: https://www.w3.org/TR/2014/WD-mediacapture-depth-20141007/
   type: src
-- content: http://w3c.github.io/mediacapture-depth/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediacapture-depth-20141007
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ningxin Hu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rob Manson
+      given:
+        forename:
+        - content: Ningxin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hu
         language:
         - en
         script:
@@ -64,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-depth
+    title:
+    - content: Media Capture Depth Stream Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-depth/
+      type: src
+    docid:
+    - id: W3C mediacapture-depth
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mediacapture-depth-20150129
+    title:
+    - content: Media Capture Depth Stream Extensions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-mediacapture-depth-20150129/
+      type: src
+    docid:
+    - id: W3C WD-mediacapture-depth-20150129
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mediacapture-depth-20141007
 ext:

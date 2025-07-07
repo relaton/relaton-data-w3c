@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-geolocation-20210812/
   type: src
-- content: https://w3c.github.io/geolocation-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-geolocation-20210812
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeolocation
+    title:
+    - content: Geolocation
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/geolocation/
+      type: src
+    docid:
+    - id: W3C geolocation
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-geolocation-20210730
+    title:
+    - content: Geolocation API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-geolocation-20210730/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-geolocation-20210730
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-geolocation-20210730
+- type: updatedBy
+  bibitem:
+    id: W3CWD-geolocation-20210930
+    title:
+    - content: Geolocation API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-geolocation-20210930/
+      type: src
+    docid:
+    - id: W3C WD-geolocation-20210930
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-geolocation-20210812
 ext:

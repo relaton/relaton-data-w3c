@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CR-owl-time-20200326/
   type: src
-- content: https://w3c.github.io/sdw/time/
-  type: current
 type: standard
 docid:
 - id: W3C CR-owl-time-20200326
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Little
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cox
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Cox
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Little
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-time
+    title:
+    - content: Time Ontology in OWL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-time/
+      type: src
+    docid:
+    - id: W3C owl-time
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-owl-time-20171019
+    title:
+    - content: Time Ontology in OWL
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/REC-owl-time-20171019/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C REC-owl-time-20171019
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-owl-time-20171019
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-owl-time-20221115
+    title:
+    - content: Time Ontology in OWL
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/CRD-owl-time-20221115/
+      type: src
+    docid:
+    - id: W3C CRD-owl-time-20221115
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-owl-time-20200326
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

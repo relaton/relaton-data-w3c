@@ -5,7 +5,7 @@ title:
 - content: Document Object Model (DOM) Level 3 Events Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413
+- content: https://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Björn Höhrmann
+      given:
+        forename:
+        - content: Philippe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hegaret
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Philippe Le Hégaret
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tom Pixley
+      given:
+        forename:
+        - content: Björn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Höhrmann
         language:
         - en
         script:
@@ -64,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuievents
+    title:
+    - content: UI Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uievents/
+      type: src
+    docid:
+    - id: W3C uievents
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-DOM-Level-3-Events-20031107
+    title:
+    - content: Document Object Model (DOM) Level 3 Events Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107
+    - content: https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107
       type: src
     docid:
     - id: W3C NOTE-DOM-Level-3-Events-20031107
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-DOM-Level-3-Events-20031107
+- type: updatedBy
+  bibitem:
+    id: W3CWD-DOM-Level-3-Events-20071221
+    title:
+    - content: Document Object Model (DOM) Level 3 Events Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-DOM-Level-3-Events-20071221
+      type: src
+    docid:
+    - id: W3C WD-DOM-Level-3-Events-20071221
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-DOM-Level-3-Events-20060413
 ext:

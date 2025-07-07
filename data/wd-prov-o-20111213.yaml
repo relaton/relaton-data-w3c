@@ -5,7 +5,7 @@ title:
 - content: 'The PROV Ontology: Model and Formal Semantics'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-prov-o-20111213/
+- content: https://www.w3.org/TR/2011/WD-prov-o-20111213/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Deborah McGuinness
+      given:
+        forename:
+        - content: Deborah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGuinness
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Satya Sahoo
+      given:
+        forename:
+        - content: Satya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sahoo
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-o
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-o/
+      type: src
+    docid:
+    - id: W3C prov-o
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-prov-o-20120503
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-o-20120503/
+      type: src
+    docid:
+    - id: W3C WD-prov-o-20120503
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-prov-o-20111213
 ext:

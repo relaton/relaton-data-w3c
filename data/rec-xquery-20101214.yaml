@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniela Florescu
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boag
         language:
         - en
         script:
@@ -37,48 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jerome Simeon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary Fernandez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Boag
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -94,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-10
+    title:
+    - content: 'XQuery 1.0: An XML Query Language (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-10/
+      type: src
+    docid:
+    - id: W3C xquery-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xquery-20090421
+    title:
+    - content: 'XQuery 1.0: An XML Query Language (Second Edition)'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PER-xquery-20090421/
       type: src
@@ -104,41 +94,9 @@ relation:
     - id: W3C PER-xquery-20090421
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xquery-20090421
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxquery-errata2e.html
-    link:
-    - content: https://www.w3.org/XML/2010/qt-errata/xquery-errata2e.html
-      type: src
-    docid:
-    - id: W3C xquery-errata2e.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xquery-errata2e.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-xquery-20070123
-    link:
-    - content: https://www.w3.org/TR/2007/REC-xquery-20070123/
-      type: src
-    docid:
-    - id: W3C REC-xquery-20070123
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xquery-20070123
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xquery-20101214
 ext:

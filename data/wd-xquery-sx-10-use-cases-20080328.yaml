@@ -5,7 +5,7 @@ title:
 - content: XQuery Scripting Extension 1.0 Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-xquery-sx-10-use-cases-20080328/
+- content: https://www.w3.org/TR/2008/WD-xquery-sx-10-use-cases-20080328/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-sx-10-use-cases
+    title:
+    - content: XQuery Scripting Extension 1.0 Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-sx-10-use-cases/
+      type: src
+    docid:
+    - id: W3C xquery-sx-10-use-cases
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-sx-10-use-cases-20081203
+    title:
+    - content: XQuery Scripting Extension 1.0 Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-xquery-sx-10-use-cases-20081203/
+      type: src
+    docid:
+    - id: W3C WD-xquery-sx-10-use-cases-20081203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-sx-10-use-cases-20080328
 ext:

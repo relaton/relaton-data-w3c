@@ -5,7 +5,7 @@ title:
 - content: XML Path Language (XPath) 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-xpath-30-20130108/
+- content: https://www.w3.org/TR/2013/CR-xpath-30-20130108/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Don Chamberlin
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Dyck
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -72,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-30
+    title:
+    - content: XML Path Language (XPath) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-30/
+      type: src
+    docid:
+    - id: W3C xpath-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-30-20111213
+    title:
+    - content: XML Path Language (XPath) 3.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-xpath-30-20111213/
+    - content: https://www.w3.org/TR/2011/WD-xpath-30-20111213/
       type: src
     docid:
     - id: W3C WD-xpath-30-20111213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-30-20111213
+- type: updatedBy
+  bibitem:
+    id: W3CPR-xpath-30-20131022
+    title:
+    - content: XML Path Language (XPath) 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-xpath-30-20131022/
+      type: src
+    docid:
+    - id: W3C PR-xpath-30-20131022
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-xpath-30-20130108
 ext:
@@ -97,5 +137,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

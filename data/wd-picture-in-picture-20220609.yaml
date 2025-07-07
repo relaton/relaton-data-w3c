@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220609/
   type: src
-- content: https://w3c.github.io/picture-in-picture/
-  type: current
 type: standard
 docid:
 - id: W3C WD-picture-in-picture-20220609
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Francois Beaufort
+      given:
+        forename:
+        - content: Francois
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Beaufort
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpicture-in-picture
+    title:
+    - content: Picture-in-Picture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/picture-in-picture/
+      type: src
+    docid:
+    - id: W3C picture-in-picture
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-picture-in-picture-20220428
+    title:
+    - content: Picture-in-Picture
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220428/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-picture-in-picture-20220428
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-picture-in-picture-20220428
+- type: updatedBy
+  bibitem:
+    id: W3CWD-picture-in-picture-20220725
+    title:
+    - content: Picture-in-Picture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220725/
+      type: src
+    docid:
+    - id: W3C WD-picture-in-picture-20220725
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-picture-in-picture-20220609
 ext:

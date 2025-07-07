@@ -5,10 +5,8 @@ title:
 - content: Web Animations 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-web-animations-20140605/
+- content: https://www.w3.org/TR/2014/WD-web-animations-20140605/
   type: src
-- content: http://dev.w3.org/fxtf/web-animations/
-  type: current
 type: standard
 docid:
 - id: W3C WD-web-animations-20140605
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Danilo
+      given:
+        forename:
+        - content: Brian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birtles
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Brian Birtles
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stephens
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane Stephens
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Danilo
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -76,22 +102,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-animations-1
+    title:
+    - content: Web Animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-animations-1/
+      type: src
+    docid:
+    - id: W3C web-animations-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-web-animations-20130625
+    title:
+    - content: Web Animations 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-web-animations-20130625/
+    - content: https://www.w3.org/TR/2013/WD-web-animations-20130625/
       type: src
     docid:
     - id: W3C WD-web-animations-20130625
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-web-animations-20130625
+- type: updatedBy
+  bibitem:
+    id: W3CWD-web-animations-1-20150707
+    title:
+    - content: Web Animations
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-web-animations-1-20150707/
+      type: src
+    docid:
+    - id: W3C WD-web-animations-1-20150707
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-web-animations-20140605
 ext:
@@ -100,4 +155,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: SVG Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

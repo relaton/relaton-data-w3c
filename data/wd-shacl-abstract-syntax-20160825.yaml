@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-shacl-abstract-syntax-20160825/
   type: src
-- content: http://w3c.github.io/data-shapes/shacl-abstract-syntax/
-  type: current
 type: standard
 docid:
 - id: W3C WD-shacl-abstract-syntax-20160825
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Karen Coyle
+      given:
+        forename:
+        - content: Karen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coyle
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cshacl-abstract-syntax
+    title:
+    - content: SHACL Abstract Syntax -- Note on Status of Obsolete Proposal
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/shacl-abstract-syntax/
+      type: src
+    docid:
+    - id: W3C shacl-abstract-syntax
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-shacl-abstract-syntax-20170720
+    title:
+    - content: SHACL Abstract Syntax -- Note on Status of Obsolete Proposal
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-shacl-abstract-syntax-20170720/
+      type: src
+    docid:
+    - id: W3C NOTE-shacl-abstract-syntax-20170720
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-shacl-abstract-syntax-20160825
 ext:
@@ -65,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF Data Shapes Working Group
+  - name: Data Shapes Working Group

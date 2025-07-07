@@ -5,10 +5,8 @@ title:
 - content: CSS Object Model (CSSOM)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-cssom-20131205/
+- content: https://www.w3.org/TR/2013/WD-cssom-20131205/
   type: src
-- content: http://dev.w3.org/csswg/cssom/
-  type: current
 type: standard
 docid:
 - id: W3C WD-cssom-20131205
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pieters
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Pieters
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccssom-1
+    title:
+    - content: CSS Object Model (CSSOM)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cssom-1/
+      type: src
+    docid:
+    - id: W3C cssom-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-cssom-20110712
+    title:
+    - content: CSSOM
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-cssom-20110712/
+    - content: https://www.w3.org/TR/2011/WD-cssom-20110712/
       type: src
     docid:
     - id: W3C WD-cssom-20110712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-cssom-20110712
+- type: updatedBy
+  bibitem:
+    id: W3CWD-cssom-1-20160317
+    title:
+    - content: CSS Object Model (CSSOM)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-cssom-1-20160317/
+      type: src
+    docid:
+    - id: W3C WD-cssom-1-20160317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-cssom-20131205
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

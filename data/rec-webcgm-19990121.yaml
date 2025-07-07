@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Cruikshank
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lofton Henderson
+      given:
+        forename:
+        - content: Lofton
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henderson
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CREC-WebCGM
+    title:
+    - content: WebCGM 1.0 Second Release
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/REC-WebCGM/
+      type: src
+    docid:
+    - id: W3C REC-WebCGM
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-WebCGM-19981207
+    title:
+    - content: WebCGM Profile Recommendation
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/1998/PR-WebCGM-19981207
       type: src
@@ -64,31 +77,30 @@ relation:
     - id: W3C PR-WebCGM-19981207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-WebCGM-19981207
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CWebCGM-20011217-errata
+    id: W3CREC-WebCGM-20011217
+    title:
+    - content: WebCGM 1.0 Second Release
+      format: text/plain
     link:
-    - content: https://www.w3.org/Graphics/WebCGM-20011217-errata
+    - content: https://www.w3.org/TR/2001/REC-WebCGM-20011217/
       type: src
     docid:
-    - id: W3C WebCGM-20011217-errata
+    - id: W3C REC-WebCGM-20011217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WebCGM-20011217-errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-WebCGM-19990121
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

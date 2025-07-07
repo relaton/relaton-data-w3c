@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-navigation-timing-20121217
+    title:
+    - content: Navigation Timing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/REC-navigation-timing-20121217/
       type: src
@@ -40,12 +40,113 @@ relation:
     - id: W3C REC-navigation-timing-20121217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-navigation-timing-20121217
+- type: hasEdition
+  bibitem:
+    id: W3CPR-navigation-timing-20120726
+    title:
+    - content: Navigation Timing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-navigation-timing-20120726/
+      type: src
+    docid:
+    - id: W3C PR-navigation-timing-20120726
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-navigation-timing-20120313
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-navigation-timing-20120313/
+      type: src
+    docid:
+    - id: W3C CR-navigation-timing-20120313
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-navigation-timing-20120117
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-navigation-timing-20120117/
+      type: src
+    docid:
+    - id: W3C CR-navigation-timing-20120117
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-navigation-timing-20110602
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-navigation-timing-20110602/
+      type: src
+    docid:
+    - id: W3C CR-navigation-timing-20110602
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-navigation-timing-20110315
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-navigation-timing-20110315/
+      type: src
+    docid:
+    - id: W3C CR-navigation-timing-20110315
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-navigation-timing-20110111
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-navigation-timing-20110111/
+      type: src
+    docid:
+    - id: W3C WD-navigation-timing-20110111
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-navigation-timing-20101207
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-navigation-timing-20101207/
+      type: src
+    docid:
+    - id: W3C WD-navigation-timing-20101207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-navigation-timing-20101026
+    title:
+    - content: Navigation Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-navigation-timing-20101026/
+      type: src
+    docid:
+    - id: W3C WD-navigation-timing-20101026
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: navigation-timing
 ext:

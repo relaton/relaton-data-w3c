@@ -5,7 +5,7 @@ title:
 - content: XQuery Update Facility 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-xquery-update-30-20111213/
+- content: https://www.w3.org/TR/2011/WD-xquery-update-30-20111213/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-update-30
+    title:
+    - content: XQuery Update Facility 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-update-30/
+      type: src
+    docid:
+    - id: W3C xquery-update-30
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-update-30-20130108
+    title:
+    - content: XQuery Update Facility 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-xquery-update-30-20130108/
+      type: src
+    docid:
+    - id: W3C WD-xquery-update-30-20130108
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-update-30-20111213
 ext:

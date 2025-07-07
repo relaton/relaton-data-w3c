@@ -5,10 +5,8 @@ title:
 - content: 'Data on the Web Best Practices: Data Quality Vocabulary'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-vocab-dqv-20160519/
+- content: https://www.w3.org/TR/2016/WD-vocab-dqv-20160519/
   type: src
-- content: http://w3c.github.io/dwbp/vocab-dqg.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-vocab-dqv-20160519
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Isaac
+      given:
+        forename:
+        - content: Riccardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Albertoni
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Riccardo Albertoni
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Isaac
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-dqv
+    title:
+    - content: 'Data on the Web Best Practices: Data Quality Vocabulary'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-dqv/
+      type: src
+    docid:
+    - id: W3C vocab-dqv
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vocab-dqv-20151217
+    title:
+    - content: 'Data on the Web Best Practices: Data Quality Vocabulary'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-vocab-dqv-20151217/
+    - content: https://www.w3.org/TR/2015/WD-vocab-dqv-20151217/
       type: src
     docid:
     - id: W3C WD-vocab-dqv-20151217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-dqv-20151217
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-vocab-dqv-20160830
+    title:
+    - content: 'Data on the Web Best Practices: Data Quality Vocabulary'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-vocab-dqv-20160830/
+      type: src
+    docid:
+    - id: W3C NOTE-vocab-dqv-20160830
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vocab-dqv-20160519
 ext:

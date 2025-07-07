@@ -5,7 +5,7 @@ title:
 - content: Timing control for script-based animations
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-animation-timing-20110602/
+- content: https://www.w3.org/TR/2011/WD-animation-timing-20110602/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cameron McCormack
+      given:
+        forename:
+        - content: Cameron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCormack
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Robinson
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robinson
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Canimation-timing
+    title:
+    - content: Timing control for script-based animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/animation-timing/
+      type: src
+    docid:
+    - id: W3C animation-timing
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-animation-timing-20120221
+    title:
+    - content: Timing control for script-based animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-animation-timing-20120221/
+      type: src
+    docid:
+    - id: W3C WD-animation-timing-20120221
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-animation-timing-20110602
 ext:

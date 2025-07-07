@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/PR-css-box-3-20230216/
   type: src
-- content: https://drafts.csswg.org/css-box-3/
-  type: current
 type: standard
 docid:
 - id: W3C PR-css-box-3-20230216
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-box-3
+    title:
+    - content: CSS Box Model Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-box-3/
+      type: src
+    docid:
+    - id: W3C css-box-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-css-box-3-20221103
+    title:
+    - content: CSS Box Model Module Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/CRD-css-box-3-20221103/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C CRD-css-box-3-20221103
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-css-box-3-20221103
+- type: updatedBy
+  bibitem:
+    id: W3CREC-css-box-3-20230406
+    title:
+    - content: CSS Box Model Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/REC-css-box-3-20230406/
+      type: src
+    docid:
+    - id: W3C REC-css-box-3-20230406
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-css-box-3-20230216
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

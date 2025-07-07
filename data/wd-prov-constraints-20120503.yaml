@@ -5,7 +5,7 @@ title:
 - content: Constraints of the Provenance Data Model
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-prov-constraints-20120503/
+- content: https://www.w3.org/TR/2012/WD-prov-constraints-20120503/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Cheney
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Luc Moreau
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paolo Missier
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cheney
         language:
         - en
         script:
@@ -63,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-constraints
+    title:
+    - content: Constraints of the PROV Data Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-constraints/
+      type: src
+    docid:
+    - id: W3C prov-constraints
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-prov-constraints-20120911
+    title:
+    - content: Constraints of the Provenance Data Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-prov-constraints-20120911/
+      type: src
+    docid:
+    - id: W3C WD-prov-constraints-20120911
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-prov-constraints-20120503
 ext:

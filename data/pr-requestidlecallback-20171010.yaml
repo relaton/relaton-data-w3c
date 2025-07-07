@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/PR-requestidlecallback-20171010/
   type: src
-- content: https://w3c.github.io/requestidlecallback/
-  type: current
 type: standard
 docid:
 - id: W3C PR-requestidlecallback-20171010
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ross
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McIlroy
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ross McIlroy
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crequestidlecallback
+    title:
+    - content: requestIdleCallback()
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/requestidlecallback/
+      type: src
+    docid:
+    - id: W3C requestidlecallback
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-requestidlecallback-20170131
+    title:
+    - content: Cooperative Scheduling of Background Tasks
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-requestidlecallback-20170131/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C CR-requestidlecallback-20170131
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-requestidlecallback-20170131
+- type: updatedBy
+  bibitem:
+    id: W3CWD-requestidlecallback-20220628
+    title:
+    - content: requestIdleCallback() Cooperative Scheduling of Background Tasks
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-requestidlecallback-20220628/
+      type: src
+    docid:
+    - id: W3C WD-requestidlecallback-20220628
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-requestidlecallback-20171010
 ext:

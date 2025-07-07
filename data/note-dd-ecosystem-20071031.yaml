@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rotan Hanrahan
+      given:
+        forename:
+        - content: Rotan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hanrahan
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdd-ecosystem
+    title:
+    - content: Device Description Ecosystem 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dd-ecosystem/
+      type: src
+    docid:
+    - id: W3C dd-ecosystem
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dd-ecosystem-20051121
+    title:
+    - content: Device Description Ecosystem
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-dd-ecosystem-20051121
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-dd-ecosystem-20051121
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dd-ecosystem-20051121
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-dd-ecosystem-20071031
 ext:

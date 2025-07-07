@@ -5,10 +5,8 @@ title:
 - content: Linked Data Platform 1.0 Primer
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-ldp-primer-20140626/
+- content: https://www.w3.org/TR/2014/WD-ldp-primer-20140626/
   type: src
-- content: http://www.w3.org/2012/ldp/hg/ldp-primer/ldp-primer.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-ldp-primer-20140626
@@ -27,6 +25,40 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      given:
+        forename:
+        - content: Nandana
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mihindukulasooriya
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Roger
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Menday
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
 revdate: '2014-06-26'
 language:
 - en
@@ -34,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldp-primer
+    title:
+    - content: Linked Data Platform 1.0 Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldp-primer/
+      type: src
+    docid:
+    - id: W3C ldp-primer
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ldp-primer-20150423
+    title:
+    - content: Linked Data Platform 1.0 Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-ldp-primer-20150423/
+      type: src
+    docid:
+    - id: W3C NOTE-ldp-primer-20150423
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-ldp-primer-20140626
 ext:
@@ -45,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

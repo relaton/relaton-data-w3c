@@ -5,7 +5,7 @@ title:
 - content: 'Web Security Context: User Interface Guidelines'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PR-wsc-ui-20100622/
+- content: https://www.w3.org/TR/2010/PR-wsc-ui-20100622/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anil Saldhana
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roessler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Roessler
+      given:
+        forename:
+        - content: Anil
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saldhana
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsc-ui
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsc-ui/
+      type: src
+    docid:
+    - id: W3C wsc-ui
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsc-ui-20100309
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-wsc-ui-20100309/
+    - content: https://www.w3.org/TR/2010/WD-wsc-ui-20100309/
       type: src
     docid:
     - id: W3C WD-wsc-ui-20100309
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsc-ui-20100309
+- type: updatedBy
+  bibitem:
+    id: W3CREC-wsc-ui-20100812
+    title:
+    - content: 'Web Security Context: User Interface Guidelines'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-wsc-ui-20100812/
+      type: src
+    docid:
+    - id: W3C REC-wsc-ui-20100812
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-wsc-ui-20100622
 ext:

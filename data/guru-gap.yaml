@@ -26,52 +26,65 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-guru-gap-20200616
+    id: W3CDNOTE-guru-gap-20250531
+    title:
+    - content: Gurmukhi Gap Analysis
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2020/WD-guru-gap-20200616/
+    - content: https://www.w3.org/TR/2025/DNOTE-guru-gap-20250531/
       type: src
     docid:
-    - id: W3C WD-guru-gap-20200616
+    - id: W3C DNOTE-guru-gap-20250531
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-guru-gap-20200616
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-guru-gap-20210525
+    id: W3CDNOTE-guru-gap-20240710
+    title:
+    - content: Gurmukhi Gap Analysis
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2021/WD-guru-gap-20210525/
+    - content: https://www.w3.org/TR/2024/DNOTE-guru-gap-20240710/
       type: src
     docid:
-    - id: W3C WD-guru-gap-20210525
+    - id: W3C DNOTE-guru-gap-20240710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-guru-gap-20210525
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-guru-gap-20230614
+    id: W3CDNOTE-guru-gap-20240704
+    title:
+    - content: Gurmukhi Gap Analysis
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2023/DNOTE-guru-gap-20230614/
+    - content: https://www.w3.org/TR/2024/DNOTE-guru-gap-20240704/
       type: src
     docid:
-    - id: W3C DNOTE-guru-gap-20230614
+    - id: W3C DNOTE-guru-gap-20240704
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-guru-gap-20230614
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-guru-gap-20240702
+    title:
+    - content: Gurmukhi Gap Analysis
       format: text/plain
-- type: instanceOf
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-guru-gap-20240702/
+      type: src
+    docid:
+    - id: W3C DNOTE-guru-gap-20240702
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-guru-gap-20230830
+    title:
+    - content: Gurmukhi Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-guru-gap-20230830/
       type: src
@@ -79,12 +92,48 @@ relation:
     - id: W3C DNOTE-guru-gap-20230830
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-guru-gap-20230830
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-guru-gap-20230614
+    title:
+    - content: Gurmukhi Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-guru-gap-20230614/
+      type: src
+    docid:
+    - id: W3C DNOTE-guru-gap-20230614
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-guru-gap-20210525
+    title:
+    - content: Gurmukhi Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-guru-gap-20210525/
+      type: src
+    docid:
+    - id: W3C WD-guru-gap-20210525
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-guru-gap-20200616
+    title:
+    - content: Gurmukhi Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-guru-gap-20200616/
+      type: src
+    docid:
+    - id: W3C WD-guru-gap-20200616
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: guru-gap
 ext:

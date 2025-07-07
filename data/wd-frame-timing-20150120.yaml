@@ -5,10 +5,8 @@ title:
 - content: Frame Timing
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-frame-timing-20150120/
+- content: https://www.w3.org/TR/2015/WD-frame-timing-20150120/
   type: src
-- content: https://w3c.github.io/frame-timing/
-  type: current
 type: standard
 docid:
 - id: W3C WD-frame-timing-20150120
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Blain
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Blain
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cframe-timing
+    title:
+    - content: Frame Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/frame-timing/
+      type: src
+    docid:
+    - id: W3C frame-timing
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-frame-timing-20150206
+    title:
+    - content: Frame Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-frame-timing-20150206/
+      type: src
+    docid:
+    - id: W3C WD-frame-timing-20150206
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-frame-timing-20150120
 ext:

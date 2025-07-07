@@ -5,7 +5,7 @@ title:
 - content: W3C mobileOK Basic Tests 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PR-mobileOK-basic10-tests-20081103/
+- content: https://www.w3.org/TR/2008/PR-mobileOK-basic10-tests-20081103/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jo Rabin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sean Owen
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CmobileOK-basic10-tests
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobileOK-basic10-tests/
+      type: src
+    docid:
+    - id: W3C mobileOK-basic10-tests
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mobileOK-basic10-tests-20080610
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-mobileOK-basic10-tests-20080610/
+    - content: https://www.w3.org/TR/2008/WD-mobileOK-basic10-tests-20080610/
       type: src
     docid:
     - id: W3C WD-mobileOK-basic10-tests-20080610
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mobileOK-basic10-tests-20080610
+- type: updatedBy
+  bibitem:
+    id: W3CREC-mobileOK-basic10-tests-20081208
+    title:
+    - content: W3C mobileOK Basic Tests 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-mobileOK-basic10-tests-20081208/
+      type: src
+    docid:
+    - id: W3C REC-mobileOK-basic10-tests-20081208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-mobileOK-basic10-tests-20081103
 ext:

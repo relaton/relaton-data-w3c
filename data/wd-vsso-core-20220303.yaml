@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-vsso-core-20220303/
   type: src
-- content: https://w3c.github.io/vsso/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vsso-core-20220303
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Klotz
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Klotz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Wilms
+      given:
+        forename:
+        - content: Raphaël
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Troncy
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Raphaël Troncy
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wilms
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvsso-core
+    title:
+    - content: 'VSSo Core: Vehicle Signal Specification Core Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vsso-core/
+      type: src
+    docid:
+    - id: W3C vsso-core
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDISC-vsso-core-20240222
+    title:
+    - content: 'VSSo Core: Vehicle Signal Specification Core Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DISC-vsso-core-20240222/
+      type: src
+    docid:
+    - id: W3C DISC-vsso-core-20240222
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-vsso-core-20220303
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Use cases and requirements for Media Fragments
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-media-frags-reqs-20090430
+- content: https://www.w3.org/TR/2009/WD-media-frags-reqs-20090430
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Davy Van Deursen
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Erik Mannens
+      given:
+        forename:
+        - content: Silvia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pfeiffer
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jack Jansen
+      given:
+        forename:
+        - content: Jack
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jansen
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Raphaël Troncy
+      given:
+        forename:
+        - content: Raphaël
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Troncy
         language:
         - en
         script:
@@ -67,18 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Silvia Pfeiffer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Erik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mannens
         language:
         - en
         script:
@@ -93,9 +118,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmedia-frags-reqs
+    title:
+    - content: Use cases and requirements for Media Fragments
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/media-frags-reqs/
+      type: src
+    docid:
+    - id: W3C media-frags-reqs
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-media-frags-reqs-20091217
+    title:
+    - content: Use cases and requirements for Media Fragments
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-media-frags-reqs-20091217/
+      type: src
+    docid:
+    - id: W3C WD-media-frags-reqs-20091217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-media-frags-reqs-20090430
 ext:

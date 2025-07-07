@@ -5,7 +5,7 @@ title:
 - content: Clear, Secure, and Portable Visual Marks for the Cyber World
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/NOTE-visual-marks-20010221/
+- content: https://www.w3.org/TR/2001/NOTE-visual-marks-20010221/
   type: src
 type: standard
 docid:
@@ -25,27 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Hisashi Toyoshima
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2001-02-21'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvisual-marks
+    title:
+    - content: Clear, Secure, and Portable Visual Marks for the Cyber World
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/visual-marks/
+      type: src
+    docid:
+    - id: W3C visual-marks
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-visual-marks-20010221
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

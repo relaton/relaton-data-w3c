@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-modularization
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-modularization/
+      type: src
+    docid:
+    - id: W3C xhtml-modularization
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xhtml-modularization-20100414
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PER-xhtml-modularization-20100414
       type: src
@@ -54,28 +77,25 @@ relation:
     - id: W3C PER-xhtml-modularization-20100414
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xhtml-modularization-20100414
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3CREC-xhtml-modularization-20081008-errata
+    id: W3CSPSD-xhtml-modularization-20180327
+    title:
+    - content: XHTML™ Modularization 1.1 - Second Edition
+      format: text/plain
     link:
-    - content: https://www.w3.org/MarkUp/2008/REC-xhtml-modularization-20081008-errata
+    - content: https://www.w3.org/TR/2018/SPSD-xhtml-modularization-20180327/
       type: src
     docid:
-    - id: W3C REC-xhtml-modularization-20081008-errata
+    - id: W3C SPSD-xhtml-modularization-20180327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-modularization-20081008-errata
-      format: text/plain
   description:
     content: errata
     format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xhtml-modularization-20100729
 ext:

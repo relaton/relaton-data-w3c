@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-screen-capture-20210603/
   type: src
-- content: https://w3c.github.io/mediacapture-screen-share/
-  type: current
 type: standard
 docid:
 - id: W3C WD-screen-capture-20210603
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elad Alon
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henrik Boström
+      given:
+        forename:
+        - content: Keith
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Griffin
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jan-Ivar Bruaroey
+      given:
+        forename:
+        - content: Suhas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nandakumar
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Keith Griffin
+      given:
+        forename:
+        - content: Henrik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boström
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Thomson
+      given:
+        forename:
+        - content: Jan-Ivar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bruaroey
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Suhas Nandakumar
+      given:
+        forename:
+        - content: Elad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alon
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-capture
+    title:
+    - content: Screen Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-capture/
+      type: src
+    docid:
+    - id: W3C screen-capture
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-screen-capture-20210527
+    title:
+    - content: Screen Capture
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-screen-capture-20210527/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C WD-screen-capture-20210527
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-screen-capture-20210527
+- type: updatedBy
+  bibitem:
+    id: W3CWD-screen-capture-20210610
+    title:
+    - content: Screen Capture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-screen-capture-20210610/
+      type: src
+    docid:
+    - id: W3C WD-screen-capture-20210610
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-screen-capture-20210603
 ext:

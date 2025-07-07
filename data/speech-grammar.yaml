@@ -5,7 +5,7 @@ title:
 - content: Speech Recognition Grammar Specification Version 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/speech-grammar
+- content: https://www.w3.org/TR/speech-grammar/
   type: src
 type: standard
 docid:
@@ -26,26 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Candidate Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CREC-speech-grammar-20040316
+    title:
+    - content: Speech Recognition Grammar Specification Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/REC-speech-grammar-20040316/
+      type: src
+    docid:
+    - id: W3C REC-speech-grammar-20040316
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-speech-grammar-20031218
+    title:
+    - content: Speech Recognition Grammar Specification Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PR-speech-grammar-20031218/
+      type: src
+    docid:
+    - id: W3C PR-speech-grammar-20031218
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CCR-speech-grammar-20020626
+    title:
+    - content: Speech Recognition Grammar Specification Version 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/CR-speech-grammar-20020626
+    - content: https://www.w3.org/TR/2002/CR-speech-grammar-20020626
       type: src
     docid:
     - id: W3C CR-speech-grammar-20020626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-speech-grammar-20020626
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C technicalReport
     format: text/plain
   number: speech-grammar
 ext:

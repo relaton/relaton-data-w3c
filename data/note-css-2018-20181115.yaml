@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
   type: src
-- content: https://drafts.csswg.org/css-2018/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-css-2018-20181115
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -62,9 +81,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-2018
+    title:
+    - content: CSS Snapshot 2018
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-2018/
+      type: src
+    docid:
+    - id: W3C css-2018
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-css-2018-20190122
+    title:
+    - content: CSS Snapshot 2018
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-css-2018-20190122/
+      type: src
+    docid:
+    - id: W3C NOTE-css-2018-20190122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-css-2018-20181115
 ext:
@@ -72,4 +124,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -5,7 +5,7 @@ title:
 - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PR-xmlschema11-1-20120119/
+- content: https://www.w3.org/TR/2012/PR-xmlschema11-1-20120119/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: C. M. Sperberg-McQueen
+      given:
+        forename:
+        - content: Murray
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maloney
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Beech
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -47,38 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henry S. Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Murray Maloney
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shudi Gao
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -94,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmlschema11-1
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmlschema11-1/
+      type: src
+    docid:
+    - id: W3C xmlschema11-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xmlschema11-1-20110721
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/CR-xmlschema11-1-20110721/
+    - content: https://www.w3.org/TR/2011/CR-xmlschema11-1-20110721/
       type: src
     docid:
     - id: W3C CR-xmlschema11-1-20110721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xmlschema11-1-20110721
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xmlschema11-1-20120405
+    title:
+    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/REC-xmlschema11-1-20120405/
+      type: src
+    docid:
+    - id: W3C REC-xmlschema11-1-20120405
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xmlschema11-1-20120119
 ext:

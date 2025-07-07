@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: B Helena RODRIGUEZ
+      given:
+        forename:
+        - content: B Helena
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: RODRIGUEZ
         language:
         - en
         script:
@@ -41,9 +48,27 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-discovery
+    title:
+    - content: 'Registration & Discovery of Multimodal Modality Components in Multimodal
+        Systems: Use Cases and Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-discovery/
+      type: src
+    docid:
+    - id: W3C mmi-discovery
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mmi-discovery-20120705
 ext:

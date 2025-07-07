@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Martin PreslerMarshall
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: PreslerMarshall
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cp3pdeployment
+    title:
+    - content: The Platform for Privacy Preferences 1.0 Deployment Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/p3pdeployment/
+      type: src
+    docid:
+    - id: W3C p3pdeployment
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-p3pdeployment-20020211
 ext:

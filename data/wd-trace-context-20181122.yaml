@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-trace-context-20181122/
   type: src
-- content: https://w3c.github.io/trace-context/
-  type: current
 type: standard
 docid:
 - id: W3C WD-trace-context-20181122
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alois Reitbauer
+      given:
+        forename:
+        - content: Sergey
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kanzhelev
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Morgan McLean
+      given:
+        forename:
+        - content: Morgan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McLean
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sergey Kanzhelev
+      given:
+        forename:
+        - content: Alois
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reitbauer
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctrace-context-1
+    title:
+    - content: Trace Context
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/trace-context-1/
+      type: src
+    docid:
+    - id: W3C trace-context-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-distributed-tracing-20181106
+    title:
+    - content: Trace Context
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-distributed-tracing-20181106/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-distributed-tracing-20181106
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-distributed-tracing-20181106
+- type: updatedBy
+  bibitem:
+    id: W3CCR-trace-context-20190509
+    title:
+    - content: Trace Context
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-trace-context-20190509/
+      type: src
+    docid:
+    - id: W3C CR-trace-context-20190509
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-trace-context-20181122
 ext:

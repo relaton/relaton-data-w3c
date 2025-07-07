@@ -5,7 +5,7 @@ title:
 - content: Web Services Addressing 1.0 - SOAP Binding
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/CR-ws-addr-soap-20050817
+- content: https://www.w3.org/TR/2005/CR-ws-addr-soap-20050817
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marc Hadley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Martin Gudgin
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-addr-soap
+    title:
+    - content: Web Services Addressing 1.0 - SOAP Binding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-addr-soap/
+      type: src
+    docid:
+    - id: W3C ws-addr-soap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ws-addr-soap-20050331
+    title:
+    - content: Web Services Addressing 1.0 - SOAP Binding
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-ws-addr-soap-20050331
+    - content: https://www.w3.org/TR/2005/WD-ws-addr-soap-20050331
       type: src
     docid:
     - id: W3C WD-ws-addr-soap-20050331
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-addr-soap-20050331
+- type: updatedBy
+  bibitem:
+    id: W3CPR-ws-addr-soap-20060321
+    title:
+    - content: Web Services Addressing 1.0 - SOAP Binding
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/PR-ws-addr-soap-20060321
+      type: src
+    docid:
+    - id: W3C PR-ws-addr-soap-20060321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ws-addr-soap-20050817
 ext:

@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-CSS22-20160412
+    title:
+    - content: Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-CSS22-20160412/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-CSS22-20160412
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CSS22-20160412
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: CSS22
 ext:

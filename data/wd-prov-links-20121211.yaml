@@ -5,7 +5,7 @@ title:
 - content: Linking Across Provenance Bundles
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-prov-links-20121211/
+- content: https://www.w3.org/TR/2012/WD-prov-links-20121211/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Luc Moreau
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Timothy Lebo
+      given:
+        forename:
+        - content: Timothy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lebo
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-links
+    title:
+    - content: Linking Across Provenance Bundles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-links/
+      type: src
+    docid:
+    - id: W3C prov-links
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-prov-links-20130312
+    title:
+    - content: Linking Across Provenance Bundles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-prov-links-20130312/
+      type: src
+    docid:
+    - id: W3C WD-prov-links-20130312
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-prov-links-20121211
 ext:

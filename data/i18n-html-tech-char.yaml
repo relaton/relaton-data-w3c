@@ -6,7 +6,7 @@ title:
     and Encodings 1.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/i18n-html-tech-char/
+- content: https://www.w3.org/TR/i18n-html-tech-char/
   type: src
 type: standard
 docid:
@@ -27,26 +27,51 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-i18n-html-tech-char-20150127
+    title:
+    - content: 'Authoring Techniques for XHTML & HTML Internationalization: Characters
+        and Encodings 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-i18n-html-tech-char-20150127/
+      type: src
+    docid:
+    - id: W3C NOTE-i18n-html-tech-char-20150127
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-i18n-html-tech-char-20040509
+    title:
+    - content: 'Authoring Techniques for XHTML & HTML Internationalization: Characters
+        and Encodings 1.0'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-i18n-html-tech-char-20040509/
+    - content: https://www.w3.org/TR/2004/WD-i18n-html-tech-char-20040509/
       type: src
     docid:
     - id: W3C WD-i18n-html-tech-char-20040509
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-i18n-html-tech-char-20040509
+- type: hasEdition
+  bibitem:
+    id: W3CWD-i18n-html-tech-20031009
+    title:
+    - content: Authoring Techniques for XHTML & HTML Internationalization 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-i18n-html-tech-20031009/
+      type: src
+    docid:
+    - id: W3C WD-i18n-html-tech-20031009
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: i18n-html-tech-char
 ext:

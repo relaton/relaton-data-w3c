@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-mediacapture-streams-20190702/
   type: src
-- content: https://w3c.github.io/mediacapture-main/
-  type: current
 type: standard
 docid:
 - id: W3C CR-mediacapture-streams-20190702
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Bergkvist
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anant Narayanan
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bergkvist
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bernard Aboba
+      given:
+        forename:
+        - content: Cullen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cullen Jennings
+      given:
+        forename:
+        - content: Jan-Ivar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bruaroey
         language:
         - en
         script:
@@ -69,28 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henrik Boström
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jan-Ivar Bruaroey
+      given:
+        forename:
+        - content: Henrik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boström
         language:
         - en
         script:
@@ -104,11 +117,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-streams
+    title:
+    - content: Media Capture and Streams
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-streams/
+      type: src
+    docid:
+    - id: W3C mediacapture-streams
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-mediacapture-streams-20171003
+    title:
+    - content: Media Capture and Streams
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-mediacapture-streams-20171003/
       type: src
@@ -116,12 +145,25 @@ relation:
     - id: W3C CR-mediacapture-streams-20171003
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-mediacapture-streams-20171003
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-mediacapture-streams-20200924
+    title:
+    - content: Media Capture and Streams
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/CRD-mediacapture-streams-20200924/
+      type: src
+    docid:
+    - id: W3C CRD-mediacapture-streams-20200924
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-mediacapture-streams-20190702
 ext:

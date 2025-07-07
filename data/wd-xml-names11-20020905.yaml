@@ -5,7 +5,7 @@ title:
 - content: Namespaces in XML 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/WD-xml-names11-20020905
+- content: https://www.w3.org/TR/2002/WD-xml-names11-20020905
   type: src
 type: standard
 docid:
@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Layman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Dave Hollander
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Richard Tobin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tim Bray
+      given:
+        forename:
+        - content: Tim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bray
         language:
         - en
         script:
@@ -72,27 +49,58 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-names11
+    title:
+    - content: Namespaces in XML 1.1 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-names11/
+      type: src
+    docid:
+    - id: W3C xml-names11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-names11-20020403
+    title:
+    - content: Namespaces in XML 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xml-names11-20020403/
+    - content: https://www.w3.org/TR/2002/WD-xml-names11-20020403/
       type: src
     docid:
     - id: W3C WD-xml-names11-20020403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-names11-20020403
+- type: updatedBy
+  bibitem:
+    id: W3CCR-xml-names11-20021218
+    title:
+    - content: Namespaces in XML 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/CR-xml-names11-20021218/
+      type: src
+    docid:
+    - id: W3C CR-xml-names11-20021218
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-xml-names11-20020905
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

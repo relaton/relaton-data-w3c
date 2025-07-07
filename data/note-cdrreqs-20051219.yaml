@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Quint
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Appelquist
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Appelquist
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Timur Mehrvarz
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Quint
         language:
         - en
         script:
@@ -60,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCDRReqs
+    title:
+    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CDRReqs/
+      type: src
+    docid:
+    - id: W3C CDRReqs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-CDRReqs-20050809
+    title:
+    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2005/WD-CDRReqs-20050809/
       type: src
@@ -71,12 +94,9 @@ relation:
     - id: W3C WD-CDRReqs-20050809
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CDRReqs-20050809
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-CDRReqs-20051219
 ext:

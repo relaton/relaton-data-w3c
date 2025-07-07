@@ -5,7 +5,7 @@ title:
 - content: N-Triples
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-n-triples-20130905/
+- content: https://www.w3.org/TR/2013/WD-n-triples-20130905/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gavin Carothers
+      given:
+        forename:
+        - content: Gavin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carothers
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cn-triples
+    title:
+    - content: RDF 1.1 N-Triples
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/n-triples/
+      type: src
+    docid:
+    - id: W3C n-triples
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-n-triples-20130409
+    title:
+    - content: N-Triples
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/NOTE-n-triples-20130409/
+    - content: https://www.w3.org/TR/2013/NOTE-n-triples-20130409/
       type: src
     docid:
     - id: W3C NOTE-n-triples-20130409
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-n-triples-20130409
+- type: updatedBy
+  bibitem:
+    id: W3CCR-n-triples-20131105
+    title:
+    - content: RDF 1.1 N-Triples
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-n-triples-20131105/
+      type: src
+    docid:
+    - id: W3C CR-n-triples-20131105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-n-triples-20130905
 ext:

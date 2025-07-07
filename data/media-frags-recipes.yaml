@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-media-frags-recipes-20111201
+    title:
+    - content: Protocol for Media Fragments 1.0 Resolution in HTTP
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/WD-media-frags-recipes-20111201/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-media-frags-recipes-20111201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-media-frags-recipes-20111201
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: media-frags-recipes
 ext:

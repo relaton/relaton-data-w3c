@@ -27,13 +27,14 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-mobile-accessibility-mapping-20150226
+    title:
+    - content: 'Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply
+        to Mobile'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-mobile-accessibility-mapping-20150226/
       type: src
@@ -41,12 +42,9 @@ relation:
     - id: W3C WD-mobile-accessibility-mapping-20150226
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mobile-accessibility-mapping-20150226
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: mobile-accessibility-mapping
 ext:

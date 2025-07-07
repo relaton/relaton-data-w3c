@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/PR-payment-request-20210930/
   type: src
-- content: https://w3c.github.io/payment-request/
-  type: current
 type: standard
 docid:
 - id: W3C PR-payment-request-20210930
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Rouslan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Solomakhin
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rouslan Solomakhin
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-request
+    title:
+    - content: Payment Request API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-request/
+      type: src
+    docid:
+    - id: W3C payment-request
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-payment-request-20210928
+    title:
+    - content: Payment Request API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-payment-request-20210928/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CRD-payment-request-20210928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-payment-request-20210928
+- type: updatedBy
+  bibitem:
+    id: W3CREC-payment-request-20220908
+    title:
+    - content: Payment Request API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/REC-payment-request-20220908/
+      type: src
+    docid:
+    - id: W3C REC-payment-request-20220908
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-payment-request-20210930
 ext:

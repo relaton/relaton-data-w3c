@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeni Tennison
+      given:
+        forename:
+        - content: Jeni
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tennison
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-data-guide
+    title:
+    - content: HTML Data Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-data-guide/
+      type: src
+    docid:
+    - id: W3C html-data-guide
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-data-guide-20120112
+    title:
+    - content: HTML Data Guide
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-html-data-guide-20120112/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-html-data-guide-20120112
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-data-guide-20120112
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-html-data-guide-20120308
 ext:

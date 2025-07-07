@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/NOTE-xml-c14n2-testcases-20130618/
   type: src
-- content: https://www.w3.org/2008/xmlsec/Drafts/c14n-20/test-cases/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-xml-c14n2-testcases-20130618
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pratik Datta
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -52,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-c14n2-testcases
+    title:
+    - content: Test cases for Canonical XML 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-c14n2-testcases/
+      type: src
+    docid:
+    - id: W3C xml-c14n2-testcases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-xml-c14n2-testcases-20130411
+    title:
+    - content: Test cases for Canonical XML 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-xml-c14n2-testcases-20130411/
       type: src
@@ -63,12 +77,9 @@ relation:
     - id: W3C NOTE-xml-c14n2-testcases-20130411
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xml-c14n2-testcases-20130411
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml-c14n2-testcases-20130618
 ext:

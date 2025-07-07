@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/REC-rdf-syntax-grammar-20140225/
   type: src
-- content: https://w3c.github.io/rdf-xml/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-rdf-syntax-grammar-20140225
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Fabien Gandon
+      given:
+        forename:
+        - content: Fabien
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gandon
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Guus Schreiber
+      given:
+        forename:
+        - content: Guus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schreiber
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-syntax-grammar
+    title:
+    - content: RDF 1.1 XML Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-syntax-grammar/
+      type: src
+    docid:
+    - id: W3C rdf-syntax-grammar
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-rdf-syntax-grammar-20140109
+    title:
+    - content: RDF 1.1 XML Syntax
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PER-rdf-syntax-grammar-20140109/
       type: src
@@ -66,25 +94,9 @@ relation:
     - id: W3C PER-rdf-syntax-grammar-20140109
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-rdf-syntax-grammar-20140109
-      format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-rdf-syntax-grammar-20040210
-    link:
-    - content: https://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/
-      type: src
-    docid:
-    - id: W3C REC-rdf-syntax-grammar-20040210
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-syntax-grammar-20040210
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rdf-syntax-grammar-20140225
 ext:

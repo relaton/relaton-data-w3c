@@ -5,7 +5,7 @@ title:
 - content: Fullscreen
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-fullscreen-20120703/
+- content: https://www.w3.org/TR/2012/WD-fullscreen-20120703/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cfullscreen
+    title:
+    - content: Fullscreen
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/fullscreen/
+      type: src
+    docid:
+    - id: W3C fullscreen
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-fullscreen-20141118
+    title:
+    - content: Fullscreen
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-fullscreen-20141118/
+      type: src
+    docid:
+    - id: W3C NOTE-fullscreen-20141118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-fullscreen-20120703
 ext:
@@ -63,5 +107,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group
+  - name: "(historical) Web Applications Working Group"

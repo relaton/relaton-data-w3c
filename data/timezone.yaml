@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Ctimezone
 title:
-- content: Working with Time Zones
+- content: Working with Time and Timezones
   format: text/plain
 link:
-- content: http://www.w3.org/TR/timezone
+- content: https://www.w3.org/TR/timezone/
   type: src
 type: standard
 docid:
@@ -27,22 +27,48 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-timezone-20241122
+    title:
+    - content: Working with Time and Timezones
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-timezone-20241122/
+      type: src
+    docid:
+    - id: W3C DNOTE-timezone-20241122
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-timezone-20110705
+    title:
+    - content: Working with Time Zones
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/NOTE-timezone-20110705/
+      type: src
+    docid:
+    - id: W3C NOTE-timezone-20110705
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CNOTE-timezone-20051013
+    title:
+    - content: Working with Time Zones
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/NOTE-timezone-20051013/
+    - content: https://www.w3.org/TR/2005/NOTE-timezone-20051013/
       type: src
     docid:
     - id: W3C NOTE-timezone-20051013
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-timezone-20051013
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: timezone
 ext:

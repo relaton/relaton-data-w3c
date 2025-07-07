@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Don Chamberlin
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dyck
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Dyck
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -74,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-30
+    title:
+    - content: 'XQuery 3.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-30/
+      type: src
+    docid:
+    - id: W3C xquery-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xquery-30-20131022
+    title:
+    - content: 'XQuery 3.0: An XML Query Language'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-xquery-30-20131022/
       type: src
@@ -84,12 +111,9 @@ relation:
     - id: W3C PR-xquery-30-20131022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xquery-30-20131022
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xquery-30-20140408
 ext:

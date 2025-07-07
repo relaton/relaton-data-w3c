@@ -5,7 +5,7 @@ title:
 - content: Web Services Transfer (WS-Transfer)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-ws-transfer-20100330
+- content: https://www.w3.org/TR/2010/WD-ws-transfer-20100330
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Doug Davis
+      given:
+        forename:
+        - content: Wu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chou
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Katy Warr
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Wu Chou
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Davis
         language:
         - en
         script:
@@ -72,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-transfer
+    title:
+    - content: Web Services Transfer (WS-Transfer)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-transfer/
+      type: src
+    docid:
+    - id: W3C ws-transfer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ws-transfer-20091217
+    title:
+    - content: Web Services Transfer (WS-Transfer)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-ws-transfer-20091217
+    - content: https://www.w3.org/TR/2009/WD-ws-transfer-20091217
       type: src
     docid:
     - id: W3C WD-ws-transfer-20091217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ws-transfer-20091217
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ws-transfer-20100805
+    title:
+    - content: Web Services Transfer (WS-Transfer)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-ws-transfer-20100805
+      type: src
+    docid:
+    - id: W3C WD-ws-transfer-20100805
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-ws-transfer-20100330
 ext:

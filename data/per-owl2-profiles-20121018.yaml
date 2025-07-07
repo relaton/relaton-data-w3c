@@ -5,7 +5,7 @@ title:
 - content: OWL 2 Web Ontology Language Profiles
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/PER-owl2-profiles-20121018/
+- content: https://www.w3.org/TR/2012/PER-owl2-profiles-20121018/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Achille Fokoue
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horrocks
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bernardo Cuenca Grau
+      given:
+        forename:
+        - content: Zhe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wu
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Boris Motik
+      given:
+        forename:
+        - content: Bernardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cuenca Grau
         language:
         - en
         script:
@@ -57,28 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Carsten Lutz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ian Horrocks
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Zhe Wu
+      given:
+        forename:
+        - content: Boris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Motik
         language:
         - en
         script:
@@ -96,20 +104,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-owl2-profiles-20091027
+    id: W3Cowl2-profiles
+    title:
+    - content: OWL 2 Web Ontology Language Profiles (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/REC-owl2-profiles-20091027/
+    - content: https://www.w3.org/TR/owl2-profiles/
       type: src
     docid:
-    - id: W3C REC-owl2-profiles-20091027
+    - id: W3C owl2-profiles
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-owl2-profiles-20091027
+- type: updatedBy
+  bibitem:
+    id: W3CREC-owl2-profiles-20121211
+    title:
+    - content: OWL 2 Web Ontology Language Profiles (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/REC-owl2-profiles-20121211/
+      type: src
+    docid:
+    - id: W3C REC-owl2-profiles-20121211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-owl2-profiles-20121018
 ext:

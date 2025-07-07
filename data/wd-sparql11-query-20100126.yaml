@@ -5,7 +5,7 @@ title:
 - content: SPARQL Query Language 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-sparql11-query-20100126/
+- content: https://www.w3.org/TR/2010/WD-sparql11-query-20100126/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steve Harris
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -54,25 +51,56 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-query
+    title:
+    - content: SPARQL 1.1 Query Language
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-query/
+      type: src
+    docid:
+    - id: W3C sparql11-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql11-query-20091022
+    title:
+    - content: SPARQL 1.1 Query
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-sparql11-query-20091022/
+    - content: https://www.w3.org/TR/2009/WD-sparql11-query-20091022/
       type: src
     docid:
     - id: W3C WD-sparql11-query-20091022
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql11-query-20091022
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sparql11-query-20100601
+    title:
+    - content: SPARQL 1.1 Query Language
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-sparql11-query-20100601/
+      type: src
+    docid:
+    - id: W3C WD-sparql11-query-20100601
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sparql11-query-20100126
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

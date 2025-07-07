@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-beacon-20161028/
   type: src
-- content: https://w3c.github.io/beacon/
-  type: current
 type: standard
 docid:
 - id: W3C WD-beacon-20161028
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbeacon
+    title:
+    - content: Beacon
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/beacon/
+      type: src
+    docid:
+    - id: W3C beacon
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-beacon-20161025
+    title:
+    - content: Beacon
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-beacon-20161025/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-beacon-20161025
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-beacon-20161025
+- type: updatedBy
+  bibitem:
+    id: W3CCR-beacon-20170413
+    title:
+    - content: Beacon
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-beacon-20170413/
+      type: src
+    docid:
+    - id: W3C CR-beacon-20170413
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-beacon-20161028
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carlos Iglesias
+      given:
+        forename:
+        - content: Carlos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Iglesias
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CPointers-in-RDF10
+    title:
+    - content: Pointer Methods in RDF 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/Pointers-in-RDF10/
+      type: src
+    docid:
+    - id: W3C Pointers-in-RDF10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-Pointers-in-RDF10-20110510
+    title:
+    - content: Pointer Methods in RDF 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/WD-Pointers-in-RDF10-20110510/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-Pointers-in-RDF10-20110510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-Pointers-in-RDF10-20110510
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-Pointers-in-RDF10-20170202
 ext:

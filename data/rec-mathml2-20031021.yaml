@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nico Poppelier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Patrick D F Ion
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robert R Miner
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -74,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CMathML2
+    title:
+    - content: Mathematical Markup Language (MathML) Version 2.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/MathML2/
+      type: src
+    docid:
+    - id: W3C MathML2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-MathML2-20030804
+    title:
+    - content: Mathematical Markup Language (MathML) Version 2.0 (2nd Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/PER-MathML2-20030804/
       type: src
@@ -84,41 +94,25 @@ relation:
     - id: W3C PER-MathML2-20030804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-MathML2-20030804
-      format: text/plain
 - type: updatedBy
   bibitem:
-    id: W3Cmathml2e2-errata.html
+    id: W3CSPSD-MathML2-20230307
+    title:
+    - content: Mathematical Markup Language (MathML) Version 2.0 (Second Edition)
+      format: text/plain
     link:
-    - content: https://www.w3.org/2003/06/mathml2e2-errata.html
+    - content: https://www.w3.org/TR/2023/SPSD-MathML2-20230307/
       type: src
     docid:
-    - id: W3C mathml2e2-errata.html
+    - id: W3C SPSD-MathML2-20230307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C mathml2e2-errata.html
-      format: text/plain
   description:
     content: errata
     format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-MathML2-20010221
-    link:
-    - content: https://www.w3.org/TR/2001/REC-MathML2-20010221/
-      type: src
-    docid:
-    - id: W3C REC-MathML2-20010221
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-MathML2-20010221
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-MathML2-20031021
 ext:

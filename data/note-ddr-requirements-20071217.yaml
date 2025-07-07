@@ -25,35 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: David Sanders
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kevin Smith
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2007-12-17'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDDR-requirements
+    title:
+    - content: Device Description Repository Requirements 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DDR-requirements/
+      type: src
+    docid:
+    - id: W3C DDR-requirements
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DDR-requirements-20060410
+    title:
+    - content: Device Description Repository Requirements 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-DDR-requirements-20060410
       type: src
@@ -61,12 +60,9 @@ relation:
     - id: W3C WD-DDR-requirements-20060410
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DDR-requirements-20060410
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-DDR-requirements-20071217
 ext:

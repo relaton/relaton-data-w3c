@@ -26,39 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-sparql12-entailment-20230606
+    id: W3CWD-sparql12-entailment-20241219
+    title:
+    - content: SPARQL 1.2 Entailment Regimes
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2023/WD-sparql12-entailment-20230606/
+    - content: https://www.w3.org/TR/2024/WD-sparql12-entailment-20241219/
       type: src
     docid:
-    - id: W3C WD-sparql12-entailment-20230606
+    - id: W3C WD-sparql12-entailment-20241219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql12-entailment-20230606
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-sparql12-entailment-20230615
-    link:
-    - content: https://www.w3.org/TR/2023/WD-sparql12-entailment-20230615/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-entailment-20230615
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-sparql12-entailment-20230615
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-sparql12-entailment-20240418
+    title:
+    - content: SPARQL 1.2 Entailment Regimes
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-sparql12-entailment-20240418/
       type: src
@@ -66,12 +53,35 @@ relation:
     - id: W3C WD-sparql12-entailment-20240418
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql12-entailment-20240418
+- type: hasEdition
+  bibitem:
+    id: W3CWD-sparql12-entailment-20230615
+    title:
+    - content: SPARQL 1.2 Entailment Regimes
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-sparql12-entailment-20230615/
+      type: src
+    docid:
+    - id: W3C WD-sparql12-entailment-20230615
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-sparql12-entailment-20230606
+    title:
+    - content: SPARQL 1.2 Entailment Regimes
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-sparql12-entailment-20230606/
+      type: src
+    docid:
+    - id: W3C WD-sparql12-entailment-20230606
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: sparql12-entailment
 ext:

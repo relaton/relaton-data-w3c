@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Schneider
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schneider
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-rdf-based-semantics
+    title:
+    - content: OWL 2 Web Ontology Language RDF-Based Semantics (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-rdf-based-semantics/
+      type: src
+    docid:
+    - id: W3C owl2-rdf-based-semantics
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-owl2-rdf-based-semantics-20090922
+    title:
+    - content: OWL 2 Web Ontology Language RDF-Based Semantics
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/PR-owl2-rdf-based-semantics-20090922/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-owl2-rdf-based-semantics-20090922
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-owl2-rdf-based-semantics-20090922
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2007/OWL/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-owl2-rdf-based-semantics-20091027
 ext:

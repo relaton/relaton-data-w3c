@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick D F Ion
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-entity-names
+    title:
+    - content: XML Entity Definitions for Characters (3rd Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-entity-names/
+      type: src
+    docid:
+    - id: W3C xml-entity-names
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xml-entity-names-20100211
+    title:
+    - content: XML Entity Definitions for Characters
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-xml-entity-names-20100211/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-xml-entity-names-20100211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xml-entity-names-20100211
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata.html
-    link:
-    - content: https://www.w3.org/2003/entities/2007xml/errata.html
-      type: src
-    docid:
-    - id: W3C errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xml-entity-names-20100401
 ext:

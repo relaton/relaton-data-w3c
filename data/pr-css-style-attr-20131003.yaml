@@ -5,7 +5,7 @@ title:
 - content: CSS Style Attributes
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-css-style-attr-20131003/
+- content: https://www.w3.org/TR/2013/PR-css-style-attr-20131003/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-style-attr
+    title:
+    - content: CSS Style Attributes
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-style-attr/
+      type: src
+    docid:
+    - id: W3C css-style-attr
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css-style-attr-20101012
+    title:
+    - content: CSS Style Attributes
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/CR-css-style-attr-20101012/
+    - content: https://www.w3.org/TR/2010/CR-css-style-attr-20101012/
       type: src
     docid:
     - id: W3C CR-css-style-attr-20101012
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css-style-attr-20101012
+- type: updatedBy
+  bibitem:
+    id: W3CREC-css-style-attr-20131107
+    title:
+    - content: CSS Style Attributes
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-css-style-attr-20131107/
+      type: src
+    docid:
+    - id: W3C REC-css-style-attr-20131107
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-css-style-attr-20131003
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

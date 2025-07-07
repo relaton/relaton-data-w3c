@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jan Richards
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Allan
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jim Allan
+      given:
+        forename:
+        - content: Jan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richards
         language:
         - en
         script:
@@ -53,9 +67,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CUAAG20-requirements
+    title:
+    - content: User Agent Accessibility Guidelines 2.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/UAAG20-requirements/
+      type: src
+    docid:
+    - id: W3C UAAG20-requirements
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-UAAG20-requirements-20071031
 ext:

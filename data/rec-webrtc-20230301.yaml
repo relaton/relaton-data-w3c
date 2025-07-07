@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/REC-webrtc-20230301/
   type: src
-- content: https://w3c.github.io/webrtc-pc/
-  type: current
 type: standard
 docid:
 - id: W3C REC-webrtc-20230301
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cullen Jennings
+      given:
+        forename:
+        - content: Cullen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florent Castelli
+      given:
+        forename:
+        - content: Florent
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Castelli
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henrik Boström
+      given:
+        forename:
+        - content: Henrik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boström
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jan-Ivar Bruaroey
+      given:
+        forename:
+        - content: Jan-Ivar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bruaroey
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc
+    title:
+    - content: 'WebRTC: Real-Time Communication in Browsers'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc/
+      type: src
+    docid:
+    - id: W3C webrtc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-webrtc-20210126
+    title:
+    - content: 'WebRTC 1.0: Real-Time Communication Between Browsers'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/REC-webrtc-20210126/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C REC-webrtc-20210126
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-webrtc-20210126
+- type: updatedBy
+  bibitem:
+    id: W3CREC-webrtc-20230306
+    title:
+    - content: 'WebRTC: Real-Time Communication in Browsers'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/REC-webrtc-20230306/
+      type: src
+    docid:
+    - id: W3C REC-webrtc-20230306
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-webrtc-20230301
 ext:

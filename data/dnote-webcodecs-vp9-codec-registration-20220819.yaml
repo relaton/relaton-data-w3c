@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-webcodecs-vp9-codec-registration-20220819/
   type: src
-- content: https://w3c.github.io/webcodecs/vp9_codec_registration.html
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-webcodecs-vp9-codec-registration-20220819
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernard Aboba
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cunningham
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Cunningham
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Adenot
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adenot
         language:
         - en
         script:
@@ -62,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcodecs-vp9-codec-registration
+    title:
+    - content: VP9 WebCodecs Registration
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcodecs-vp9-codec-registration/
+      type: src
+    docid:
+    - id: W3C webcodecs-vp9-codec-registration
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-webcodecs-vp9-codec-registration-20220818
+    title:
+    - content: VP9 WebCodecs Registration
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-webcodecs-vp9-codec-registration-20220818/
       type: src
@@ -73,12 +94,25 @@ relation:
     - id: W3C DNOTE-webcodecs-vp9-codec-registration-20220818
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-webcodecs-vp9-codec-registration-20220818
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-webcodecs-vp9-codec-registration-20220823
+    title:
+    - content: VP9 WebCodecs Registration
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-webcodecs-vp9-codec-registration-20220823/
+      type: src
+    docid:
+    - id: W3C DNOTE-webcodecs-vp9-codec-registration-20220823
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-webcodecs-vp9-codec-registration-20220819
 ext:

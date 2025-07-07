@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-laoo-gap-20200616/
   type: src
-- content: https://w3c.github.io/sealreq/gap-analysis/laoo-gap
-  type: current
 type: standard
 docid:
 - id: W3C WD-laoo-gap-20200616
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Claoo-gap
+    title:
+    - content: Lao Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/laoo-gap/
+      type: src
+    docid:
+    - id: W3C laoo-gap
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-laoo-gap-20210127
+    title:
+    - content: Lao Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-laoo-gap-20210127/
+      type: src
+    docid:
+    - id: W3C WD-laoo-gap-20210127
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-laoo-gap-20200616
 ext:

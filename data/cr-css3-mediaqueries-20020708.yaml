@@ -5,7 +5,7 @@ title:
 - content: Media Queries
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708
+- content: https://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Glazman
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazman
         language:
         - en
         script:
@@ -62,10 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediaqueries-3
+    title:
+    - content: Media Queries Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediaqueries-3/
+      type: src
+    docid:
+    - id: W3C mediaqueries-3
+      type: W3C
+      primary: true
+- type: obsoletes
+  bibitem:
+    id: W3CWD-css3-mediaqueries-20020123
+    title:
+    - content: Media queries
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-css3-mediaqueries-20020123/
+      type: src
+    docid:
+    - id: W3C WD-css3-mediaqueries-20020123
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css3-mediaqueries-20070606
+    title:
+    - content: Media Queries
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/CR-css3-mediaqueries-20070606
+      type: src
+    docid:
+    - id: W3C CR-css3-mediaqueries-20070606
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css3-mediaqueries-20020708
 ext:
@@ -73,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

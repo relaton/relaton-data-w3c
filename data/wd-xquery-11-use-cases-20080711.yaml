@@ -5,7 +5,7 @@ title:
 - content: XQuery 1.1 Use Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-xquery-11-use-cases-20080711/
+- content: https://www.w3.org/TR/2008/WD-xquery-11-use-cases-20080711/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Tim Kraska
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2008-07-11'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-30-use-cases
+    title:
+    - content: XQuery 3.0 Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-30-use-cases/
+      type: src
+    docid:
+    - id: W3C xquery-30-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-11-use-cases-20080327
+    title:
+    - content: XML Query (XQuery) 1.1 Use Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-xquery-11-use-cases-20080327/
+    - content: https://www.w3.org/TR/2008/WD-xquery-11-use-cases-20080327/
       type: src
     docid:
     - id: W3C WD-xquery-11-use-cases-20080327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-11-use-cases-20080327
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-11-use-cases-20081203
+    title:
+    - content: XQuery 1.1 Use Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-xquery-11-use-cases-20081203/
+      type: src
+    docid:
+    - id: W3C WD-xquery-11-use-cases-20081203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-11-use-cases-20080711
 ext:

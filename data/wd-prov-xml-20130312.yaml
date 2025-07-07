@@ -5,7 +5,7 @@ title:
 - content: 'PROV-XML: The PROV XML Schema'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-prov-xml-20130312/
+- content: https://www.w3.org/TR/2013/WD-prov-xml-20130312/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Curt Tilmes
+      given:
+        forename:
+        - content: Curt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tilmes
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hook Hua
+      given:
+        forename:
+        - content: Stephan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zednik
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stephan Zednik
+      given:
+        forename:
+        - content: Hook
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hua
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-xml
+    title:
+    - content: 'PROV-XML: The PROV XML Schema'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-xml/
+      type: src
+    docid:
+    - id: W3C prov-xml
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-prov-xml-20121211
+    title:
+    - content: 'PROV-XML: The PROV XML Schema'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-prov-xml-20121211/
+    - content: https://www.w3.org/TR/2012/WD-prov-xml-20121211/
       type: src
     docid:
     - id: W3C WD-prov-xml-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-prov-xml-20121211
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-prov-xml-20130430
+    title:
+    - content: 'PROV-XML: The PROV XML Schema'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-prov-xml-20130430/
+      type: src
+    docid:
+    - id: W3C NOTE-prov-xml-20130430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-prov-xml-20130312
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Delivery Context Ontology
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-dcontology-20080415/
+- content: https://www.w3.org/TR/2008/WD-dcontology-20080415/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: José Manuel Cantera Fonseca
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rhys Lewis
+      given:
+        forename:
+        - content: Jose Manuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cantera Fonseca
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdcontology
+    title:
+    - content: Delivery Context Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dcontology/
+      type: src
+    docid:
+    - id: W3C dcontology
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dcontology-20071221
+    title:
+    - content: Delivery Context Ontology
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-dcontology-20071221/
+    - content: https://www.w3.org/TR/2007/WD-dcontology-20071221/
       type: src
     docid:
     - id: W3C WD-dcontology-20071221
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dcontology-20071221
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dcontology-20090616
+    title:
+    - content: Delivery Context Ontology
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-dcontology-20090616/
+      type: src
+    docid:
+    - id: W3C WD-dcontology-20090616
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dcontology-20080415
 ext:

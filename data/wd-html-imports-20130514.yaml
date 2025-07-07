@@ -5,7 +5,7 @@ title:
 - content: HTML Imports
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-html-imports-20130514/
+- content: https://www.w3.org/TR/2013/WD-html-imports-20130514/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dimitri Glazkov
+      given:
+        forename:
+        - content: Dimitri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazkov
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-imports
+    title:
+    - content: HTML Imports
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-imports/
+      type: src
+    docid:
+    - id: W3C html-imports
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-imports-20140311
+    title:
+    - content: HTML Imports
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-html-imports-20140311/
+      type: src
+    docid:
+    - id: W3C WD-html-imports-20140311
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-imports-20130514
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

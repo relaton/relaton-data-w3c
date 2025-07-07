@@ -5,10 +5,8 @@ title:
 - content: High Resolution Time Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-hr-time-2-20131203/
+- content: https://www.w3.org/TR/2013/WD-hr-time-2-20131203/
   type: src
-- content: http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime2/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-hr-time-2-20131203
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Simonsen
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Simonsen
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-2
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-2/
+      type: src
+    docid:
+    - id: W3C hr-time-2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-hr-time-2-20150617
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-hr-time-2-20150617/
+      type: src
+    docid:
+    - id: W3C WD-hr-time-2-20150617
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-hr-time-2-20131203
 ext:

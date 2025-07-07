@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-wpub-20180315/
   type: src
-- content: https://w3c.github.io/wpub/
-  type: current
 type: standard
 docid:
 - id: W3C WD-wpub-20180315
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Baldur Bjarnason
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Cramer
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Baldur
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bjarnason
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hadrien Gardeur
+      given:
+        forename:
+        - content: Timothy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cole
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cramer
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Hadrien
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gardeur
         language:
         - en
         script:
@@ -89,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Timothy Cole
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -106,9 +153,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwpub
+    title:
+    - content: Web Publications
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wpub/
+      type: src
+    docid:
+    - id: W3C wpub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wpub-20180104
+    title:
+    - content: Web Publications
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-wpub-20180104/
       type: src
@@ -116,12 +179,25 @@ relation:
     - id: W3C WD-wpub-20180104
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wpub-20180104
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wpub-20180726
+    title:
+    - content: Web Publications
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-wpub-20180726/
+      type: src
+    docid:
+    - id: W3C WD-wpub-20180726
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wpub-20180315
 ext:

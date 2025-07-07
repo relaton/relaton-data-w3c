@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-push-api-20240530/
   type: src
-- content: https://w3c.github.io/push-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-push-api-20240530
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Beverloo
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Thomson
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Beverloo
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpush-api
+    title:
+    - content: Push API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/push-api/
+      type: src
+    docid:
+    - id: W3C push-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-push-api-20231211
+    title:
+    - content: Push API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-push-api-20231211/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-push-api-20231211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-push-api-20231211
+- type: updatedBy
+  bibitem:
+    id: W3CWD-push-api-20240708
+    title:
+    - content: Push API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-push-api-20240708/
+      type: src
+    docid:
+    - id: W3C WD-push-api-20240708
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-push-api-20240530
 ext:

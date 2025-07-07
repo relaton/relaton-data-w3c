@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/REC-wasm-core-1-20191205/
   type: src
-- content: https://webassembly.github.io/spec/core/bikeshed/
-  type: current
 type: standard
 docid:
 - id: W3C REC-wasm-core-1-20191205
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andreas Rossberg
+      given:
+        forename:
+        - content: Andreas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rossberg
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwasm-core-1
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wasm-core-1/
+      type: src
+    docid:
+    - id: W3C wasm-core-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wasm-core-1-20191001
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/PR-wasm-core-1-20191001/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-wasm-core-1-20191001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wasm-core-1-20191001
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cwasm-errata
-    link:
-    - content: https://www.w3.org/2019/12/wasm-errata
-      type: src
-    docid:
-    - id: W3C wasm-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C wasm-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wasm-core-1-20191205
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-microdata-20210128/
   type: src
-- content: https://w3c.github.io/microdata/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-microdata-20210128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chaals Nevile
+      given:
+        forename:
+        - content: Chaals
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nevile
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dan Brickley
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brickley
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmicrodata
+    title:
+    - content: HTML Microdata
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/microdata/
+      type: src
+    docid:
+    - id: W3C microdata
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-microdata-20180426
+    title:
+    - content: HTML Microdata
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-microdata-20180426/
       type: src
@@ -73,12 +111,9 @@ relation:
     - id: W3C WD-microdata-20180426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-microdata-20180426
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-microdata-20210128
 ext:

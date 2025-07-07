@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/CR-annotation-vocab-20160906/
   type: src
-- content: http://w3c.github.io/web-annotation/
-  type: current
 type: standard
 docid:
 - id: W3C CR-annotation-vocab-20160906
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Young
+      given:
+        forename:
+        - content: Robert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sanderson
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paolo Ciccarese
+      given:
+        forename:
+        - content: Paolo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ciccarese
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robert Sanderson
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Young
         language:
         - en
         script:
@@ -64,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cannotation-vocab
+    title:
+    - content: Web Annotation Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/annotation-vocab/
+      type: src
+    docid:
+    - id: W3C annotation-vocab
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-annotation-vocab-20160705
+    title:
+    - content: Web Annotation Vocabulary
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/CR-annotation-vocab-20160705/
+    - content: https://www.w3.org/TR/2016/CR-annotation-vocab-20160705/
       type: src
     docid:
     - id: W3C CR-annotation-vocab-20160705
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-annotation-vocab-20160705
+- type: updatedBy
+  bibitem:
+    id: W3CCR-annotation-vocab-20161122
+    title:
+    - content: Web Annotation Vocabulary
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-annotation-vocab-20161122/
+      type: src
+    docid:
+    - id: W3C CR-annotation-vocab-20161122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-annotation-vocab-20160906
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Annotation Working Group
+  - name: Web Annotation Working Group

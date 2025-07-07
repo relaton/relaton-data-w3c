@@ -5,7 +5,7 @@ title:
 - content: Compound Document by Reference Framework 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-CDR-20060811/
+- content: https://www.w3.org/TR/2006/WD-CDR-20060811/
   type: src
 type: standard
 docid:
@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Appelquist
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Julien Quint
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lasse Pajunen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Timur Mehrvarz
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Appelquist
         language:
         - en
         script:
@@ -74,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCDR
+    title:
+    - content: Compound Document by Reference Framework 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CDR/
+      type: src
+    docid:
+    - id: W3C CDR
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-CDR-20051219
+    title:
+    - content: Compound Document by Reference Framework 1.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-CDR-20051219/
+    - content: https://www.w3.org/TR/2005/WD-CDR-20051219/
       type: src
     docid:
     - id: W3C WD-CDR-20051219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CDR-20051219
+- type: updatedBy
+  bibitem:
+    id: W3CWD-CDR-20061122
+    title:
+    - content: Compound Document by Reference Framework 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-CDR-20061122/
+      type: src
+    docid:
+    - id: W3C WD-CDR-20061122
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-CDR-20060811
 ext:

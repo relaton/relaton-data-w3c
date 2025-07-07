@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslt-30
+    title:
+    - content: XSL Transformations (XSLT) Version 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslt-30/
+      type: src
+    docid:
+    - id: W3C xslt-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xslt-30-20170207
+    title:
+    - content: XSL Transformations (XSLT) Version 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-xslt-30-20170207/
       type: src
@@ -54,12 +77,25 @@ relation:
     - id: W3C CR-xslt-30-20170207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xslt-30-20170207
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xslt-30-20170608
+    title:
+    - content: XSL Transformations (XSLT) Version 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/REC-xslt-30-20170608/
+      type: src
+    docid:
+    - id: W3C REC-xslt-30-20170608
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xslt-30-20170418
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

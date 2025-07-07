@@ -26,91 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-performance-timeline-20131212
-    link:
-    - content: https://www.w3.org/TR/2013/REC-performance-timeline-20131212/
-      type: src
-    docid:
-    - id: W3C REC-performance-timeline-20131212
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-performance-timeline-20131212
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-performance-timeline-20211202
-    link:
-    - content: https://www.w3.org/TR/2021/CR-performance-timeline-20211202/
-      type: src
-    docid:
-    - id: W3C CR-performance-timeline-20211202
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-performance-timeline-20211202
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20221110
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-performance-timeline-20221110/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20221110
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20221110
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20221115
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-performance-timeline-20221115/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20221115
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20221115
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20231011
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-performance-timeline-20231011/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20231011
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20231011
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCRD-performance-timeline-20240202
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240202/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20240202
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20240202
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CCRD-performance-timeline-20240216
+    title:
+    - content: Performance Timeline
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240216/
       type: src
@@ -118,12 +40,503 @@ relation:
     - id: W3C CRD-performance-timeline-20240216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-performance-timeline-20240216
+- type: hasEdition
+  bibitem:
+    id: W3CCR-performance-timeline-20211202
+    title:
+    - content: Performance Timeline
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CR-performance-timeline-20211202/
+      type: src
+    docid:
+    - id: W3C CR-performance-timeline-20211202
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20211125
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-performance-timeline-2-20211125/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20211125
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20210819
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-performance-timeline-2-20210819/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20210819
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20210630
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-performance-timeline-2-20210630/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20210630
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20191024
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20191024/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20191024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190917
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190917/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190917
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190626
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190626/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190626
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190423
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190423/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190423
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190329
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190329/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190329
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190321
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190321/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190321
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190320
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190320/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190320
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20190110
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-performance-timeline-2-20190110/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20190110
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20181127
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-performance-timeline-2-20181127/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20181127
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20181119
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-performance-timeline-2-20181119/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20181119
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20181030
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-performance-timeline-2-20181030/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20181030
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-performance-timeline-2-20161208
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-performance-timeline-2-20161208/
+      type: src
+    docid:
+    - id: W3C CR-performance-timeline-2-20161208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20161114
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20161114/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20161114
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20161027
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20161027/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20161027
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20161024
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20161024/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20161024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20160929
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160929/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20160929
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20160928
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160928/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20160928
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20160907
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160907/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20160907
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20160421
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160421/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20160421
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20160225
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-performance-timeline-2-20160225/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20160225
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151207
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151207/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151203
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151203/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151203
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151125
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151125/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151125
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151105
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151105/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151028
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151028/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151028
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151024
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151024/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20151021
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20151021/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20151021
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150925
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150925/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150925
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150924
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150924/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150924
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150923
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150923/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150923
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150918
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150918/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150918
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150915
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150915/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150915
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150717
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150717/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150717
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-performance-timeline-2-20150716
+    title:
+    - content: Performance Timeline Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-performance-timeline-2-20150716/
+      type: src
+    docid:
+    - id: W3C WD-performance-timeline-2-20150716
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: performance-timeline
 ext:

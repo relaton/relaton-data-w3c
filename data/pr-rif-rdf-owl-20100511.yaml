@@ -5,7 +5,7 @@ title:
 - content: RIF RDF and OWL Compatibility
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PR-rif-rdf-owl-20100511/
+- content: https://www.w3.org/TR/2010/PR-rif-rdf-owl-20100511/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jos De Bruijn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2010-05-11'
 language:
 - en
@@ -44,22 +34,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-rdf-owl
+    title:
+    - content: RIF RDF and OWL Compatibility (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-rdf-owl/
+      type: src
+    docid:
+    - id: W3C rif-rdf-owl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-rif-rdf-owl-20091001
+    title:
+    - content: RIF RDF and OWL Compatibility
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-rif-rdf-owl-20091001/
+    - content: https://www.w3.org/TR/2009/CR-rif-rdf-owl-20091001/
       type: src
     docid:
     - id: W3C CR-rif-rdf-owl-20091001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-rif-rdf-owl-20091001
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rif-rdf-owl-20100622
+    title:
+    - content: RIF RDF and OWL Compatibility
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-rif-rdf-owl-20100622/
+      type: src
+    docid:
+    - id: W3C REC-rif-rdf-owl-20100622
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-rif-rdf-owl-20100511
 ext:
@@ -67,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

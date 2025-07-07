@@ -5,7 +5,7 @@ title:
 - content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PER-soap12-part0-20061219/
+- content: https://www.w3.org/TR/2006/PER-soap12-part0-20061219/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nilo Mitra
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Nilo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mitra
         language:
         - en
         script:
@@ -56,20 +70,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-soap12-part0-20030624
+    id: W3Csoap12-part0
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/REC-soap12-part0-20030624/
+    - content: https://www.w3.org/TR/soap12-part0/
       type: src
     docid:
-    - id: W3C REC-soap12-part0-20030624
+    - id: W3C soap12-part0
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-soap12-part0-20030624
+- type: updatedBy
+  bibitem:
+    id: W3CREC-soap12-part0-20070427
+    title:
+    - content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/REC-soap12-part0-20070427/
+      type: src
+    docid:
+    - id: W3C REC-soap12-part0-20070427
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-soap12-part0-20061219
 ext:

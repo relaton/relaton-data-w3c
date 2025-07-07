@@ -5,7 +5,7 @@ title:
 - content: Device Description Repository Core Vocabulary
   format: text/plain
 link:
-- content: http://www.w3.org/TR/ddr-core-vocabulary
+- content: https://www.w3.org/TR/ddr-core-vocabulary/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-ddr-core-vocabulary-20080414
+    title:
+    - content: Device Description Repository Core Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/NOTE-ddr-core-vocabulary-20080414/
+      type: src
+    docid:
+    - id: W3C NOTE-ddr-core-vocabulary-20080414
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-ddr-core-vocabulary-20071218
+    title:
+    - content: Device Description Repository Core Vocabulary
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-ddr-core-vocabulary-20071218
+    - content: https://www.w3.org/TR/2007/WD-ddr-core-vocabulary-20071218/
       type: src
     docid:
     - id: W3C WD-ddr-core-vocabulary-20071218
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ddr-core-vocabulary-20071218
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: ddr-core-vocabulary
 ext:

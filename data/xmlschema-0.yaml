@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xmlschema-0-20010502
-    link:
-    - content: https://www.w3.org/TR/2001/REC-xmlschema-0-20010502/
-      type: src
-    docid:
-    - id: W3C REC-xmlschema-0-20010502
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-xmlschema-0-20010502
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-xmlschema-0-20041028
+    title:
+    - content: 'XML Schema Part 0: Primer Second Edition'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/REC-xmlschema-0-20041028/
       type: src
@@ -53,12 +40,113 @@ relation:
     - id: W3C REC-xmlschema-0-20041028
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xmlschema-0-20041028
+- type: hasEdition
+  bibitem:
+    id: W3CPER-xmlschema-0-20040318
+    title:
+    - content: 'XML Schema Part 0: Primer Second Edition'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/PER-xmlschema-0-20040318/
+      type: src
+    docid:
+    - id: W3C PER-xmlschema-0-20040318
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-xmlschema-0-20010502
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/REC-xmlschema-0-20010502/
+      type: src
+    docid:
+    - id: W3C REC-xmlschema-0-20010502
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xmlschema-0-20010330
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/PR-xmlschema-0-20010330/
+      type: src
+    docid:
+    - id: W3C PR-xmlschema-0-20010330
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-xmlschema-0-20010316
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2001/PR-xmlschema-0-20010316/
+      type: src
+    docid:
+    - id: W3C PR-xmlschema-0-20010316
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-xmlschema-0-20001024
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/CR-xmlschema-0-20001024/
+      type: src
+    docid:
+    - id: W3C CR-xmlschema-0-20001024
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlschema-0-20000922
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmlschema-0-20000922/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema-0-20000922
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlschema-0-20000407
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmlschema-0-20000407/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema-0-20000407
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-xmlschema-0-20000225
+    title:
+    - content: 'XML Schema Part 0: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2000/WD-xmlschema-0-20000225/
+      type: src
+    docid:
+    - id: W3C WD-xmlschema-0-20000225
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: xmlschema-0
 ext:

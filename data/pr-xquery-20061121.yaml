@@ -5,7 +5,7 @@ title:
 - content: 'XQuery 1.0: An XML Query Language'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PR-xquery-20061121/
+- content: https://www.w3.org/TR/2006/PR-xquery-20061121/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniela Florescu
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boag
         language:
         - en
         script:
@@ -37,48 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jérôme Siméon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mary F. Fernández
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott Boag
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -94,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-10
+    title:
+    - content: 'XQuery 1.0: An XML Query Language (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-10/
+      type: src
+    docid:
+    - id: W3C xquery-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xquery-20060608
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/CR-xquery-20060608/
+    - content: https://www.w3.org/TR/2006/CR-xquery-20060608/
       type: src
     docid:
     - id: W3C CR-xquery-20060608
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xquery-20060608
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xquery-20070123
+    title:
+    - content: 'XQuery 1.0: An XML Query Language'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/REC-xquery-20070123/
+      type: src
+    docid:
+    - id: W3C REC-xquery-20070123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xquery-20061121
 ext:

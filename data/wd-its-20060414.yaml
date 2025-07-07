@@ -5,7 +5,7 @@ title:
 - content: Internationalization Tag Set (ITS)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-its-20060414/
+- content: https://www.w3.org/TR/2006/WD-its-20060414/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christian Lieske
+      given:
+        forename:
+        - content: Christian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lieske
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Felix Sasaki
+      given:
+        forename:
+        - content: Felix
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sasaki
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cits
+    title:
+    - content: Internationalization Tag Set (ITS) Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/its/
+      type: src
+    docid:
+    - id: W3C its
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-its-20060222
+    title:
+    - content: Internationalization Tag Set (ITS)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-its-20060222/
+    - content: https://www.w3.org/TR/2006/WD-its-20060222/
       type: src
     docid:
     - id: W3C WD-its-20060222
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-its-20060222
+- type: updatedBy
+  bibitem:
+    id: W3CWD-its-20060518
+    title:
+    - content: Internationalization Tag Set (ITS) Version 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-its-20060518/
+      type: src
+    docid:
+    - id: W3C WD-its-20060518
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-its-20060414
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: ITS Working Group
+  - name: Internationalization Tag Set (ITS) Working Group

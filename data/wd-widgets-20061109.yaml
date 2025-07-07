@@ -5,7 +5,7 @@ title:
 - content: Widgets 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-widgets-20061109/
+- content: https://www.w3.org/TR/2006/WD-widgets-20061109/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -53,9 +67,40 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets
+    title:
+    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+        Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets/
+      type: src
+    docid:
+    - id: W3C widgets
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-widgets-20071013
+    title:
+    - content: Widgets 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-widgets-20071013/
+      type: src
+    docid:
+    - id: W3C WD-widgets-20071013
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-widgets-20061109
 ext:

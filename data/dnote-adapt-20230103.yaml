@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-adapt-20230103/
   type: src
-- content: https://w3c.github.io/adapt/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-adapt-20230103
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles LaPierre
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Foliot
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaPierre
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lisa Seeman-Horwitz
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Foliot
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Ruoxi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ran
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ruoxi Ran
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -92,10 +132,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cadapt
+    title:
+    - content: WAI-Adapt Explainer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/adapt/
+      type: src
+    docid:
+    - id: W3C adapt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-adapt-20220609
+    title:
+    - content: WAI-Adapt Explainer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-adapt-20220609/
       type: src
@@ -103,12 +162,9 @@ relation:
     - id: W3C DNOTE-adapt-20220609
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-adapt-20220609
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-adapt-20230103
 ext:
@@ -116,4 +172,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

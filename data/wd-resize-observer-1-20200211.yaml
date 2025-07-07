@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-resize-observer-1-20200211/
   type: src
-- content: https://drafts.csswg.org/resize-observer/
-  type: current
 type: standard
 docid:
 - id: W3C WD-resize-observer-1-20200211
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aleks Totic
+      given:
+        forename:
+        - content: Aleks
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Totic
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Greg Whitworth
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Whitworth
         language:
         - en
         script:
@@ -54,10 +66,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cresize-observer-1
+    title:
+    - content: Resize Observer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/resize-observer-1/
+      type: src
+    docid:
+    - id: W3C resize-observer-1
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-resize-observer-1-20200211
 ext:
@@ -65,4 +91,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

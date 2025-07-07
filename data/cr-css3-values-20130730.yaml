@@ -5,10 +5,8 @@ title:
 - content: CSS Values and Units Module Level 3
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-css3-values-20130730/
+- content: https://www.w3.org/TR/2013/CR-css3-values-20130730/
   type: src
-- content: http://dev.w3.org/csswg/css3-values/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css3-values-20130730
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -64,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-values-3
+    title:
+    - content: CSS Values and Units Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-values-3/
+      type: src
+    docid:
+    - id: W3C css-values-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-css3-values-20130404
+    title:
+    - content: CSS Values and Units Module Level 3
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-css3-values-20130404/
+    - content: https://www.w3.org/TR/2013/CR-css3-values-20130404/
       type: src
     docid:
     - id: W3C CR-css3-values-20130404
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-css3-values-20130404
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-values-3-20150611
+    title:
+    - content: CSS Values and Units Module Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/CR-css-values-3-20150611/
+      type: src
+    docid:
+    - id: W3C CR-css-values-3-20150611
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css3-values-20130730
 ext:
@@ -89,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

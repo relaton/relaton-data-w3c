@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wot-profile-20201124
-    link:
-    - content: https://www.w3.org/TR/2020/WD-wot-profile-20201124/
-      type: src
-    docid:
-    - id: W3C WD-wot-profile-20201124
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wot-profile-20201124
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-wot-profile-20230118
+    title:
+    - content: Web of Things (WoT) Profile
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-wot-profile-20230118/
       type: src
@@ -53,12 +40,22 @@ relation:
     - id: W3C WD-wot-profile-20230118
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wot-profile-20230118
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wot-profile-20201124
+    title:
+    - content: Web of Things (WoT) Profile
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-wot-profile-20201124/
+      type: src
+    docid:
+    - id: W3C WD-wot-profile-20201124
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: wot-profile
 ext:

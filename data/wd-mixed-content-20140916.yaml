@@ -5,10 +5,8 @@ title:
 - content: Mixed Content
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-mixed-content-20140916/
+- content: https://www.w3.org/TR/2014/WD-mixed-content-20140916/
   type: src
-- content: https://w3c.github.io/webappsec/specs/mixedcontent/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mixed-content-20140916
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmixed-content
+    title:
+    - content: Mixed Content
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mixed-content/
+      type: src
+    docid:
+    - id: W3C mixed-content
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mixed-content-20140722
+    title:
+    - content: Mixed Content
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-mixed-content-20140722/
+    - content: https://www.w3.org/TR/2014/WD-mixed-content-20140722/
       type: src
     docid:
     - id: W3C WD-mixed-content-20140722
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mixed-content-20140722
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mixed-content-20141113
+    title:
+    - content: Mixed Content
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-mixed-content-20141113/
+      type: src
+    docid:
+    - id: W3C WD-mixed-content-20141113
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mixed-content-20140916
 ext:

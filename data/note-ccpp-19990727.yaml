@@ -26,55 +26,37 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Franklin Reynolds
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Johan Hjelm
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sandeep Singhal
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Spencer Dawkins
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1999-07-27'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-CCPP
+    title:
+    - content: 'Composite Capability/Preference Profiles (CC/PP): A user side framework
+        for content negotiation'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-CCPP/
+      type: src
+    docid:
+    - id: W3C NOTE-CCPP
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-CCPP-19990727
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

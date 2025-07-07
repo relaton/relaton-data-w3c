@@ -5,7 +5,7 @@ title:
 - content: Authoring Tool Accessibility Guidelines 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/WD-ATAG20-20041122/
+- content: https://www.w3.org/TR/2004/WD-ATAG20-20041122/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles McCathieNevile
+      given:
+        forename:
+        - content: Jutta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Treviranus
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jan Richards
+      given:
+        forename:
+        - content: Jan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richards
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jutta Treviranus
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Matt May
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: May
         language:
         - en
         script:
@@ -72,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CATAG20
+    title:
+    - content: Authoring Tool Accessibility Guidelines (ATAG) 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ATAG20/
+      type: src
+    docid:
+    - id: W3C ATAG20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ATAG20-20040224
+    title:
+    - content: Authoring Tool Accessibility Guidelines 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-ATAG20-20040224/
+    - content: https://www.w3.org/TR/2004/WD-ATAG20-20040224/
       type: src
     docid:
     - id: W3C WD-ATAG20-20040224
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ATAG20-20040224
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ATAG20-20051123
+    title:
+    - content: Authoring Tool Accessibility Guidelines 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2005/WD-ATAG20-20051123/
+      type: src
+    docid:
+    - id: W3C WD-ATAG20-20051123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-ATAG20-20041122
 ext:

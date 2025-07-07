@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CRD-gyroscope-20230130/
   type: src
-- content: https://w3c.github.io/gyroscope/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-gyroscope-20230130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgyroscope
+    title:
+    - content: Gyroscope
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/gyroscope/
+      type: src
+    docid:
+    - id: W3C gyroscope
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-gyroscope-20211207
+    title:
+    - content: Gyroscope
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-gyroscope-20211207/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C CRD-gyroscope-20211207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-gyroscope-20211207
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-gyroscope-20231018
+    title:
+    - content: Gyroscope
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CRD-gyroscope-20231018/
+      type: src
+    docid:
+    - id: W3C CRD-gyroscope-20231018
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-gyroscope-20230130
 ext:

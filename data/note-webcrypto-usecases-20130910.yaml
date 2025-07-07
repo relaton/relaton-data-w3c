@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/NOTE-webcrypto-usecases-20130910/
   type: src
-- content: https://dvcs.w3.org/hg/webcrypto-usecases/raw-file/tip/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-webcrypto-usecases-20130910
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arun Ranganathan
+      given:
+        forename:
+        - content: Arun
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ranganathan
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcrypto-usecases
+    title:
+    - content: Web Cryptography API Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcrypto-usecases/
+      type: src
+    docid:
+    - id: W3C webcrypto-usecases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webcrypto-usecases-20130108
+    title:
+    - content: Web Cryptography API Use Cases
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-webcrypto-usecases-20130108/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-webcrypto-usecases-20130108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webcrypto-usecases-20130108
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-webcrypto-usecases-20130910
 ext:

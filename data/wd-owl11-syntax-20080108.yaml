@@ -6,7 +6,7 @@ title:
     Syntax'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-owl11-syntax-20080108/
+- content: https://www.w3.org/TR/2008/WD-owl11-syntax-20080108/
   type: src
 type: standard
 docid:
@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Boris Motik
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -38,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Horrocks
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horrocks
         language:
         - en
         script:
@@ -48,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter F. Patel-Schneider
+      given:
+        forename:
+        - content: Boris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Motik
         language:
         - en
         script:
@@ -64,9 +85,41 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-syntax
+    title:
+    - content: OWL 2 Web Ontology Language Structural Specification and Functional-Style
+        Syntax (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-syntax/
+      type: src
+    docid:
+    - id: W3C owl2-syntax
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl2-syntax-20080411
+    title:
+    - content: OWL 2 Web Ontology Language:Structural Specification and Functional-Style
+        Syntax
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-owl2-syntax-20080411/
+      type: src
+    docid:
+    - id: W3C WD-owl2-syntax-20080411
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl11-syntax-20080108
 ext:

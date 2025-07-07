@@ -5,7 +5,7 @@ title:
 - content: XML Japanese Profile
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-japanese-xml-20000414
+- content: https://www.w3.org/TR/2000/NOTE-japanese-xml-20000414
   type: src
 type: standard
 docid:
@@ -25,27 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: MURATA Makoto
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2000-04-14'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjapanese-xml
+    title:
+    - content: XML Japanese Profile
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/japanese-xml/
+      type: src
+    docid:
+    - id: W3C japanese-xml
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-japanese-xml-20000414
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

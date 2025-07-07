@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-graphics-aria-1.0-20160908/
   type: src
-- content: http://w3c.github.io/aria/aria/graphics.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-graphics-aria-1.0-20160908
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgraphics-aria-1.0
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/graphics-aria-1.0/
+      type: src
+    docid:
+    - id: W3C graphics-aria-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-graphics-aria-1.0-20151203
+    title:
+    - content: WAI-ARIA Graphics Module
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-graphics-aria-1.0-20151203/
+    - content: https://www.w3.org/TR/2015/WD-graphics-aria-1.0-20151203/
       type: src
     docid:
     - id: W3C WD-graphics-aria-1.0-20151203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-graphics-aria-1.0-20151203
+- type: updatedBy
+  bibitem:
+    id: W3CWD-graphics-aria-1.0-20180202
+    title:
+    - content: WAI-ARIA Graphics Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-graphics-aria-1.0-20180202/
+      type: src
+    docid:
+    - id: W3C WD-graphics-aria-1.0-20180202
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-graphics-aria-1.0-20160908
 ext:

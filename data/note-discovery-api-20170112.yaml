@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-discovery-api-20170112/
   type: src
-- content: https://dvcs.w3.org/hg/dap/raw-file/tip/discovery-api/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-discovery-api-20170112
@@ -27,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Rich Tibbett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2017-01-12'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdiscovery-api
+    title:
+    - content: Network Service Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/discovery-api/
+      type: src
+    docid:
+    - id: W3C discovery-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-discovery-api-20140220
+    title:
+    - content: Network Service Discovery
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-discovery-api-20140220/
       type: src
@@ -53,12 +60,9 @@ relation:
     - id: W3C WD-discovery-api-20140220
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-discovery-api-20140220
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-discovery-api-20170112
 ext:

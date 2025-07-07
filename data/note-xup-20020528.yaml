@@ -5,7 +5,7 @@ title:
 - content: XUP - Extensible User Interface Protocol
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/NOTE-xup-20020528
+- content: https://www.w3.org/TR/2002/NOTE-xup-20020528
   type: src
 type: standard
 docid:
@@ -25,27 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jin Yu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-05-28'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxup
+    title:
+    - content: XUP - Extensible User Interface Protocol
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xup/
+      type: src
+    docid:
+    - id: W3C xup
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xup-20020528
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

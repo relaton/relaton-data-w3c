@@ -5,10 +5,8 @@ title:
 - content: 'EMMA: Extensible MultiModal Annotation markup language Version 2.0'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-emma20-20150908/
+- content: https://www.w3.org/TR/2015/WD-emma20-20150908/
   type: src
-- content: http://w3c.github.io/emma/emma2_0/emma_2_0_editor_draft.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-emma20-20150908
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Johnston
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Johnston
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemma20
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language Version 2.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emma20/
+      type: src
+    docid:
+    - id: W3C emma20
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-emma20-20170202
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language Version 2.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-emma20-20170202/
+      type: src
+    docid:
+    - id: W3C NOTE-emma20-20170202
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-emma20-20150908
 ext:

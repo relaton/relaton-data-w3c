@@ -5,10 +5,8 @@ title:
 - content: Internationalization Best Practices for Spec Developers
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-international-specs-20160622/
+- content: https://www.w3.org/TR/2016/WD-international-specs-20160622/
   type: src
-- content: https://w3c.github.io/bp-i18n-specdev/
-  type: current
 type: standard
 docid:
 - id: W3C WD-international-specs-20160622
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cinternational-specs
+    title:
+    - content: Internationalization Best Practices for Spec Developers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/international-specs/
+      type: src
+    docid:
+    - id: W3C international-specs
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-international-specs-20151020
+    title:
+    - content: Internationalization Best Practices for Spec Developers
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-international-specs-20151020/
+    - content: https://www.w3.org/TR/2015/WD-international-specs-20151020/
       type: src
     docid:
     - id: W3C WD-international-specs-20151020
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-international-specs-20151020
+- type: updatedBy
+  bibitem:
+    id: W3CWD-international-specs-20160810
+    title:
+    - content: Internationalization Best Practices for Spec Developers
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-international-specs-20160810/
+      type: src
+    docid:
+    - id: W3C WD-international-specs-20160810
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-international-specs-20160622
 ext:

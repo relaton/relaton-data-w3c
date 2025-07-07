@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-typography-20180828/
   type: src
-- content: https://w3c.github.io/typography/
-  type: current
 type: standard
 docid:
 - id: W3C WD-typography-20180828
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctypography
+    title:
+    - content: Language enablement index
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/typography/
+      type: src
+    docid:
+    - id: W3C typography
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-typography-20170209
+    title:
+    - content: International text layout and typography index
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-typography-20170209/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-typography-20170209
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-typography-20170209
+- type: updatedBy
+  bibitem:
+    id: W3CWD-typography-20190520
+    title:
+    - content: International text layout and typography index
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-typography-20190520/
+      type: src
+    docid:
+    - id: W3C WD-typography-20190520
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-typography-20180828
 ext:

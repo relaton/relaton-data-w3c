@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-page-visibility-20130514
-    link:
-    - content: https://www.w3.org/TR/2013/REC-page-visibility-20130514/
-      type: src
-    docid:
-    - id: W3C REC-page-visibility-20130514
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-page-visibility-20130514
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-page-visibility-20131029
+    title:
+    - content: Page Visibility (Second Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-page-visibility-20131029/
       type: src
@@ -53,12 +40,74 @@ relation:
     - id: W3C REC-page-visibility-20131029
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-page-visibility-20131029
+- type: hasEdition
+  bibitem:
+    id: W3CREC-page-visibility-20130514
+    title:
+    - content: Page Visibility
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-page-visibility-20130514/
+      type: src
+    docid:
+    - id: W3C REC-page-visibility-20130514
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-page-visibility-20130219
+    title:
+    - content: Page Visibility
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-page-visibility-20130219/
+      type: src
+    docid:
+    - id: W3C PR-page-visibility-20130219
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-page-visibility-20120726
+    title:
+    - content: Page Visibility
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/CR-page-visibility-20120726/
+      type: src
+    docid:
+    - id: W3C CR-page-visibility-20120726
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-page-visibility-20110721
+    title:
+    - content: Page Visibility
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-page-visibility-20110721/
+      type: src
+    docid:
+    - id: W3C WD-page-visibility-20110721
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-page-visibility-20110602
+    title:
+    - content: Page Visibility
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-page-visibility-20110602/
+      type: src
+    docid:
+    - id: W3C WD-page-visibility-20110602
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: page-visibility
 ext:

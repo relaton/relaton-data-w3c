@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jay Munro
+      given:
+        forename:
+        - content: Jay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Munro
         language:
         - en
         script:
@@ -57,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tom Wiltzius
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -80,10 +98,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3C2dcontext2
+    title:
+    - content: HTML Canvas 2D Context, Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2dcontext2/
+      type: src
+    docid:
+    - id: W3C 2dcontext2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-2dcontext2-20140828
+    title:
+    - content: HTML Canvas 2D Context, Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-2dcontext2-20140828/
       type: src
@@ -91,12 +128,9 @@ relation:
     - id: W3C WD-2dcontext2-20140828
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-2dcontext2-20140828
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-2dcontext2-20150929
 ext:
@@ -104,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

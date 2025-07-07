@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Federated Query
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-sparql11-federated-query-20111117/
+- content: https://www.w3.org/TR/2011/WD-sparql11-federated-query-20111117/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carlos Buil-Aranda
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prud'hommeaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Prud'hommeaux
+      given:
+        forename:
+        - content: Carlos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Buil Aranda
         language:
         - en
         script:
@@ -52,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-federated-query
+    title:
+    - content: SPARQL 1.1 Federated Query
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-federated-query/
+      type: src
+    docid:
+    - id: W3C sparql11-federated-query
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-sparql11-federated-query-20100601
+    title:
+    - content: SPARQL 1.1 Federation Extensions
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-sparql11-federated-query-20100601/
+    - content: https://www.w3.org/TR/2010/WD-sparql11-federated-query-20100601/
       type: src
     docid:
     - id: W3C WD-sparql11-federated-query-20100601
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-sparql11-federated-query-20100601
+- type: updatedBy
+  bibitem:
+    id: W3CPR-sparql11-federated-query-20121108
+    title:
+    - content: SPARQL 1.1 Federated Query
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-sparql11-federated-query-20121108/
+      type: src
+    docid:
+    - id: W3C PR-sparql11-federated-query-20121108
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-sparql11-federated-query-20111117
 ext:

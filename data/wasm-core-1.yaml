@@ -26,65 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-core-1-20180215
-    link:
-    - content: https://www.w3.org/TR/2018/WD-wasm-core-1-20180215/
-      type: src
-    docid:
-    - id: W3C WD-wasm-core-1-20180215
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wasm-core-1-20180215
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wasm-core-1-20180904
-    link:
-    - content: https://www.w3.org/TR/2018/WD-wasm-core-1-20180904/
-      type: src
-    docid:
-    - id: W3C WD-wasm-core-1-20180904
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wasm-core-1-20180904
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-wasm-core-1-20190718
-    link:
-    - content: https://www.w3.org/TR/2019/CR-wasm-core-1-20190718/
-      type: src
-    docid:
-    - id: W3C CR-wasm-core-1-20190718
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-wasm-core-1-20190718
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-wasm-core-1-20191001
-    link:
-    - content: https://www.w3.org/TR/2019/PR-wasm-core-1-20191001/
-      type: src
-    docid:
-    - id: W3C PR-wasm-core-1-20191001
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-wasm-core-1-20191001
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-wasm-core-1-20191205
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/REC-wasm-core-1-20191205/
       type: src
@@ -92,12 +40,61 @@ relation:
     - id: W3C REC-wasm-core-1-20191205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-wasm-core-1-20191205
+- type: hasEdition
+  bibitem:
+    id: W3CPR-wasm-core-1-20191001
+    title:
+    - content: WebAssembly Core Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-wasm-core-1-20191001/
+      type: src
+    docid:
+    - id: W3C PR-wasm-core-1-20191001
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-wasm-core-1-20190718
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/CR-wasm-core-1-20190718/
+      type: src
+    docid:
+    - id: W3C CR-wasm-core-1-20190718
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wasm-core-1-20180904
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-wasm-core-1-20180904/
+      type: src
+    docid:
+    - id: W3C WD-wasm-core-1-20180904
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wasm-core-1-20180215
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-wasm-core-1-20180215/
+      type: src
+    docid:
+    - id: W3C WD-wasm-core-1-20180215
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: wasm-core-1
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/REC-wai-aria-1.2-20230606/
   type: src
-- content: https://w3c.github.io/aria/
-  type: current
 type: standard
 docid:
 - id: W3C REC-wai-aria-1.2-20230606
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Carolyn MacLeod
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Nurthen
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nurthen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Carolyn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: MacLeod
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-1.2
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-1.2/
+      type: src
+    docid:
+    - id: W3C wai-aria-1.2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wai-aria-1.2-20230328
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/PR-wai-aria-1.2-20230328/
       type: src
@@ -86,12 +128,9 @@ relation:
     - id: W3C PR-wai-aria-1.2-20230328
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wai-aria-1.2-20230328
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wai-aria-1.2-20230606
 ext:

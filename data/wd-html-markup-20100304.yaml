@@ -5,7 +5,7 @@ title:
 - content: 'HTML: The Markup Language'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-html-markup-20100304/
+- content: https://www.w3.org/TR/2010/WD-html-markup-20100304/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Smith
+      given:
+        forename:
+        - content: Michael[tm]
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith (sideshowbarker)
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-markup
+    title:
+    - content: 'HTML: The Markup Language (an HTML language reference)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-markup/
+      type: src
+    docid:
+    - id: W3C html-markup
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-markup-20100624
+    title:
+    - content: 'HTML: The Markup Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-html-markup-20100624/
+      type: src
+    docid:
+    - id: W3C WD-html-markup-20100624
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-markup-20100304
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-ldpatch-20150728/
   type: src
-- content: https://dvcs.w3.org/hg/ldpwg/raw-file/ldpatch/ldpatch.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-ldpatch-20150728
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexandre Bertails
+      given:
+        forename:
+        - content: Alexandre
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bertails
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrei Sambra
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Andrei
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sambra
         language:
         - en
         script:
@@ -62,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cldpatch
+    title:
+    - content: Linked Data Patch Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ldpatch/
+      type: src
+    docid:
+    - id: W3C ldpatch
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ldpatch-20150303
+    title:
+    - content: Linked Data Patch Format
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/CR-ldpatch-20150303/
       type: src
@@ -73,12 +94,9 @@ relation:
     - id: W3C CR-ldpatch-20150303
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ldpatch-20150303
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-ldpatch-20150728
 ext:
@@ -86,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Linked Data Platform Working Group
+  - name: Linked Data Platform (LDP) Working Group

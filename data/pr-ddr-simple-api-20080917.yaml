@@ -5,7 +5,7 @@ title:
 - content: Device Description Repository Simple API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/PR-DDR-Simple-API-20080917/
+- content: https://www.w3.org/TR/2008/PR-DDR-Simple-API-20080917/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ignacio Marín
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jo Rabin
+      given:
+        forename:
+        - content: Rotan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hanrahan
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: José Manuel Cantera Fonseca
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rotan Hanrahan
+      given:
+        forename:
+        - content: Jose Manuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cantera Fonseca
         language:
         - en
         script:
@@ -74,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDDR-Simple-API
+    title:
+    - content: Device Description Repository Simple API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DDR-Simple-API/
+      type: src
+    docid:
+    - id: W3C DDR-Simple-API
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DDR-Simple-API-20080404
+    title:
+    - content: Device Description Repository Simple API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-DDR-Simple-API-20080404/
+    - content: https://www.w3.org/TR/2008/WD-DDR-Simple-API-20080404/
       type: src
     docid:
     - id: W3C WD-DDR-Simple-API-20080404
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DDR-Simple-API-20080404
+- type: updatedBy
+  bibitem:
+    id: W3CREC-DDR-Simple-API-20081205
+    title:
+    - content: Device Description Repository Simple API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/REC-DDR-Simple-API-20081205/
+      type: src
+    docid:
+    - id: W3C REC-DDR-Simple-API-20081205
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-DDR-Simple-API-20080917
 ext:

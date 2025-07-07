@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/CRD-vc-json-schema-20231218/
   type: src
-- content: https://w3c.github.io/vc-json-schema/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-vc-json-schema-20231218
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andres Uribe
+      given:
+        forename:
+        - content: Gabe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cohen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gabe Cohen
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prorock
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Prorock
+      given:
+        forename:
+        - content: Andres
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uribe
         language:
         - en
         script:
@@ -64,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-json-schema
+    title:
+    - content: Verifiable Credentials JSON Schema Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-json-schema/
+      type: src
+    docid:
+    - id: W3C vc-json-schema
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-vc-json-schema-20231121
+    title:
+    - content: Verifiable Credentials JSON Schema Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/CR-vc-json-schema-20231121/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CR-vc-json-schema-20231121
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-vc-json-schema-20231121
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-vc-json-schema-20240912
+    title:
+    - content: Verifiable Credentials JSON Schema Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CRD-vc-json-schema-20240912/
+      type: src
+    docid:
+    - id: W3C CRD-vc-json-schema-20240912
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-vc-json-schema-20231218
 ext:

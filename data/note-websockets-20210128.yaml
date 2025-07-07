@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebsockets
+    title:
+    - content: The WebSocket API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/websockets/
+      type: src
+    docid:
+    - id: W3C websockets
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-websockets-20120920
+    title:
+    - content: The WebSocket API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/CR-websockets-20120920/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C CR-websockets-20120920
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-websockets-20120920
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-websockets-20210128
 ext:

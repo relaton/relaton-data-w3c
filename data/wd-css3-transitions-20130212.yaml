@@ -5,7 +5,7 @@ title:
 - content: CSS Transitions
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-css3-transitions-20130212/
+- content: https://www.w3.org/TR/2013/WD-css3-transitions-20130212/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Marrin
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marrin
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Baron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: David Hyatt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Dean Jackson
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baron
         language:
         - en
         script:
@@ -74,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-transitions-1
+    title:
+    - content: CSS Transitions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-transitions-1/
+      type: src
+    docid:
+    - id: W3C css-transitions-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css3-transitions-20120403
+    title:
+    - content: CSS Transitions
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-css3-transitions-20120403/
+    - content: https://www.w3.org/TR/2012/WD-css3-transitions-20120403/
       type: src
     docid:
     - id: W3C WD-css3-transitions-20120403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css3-transitions-20120403
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css3-transitions-20131119
+    title:
+    - content: CSS Transitions
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-css3-transitions-20131119/
+      type: src
+    docid:
+    - id: W3C WD-css3-transitions-20131119
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css3-transitions-20130212
 ext:
@@ -97,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

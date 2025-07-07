@@ -5,7 +5,7 @@ title:
 - content: RIF Core Design - Placeholder
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-rif-core-20071030
+- content: https://www.w3.org/TR/2007/WD-rif-core-20071030
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Sandro Hawke
+      given:
+        forename:
+        - content: Sandro
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hawke
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-core
+    title:
+    - content: RIF Core Dialect (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-core/
+      type: src
+    docid:
+    - id: W3C rif-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rif-core-20070330
+    title:
+    - content: RIF Core Design
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-rif-core-20070330
+    - content: https://www.w3.org/TR/2007/WD-rif-core-20070330
       type: src
     docid:
     - id: W3C WD-rif-core-20070330
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-core-20070330
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rif-core-20081218
+    title:
+    - content: RIF Core
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-rif-core-20081218/
+      type: src
+    docid:
+    - id: W3C WD-rif-core-20081218
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rif-core-20071030
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

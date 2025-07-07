@@ -5,7 +5,7 @@ title:
 - content: User Interface Safety Directives for Content Security Policy
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-UISafety-20121120/
+- content: https://www.w3.org/TR/2012/WD-UISafety-20121120/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brad Hill
+      given:
+        forename:
+        - content: Brad
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hill
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Lin-Shung Huang
+      given:
+        forename:
+        - content: Giorgio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maone
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Giorgio Maone
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Huang
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tobias Gondrom
+      given:
+        forename:
+        - content: Tobias
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gondrom
         language:
         - en
         script:
@@ -73,9 +101,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CUISecurity
+    title:
+    - content: User Interface Security and the Visibility API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/UISecurity/
+      type: src
+    docid:
+    - id: W3C UISecurity
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-UISecurity-20130523
+    title:
+    - content: User Interface Security Directives for Content Security Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-UISecurity-20130523/
+      type: src
+    docid:
+    - id: W3C WD-UISecurity-20130523
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-UISafety-20121120
 ext:

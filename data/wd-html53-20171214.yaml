@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-html53-20171214/
   type: src
-- content: https://w3c.github.io/html/
-  type: current
 type: standard
 docid:
 - id: W3C WD-html53-20171214
@@ -34,10 +32,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml53
+    title:
+    - content: HTML 5.3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html53/
+      type: src
+    docid:
+    - id: W3C html53
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html53-20180206
+    title:
+    - content: HTML 5.3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-html53-20180206/
+      type: src
+    docid:
+    - id: W3C WD-html53-20180206
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-html53-20171214
 ext:
@@ -45,4 +73,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

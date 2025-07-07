@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-clreq-gap-20231004/
   type: src
-- content: https://w3c.github.io/clreq/gap-analysis/
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-clreq-gap-20231004
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Fuqiao Xue
+      given:
+        forename:
+        - content: Fuqiao
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xue
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cclreq-gap
+    title:
+    - content: Chinese Layout Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/clreq-gap/
+      type: src
+    docid:
+    - id: W3C clreq-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-clreq-gap-20230721
+    title:
+    - content: Chinese Layout Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/DNOTE-clreq-gap-20230721/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C DNOTE-clreq-gap-20230721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-clreq-gap-20230721
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-clreq-gap-20240208
+    title:
+    - content: Chinese Layout Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-clreq-gap-20240208/
+      type: src
+    docid:
+    - id: W3C DNOTE-clreq-gap-20240208
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-clreq-gap-20231004
 ext:

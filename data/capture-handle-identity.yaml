@@ -26,52 +26,39 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-capture-handle-identity-20220510
+    id: W3CWD-capture-handle-identity-20250306
+    title:
+    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220510/
+    - content: https://www.w3.org/TR/2025/WD-capture-handle-identity-20250306/
       type: src
     docid:
-    - id: W3C WD-capture-handle-identity-20220510
+    - id: W3C WD-capture-handle-identity-20250306
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-capture-handle-identity-20220510
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-capture-handle-identity-20220519
+    id: W3CWD-capture-handle-identity-20250303
+    title:
+    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220519/
+    - content: https://www.w3.org/TR/2025/WD-capture-handle-identity-20250303/
       type: src
     docid:
-    - id: W3C WD-capture-handle-identity-20220519
+    - id: W3C WD-capture-handle-identity-20250303
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-capture-handle-identity-20220519
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CWD-capture-handle-identity-20220706
-    link:
-    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220706/
-      type: src
-    docid:
-    - id: W3C WD-capture-handle-identity-20220706
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-capture-handle-identity-20220706
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CWD-capture-handle-identity-20240605
+    title:
+    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-capture-handle-identity-20240605/
       type: src
@@ -79,12 +66,48 @@ relation:
     - id: W3C WD-capture-handle-identity-20240605
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-capture-handle-identity-20240605
+- type: hasEdition
+  bibitem:
+    id: W3CWD-capture-handle-identity-20220706
+    title:
+    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220706/
+      type: src
+    docid:
+    - id: W3C WD-capture-handle-identity-20220706
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-capture-handle-identity-20220519
+    title:
+    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220519/
+      type: src
+    docid:
+    - id: W3C WD-capture-handle-identity-20220519
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-capture-handle-identity-20220510
+    title:
+    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220510/
+      type: src
+    docid:
+    - id: W3C WD-capture-handle-identity-20220510
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: capture-handle-identity
 ext:

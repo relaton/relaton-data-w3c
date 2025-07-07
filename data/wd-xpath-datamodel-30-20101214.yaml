@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Data Model 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-xpath-datamodel-30-20101214/
+- content: https://www.w3.org/TR/2010/WD-xpath-datamodel-30-20101214/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-datamodel-30
+    title:
+    - content: XQuery and XPath Data Model 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-datamodel-30/
+      type: src
+    docid:
+    - id: W3C xpath-datamodel-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-datamodel-11-20091215
+    title:
+    - content: XQuery and XPath Data Model 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-xpath-datamodel-11-20091215/
+    - content: https://www.w3.org/TR/2009/WD-xpath-datamodel-11-20091215/
       type: src
     docid:
     - id: W3C WD-xpath-datamodel-11-20091215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-datamodel-11-20091215
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xpath-datamodel-30-20110614
+    title:
+    - content: XQuery and XPath Data Model 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xpath-datamodel-30-20110614/
+      type: src
+    docid:
+    - id: W3C WD-xpath-datamodel-30-20110614
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xpath-datamodel-30-20101214
 ext:
@@ -87,5 +137,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

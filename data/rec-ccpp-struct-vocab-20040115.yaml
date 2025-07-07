@@ -28,68 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christopher Woodrow
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Franklin Reynolds
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Graham Klyne
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Hidetaka Ohto
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Johan Hjelm
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Luu Tran
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Butler
+      given:
+        forename:
+        - content: Graham
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Klyne
         language:
         - en
         script:
@@ -105,9 +52,27 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCCPP-struct-vocab
+    title:
+    - content: 'Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies
+        1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CCPP-struct-vocab/
+      type: src
+    docid:
+    - id: W3C CCPP-struct-vocab
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-CCPP-struct-vocab-20031015
+    title:
+    - content: 'Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies
+        1.0'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/PR-CCPP-struct-vocab-20031015/
       type: src
@@ -115,28 +80,9 @@ relation:
     - id: W3C PR-CCPP-struct-vocab-20031015
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-CCPP-struct-vocab-20031015
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cccpp-SV-PR-errata
-    link:
-    - content: https://www.w3.org/2003/07/ccpp-SV-PR/errata/
-      type: src
-    docid:
-    - id: W3C ccpp-SV-PR/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ccpp-SV-PR/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-CCPP-struct-vocab-20040115
 ext:

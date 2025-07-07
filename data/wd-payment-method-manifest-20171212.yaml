@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-payment-method-manifest-20171212/
   type: src
-- content: https://w3c.github.io/payment-method-manifest/
-  type: current
 type: standard
 docid:
 - id: W3C WD-payment-method-manifest-20171212
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dapeng(Max) Liu
+      given:
+        forename:
+        - content: Dapeng(Max)
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liu
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Domenic Denicola
+      given:
+        forename:
+        - content: Domenic
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Denicola
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Zach Koch
+      given:
+        forename:
+        - content: Zach
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koch
         language:
         - en
         script:
@@ -64,10 +83,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpayment-method-manifest
+    title:
+    - content: Payment Method Manifest
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/payment-method-manifest/
+      type: src
+    docid:
+    - id: W3C payment-method-manifest
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-payment-method-manifest-20171212
 ext:

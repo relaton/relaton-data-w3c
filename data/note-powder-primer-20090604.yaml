@@ -5,7 +5,7 @@ title:
 - content: 'Protocol for Web Description Resources (POWDER): Primer'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/NOTE-powder-primer-20090604/
+- content: https://www.w3.org/TR/2009/NOTE-powder-primer-20090604/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Kai Scheppe
+      given:
+        forename:
+        - content: Kai
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheppe
         language:
         - en
         script:
@@ -40,23 +47,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpowder-primer
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/powder-primer/
+      type: src
+    docid:
+    - id: W3C powder-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-powder-primer-20090403
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Primer'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/NOTE-powder-primer-20090403/
+    - content: https://www.w3.org/TR/2009/NOTE-powder-primer-20090403/
       type: src
     docid:
     - id: W3C NOTE-powder-primer-20090403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-powder-primer-20090403
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-powder-primer-20090901
+    title:
+    - content: 'Protocol for Web Description Resources (POWDER): Primer'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/NOTE-powder-primer-20090901/
+      type: src
+    docid:
+    - id: W3C NOTE-powder-primer-20090901
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-powder-primer-20090604
 ext:
@@ -64,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Protocol for Web Description Resources Working Group
+  - name: Protocol for Web Description Resources (POWDER) Working Group

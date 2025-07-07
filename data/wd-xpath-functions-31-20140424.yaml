@@ -5,7 +5,7 @@ title:
 - content: XPath and XQuery Functions and Operators 3.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-xpath-functions-31-20140424/
+- content: https://www.w3.org/TR/2014/WD-xpath-functions-31-20140424/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -42,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-functions-31
+    title:
+    - content: XPath and XQuery Functions and Operators 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-functions-31/
+      type: src
+    docid:
+    - id: W3C xpath-functions-31
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xpath-functions-31-20141007
+    title:
+    - content: XPath and XQuery Functions and Operators 3.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-xpath-functions-31-20141007/
+      type: src
+    docid:
+    - id: W3C WD-xpath-functions-31-20141007
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-xpath-functions-31-20140424
 ext:
@@ -53,5 +90,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

@@ -5,7 +5,7 @@ title:
 - content: Best Practice Recipes for Publishing RDF Vocabularies
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-swbp-vocab-pub-20060314/
+- content: https://www.w3.org/TR/2006/WD-swbp-vocab-pub-20060314/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alistair Miles
+      given:
+        forename:
+        - content: Ralph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Swick
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ralph Swick
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Thomas Baker
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baker
         language:
         - en
         script:
@@ -63,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cswbp-vocab-pub
+    title:
+    - content: Best Practice Recipes for Publishing RDF Vocabularies
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/swbp-vocab-pub/
+      type: src
+    docid:
+    - id: W3C swbp-vocab-pub
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-swbp-vocab-pub-20080123
+    title:
+    - content: Best Practice Recipes for Publishing RDF Vocabularies
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-swbp-vocab-pub-20080123/
+      type: src
+    docid:
+    - id: W3C WD-swbp-vocab-pub-20080123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-swbp-vocab-pub-20060314
 ext:

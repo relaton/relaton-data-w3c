@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-personalization-semantics-requirements-1.0-20200130/
   type: src
-- content: https://w3c.github.io/personalization-semantics/requirements/
-  type: current
 type: standard
 docid:
 - id: W3C WD-personalization-semantics-requirements-1.0-20200130
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles LaPierre
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lisa Seeman-Kestenbaum
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaPierre
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ruoxi Ran
+      given:
+        forename:
+        - content: Ruoxi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ran
         language:
         - en
         script:
@@ -74,10 +100,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cadapt-requirements
+    title:
+    - content: Requirements for WAI-Adapt specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/adapt-requirements/
+      type: src
+    docid:
+    - id: W3C adapt-requirements
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-personalization-semantics-requirements-1.0-20201028
+    title:
+    - content: Requirements for Personalization Semantics
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-personalization-semantics-requirements-1.0-20201028/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-requirements-1.0-20201028
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-personalization-semantics-requirements-1.0-20200130
 ext:
@@ -85,4 +141,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

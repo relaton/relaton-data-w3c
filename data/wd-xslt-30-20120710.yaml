@@ -5,7 +5,7 @@ title:
 - content: XSL Transformations (XSLT) Version 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-xslt-30-20120710/
+- content: https://www.w3.org/TR/2012/WD-xslt-30-20120710/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslt-30
+    title:
+    - content: XSL Transformations (XSLT) Version 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslt-30/
+      type: src
+    docid:
+    - id: W3C xslt-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xslt-21-20100511
+    title:
+    - content: XSL Transformations (XSLT) Version 2.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-xslt-21-20100511/
+    - content: https://www.w3.org/TR/2010/WD-xslt-21-20100511/
       type: src
     docid:
     - id: W3C WD-xslt-21-20100511
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xslt-21-20100511
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xslt-30-20131212
+    title:
+    - content: XSL Transformations (XSLT) Version 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-xslt-30-20131212/
+      type: src
+    docid:
+    - id: W3C WD-xslt-30-20131212
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xslt-30-20120710
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

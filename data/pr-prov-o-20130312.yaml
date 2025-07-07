@@ -5,7 +5,7 @@ title:
 - content: 'PROV-O: The PROV Ontology'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/PR-prov-o-20130312/
+- content: https://www.w3.org/TR/2013/PR-prov-o-20130312/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Deborah McGuinness
+      given:
+        forename:
+        - content: Deborah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGuinness
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Satya Sahoo
+      given:
+        forename:
+        - content: Satya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sahoo
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Timothy Lebo
+      given:
+        forename:
+        - content: Timothy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lebo
         language:
         - en
         script:
@@ -64,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cprov-o
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/prov-o/
+      type: src
+    docid:
+    - id: W3C prov-o
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-prov-o-20121211
+    title:
+    - content: 'PROV-O: The PROV Ontology'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-prov-o-20121211/
+    - content: https://www.w3.org/TR/2012/CR-prov-o-20121211/
       type: src
     docid:
     - id: W3C CR-prov-o-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-prov-o-20121211
+- type: updatedBy
+  bibitem:
+    id: W3CREC-prov-o-20130430
+    title:
+    - content: 'PROV-O: The PROV Ontology'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/REC-prov-o-20130430/
+      type: src
+    docid:
+    - id: W3C REC-prov-o-20130430
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-prov-o-20130312
 ext:

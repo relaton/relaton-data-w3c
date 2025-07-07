@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240216/
   type: src
-- content: https://w3c.github.io/performance-timeline/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-performance-timeline-20240216
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Nicolas Pena Moreno
+      given:
+        forename:
+        - content: Nicolas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pena Moreno
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cperformance-timeline
+    title:
+    - content: Performance Timeline
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/performance-timeline/
+      type: src
+    docid:
+    - id: W3C performance-timeline
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-performance-timeline-20211202
+    title:
+    - content: Performance Timeline
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CR-performance-timeline-20211202/
       type: src
@@ -56,12 +77,41 @@ relation:
     - id: W3C CR-performance-timeline-20211202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-performance-timeline-20211202
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-performance-timeline-20250213
+    title:
+    - content: Performance Timeline
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-performance-timeline-20250213/
+      type: src
+    docid:
+    - id: W3C CRD-performance-timeline-20250213
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-performance-timeline-20250521
+    title:
+    - content: Performance Timeline
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-performance-timeline-20250521/
+      type: src
+    docid:
+    - id: W3C CRD-performance-timeline-20250521
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-performance-timeline-20240216
 ext:

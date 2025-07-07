@@ -5,7 +5,7 @@ title:
 - content: XQuery and XPath Full Text 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/PR-xpath-full-text-30-20150806/
+- content: https://www.w3.org/TR/2015/PR-xpath-full-text-30-20150806/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jim Melton
+      given:
+        forename:
+        - content: Mary
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Holstege
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mary Holstege
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-full-text-30
+    title:
+    - content: XQuery and XPath Full Text 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-full-text-30/
+      type: src
+    docid:
+    - id: W3C xpath-full-text-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xpath-full-text-30-20150312
+    title:
+    - content: XQuery and XPath Full Text 3.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-xpath-full-text-30-20150312/
+    - content: https://www.w3.org/TR/2015/CR-xpath-full-text-30-20150312/
       type: src
     docid:
     - id: W3C CR-xpath-full-text-30-20150312
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xpath-full-text-30-20150312
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xpath-full-text-30-20151124
+    title:
+    - content: XQuery and XPath Full Text 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-xpath-full-text-30-20151124/
+      type: src
+    docid:
+    - id: W3C REC-xpath-full-text-30-20151124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xpath-full-text-30-20150806
 ext:
@@ -77,5 +120,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

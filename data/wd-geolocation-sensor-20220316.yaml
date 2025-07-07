@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-geolocation-sensor-20220316/
   type: src
-- content: https://w3c.github.io/geolocation-sensor/
-  type: current
 type: standard
 docid:
 - id: W3C WD-geolocation-sensor-20220316
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marijn Kruisselbrink
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steiner
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Thomas Steiner
+      given:
+        forename:
+        - content: Marijn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kruisselbrink
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeolocation-sensor
+    title:
+    - content: Geolocation Sensor
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/geolocation-sensor/
+      type: src
+    docid:
+    - id: W3C geolocation-sensor
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-geolocation-sensor-20210902
+    title:
+    - content: Geolocation Sensor
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-geolocation-sensor-20210902/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-geolocation-sensor-20210902
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-geolocation-sensor-20210902
+- type: updatedBy
+  bibitem:
+    id: W3CWD-geolocation-sensor-20231026
+    title:
+    - content: Geolocation Sensor
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-geolocation-sensor-20231026/
+      type: src
+    docid:
+    - id: W3C WD-geolocation-sensor-20231026
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-geolocation-sensor-20220316
 ext:

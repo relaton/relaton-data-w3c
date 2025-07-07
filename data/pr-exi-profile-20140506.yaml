@@ -5,7 +5,7 @@ title:
 - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic memory
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PR-exi-profile-20140506/
+- content: https://www.w3.org/TR/2014/PR-exi-profile-20140506/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
+      given:
+        forename:
+        - content: Youenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fablet
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Youenn Fablet
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -54,22 +68,53 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-profile
+    title:
+    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+        memory
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-profile/
+      type: src
+    docid:
+    - id: W3C exi-profile
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-exi-profile-20130416
+    title:
+    - content: Efficient XML Interchange (EXI) Profile
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-exi-profile-20130416/
+    - content: https://www.w3.org/TR/2013/CR-exi-profile-20130416/
       type: src
     docid:
     - id: W3C CR-exi-profile-20130416
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-exi-profile-20130416
+- type: updatedBy
+  bibitem:
+    id: W3CREC-exi-profile-20140909
+    title:
+    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+        memory
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-exi-profile-20140909/
+      type: src
+    docid:
+    - id: W3C REC-exi-profile-20140909
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-exi-profile-20140506
 ext:
@@ -77,4 +122,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-rdf12-n-quads-20230516/
   type: src
-- content: https://w3c.github.io/rdf-n-quads/spec/
-  type: current
 type: standard
 docid:
 - id: W3C WD-rdf12-n-quads-20230516
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominik Tomaszuk
+      given:
+        forename:
+        - content: Dominik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tomaszuk
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf12-n-quads
+    title:
+    - content: RDF 1.2 N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf12-n-quads/
+      type: src
+    docid:
+    - id: W3C rdf12-n-quads
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rdf12-n-quads-20230615
+    title:
+    - content: RDF 1.2 N-Quads
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-rdf12-n-quads-20230615/
+      type: src
+    docid:
+    - id: W3C WD-rdf12-n-quads-20230615
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-rdf12-n-quads-20230516
 ext:
@@ -65,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF-star Working Group
+  - name: RDF & SPARQL Working Group

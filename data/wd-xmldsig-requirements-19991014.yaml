@@ -32,11 +32,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-requirements
+    title:
+    - content: XML-Signature Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-requirements
+      type: src
+    docid:
+    - id: W3C xmldsig-requirements
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xmldsig-requirements-990820.html
+    title:
+    - content: XML-Signature Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/1999/08/WD-xmldsig-requirements-990820.html
       type: src
@@ -44,12 +60,9 @@ relation:
     - id: W3C WD-xmldsig-requirements-990820.html
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xmldsig-requirements-990820.html
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xmldsig-requirements-19991014
 ext:

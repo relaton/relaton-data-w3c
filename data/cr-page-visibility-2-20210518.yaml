@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CR-page-visibility-2-20210518/
   type: src
-- content: https://w3c.github.io/page-visibility/
-  type: current
 type: standard
 docid:
 - id: W3C CR-page-visibility-2-20210518
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpage-visibility-2
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/page-visibility-2/
+      type: src
+    docid:
+    - id: W3C page-visibility-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-page-visibility-2-20171017
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/PR-page-visibility-2-20171017/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C PR-page-visibility-2-20171017
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-page-visibility-2-20171017
+- type: updatedBy
+  bibitem:
+    id: W3CDISC-page-visibility-2-20220623
+    title:
+    - content: Page Visibility Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DISC-page-visibility-2-20220623/
+      type: src
+    docid:
+    - id: W3C DISC-page-visibility-2-20220623
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-page-visibility-2-20210518
 ext:

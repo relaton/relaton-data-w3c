@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-tracking-dnt-20190117/
   type: src
-- content: https://w3c.github.io/dnt/drafts/tracking-dnt.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-tracking-dnt-20190117
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Singer
+      given:
+        forename:
+        - content: Roy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fielding
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Roy Fielding
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singer
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctracking-dnt
+    title:
+    - content: Tracking Preference Expression (DNT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/tracking-dnt/
+      type: src
+    docid:
+    - id: W3C tracking-dnt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-tracking-dnt-20171019
+    title:
+    - content: Tracking Preference Expression (DNT)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-tracking-dnt-20171019/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C CR-tracking-dnt-20171019
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-tracking-dnt-20171019
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-tracking-dnt-20190117
 ext:

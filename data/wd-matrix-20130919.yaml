@@ -5,10 +5,8 @@ title:
 - content: DOMMatrix interface
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-matrix-20130919/
+- content: https://www.w3.org/TR/2013/WD-matrix-20130919/
   type: src
-- content: https://drafts.fxtf.org/matrix/
-  type: current
 type: standard
 docid:
 - id: W3C WD-matrix-20130919
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dirk Schulze
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schulze
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmatrix
+    title:
+    - content: DOMMatrix interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/matrix/
+      type: src
+    docid:
+    - id: W3C matrix
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-matrix-20180412
+    title:
+    - content: DOMMatrix interface
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/NOTE-matrix-20180412/
+      type: src
+    docid:
+    - id: W3C NOTE-matrix-20180412
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-matrix-20130919
 ext:
@@ -66,4 +108,4 @@ ext:
     type: technicalReport
   editorialgroup:
   - name: SVG Working Group
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
+      given:
+        forename:
+        - content: Youenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fablet
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Youenn Fablet
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -54,9 +68,27 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-profile
+    title:
+    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+        memory
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-profile/
+      type: src
+    docid:
+    - id: W3C exi-profile
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-exi-profile-20140506
+    title:
+    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+        memory
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PR-exi-profile-20140506/
       type: src
@@ -64,12 +96,9 @@ relation:
     - id: W3C PR-exi-profile-20140506
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-exi-profile-20140506
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-exi-profile-20140909
 ext:
@@ -77,4 +106,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

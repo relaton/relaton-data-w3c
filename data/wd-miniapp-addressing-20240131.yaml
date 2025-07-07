@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-miniapp-addressing-20240131/
   type: src
-- content: https://w3c.github.io/miniapp-addressing/
-  type: current
 type: standard
 docid:
 - id: W3C WD-miniapp-addressing-20240131
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Zhou
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhou
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Qian Liu
+      given:
+        forename:
+        - content: Tengyuan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tengyuan Zhang
+      given:
+        forename:
+        - content: shuo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: wang
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: shuo wang
+      given:
+        forename:
+        - content: Qian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liu
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cminiapp-addressing
+    title:
+    - content: MiniApp Addressing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/miniapp-addressing/
+      type: src
+    docid:
+    - id: W3C miniapp-addressing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-miniapp-addressing-20220627
+    title:
+    - content: MiniApp Addressing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220627/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C DNOTE-miniapp-addressing-20220627
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-miniapp-addressing-20220627
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-miniapp-addressing-20240625
+    title:
+    - content: MiniApp Addressing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-miniapp-addressing-20240625/
+      type: src
+    docid:
+    - id: W3C DNOTE-miniapp-addressing-20240625
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-miniapp-addressing-20240131
 ext:

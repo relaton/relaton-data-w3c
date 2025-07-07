@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanthaler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Lanthaler
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -62,11 +83,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld-api
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld-api/
+      type: src
+    docid:
+    - id: W3C json-ld-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-json-ld-api-20140116
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/REC-json-ld-api-20140116/
       type: src
@@ -74,12 +111,9 @@ relation:
     - id: W3C REC-json-ld-api-20140116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-json-ld-api-20140116
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-json-ld-api-20201103
 ext:

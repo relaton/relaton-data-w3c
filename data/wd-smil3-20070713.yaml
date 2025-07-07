@@ -5,7 +5,7 @@ title:
 - content: Synchronized Multimedia Integration Language (SMIL 3.0)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-SMIL3-20070713/
+- content: https://www.w3.org/TR/2007/WD-SMIL3-20070713/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel F. Zucker
+      given:
+        forename:
+        - content: Samuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cruz-Lara
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Weck
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melendi
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Melendi
+      given:
+        forename:
+        - content: Marisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: DeMeglio
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dick Bulterman
+      given:
+        forename:
+        - content: Sjoerd
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mullender
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Hyche
+      given:
+        forename:
+        - content: Jack
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jansen
         language:
         - en
         script:
@@ -77,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hiroshi Kawamura
+      given:
+        forename:
+        - content: Dick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bulterman
         language:
         - en
         script:
@@ -87,8 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jack Jansen
+      given:
+        forename:
+        - content: Petri
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vuorimaa
         language:
         - en
         script:
@@ -97,8 +146,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Julien Quint
+      given:
+        forename:
+        - content: Thierry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Michel
         language:
         - en
         script:
@@ -107,58 +163,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marisa DeMeglio
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Petri Vuorimaa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Samuel Cruz-Lara
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sjoerd Mullender
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Thierry Michel
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Xabiel García Pañeda
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weck
         language:
         - en
         script:
@@ -172,24 +185,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL3
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL3/
+      type: src
+    docid:
+    - id: W3C SMIL3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-SMIL3-20061220
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-SMIL3-20061220/
+    - content: https://www.w3.org/TR/2006/WD-SMIL3-20061220/
       type: src
     docid:
     - id: W3C WD-SMIL3-20061220
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-SMIL3-20061220
+- type: updatedBy
+  bibitem:
+    id: W3CCR-SMIL3-20080115
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/CR-SMIL3-20080115/
+      type: src
+    docid:
+    - id: W3C CR-SMIL3-20080115
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-SMIL3-20070713
 ext:
@@ -197,4 +239,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Synchronized Multimedia Working Group
+  - name: SYMM Working Group

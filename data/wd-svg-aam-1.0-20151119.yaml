@@ -5,10 +5,8 @@ title:
 - content: SVG Accessibility API Mappings
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-svg-aam-1.0-20151119/
+- content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20151119/
   type: src
-- content: https://w3c.github.io/aria/svg-aam/svg-aam.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-svg-aam-1.0-20151119
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csvg-aam-1.0
+    title:
+    - content: SVG Accessibility API Mappings
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/svg-aam-1.0/
+      type: src
+    docid:
+    - id: W3C svg-aam-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-svg-aam-1.0-20150226
+    title:
+    - content: SVG Accessibility API Mappings
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226/
+    - content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226/
       type: src
     docid:
     - id: W3C WD-svg-aam-1.0-20150226
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-svg-aam-1.0-20150226
+- type: updatedBy
+  bibitem:
+    id: W3CWD-svg-aam-1.0-20160908
+    title:
+    - content: SVG Accessibility API Mappings
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-svg-aam-1.0-20160908/
+      type: src
+    docid:
+    - id: W3C WD-svg-aam-1.0-20160908
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-svg-aam-1.0-20151119
 ext:

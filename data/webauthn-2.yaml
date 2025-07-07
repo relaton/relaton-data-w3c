@@ -27,104 +27,14 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-webauthn-2-20190604
-    link:
-    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20190604/
-      type: src
-    docid:
-    - id: W3C WD-webauthn-2-20190604
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webauthn-2-20190604
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webauthn-2-20191126
-    link:
-    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20191126/
-      type: src
-    docid:
-    - id: W3C WD-webauthn-2-20191126
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webauthn-2-20191126
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webauthn-2-20200730
-    link:
-    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20200730/
-      type: src
-    docid:
-    - id: W3C WD-webauthn-2-20200730
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webauthn-2-20200730
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webauthn-2-20201116
-    link:
-    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201116/
-      type: src
-    docid:
-    - id: W3C WD-webauthn-2-20201116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webauthn-2-20201116
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-webauthn-2-20201216
-    link:
-    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201216/
-      type: src
-    docid:
-    - id: W3C WD-webauthn-2-20201216
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-webauthn-2-20201216
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-webauthn-2-20201222
-    link:
-    - content: https://www.w3.org/TR/2020/CR-webauthn-2-20201222/
-      type: src
-    docid:
-    - id: W3C CR-webauthn-2-20201222
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-webauthn-2-20201222
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-webauthn-2-20210225
-    link:
-    - content: https://www.w3.org/TR/2021/PR-webauthn-2-20210225/
-      type: src
-    docid:
-    - id: W3C PR-webauthn-2-20210225
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-webauthn-2-20210225
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-webauthn-2-20210408
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/REC-webauthn-2-20210408/
       type: src
@@ -132,12 +42,107 @@ relation:
     - id: W3C REC-webauthn-2-20210408
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-webauthn-2-20210408
+- type: hasEdition
+  bibitem:
+    id: W3CPR-webauthn-2-20210225
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/PR-webauthn-2-20210225/
+      type: src
+    docid:
+    - id: W3C PR-webauthn-2-20210225
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-webauthn-2-20201222
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/CR-webauthn-2-20201222/
+      type: src
+    docid:
+    - id: W3C CR-webauthn-2-20201222
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20201216
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201216/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20201216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20201116
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials: Level
+        2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20201116/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20201116
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20200730
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials: Level
+        2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-webauthn-2-20200730/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20200730
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20191126
+    title:
+    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 2'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20191126/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20191126
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webauthn-2-20190604
+    title:
+    - content: Web Authentication:An API for accessing Public Key Credentials Level
+        2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-webauthn-2-20190604/
+      type: src
+    docid:
+    - id: W3C WD-webauthn-2-20190604
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: webauthn-2
 ext:

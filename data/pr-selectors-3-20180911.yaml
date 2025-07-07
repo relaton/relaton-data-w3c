@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/PR-selectors-3-20180911/
   type: src
-- content: https://drafts.csswg.org/selectors-3/
-  type: current
 type: standard
 docid:
 - id: W3C PR-selectors-3-20180911
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Glazman
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Elika Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Glazman
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Williams
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -69,18 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Linss
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Linss
         language:
         - en
         script:
@@ -96,9 +119,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cselectors-3
+    title:
+    - content: Selectors Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/selectors-3/
+      type: src
+    docid:
+    - id: W3C selectors-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-selectors-3-20180130
+    title:
+    - content: Selectors Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-selectors-3-20180130/
       type: src
@@ -106,12 +145,25 @@ relation:
     - id: W3C CR-selectors-3-20180130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-selectors-3-20180130
+- type: updatedBy
+  bibitem:
+    id: W3CREC-selectors-3-20181106
+    title:
+    - content: Selectors Level 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/REC-selectors-3-20181106/
+      type: src
+    docid:
+    - id: W3C REC-selectors-3-20181106
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-selectors-3-20180911
 ext:
@@ -119,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

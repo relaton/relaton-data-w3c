@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jungkee Song
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tibbett
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Tibbett
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Jungkee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccontacts-api
+    title:
+    - content: Pick Contacts Intent
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/contacts-api/
+      type: src
+    docid:
+    - id: W3C contacts-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-contacts-api-20120712
+    title:
+    - content: Pick Contacts Intent
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-contacts-api-20120712/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-contacts-api-20120712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-contacts-api-20120712
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-contacts-api-20140114
 ext:

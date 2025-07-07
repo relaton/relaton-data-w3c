@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-xml-names11-req-20020403
+    title:
+    - content: Namespaces in XML 1.1 Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-xml-names11-req-20020403/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-xml-names11-req-20020403
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-names11-req-20020403
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: xml-names11-req
 ext:

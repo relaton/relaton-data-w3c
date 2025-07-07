@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-AERT-20000426
+    title:
+    - content: Techniques For Accessibility Evaluation And Repair Tools
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2000/WD-AERT-20000426
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-AERT-20000426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-AERT-20000426
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: AERT
 ext:

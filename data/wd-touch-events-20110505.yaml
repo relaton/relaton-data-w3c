@@ -5,7 +5,7 @@ title:
 - content: Touch Events Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-touch-events-20110505/
+- content: https://www.w3.org/TR/2011/WD-touch-events-20110505/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Doug Schepers
+      given:
+        forename:
+        - content: Doug
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schepers
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Brubeck
+      given:
+        forename:
+        - content: Sangwhan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moon
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sangwhan Moon
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brubeck
         language:
         - en
         script:
@@ -63,9 +84,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctouch-events
+    title:
+    - content: Touch Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/touch-events/
+      type: src
+    docid:
+    - id: W3C touch-events
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-touch-events-20110913
+    title:
+    - content: Touch Events version 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-touch-events-20110913/
+      type: src
+    docid:
+    - id: W3C WD-touch-events-20110913
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-touch-events-20110505
 ext:

@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Orchard
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Marsh
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Orchard
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxinclude
+    title:
+    - content: XML Inclusions (XInclude) Version 1.0 (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xinclude/
+      type: src
+    docid:
+    - id: W3C xinclude
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xinclude-20040930
+    title:
+    - content: XML Inclusions (XInclude) Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/PR-xinclude-20040930/
       type: src
@@ -64,28 +77,9 @@ relation:
     - id: W3C PR-xinclude-20040930
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xinclude-20040930
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxinclude-errata
-    link:
-    - content: https://www.w3.org/2004/12/xinclude-errata
-      type: src
-    docid:
-    - id: W3C xinclude-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xinclude-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xinclude-20041220
 ext:

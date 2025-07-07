@@ -5,7 +5,7 @@ title:
 - content: 'Action Sheets: A Modular Way of Defining Behavior for XML and HTML'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/1998/NOTE-AS-19980619
+- content: https://www.w3.org/TR/1998/NOTE-AS-19980619
   type: src
 type: standard
 docid:
@@ -27,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Brendan Eich
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Nisheeth Ranjan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ramanathan Guha
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Vidur Apparao
+      given:
+        forename:
+        - content: Brendan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eich
         language:
         - en
         script:
@@ -70,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CNOTE-AS
+    title:
+    - content: 'Action Sheets: A Modular Way of Defining Behavior for XML and HTML'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/NOTE-AS
+      type: src
+    docid:
+    - id: W3C NOTE-AS
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-AS-19980619
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

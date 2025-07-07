@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-act-rules-format-1.0-20190416/
   type: src
-- content: https://w3c.github.io/wcag-act/act-rules-format.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-act-rules-format-1.0-20190416
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Mary Jo Mueller
+      given:
+        forename:
+        - content: Wilco
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fiers
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Maureen Kraft
+      given:
+        forename:
+        - content: Maureen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kraft
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shadi Abou-Zahra
+      given:
+        forename:
+        - content: Mary Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mueller
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Wilco Fiers
+      given:
+        forename:
+        - content: Shadi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Abou-Zahra
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cact-rules-format-1.0
+    title:
+    - content: Accessibility Conformance Testing (ACT) Rules Format 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/act-rules-format-1.0/
+      type: src
+    docid:
+    - id: W3C act-rules-format-1.0
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-act-rules-format-1.0-20180705
+    title:
+    - content: Accessibility Conformance Testing (ACT) Rules Format 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/WD-act-rules-format-1.0-20180705/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-act-rules-format-1.0-20180705
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-act-rules-format-1.0-20180705
+- type: updatedBy
+  bibitem:
+    id: W3CPR-act-rules-format-1.0-20190730
+    title:
+    - content: Accessibility Conformance Testing (ACT) Rules Format 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/PR-act-rules-format-1.0-20190730/
+      type: src
+    docid:
+    - id: W3C PR-act-rules-format-1.0-20190730
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-act-rules-format-1.0-20190416
 ext:

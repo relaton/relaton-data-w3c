@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/NOTE-selectors-api2-20131017/
   type: src
-- content: https://dev.w3.org/2006/webapi/selectors-api2/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-selectors-api2-20131017
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Lachlan Hunt
+      given:
+        forename:
+        - content: Lachlan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hunt
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cselectors-api2
+    title:
+    - content: Selectors API Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/selectors-api2/
+      type: src
+    docid:
+    - id: W3C selectors-api2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-selectors-api2-20120628
+    title:
+    - content: Selectors API Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-selectors-api2-20120628/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-selectors-api2-20120628
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-selectors-api2-20120628
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-selectors-api2-20131017
 ext:
@@ -66,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

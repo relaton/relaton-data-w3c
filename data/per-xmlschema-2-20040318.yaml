@@ -5,7 +5,7 @@ title:
 - content: 'XML Schema Part 2: Datatypes Second Edition'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2004/PER-xmlschema-2-20040318/
+- content: https://www.w3.org/TR/2004/PER-xmlschema-2-20040318/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ashok Malhotra
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul V. Biron
+      given:
+        forename:
+        - content: Ashok
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malhotra
         language:
         - en
         script:
@@ -56,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-xmlschema-2-20010502
+    id: W3Cxmlschema-2
+    title:
+    - content: 'XML Schema Part 2: Datatypes Second Edition'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2001/REC-xmlschema-2-20010502/
+    - content: https://www.w3.org/TR/xmlschema-2/
       type: src
     docid:
-    - id: W3C REC-xmlschema-2-20010502
+    - id: W3C xmlschema-2
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xmlschema-2-20010502
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xmlschema-2-20041028
+    title:
+    - content: 'XML Schema Part 2: Datatypes Second Edition'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/
+      type: src
+    docid:
+    - id: W3C REC-xmlschema-2-20041028
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xmlschema-2-20040318
 ext:

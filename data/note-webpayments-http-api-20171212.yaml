@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-webpayments-http-api-20171212/
   type: src
-- content: https://w3c.github.io/webpayments-http-api/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-webpayments-http-api-20171212
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Longley
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Longley
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebpayments-http-api
+    title:
+    - content: Web Payments HTTP API 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webpayments-http-api/
+      type: src
+    docid:
+    - id: W3C webpayments-http-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webpayments-http-api-20160915
+    title:
+    - content: Web Payments HTTP API 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-webpayments-http-api-20160915/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C WD-webpayments-http-api-20160915
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webpayments-http-api-20160915
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-webpayments-http-api-20171212
 ext:

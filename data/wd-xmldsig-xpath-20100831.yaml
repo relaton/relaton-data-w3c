@@ -5,7 +5,7 @@ title:
 - content: XML Signature Streaming Profile of XPath 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-xmldsig-xpath-20100831/
+- content: https://www.w3.org/TR/2010/WD-xmldsig-xpath-20100831/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Pratik Datta
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2010-08-31'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxmldsig-xpath
+    title:
+    - content: XML Signature Streaming Profile of XPath 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xmldsig-xpath/
+      type: src
+    docid:
+    - id: W3C xmldsig-xpath
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xmldsig-xpath-20110421
+    title:
+    - content: XML Signature Streaming Profile of XPath 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xmldsig-xpath-20110421/
+      type: src
+    docid:
+    - id: W3C WD-xmldsig-xpath-20110421
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmldsig-xpath-20100831
 ext:

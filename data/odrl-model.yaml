@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Codrl-model
 title:
-- content: ODRL Information Model
+- content: ODRL Information Model 2.2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/odrl-model/
+- content: https://www.w3.org/TR/odrl-model/
   type: src
 type: standard
 docid:
@@ -26,26 +26,75 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CREC-odrl-model-20180215
+    title:
+    - content: ODRL Information Model 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/REC-odrl-model-20180215/
+      type: src
+    docid:
+    - id: W3C REC-odrl-model-20180215
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-odrl-model-20180104
+    title:
+    - content: ODRL Information Model 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/PR-odrl-model-20180104/
+      type: src
+    docid:
+    - id: W3C PR-odrl-model-20180104
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-odrl-model-20170926
+    title:
+    - content: ODRL Information Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-odrl-model-20170926/
+      type: src
+    docid:
+    - id: W3C CR-odrl-model-20170926
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-odrl-model-20170223
+    title:
+    - content: ODRL Information Model
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-odrl-model-20170223/
+      type: src
+    docid:
+    - id: W3C WD-odrl-model-20170223
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-odrl-model-20160721
+    title:
+    - content: ODRL Information Model
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-odrl-model-20160721/
+    - content: https://www.w3.org/TR/2016/WD-odrl-model-20160721/
       type: src
     docid:
     - id: W3C WD-odrl-model-20160721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-odrl-model-20160721
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: odrl-model
 ext:

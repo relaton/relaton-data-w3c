@@ -5,7 +5,7 @@ title:
 - content: Input Method Editor API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-ime-api-20120524/
+- content: https://www.w3.org/TR/2012/WD-ime-api-20120524/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Hironori Bono
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kenji Baheux
+      given:
+        forename:
+        - content: Kenji
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Baheux
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cime-api
+    title:
+    - content: Input Method Editor API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ime-api/
+      type: src
+    docid:
+    - id: W3C ime-api
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ime-api-20130404
+    title:
+    - content: Input Method Editor API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-ime-api-20130404/
+      type: src
+    docid:
+    - id: W3C WD-ime-api-20130404
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ime-api-20120524
 ext:
@@ -63,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

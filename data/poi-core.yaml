@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CWD-poi-core-20110512
+    title:
+    - content: Points of Interest Core
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/WD-poi-core-20110512/
       type: src
@@ -40,12 +40,9 @@ relation:
     - id: W3C WD-poi-core-20110512
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-poi-core-20110512
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: poi-core
 ext:

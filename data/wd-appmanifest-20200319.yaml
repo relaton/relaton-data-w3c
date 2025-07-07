@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-appmanifest-20200319/
   type: src
-- content: https://w3c.github.io/manifest/
-  type: current
 type: standard
 docid:
 - id: W3C WD-appmanifest-20200319
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aaron Gustafson
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Mounir
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamouri
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Giuca
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Giuca
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mounir Lamouri
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gustafson
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cappmanifest
+    title:
+    - content: Web Application Manifest
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/appmanifest/
+      type: src
+    docid:
+    - id: W3C appmanifest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-appmanifest-20200318
+    title:
+    - content: Web App Manifest
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/WD-appmanifest-20200318/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C WD-appmanifest-20200318
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-appmanifest-20200318
+- type: updatedBy
+  bibitem:
+    id: W3CWD-appmanifest-20200326
+    title:
+    - content: Web App Manifest
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-appmanifest-20200326/
+      type: src
+    docid:
+    - id: W3C WD-appmanifest-20200326
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-appmanifest-20200319
 ext:

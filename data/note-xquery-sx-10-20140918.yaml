@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dana Florescu
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snelson
         language:
         - en
         script:
@@ -37,58 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Daniel Engovatov
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Giorgio Ghelli
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jerome Simeon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: John Snelson
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melton
         language:
         - en
         script:
@@ -100,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-sx-10
+    title:
+    - content: XQuery Scripting Extension 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-sx-10/
+      type: src
+    docid:
+    - id: W3C xquery-sx-10
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-sx-10-20100408
+    title:
+    - content: XQuery Scripting Extension 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/WD-xquery-sx-10-20100408/
       type: src
@@ -111,12 +94,9 @@ relation:
     - id: W3C WD-xquery-sx-10-20100408
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-sx-10-20100408
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xquery-sx-10-20140918
 ext:

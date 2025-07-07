@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Capp-privacy-bp
+    title:
+    - content: Web Application Privacy Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/app-privacy-bp/
+      type: src
+    docid:
+    - id: W3C app-privacy-bp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-app-privacy-bp-20110804
+    title:
+    - content: Web Application Privacy Best Practices
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/WD-app-privacy-bp-20110804/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-app-privacy-bp-20110804
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-app-privacy-bp-20110804
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-app-privacy-bp-20120703
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -37,38 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Priestley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paddy Byers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stuart Knightley
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -82,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwidgets-digsig
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/widgets-digsig/
+      type: src
+    docid:
+    - id: W3C widgets-digsig
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-widgets-digsig-20130418
+    title:
+    - content: XML Digital Signatures for Widgets
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/REC-widgets-digsig-20130418/
       type: src
@@ -94,12 +94,9 @@ relation:
     - id: W3C REC-widgets-digsig-20130418
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-widgets-digsig-20130418
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: OBSL-widgets-digsig-20181011
 ext:
@@ -107,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

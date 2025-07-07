@@ -5,7 +5,7 @@ title:
 - content: The WebSocket API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/CR-websockets-20111208/
+- content: https://www.w3.org/TR/2011/CR-websockets-20111208/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebsockets
+    title:
+    - content: The WebSocket API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/websockets/
+      type: src
+    docid:
+    - id: W3C websockets
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-websockets-20110929
+    title:
+    - content: The WebSocket API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-websockets-20110929/
+    - content: https://www.w3.org/TR/2011/WD-websockets-20110929/
       type: src
     docid:
     - id: W3C WD-websockets-20110929
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-websockets-20110929
+- type: updatedBy
+  bibitem:
+    id: W3CWD-websockets-20120524
+    title:
+    - content: The WebSocket API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-websockets-20120524/
+      type: src
+    docid:
+    - id: W3C WD-websockets-20120524
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-websockets-20111208
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

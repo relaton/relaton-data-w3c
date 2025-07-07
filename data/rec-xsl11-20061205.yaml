@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxsl11
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xsl11/
+      type: src
+    docid:
+    - id: W3C xsl11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xsl11-20061006
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/PR-xsl11-20061006/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-xsl11-20061006
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xsl11-20061006
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxsl11-errata.html
-    link:
-    - content: https://www.w3.org/2006/12/xsl11-errata.html
-      type: src
-    docid:
-    - id: W3C xsl11-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xsl11-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xsl11-20061205
 ext:
@@ -83,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

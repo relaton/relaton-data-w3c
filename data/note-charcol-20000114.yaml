@@ -5,7 +5,7 @@ title:
 - content: A Notation for Character Collections for the WWW
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-charcol-20000114
+- content: https://www.w3.org/TR/2000/NOTE-charcol-20000114
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Martin J. Dürst
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dürst
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccharcol
+    title:
+    - content: A Notation for Character Collections for the WWW
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/charcol
+      type: src
+    docid:
+    - id: W3C charcol
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-charcol-20000114
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

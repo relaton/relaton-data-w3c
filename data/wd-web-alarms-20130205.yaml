@@ -5,7 +5,7 @@ title:
 - content: Web Alarms API Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-web-alarms-20130205/
+- content: https://www.w3.org/TR/2013/WD-web-alarms-20130205/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christophe Dumez
+      given:
+        forename:
+        - content: Christophe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dumez
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ctask-scheduler
+    title:
+    - content: Task Scheduler API Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/task-scheduler/
+      type: src
+    docid:
+    - id: W3C task-scheduler
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-task-scheduler-20141202
+    title:
+    - content: Task Scheduler API Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-task-scheduler-20141202/
+      type: src
+    docid:
+    - id: W3C WD-task-scheduler-20141202
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-web-alarms-20130205
 ext:

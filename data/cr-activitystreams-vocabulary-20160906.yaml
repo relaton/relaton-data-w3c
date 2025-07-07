@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/CR-activitystreams-vocabulary-20160906/
   type: src
-- content: https://w3c.github.io/activitystreams/vocabulary/
-  type: current
 type: standard
 docid:
 - id: W3C CR-activitystreams-vocabulary-20160906
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Evan Prodromou
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snell
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Snell
+      given:
+        forename:
+        - content: Evan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prodromou
         language:
         - en
         script:
@@ -54,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitystreams-vocabulary
+    title:
+    - content: Activity Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitystreams-vocabulary/
+      type: src
+    docid:
+    - id: W3C activitystreams-vocabulary
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-activitystreams-vocabulary-20160712
+    title:
+    - content: Activity Vocabulary
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-activitystreams-vocabulary-20160712/
+    - content: https://www.w3.org/TR/2016/WD-activitystreams-vocabulary-20160712/
       type: src
     docid:
     - id: W3C WD-activitystreams-vocabulary-20160712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-activitystreams-vocabulary-20160712
+- type: updatedBy
+  bibitem:
+    id: W3CCR-activitystreams-vocabulary-20161215
+    title:
+    - content: Activity Vocabulary
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-activitystreams-vocabulary-20161215/
+      type: src
+    docid:
+    - id: W3C CR-activitystreams-vocabulary-20161215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-activitystreams-vocabulary-20160906
 ext:

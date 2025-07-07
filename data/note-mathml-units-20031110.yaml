@@ -25,34 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Douglas Harder
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stan Devitt
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-11-10'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmathml-units
+    title:
+    - content: Units in MathML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mathml-units/
+      type: src
+    docid:
+    - id: W3C mathml-units
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mathml-units-20031110
 ext:

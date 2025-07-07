@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-post-type-discovery-20170801/
   type: src
-- content: https://tantek.github.io/post-type-discovery/
-  type: current
 type: standard
 docid:
 - id: W3C WD-post-type-discovery-20170801
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpost-type-discovery
+    title:
+    - content: Post Type Discovery
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/post-type-discovery/
+      type: src
+    docid:
+    - id: W3C post-type-discovery
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-post-type-discovery-20170614
+    title:
+    - content: Post Type Discovery
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-post-type-discovery-20170614/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-post-type-discovery-20170614
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-post-type-discovery-20170614
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-post-type-discovery-20180118
+    title:
+    - content: Post Type Discovery
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/NOTE-post-type-discovery-20180118/
+      type: src
+    docid:
+    - id: W3C NOTE-post-type-discovery-20180118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-post-type-discovery-20170801
 ext:

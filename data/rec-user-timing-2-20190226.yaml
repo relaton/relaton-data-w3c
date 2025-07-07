@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/REC-user-timing-2-20190226/
   type: src
-- content: https://w3c.github.io/user-timing/
-  type: current
 type: standard
 docid:
 - id: W3C REC-user-timing-2-20190226
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuser-timing-2
+    title:
+    - content: User Timing Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/user-timing-2/
+      type: src
+    docid:
+    - id: W3C user-timing-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-user-timing-2-20190110
+    title:
+    - content: User Timing Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/PR-user-timing-2-20190110/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C PR-user-timing-2-20190110
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-user-timing-2-20190110
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-user-timing-2-20190226
 ext:

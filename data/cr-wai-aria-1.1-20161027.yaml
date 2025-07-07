@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/CR-wai-aria-1.1-20161027/
   type: src
-- content: http://w3c.github.io/aria/aria/aria.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-wai-aria-1.1-20161027
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: James Craig
+      given:
+        forename:
+        - content: Joanmarie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Diggs
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joanmarie Diggs
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Craig
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -74,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwai-aria-1.1
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wai-aria-1.1/
+      type: src
+    docid:
+    - id: W3C wai-aria-1.1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wai-aria-1.1-20160721
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-wai-aria-1.1-20160721/
+    - content: https://www.w3.org/TR/2016/WD-wai-aria-1.1-20160721/
       type: src
     docid:
     - id: W3C WD-wai-aria-1.1-20160721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wai-aria-1.1-20160721
+- type: updatedBy
+  bibitem:
+    id: W3CPR-wai-aria-1.1-20171102
+    title:
+    - content: Accessible Rich Internet Applications (WAI-ARIA) 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/PR-wai-aria-1.1-20171102/
+      type: src
+    docid:
+    - id: W3C PR-wai-aria-1.1-20171102
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-wai-aria-1.1-20161027
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jun Zhao
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cyganiak
         language:
         - en
         script:
@@ -37,28 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Keith Alexander
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Hausenblas
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Richard Cyganiak
+      given:
+        forename:
+        - content: Jun
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhao
         language:
         - en
         script:
@@ -70,9 +64,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvoid
+    title:
+    - content: Describing Linked Datasets with the VoID Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/void/
+      type: src
+    docid:
+    - id: W3C void
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-void-20110303
 ext:

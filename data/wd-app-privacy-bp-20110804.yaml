@@ -5,7 +5,7 @@ title:
 - content: Web Application Privacy Best Practices
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-app-privacy-bp-20110804/
+- content: https://www.w3.org/TR/2011/WD-app-privacy-bp-20110804/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Frederick Hirsch
+      given:
+        forename:
+        - content: Frederick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hirsch
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Capp-privacy-bp
+    title:
+    - content: Web Application Privacy Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/app-privacy-bp/
+      type: src
+    docid:
+    - id: W3C app-privacy-bp
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-app-privacy-bp-20120703
+    title:
+    - content: Web Application Privacy Best Practices
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/NOTE-app-privacy-bp-20120703/
+      type: src
+    docid:
+    - id: W3C NOTE-app-privacy-bp-20120703
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-app-privacy-bp-20110804
 ext:

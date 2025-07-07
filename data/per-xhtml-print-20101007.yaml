@@ -5,7 +5,7 @@ title:
 - content: XHTML-Print - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PER-xhtml-print-20101007/
+- content: https://www.w3.org/TR/2010/PER-xhtml-print-20101007/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Edited Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-print
+    title:
+    - content: XHTML-Print - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-print/
+      type: src
+    docid:
+    - id: W3C xhtml-print
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-xhtml-print-20060920
+    title:
+    - content: XHTML-Print
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/REC-xhtml-print-20060920/
+    - content: https://www.w3.org/TR/2006/REC-xhtml-print-20060920/
       type: src
     docid:
     - id: W3C REC-xhtml-print-20060920
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-print-20060920
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml-print-20101123
+    title:
+    - content: XHTML-Print - Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-xhtml-print-20101123/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-print-20101123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xhtml-print-20101007
 ext:

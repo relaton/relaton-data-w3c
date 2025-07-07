@@ -5,10 +5,8 @@ title:
 - content: Digital Publishing WAI-ARIA Module 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-dpub-aria-1.0-20150707/
+- content: https://www.w3.org/TR/2015/WD-dpub-aria-1.0-20150707/
   type: src
-- content: http://w3c.github.io/aria/aria/dpub.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-dpub-aria-1.0-20150707
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Markus Gylling
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garrish
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Garrish
+      given:
+        forename:
+        - content: Tzviya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Siegman
         language:
         - en
         script:
@@ -49,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tzviya Siegman
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -74,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-aria-1.0
+    title:
+    - content: Digital Publishing WAI-ARIA Module 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-aria-1.0/
+      type: src
+    docid:
+    - id: W3C dpub-aria-1.0
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dpub-aria-1.0-20151119
+    title:
+    - content: Digital Publishing WAI-ARIA Module 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-dpub-aria-1.0-20151119/
+      type: src
+    docid:
+    - id: W3C WD-dpub-aria-1.0-20151119
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-dpub-aria-1.0-20150707
 ext:

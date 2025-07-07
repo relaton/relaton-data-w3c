@@ -29,20 +29,10 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-responsible-use-spatial-20210119
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-responsible-use-spatial-20210119/
-      type: src
-    docid:
-    - id: W3C NOTE-responsible-use-spatial-20210119
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C NOTE-responsible-use-spatial-20210119
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CNOTE-responsible-use-spatial-20210527
+    title:
+    - content: The Responsible Use of Spatial Data
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-responsible-use-spatial-20210527/
       type: src
@@ -50,12 +40,22 @@ relation:
     - id: W3C NOTE-responsible-use-spatial-20210527
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-responsible-use-spatial-20210527
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-responsible-use-spatial-20210119
+    title:
+    - content: The Responsible Use of Spatial Data
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-responsible-use-spatial-20210119/
+      type: src
+    docid:
+    - id: W3C NOTE-responsible-use-spatial-20210119
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: responsible-use-spatial
 ext:

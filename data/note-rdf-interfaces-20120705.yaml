@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Adrian
+      given:
+        forename:
+        - content: Nathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rixham
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nathan Rixham
+      given:
+        forename:
+        - content: Benjamin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adrian
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-interfaces
+    title:
+    - content: RDF Interfaces
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-interfaces/
+      type: src
+    docid:
+    - id: W3C rdf-interfaces
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-interfaces-20110510
+    title:
+    - content: RDF Interfaces 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/WD-rdf-interfaces-20110510/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-rdf-interfaces-20110510
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-interfaces-20110510
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-rdf-interfaces-20120705
 ext:

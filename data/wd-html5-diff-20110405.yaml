@@ -5,7 +5,7 @@ title:
 - content: HTML5 differences from HTML4
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-html5-diff-20110405/
+- content: https://www.w3.org/TR/2011/WD-html5-diff-20110405/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Pieters
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pieters
         language:
         - en
         script:
@@ -54,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml5-diff
+    title:
+    - content: HTML5 Differences from HTML4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html5-diff/
+      type: src
+    docid:
+    - id: W3C html5-diff
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html5-diff-20110113
+    title:
+    - content: HTML5 differences from HTML4
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-html5-diff-20110113/
+    - content: https://www.w3.org/TR/2011/WD-html5-diff-20110113/
       type: src
     docid:
     - id: W3C WD-html5-diff-20110113
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html5-diff-20110113
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html5-diff-20110525
+    title:
+    - content: HTML5 differences from HTML4
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-html5-diff-20110525/
+      type: src
+    docid:
+    - id: W3C WD-html5-diff-20110525
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html5-diff-20110405
 ext:
@@ -77,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

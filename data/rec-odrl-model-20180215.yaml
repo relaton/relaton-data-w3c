@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/REC-odrl-model-20180215/
   type: src
-- content: https://w3c.github.io/poe/model/
-  type: current
 type: standard
 docid:
 - id: W3C REC-odrl-model-20180215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Renato Iannella
+      given:
+        forename:
+        - content: Renato
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Iannella
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Serena Villata
+      given:
+        forename:
+        - content: Serena
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Villata
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Codrl-model
+    title:
+    - content: ODRL Information Model 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/odrl-model/
+      type: src
+    docid:
+    - id: W3C odrl-model
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-odrl-model-20180104
+    title:
+    - content: ODRL Information Model 2.2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/PR-odrl-model-20180104/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C PR-odrl-model-20180104
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-odrl-model-20180104
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2016/poe/errata/
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-odrl-model-20180215
 ext:

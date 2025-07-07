@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-predefined-counter-styles-20210609/
   type: src
-- content: https://w3c.github.io/predefined-counter-styles/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-predefined-counter-styles-20210609
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpredefined-counter-styles
+    title:
+    - content: Ready-made Counter Styles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/predefined-counter-styles/
+      type: src
+    docid:
+    - id: W3C predefined-counter-styles
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-predefined-counter-styles-20210606
+    title:
+    - content: Ready-made Counter Styles
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-predefined-counter-styles-20210606/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C NOTE-predefined-counter-styles-20210606
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-predefined-counter-styles-20210606
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-predefined-counter-styles-20230619
+    title:
+    - content: Ready-made Counter Styles
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/NOTE-predefined-counter-styles-20230619/
+      type: src
+    docid:
+    - id: W3C NOTE-predefined-counter-styles-20230619
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-predefined-counter-styles-20210609
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/CRD-service-workers-20220712/
   type: src
-- content: https://w3c.github.io/ServiceWorker/
-  type: current
 type: standard
 docid:
 - id: W3C CRD-service-workers-20220712
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jake Archibald
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Marijn Kruisselbrink
+      given:
+        forename:
+        - content: Marijn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kruisselbrink
         language:
         - en
         script:
@@ -54,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cservice-workers
+    title:
+    - content: Service Workers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/service-workers/
+      type: src
+    docid:
+    - id: W3C service-workers
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-service-workers-1-20191119
+    title:
+    - content: Service Workers 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/CR-service-workers-1-20191119/
       type: src
@@ -66,12 +77,25 @@ relation:
     - id: W3C CR-service-workers-1-20191119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-service-workers-1-20191119
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-service-workers-20250306
+    title:
+    - content: Service Workers
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/CRD-service-workers-20250306/
+      type: src
+    docid:
+    - id: W3C CRD-service-workers-20250306
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Draft
     format: text/plain
   number: CRD-service-workers-20220712
 ext:

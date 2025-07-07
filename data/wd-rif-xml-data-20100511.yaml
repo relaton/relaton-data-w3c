@@ -5,7 +5,7 @@ title:
 - content: RIF Combination with XML data
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-rif-xml-data-20100511/
+- content: https://www.w3.org/TR/2010/WD-rif-xml-data-20100511/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christian de Sainte Marie
+      given:
+        forename:
+        - content: Christian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Sainte Marie
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-xml-data
+    title:
+    - content: RIF Combination with XML data (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-xml-data/
+      type: src
+    docid:
+    - id: W3C rif-xml-data
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rif-xml-data-20091001
+    title:
+    - content: RIF Combination with XML data
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/WD-rif-xml-data-20091001/
+    - content: https://www.w3.org/TR/2009/WD-rif-xml-data-20091001/
       type: src
     docid:
     - id: W3C WD-rif-xml-data-20091001
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rif-xml-data-20091001
+- type: updatedBy
+  bibitem:
+    id: W3CWD-rif-xml-data-20100622
+    title:
+    - content: RIF Combination with XML data
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-rif-xml-data-20100622/
+      type: src
+    docid:
+    - id: W3C WD-rif-xml-data-20100622
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-rif-xml-data-20100511
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

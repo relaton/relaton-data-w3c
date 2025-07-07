@@ -5,10 +5,8 @@ title:
 - content: HTML to Platform Accessibility APIs Implementation Guide
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-html-aapi-20131001/
+- content: https://www.w3.org/TR/2013/WD-html-aapi-20131001/
   type: src
-- content: http://rawgithub.com/w3c/html-api-map/master/index.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-html-aapi-20131001
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alexander Surkov
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cynthia Shelly
+      given:
+        forename:
+        - content: Cynthia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shelly
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jason Kiss
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kiss
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Alexander
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Surkov
         language:
         - en
         script:
@@ -76,22 +102,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-aapi
+    title:
+    - content: HTML to Platform Accessibility APIs Implementation Guide
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-aapi/
+      type: src
+    docid:
+    - id: W3C html-aapi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-aapi-20130910
+    title:
+    - content: HTML to Platform Accessibility APIs Implementation Guide
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-html-aapi-20130910/
+    - content: https://www.w3.org/TR/2013/WD-html-aapi-20130910/
       type: src
     docid:
     - id: W3C WD-html-aapi-20130910
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-aapi-20130910
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-html-aapi-20150929
+    title:
+    - content: HTML to Platform Accessibility APIs Implementation Guide
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-html-aapi-20150929/
+      type: src
+    docid:
+    - id: W3C NOTE-html-aapi-20150929
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-aapi-20131001
 ext:
@@ -99,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

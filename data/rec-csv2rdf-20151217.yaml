@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/REC-csv2rdf-20151217/
   type: src
-- content: https://w3c.github.io/csvw/csv2rdf/
-  type: current
 type: standard
 docid:
 - id: W3C REC-csv2rdf-20151217
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Jeremy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tandy
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeremy Tandy
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsv2rdf
+    title:
+    - content: Generating RDF from Tabular Data on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csv2rdf/
+      type: src
+    docid:
+    - id: W3C csv2rdf
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-csv2rdf-20151117
+    title:
+    - content: Generating RDF from Tabular Data on the Web
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/PR-csv2rdf-20151117/
       type: src
@@ -76,12 +111,9 @@ relation:
     - id: W3C PR-csv2rdf-20151117
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-csv2rdf-20151117
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-csv2rdf-20151217
 ext:

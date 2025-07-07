@@ -5,10 +5,8 @@ title:
 - content: HTML5 Web Messaging
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/PR-webmessaging-20150407/
+- content: https://www.w3.org/TR/2015/PR-webmessaging-20150407/
   type: src
-- content: http://dev.w3.org/html5/postmsg/
-  type: current
 type: standard
 docid:
 - id: W3C PR-webmessaging-20150407
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebmessaging
+    title:
+    - content: HTML5 Web Messaging
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webmessaging/
+      type: src
+    docid:
+    - id: W3C webmessaging
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-webmessaging-20120501
+    title:
+    - content: HTML5 Web Messaging
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/CR-webmessaging-20120501/
+    - content: https://www.w3.org/TR/2012/CR-webmessaging-20120501/
       type: src
     docid:
     - id: W3C CR-webmessaging-20120501
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-webmessaging-20120501
+- type: updatedBy
+  bibitem:
+    id: W3CREC-webmessaging-20150519
+    title:
+    - content: HTML5 Web Messaging
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-webmessaging-20150519/
+      type: src
+    docid:
+    - id: W3C REC-webmessaging-20150519
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-webmessaging-20150407
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

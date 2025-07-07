@@ -25,24 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Michael Sperberg-McQueen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2011-06-09'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxsd-unicode-blocknames
+    title:
+    - content: Unicode block names for use in XSD regular expressions
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xsd-unicode-blocknames/
+      type: src
+    docid:
+    - id: W3C xsd-unicode-blocknames
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xsd-unicode-blocknames-20110609
 ext:

@@ -5,10 +5,8 @@ title:
 - content: Network Error Logging
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-network-error-logging-20150305/
+- content: https://www.w3.org/TR/2015/WD-network-error-logging-20150305/
   type: src
-- content: https://w3c.github.io/network-error-logging/
-  type: current
 type: standard
 docid:
 - id: W3C WD-network-error-logging-20150305
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arvind Jain
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Arvind
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jain
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnetwork-error-logging
+    title:
+    - content: Network Error Logging
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/network-error-logging/
+      type: src
+    docid:
+    - id: W3C network-error-logging
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-navigation-error-logging-20140211
+    title:
+    - content: Navigation Error Logging
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-navigation-error-logging-20140211/
+    - content: https://www.w3.org/TR/2014/WD-navigation-error-logging-20140211/
       type: src
     docid:
     - id: W3C WD-navigation-error-logging-20140211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-navigation-error-logging-20140211
+- type: updatedBy
+  bibitem:
+    id: W3CWD-network-error-logging-20150422
+    title:
+    - content: Network Error Logging
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-network-error-logging-20150422/
+      type: src
+    docid:
+    - id: W3C WD-network-error-logging-20150422
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-network-error-logging-20150305
 ext:

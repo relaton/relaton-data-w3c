@@ -5,7 +5,7 @@ title:
 - content: Annotation of Web Content for Transcoding
   format: text/plain
 link:
-- content: http://www.w3.org/1999/07/NOTE-annot-19990710
+- content: https://www.w3.org/1999/07/NOTE-annot-19990710
   type: src
 type: standard
 docid:
@@ -25,55 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Hiroshi Maruyama
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Masahiro Hori
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rakesh Mohan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sandeep Singhal
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '1999-07-10'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cannot
+    title:
+    - content: Annotation of Web Content for Transcoding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/annot
+      type: src
+    docid:
+    - id: W3C annot
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-annot-19990710
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

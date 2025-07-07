@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-pubsub-20161020/
   type: src
-- content: https://w3c.github.io/pubsub/
-  type: current
 type: standard
 docid:
 - id: W3C WD-pubsub-20161020
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Julien Genestoux
+      given:
+        forename:
+        - content: Julien
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Genestoux
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebsub
+    title:
+    - content: WebSub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/websub/
+      type: src
+    docid:
+    - id: W3C websub
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-websub-20161124
+    title:
+    - content: WebSub
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-websub-20161124/
+      type: src
+    docid:
+    - id: W3C WD-websub-20161124
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-pubsub-20161020
 ext:

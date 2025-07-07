@@ -6,7 +6,7 @@ title:
     Technologies
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-wcag2ict-20121213/
+- content: https://www.w3.org/TR/2012/WD-wcag2ict-20121213/
   type: src
 type: standard
 docid:
@@ -28,18 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andi Snow-Weaver
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -55,22 +52,53 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwcag2ict
+    title:
+    - content: Guidance on Applying WCAG 2.0 to Non-Web Information and Communications
+        Technologies (WCAG2ICT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wcag2ict/
+      type: src
+    docid:
+    - id: W3C wcag2ict
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wcag2ict-20120727
+    title:
+    - content: Applying WCAG 2.0 to Non-Web Information and Communications Technologies
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-wcag2ict-20120727/
+    - content: https://www.w3.org/TR/2012/WD-wcag2ict-20120727/
       type: src
     docid:
     - id: W3C WD-wcag2ict-20120727
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wcag2ict-20120727
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wcag2ict-20130711
+    title:
+    - content: Guidance on Applying WCAG 2.0 to Non-Web Information and Communications
+        Technologies (WCAG2ICT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-wcag2ict-20130711/
+      type: src
+    docid:
+    - id: W3C WD-wcag2ict-20130711
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-wcag2ict-20121213
 ext:

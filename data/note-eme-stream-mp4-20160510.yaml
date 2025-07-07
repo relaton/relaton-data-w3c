@@ -6,10 +6,8 @@ title:
     Format Stream Format
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/NOTE-eme-stream-mp4-20160510/
+- content: https://www.w3.org/TR/2016/NOTE-eme-stream-mp4-20160510/
   type: src
-- content: https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-eme-stream-mp4-20160510
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Bateman
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dorwin
         language:
         - en
         script:
@@ -40,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Dorwin
+      given:
+        forename:
+        - content: Adrian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bateman
         language:
         - en
         script:
@@ -50,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jerry Smith
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watson
         language:
         - en
         script:
@@ -60,8 +79,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Watson
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith
         language:
         - en
         script:
@@ -73,9 +99,44 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ceme-stream-mp4
+    title:
+    - content: ISO Common Encryption Protection Scheme for ISO Base Media File Format
+        Stream Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/eme-stream-mp4/
+      type: src
+    docid:
+    - id: W3C eme-stream-mp4
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-eme-stream-mp4-20160831
+    title:
+    - content: ISO Common Encryption ('cenc') Protection Scheme for ISO Base Media
+        File Format Stream Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-eme-stream-mp4-20160831/
+      type: src
+    docid:
+    - id: W3C NOTE-eme-stream-mp4-20160831
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-eme-stream-mp4-20160510
 ext:
@@ -83,4 +144,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

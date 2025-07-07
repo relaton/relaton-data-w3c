@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-resource-timing-2-20210414/
   type: src
-- content: https://w3c.github.io/resource-timing/
-  type: current
 type: standard
 docid:
 - id: W3C WD-resource-timing-2-20210414
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anderson Quach
+      given:
+        forename:
+        - content: Yoav
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weiss
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Arvind Jain
+      given:
+        forename:
+        - content: Noam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosenthal
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Todd
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reifsteck
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Noam Rosenthal
+      given:
+        forename:
+        - content: Arvind
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jain
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Todd Reifsteck
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -89,18 +129,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yoav Weiss
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Zhiheng Wang
+      given:
+        forename:
+        - content: Zhiheng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -116,9 +153,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cresource-timing
+    title:
+    - content: Resource Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/resource-timing/
+      type: src
+    docid:
+    - id: W3C resource-timing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-resource-timing-2-20210301
+    title:
+    - content: Resource Timing Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-resource-timing-2-20210301/
       type: src
@@ -126,12 +179,25 @@ relation:
     - id: W3C WD-resource-timing-2-20210301
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-resource-timing-2-20210301
+- type: updatedBy
+  bibitem:
+    id: W3CWD-resource-timing-2-20220114
+    title:
+    - content: Resource Timing Level 2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-resource-timing-2-20220114/
+      type: src
+    docid:
+    - id: W3C WD-resource-timing-2-20220114
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-resource-timing-2-20210414
 ext:

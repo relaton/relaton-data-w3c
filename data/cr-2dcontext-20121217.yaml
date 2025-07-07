@@ -5,7 +5,7 @@ title:
 - content: HTML Canvas 2D Context
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+- content: https://www.w3.org/TR/2012/CR-2dcontext-20121217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eliot Graff
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jay Munro
+      given:
+        forename:
+        - content: Eliot
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graff
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tom Wiltzius
+      given:
+        forename:
+        - content: Jay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Munro
         language:
         - en
         script:
@@ -72,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3C2dcontext
+    title:
+    - content: HTML Canvas 2D Context
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2dcontext/
+      type: src
+    docid:
+    - id: W3C 2dcontext
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-2dcontext-20121025
+    title:
+    - content: HTML Canvas 2D Context
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2012/WD-2dcontext-20121025/
+    - content: https://www.w3.org/TR/2012/WD-2dcontext-20121025/
       type: src
     docid:
     - id: W3C WD-2dcontext-20121025
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-2dcontext-20121025
+- type: updatedBy
+  bibitem:
+    id: W3CCR-2dcontext-20130806
+    title:
+    - content: HTML Canvas 2D Context
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-2dcontext-20130806/
+      type: src
+    docid:
+    - id: W3C CR-2dcontext-20130806
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-2dcontext-20121217
 ext:
@@ -97,4 +137,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

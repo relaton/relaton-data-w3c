@@ -5,7 +5,7 @@ title:
 - content: Efficient XML Interchange (EXI) for JSON
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-exi-for-json-20160128/
+- content: https://www.w3.org/TR/2016/WD-exi-for-json-20160128/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Peintner
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peintner
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Don Brutzman
+      given:
+        forename:
+        - content: Don
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brutzman
         language:
         - en
         script:
@@ -52,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cexi-for-json
+    title:
+    - content: EXI for JSON (EXI4JSON)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/exi-for-json/
+      type: src
+    docid:
+    - id: W3C exi-for-json
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-exi-for-json-20160823
+    title:
+    - content: EXI for JSON (EXI4JSON)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-exi-for-json-20160823/
+      type: src
+    docid:
+    - id: W3C WD-exi-for-json-20160823
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-exi-for-json-20160128
 ext:
@@ -63,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Efficient Extensible Interchange Working Group
+  - name: Efficient Extensible Interchange  Working Group

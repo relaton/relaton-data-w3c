@@ -5,7 +5,7 @@ title:
 - content: Simple Delivery Profile for Closed Captions (US)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-ttml10-sdp-us-20120913/
+- content: https://www.w3.org/TR/2012/WD-ttml10-sdp-us-20120913/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Monica Martin
+      given:
+        forename:
+        - content: Sean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hayes
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sean Hayes
+      given:
+        forename:
+        - content: Monica
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Martin
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml10-sdp-us
+    title:
+    - content: TTML Simple Delivery Profile for Closed Captions (US)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml10-sdp-us/
+      type: src
+    docid:
+    - id: W3C ttml10-sdp-us
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ttml10-sdp-us-20130103
+    title:
+    - content: Simple Delivery Profile for Closed Captions (US)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-ttml10-sdp-us-20130103/
+      type: src
+    docid:
+    - id: W3C WD-ttml10-sdp-us-20130103
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ttml10-sdp-us-20120913
 ext:

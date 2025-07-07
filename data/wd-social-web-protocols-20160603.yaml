@@ -5,10 +5,8 @@ title:
 - content: Social Web Protocols
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-social-web-protocols-20160603/
+- content: https://www.w3.org/TR/2016/WD-social-web-protocols-20160603/
   type: src
-- content: https://w3c-social.github.io/social-web-protocols
-  type: current
 type: standard
 docid:
 - id: W3C WD-social-web-protocols-20160603
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csocial-web-protocols
+    title:
+    - content: Social Web Protocols
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/social-web-protocols/
+      type: src
+    docid:
+    - id: W3C social-web-protocols
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-social-web-protocols-20160112
+    title:
+    - content: Social Web Protocols
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-social-web-protocols-20160112/
+    - content: https://www.w3.org/TR/2016/WD-social-web-protocols-20160112/
       type: src
     docid:
     - id: W3C WD-social-web-protocols-20160112
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-social-web-protocols-20160112
+- type: updatedBy
+  bibitem:
+    id: W3CWD-social-web-protocols-20160823
+    title:
+    - content: Social Web Protocols
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-social-web-protocols-20160823/
+      type: src
+    docid:
+    - id: W3C WD-social-web-protocols-20160823
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-social-web-protocols-20160603
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-dom41-20171102/
   type: src
-- content: https://w3c.github.io/dom/
-  type: current
 type: standard
 docid:
 - id: W3C WD-dom41-20171102
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Yongsheng Zhu
+      given:
+        forename:
+        - content: Yongsheng
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhu
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdom41
+    title:
+    - content: W3C DOM 4.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dom41/
+      type: src
+    docid:
+    - id: W3C dom41
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dom41-20171031
+    title:
+    - content: W3C DOM 4.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-dom41-20171031/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-dom41-20171031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dom41-20171031
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dom41-20171207
+    title:
+    - content: W3C DOM 4.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-dom41-20171207/
+      type: src
+    docid:
+    - id: W3C WD-dom41-20171207
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dom41-20171102
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

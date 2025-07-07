@@ -5,10 +5,8 @@ title:
 - content: Semantic Sensor Network Ontology
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-vocab-ssn-20160531/
+- content: https://www.w3.org/TR/2016/WD-vocab-ssn-20160531/
   type: src
-- content: http://w3c.github.io/sdw/ssn/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vocab-ssn-20160531
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Armin Haller
+      given:
+        forename:
+        - content: Kerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taylor
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Danh Le Phuoc
+      given:
+        forename:
+        - content: Krzysztof
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Janowicz
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kerry Taylor
+      given:
+        forename:
+        - content: Danh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Phuoc
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Krzysztof Janowicz
+      given:
+        forename:
+        - content: Armin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haller
         language:
         - en
         script:
@@ -74,10 +100,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-ssn
+    title:
+    - content: Semantic Sensor Network Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-ssn/
+      type: src
+    docid:
+    - id: W3C vocab-ssn
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vocab-ssn-20170105
+    title:
+    - content: Semantic Sensor Network Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-vocab-ssn-20170105/
+      type: src
+    docid:
+    - id: W3C WD-vocab-ssn-20170105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-vocab-ssn-20160531
 ext:
@@ -85,4 +141,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group

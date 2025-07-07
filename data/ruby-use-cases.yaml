@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-ruby-use-cases-20131008
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-ruby-use-cases-20131008/
       type: src
@@ -37,12 +40,35 @@ relation:
     - id: W3C NOTE-ruby-use-cases-20131008
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-ruby-use-cases-20131008
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ruby-use-cases-20130910
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/
+      type: src
+    docid:
+    - id: W3C WD-ruby-use-cases-20130910
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ruby-use-cases-20120710
+    title:
+    - content: Use Cases & Exploratory Approaches for Ruby Markup
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-ruby-use-cases-20120710/
+      type: src
+    docid:
+    - id: W3C WD-ruby-use-cases-20120710
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: ruby-use-cases
 ext:

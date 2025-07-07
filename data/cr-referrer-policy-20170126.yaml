@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/CR-referrer-policy-20170126/
   type: src
-- content: https://w3c.github.io/webappsec-referrer-policy/
-  type: current
 type: standard
 docid:
 - id: W3C CR-referrer-policy-20170126
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Emily Stark
+      given:
+        forename:
+        - content: Jochen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eisinger
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jochen Eisinger
+      given:
+        forename:
+        - content: Emily
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stark
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Creferrer-policy
+    title:
+    - content: Referrer Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/referrer-policy/
+      type: src
+    docid:
+    - id: W3C referrer-policy
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-referrer-policy-20161222
+    title:
+    - content: Referrer Policy
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-referrer-policy-20161222/
       type: src
@@ -66,12 +94,9 @@ relation:
     - id: W3C WD-referrer-policy-20161222
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-referrer-policy-20161222
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-referrer-policy-20170126
 ext:

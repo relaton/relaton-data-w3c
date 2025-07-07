@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Liam Quin
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Liam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Quin
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-alt-techniques
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-alt-techniques/
+      type: src
+    docid:
+    - id: W3C html-alt-techniques
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-alt-techniques-20141023
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-html-alt-techniques-20141023/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-html-alt-techniques-20141023
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-alt-techniques-20141023
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-html-alt-techniques-20150521
 ext:
@@ -84,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

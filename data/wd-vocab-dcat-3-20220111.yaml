@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220111/
   type: src
-- content: https://w3c.github.io/dxwg/dcat/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vocab-dcat-3-20220111
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alejandra Gonzalez Beltran
+      given:
+        forename:
+        - content: Riccardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Albertoni
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Andrea Perego
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Browning
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Browning
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cox
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter Winstanley
+      given:
+        forename:
+        - content: Alejandra
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gonzalez Beltran
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Riccardo Albertoni
+      given:
+        forename:
+        - content: Andrea
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Perego
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Cox
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Winstanley
         language:
         - en
         script:
@@ -96,9 +136,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-dcat-3
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-dcat-3/
+      type: src
+    docid:
+    - id: W3C vocab-dcat-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vocab-dcat-3-20210504
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-vocab-dcat-3-20210504/
       type: src
@@ -106,12 +162,25 @@ relation:
     - id: W3C WD-vocab-dcat-3-20210504
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-3-20210504
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vocab-dcat-3-20220510
+    title:
+    - content: Data Catalog Vocabulary (DCAT) - Version 3
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220510/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-3-20220510
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vocab-dcat-3-20220111
 ext:

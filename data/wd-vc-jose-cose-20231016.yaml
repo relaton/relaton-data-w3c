@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-vc-jose-cose-20231016/
   type: src
-- content: https://w3c.github.io/vc-jose-cose/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vc-jose-cose-20231016
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gabe Cohen
+      given:
+        forename:
+        - content: Orie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steele
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Jones
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Prorock
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Prorock
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Orie Steele
+      given:
+        forename:
+        - content: Gabe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cohen
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-jose-cose
+    title:
+    - content: Securing Verifiable Credentials using JOSE and COSE
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-jose-cose/
+      type: src
+    docid:
+    - id: W3C vc-jose-cose
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vc-jose-cose-20231014
+    title:
+    - content: Securing Verifiable Credentials using JOSE and COSE
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-vc-jose-cose-20231014/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C WD-vc-jose-cose-20231014
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vc-jose-cose-20231014
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vc-jose-cose-20231024
+    title:
+    - content: Securing Verifiable Credentials using JOSE and COSE
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-jose-cose-20231024/
+      type: src
+    docid:
+    - id: W3C WD-vc-jose-cose-20231024
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-vc-jose-cose-20231016
 ext:

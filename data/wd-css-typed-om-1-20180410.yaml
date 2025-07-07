@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-css-typed-om-1-20180410/
   type: src
-- content: https://drafts.css-houdini.org/css-typed-om-1/
-  type: current
 type: standard
 docid:
 - id: W3C WD-css-typed-om-1-20180410
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Naina Raisinghani
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stephens
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Shane Stephens
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Naina
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raisinghani
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-typed-om-1
+    title:
+    - content: CSS Typed OM Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-typed-om-1/
+      type: src
+    docid:
+    - id: W3C css-typed-om-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-typed-om-1-20170801
+    title:
+    - content: CSS Typed OM Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-css-typed-om-1-20170801/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-css-typed-om-1-20170801
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-typed-om-1-20170801
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css-typed-om-1-20240321
+    title:
+    - content: CSS Typed OM Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-css-typed-om-1-20240321/
+      type: src
+    docid:
+    - id: W3C WD-css-typed-om-1-20240321
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-typed-om-1-20180410
 ext:
@@ -89,5 +137,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
+  - name: Cascading Style Sheets (CSS) Working Group
   - name: Technical Architecture Group
-  - name: Cascading Style Sheets Working Group

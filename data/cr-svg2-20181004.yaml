@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/CR-SVG2-20181004/
   type: src
-- content: https://svgwg.org/svg2-draft/
-  type: current
 type: standard
 docid:
 - id: W3C CR-SVG2-20181004
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Amelia Bellamy-Royds
+      given:
+        forename:
+        - content: Amelia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellamy-Royds
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Bogdan Brinza
+      given:
+        forename:
+        - content: Bogdan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brinza
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Lilley
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lilley
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Storey
+      given:
+        forename:
+        - content: Dirk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schulze
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dirk Schulze
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Storey
         language:
         - en
         script:
@@ -79,8 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eric Willigers
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Willigers
         language:
         - en
         script:
@@ -94,11 +134,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSVG2
+    title:
+    - content: Scalable Vector Graphics (SVG) 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SVG2/
+      type: src
+    docid:
+    - id: W3C SVG2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-SVG2-20180807
+    title:
+    - content: Scalable Vector Graphics (SVG) 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/CR-SVG2-20180807/
       type: src
@@ -106,12 +162,9 @@ relation:
     - id: W3C CR-SVG2-20180807
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-SVG2-20180807
-      format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-SVG2-20181004
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick D F Ion
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-entity-names
+    title:
+    - content: XML Entity Definitions for Characters (3rd Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-entity-names/
+      type: src
+    docid:
+    - id: W3C xml-entity-names
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-xml-entity-names-20140211
+    title:
+    - content: XML Entity Definitions for Characters (2nd Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/PER-xml-entity-names-20140211/
       type: src
@@ -64,25 +94,25 @@ relation:
     - id: W3C PER-xml-entity-names-20140211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-xml-entity-names-20140211
-      format: text/plain
-- type: editionOf
+- type: updatedBy
   bibitem:
-    id: W3CREC-xml-entity-names-20100401
+    id: W3CREC-xml-entity-names-20230307
+    title:
+    - content: XML Entity Definitions for Characters (3rd Edition)
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2010/REC-xml-entity-names-20100401/
+    - content: https://www.w3.org/TR/2023/REC-xml-entity-names-20230307/
       type: src
     docid:
-    - id: W3C REC-xml-entity-names-20100401
+    - id: W3C REC-xml-entity-names-20230307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xml-entity-names-20100401
-      format: text/plain
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xml-entity-names-20140410
 ext:

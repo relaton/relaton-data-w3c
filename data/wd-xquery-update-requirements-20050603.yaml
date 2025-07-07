@@ -5,7 +5,7 @@ title:
 - content: XQuery Update Facility Requirements
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-xquery-update-requirements-20050603/
+- content: https://www.w3.org/TR/2005/WD-xquery-update-requirements-20050603/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-update-10-requirements
+    title:
+    - content: XQuery Update Facility 1.0 Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-update-10-requirements/
+      type: src
+    docid:
+    - id: W3C xquery-update-10-requirements
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xquery-update-requirements-20050211
+    title:
+    - content: XQuery Update Facility Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-xquery-update-requirements-20050211/
+    - content: https://www.w3.org/TR/2005/WD-xquery-update-requirements-20050211/
       type: src
     docid:
     - id: W3C WD-xquery-update-requirements-20050211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xquery-update-requirements-20050211
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-update-10-requirements-20070828
+    title:
+    - content: XQuery Update Facility 1.0 Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-xquery-update-10-requirements-20070828/
+      type: src
+    docid:
+    - id: W3C WD-xquery-update-10-requirements-20070828
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-update-requirements-20050603
 ext:

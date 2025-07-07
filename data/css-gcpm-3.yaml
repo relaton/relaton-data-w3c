@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-gcpm-3-20140513
-    link:
-    - content: https://www.w3.org/TR/2014/WD-css-gcpm-3-20140513/
-      type: src
-    docid:
-    - id: W3C WD-css-gcpm-3-20140513
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-gcpm-3-20140513
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-css-gcpm-3-20240125
+    title:
+    - content: CSS Generated Content for Paged Media Module
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-css-gcpm-3-20240125/
       type: src
@@ -53,12 +40,100 @@ relation:
     - id: W3C WD-css-gcpm-3-20240125
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-gcpm-3-20240125
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-gcpm-3-20140513
+    title:
+    - content: CSS Generated Content for Paged Media Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-css-gcpm-3-20140513/
+      type: src
+    docid:
+    - id: W3C WD-css-gcpm-3-20140513
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-gcpm-20111129
+    title:
+    - content: CSS Generated Content for Paged Media Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-css3-gcpm-20111129/
+      type: src
+    docid:
+    - id: W3C WD-css3-gcpm-20111129
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-gcpm-20100608
+    title:
+    - content: CSS Generated Content for Paged Media Module
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-css3-gcpm-20100608
+      type: src
+    docid:
+    - id: W3C WD-css3-gcpm-20100608
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-gcpm-20070504
+    title:
+    - content: 'CSS3 module: Generated Content for Paged Media'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-css3-gcpm-20070504
+      type: src
+    docid:
+    - id: W3C WD-css3-gcpm-20070504
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-gcpm-20070205
+    title:
+    - content: 'CSS3 module: Generated Content for Paged Media'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-css3-gcpm-20070205
+      type: src
+    docid:
+    - id: W3C WD-css3-gcpm-20070205
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-gcpm-20060919
+    title:
+    - content: 'CSS3 module: Generated Content for Paged Media'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-css3-gcpm-20060919
+      type: src
+    docid:
+    - id: W3C WD-css3-gcpm-20060919
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-gcpm-20060612
+    title:
+    - content: 'CSS3 module: Generated Content for Paged Media'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-css3-gcpm-20060612
+      type: src
+    docid:
+    - id: W3C WD-css3-gcpm-20060612
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: css-gcpm-3
 ext:

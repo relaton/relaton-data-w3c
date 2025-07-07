@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-wasm-core-2-20220419/
   type: src
-- content: https://webassembly.github.io/spec/core/
-  type: current
 type: standard
 docid:
 - id: W3C WD-wasm-core-2-20220419
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andreas Rossberg
+      given:
+        forename:
+        - content: Andreas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rossberg
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwasm-core-2
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wasm-core-2/
+      type: src
+    docid:
+    - id: W3C wasm-core-2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-wasm-core-2-20240217
+    title:
+    - content: WebAssembly Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-wasm-core-2-20240217/
+      type: src
+    docid:
+    - id: W3C WD-wasm-core-2-20240217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-wasm-core-2-20220419
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Accessibility Features of CSS
   format: text/plain
 link:
-- content: http://www.w3.org/1999/08/NOTE-CSS-access-19990804
+- content: https://www.w3.org/1999/08/NOTE-CSS-access-19990804
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Jacobs
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jacobs
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Judy Brewer
+      given:
+        forename:
+        - content: Judy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brewer
         language:
         - en
         script:
@@ -50,10 +64,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CCSS-access
+    title:
+    - content: Accessibility Features of CSS
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CSS-access
+      type: src
+    docid:
+    - id: W3C CSS-access
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-CSS-access-19990804
 ext:
   schema-version: v1.0.0
+  doctype:
+    type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

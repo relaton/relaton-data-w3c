@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Donald Eastlake
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boyer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Boyer
+      given:
+        forename:
+        - content: Donald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joseph Reagle
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-exc-c14n
+    title:
+    - content: Exclusive XML Canonicalization Version 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-exc-c14n/
+      type: src
+    docid:
+    - id: W3C xml-exc-c14n
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-xml-exc-c14n-20020524
+    title:
+    - content: Exclusive XML Canonicalization Version 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/PR-xml-exc-c14n-20020524/
       type: src
@@ -74,28 +111,9 @@ relation:
     - id: W3C PR-xml-exc-c14n-20020524
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-xml-exc-c14n-20020524
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cxml-exc-c14n-errata
-    link:
-    - content: https://www.w3.org/2002/07/xml-exc-c14n-errata
-      type: src
-    docid:
-    - id: W3C xml-exc-c14n-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C xml-exc-c14n-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-xml-exc-c14n-20020718
 ext:

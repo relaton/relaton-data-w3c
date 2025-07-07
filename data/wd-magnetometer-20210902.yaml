@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-magnetometer-20210902/
   type: src
-- content: https://w3c.github.io/magnetometer/
-  type: current
 type: standard
 docid:
 - id: W3C WD-magnetometer-20210902
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rijubrata Bhaumik
+      given:
+        forename:
+        - content: Rijubrata
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bhaumik
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmagnetometer
+    title:
+    - content: Magnetometer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/magnetometer/
+      type: src
+    docid:
+    - id: W3C magnetometer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-magnetometer-20210724
+    title:
+    - content: Magnetometer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-magnetometer-20210724/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-magnetometer-20210724
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-magnetometer-20210724
+- type: updatedBy
+  bibitem:
+    id: W3CWD-magnetometer-20211204
+    title:
+    - content: Magnetometer
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-magnetometer-20211204/
+      type: src
+    docid:
+    - id: W3C WD-magnetometer-20211204
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-magnetometer-20210902
 ext:

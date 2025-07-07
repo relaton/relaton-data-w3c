@@ -30,9 +30,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Curi-clarification
+    title:
+    - content: 'URIs, URLs, and URNs: Clarifications and Recommendations 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uri-clarification/
+      type: src
+    docid:
+    - id: W3C uri-clarification
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-uri-clarification-20010921
 ext:
@@ -40,4 +57,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: URI Interest Group
+  - name: URI Coordination Group

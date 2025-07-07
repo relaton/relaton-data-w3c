@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Wood
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf11-new
+    title:
+    - content: What’s New in RDF 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf11-new/
+      type: src
+    docid:
+    - id: W3C rdf11-new
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf11-new-20131217
+    title:
+    - content: What’s New in RDF 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-rdf11-new-20131217/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-rdf11-new-20131217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf11-new-20131217
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-rdf11-new-20140225
 ext:

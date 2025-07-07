@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-webcgm21-20100301
+    title:
+    - content: WebCGM 2.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/REC-webcgm21-20100301/
       type: src
@@ -40,12 +40,74 @@ relation:
     - id: W3C REC-webcgm21-20100301
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-webcgm21-20100301
+- type: hasEdition
+  bibitem:
+    id: W3CPR-webcgm21-20100114
+    title:
+    - content: WebCGM 2.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/PR-webcgm21-20100114/
+      type: src
+    docid:
+    - id: W3C PR-webcgm21-20100114
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-webcgm21-20090915
+    title:
+    - content: WebCGM 2.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-webcgm21-20090915/
+      type: src
+    docid:
+    - id: W3C CR-webcgm21-20090915
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webcgm21-20090604
+    title:
+    - content: WebCGM 2.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-webcgm21-20090604/
+      type: src
+    docid:
+    - id: W3C WD-webcgm21-20090604
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webcgm21-20090130
+    title:
+    - content: WebCGM 2.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-webcgm21-20090130/
+      type: src
+    docid:
+    - id: W3C WD-webcgm21-20090130
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-webcgm21-20080917
+    title:
+    - content: WebCGM 2.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-webcgm21-20080917/
+      type: src
+    docid:
+    - id: W3C WD-webcgm21-20080917
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: webcgm21
 ext:

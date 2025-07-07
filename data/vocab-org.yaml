@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-vocab-org-20140116
+    title:
+    - content: The Organization Ontology
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/REC-vocab-org-20140116/
       type: src
@@ -40,12 +40,61 @@ relation:
     - id: W3C REC-vocab-org-20140116
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-vocab-org-20140116
+- type: hasEdition
+  bibitem:
+    id: W3CPR-vocab-org-20131217
+    title:
+    - content: The Organization Ontology
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-vocab-org-20131217/
+      type: src
+    docid:
+    - id: W3C PR-vocab-org-20131217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-vocab-org-20130625
+    title:
+    - content: The Organization Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-vocab-org-20130625/
+      type: src
+    docid:
+    - id: W3C CR-vocab-org-20130625
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-org-20121023
+    title:
+    - content: An organization ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-vocab-org-20121023/
+      type: src
+    docid:
+    - id: W3C WD-vocab-org-20121023
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-org-20120405
+    title:
+    - content: An organization ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-vocab-org-20120405/
+      type: src
+    docid:
+    - id: W3C WD-vocab-org-20120405
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: vocab-org
 ext:

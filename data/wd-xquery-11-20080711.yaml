@@ -5,7 +5,7 @@ title:
 - content: XQuery 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2008/WD-xquery-11-20080711/
+- content: https://www.w3.org/TR/2008/WD-xquery-11-20080711/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Don Chamberlin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-30
+    title:
+    - content: 'XQuery 3.0: An XML Query Language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-30/
+      type: src
+    docid:
+    - id: W3C xquery-30
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xquery-11-20081203
+    title:
+    - content: XQuery 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-xquery-11-20081203/
+      type: src
+    docid:
+    - id: W3C WD-xquery-11-20081203
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xquery-11-20080711
 ext:

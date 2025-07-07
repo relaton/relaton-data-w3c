@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-pronunciation-user-scenarios-20190905/
   type: src
-- content: https://w3c.github.io/pronunciation/user-scenarios
-  type: current
 type: standard
 docid:
 - id: W3C WD-pronunciation-user-scenarios-20190905
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christine Loew
+      given:
+        forename:
+        - content: Sam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kanta
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Irfan Ali
+      given:
+        forename:
+        - content: Christine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Loew
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Paul Grenier
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grenier
         language:
         - en
         script:
@@ -59,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ruoxi Ran
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sam Kanta
+      given:
+        forename:
+        - content: Ruoxi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ran
         language:
         - en
         script:
@@ -84,10 +100,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpronunciation-user-scenarios
+    title:
+    - content: Pronunciation User Scenarios
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pronunciation-user-scenarios/
+      type: src
+    docid:
+    - id: W3C pronunciation-user-scenarios
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-pronunciation-user-scenarios-20190905
 ext:
@@ -95,4 +125,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anish Karmarkar
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Henrik Frystyk Nielsen
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jean-Jacques Moreau
+      given:
+        forename:
+        - content: Jean-Jacques
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Moreau
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marc Hadley
+      given:
+        forename:
+        - content: Henrik Frystyk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Martin Gudgin
+      given:
+        forename:
+        - content: Anish
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Karmarkar
         language:
         - en
         script:
@@ -77,18 +112,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Noah Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Yves Lafon
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lafon
         language:
         - en
         script:
@@ -104,9 +136,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-part2
+    title:
+    - content: 'SOAP Version 1.2 Part 2: Adjuncts (Second Edition)'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-part2/
+      type: src
+    docid:
+    - id: W3C soap12-part2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-soap12-part2-20061219
+    title:
+    - content: 'SOAP Version 1.2 Part 2: Adjuncts (Second Edition)'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/PER-soap12-part2-20061219/
       type: src
@@ -114,41 +162,9 @@ relation:
     - id: W3C PER-soap12-part2-20061219
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-soap12-part2-20061219
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-soap12-part2-20070427-errata.html
-    link:
-    - content: https://www.w3.org/2007/04/REC-soap12-part2-20070427-errata.html
-      type: src
-    docid:
-    - id: W3C REC-soap12-part2-20070427-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-soap12-part2-20070427-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-soap12-part2-20030624
-    link:
-    - content: https://www.w3.org/TR/2003/REC-soap12-part2-20030624/
-      type: src
-    docid:
-    - id: W3C REC-soap12-part2-20030624
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-soap12-part2-20030624
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-soap12-part2-20070427
 ext:

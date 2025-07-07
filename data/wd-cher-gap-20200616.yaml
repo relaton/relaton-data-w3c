@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/WD-cher-gap-20200616/
   type: src
-- content: https://w3c.github.io/amlreq/gap-analysis/chr-gap
-  type: current
 type: standard
 docid:
 - id: W3C WD-cher-gap-20200616
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccher-gap
+    title:
+    - content: Cherokee Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/cher-gap/
+      type: src
+    docid:
+    - id: W3C cher-gap
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-cher-gap-20200618
+    title:
+    - content: Cherokee Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-cher-gap-20200618/
+      type: src
+    docid:
+    - id: W3C WD-cher-gap-20200618
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-cher-gap-20200616
 ext:

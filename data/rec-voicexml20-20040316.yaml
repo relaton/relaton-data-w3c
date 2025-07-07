@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Hunt
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -37,88 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Brandon Porter
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Bruce Lucas
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jerry Carter
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Ferrans
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Kenneth Rehor
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Danielsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Scott McGlashan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steph Tryphonas
+      given:
+        forename:
+        - content: Jerry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carter
         language:
         - en
         script:
@@ -134,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvoicexml20
+    title:
+    - content: Voice Extensible Markup Language (VoiceXML) Version 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/voicexml20/
+      type: src
+    docid:
+    - id: W3C voicexml20
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-voicexml20-20040203
+    title:
+    - content: Voice Extensible Markup Language (VoiceXML) Version 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2004/PR-voicexml20-20040203/
       type: src
@@ -144,28 +94,9 @@ relation:
     - id: W3C PR-voicexml20-20040203
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-voicexml20-20040203
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cvoicexml20-errata.html
-    link:
-    - content: https://www.w3.org/2004/03/voicexml20-errata.html
-      type: src
-    docid:
-    - id: W3C voicexml20-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C voicexml20-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-voicexml20-20040316
 ext:

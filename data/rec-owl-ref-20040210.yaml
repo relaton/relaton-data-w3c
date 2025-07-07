@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Guus Schreiber
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dean
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike Dean
+      given:
+        forename:
+        - content: Guus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schreiber
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-ref
+    title:
+    - content: OWL Web Ontology Language Reference
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-ref/
+      type: src
+    docid:
+    - id: W3C owl-ref
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-owl-ref-20031215
+    title:
+    - content: OWL Web Ontology Language Reference
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2003/PR-owl-ref-20031215/
       type: src
@@ -64,28 +94,9 @@ relation:
     - id: W3C PR-owl-ref-20031215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-owl-ref-20031215
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata#owl-ref
-    link:
-    - content: https://www.w3.org/2001/sw/WebOnt/errata#owl-ref
-      type: src
-    docid:
-    - id: W3C errata#owl-ref
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata#owl-ref
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-owl-ref-20040210
 ext:
@@ -93,4 +104,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web-Ontology Working Group
+  - name: Web Ontology Working Group

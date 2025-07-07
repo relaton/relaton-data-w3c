@@ -26,13 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CREC-WOFF-20121213
+    title:
+    - content: WOFF File Format 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/REC-WOFF-20121213/
       type: src
@@ -40,12 +40,61 @@ relation:
     - id: W3C REC-WOFF-20121213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-WOFF-20121213
+- type: hasEdition
+  bibitem:
+    id: W3CPR-WOFF-20121011
+    title:
+    - content: WOFF File Format 1.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PR-WOFF-20121011/
+      type: src
+    docid:
+    - id: W3C PR-WOFF-20121011
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-WOFF-20110804
+    title:
+    - content: WOFF File Format 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/CR-WOFF-20110804/
+      type: src
+    docid:
+    - id: W3C CR-WOFF-20110804
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WOFF-20101116
+    title:
+    - content: WOFF File Format 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-WOFF-20101116
+      type: src
+    docid:
+    - id: W3C WD-WOFF-20101116
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-WOFF-20100727
+    title:
+    - content: WOFF File Format 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-WOFF-20100727
+      type: src
+    docid:
+    - id: W3C WD-WOFF-20100727
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: WOFF
 ext:

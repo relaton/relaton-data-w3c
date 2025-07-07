@@ -5,7 +5,7 @@ title:
 - content: XHTML+RDFa 1.1 - Third Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PER-xhtml-rdfa-20141216/
+- content: https://www.w3.org/TR/2014/PER-xhtml-rdfa-20141216/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -46,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-xhtml-rdfa-20130822
+    id: W3Cxhtml-rdfa
+    title:
+    - content: XHTML+RDFa 1.1 - Third Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/
+    - content: https://www.w3.org/TR/xhtml-rdfa/
       type: src
     docid:
-    - id: W3C REC-xhtml-rdfa-20130822
+    - id: W3C xhtml-rdfa
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-xhtml-rdfa-20130822
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml-rdfa-20150317
+    title:
+    - content: XHTML+RDFa 1.1 - Third Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-xhtml-rdfa-20150317/
+      type: src
+    docid:
+    - id: W3C REC-xhtml-rdfa-20150317
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xhtml-rdfa-20141216
 ext:

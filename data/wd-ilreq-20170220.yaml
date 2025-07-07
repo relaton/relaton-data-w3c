@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-ilreq-20170220/
   type: src
-- content: https://w3c.github.io/ilreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-ilreq-20170220
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Swaran
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lata
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Swaran Lata
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cilreq
+    title:
+    - content: Indic Layout Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ilreq/
+      type: src
+    docid:
+    - id: W3C ilreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-ilreq-20150721
+    title:
+    - content: Indic Layout Requirements
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-ilreq-20150721/
+    - content: https://www.w3.org/TR/2015/WD-ilreq-20150721/
       type: src
     docid:
     - id: W3C WD-ilreq-20150721
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-ilreq-20150721
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ilreq-20200529
+    title:
+    - content: Indic Layout Requirements
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-ilreq-20200529/
+      type: src
+    docid:
+    - id: W3C WD-ilreq-20200529
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ilreq-20170220
 ext:

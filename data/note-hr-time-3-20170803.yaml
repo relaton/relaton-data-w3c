@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-hr-time-3-20170803/
   type: src
-- content: https://w3c.github.io/hr-time/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-hr-time-3-20170803
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Simonsen
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Simonsen
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-3
+    title:
+    - content: High Resolution Time
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-3/
+      type: src
+    docid:
+    - id: W3C hr-time-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-hr-time-3-20161031
+    title:
+    - content: High Resolution Time Level 3
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-hr-time-3-20161031/
       type: src
@@ -73,12 +111,25 @@ relation:
     - id: W3C WD-hr-time-3-20161031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-hr-time-3-20161031
+- type: updatedBy
+  bibitem:
+    id: W3CWD-hr-time-3-20201001
+    title:
+    - content: High Resolution Time
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-hr-time-3-20201001/
+      type: src
+    docid:
+    - id: W3C WD-hr-time-3-20201001
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-hr-time-3-20170803
 ext:

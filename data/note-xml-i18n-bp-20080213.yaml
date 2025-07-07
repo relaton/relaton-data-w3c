@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jirka Kosek
+      given:
+        forename:
+        - content: Yves
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Savourel
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Jirka
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kosek
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yves Savourel
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-i18n-bp
+    title:
+    - content: Best Practices for XML Internationalization
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-i18n-bp/
+      type: src
+    docid:
+    - id: W3C xml-i18n-bp
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-i18n-bp-20071031
+    title:
+    - content: Best Practices for XML Internationalization
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20071031/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-xml-i18n-bp-20071031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-i18n-bp-20071031
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml-i18n-bp-20080213
 ext:
@@ -84,4 +121,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: ITS Working Group
+  - name: Internationalization Tag Set (ITS) Working Group

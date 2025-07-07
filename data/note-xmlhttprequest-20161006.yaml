@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/NOTE-XMLHttpRequest-20161006/
   type: src
-- content: https://xhr.spec.whatwg.org/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-XMLHttpRequest-20161006
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hallvord Steen
+      given:
+        forename:
+        - content: Julian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Aubourg
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Julian Aubourg
+      given:
+        forename:
+        - content: Jungkee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jungkee Song
+      given:
+        forename:
+        - content: Hallvord
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steen
         language:
         - en
         script:
@@ -72,10 +98,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CXMLHttpRequest
+    title:
+    - content: XMLHttpRequest Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/XMLHttpRequest/
+      type: src
+    docid:
+    - id: W3C XMLHttpRequest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-XMLHttpRequest-20140130
+    title:
+    - content: XMLHttpRequest Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-XMLHttpRequest-20140130/
       type: src
@@ -83,12 +128,9 @@ relation:
     - id: W3C WD-XMLHttpRequest-20140130
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest-20140130
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-XMLHttpRequest-20161006
 ext:
@@ -96,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

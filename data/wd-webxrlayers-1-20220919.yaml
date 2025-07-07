@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-webxrlayers-1-20220919/
   type: src
-- content: https://immersive-web.github.io/layers/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webxrlayers-1-20220919
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rik Cabanier
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebxrlayers-1
+    title:
+    - content: WebXR Layers API Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webxrlayers-1/
+      type: src
+    docid:
+    - id: W3C webxrlayers-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webxrlayers-1-20220826
+    title:
+    - content: WebXR Layers API Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-webxrlayers-1-20220826/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-webxrlayers-1-20220826
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webxrlayers-1-20220826
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webxrlayers-1-20220921
+    title:
+    - content: WebXR Layers API Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-webxrlayers-1-20220921/
+      type: src
+    docid:
+    - id: W3C WD-webxrlayers-1-20220921
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webxrlayers-1-20220919
 ext:

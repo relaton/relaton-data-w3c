@@ -5,7 +5,7 @@ title:
 - content: 'Delivery Context: Interfaces (DCI) Accessing Static and Dynamic Properties'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-DPF-20051111
+- content: https://www.w3.org/TR/2005/WD-DPF-20051111
   type: src
 type: standard
 docid:
@@ -27,48 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Raggett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Keith Waters
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Matt Womer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rafah A. Hosn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Sailesh Sathish
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raggett
         language:
         - en
         script:
@@ -82,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDPF
+    title:
+    - content: 'Delivery Context: Client Interfaces (DCCI) 1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DPF/
+      type: src
+    docid:
+    - id: W3C DPF
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DPF-20041122
+    title:
+    - content: Dynamic Properties Framework (DPF)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-DPF-20041122/
+    - content: https://www.w3.org/TR/2004/WD-DPF-20041122/
       type: src
     docid:
     - id: W3C WD-DPF-20041122
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DPF-20041122
+- type: updatedBy
+  bibitem:
+    id: W3CCR-DPF-20061019
+    title:
+    - content: 'Delivery Context: Interfaces (DCI) Accessing Static and Dynamic Properties'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/CR-DPF-20061019
+      type: src
+    docid:
+    - id: W3C CR-DPF-20061019
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-DPF-20051111
 ext:

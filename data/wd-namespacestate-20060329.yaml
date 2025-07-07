@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -43,9 +50,23 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CnamespaceState
+    title:
+    - content: The Disposition of Names in an XML Namespace
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/namespaceState/
+      type: src
+    docid:
+    - id: W3C namespaceState
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-namespaceState-20060329
 ext:

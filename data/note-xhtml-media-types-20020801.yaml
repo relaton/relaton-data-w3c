@@ -5,7 +5,7 @@ title:
 - content: XHTML Media Types
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020801
+- content: https://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020801
   type: src
 type: standard
 docid:
@@ -25,38 +25,60 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2002-08-01'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml-media-types
+    title:
+    - content: XHTML Media Types - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml-media-types/
+      type: src
+    docid:
+    - id: W3C xhtml-media-types
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-xhtml-media-types-20020430
+    title:
+    - content: XHTML Media Types
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020430
+    - content: https://www.w3.org/TR/2002/NOTE-xhtml-media-types-20020430
       type: src
     docid:
     - id: W3C NOTE-xhtml-media-types-20020430
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-xhtml-media-types-20020430
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-xhtml-media-types-20090116
+    title:
+    - content: XHTML Media Types - Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/NOTE-xhtml-media-types-20090116/
+      type: src
+    docid:
+    - id: W3C NOTE-xhtml-media-types-20090116
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xhtml-media-types-20020801
 ext:

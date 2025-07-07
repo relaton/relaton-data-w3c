@@ -5,7 +5,7 @@ title:
 - content: Web Services Addressing 1.0 - SOAP Binding
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PR-ws-addr-soap-20060321
+- content: https://www.w3.org/TR/2006/PR-ws-addr-soap-20060321
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marc Hadley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Martin Gudgin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tony Rogers
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gudgin
         language:
         - en
         script:
@@ -64,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-addr-soap
+    title:
+    - content: Web Services Addressing 1.0 - SOAP Binding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-addr-soap/
+      type: src
+    docid:
+    - id: W3C ws-addr-soap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ws-addr-soap-20050817
+    title:
+    - content: Web Services Addressing 1.0 - SOAP Binding
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/CR-ws-addr-soap-20050817
+    - content: https://www.w3.org/TR/2005/CR-ws-addr-soap-20050817
       type: src
     docid:
     - id: W3C CR-ws-addr-soap-20050817
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ws-addr-soap-20050817
+- type: updatedBy
+  bibitem:
+    id: W3CREC-ws-addr-soap-20060509
+    title:
+    - content: Web Services Addressing 1.0 - SOAP Binding
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/REC-ws-addr-soap-20060509/
+      type: src
+    docid:
+    - id: W3C REC-ws-addr-soap-20060509
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-ws-addr-soap-20060321
 ext:

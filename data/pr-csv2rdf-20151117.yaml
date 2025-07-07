@@ -5,10 +5,8 @@ title:
 - content: Generating RDF from Tabular Data on the Web
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/PR-csv2rdf-20151117/
+- content: https://www.w3.org/TR/2015/PR-csv2rdf-20151117/
   type: src
-- content: http://w3c.github.io/csvw/csv2rdf/
-  type: current
 type: standard
 docid:
 - id: W3C PR-csv2rdf-20151117
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Jeremy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tandy
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ivan Herman
+      given:
+        forename:
+        - content: Ivan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Herman
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeremy Tandy
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -66,22 +85,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsv2rdf
+    title:
+    - content: Generating RDF from Tabular Data on the Web
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csv2rdf/
+      type: src
+    docid:
+    - id: W3C csv2rdf
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-csv2rdf-20150716
+    title:
+    - content: Generating RDF from Tabular Data on the Web
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/CR-csv2rdf-20150716/
+    - content: https://www.w3.org/TR/2015/CR-csv2rdf-20150716/
       type: src
     docid:
     - id: W3C CR-csv2rdf-20150716
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-csv2rdf-20150716
+- type: updatedBy
+  bibitem:
+    id: W3CREC-csv2rdf-20151217
+    title:
+    - content: Generating RDF from Tabular Data on the Web
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/REC-csv2rdf-20151217/
+      type: src
+    docid:
+    - id: W3C REC-csv2rdf-20151217
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-csv2rdf-20151117
 ext:

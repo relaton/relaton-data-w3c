@@ -27,9 +27,25 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-wcag-3.0-explainer-20241212
+    title:
+    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/
+      type: src
+    docid:
+    - id: W3C DNOTE-wcag-3.0-explainer-20241212
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CDNOTE-wcag-3.0-explainer-20211207
+    title:
+    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/DNOTE-wcag-3.0-explainer-20211207/
       type: src
@@ -37,12 +53,9 @@ relation:
     - id: W3C DNOTE-wcag-3.0-explainer-20211207
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-wcag-3.0-explainer-20211207
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: wcag-3.0-explainer
 ext:

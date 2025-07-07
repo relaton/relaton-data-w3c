@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/NOTE-contacts-manager-api-20150602/
   type: src
-- content: https://www.w3.org/2012/sysapps/contacts-manager-api/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-contacts-manager-api-20150602
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christophe Dumez
+      given:
+        forename:
+        - content: Eduardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fullea
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eduardo Fullea
+      given:
+        forename:
+        - content: Jose Manuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cantera Fonseca
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jose Manuel Cantera Fonseca
+      given:
+        forename:
+        - content: Christophe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dumez
         language:
         - en
         script:
@@ -62,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccontacts-manager-api
+    title:
+    - content: Contacts Manager API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/contacts-manager-api/
+      type: src
+    docid:
+    - id: W3C contacts-manager-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-contacts-manager-api-20130307
+    title:
+    - content: Contacts Manager API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/WD-contacts-manager-api-20130307/
       type: src
@@ -73,12 +111,9 @@ relation:
     - id: W3C WD-contacts-manager-api-20130307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-contacts-manager-api-20130307
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-contacts-manager-api-20150602
 ext:

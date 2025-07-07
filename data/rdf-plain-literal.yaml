@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-rdf-plain-literal-20091027
-    link:
-    - content: https://www.w3.org/TR/2009/REC-rdf-plain-literal-20091027/
-      type: src
-    docid:
-    - id: W3C REC-rdf-plain-literal-20091027
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-rdf-plain-literal-20091027
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-rdf-plain-literal-20121211
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals (Second Edition)'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/REC-rdf-plain-literal-20121211/
       type: src
@@ -53,12 +40,87 @@ relation:
     - id: W3C REC-rdf-plain-literal-20121211
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-rdf-plain-literal-20121211
+- type: hasEdition
+  bibitem:
+    id: W3CPER-rdf-plain-literal-20121018
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/PER-rdf-plain-literal-20121018/
+      type: src
+    docid:
+    - id: W3C PER-rdf-plain-literal-20121018
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CREC-rdf-plain-literal-20091027
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/REC-rdf-plain-literal-20091027/
+      type: src
+    docid:
+    - id: W3C REC-rdf-plain-literal-20091027
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-rdf-plain-literal-20090922
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/PR-rdf-plain-literal-20090922/
+      type: src
+    docid:
+    - id: W3C PR-rdf-plain-literal-20090922
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-rdf-plain-literal-20090611
+    title:
+    - content: 'rdf:PlainLiteral: A Datatype for RDF Plain Literals'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-rdf-plain-literal-20090611/
+      type: src
+    docid:
+    - id: W3C CR-rdf-plain-literal-20090611
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-text-20090421
+    title:
+    - content: 'rdf:text: A Datatype for Internationalized Text'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-rdf-text-20090421/
+      type: src
+    docid:
+    - id: W3C WD-rdf-text-20090421
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-rdf-text-20081202
+    title:
+    - content: 'rdf:text: A Datatype for Internationalized Text'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2008/WD-rdf-text-20081202/
+      type: src
+    docid:
+    - id: W3C WD-rdf-text-20081202
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: rdf-plain-literal
 ext:

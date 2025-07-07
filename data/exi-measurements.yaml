@@ -5,7 +5,7 @@ title:
 - content: Efficient XML Interchange Measurements Note
   format: text/plain
 link:
-- content: http://www.w3.org/TR/exi-measurements/
+- content: https://www.w3.org/TR/exi-measurements/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-exi-measurements-20070725
+    title:
+    - content: Efficient XML Interchange Measurements Note
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-exi-measurements-20070725/
+      type: src
+    docid:
+    - id: W3C WD-exi-measurements-20070725
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-exi-measurements-20060718
+    title:
+    - content: Efficient XML Interchange Measurements Note
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-exi-measurements-20060718/
+    - content: https://www.w3.org/TR/2006/WD-exi-measurements-20060718/
       type: src
     docid:
     - id: W3C WD-exi-measurements-20060718
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-exi-measurements-20060718
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: exi-measurements
 ext:

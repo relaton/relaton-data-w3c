@@ -8,8 +8,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2015/WD-mobile-accessibility-mapping-20150226/
   type: src
-- content: https://w3c.github.io/Mobile-A11y-TF-Note/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mobile-accessibility-mapping-20150226
@@ -30,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jeanne F Spellman
+      given:
+        forename:
+        - content: Kimberly
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patch
         language:
         - en
         script:
@@ -40,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kathleen Wahlbin
+      given:
+        forename:
+        - content: Jeanne F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Spellman
         language:
         - en
         script:
@@ -50,8 +62,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Kimberly Patch
+      given:
+        forename:
+        - content: Kathleen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wahlbin
         language:
         - en
         script:
@@ -65,10 +84,25 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmobile-accessibility-mapping
+    title:
+    - content: 'Mobile Accessibility: How WCAG 2.0 and Other W3C/WAI Guidelines Apply
+        to Mobile'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mobile-accessibility-mapping/
+      type: src
+    docid:
+    - id: W3C mobile-accessibility-mapping
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-mobile-accessibility-mapping-20150226
 ext:

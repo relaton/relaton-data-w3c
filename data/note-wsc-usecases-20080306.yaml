@@ -25,25 +25,34 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Tyler Close
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2008-03-06'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwsc-usecases
+    title:
+    - content: 'Web Security Experience, Indicators and Trust: Scope and Use Cases'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wsc-usecases/
+      type: src
+    docid:
+    - id: W3C wsc-usecases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wsc-usecases-20071101
+    title:
+    - content: 'Web Security Experience, Indicators and Trust: Scope and Use Cases'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-wsc-usecases-20071101/
       type: src
@@ -51,12 +60,9 @@ relation:
     - id: W3C WD-wsc-usecases-20071101
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wsc-usecases-20071101
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wsc-usecases-20080306
 ext:

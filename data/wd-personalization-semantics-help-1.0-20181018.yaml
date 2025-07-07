@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-personalization-semantics-help-1.0-20181018/
   type: src
-- content: https://w3c.github.io/personalization-semantics/help/
-  type: current
 type: standard
 docid:
 - id: W3C WD-personalization-semantics-help-1.0-20181018
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Charles LaPierre
+      given:
+        forename:
+        - content: Lisa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seeman-Horwitz
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lisa Seeman-Kestenbaum
+      given:
+        forename:
+        - content: Charles
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: LaPierre
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Ruoxi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ran
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ruoxi Ran
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -84,10 +117,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cadapt-help
+    title:
+    - content: 'WAI-Adapt: Help and Support Module'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/adapt-help/
+      type: src
+    docid:
+    - id: W3C adapt-help
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-personalization-semantics-help-1.0-20190711
+    title:
+    - content: Personalization Help and Support 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/WD-personalization-semantics-help-1.0-20190711/
+      type: src
+    docid:
+    - id: W3C WD-personalization-semantics-help-1.0-20190711
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-personalization-semantics-help-1.0-20181018
 ext:
@@ -95,4 +158,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

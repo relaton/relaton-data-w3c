@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/REC-rdf-canon-20240521/
   type: src
-- content: https://w3c.github.io/rdf-canon/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-rdf-canon-20240521
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Yamamoto
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Longley
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Longley
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yamamoto
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-canon
+    title:
+    - content: RDF Dataset Canonicalization
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-canon/
+      type: src
+    docid:
+    - id: W3C rdf-canon
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-rdf-canon-20240326
+    title:
+    - content: RDF Dataset Canonicalization
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/PR-rdf-canon-20240326/
       type: src
@@ -76,28 +111,9 @@ relation:
     - id: W3C PR-rdf-canon-20240326
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rdf-canon-20240326
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Crdf-canon-errata
-    link:
-    - content: https://w3c.github.io/rdf-canon/errata/
-      type: src
-    docid:
-    - id: W3C rdf-canon/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C rdf-canon/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rdf-canon-20240521
 ext:

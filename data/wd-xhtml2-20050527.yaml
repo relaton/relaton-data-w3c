@@ -5,7 +5,7 @@ title:
 - content: XHTML™ 2.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/WD-xhtml2-20050527
+- content: https://www.w3.org/TR/2005/WD-xhtml2-20050527
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ann Navarro
+      given:
+        forename:
+        - content: Micah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dubinko
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Beth Epperson
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonny Axelsson
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birbeck
         language:
         - en
         script:
@@ -57,48 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mark Birbeck
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Micah Dubinko
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steven Pemberton
+      given:
+        forename:
+        - content: Steven
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pemberton
         language:
         - en
         script:
@@ -114,22 +102,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml2
+    title:
+    - content: XHTML™ 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml2/
+      type: src
+    docid:
+    - id: W3C xhtml2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml2-20040722
+    title:
+    - content: XHTML 2.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/WD-xhtml2-20040722
+    - content: https://www.w3.org/TR/2004/WD-xhtml2-20040722
       type: src
     docid:
     - id: W3C WD-xhtml2-20040722
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml2-20040722
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xhtml2-20060726
+    title:
+    - content: XHTML™ 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-xhtml2-20060726
+      type: src
+    docid:
+    - id: W3C WD-xhtml2-20060726
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xhtml2-20050527
 ext:

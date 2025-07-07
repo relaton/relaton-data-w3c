@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-webrtc-encoded-transform-20230428/
   type: src
-- content: https://w3c.github.io/webrtc-encoded-transform/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webrtc-encoded-transform-20230428
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Guido Urdaneta
+      given:
+        forename:
+        - content: Harald
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alvestrand
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Harald Alvestrand
+      given:
+        forename:
+        - content: Guido
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Urdaneta
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: youenn fablet
+      given:
+        forename:
+        - content: youenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: fablet
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc-encoded-transform
+    title:
+    - content: WebRTC Encoded Transform
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc-encoded-transform/
+      type: src
+    docid:
+    - id: W3C webrtc-encoded-transform
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webrtc-encoded-transform-20230427
+    title:
+    - content: WebRTC Encoded Transform
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-webrtc-encoded-transform-20230427/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C WD-webrtc-encoded-transform-20230427
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webrtc-encoded-transform-20230427
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webrtc-encoded-transform-20230602
+    title:
+    - content: WebRTC Encoded Transform
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-webrtc-encoded-transform-20230602/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-encoded-transform-20230602
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webrtc-encoded-transform-20230428
 ext:

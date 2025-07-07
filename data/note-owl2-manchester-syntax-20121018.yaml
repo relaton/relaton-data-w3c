@@ -5,7 +5,7 @@ title:
 - content: OWL 2 Web Ontology Language Manchester Syntax
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/NOTE-owl2-manchester-syntax-20121018/
+- content: https://www.w3.org/TR/2012/NOTE-owl2-manchester-syntax-20121018/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matthew Horridge
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Peter F. Patel-Schneider
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horridge
         language:
         - en
         script:
@@ -50,23 +64,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-manchester-syntax
+    title:
+    - content: OWL 2 Web Ontology Language Manchester Syntax (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-manchester-syntax/
+      type: src
+    docid:
+    - id: W3C owl2-manchester-syntax
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-owl2-manchester-syntax-20091027
+    title:
+    - content: OWL 2 Web Ontology Language Manchester Syntax
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/NOTE-owl2-manchester-syntax-20091027/
+    - content: https://www.w3.org/TR/2009/NOTE-owl2-manchester-syntax-20091027/
       type: src
     docid:
     - id: W3C NOTE-owl2-manchester-syntax-20091027
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-owl2-manchester-syntax-20091027
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-owl2-manchester-syntax-20121211
+    title:
+    - content: OWL 2 Web Ontology Language Manchester Syntax (Second Edition)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/NOTE-owl2-manchester-syntax-20121211/
+      type: src
+    docid:
+    - id: W3C NOTE-owl2-manchester-syntax-20121211
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-owl2-manchester-syntax-20121018
 ext:

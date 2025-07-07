@@ -5,7 +5,7 @@ title:
 - content: Simple Object Access Protocol (SOAP) 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-SOAP-20000508
+- content: https://www.w3.org/TR/2000/NOTE-SOAP-20000508
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Layman
+      given:
+        forename:
+        - content: Henrik Frystyk
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dave Winer
+      given:
+        forename:
+        - content: Gopal
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kakivaya
         language:
         - en
         script:
@@ -47,58 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: David Ehnebuske
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Don Box
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Gopal Kakivaya
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Henrik Frystyk Nielsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Noah Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Satish Thatte
+      given:
+        forename:
+        - content: Noah
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mendelsohn
         language:
         - en
         script:
@@ -110,12 +81,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSOAP
+    title:
+    - content: Simple Object Access Protocol (SOAP) 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SOAP/
+      type: src
+    docid:
+    - id: W3C SOAP
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-SOAP-20000508
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

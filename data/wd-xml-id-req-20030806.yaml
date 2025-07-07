@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Jonathan Marsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-08-06'
 language:
 - en
@@ -42,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-id-req
+    title:
+    - content: xml:id Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-id-req/
+      type: src
+    docid:
+    - id: W3C xml-id-req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xml-id-req-20030806
 ext:

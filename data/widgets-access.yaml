@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-widgets-access-20120207
-    link:
-    - content: https://www.w3.org/TR/2012/REC-widgets-access-20120207/
-      type: src
-    docid:
-    - id: W3C REC-widgets-access-20120207
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-widgets-access-20120207
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3COBSL-widgets-access-20181011
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2018/OBSL-widgets-access-20181011/
       type: src
@@ -53,12 +40,87 @@ relation:
     - id: W3C OBSL-widgets-access-20181011
       type: W3C
       primary: true
-    formattedref:
-      content: W3C OBSL-widgets-access-20181011
+- type: hasEdition
+  bibitem:
+    id: W3CREC-widgets-access-20120207
+    title:
+    - content: Widget Access Request Policy
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/REC-widgets-access-20120207/
+      type: src
+    docid:
+    - id: W3C REC-widgets-access-20120207
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-widgets-access-20111213
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/PR-widgets-access-20111213/
+      type: src
+    docid:
+    - id: W3C PR-widgets-access-20111213
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-widgets-access-20100420
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/CR-widgets-access-20100420/
+      type: src
+    docid:
+    - id: W3C CR-widgets-access-20100420
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-access-20091208
+    title:
+    - content: Widget Access Request Policy
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-access-20091208/
+      type: src
+    docid:
+    - id: W3C WD-widgets-access-20091208
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-access-20090804
+    title:
+    - content: 'Widgets 1.0: Access Requests Policy'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-access-20090804/
+      type: src
+    docid:
+    - id: W3C WD-widgets-access-20090804
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-widgets-access-20090618
+    title:
+    - content: 'Widgets 1.0: Access Requests Policy'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-widgets-access-20090618/
+      type: src
+    docid:
+    - id: W3C WD-widgets-access-20090618
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: widgets-access
 ext:

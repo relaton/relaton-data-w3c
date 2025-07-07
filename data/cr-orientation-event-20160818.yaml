@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/CR-orientation-event-20160818/
   type: src
-- content: https://w3c.github.io/deviceorientation/spec-source-orientation.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-orientation-event-20160818
@@ -29,38 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrei Popescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Rich Tibbett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Stephen Block
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tim Volodine
+      given:
+        forename:
+        - content: Tim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Volodine
         language:
         - en
         script:
@@ -74,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Corientation-event
+    title:
+    - content: Device Orientation and Motion
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/orientation-event/
+      type: src
+    docid:
+    - id: W3C orientation-event
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-orientation-event-20111201
+    title:
+    - content: DeviceOrientation Event Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-orientation-event-20111201/
+    - content: https://www.w3.org/TR/2011/WD-orientation-event-20111201/
       type: src
     docid:
     - id: W3C WD-orientation-event-20111201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-orientation-event-20111201
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-orientation-event-20170530
+    title:
+    - content: DeviceOrientation Event Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/NOTE-orientation-event-20170530/
+      type: src
+    docid:
+    - id: W3C NOTE-orientation-event-20170530
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-orientation-event-20160818
 ext:

@@ -26,26 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Recommendation
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-vocab-dcat-20140116
-    link:
-    - content: https://www.w3.org/TR/2014/REC-vocab-dcat-20140116/
-      type: src
-    docid:
-    - id: W3C REC-vocab-dcat-20140116
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-vocab-dcat-20140116
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CSPSD-vocab-dcat-20200204
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/SPSD-vocab-dcat-20200204/
       type: src
@@ -53,12 +40,87 @@ relation:
     - id: W3C SPSD-vocab-dcat-20200204
       type: W3C
       primary: true
-    formattedref:
-      content: W3C SPSD-vocab-dcat-20200204
+- type: hasEdition
+  bibitem:
+    id: W3CREC-vocab-dcat-20140116
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-vocab-dcat-20140116/
+      type: src
+    docid:
+    - id: W3C REC-vocab-dcat-20140116
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-vocab-dcat-20131217
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/PR-vocab-dcat-20131217/
+      type: src
+    docid:
+    - id: W3C PR-vocab-dcat-20131217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-vocab-dcat-20131105
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-vocab-dcat-20131105/
+      type: src
+    docid:
+    - id: W3C CR-vocab-dcat-20131105
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-20130801
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-vocab-dcat-20130801/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20130801
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-20130312
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-vocab-dcat-20130312/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20130312
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-vocab-dcat-20120405
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-vocab-dcat-20120405/
+      type: src
+    docid:
+    - id: W3C WD-vocab-dcat-20120405
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C REC
+    content: W3C technicalReport
     format: text/plain
   number: vocab-dcat-1
 ext:

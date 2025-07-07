@@ -5,7 +5,7 @@ title:
 - content: Document Object Model (DOM) Level 3 Core Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/CR-DOM-Level-3-Core-20031107
+- content: https://www.w3.org/TR/2003/CR-DOM-Level-3-Core-20031107
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Arnaud Le Hors
+      given:
+        forename:
+        - content: Arnaud
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hors
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gavin Nicol
+      given:
+        forename:
+        - content: Lauren
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Philippe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hegaret
         language:
         - en
         script:
@@ -57,38 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Lauren Wood
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mike Champion
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Philippe Le Hégaret
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Steve Byrne
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -102,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CDOM-Level-3-Core
+    title:
+    - content: Document Object Model (DOM) Level 3 Core Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/DOM-Level-3-Core/
+      type: src
+    docid:
+    - id: W3C DOM-Level-3-Core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Level-3-Core-20030609
+    title:
+    - content: Document Object Model (DOM) Level 3 Core Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030609
+    - content: https://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030609
       type: src
     docid:
     - id: W3C WD-DOM-Level-3-Core-20030609
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-Core-20030609
+- type: updatedBy
+  bibitem:
+    id: W3CPR-DOM-Level-3-Core-20040205
+    title:
+    - content: Document Object Model (DOM) Level 3 Core Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2004/PR-DOM-Level-3-Core-20040205
+      type: src
+    docid:
+    - id: W3C PR-DOM-Level-3-Core-20040205
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-DOM-Level-3-Core-20031107
 ext:
@@ -127,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

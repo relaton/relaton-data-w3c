@@ -5,10 +5,8 @@ title:
 - content: Media Capture and Streams
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-mediacapture-streams-20150414/
+- content: https://www.w3.org/TR/2015/WD-mediacapture-streams-20150414/
   type: src
-- content: http://w3c.github.io/mediacapture-main/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mediacapture-streams-20150414
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adam Bergkvist
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burnett
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Anant Narayanan
+      given:
+        forename:
+        - content: Adam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bergkvist
         language:
         - en
         script:
@@ -49,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Cullen Jennings
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Daniel Burnett
+      given:
+        forename:
+        - content: Cullen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
         language:
         - en
         script:
@@ -74,24 +83,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmediacapture-streams
+    title:
+    - content: Media Capture and Streams
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mediacapture-streams/
+      type: src
+    docid:
+    - id: W3C mediacapture-streams
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mediacapture-streams-20150212
+    title:
+    - content: Media Capture and Streams
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-mediacapture-streams-20150212/
+    - content: https://www.w3.org/TR/2015/WD-mediacapture-streams-20150212/
       type: src
     docid:
     - id: W3C WD-mediacapture-streams-20150212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mediacapture-streams-20150212
+- type: updatedBy
+  bibitem:
+    id: W3CCR-mediacapture-streams-20160519
+    title:
+    - content: Media Capture and Streams
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-mediacapture-streams-20160519/
+      type: src
+    docid:
+    - id: W3C CR-mediacapture-streams-20160519
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-mediacapture-streams-20150414
 ext:

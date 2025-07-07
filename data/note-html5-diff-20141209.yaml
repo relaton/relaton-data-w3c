@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Simon Pieters
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pieters
         language:
         - en
         script:
@@ -40,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml5-diff
+    title:
+    - content: HTML5 Differences from HTML4
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html5-diff/
+      type: src
+    docid:
+    - id: W3C html5-diff
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html5-diff-20140918
+    title:
+    - content: HTML5 Differences from HTML4
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-html5-diff-20140918/
       type: src
@@ -51,12 +77,9 @@ relation:
     - id: W3C WD-html5-diff-20140918
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html5-diff-20140918
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-html5-diff-20141209
 ext:
@@ -64,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

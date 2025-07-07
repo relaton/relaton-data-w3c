@@ -5,7 +5,7 @@ title:
 - content: 'CSS3 module: Paged Media'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-css3-page-20030909
+- content: https://www.w3.org/TR/2003/WD-css3-page-20030909
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jacob Refstrup
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jim Bigelow
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -64,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-page-3
+    title:
+    - content: CSS Paged Media Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-page-3/
+      type: src
+    docid:
+    - id: W3C css-page-3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css3-page-19990928
+    title:
+    - content: CSS3 Paged Media Module
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/1999/WD-css3-page-19990928
+    - content: https://www.w3.org/TR/1999/WD-css3-page-19990928
       type: src
     docid:
     - id: W3C WD-css3-page-19990928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css3-page-19990928
+- type: updatedBy
+  bibitem:
+    id: W3CWD-css3-page-20031218
+    title:
+    - content: CSS3 Paged Media Module
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/WD-css3-page-20031218
+      type: src
+    docid:
+    - id: W3C WD-css3-page-20031218
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css3-page-20030909
 ext:
@@ -87,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

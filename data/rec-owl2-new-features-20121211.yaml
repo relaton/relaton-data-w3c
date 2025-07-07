@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christine Golbreich
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Evan Wallace
+      given:
+        forename:
+        - content: Christine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Golbreich
         language:
         - en
         script:
@@ -54,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-new-features
+    title:
+    - content: OWL 2 Web Ontology Language New Features and Rationale (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-new-features/
+      type: src
+    docid:
+    - id: W3C owl2-new-features
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPER-owl2-new-features-20121018
+    title:
+    - content: OWL 2 Web Ontology Language New Features and Rationale
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PER-owl2-new-features-20121018/
       type: src
@@ -64,41 +77,9 @@ relation:
     - id: W3C PER-owl2-new-features-20121018
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PER-owl2-new-features-20121018
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2007/OWL/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
-- type: editionOf
-  bibitem:
-    id: W3CREC-owl2-new-features-20091027
-    link:
-    - content: https://www.w3.org/TR/2009/REC-owl2-new-features-20091027/
-      type: src
-    docid:
-    - id: W3C REC-owl2-new-features-20091027
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-owl2-new-features-20091027
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-owl2-new-features-20121211
 ext:

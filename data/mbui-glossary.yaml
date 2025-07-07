@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-mbui-glossary-20140107
+    title:
+    - content: MBUI - Glossary
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/NOTE-mbui-glossary-20140107/
       type: src
@@ -37,12 +40,9 @@ relation:
     - id: W3C NOTE-mbui-glossary-20140107
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-mbui-glossary-20140107
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: mbui-glossary
 ext:

@@ -26,39 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-animations-1-20171130
-    link:
-    - content: https://www.w3.org/TR/2017/WD-css-animations-1-20171130/
-      type: src
-    docid:
-    - id: W3C WD-css-animations-1-20171130
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-animations-1-20171130
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-css-animations-1-20181011
-    link:
-    - content: https://www.w3.org/TR/2018/WD-css-animations-1-20181011/
-      type: src
-    docid:
-    - id: W3C WD-css-animations-1-20181011
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-css-animations-1-20181011
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CWD-css-animations-1-20230302
+    title:
+    - content: CSS Animations Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-css-animations-1-20230302/
       type: src
@@ -66,12 +40,74 @@ relation:
     - id: W3C WD-css-animations-1-20230302
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-animations-1-20230302
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-animations-1-20181011
+    title:
+    - content: CSS Animations Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-css-animations-1-20181011/
+      type: src
+    docid:
+    - id: W3C WD-css-animations-1-20181011
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css-animations-1-20171130
+    title:
+    - content: CSS Animations Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-css-animations-1-20171130/
+      type: src
+    docid:
+    - id: W3C WD-css-animations-1-20171130
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-animations-20130219
+    title:
+    - content: CSS Animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-css3-animations-20130219/
+      type: src
+    docid:
+    - id: W3C WD-css3-animations-20130219
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-animations-20120403
+    title:
+    - content: CSS Animations
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-css3-animations-20120403/
+      type: src
+    docid:
+    - id: W3C WD-css3-animations-20120403
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-css3-animations-20090320
+    title:
+    - content: CSS Animations Module Level 3
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-css3-animations-20090320/
+      type: src
+    docid:
+    - id: W3C WD-css3-animations-20090320
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: css-animations-1
 ext:

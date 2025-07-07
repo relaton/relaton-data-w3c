@@ -5,7 +5,7 @@ title:
 - content: The srcset attribute
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-html-srcset-20130228/
+- content: https://www.w3.org/TR/2013/WD-html-srcset-20130228/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Edward O'Connor
+      given:
+        forename:
+        - content: Theresa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-srcset
+    title:
+    - content: The srcset attribute
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-srcset/
+      type: src
+    docid:
+    - id: W3C html-srcset
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-html-srcset-20140819
+    title:
+    - content: The srcset attribute
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-html-srcset-20140819/
+      type: src
+    docid:
+    - id: W3C NOTE-html-srcset-20140819
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-srcset-20130228
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

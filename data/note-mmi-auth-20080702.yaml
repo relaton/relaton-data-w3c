@@ -25,24 +25,31 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Ingmar Kliche
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2008-07-02'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmmi-auth
+    title:
+    - content: Authoring Applications for the Multimodal Architecture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mmi-auth/
+      type: src
+    docid:
+    - id: W3C mmi-auth
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mmi-auth-20080702
 ext:

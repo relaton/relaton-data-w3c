@@ -5,7 +5,7 @@ title:
 - content: Requirements for Latin Text Layout and Pagination
   format: text/plain
 link:
-- content: http://www.w3.org/TR/dpub-latinreq/
+- content: https://www.w3.org/TR/dpub-latinreq/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CWD-dpub-latinreq-20140930
+    title:
+    - content: Requirements for Latin Text Layout and Pagination
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140930/
+      type: src
+    docid:
+    - id: W3C WD-dpub-latinreq-20140930
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-dpub-latinreq-20140313
+    title:
+    - content: Requirements for Latin Text Layout and Pagination
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-dpub-latinreq-20140313/
+    - content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140313/
       type: src
     docid:
     - id: W3C WD-dpub-latinreq-20140313
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dpub-latinreq-20140313
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: dpub-latinreq
 ext:

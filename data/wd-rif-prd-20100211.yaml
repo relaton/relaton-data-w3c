@@ -5,7 +5,7 @@ title:
 - content: RIF Production Rule Dialect
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-rif-prd-20100211/
+- content: https://www.w3.org/TR/2010/WD-rif-prd-20100211/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Paschke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Christian de Sainte Marie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Gary Hallmark
+      given:
+        forename:
+        - content: Christian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Sainte Marie
         language:
         - en
         script:
@@ -62,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
-- type: obsoletes
+- type: editionOf
   bibitem:
-    id: W3Cdiff-from-20091001
+    id: W3Crif-prd
+    title:
+    - content: RIF Production Rule Dialect (Second Edition)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-rif-prd-20091001/http://www.w3.org/TR/2010/WD-rif-prd-20100211/diff-from-20091001
+    - content: https://www.w3.org/TR/rif-prd/
       type: src
     docid:
-    - id: W3C diff-from-20091001
+    - id: W3C rif-prd
       type: W3C
       primary: true
-    formattedref:
-      content: W3C diff-from-20091001
+- type: obsoletes
+  bibitem:
+    id: W3CCR-rif-prd-20091001
+    title:
+    - content: RIF Production Rule Dialect
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-rif-prd-20091001/
+      type: src
+    docid:
+    - id: W3C CR-rif-prd-20091001
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rif-prd-20100511
+    title:
+    - content: RIF Production Rule Dialect
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/PR-rif-prd-20100511/
+      type: src
+    docid:
+    - id: W3C PR-rif-prd-20100511
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-rif-prd-20100211
 ext:
@@ -87,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

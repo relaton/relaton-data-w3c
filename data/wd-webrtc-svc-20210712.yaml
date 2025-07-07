@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-webrtc-svc-20210712/
   type: src
-- content: https://w3c.github.io/webrtc-svc/
-  type: current
 type: standard
 docid:
 - id: W3C WD-webrtc-svc-20210712
@@ -29,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernard Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Peter Thatcher
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thatcher
         language:
         - en
         script:
@@ -56,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebrtc-svc
+    title:
+    - content: Scalable Video Coding (SVC) Extension for WebRTC
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webrtc-svc/
+      type: src
+    docid:
+    - id: W3C webrtc-svc
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-webrtc-svc-20210710
+    title:
+    - content: Scalable Video Coding (SVC) Extension for WebRTC
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-webrtc-svc-20210710/
       type: src
@@ -66,12 +77,25 @@ relation:
     - id: W3C WD-webrtc-svc-20210710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-webrtc-svc-20210710
+- type: updatedBy
+  bibitem:
+    id: W3CWD-webrtc-svc-20210823
+    title:
+    - content: Scalable Video Coding (SVC) Extension for WebRTC
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-webrtc-svc-20210823/
+      type: src
+    docid:
+    - id: W3C WD-webrtc-svc-20210823
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webrtc-svc-20210712
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Antoine Isaac
+      given:
+        forename:
+        - content: Antoine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Isaac
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ed Summers
+      given:
+        forename:
+        - content: Ed
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Summers
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cskos-primer
+    title:
+    - content: SKOS Simple Knowledge Organization System Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/skos-primer/
+      type: src
+    docid:
+    - id: W3C skos-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-skos-primer-20090615
+    title:
+    - content: SKOS Simple Knowledge Organization System Primer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/WD-skos-primer-20090615/
       type: src
@@ -61,28 +94,9 @@ relation:
     - id: W3C WD-skos-primer-20090615
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-skos-primer-20090615
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3C20090811-errata
-    link:
-    - content: https://www.w3.org/2006/07/SWD/SKOS/reference/20090811-errata
-      type: src
-    docid:
-    - id: W3C 20090811-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C 20090811-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-skos-primer-20090818
 ext:

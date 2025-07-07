@@ -5,10 +5,8 @@ title:
 - content: Mediastream Image Capture
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-image-capture-20130709/
+- content: https://www.w3.org/TR/2013/WD-image-capture-20130709/
   type: src
-- content: https://dvcs.w3.org/hg/dap/raw-file/default/media-stream-capture/ImageCapture.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-image-capture-20130709
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Giridhar Mandyam
+      given:
+        forename:
+        - content: Giridhar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mandyam
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cimage-capture
+    title:
+    - content: MediaStream Image Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/image-capture/
+      type: src
+    docid:
+    - id: W3C image-capture
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-image-capture-20150127
+    title:
+    - content: Mediastream Image Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-image-capture-20150127/
+      type: src
+    docid:
+    - id: W3C WD-image-capture-20150127
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-image-capture-20130709
 ext:

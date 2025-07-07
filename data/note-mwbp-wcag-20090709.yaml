@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alan Chuter
+      given:
+        forename:
+        - content: Alan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chuter
         language:
         - en
         script:
@@ -38,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Yeliz Yesilada
+      given:
+        forename:
+        - content: Yeliz
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yesilada
         language:
         - en
         script:
@@ -51,10 +65,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmwbp-wcag
+    title:
+    - content: Relationship between Mobile Web Best Practices (MWBP) and Web Content
+        Accessibility Guidelines (WCAG)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mwbp-wcag/
+      type: src
+    docid:
+    - id: W3C mwbp-wcag
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mwbp-wcag-20090526
+    title:
+    - content: Relationship between Mobile Web Best Practices (MWBP) and Web Content
+        Accessibility Guidelines (WCAG)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2009/WD-mwbp-wcag-20090526/
       type: src
@@ -62,12 +97,9 @@ relation:
     - id: W3C WD-mwbp-wcag-20090526
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mwbp-wcag-20090526
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-mwbp-wcag-20090709
 ext:
@@ -75,5 +107,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
+  - name: Accessibility Education and Outreach Working Group (EOWG)
   - name: Mobile Web Best Practices Working Group
-  - name: Education and Outreach Working Group

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/CR-dom-20200317/
   type: src
-- content: https://dom.spec.whatwg.org/
-  type: current
 type: standard
 docid:
 - id: W3C CR-dom-20200317
@@ -34,10 +32,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdom
+    title:
+    - content: DOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dom/
+      type: src
+    docid:
+    - id: W3C dom
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CPR-dom-20200514
+    title:
+    - content: DOM
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/PR-dom-20200514/
+      type: src
+    docid:
+    - id: W3C PR-dom-20200514
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-dom-20200317
 ext:

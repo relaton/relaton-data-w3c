@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Diego Berrueta
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jon Phipps
+      given:
+        forename:
+        - content: Jon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Phipps
         language:
         - en
         script:
@@ -50,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cswbp-vocab-pub
+    title:
+    - content: Best Practice Recipes for Publishing RDF Vocabularies
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/swbp-vocab-pub/
+      type: src
+    docid:
+    - id: W3C swbp-vocab-pub
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-swbp-vocab-pub-20080123
+    title:
+    - content: Best Practice Recipes for Publishing RDF Vocabularies
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/WD-swbp-vocab-pub-20080123/
       type: src
@@ -61,12 +77,9 @@ relation:
     - id: W3C WD-swbp-vocab-pub-20080123
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-swbp-vocab-pub-20080123
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-swbp-vocab-pub-20080828
 ext:

@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Steve Ross-Talbot
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tony Fletcher
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-06-19'
 language:
 - en
@@ -52,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cws-cdl-10-primer
+    title:
+    - content: 'Web Services Choreography Description Language: Primer'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ws-cdl-10-primer/
+      type: src
+    docid:
+    - id: W3C ws-cdl-10-primer
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-ws-cdl-10-primer-20060619
 ext:

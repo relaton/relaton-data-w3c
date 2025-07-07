@@ -5,10 +5,8 @@ title:
 - content: Subresource Integrity
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-SRI-20140318/
+- content: https://www.w3.org/TR/2014/WD-SRI-20140318/
   type: src
-- content: http://w3c.github.io/webappsec/specs/subresourceintegrity/
-  type: current
 type: standard
 docid:
 - id: W3C WD-SRI-20140318
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Devdatta Akhawe
+      given:
+        forename:
+        - content: Frederik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Braun
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frederik Braun
+      given:
+        forename:
+        - content: Devdatta
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Akhawe
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Joel Weinberger
+      given:
+        forename:
+        - content: Joel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Weinberger
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike West
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: West
         language:
         - en
         script:
@@ -74,10 +100,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CSRI
+    title:
+    - content: Subresource Integrity
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SRI/
+      type: src
+    docid:
+    - id: W3C SRI
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-SRI-20150409
+    title:
+    - content: Subresource Integrity
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-SRI-20150409/
+      type: src
+    docid:
+    - id: W3C WD-SRI-20150409
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-SRI-20140318
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/PR-web-share-20221215/
   type: src
-- content: https://w3c.github.io/web-share/
-  type: current
 type: standard
 docid:
 - id: W3C PR-web-share-20221215
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Willigers
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Giuca
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Willigers
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Giuca
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-share
+    title:
+    - content: Web Share API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-share/
+      type: src
+    docid:
+    - id: W3C web-share
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-web-share-20221212
+    title:
+    - content: Web Share API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/CRD-web-share-20221212/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CRD-web-share-20221212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-web-share-20221212
+- type: updatedBy
+  bibitem:
+    id: W3CREC-web-share-20230530
+    title:
+    - content: Web Share API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/REC-web-share-20230530/
+      type: src
+    docid:
+    - id: W3C REC-web-share-20230530
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-web-share-20221215
 ext:

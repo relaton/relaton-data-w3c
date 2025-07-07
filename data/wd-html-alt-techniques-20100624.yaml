@@ -5,7 +5,7 @@ title:
 - content: 'HTML5: Techniques for providing useful text alternatives'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-html-alt-techniques-20100624/
+- content: https://www.w3.org/TR/2010/WD-html-alt-techniques-20100624/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-alt-techniques
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-alt-techniques/
+      type: src
+    docid:
+    - id: W3C html-alt-techniques
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-alt-techniques-20101019
+    title:
+    - content: 'HTML5: Techniques for providing useful text alternatives'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-html-alt-techniques-20101019/
+      type: src
+    docid:
+    - id: W3C WD-html-alt-techniques-20101019
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-alt-techniques-20100624
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

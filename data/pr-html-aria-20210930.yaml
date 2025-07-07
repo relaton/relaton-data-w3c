@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/PR-html-aria-20210930/
   type: src
-- content: https://w3c.github.io/html-aria/
-  type: current
 type: standard
 docid:
 - id: W3C PR-html-aria-20210930
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Patrick Lauke
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott O'Hara
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Hara
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Patrick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lauke
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-aria
+    title:
+    - content: ARIA in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-aria/
+      type: src
+    docid:
+    - id: W3C html-aria
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCRD-html-aria-20210924
+    title:
+    - content: ARIA in HTML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/CRD-html-aria-20210924/
       type: src
@@ -76,12 +111,25 @@ relation:
     - id: W3C CRD-html-aria-20210924
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CRD-html-aria-20210924
+- type: updatedBy
+  bibitem:
+    id: W3CREC-html-aria-20211209
+    title:
+    - content: ARIA in HTML
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/REC-html-aria-20211209/
+      type: src
+    docid:
+    - id: W3C REC-html-aria-20211209
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-html-aria-20210930
 ext:

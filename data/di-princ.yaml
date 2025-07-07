@@ -5,7 +5,7 @@ title:
 - content: Device Independence Principles
   format: text/plain
 link:
-- content: http://www.w3.org/TR/di-princ/
+- content: https://www.w3.org/TR/di-princ/
   type: src
 type: standard
 docid:
@@ -26,26 +26,36 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-di-princ-20030901
+    title:
+    - content: Device Independence Principles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/NOTE-di-princ-20030901/
+      type: src
+    docid:
+    - id: W3C NOTE-di-princ-20030901
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-di-princ-20010918
+    title:
+    - content: Device Independence Principles
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2001/WD-di-princ-20010918/
+    - content: https://www.w3.org/TR/2001/WD-di-princ-20010918/
       type: src
     docid:
     - id: W3C WD-di-princ-20010918
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-di-princ-20010918
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: di-princ
 ext:

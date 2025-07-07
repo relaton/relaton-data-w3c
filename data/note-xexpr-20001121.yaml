@@ -5,7 +5,7 @@ title:
 - content: XEXPR - A Scripting Language for XML
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2000/NOTE-xexpr-20001121
+- content: https://www.w3.org/TR/2000/NOTE-xexpr-20001121
   type: src
 type: standard
 docid:
@@ -25,27 +25,36 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Gavin Thomas Nicol
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2000-11-21'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxexpr
+    title:
+    - content: XEXPR - A Scripting Language for XML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xexpr
+      type: src
+    docid:
+    - id: W3C xexpr
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xexpr-20001121
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

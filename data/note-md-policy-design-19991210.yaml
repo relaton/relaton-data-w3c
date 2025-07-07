@@ -5,7 +5,7 @@ title:
 - content: 'Eskimo Snow and Scottish Rain: Legal Considerations of Schema Design'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/1999/NOTE-md-policy-design-19991210
+- content: https://www.w3.org/TR/1999/NOTE-md-policy-design-19991210
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joseph Reagle
+      given:
+        forename:
+        - content: Joseph
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reagle
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmd-policy-design
+    title:
+    - content: 'Eskimo Snow and Scottish Rain: Legal Considerations of Schema Design'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/md-policy-design
+      type: src
+    docid:
+    - id: W3C md-policy-design
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-md-policy-design-19991210
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

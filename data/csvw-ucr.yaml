@@ -5,7 +5,7 @@ title:
 - content: 'CSV on the Web: Use Cases and Requirements'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/csvw-ucr/
+- content: https://www.w3.org/TR/csvw-ucr/
   type: src
 type: standard
 docid:
@@ -26,39 +26,49 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CNOTE-csvw-ucr-20160225
+    title:
+    - content: 'CSV on the Web: Use Cases and Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/NOTE-csvw-ucr-20160225/
+      type: src
+    docid:
+    - id: W3C NOTE-csvw-ucr-20160225
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-csvw-ucr-20140701
+    title:
+    - content: 'CSV on the Web: Use Cases and Requirements'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-csvw-ucr-20140701/
+    - content: https://www.w3.org/TR/2014/WD-csvw-ucr-20140701/
       type: src
     docid:
     - id: W3C WD-csvw-ucr-20140701
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-csvw-ucr-20140701
-      format: text/plain
 - type: hasEdition
   bibitem:
     id: W3CWD-csvw-ucr-20140327
+    title:
+    - content: 'CSV on the Web: Use Cases and Requirements'
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/WD-csvw-ucr-20140327/
+    - content: https://www.w3.org/TR/2014/WD-csvw-ucr-20140327/
       type: src
     docid:
     - id: W3C WD-csvw-ucr-20140327
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-csvw-ucr-20140327
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: csvw-ucr
 ext:

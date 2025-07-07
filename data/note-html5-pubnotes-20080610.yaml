@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael[tm] Smith (sideshowbarker)
+      given:
+        forename:
+        - content: Michael[tm]
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smith (sideshowbarker)
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml5-pubnotes
+    title:
+    - content: HTML 5 Publication Notes
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html5-pubnotes/
+      type: src
+    docid:
+    - id: W3C html5-pubnotes
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-html5-pubnotes-20080610
 ext:
@@ -50,4 +74,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

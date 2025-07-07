@@ -5,7 +5,7 @@ title:
 - content: Emotion Markup Language (EmotionML) 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-emotionml-20091029/
+- content: https://www.w3.org/TR/2009/WD-emotionml-20091029/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Marc Schröder
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2009-10-29'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemotionml
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emotionml/
+      type: src
+    docid:
+    - id: W3C emotionml
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-emotionml-20100729
+    title:
+    - content: Emotion Markup Language (EmotionML) 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-emotionml-20100729/
+      type: src
+    docid:
+    - id: W3C WD-emotionml-20100729
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-emotionml-20091029
 ext:

@@ -5,10 +5,8 @@ title:
 - content: Non-element Selectors Module Level 1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-selectors-nonelement-1-20140603/
+- content: https://www.w3.org/TR/2014/WD-selectors-nonelement-1-20140603/
   type: src
-- content: https://drafts.csswg.org/selectors-nonelement/
-  type: current
 type: standard
 docid:
 - id: W3C WD-selectors-nonelement-1-20140603
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Jirka Kosek
+      given:
+        forename:
+        - content: Jirka
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kosek
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tab Atkins Jr.
+      given:
+        forename:
+        - content: Tab
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cselectors-nonelement-1
+    title:
+    - content: Non-element Selectors Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/selectors-nonelement-1/
+      type: src
+    docid:
+    - id: W3C selectors-nonelement-1
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-selectors-nonelement-1-20190402
+    title:
+    - content: Non-element Selectors Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-selectors-nonelement-1-20190402/
+      type: src
+    docid:
+    - id: W3C NOTE-selectors-nonelement-1-20190402
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-selectors-nonelement-1-20140603
 ext:
@@ -65,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

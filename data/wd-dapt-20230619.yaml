@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-dapt-20230619/
   type: src
-- content: https://w3c.github.io/dapt/
-  type: current
 type: standard
 docid:
 - id: W3C WD-dapt-20230619
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cyril Concolato
+      given:
+        forename:
+        - content: Cyril
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Concolato
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Nigel Megitt
+      given:
+        forename:
+        - content: Nigel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Megitt
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdapt
+    title:
+    - content: Dubbing and Audio description Profiles of TTML2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dapt/
+      type: src
+    docid:
+    - id: W3C dapt
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dapt-20230606
+    title:
+    - content: Dubbing and Audio description Profiles of TTML2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/WD-dapt-20230606/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-dapt-20230606
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dapt-20230606
+- type: updatedBy
+  bibitem:
+    id: W3CWD-dapt-20230628
+    title:
+    - content: Dubbing and Audio description Profiles of TTML2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-dapt-20230628/
+      type: src
+    docid:
+    - id: W3C WD-dapt-20230628
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dapt-20230619
 ext:

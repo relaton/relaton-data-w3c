@@ -5,10 +5,8 @@ title:
 - content: HTML Canvas 2D Context
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-2dcontext-20140520/
+- content: https://www.w3.org/TR/2014/WD-2dcontext-20140520/
   type: src
-- content: http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas_CR/
-  type: current
 type: standard
 docid:
 - id: W3C WD-2dcontext-20140520
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eliot Graff
+      given:
+        forename:
+        - content: Rik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabanier
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Eliot
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Graff
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jay Munro
+      given:
+        forename:
+        - content: Jay
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Munro
         language:
         - en
         script:
@@ -59,18 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rik Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tom Wiltzius
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -84,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3C2dcontext
+    title:
+    - content: HTML Canvas 2D Context
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2dcontext/
+      type: src
+    docid:
+    - id: W3C 2dcontext
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-2dcontext-20130806
+    title:
+    - content: HTML Canvas 2D Context
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/CR-2dcontext-20130806/
+    - content: https://www.w3.org/TR/2013/CR-2dcontext-20130806/
       type: src
     docid:
     - id: W3C CR-2dcontext-20130806
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-2dcontext-20130806
+- type: updatedBy
+  bibitem:
+    id: W3CCR-2dcontext-20140821
+    title:
+    - content: HTML Canvas 2D Context
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/CR-2dcontext-20140821/
+      type: src
+    docid:
+    - id: W3C CR-2dcontext-20140821
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-2dcontext-20140520
 ext:
@@ -109,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

@@ -5,7 +5,7 @@ title:
 - content: Timed Text Markup Language 2 (TTML2)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-ttml2-20150212/
+- content: https://www.w3.org/TR/2015/WD-ttml2-20150212/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -42,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml2
+    title:
+    - content: Timed Text Markup Language 2 (TTML2) (2nd Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml2/
+      type: src
+    docid:
+    - id: W3C ttml2
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-ttml2-20160524
+    title:
+    - content: Timed Text Markup Language 2 (TTML2)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-ttml2-20160524/
+      type: src
+    docid:
+    - id: W3C WD-ttml2-20160524
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-ttml2-20150212
 ext:

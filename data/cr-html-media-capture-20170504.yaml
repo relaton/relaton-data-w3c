@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/CR-html-media-capture-20170504/
   type: src
-- content: https://w3c.github.io/html-media-capture/
-  type: current
 type: standard
 docid:
 - id: W3C CR-html-media-capture-20170504
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anssi Kostiainen
+      given:
+        forename:
+        - content: Anssi
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kostiainen
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Dominique Hazaël-Massieux
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ilkka Oksanen
+      given:
+        forename:
+        - content: Dominique
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hazaël-Massieux
         language:
         - en
         script:
@@ -64,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-media-capture
+    title:
+    - content: HTML Media Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-media-capture/
+      type: src
+    docid:
+    - id: W3C html-media-capture
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-html-media-capture-20140909
+    title:
+    - content: HTML Media Capture
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2014/CR-html-media-capture-20140909/
+    - content: https://www.w3.org/TR/2014/CR-html-media-capture-20140909/
       type: src
     docid:
     - id: W3C CR-html-media-capture-20140909
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-html-media-capture-20140909
+- type: updatedBy
+  bibitem:
+    id: W3CCR-html-media-capture-20170831
+    title:
+    - content: HTML Media Capture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-html-media-capture-20170831/
+      type: src
+    docid:
+    - id: W3C CR-html-media-capture-20170831
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-html-media-capture-20170504
 ext:

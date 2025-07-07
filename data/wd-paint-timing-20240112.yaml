@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2024/WD-paint-timing-20240112/
   type: src
-- content: https://w3c.github.io/paint-timing/
-  type: current
 type: standard
 docid:
 - id: W3C WD-paint-timing-20240112
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Clelland
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Clelland
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Noam Rosenthal
+      given:
+        forename:
+        - content: Noam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosenthal
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpaint-timing
+    title:
+    - content: Paint Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/paint-timing/
+      type: src
+    docid:
+    - id: W3C paint-timing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-paint-timing-20240110
+    title:
+    - content: Paint Timing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-paint-timing-20240110/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-paint-timing-20240110
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-paint-timing-20240110
+- type: updatedBy
+  bibitem:
+    id: W3CWD-paint-timing-20241111
+    title:
+    - content: Paint Timing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/WD-paint-timing-20241111/
+      type: src
+    docid:
+    - id: W3C WD-paint-timing-20241111
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-paint-timing-20240112
 ext:

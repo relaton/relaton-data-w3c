@@ -26,91 +26,13 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wot-thing-description11-20201124
-    link:
-    - content: https://www.w3.org/TR/2020/WD-wot-thing-description11-20201124/
-      type: src
-    docid:
-    - id: W3C WD-wot-thing-description11-20201124
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wot-thing-description11-20201124
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wot-thing-description11-20210607
-    link:
-    - content: https://www.w3.org/TR/2021/WD-wot-thing-description11-20210607/
-      type: src
-    docid:
-    - id: W3C WD-wot-thing-description11-20210607
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wot-thing-description11-20210607
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wot-thing-description11-20220311
-    link:
-    - content: https://www.w3.org/TR/2022/WD-wot-thing-description11-20220311/
-      type: src
-    docid:
-    - id: W3C WD-wot-thing-description11-20220311
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wot-thing-description11-20220311
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CWD-wot-thing-description11-20220803
-    link:
-    - content: https://www.w3.org/TR/2022/WD-wot-thing-description11-20220803/
-      type: src
-    docid:
-    - id: W3C WD-wot-thing-description11-20220803
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-wot-thing-description11-20220803
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CCR-wot-thing-description11-20230119
-    link:
-    - content: https://www.w3.org/TR/2023/CR-wot-thing-description11-20230119/
-      type: src
-    docid:
-    - id: W3C CR-wot-thing-description11-20230119
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C CR-wot-thing-description11-20230119
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CPR-wot-thing-description11-20230711
-    link:
-    - content: https://www.w3.org/TR/2023/PR-wot-thing-description11-20230711/
-      type: src
-    docid:
-    - id: W3C PR-wot-thing-description11-20230711
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C PR-wot-thing-description11-20230711
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CREC-wot-thing-description11-20231205
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/REC-wot-thing-description11-20231205/
       type: src
@@ -118,12 +40,87 @@ relation:
     - id: W3C REC-wot-thing-description11-20231205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-wot-thing-description11-20231205
+- type: hasEdition
+  bibitem:
+    id: W3CPR-wot-thing-description11-20230711
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/PR-wot-thing-description11-20230711/
+      type: src
+    docid:
+    - id: W3C PR-wot-thing-description11-20230711
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-wot-thing-description11-20230119
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/CR-wot-thing-description11-20230119/
+      type: src
+    docid:
+    - id: W3C CR-wot-thing-description11-20230119
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wot-thing-description11-20220803
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-wot-thing-description11-20220803/
+      type: src
+    docid:
+    - id: W3C WD-wot-thing-description11-20220803
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wot-thing-description11-20220311
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-wot-thing-description11-20220311/
+      type: src
+    docid:
+    - id: W3C WD-wot-thing-description11-20220311
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wot-thing-description11-20210607
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/WD-wot-thing-description11-20210607/
+      type: src
+    docid:
+    - id: W3C WD-wot-thing-description11-20210607
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-wot-thing-description11-20201124
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-wot-thing-description11-20201124/
+      type: src
+    docid:
+    - id: W3C WD-wot-thing-description11-20201124
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: wot-thing-description11
 ext:

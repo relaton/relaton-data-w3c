@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-security-privacy-questionnaire-20210923/
   type: src
-- content: https://w3ctag.github.io/security-questionnaire/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-security-privacy-questionnaire-20210923
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Peter Snyder
+      given:
+        forename:
+        - content: Theresa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Theresa O'Connor
+      given:
+        forename:
+        - content: Peter
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snyder
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csecurity-privacy-questionnaire
+    title:
+    - content: 'Self-Review Questionnaire: Security and Privacy'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/security-privacy-questionnaire/
+      type: src
+    docid:
+    - id: W3C security-privacy-questionnaire
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-security-privacy-questionnaire-20210323
+    title:
+    - content: 'Self-Review Questionnaire: Security and Privacy'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-security-privacy-questionnaire-20210323/
       type: src
@@ -63,12 +94,25 @@ relation:
     - id: W3C NOTE-security-privacy-questionnaire-20210323
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-security-privacy-questionnaire-20210323
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-security-privacy-questionnaire-20211216
+    title:
+    - content: 'Self-Review Questionnaire: Security and Privacy'
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/NOTE-security-privacy-questionnaire-20211216/
+      type: src
+    docid:
+    - id: W3C NOTE-security-privacy-questionnaire-20211216
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-security-privacy-questionnaire-20210923
 ext:

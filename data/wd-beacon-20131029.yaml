@@ -5,10 +5,8 @@ title:
 - content: Beacon
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-beacon-20131029/
+- content: https://www.w3.org/TR/2013/WD-beacon-20131029/
   type: src
-- content: http://dvcs.w3.org/hg/webperf/raw-file/tip/specs/Beacon/Overview.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-beacon-20131029
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alois Reitbauer
+      given:
+        forename:
+        - content: Jatinder
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mann
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jatinder Mann
+      given:
+        forename:
+        - content: Alois
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reitbauer
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbeacon
+    title:
+    - content: Beacon
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/beacon/
+      type: src
+    docid:
+    - id: W3C beacon
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-beacon-20140624
+    title:
+    - content: Beacon
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-beacon-20140624/
+      type: src
+    docid:
+    - id: W3C WD-beacon-20140624
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-beacon-20131029
 ext:

@@ -5,7 +5,7 @@ title:
 - content: HTML Media Capture
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-html-media-capture-20110414/
+- content: https://www.w3.org/TR/2011/WD-html-media-capture-20110414/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dominique Hazaël-Massieux
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ilkka Oksanen
+      given:
+        forename:
+        - content: Dominique
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hazaël-Massieux
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-media-capture
+    title:
+    - content: HTML Media Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-media-capture/
+      type: src
+    docid:
+    - id: W3C html-media-capture
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-media-capture-20100928
+    title:
+    - content: HTML Media Capture
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-html-media-capture-20100928/
+    - content: https://www.w3.org/TR/2010/WD-html-media-capture-20100928/
       type: src
     docid:
     - id: W3C WD-html-media-capture-20100928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-media-capture-20100928
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-media-capture-20120529
+    title:
+    - content: HTML Media Capture
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-html-media-capture-20120529/
+      type: src
+    docid:
+    - id: W3C WD-html-media-capture-20120529
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html-media-capture-20110414
 ext:

@@ -5,7 +5,7 @@ title:
 - content: XHTML™ 1.1 - Module-based XHTML - Second Edition
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/PER-xhtml11-20101007
+- content: https://www.w3.org/TR/2010/PER-xhtml11-20101007
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Masayasu Ishikawa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Edited Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxhtml11
+    title:
+    - content: XHTML™ 1.1 - Module-based XHTML - Second Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xhtml11/
+      type: src
+    docid:
+    - id: W3C xhtml11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xhtml11-20070216
+    title:
+    - content: XHTML™ 1.1 - Module-based XHTML - Second Edition
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-xhtml11-20070216
+    - content: https://www.w3.org/TR/2007/WD-xhtml11-20070216
       type: src
     docid:
     - id: W3C WD-xhtml11-20070216
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xhtml11-20070216
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xhtml11-20101123
+    title:
+    - content: XHTML™ 1.1 - Module-based XHTML - Second Edition
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/REC-xhtml11-20101123/
+      type: src
+    docid:
+    - id: W3C REC-xhtml11-20101123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-xhtml11-20101007
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230518/
   type: src
-- content: https://w3c.github.io/vc-di-bbs/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vc-di-bbs-20230518
@@ -34,10 +32,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvc-di-bbs
+    title:
+    - content: Data Integrity BBS Cryptosuites v1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vc-di-bbs/
+      type: src
+    docid:
+    - id: W3C vc-di-bbs
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vc-di-bbs-20230524
+    title:
+    - content: BBS Cryptosuite v2023
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230524/
+      type: src
+    docid:
+    - id: W3C WD-vc-di-bbs-20230524
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-vc-di-bbs-20230518
 ext:

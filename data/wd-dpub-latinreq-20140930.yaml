@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140930/
   type: src
-- content: https://w3c.github.io/dpub-pagination/
-  type: current
 type: standard
 docid:
 - id: W3C WD-dpub-latinreq-20140930
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Cramer
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cramer
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cdpub-latinreq
+    title:
+    - content: Requirements for Latin Text Layout and Pagination
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/dpub-latinreq/
+      type: src
+    docid:
+    - id: W3C dpub-latinreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-dpub-latinreq-20140313
+    title:
+    - content: Requirements for Latin Text Layout and Pagination
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140313/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C WD-dpub-latinreq-20140313
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-dpub-latinreq-20140313
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-dpub-latinreq-20140930
 ext:

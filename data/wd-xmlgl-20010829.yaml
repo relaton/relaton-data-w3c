@@ -5,7 +5,7 @@ title:
 - content: XML Accessibility Guidelines
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2001/WD-xmlgl-20010829
+- content: https://www.w3.org/TR/2001/WD-xmlgl-20010829
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Daniel Dardailler
+      given:
+        forename:
+        - content: Daniel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dardailler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sean B. Palmer
+      given:
+        forename:
+        - content: Sean
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Palmer
         language:
         - en
         script:
@@ -53,12 +67,44 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxag
+    title:
+    - content: XML Accessibility Guidelines
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xag
+      type: src
+    docid:
+    - id: W3C xag
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xag-20021003
+    title:
+    - content: XML Accessibility Guidelines
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2002/WD-xag-20021003
+      type: src
+    docid:
+    - id: W3C WD-xag-20021003
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xmlgl-20010829
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

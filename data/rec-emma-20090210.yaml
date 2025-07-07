@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Johnston
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Johnston
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cemma
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/emma/
+      type: src
+    docid:
+    - id: W3C emma
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-emma-20081215
+    title:
+    - content: 'EMMA: Extensible MultiModal Annotation markup language'
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-emma-20081215/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-emma-20081215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-emma-20081215
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cemma-errata.html
-    link:
-    - content: https://www.w3.org/2009/02/emma-errata.html
-      type: src
-    docid:
-    - id: W3C emma-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C emma-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-emma-20090210
 ext:

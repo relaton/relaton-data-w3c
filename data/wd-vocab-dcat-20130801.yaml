@@ -5,7 +5,7 @@ title:
 - content: Data Catalog Vocabulary (DCAT)
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/WD-vocab-dcat-20130801/
+- content: https://www.w3.org/TR/2013/WD-vocab-dcat-20130801/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Fadi Maali
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: John Erickson
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Erickson
         language:
         - en
         script:
@@ -52,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-dcat-1
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-dcat-1/
+      type: src
+    docid:
+    - id: W3C vocab-dcat-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-vocab-dcat-20130312
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-vocab-dcat-20130312/
+    - content: https://www.w3.org/TR/2013/WD-vocab-dcat-20130312/
       type: src
     docid:
     - id: W3C WD-vocab-dcat-20130312
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-vocab-dcat-20130312
+- type: updatedBy
+  bibitem:
+    id: W3CCR-vocab-dcat-20131105
+    title:
+    - content: Data Catalog Vocabulary (DCAT)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/CR-vocab-dcat-20131105/
+      type: src
+    docid:
+    - id: W3C CR-vocab-dcat-20131105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-vocab-dcat-20130801
 ext:

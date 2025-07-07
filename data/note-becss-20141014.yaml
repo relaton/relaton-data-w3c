@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2014/NOTE-becss-20141014/
   type: src
-- content: https://dev.w3.org/2006/xbl2/css-module.html
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-becss-20141014
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cbecss
+    title:
+    - content: Behavioral Extensions to CSS
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/becss/
+      type: src
+    docid:
+    - id: W3C becss
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-becss-20071019
+    title:
+    - content: Behavioral Extensions to CSS
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/WD-becss-20071019
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-becss-20071019
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-becss-20071019
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-becss-20141014
 ext:
@@ -66,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

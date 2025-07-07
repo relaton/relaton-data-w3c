@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: John Cowan
+      given:
+        forename:
+        - content: John
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cowan
         language:
         - en
         script:
@@ -42,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-blueberry-req
+    title:
+    - content: XML Blueberry Requirements
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-blueberry-req/
+      type: src
+    docid:
+    - id: W3C xml-blueberry-req
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-blueberry-req-20010620
+    title:
+    - content: XML Blueberry Requirements
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2001/WD-xml-blueberry-req-20010620
       type: src
@@ -54,12 +77,9 @@ relation:
     - id: W3C WD-xml-blueberry-req-20010620
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-blueberry-req-20010620
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xml-blueberry-req-20010921
 ext:

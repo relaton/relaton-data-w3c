@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/DNOTE-webcodecs-hevc-codec-registration-20221020/
   type: src
-- content: https://w3c.github.io/webcodecs/hevc_codec_registration.html
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-webcodecs-hevc-codec-registration-20221020
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bernard Aboba
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cunningham
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Chris Cunningham
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Adenot
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adenot
         language:
         - en
         script:
@@ -62,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebcodecs-hevc-codec-registration
+    title:
+    - content: HEVC (H.265) WebCodecs Registration
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webcodecs-hevc-codec-registration/
+      type: src
+    docid:
+    - id: W3C webcodecs-hevc-codec-registration
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-webcodecs-hevc-codec-registration-20221019
+    title:
+    - content: HEVC (H.265) WebCodecs Registration
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-webcodecs-hevc-codec-registration-20221019/
       type: src
@@ -73,12 +94,25 @@ relation:
     - id: W3C DNOTE-webcodecs-hevc-codec-registration-20221019
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-webcodecs-hevc-codec-registration-20221019
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-webcodecs-hevc-codec-registration-20221021
+    title:
+    - content: HEVC (H.265) WebCodecs Registration
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-webcodecs-hevc-codec-registration-20221021/
+      type: src
+    docid:
+    - id: W3C DNOTE-webcodecs-hevc-codec-registration-20221021
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-webcodecs-hevc-codec-registration-20221020
 ext:

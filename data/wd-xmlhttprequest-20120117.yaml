@@ -5,7 +5,7 @@ title:
 - content: XMLHttpRequest Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-XMLHttpRequest-20120117/
+- content: https://www.w3.org/TR/2012/WD-XMLHttpRequest-20120117/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anne van Kesteren
+      given:
+        forename:
+        - content: Anne
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: van Kesteren
         language:
         - en
         script:
@@ -44,22 +51,67 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CXMLHttpRequest
+    title:
+    - content: XMLHttpRequest Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/XMLHttpRequest/
+      type: src
+    docid:
+    - id: W3C XMLHttpRequest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-XMLHttpRequest2-20110816
+    title:
+    - content: XMLHttpRequest Level 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2011/WD-XMLHttpRequest2-20110816/
+    - content: https://www.w3.org/TR/2011/WD-XMLHttpRequest2-20110816/
       type: src
     docid:
     - id: W3C WD-XMLHttpRequest2-20110816
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-XMLHttpRequest2-20110816
+- type: updatedBy
+  bibitem:
+    id: W3CWD-XMLHttpRequest-20121206
+    title:
+    - content: XMLHttpRequest
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-XMLHttpRequest-20121206/
+      type: src
+    docid:
+    - id: W3C WD-XMLHttpRequest-20121206
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-XMLHttpRequest2-20141118
+    title:
+    - content: XMLHttpRequest Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/NOTE-XMLHttpRequest2-20141118/
+      type: src
+    docid:
+    - id: W3C NOTE-XMLHttpRequest2-20141118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-XMLHttpRequest-20120117
 ext:
@@ -67,4 +119,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CR-css-multicol-1-20211012/
   type: src
-- content: https://drafts.csswg.org/css-multicol/
-  type: current
 type: standard
 docid:
 - id: W3C CR-css-multicol-1-20211012
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Florian Rivoal
+      given:
+        forename:
+        - content: Florian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rivoal
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Rachel Andrew
+      given:
+        forename:
+        - content: Rachel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Andrew
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-multicol-1
+    title:
+    - content: CSS Multi-column Layout Module Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-multicol-1/
+      type: src
+    docid:
+    - id: W3C css-multicol-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-css-multicol-1-20210212
+    title:
+    - content: CSS Multi-column Layout Module Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-css-multicol-1-20210212/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-css-multicol-1-20210212
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-css-multicol-1-20210212
+- type: updatedBy
+  bibitem:
+    id: W3CCR-css-multicol-1-20240516
+    title:
+    - content: CSS Multi-column Layout Module Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2024/CR-css-multicol-1-20240516/
+      type: src
+    docid:
+    - id: W3C CR-css-multicol-1-20240516
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-css-multicol-1-20211012
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

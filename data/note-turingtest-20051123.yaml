@@ -5,7 +5,7 @@ title:
 - content: Inaccessibility of CAPTCHA
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2005/NOTE-turingtest-20051123/
+- content: https://www.w3.org/TR/2005/NOTE-turingtest-20051123/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Matthew May
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: May
         language:
         - en
         script:
@@ -40,23 +47,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cturingtest
+    title:
+    - content: Inaccessibility of CAPTCHA
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/turingtest/
+      type: src
+    docid:
+    - id: W3C turingtest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-turingtest-20031105
+    title:
+    - content: Inaccessibility of Visually-Oriented Anti-Robot Tests
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-turingtest-20031105/
+    - content: https://www.w3.org/TR/2003/WD-turingtest-20031105/
       type: src
     docid:
     - id: W3C WD-turingtest-20031105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-turingtest-20031105
+- type: updatedBy
+  bibitem:
+    id: W3CWD-turingtest-20180703
+    title:
+    - content: Inaccessibility of CAPTCHA
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/WD-turingtest-20180703/
+      type: src
+    docid:
+    - id: W3C WD-turingtest-20180703
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-turingtest-20051123
 ext:

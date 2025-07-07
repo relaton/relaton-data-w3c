@@ -5,10 +5,8 @@ title:
 - content: Pointer Lock
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2013/CR-pointerlock-20131217/
+- content: https://www.w3.org/TR/2013/CR-pointerlock-20131217/
   type: src
-- content: http://dvcs.w3.org/hg/pointerlock/raw-file/default/index.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-pointerlock-20131217
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Vincent Scheib
+      given:
+        forename:
+        - content: Vincent
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scheib
         language:
         - en
         script:
@@ -44,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpointerlock
+    title:
+    - content: Pointer Lock
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/pointerlock/
+      type: src
+    docid:
+    - id: W3C pointerlock
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-pointerlock-20131031
+    title:
+    - content: Pointer Lock
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2013/WD-pointerlock-20131031/
+    - content: https://www.w3.org/TR/2013/WD-pointerlock-20131031/
       type: src
     docid:
     - id: W3C WD-pointerlock-20131031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-pointerlock-20131031
+- type: updatedBy
+  bibitem:
+    id: W3CCR-pointerlock-20160705
+    title:
+    - content: Pointer Lock
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-pointerlock-20160705/
+      type: src
+    docid:
+    - id: W3C CR-pointerlock-20160705
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-pointerlock-20131217
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Connolly
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Connolly
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgrddl
+    title:
+    - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/grddl/
+      type: src
+    docid:
+    - id: W3C grddl
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-grddl-20070716
+    title:
+    - content: Gleaning Resource Descriptions from Dialects of Languages (GRDDL)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2007/PR-grddl-20070716/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-grddl-20070716
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-grddl-20070716
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cgrddl-errata
-    link:
-    - content: https://www.w3.org/2001/sw/grddl-wg/grddl-errata
-      type: src
-    docid:
-    - id: W3C grddl-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C grddl-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-grddl-20070911
 ext:

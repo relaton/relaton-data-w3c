@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2020/PR-json-ld11-20200507/
   type: src
-- content: https://w3c.github.io/json-ld-syntax/
-  type: current
 type: standard
 docid:
 - id: W3C PR-json-ld11-20200507
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Longley
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -39,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Pierre-Antoine Champin
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Longley
         language:
         - en
         script:
@@ -66,9 +68,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld11
+    title:
+    - content: JSON-LD 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld11/
+      type: src
+    docid:
+    - id: W3C json-ld11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-json-ld11-20200417
+    title:
+    - content: JSON-LD 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CR-json-ld11-20200417/
       type: src
@@ -76,12 +94,25 @@ relation:
     - id: W3C CR-json-ld11-20200417
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-json-ld11-20200417
+- type: updatedBy
+  bibitem:
+    id: W3CREC-json-ld11-20200716
+    title:
+    - content: JSON-LD 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/REC-json-ld11-20200716/
+      type: src
+    docid:
+    - id: W3C REC-json-ld11-20200716
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-json-ld11-20200507
 ext:

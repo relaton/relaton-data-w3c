@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-IndexedDB-2-20161101/
   type: src
-- content: https://w3c.github.io/IndexedDB/
-  type: current
 type: standard
 docid:
 - id: W3C WD-IndexedDB-2-20161101
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CIndexedDB-2
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/IndexedDB-2/
+      type: src
+    docid:
+    - id: W3C IndexedDB-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-IndexedDB-2-20160818
+    title:
+    - content: Indexed Database API 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-IndexedDB-2-20160818/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-IndexedDB-2-20160818
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-IndexedDB-2-20160818
+- type: updatedBy
+  bibitem:
+    id: W3CWD-IndexedDB-2-20170313
+    title:
+    - content: Indexed Database API 2.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-IndexedDB-2-20170313/
+      type: src
+    docid:
+    - id: W3C WD-IndexedDB-2-20170313
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-IndexedDB-2-20161101
 ext:
@@ -59,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

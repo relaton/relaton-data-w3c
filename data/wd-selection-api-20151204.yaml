@@ -5,10 +5,8 @@ title:
 - content: Selection API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-selection-api-20151204/
+- content: https://www.w3.org/TR/2015/WD-selection-api-20151204/
   type: src
-- content: http://w3c.github.io/selection-api/
-  type: current
 type: standard
 docid:
 - id: W3C WD-selection-api-20151204
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ryosuke Niwa
+      given:
+        forename:
+        - content: Ryosuke
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Niwa
         language:
         - en
         script:
@@ -46,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cselection-api
+    title:
+    - content: Selection API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/selection-api/
+      type: src
+    docid:
+    - id: W3C selection-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-selection-api-20151124
+    title:
+    - content: Selection API
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-selection-api-20151124/
+    - content: https://www.w3.org/TR/2015/WD-selection-api-20151124/
       type: src
     docid:
     - id: W3C WD-selection-api-20151124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-selection-api-20151124
+- type: updatedBy
+  bibitem:
+    id: W3CWD-selection-api-20151207
+    title:
+    - content: Selection API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-selection-api-20151207/
+      type: src
+    docid:
+    - id: W3C WD-selection-api-20151207
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-selection-api-20151204
 ext:
@@ -69,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

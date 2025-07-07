@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shane McCarron
+      given:
+        forename:
+        - content: Shane
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCarron
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crole-attribute
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/role-attribute/
+      type: src
+    docid:
+    - id: W3C role-attribute
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-role-attribute-20121213
+    title:
+    - content: Role Attribute 1.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-role-attribute-20121213/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-role-attribute-20121213
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-role-attribute-20121213
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Crole-attribute-errata
-    link:
-    - content: https://www.w3.org/WAI/PF/role-attribute/errata
-      type: src
-    docid:
-    - id: W3C role-attribute/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C role-attribute/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-role-attribute-20130328
 ext:

@@ -5,7 +5,7 @@ title:
 - content: Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/CR-CSS21-20070719
+- content: https://www.w3.org/TR/2007/CR-CSS21-20070719
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -72,24 +100,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCSS2
+    title:
+    - content: Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CSS2/
+      type: src
+    docid:
+    - id: W3C CSS2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-CSS21-20061106
+    title:
+    - content: Cascading Style Sheets, level 2 revision 1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/WD-CSS21-20061106
+    - content: https://www.w3.org/TR/2006/WD-CSS21-20061106
       type: src
     docid:
     - id: W3C WD-CSS21-20061106
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-CSS21-20061106
+- type: updatedBy
+  bibitem:
+    id: W3CCR-CSS2-20090423
+    title:
+    - content: Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/CR-CSS2-20090423
+      type: src
+    docid:
+    - id: W3C CR-CSS2-20090423
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-CSS21-20070719
 ext:
@@ -97,4 +154,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

@@ -5,7 +5,7 @@ title:
 - content: RDF Schema 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/PER-rdf-schema-20140109/
+- content: https://www.w3.org/TR/2014/PER-rdf-schema-20140109/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dan Brickley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ramanathan Guha
+      given:
+        forename:
+        - content: Dan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brickley
         language:
         - en
         script:
@@ -56,20 +53,36 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-rdf-schema-20040210
+    id: W3Crdf-schema
+    title:
+    - content: RDF Schema 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2004/REC-rdf-schema-20040210/
+    - content: https://www.w3.org/TR/rdf-schema/
       type: src
     docid:
-    - id: W3C REC-rdf-schema-20040210
+    - id: W3C rdf-schema
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-rdf-schema-20040210
+- type: updatedBy
+  bibitem:
+    id: W3CREC-rdf-schema-20140225
+    title:
+    - content: RDF Schema 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/REC-rdf-schema-20140225/
+      type: src
+    docid:
+    - id: W3C REC-rdf-schema-20140225
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PER
+    content: W3C Proposed Edited Recommendation
     format: text/plain
   number: PER-rdf-schema-20140109
 ext:

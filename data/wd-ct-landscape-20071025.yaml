@@ -5,7 +5,7 @@ title:
 - content: Content Transformation Landscape 1.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2007/WD-ct-landscape-20071025/
+- content: https://www.w3.org/TR/2007/WD-ct-landscape-20071025/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andrew Swainston
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jo Rabin
+      given:
+        forename:
+        - content: Jo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabin
         language:
         - en
         script:
@@ -53,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cct-landscape
+    title:
+    - content: Content Transformation Landscape 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ct-landscape/
+      type: src
+    docid:
+    - id: W3C ct-landscape
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-ct-landscape-20091027
+    title:
+    - content: Content Transformation Landscape 1.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/NOTE-ct-landscape-20091027/
+      type: src
+    docid:
+    - id: W3C NOTE-ct-landscape-20091027
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-ct-landscape-20071025
 ext:

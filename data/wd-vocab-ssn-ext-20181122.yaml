@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/WD-vocab-ssn-ext-20181122/
   type: src
-- content: https://w3c.github.io/sdw/proposals/ssn-extensions/
-  type: current
 type: standard
 docid:
 - id: W3C WD-vocab-ssn-ext-20181122
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Simon Cox
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cox
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-ssn-ext
+    title:
+    - content: Extensions to the Semantic Sensor Network Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-ssn-ext/
+      type: src
+    docid:
+    - id: W3C vocab-ssn-ext
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-vocab-ssn-ext-20200116
+    title:
+    - content: Extensions to the Semantic Sensor Network Ontology
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/WD-vocab-ssn-ext-20200116/
+      type: src
+    docid:
+    - id: W3C WD-vocab-ssn-ext-20200116
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-vocab-ssn-ext-20181122
 ext:

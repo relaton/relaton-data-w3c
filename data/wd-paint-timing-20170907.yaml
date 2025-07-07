@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-paint-timing-20170907/
   type: src
-- content: https://w3c.github.io/paint-timing/
-  type: current
 type: standard
 docid:
 - id: W3C WD-paint-timing-20170907
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Shubhie Panicker
+      given:
+        forename:
+        - content: Shubhie
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Panicker
         language:
         - en
         script:
@@ -44,10 +49,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpaint-timing
+    title:
+    - content: Paint Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/paint-timing/
+      type: src
+    docid:
+    - id: W3C paint-timing
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-paint-timing-20230703
+    title:
+    - content: Paint Timing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-paint-timing-20230703/
+      type: src
+    docid:
+    - id: W3C WD-paint-timing-20230703
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-paint-timing-20170907
 ext:

@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Vanderheiden
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vanderheiden
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: John Slatin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Wendy Chisholm
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chisholm
         language:
         - en
         script:
@@ -60,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwcag2-req
+    title:
+    - content: Requirements for WCAG 2.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wcag2-req/
+      type: src
+    docid:
+    - id: W3C wcag2-req
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-wcag2-req-20020426
+    title:
+    - content: Requirements for WCAG 2.0
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2002/WD-wcag2-req-20020426
       type: src
@@ -71,12 +94,9 @@ relation:
     - id: W3C WD-wcag2-req-20020426
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-wcag2-req-20020426
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-wcag2-req-20060425
 ext:

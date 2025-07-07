@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-screen-wake-lock-20221122/
   type: src
-- content: https://w3c.github.io/screen-wake-lock/
-  type: current
 type: standard
 docid:
 - id: W3C WD-screen-wake-lock-20221122
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Kenneth Christiansen
+      given:
+        forename:
+        - content: Kenneth
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Christiansen
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Raphael Kubo da Costa
+      given:
+        forename:
+        - content: Raphael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kubo da Costa
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cscreen-wake-lock
+    title:
+    - content: Screen Wake Lock API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/screen-wake-lock/
+      type: src
+    docid:
+    - id: W3C screen-wake-lock
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-screen-wake-lock-20220928
+    title:
+    - content: Screen Wake Lock API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-screen-wake-lock-20220928/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-screen-wake-lock-20220928
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-screen-wake-lock-20220928
+- type: updatedBy
+  bibitem:
+    id: W3CWD-screen-wake-lock-20221123
+    title:
+    - content: Screen Wake Lock API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-screen-wake-lock-20221123/
+      type: src
+    docid:
+    - id: W3C WD-screen-wake-lock-20221123
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-screen-wake-lock-20221122
 ext:

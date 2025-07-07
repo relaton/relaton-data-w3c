@@ -5,7 +5,7 @@ title:
 - content: Document Object Model (DOM) Level 3 Events Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107
+- content: https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Philippe Le Hégaret
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Tom Pixley
+      given:
+        forename:
+        - content: Philippe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Hegaret
         language:
         - en
         script:
@@ -50,23 +47,55 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cuievents
+    title:
+    - content: UI Events
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/uievents/
+      type: src
+    docid:
+    - id: W3C uievents
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-DOM-Level-3-Events-20030331
+    title:
+    - content: Document Object Model (DOM) Level 3 Events Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331
+    - content: https://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331
       type: src
     docid:
     - id: W3C WD-DOM-Level-3-Events-20030331
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-DOM-Level-3-Events-20030331
+- type: updatedBy
+  bibitem:
+    id: W3CWD-DOM-Level-3-Events-20060413
+    title:
+    - content: Document Object Model (DOM) Level 3 Events Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/WD-DOM-Level-3-Events-20060413
+      type: src
+    docid:
+    - id: W3C WD-DOM-Level-3-Events-20060413
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-DOM-Level-3-Events-20031107
 ext:
@@ -74,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Hypertext Application Technology Working Group
+  - name: Document Object Model Working Group

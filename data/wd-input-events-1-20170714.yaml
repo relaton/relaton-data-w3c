@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-input-events-1-20170714/
   type: src
-- content: https://rawgit.com/w3c/input-events/v1/index.html
-  type: current
 type: standard
 docid:
 - id: W3C WD-input-events-1-20170714
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ben Peters
+      given:
+        forename:
+        - content: Johannes
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wilm
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Johannes Wilm
+      given:
+        forename:
+        - content: Ben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peters
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cinput-events-1
+    title:
+    - content: Input Events Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/input-events-1/
+      type: src
+    docid:
+    - id: W3C input-events-1
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-input-events-1-20170627
+    title:
+    - content: Input Events Level 1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-input-events-1-20170627/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-input-events-1-20170627
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-input-events-1-20170627
+- type: updatedBy
+  bibitem:
+    id: W3CWD-input-events-1-20170905
+    title:
+    - content: Input Events Level 1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/WD-input-events-1-20170905/
+      type: src
+    docid:
+    - id: W3C WD-input-events-1-20170905
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-input-events-1-20170714
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Web Platform Working Group

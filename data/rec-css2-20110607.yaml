@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2011/REC-CSS2-20110607/
   type: src
-- content: https://drafts.csswg.org/css2/
-  type: current
 type: standard
 docid:
 - id: W3C REC-CSS2-20110607
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bert Bos
+      given:
+        forename:
+        - content: Bert
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bos
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Håkon Wium Lie
+      given:
+        forename:
+        - content: Tantek
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Çelik
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Tantek Çelik
+      given:
+        forename:
+        - content: Håkon Wium
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lie
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CCSS2
+    title:
+    - content: Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/CSS2/
+      type: src
+    docid:
+    - id: W3C CSS2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-CSS2-20110412
+    title:
+    - content: Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2011/PR-CSS2-20110412
       type: src
@@ -86,28 +128,9 @@ relation:
     - id: W3C PR-CSS2-20110412
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-CSS2-20110412
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-CSS2-20110607-errata.html
-    link:
-    - content: https://www.w3.org/Style/css2-updates/REC-CSS2-20110607-errata.html
-      type: src
-    docid:
-    - id: W3C REC-CSS2-20110607-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-CSS2-20110607-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-CSS2-20110607
 ext:
@@ -115,4 +138,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

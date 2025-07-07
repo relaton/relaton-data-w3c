@@ -5,7 +5,7 @@ title:
 - content: XPath and XQuery Functions and Operators 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-xpath-functions-30-20110614/
+- content: https://www.w3.org/TR/2011/WD-xpath-functions-30-20110614/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Kay
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kay
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxpath-functions-30
+    title:
+    - content: XPath and XQuery Functions and Operators 3.0
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xpath-functions-30/
+      type: src
+    docid:
+    - id: W3C xpath-functions-30
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xpath-functions-30-20101214
+    title:
+    - content: XPath and XQuery Functions and Operators 3.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2010/WD-xpath-functions-30-20101214/
+    - content: https://www.w3.org/TR/2010/WD-xpath-functions-30-20101214/
       type: src
     docid:
     - id: W3C WD-xpath-functions-30-20101214
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xpath-functions-30-20101214
+- type: updatedBy
+  bibitem:
+    id: W3CWD-xpath-functions-30-20111213
+    title:
+    - content: XPath and XQuery Functions and Operators 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/WD-xpath-functions-30-20111213/
+      type: src
+    docid:
+    - id: W3C WD-xpath-functions-30-20111213
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-xpath-functions-30-20110614
 ext:
@@ -67,5 +103,5 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
   - name: XML Query Working Group
+  - name: XSLT Working Group

@@ -5,7 +5,7 @@ title:
 - content: The Capture API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-capture-api-20100401/
+- content: https://www.w3.org/TR/2010/WD-capture-api-20100401/
   type: src
 type: standard
 docid:
@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dzung D Tran
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ilkka Oksanen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ingmar Kliche
+      given:
+        forename:
+        - content: Dzung
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tran
         language:
         - en
         script:
@@ -63,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-media-capture
+    title:
+    - content: HTML Media Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-media-capture/
+      type: src
+    docid:
+    - id: W3C html-media-capture
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html-media-capture-20100720
+    title:
+    - content: HTML Media Capture
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/WD-html-media-capture-20100720/
+      type: src
+    docid:
+    - id: W3C WD-html-media-capture-20100720
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-capture-api-20100401
 ext:

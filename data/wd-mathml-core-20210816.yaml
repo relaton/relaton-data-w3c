@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/WD-mathml-core-20210816/
   type: src
-- content: https://w3c.github.io/mathml-core/
-  type: current
 type: standard
 docid:
 - id: W3C WD-mathml-core-20210816
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Frédéric Wang
+      given:
+        forename:
+        - content: Frédéric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cmathml-core
+    title:
+    - content: MathML Core
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/mathml-core/
+      type: src
+    docid:
+    - id: W3C mathml-core
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-mathml-core-20210810
+    title:
+    - content: MathML Core
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/WD-mathml-core-20210810/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-mathml-core-20210810
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-mathml-core-20210810
+- type: updatedBy
+  bibitem:
+    id: W3CWD-mathml-core-20220504
+    title:
+    - content: MathML Core
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/WD-mathml-core-20220504/
+      type: src
+    docid:
+    - id: W3C WD-mathml-core-20220504
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-mathml-core-20210816
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/WD-turingtest-20190626/
   type: src
-- content: https://w3c.github.io/apa/captcha/
-  type: current
 type: standard
 docid:
 - id: W3C WD-turingtest-20190626
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Janina Sajka
+      given:
+        forename:
+        - content: Scott
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hollier
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jason White
+      given:
+        forename:
+        - content: Janina
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajka
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matthew May
+      given:
+        forename:
+        - content: Jason
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: White
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael Cooper
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cooper
         language:
         - en
         script:
@@ -69,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Scott Hollier
+      given:
+        forename:
+        - content: Matthew
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: May
         language:
         - en
         script:
@@ -86,9 +119,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cturingtest
+    title:
+    - content: Inaccessibility of CAPTCHA
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/turingtest/
+      type: src
+    docid:
+    - id: W3C turingtest
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-turingtest-20190524
+    title:
+    - content: Inaccessibility of CAPTCHA
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-turingtest-20190524/
       type: src
@@ -96,12 +145,25 @@ relation:
     - id: W3C WD-turingtest-20190524
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-turingtest-20190524
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-turingtest-20190823
+    title:
+    - content: Inaccessibility of CAPTCHA
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2019/NOTE-turingtest-20190823/
+      type: src
+    docid:
+    - id: W3C NOTE-turingtest-20190823
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-turingtest-20190626
 ext:
@@ -109,4 +171,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Platform Architectures
+  - name: Accessible Platform Architectures Working Group

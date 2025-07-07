@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/WD-audio-output-20161102/
   type: src
-- content: https://w3c.github.io/mediacapture-output/
-  type: current
 type: standard
 docid:
 - id: W3C WD-audio-output-20161102
@@ -36,9 +34,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Caudio-output
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/audio-output/
+      type: src
+    docid:
+    - id: W3C audio-output
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-audio-output-20161031
+    title:
+    - content: Audio Output Devices API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2016/WD-audio-output-20161031/
       type: src
@@ -46,12 +60,25 @@ relation:
     - id: W3C WD-audio-output-20161031
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-audio-output-20161031
+- type: updatedBy
+  bibitem:
+    id: W3CWD-audio-output-20161215
+    title:
+    - content: Audio Output Devices API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-audio-output-20161215/
+      type: src
+    docid:
+    - id: W3C WD-audio-output-20161215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-audio-output-20161102
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/PR-odrl-vocab-20180104/
   type: src
-- content: https://w3c.github.io/poe/vocab/
-  type: current
 type: standard
 docid:
 - id: W3C PR-odrl-vocab-20180104
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Michael Steidl
+      given:
+        forename:
+        - content: Renato
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Iannella
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Renato Iannella
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steidl
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Stuart Myles
+      given:
+        forename:
+        - content: Stuart
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Myles
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Víctor Rodríguez-Doncel
+      given:
+        forename:
+        - content: Víctor
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rodríguez-Doncel
         language:
         - en
         script:
@@ -76,9 +102,25 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Codrl-vocab
+    title:
+    - content: ODRL Vocabulary & Expression 2.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/odrl-vocab/
+      type: src
+    docid:
+    - id: W3C odrl-vocab
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-odrl-vocab-20170926
+    title:
+    - content: ODRL Vocabulary & Expression
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/CR-odrl-vocab-20170926/
       type: src
@@ -86,12 +128,25 @@ relation:
     - id: W3C CR-odrl-vocab-20170926
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-odrl-vocab-20170926
+- type: updatedBy
+  bibitem:
+    id: W3CREC-odrl-vocab-20180215
+    title:
+    - content: ODRL Vocabulary & Expression 2.2
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2018/REC-odrl-vocab-20180215/
+      type: src
+    docid:
+    - id: W3C REC-odrl-vocab-20180215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-odrl-vocab-20180104
 ext:

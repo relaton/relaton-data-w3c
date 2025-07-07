@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2013/REC-sparql11-service-description-20130321/
   type: src
-- content: https://w3c.github.io/sparql-service-description/spec/
-  type: current
 type: standard
 docid:
 - id: W3C REC-sparql11-service-description-20130321
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregory Williams
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-service-description
+    title:
+    - content: SPARQL 1.1 Service Description
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-service-description/
+      type: src
+    docid:
+    - id: W3C sparql11-service-description
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-sparql11-service-description-20121108
+    title:
+    - content: SPARQL 1.1 Service Description
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/PR-sparql11-service-description-20121108/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-sparql11-service-description-20121108
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-sparql11-service-description-20121108
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Csparql-errata
-    link:
-    - content: https://www.w3.org/2013/sparql-errata#sparql11-service-description
-      type: src
-    docid:
-    - id: W3C sparql-errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C sparql-errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-sparql11-service-description-20130321
 ext:

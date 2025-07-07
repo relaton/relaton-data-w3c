@@ -5,7 +5,7 @@ title:
 - content: Push API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-push-api-20121018/
+- content: https://www.w3.org/TR/2012/WD-push-api-20121018/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Bryan Sullivan
+      given:
+        forename:
+        - content: Bryan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sullivan
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Eduardo Fullea
+      given:
+        forename:
+        - content: Eduardo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fullea
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cpush-api
+    title:
+    - content: Push API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/push-api/
+      type: src
+    docid:
+    - id: W3C push-api
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-push-api-20130815
+    title:
+    - content: Push API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-push-api-20130815/
+      type: src
+    docid:
+    - id: W3C WD-push-api-20130815
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-push-api-20121018
 ext:
@@ -63,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

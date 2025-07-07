@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Harry Halpin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Ian Davis
+      given:
+        forename:
+        - content: Harry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Halpin
         language:
         - en
         script:
@@ -50,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgrddl-primer
+    title:
+    - content: GRDDL Primer
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/grddl-primer/
+      type: src
+    docid:
+    - id: W3C grddl-primer
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-grddl-primer-20061002
+    title:
+    - content: GRDDL Primer
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2006/WD-grddl-primer-20061002/
       type: src
@@ -61,12 +77,9 @@ relation:
     - id: W3C WD-grddl-primer-20061002
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-grddl-primer-20061002
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-grddl-primer-20070628
 ext:

@@ -5,7 +5,7 @@ title:
 - content: 'Web Audio Processing: Use Cases and Requirements'
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-webaudio-usecases-20121004/
+- content: https://www.w3.org/TR/2012/WD-webaudio-usecases-20121004/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joe Berkovitz
+      given:
+        forename:
+        - content: Olivier
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thereaux
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Olivier Thereaux
+      given:
+        forename:
+        - content: Joe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berkovitz
         language:
         - en
         script:
@@ -53,9 +67,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebaudio-usecases
+    title:
+    - content: 'Web Audio Processing: Use Cases and Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webaudio-usecases/
+      type: src
+    docid:
+    - id: W3C webaudio-usecases
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-webaudio-usecases-20130129
+    title:
+    - content: 'Web Audio Processing: Use Cases and Requirements'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/NOTE-webaudio-usecases-20130129/
+      type: src
+    docid:
+    - id: W3C NOTE-webaudio-usecases-20130129
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-webaudio-usecases-20121004
 ext:

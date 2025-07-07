@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Orchard
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Orchard
         language:
         - en
         script:
@@ -40,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap11-ror-httpbinding
+    title:
+    - content: SOAP 1.1 Request Optional Response HTTP Binding
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap11-ror-httpbinding/
+      type: src
+    docid:
+    - id: W3C soap11-ror-httpbinding
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-soap11-ror-httpbinding-20060321
 ext:

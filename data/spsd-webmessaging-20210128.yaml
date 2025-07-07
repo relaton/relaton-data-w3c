@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/SPSD-webmessaging-20210128/
   type: src
-- content: https://html.spec.whatwg.org/multipage/web-messaging.html
-  type: current
 type: standard
 docid:
 - id: W3C SPSD-webmessaging-20210128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ian Hickson
+      given:
+        forename:
+        - content: Ian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hickson
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwebmessaging
+    title:
+    - content: HTML5 Web Messaging
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/webmessaging/
+      type: src
+    docid:
+    - id: W3C webmessaging
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-webmessaging-20150519
+    title:
+    - content: HTML5 Web Messaging
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/REC-webmessaging-20150519/
       type: src
@@ -56,12 +77,9 @@ relation:
     - id: W3C REC-webmessaging-20150519
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-webmessaging-20150519
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-webmessaging-20210128
 ext:

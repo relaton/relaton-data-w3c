@@ -5,7 +5,7 @@ title:
 - content: Quota Management API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-quota-api-20120703/
+- content: https://www.w3.org/TR/2012/WD-quota-api-20120703/
   type: src
 type: standard
 docid:
@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Kinuko Yasuda
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2012-07-03'
 language:
 - en
@@ -43,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cquota-api
+    title:
+    - content: Quota Management API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/quota-api/
+      type: src
+    docid:
+    - id: W3C quota-api
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-quota-api-20131105
+    title:
+    - content: Quota Management API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-quota-api-20131105/
+      type: src
+    docid:
+    - id: W3C WD-quota-api-20131105
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-quota-api-20120703
 ext:
@@ -53,4 +73,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-adlm-gap-20230614/
   type: src
-- content: https://w3c.github.io/afrlreq/gap-analysis/adlm-gap
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-adlm-gap-20230614
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cadlm-gap
+    title:
+    - content: Adlam Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/adlm-gap/
+      type: src
+    docid:
+    - id: W3C adlm-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-adlm-gap-20220712
+    title:
+    - content: Adlam Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-adlm-gap-20220712/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C DNOTE-adlm-gap-20220712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-adlm-gap-20220712
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-adlm-gap-20230616
+    title:
+    - content: Adlam Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-adlm-gap-20230616/
+      type: src
+    docid:
+    - id: W3C DNOTE-adlm-gap-20230616
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-adlm-gap-20230614
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2018/NOTE-jf2-20180110/
   type: src
-- content: https://jf2.spec.indieweb.org/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-jf2-20180110
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Benjamin Roberts
+      given:
+        forename:
+        - content: BeBe
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Roberts
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjf2
+    title:
+    - content: JF2 Post Serialization Format
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/jf2/
+      type: src
+    docid:
+    - id: W3C jf2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-jf2-20171026
+    title:
+    - content: JF2 Post Serialization Format
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/WD-jf2-20171026/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-jf2-20171026
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-jf2-20171026
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-jf2-20180110
 ext:

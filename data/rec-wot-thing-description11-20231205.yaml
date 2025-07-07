@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/REC-wot-thing-description11-20231205/
   type: src
-- content: https://w3c.github.io/wot-thing-description/
-  type: current
 type: standard
 docid:
 - id: W3C REC-wot-thing-description11-20231205
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ege Korkan
+      given:
+        forename:
+        - content: Sebastian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Käbisch
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Michael McCool
+      given:
+        forename:
+        - content: Michael
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McCool
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Sebastian Käbisch
+      given:
+        forename:
+        - content: Ege
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Korkan
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwot-thing-description11
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/wot-thing-description11/
+      type: src
+    docid:
+    - id: W3C wot-thing-description11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-wot-thing-description11-20230711
+    title:
+    - content: Web of Things (WoT) Thing Description 1.1
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2023/PR-wot-thing-description11-20230711/
       type: src
@@ -76,28 +111,9 @@ relation:
     - id: W3C PR-wot-thing-description11-20230711
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-wot-thing-description11-20230711
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cwot-thing-description-errata11
-    link:
-    - content: https://w3c.github.io/wot-thing-description/errata11.html
-      type: src
-    docid:
-    - id: W3C wot-thing-description/errata11
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C wot-thing-description/errata11
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-wot-thing-description11-20231205
 ext:

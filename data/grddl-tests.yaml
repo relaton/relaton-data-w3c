@@ -5,7 +5,7 @@ title:
 - content: GRDDL Test Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/grddl-tests/
+- content: https://www.w3.org/TR/grddl-tests/
   type: src
 type: standard
 docid:
@@ -26,52 +26,62 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-grddl-tests-20070328
+    id: W3CREC-grddl-tests-20070911
+    title:
+    - content: GRDDL Test Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/WD-grddl-tests-20070328/
+    - content: https://www.w3.org/TR/2007/REC-grddl-tests-20070911/
       type: src
     docid:
-    - id: W3C WD-grddl-tests-20070328
+    - id: W3C REC-grddl-tests-20070911
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-grddl-tests-20070328
-      format: text/plain
 - type: hasEdition
   bibitem:
-    id: W3CWD-grddl-tests-20070502
-    link:
-    - content: http://www.w3.org/TR/2007/WD-grddl-tests-20070502/
-      type: src
-    docid:
-    - id: W3C WD-grddl-tests-20070502
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C WD-grddl-tests-20070502
-      format: text/plain
-- type: instanceOf
-  bibitem:
     id: W3CPR-grddl-tests-20070716
+    title:
+    - content: GRDDL Test Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2007/PR-grddl-tests-20070716/
+    - content: https://www.w3.org/TR/2007/PR-grddl-tests-20070716/
       type: src
     docid:
     - id: W3C PR-grddl-tests-20070716
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-grddl-tests-20070716
+- type: hasEdition
+  bibitem:
+    id: W3CWD-grddl-tests-20070502
+    title:
+    - content: GRDDL Test Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-grddl-tests-20070502/
+      type: src
+    docid:
+    - id: W3C WD-grddl-tests-20070502
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-grddl-tests-20070328
+    title:
+    - content: GRDDL Test Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2007/WD-grddl-tests-20070328/
+      type: src
+    docid:
+    - id: W3C WD-grddl-tests-20070328
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: grddl-tests
 ext:

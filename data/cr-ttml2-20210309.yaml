@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/CR-ttml2-20210309/
   type: src
-- content: https://w3c.github.io/ttml2/index.html
-  type: current
 type: standard
 docid:
 - id: W3C CR-ttml2-20210309
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Cyril Concolato
+      given:
+        forename:
+        - content: Glenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Adams
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Glenn Adams
+      given:
+        forename:
+        - content: Cyril
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Concolato
         language:
         - en
         script:
@@ -54,11 +66,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cttml2
+    title:
+    - content: Timed Text Markup Language 2 (TTML2) (2nd Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/ttml2/
+      type: src
+    docid:
+    - id: W3C ttml2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-ttml2-20200128
+    title:
+    - content: Timed Text Markup Language 2 (TTML2) (2nd Edition)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2020/CR-ttml2-20200128/
       type: src
@@ -66,28 +94,9 @@ relation:
     - id: W3C CR-ttml2-20200128
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-ttml2-20200128
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cttml2-errata.html
-    link:
-    - content: https://www.w3.org/2018/11/ttml2-errata.html
-      type: src
-    docid:
-    - id: W3C ttml2-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C ttml2-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-ttml2-20210309
 ext:

@@ -5,10 +5,8 @@ title:
 - content: Service Workers
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-service-workers-20140508/
+- content: https://www.w3.org/TR/2014/WD-service-workers-20140508/
   type: src
-- content: https://slightlyoff.github.io/ServiceWorker/spec/service_worker/
-  type: current
 type: standard
 docid:
 - id: W3C WD-service-workers-20140508
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Russell
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Russell
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jungkee Song
+      given:
+        forename:
+        - content: Jungkee
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
         language:
         - en
         script:
@@ -54,10 +66,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cservice-workers
+    title:
+    - content: Service Workers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/service-workers/
+      type: src
+    docid:
+    - id: W3C service-workers
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-service-workers-20141118
+    title:
+    - content: Service Workers
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2014/WD-service-workers-20141118/
+      type: src
+    docid:
+    - id: W3C WD-service-workers-20141118
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-service-workers-20140508
 ext:
@@ -65,4 +107,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: "(historical) Web Applications Working Group"

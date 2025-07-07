@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ron Daniel
+      given:
+        forename:
+        - content: Ron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Daniel
         language:
         - en
         script:
@@ -40,12 +47,31 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxlink2rdf
+    title:
+    - content: Harvesting RDF Statements from XLinks
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xlink2rdf/
+      type: src
+    docid:
+    - id: W3C xlink2rdf
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xlink2rdf-20000929
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

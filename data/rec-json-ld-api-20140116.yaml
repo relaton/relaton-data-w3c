@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Markus
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanthaler
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Manu Sporny
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Markus Lanthaler
+      given:
+        forename:
+        - content: Manu
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sporny
         language:
         - en
         script:
@@ -64,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cjson-ld-api
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/json-ld-api/
+      type: src
+    docid:
+    - id: W3C json-ld-api
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-json-ld-api-20131105
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-json-ld-api-20131105/
       type: src
@@ -74,12 +111,25 @@ relation:
     - id: W3C PR-json-ld-api-20131105
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-json-ld-api-20131105
+- type: updatedBy
+  bibitem:
+    id: W3CSPSD-json-ld-api-20201103
+    title:
+    - content: JSON-LD 1.0 Processing Algorithms and API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/SPSD-json-ld-api-20201103/
+      type: src
+    docid:
+    - id: W3C SPSD-json-ld-api-20201103
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-json-ld-api-20140116
 ext:

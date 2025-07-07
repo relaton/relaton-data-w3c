@@ -27,28 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Adrian Paschke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Christian de Sainte Marie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Gary Hallmark
+      given:
+        forename:
+        - content: Christian
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Sainte Marie
         language:
         - en
         script:
@@ -64,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crif-prd
+    title:
+    - content: RIF Production Rule Dialect (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rif-prd/
+      type: src
+    docid:
+    - id: W3C rif-prd
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-rif-prd-20100511
+    title:
+    - content: RIF Production Rule Dialect
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/PR-rif-prd-20100511/
       type: src
@@ -74,28 +77,9 @@ relation:
     - id: W3C PR-rif-prd-20100511
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-rif-prd-20100511
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cerrata
-    link:
-    - content: https://www.w3.org/2010/rif/errata
-      type: src
-    docid:
-    - id: W3C errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-rif-prd-20100622
 ext:
@@ -103,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RIF Working Group
+  - name: Rule Interchange Format Working Group

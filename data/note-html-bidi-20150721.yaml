@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Aharon Lanin
+      given:
+        forename:
+        - content: Aharon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lanin
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -50,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml-bidi
+    title:
+    - content: Additional Requirements for Bidi in HTML & CSS
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html-bidi/
+      type: src
+    docid:
+    - id: W3C html-bidi
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-html-bidi-20100304
+    title:
+    - content: Additional Requirements for Bidi in HTML
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2010/WD-html-bidi-20100304/
       type: src
@@ -61,12 +94,9 @@ relation:
     - id: W3C WD-html-bidi-20100304
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-html-bidi-20100304
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-html-bidi-20150721
 ext:

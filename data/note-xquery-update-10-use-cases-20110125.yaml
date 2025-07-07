@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ioana Manolescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jonathan Robie
+      given:
+        forename:
+        - content: Jonathan
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Robie
         language:
         - en
         script:
@@ -50,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxquery-update-10-use-cases
+    title:
+    - content: XQuery Update Facility 1.0 Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xquery-update-10-use-cases/
+      type: src
+    docid:
+    - id: W3C xquery-update-10-use-cases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xquery-update-10-use-cases-20080314
+    title:
+    - content: XQuery Update Facility 1.0 Use Cases
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/CR-xquery-update-10-use-cases-20080314/
       type: src
@@ -61,12 +77,9 @@ relation:
     - id: W3C CR-xquery-update-10-use-cases-20080314
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xquery-update-10-use-cases-20080314
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xquery-update-10-use-cases-20110125
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/REC-web-share-20230530/
   type: src
-- content: https://w3c.github.io/web-share/
-  type: current
 type: standard
 docid:
 - id: W3C REC-web-share-20230530
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eric Willigers
+      given:
+        forename:
+        - content: Marcos
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caceres
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Marcos Caceres
+      given:
+        forename:
+        - content: Eric
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Willigers
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Matt Giuca
+      given:
+        forename:
+        - content: Matt
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Giuca
         language:
         - en
         script:
@@ -66,9 +85,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cweb-share
+    title:
+    - content: Web Share API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/web-share/
+      type: src
+    docid:
+    - id: W3C web-share
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-web-share-20221215
+    title:
+    - content: Web Share API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/PR-web-share-20221215/
       type: src
@@ -76,28 +111,9 @@ relation:
     - id: W3C PR-web-share-20221215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-web-share-20221215
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Cweb-share-labels
-    link:
-    - content: https://github.com/w3c/web-share/labels/errata
-      type: src
-    docid:
-    - id: W3C web-share/labels
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C web-share/labels
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-web-share-20230530
 ext:

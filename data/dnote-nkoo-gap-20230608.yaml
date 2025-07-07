@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2023/DNOTE-nkoo-gap-20230608/
   type: src
-- content: https://w3c.github.io/afrlreq/gap-analysis/nkoo-gap
-  type: current
 type: standard
 docid:
 - id: W3C DNOTE-nkoo-gap-20230608
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Draft Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnkoo-gap
+    title:
+    - content: N’Ko Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/nkoo-gap/
+      type: src
+    docid:
+    - id: W3C nkoo-gap
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CDNOTE-nkoo-gap-20220712
+    title:
+    - content: N’Ko Gap Analysis
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/DNOTE-nkoo-gap-20220712/
       type: src
@@ -53,12 +77,25 @@ relation:
     - id: W3C DNOTE-nkoo-gap-20220712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-nkoo-gap-20220712
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-nkoo-gap-20230615
+    title:
+    - content: N’Ko Gap Analysis
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/DNOTE-nkoo-gap-20230615/
+      type: src
+    docid:
+    - id: W3C DNOTE-nkoo-gap-20230615
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Draft Note
     format: text/plain
   number: DNOTE-nkoo-gap-20230608
 ext:

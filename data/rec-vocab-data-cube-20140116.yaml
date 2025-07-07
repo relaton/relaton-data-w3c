@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dave Reynolds
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cyganiak
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Cyganiak
+      given:
+        forename:
+        - content: Dave
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reynolds
         language:
         - en
         script:
@@ -54,9 +68,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cvocab-data-cube
+    title:
+    - content: The RDF Data Cube Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/vocab-data-cube/
+      type: src
+    docid:
+    - id: W3C vocab-data-cube
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-vocab-data-cube-20131217
+    title:
+    - content: The RDF Data Cube Vocabulary
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/PR-vocab-data-cube-20131217/
       type: src
@@ -64,12 +94,9 @@ relation:
     - id: W3C PR-vocab-data-cube-20131217
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-vocab-data-cube-20131217
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-vocab-data-cube-20140116
 ext:

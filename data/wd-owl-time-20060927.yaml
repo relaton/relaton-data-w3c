@@ -5,7 +5,7 @@ title:
 - content: Time Ontology in OWL
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-owl-time-20060927/
+- content: https://www.w3.org/TR/2006/WD-owl-time-20060927/
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Feng Pan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jerry Hobbs
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2006-09-27'
 language:
 - en
@@ -53,9 +33,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-time
+    title:
+    - content: Time Ontology in OWL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-time/
+      type: src
+    docid:
+    - id: W3C owl-time
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl-time-20160712
+    title:
+    - content: Time Ontology in OWL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-owl-time-20160712/
+      type: src
+    docid:
+    - id: W3C WD-owl-time-20160712
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl-time-20060927
 ext:

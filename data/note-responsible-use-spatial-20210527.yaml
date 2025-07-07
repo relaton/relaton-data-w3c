@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/NOTE-responsible-use-spatial-20210527/
   type: src
-- content: https://w3c.github.io/sdw/responsible-use/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-responsible-use-spatial-20210527
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ed Parsons
+      given:
+        forename:
+        - content: JOSEPH
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: ABHAYARATNA
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: JOSEPH ABHAYARATNA
+      given:
+        forename:
+        - content: Ed
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Parsons
         language:
         - en
         script:
@@ -52,10 +64,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cresponsible-use-spatial
+    title:
+    - content: The Responsible Use of Spatial Data
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/responsible-use-spatial/
+      type: src
+    docid:
+    - id: W3C responsible-use-spatial
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CNOTE-responsible-use-spatial-20210119
+    title:
+    - content: The Responsible Use of Spatial Data
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2021/NOTE-responsible-use-spatial-20210119/
       type: src
@@ -63,12 +94,9 @@ relation:
     - id: W3C NOTE-responsible-use-spatial-20210119
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-responsible-use-spatial-20210119
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-responsible-use-spatial-20210527
 ext:

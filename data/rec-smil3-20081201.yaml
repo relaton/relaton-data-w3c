@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Dick Bulterman
+      given:
+        forename:
+        - content: Dick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bulterman
         language:
         - en
         script:
@@ -44,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CSMIL3
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/SMIL3/
+      type: src
+    docid:
+    - id: W3C SMIL3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-SMIL3-20081006
+    title:
+    - content: Synchronized Multimedia Integration Language (SMIL 3.0)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2008/PR-SMIL3-20081006/
       type: src
@@ -54,28 +77,9 @@ relation:
     - id: W3C PR-SMIL3-20081006
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-SMIL3-20081006
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3CREC-smil30-errata.html
-    link:
-    - content: https://www.w3.org/2008/11/REC-smil30-errata.html
-      type: src
-    docid:
-    - id: W3C REC-smil30-errata.html
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C REC-smil30-errata.html
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-SMIL3-20081201
 ext:
@@ -83,4 +87,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Synchronized Multimedia Working Group
+  - name: SYMM Working Group

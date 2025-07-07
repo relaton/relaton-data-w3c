@@ -27,9 +27,12 @@ language:
 script:
 - Latn
 relation:
-- type: instanceOf
+- type: hasEdition
   bibitem:
     id: W3CNOTE-ttml10-sdp-us-20130205
+    title:
+    - content: TTML Simple Delivery Profile for Closed Captions (US)
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2013/NOTE-ttml10-sdp-us-20130205/
       type: src
@@ -37,12 +40,35 @@ relation:
     - id: W3C NOTE-ttml10-sdp-us-20130205
       type: W3C
       primary: true
-    formattedref:
-      content: W3C NOTE-ttml10-sdp-us-20130205
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ttml10-sdp-us-20130103
+    title:
+    - content: Simple Delivery Profile for Closed Captions (US)
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-ttml10-sdp-us-20130103/
+      type: src
+    docid:
+    - id: W3C WD-ttml10-sdp-us-20130103
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-ttml10-sdp-us-20120913
+    title:
+    - content: Simple Delivery Profile for Closed Captions (US)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-ttml10-sdp-us-20120913/
+      type: src
+    docid:
+    - id: W3C WD-ttml10-sdp-us-20120913
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: ttml10-sdp-us
 ext:

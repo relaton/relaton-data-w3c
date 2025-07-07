@@ -5,7 +5,7 @@ title:
 - content: Cascading Style Sheets (CSS) Snapshot 2010
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-css-2010-20101202/
+- content: https://www.w3.org/TR/2010/WD-css-2010-20101202/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Elika J. Etemad
+      given:
+        forename:
+        - content: Elika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Etemad
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccss-2010
+    title:
+    - content: Cascading Style Sheets (CSS) Snapshot 2010
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/css-2010/
+      type: src
+    docid:
+    - id: W3C css-2010
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-css-2010-20110512
+    title:
+    - content: Cascading Style Sheets (CSS) Snapshot 2010
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2011/NOTE-css-2010-20110512/
+      type: src
+    docid:
+    - id: W3C NOTE-css-2010-20110512
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-css-2010-20101202
 ext:
@@ -53,4 +90,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets Working Group
+  - name: Cascading Style Sheets (CSS) Working Group

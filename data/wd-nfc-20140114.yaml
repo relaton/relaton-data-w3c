@@ -5,10 +5,8 @@ title:
 - content: Web NFC API
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2014/WD-nfc-20140114/
+- content: https://www.w3.org/TR/2014/WD-nfc-20140114/
   type: src
-- content: http://www.w3.org/2012/nfc/
-  type: current
 type: standard
 docid:
 - id: W3C WD-nfc-20140114
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Don Coleman
+      given:
+        forename:
+        - content: Luc
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yriarte
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Luc Yriarte
+      given:
+        forename:
+        - content: Samuel
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ortiz
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Samuel Ortiz
+      given:
+        forename:
+        - content: Don
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Coleman
         language:
         - en
         script:
@@ -64,10 +83,40 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cnfc
+    title:
+    - content: Web NFC API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/nfc/
+      type: src
+    docid:
+    - id: W3C nfc
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-nfc-20150616
+    title:
+    - content: Web NFC API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/NOTE-nfc-20150616/
+      type: src
+    docid:
+    - id: W3C NOTE-nfc-20150616
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C First Public Working Draft
     format: text/plain
   number: WD-nfc-20140114
 ext:

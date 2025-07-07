@@ -5,7 +5,7 @@ title:
 - content: Extensible Stylesheet Language (XSL) Version 1.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/PR-xsl11-20061006/
+- content: https://www.w3.org/TR/2006/PR-xsl11-20061006/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anders Berglund
+      given:
+        forename:
+        - content: Anders
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berglund
         language:
         - en
         script:
@@ -44,22 +51,51 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxsl11
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xsl11/
+      type: src
+    docid:
+    - id: W3C xsl11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-xsl11-20060220
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.1
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2006/CR-xsl11-20060220/
+    - content: https://www.w3.org/TR/2006/CR-xsl11-20060220/
       type: src
     docid:
     - id: W3C CR-xsl11-20060220
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-xsl11-20060220
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xsl11-20061205
+    title:
+    - content: Extensible Stylesheet Language (XSL) Version 1.1
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/REC-xsl11-20061205/
+      type: src
+    docid:
+    - id: W3C REC-xsl11-20061205
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xsl11-20061006
 ext:
@@ -67,4 +103,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

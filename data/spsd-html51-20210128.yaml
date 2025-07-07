@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2021/SPSD-html51-20210128/
   type: src
-- content: https://rawgit.com/w3c/html/html5.1-2/single-page.html
-  type: current
 type: standard
 docid:
 - id: W3C SPSD-html51-20210128
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Alex Danilo
+      given:
+        forename:
+        - content: Steve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Faulkner
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Arron Eicholz
+      given:
+        forename:
+        - content: Arron
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eicholz
         language:
         - en
         script:
@@ -49,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Steve Faulkner
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -59,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Alex
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Danilo
         language:
         - en
         script:
@@ -74,11 +100,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Recommendation
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml51
+    title:
+    - content: HTML 5.1 2nd Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html51/
+      type: src
+    docid:
+    - id: W3C html51
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CREC-html51-20171003
+    title:
+    - content: HTML 5.1 2nd Edition
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2017/REC-html51-20171003/
       type: src
@@ -86,12 +128,9 @@ relation:
     - id: W3C REC-html51-20171003
       type: W3C
       primary: true
-    formattedref:
-      content: W3C REC-html51-20171003
-      format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Retired
     format: text/plain
   number: SPSD-html51-20210128
 ext:

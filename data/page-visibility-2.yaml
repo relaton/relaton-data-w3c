@@ -2,10 +2,10 @@
 schema-version: v1.2.9
 id: W3Cpage-visibility-2
 title:
-- content: Page Visibility 2
+- content: Page Visibility Level 2
   format: text/plain
 link:
-- content: http://www.w3.org/TR/page-visibility-2/
+- content: https://www.w3.org/TR/page-visibility-2/
   type: src
 type: standard
 docid:
@@ -26,26 +26,101 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
-- type: instanceOf
+- type: hasEdition
+  bibitem:
+    id: W3CDISC-page-visibility-2-20220623
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DISC-page-visibility-2-20220623/
+      type: src
+    docid:
+    - id: W3C DISC-page-visibility-2-20220623
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-page-visibility-2-20210518
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CR-page-visibility-2-20210518/
+      type: src
+    docid:
+    - id: W3C CR-page-visibility-2-20210518
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CPR-page-visibility-2-20171017
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/PR-page-visibility-2-20171017/
+      type: src
+    docid:
+    - id: W3C PR-page-visibility-2-20171017
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-page-visibility-2-20170328
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-page-visibility-2-20170328/
+      type: src
+    docid:
+    - id: W3C CR-page-visibility-2-20170328
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CCR-page-visibility-2-20161122
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-page-visibility-2-20161122/
+      type: src
+    docid:
+    - id: W3C CR-page-visibility-2-20161122
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-page-visibility-2-20161026
+    title:
+    - content: Page Visibility Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/WD-page-visibility-2-20161026/
+      type: src
+    docid:
+    - id: W3C WD-page-visibility-2-20161026
+      type: W3C
+      primary: true
+- type: hasEdition
   bibitem:
     id: W3CWD-page-visibility-2-20160623
+    title:
+    - content: Page Visibility 2
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-page-visibility-2-20160623/
+    - content: https://www.w3.org/TR/2016/WD-page-visibility-2-20160623/
       type: src
     docid:
     - id: W3C WD-page-visibility-2-20160623
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-page-visibility-2-20160623
-      format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C technicalReport
     format: text/plain
   number: page-visibility-2
 ext:

@@ -5,7 +5,7 @@ title:
 - content: SPARQL 1.1 Query Results CSV and TSV Formats
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2011/WD-sparql11-results-csv-tsv-20110913/
+- content: https://www.w3.org/TR/2011/WD-sparql11-results-csv-tsv-20110913/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Seaborne
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
         language:
         - en
         script:
@@ -43,9 +50,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Csparql11-results-csv-tsv
+    title:
+    - content: SPARQL 1.1 Query Results CSV and TSV Formats
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/sparql11-results-csv-tsv/
+      type: src
+    docid:
+    - id: W3C sparql11-results-csv-tsv
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-sparql11-results-csv-tsv-20120501
+    title:
+    - content: SPARQL 1.1 Query Results CSV and TSV Formats
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2012/WD-sparql11-results-csv-tsv-20120501/
+      type: src
+    docid:
+    - id: W3C WD-sparql11-results-csv-tsv-20120501
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-sparql11-results-csv-tsv-20110913
 ext:

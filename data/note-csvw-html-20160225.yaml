@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2016/NOTE-csvw-html-20160225/
   type: src
-- content: https://w3c.github.io/csvw/html-note/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-csvw-html-20160225
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Gregg Kellogg
+      given:
+        forename:
+        - content: Gregg
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kellogg
         language:
         - en
         script:
@@ -42,9 +47,26 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Ccsvw-html
+    title:
+    - content: Embedding Tabular Metadata in HTML
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/csvw-html/
+      type: src
+    docid:
+    - id: W3C csvw-html
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-csvw-html-20160225
 ext:

@@ -5,7 +5,7 @@ title:
 - content: HTML 5.1
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2012/WD-html51-20121217/
+- content: https://www.w3.org/TR/2012/WD-html51-20121217/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Edward O'Connor
+      given:
+        forename:
+        - content: Silvia
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pfeiffer
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Erika Doyle Navara
+      given:
+        forename:
+        - content: Robin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berjon
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Robin Berjon
+      given:
+        forename:
+        - content: Travis
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Leithead
         language:
         - en
         script:
@@ -57,8 +78,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Silvia Pfeiffer
+      given:
+        forename:
+        - content: Theresa
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: O'Connor
         language:
         - en
         script:
@@ -67,8 +95,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Travis Leithead
+      given:
+        forename:
+        - content: Erika
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Doyle Navara
         language:
         - en
         script:
@@ -83,9 +118,39 @@ script:
 docstatus:
   stage:
     value: Working Draft
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Chtml51
+    title:
+    - content: HTML 5.1 2nd Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/html51/
+      type: src
+    docid:
+    - id: W3C html51
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CWD-html51-20130528
+    title:
+    - content: HTML 5.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2013/WD-html51-20130528/
+      type: src
+    docid:
+    - id: W3C WD-html51-20130528
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-html51-20121217
 ext:
@@ -93,4 +158,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: HTML Working Group
+  - name: HTML Media Extensions Working Group

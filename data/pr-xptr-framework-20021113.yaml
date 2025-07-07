@@ -5,7 +5,7 @@ title:
 - content: XPointer Framework
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2002/PR-xptr-framework-20021113/
+- content: https://www.w3.org/TR/2002/PR-xptr-framework-20021113/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Eve Maler
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jonathan Marsh
+      given:
+        forename:
+        - content: Paul
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grosso
         language:
         - en
         script:
@@ -47,18 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Paul Grosso
+      given:
+        forename:
+        - content: Eve
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maler
         language:
         - en
         script:
@@ -74,25 +85,56 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxptr-framework
+    title:
+    - content: XPointer Framework
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xptr-framework/
+      type: src
+    docid:
+    - id: W3C xptr-framework
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xptr-framework-20020710
+    title:
+    - content: XPointer Framework
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-xptr-framework-20020710/
+    - content: https://www.w3.org/TR/2002/WD-xptr-framework-20020710/
       type: src
     docid:
     - id: W3C WD-xptr-framework-20020710
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xptr-framework-20020710
+- type: updatedBy
+  bibitem:
+    id: W3CREC-xptr-framework-20030325
+    title:
+    - content: XPointer Framework
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/REC-xptr-framework-20030325/
+      type: src
+    docid:
+    - id: W3C REC-xptr-framework-20030325
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-xptr-framework-20021113
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: UNKNOWN WORKING GROUP

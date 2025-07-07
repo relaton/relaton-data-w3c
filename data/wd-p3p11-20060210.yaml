@@ -5,7 +5,7 @@ title:
 - content: The Platform for Privacy Preferences 1.1 (P3P1.1) Specification
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2006/WD-P3P11-20060210/
+- content: https://www.w3.org/TR/2006/WD-P3P11-20060210/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rigo Wenning
+      given:
+        forename:
+        - content: Rigo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wenning
         language:
         - en
         script:
@@ -42,24 +49,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CP3P11
+    title:
+    - content: The Platform for Privacy Preferences 1.1 (P3P1.1) Specification
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/P3P11/
+      type: src
+    docid:
+    - id: W3C P3P11
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-P3P11-20050701
+    title:
+    - content: The Platform for Privacy Preferences 1.1 (P3P1.1) Specification
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2005/WD-P3P11-20050701/
+    - content: https://www.w3.org/TR/2005/WD-P3P11-20050701/
       type: src
     docid:
     - id: W3C WD-P3P11-20050701
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-P3P11-20050701
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-P3P11-20061113
+    title:
+    - content: The Platform for Privacy Preferences 1.1 (P3P1.1) Specification
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2006/NOTE-P3P11-20061113/
+      type: src
+    docid:
+    - id: W3C NOTE-P3P11-20061113
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-P3P11-20060210
 ext:

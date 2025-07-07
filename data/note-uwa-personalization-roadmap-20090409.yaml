@@ -28,8 +28,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Andy Heath
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Heath
         language:
         - en
         script:
@@ -38,8 +45,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Richard Schwerdtfeger
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwerdtfeger
         language:
         - en
         script:
@@ -51,9 +65,27 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3CUWA-personalization-roadmap
+    title:
+    - content: 'W3C Personalization Roadmap: Ubiquitous Web Integration of AccessForAll
+        1.0'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/UWA-personalization-roadmap/
+      type: src
+    docid:
+    - id: W3C UWA-personalization-roadmap
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-UWA-personalization-roadmap-20090409
 ext:

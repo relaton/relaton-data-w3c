@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/REC-hr-time-2-20191121/
   type: src
-- content: https://w3c.github.io/hr-time/
-  type: current
 type: standard
 docid:
 - id: W3C REC-hr-time-2-20191121
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Ilya Grigorik
+      given:
+        forename:
+        - content: Ilya
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigorik
         language:
         - en
         script:
@@ -46,9 +51,25 @@ docstatus:
   stage:
     value: Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Chr-time-2
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/hr-time-2/
+      type: src
+    docid:
+    - id: W3C hr-time-2
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CPR-hr-time-2-20191015
+    title:
+    - content: High Resolution Time Level 2
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/PR-hr-time-2-20191015/
       type: src
@@ -56,28 +77,9 @@ relation:
     - id: W3C PR-hr-time-2-20191015
       type: W3C
       primary: true
-    formattedref:
-      content: W3C PR-hr-time-2-20191015
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: W3Chr-time-errata
-    link:
-    - content: https://w3c.github.io/hr-time/errata.html
-      type: src
-    docid:
-    - id: W3C hr-time/errata
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C hr-time/errata
-      format: text/plain
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C REC
+    content: W3C Recommendation
     format: text/plain
   number: REC-hr-time-2-20191121
 ext:

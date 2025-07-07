@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Henry Thompson
+      given:
+        forename:
+        - content: Henry
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thompson
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: James Fuller
+      given:
+        forename:
+        - content: Norman
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Walsh
         language:
         - en
         script:
@@ -47,8 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Norman Walsh
+      given:
+        forename:
+        - content: James
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fuller
         language:
         - en
         script:
@@ -60,10 +81,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxml-proc-profiles
+    title:
+    - content: XML processor profiles
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xml-proc-profiles/
+      type: src
+    docid:
+    - id: W3C xml-proc-profiles
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-xml-proc-profiles-20120124
+    title:
+    - content: XML processor profiles
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2012/WD-xml-proc-profiles-20120124/
       type: src
@@ -71,12 +111,9 @@ relation:
     - id: W3C WD-xml-proc-profiles-20120124
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-xml-proc-profiles-20120124
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-xml-proc-profiles-20140206
 ext:

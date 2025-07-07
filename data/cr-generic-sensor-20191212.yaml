@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/CR-generic-sensor-20191212/
   type: src
-- content: https://w3c.github.io/sensors/
-  type: current
 type: standard
 docid:
 - id: W3C CR-generic-sensor-20191212
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Rick Waldron
+      given:
+        forename:
+        - content: Rick
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Waldron
         language:
         - en
         script:
@@ -44,11 +49,27 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation
+    value: Candidate Recommendation Snapshot
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeneric-sensor
+    title:
+    - content: Generic Sensor API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/generic-sensor/
+      type: src
+    docid:
+    - id: W3C generic-sensor
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-generic-sensor-20190307
+    title:
+    - content: Generic Sensor API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2019/WD-generic-sensor-20190307/
       type: src
@@ -56,12 +77,25 @@ relation:
     - id: W3C WD-generic-sensor-20190307
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-generic-sensor-20190307
+- type: updatedBy
+  bibitem:
+    id: W3CCRD-generic-sensor-20210619
+    title:
+    - content: Generic Sensor API
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2021/CRD-generic-sensor-20210619/
+      type: src
+    docid:
+    - id: W3C CRD-generic-sensor-20210619
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C CR
+    content: W3C Candidate Recommendation Snapshot
     format: text/plain
   number: CR-generic-sensor-20191212
 ext:

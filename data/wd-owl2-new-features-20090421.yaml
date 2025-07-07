@@ -5,7 +5,7 @@ title:
 - content: OWL 2 Web Ontology Language New Features and Rationale
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2009/WD-owl2-new-features-20090421/
+- content: https://www.w3.org/TR/2009/WD-owl2-new-features-20090421/
   type: src
 type: standard
 docid:
@@ -27,18 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Christine Golbreich
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Evan K. Wallace
+      given:
+        forename:
+        - content: Christine
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Golbreich
         language:
         - en
         script:
@@ -54,22 +51,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl2-new-features
+    title:
+    - content: OWL 2 Web Ontology Language New Features and Rationale (Second Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl2-new-features/
+      type: src
+    docid:
+    - id: W3C owl2-new-features
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-owl2-new-features-20081202
+    title:
+    - content: OWL 2 Web Ontology Language:New Features and Rationale
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2008/WD-owl2-new-features-20081202/
+    - content: https://www.w3.org/TR/2008/WD-owl2-new-features-20081202/
       type: src
     docid:
     - id: W3C WD-owl2-new-features-20081202
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-owl2-new-features-20081202
+- type: updatedBy
+  bibitem:
+    id: W3CWD-owl2-new-features-20090611
+    title:
+    - content: OWL 2 Web Ontology Language New Features and Rationale
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2009/WD-owl2-new-features-20090611/
+      type: src
+    docid:
+    - id: W3C WD-owl2-new-features-20090611
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl2-new-features-20090421
 ext:

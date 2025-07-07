@@ -5,10 +5,8 @@ title:
 - content: Requirements for Hangul Text Layout and Typography
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2015/WD-klreq-20150630/
+- content: https://www.w3.org/TR/2015/WD-klreq-20150630/
   type: src
-- content: http://w3c.github.io/klreq/
-  type: current
 type: standard
 docid:
 - id: W3C WD-klreq-20150630
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Richard Ishida
+      given:
+        forename:
+        - content: Richard
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ishida
         language:
         - en
         script:
@@ -46,22 +51,53 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cklreq
+    title:
+    - content: 'Requirements for Hangul Text Layout and Typography : 한국어 텍스트 레이아웃
+        및 타이포그래피를 위한 요구사항'
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/klreq/
+      type: src
+    docid:
+    - id: W3C klreq
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-klreq-20150414
+    title:
+    - content: Requirements for Hangul Text Layout and Typography
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2015/WD-klreq-20150414/
+    - content: https://www.w3.org/TR/2015/WD-klreq-20150414/
       type: src
     docid:
     - id: W3C WD-klreq-20150414
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-klreq-20150414
+- type: updatedBy
+  bibitem:
+    id: W3CWD-klreq-20150723
+    title:
+    - content: Requirements for Hangul Text Layout and Typography 한국어 텍스트 레이아웃 및 타이포그래피를
+        위한 요구사항
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2015/WD-klreq-20150723/
+      type: src
+    docid:
+    - id: W3C WD-klreq-20150723
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-klreq-20150630
 ext:

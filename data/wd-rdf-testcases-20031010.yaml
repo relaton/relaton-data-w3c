@@ -5,7 +5,7 @@ title:
 - content: RDF Test Cases
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/WD-rdf-testcases-20031010/
+- content: https://www.w3.org/TR/2003/WD-rdf-testcases-20031010/
   type: src
 type: standard
 docid:
@@ -25,26 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Dave Beckett
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Jan Grant
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2003-10-10'
 language:
 - en
@@ -52,24 +32,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Crdf-testcases
+    title:
+    - content: RDF Test Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/rdf-testcases/
+      type: src
+    docid:
+    - id: W3C rdf-testcases
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-rdf-testcases-20030905
+    title:
+    - content: RDF Test Cases
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2003/WD-rdf-testcases-20030905/
+    - content: https://www.w3.org/TR/2003/WD-rdf-testcases-20030905/
       type: src
     docid:
     - id: W3C WD-rdf-testcases-20030905
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-rdf-testcases-20030905
+- type: updatedBy
+  bibitem:
+    id: W3CPR-rdf-testcases-20031215
+    title:
+    - content: RDF Test Cases
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/PR-rdf-testcases-20031215/
+      type: src
+    docid:
+    - id: W3C PR-rdf-testcases-20031215
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-rdf-testcases-20031010
 ext:
@@ -77,4 +86,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDFCore Working Group
+  - name: RDF Core Working Group

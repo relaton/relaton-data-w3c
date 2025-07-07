@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/NOTE-geofencing-20170530/
   type: src
-- content: https://w3c.github.io/geofencing-api/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-geofencing-20170530
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Marijn Kruisselbrink
+      given:
+        forename:
+        - content: Marijn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kruisselbrink
         language:
         - en
         script:
@@ -42,10 +47,29 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Retired
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cgeofencing
+    title:
+    - content: Geofencing API
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/geofencing/
+      type: src
+    docid:
+    - id: W3C geofencing
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-geofencing-20150604
+    title:
+    - content: Geofencing API
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2015/WD-geofencing-20150604/
       type: src
@@ -53,12 +77,9 @@ relation:
     - id: W3C WD-geofencing-20150604
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-geofencing-20150604
-      format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Retired
     format: text/plain
   number: NOTE-geofencing-20170530
 ext:

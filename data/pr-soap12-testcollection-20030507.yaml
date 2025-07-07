@@ -5,7 +5,7 @@ title:
 - content: SOAP Version 1.2 Specification Assertions and Test Collection
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2003/PR-soap12-testcollection-20030507/
+- content: https://www.w3.org/TR/2003/PR-soap12-testcollection-20030507/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Anish Karmarkar
+      given:
+        forename:
+        - content: Hugo
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haas
         language:
         - en
         script:
@@ -37,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Hugo Haas
+      given:
+        forename:
+        - content: Anish
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Karmarkar
         language:
         - en
         script:
@@ -47,48 +61,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Jeff Mischkinsky
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Lynne Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Mark Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Oisin Hurley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Richard Martin
+      given:
+        forename:
+        - content: Jeff
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mischkinsky
         language:
         - en
         script:
@@ -104,22 +85,52 @@ docstatus:
   stage:
     value: Proposed Recommendation
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Csoap12-testcollection
+    title:
+    - content: SOAP Version 1.2 Specification Assertions and Test Collection (Second
+        Edition)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/soap12-testcollection/
+      type: src
+    docid:
+    - id: W3C soap12-testcollection
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-soap12-testcollection-20020626
+    title:
+    - content: SOAP Version 1.2 Specification Assertions and Test Collection
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2002/WD-soap12-testcollection-20020626
+    - content: https://www.w3.org/TR/2002/WD-soap12-testcollection-20020626
       type: src
     docid:
     - id: W3C WD-soap12-testcollection-20020626
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-soap12-testcollection-20020626
+- type: updatedBy
+  bibitem:
+    id: W3CREC-soap12-testcollection-20030624
+    title:
+    - content: SOAP Version 1.2 Specification Assertions and Test Collection
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2003/REC-soap12-testcollection-20030624/
+      type: src
+    docid:
+    - id: W3C REC-soap12-testcollection-20030624
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C PR
+    content: W3C Proposed Recommendation
     format: text/plain
   number: PR-soap12-testcollection-20030507
 ext:

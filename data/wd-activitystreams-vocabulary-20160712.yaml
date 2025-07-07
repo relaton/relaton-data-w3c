@@ -5,10 +5,8 @@ title:
 - content: Activity Vocabulary
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2016/WD-activitystreams-vocabulary-20160712/
+- content: https://www.w3.org/TR/2016/WD-activitystreams-vocabulary-20160712/
   type: src
-- content: http://w3c.github.io/activitystreams/vocabulary/
-  type: current
 type: standard
 docid:
 - id: W3C WD-activitystreams-vocabulary-20160712
@@ -36,22 +34,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cactivitystreams-vocabulary
+    title:
+    - content: Activity Vocabulary
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/activitystreams-vocabulary/
+      type: src
+    docid:
+    - id: W3C activitystreams-vocabulary
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-activitystreams-vocabulary-20160706
+    title:
+    - content: Activity Vocabulary
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-activitystreams-vocabulary-20160706/
+    - content: https://www.w3.org/TR/2016/WD-activitystreams-vocabulary-20160706/
       type: src
     docid:
     - id: W3C WD-activitystreams-vocabulary-20160706
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-activitystreams-vocabulary-20160706
+- type: updatedBy
+  bibitem:
+    id: W3CCR-activitystreams-vocabulary-20160906
+    title:
+    - content: Activity Vocabulary
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2016/CR-activitystreams-vocabulary-20160906/
+      type: src
+    docid:
+    - id: W3C CR-activitystreams-vocabulary-20160906
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-activitystreams-vocabulary-20160712
 ext:

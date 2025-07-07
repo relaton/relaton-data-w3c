@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2019/NOTE-lpf-20191205/
   type: src
-- content: https://w3c.github.io/lpf/
-  type: current
 type: standard
 docid:
 - id: W3C NOTE-lpf-20191205
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Laurent Le Meur
+      given:
+        forename:
+        - content: Laurent
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Meur
         language:
         - en
         script:
@@ -42,9 +47,42 @@ language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Clpf
+    title:
+    - content: Lightweight Packaging Format (LPF)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/lpf/
+      type: src
+    docid:
+    - id: W3C lpf
+      type: W3C
+      primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CNOTE-lpf-20200319
+    title:
+    - content: Lightweight Packaging Format (LPF)
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2020/NOTE-lpf-20200319/
+      type: src
+    docid:
+    - id: W3C NOTE-lpf-20200319
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C NOTE
+    content: W3C Note
     format: text/plain
   number: NOTE-lpf-20191205
 ext:

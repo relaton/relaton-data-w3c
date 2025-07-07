@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2022/WD-window-placement-20221216/
   type: src
-- content: https://w3c.github.io/window-placement/
-  type: current
 type: standard
 docid:
 - id: W3C WD-window-placement-20221216
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Joshua Bell
+      given:
+        forename:
+        - content: Joshua
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bell
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Mike Wasserman
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wasserman
         language:
         - en
         script:
@@ -56,9 +68,25 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cwindow-management
+    title:
+    - content: Window Management
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/window-management/
+      type: src
+    docid:
+    - id: W3C window-management
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-window-placement-20221201
+    title:
+    - content: Multi-Screen Window Placement
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2022/WD-window-placement-20221201/
       type: src
@@ -66,12 +94,25 @@ relation:
     - id: W3C WD-window-placement-20221201
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-window-placement-20221201
+- type: updatedBy
+  bibitem:
+    id: W3CWD-window-placement-20230206
+    title:
+    - content: Multi-Screen Window Placement
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2023/WD-window-placement-20230206/
+      type: src
+    docid:
+    - id: W3C WD-window-placement-20230206
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-window-placement-20221216
 ext:

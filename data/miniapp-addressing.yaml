@@ -26,52 +26,26 @@ language:
 - en
 script:
 - Latn
-docstatus:
-  stage:
-    value: Working Draft
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220310
+    id: W3CDNOTE-miniapp-addressing-20240625
+    title:
+    - content: MiniApp Addressing
+      format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220310/
+    - content: https://www.w3.org/TR/2024/DNOTE-miniapp-addressing-20240625/
       type: src
     docid:
-    - id: W3C DNOTE-miniapp-addressing-20220310
+    - id: W3C DNOTE-miniapp-addressing-20240625
       type: W3C
       primary: true
-    formattedref:
-      content: W3C DNOTE-miniapp-addressing-20220310
-      format: text/plain
 - type: hasEdition
-  bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220311
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220311/
-      type: src
-    docid:
-    - id: W3C DNOTE-miniapp-addressing-20220311
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-miniapp-addressing-20220311
-      format: text/plain
-- type: hasEdition
-  bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220627
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220627/
-      type: src
-    docid:
-    - id: W3C DNOTE-miniapp-addressing-20220627
-      type: W3C
-      primary: true
-    formattedref:
-      content: W3C DNOTE-miniapp-addressing-20220627
-      format: text/plain
-- type: instanceOf
   bibitem:
     id: W3CWD-miniapp-addressing-20240131
+    title:
+    - content: MiniApp Addressing
+      format: text/plain
     link:
     - content: https://www.w3.org/TR/2024/WD-miniapp-addressing-20240131/
       type: src
@@ -79,12 +53,48 @@ relation:
     - id: W3C WD-miniapp-addressing-20240131
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-miniapp-addressing-20240131
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-miniapp-addressing-20220627
+    title:
+    - content: MiniApp Addressing
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220627/
+      type: src
+    docid:
+    - id: W3C DNOTE-miniapp-addressing-20220627
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-miniapp-addressing-20220311
+    title:
+    - content: MiniApp Addressing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220311/
+      type: src
+    docid:
+    - id: W3C DNOTE-miniapp-addressing-20220311
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CDNOTE-miniapp-addressing-20220310
+    title:
+    - content: MiniApp Addressing
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220310/
+      type: src
+    docid:
+    - id: W3C DNOTE-miniapp-addressing-20220310
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C NOTE
+    content: W3C technicalReport
     format: text/plain
   number: miniapp-addressing
 ext:

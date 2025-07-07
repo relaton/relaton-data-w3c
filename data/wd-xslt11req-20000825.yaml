@@ -25,16 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      completename:
-        content: Steve Muench
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 revdate: '2000-08-25'
 language:
 - en
@@ -42,10 +32,24 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Retired
+relation:
+- type: editionOf
+  bibitem:
+    id: W3Cxslt11req
+    title:
+    - content: XSL Transformations Requirements Version 1.1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/xslt11req/
+      type: src
+    docid:
+    - id: W3C xslt11req
+      type: W3C
+      primary: true
 series:
 - title:
-    content: W3C WD
+    content: W3C Retired
     format: text/plain
   number: WD-xslt11req-20000825
 ext:
@@ -53,4 +57,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Extensible Stylesheet Language Family
+  - name: XSLT Working Group

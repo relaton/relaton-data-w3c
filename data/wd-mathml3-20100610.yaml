@@ -5,7 +5,7 @@ title:
 - content: Mathematical Markup Language (MathML) Version 3.0
   format: text/plain
 link:
-- content: http://www.w3.org/TR/2010/WD-MathML3-20100610/
+- content: https://www.w3.org/TR/2010/WD-MathML3-20100610/
   type: src
 type: standard
 docid:
@@ -27,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: David Carlisle
+      given:
+        forename:
+        - content: Patrick D F
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ion
         language:
         - en
         script:
@@ -37,18 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Patrick Ion
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      completename:
-        content: Robert Miner
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carlisle
         language:
         - en
         script:
@@ -62,24 +66,53 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Last Call Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3CMathML3
+    title:
+    - content: Mathematical Markup Language (MathML) Version 3.0 2nd Edition
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/MathML3/
+      type: src
+    docid:
+    - id: W3C MathML3
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CCR-MathML3-20091215
+    title:
+    - content: Mathematical Markup Language (MathML) Version 3.0
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2009/CR-MathML3-20091215/
+    - content: https://www.w3.org/TR/2009/CR-MathML3-20091215/
       type: src
     docid:
     - id: W3C CR-MathML3-20091215
       type: W3C
       primary: true
-    formattedref:
-      content: W3C CR-MathML3-20091215
+- type: updatedBy
+  bibitem:
+    id: W3CPR-MathML3-20100810
+    title:
+    - content: Mathematical Markup Language (MathML) Version 3.0
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2010/PR-MathML3-20100810/
+      type: src
+    docid:
+    - id: W3C PR-MathML3-20100810
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Last Call Working Draft
     format: text/plain
   number: WD-MathML3-20100610
 ext:

@@ -7,8 +7,6 @@ title:
 link:
 - content: https://www.w3.org/TR/2017/WD-owl-time-20170202/
   type: src
-- content: http://w3c.github.io/sdw/time/
-  type: current
 type: standard
 docid:
 - id: W3C WD-owl-time-20170202
@@ -29,8 +27,15 @@ contributor:
   - type: publisher
 - person:
     name:
-      completename:
-        content: Chris Little
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cox
         language:
         - en
         script:
@@ -39,8 +44,15 @@ contributor:
   - type: editor
 - person:
     name:
-      completename:
-        content: Simon Cox
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Little
         language:
         - en
         script:
@@ -56,22 +68,51 @@ docstatus:
   stage:
     value: Working Draft
 relation:
+- type: editionOf
+  bibitem:
+    id: W3Cowl-time
+    title:
+    - content: Time Ontology in OWL
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/owl-time/
+      type: src
+    docid:
+    - id: W3C owl-time
+      type: W3C
+      primary: true
 - type: obsoletes
   bibitem:
     id: W3CWD-owl-time-20160712
+    title:
+    - content: Time Ontology in OWL
+      format: text/plain
     link:
-    - content: http://www.w3.org/TR/2016/WD-owl-time-20160712/
+    - content: https://www.w3.org/TR/2016/WD-owl-time-20160712/
       type: src
     docid:
     - id: W3C WD-owl-time-20160712
       type: W3C
       primary: true
-    formattedref:
-      content: W3C WD-owl-time-20160712
+- type: updatedBy
+  bibitem:
+    id: W3CCR-owl-time-20170606
+    title:
+    - content: Time Ontology in OWL
       format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2017/CR-owl-time-20170606/
+      type: src
+    docid:
+    - id: W3C CR-owl-time-20170606
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C WD
+    content: W3C Working Draft
     format: text/plain
   number: WD-owl-time-20170202
 ext:
@@ -79,4 +120,4 @@ ext:
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Spatial Data on the Web Working Group
+  - name: Spatio-temporal Data on the Web Working Group
