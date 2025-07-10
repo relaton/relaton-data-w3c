@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-did-1.1-20250531
+id: W3CCRD-webrtc-stats-20250710
 title:
-- content: Decentralized Identifiers (DIDs) v1.1
+- content: Identifiers for WebRTC's Statistics API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-did-1.1-20250531/
+- content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250710/
   type: src
 type: standard
 docid:
-- id: W3C WD-did-1.1-20250531
+- id: W3C CRD-webrtc-stats-20250710
   type: W3C
   primary: true
-docnumber: WD-did-1.1-20250531
+docnumber: CRD-webrtc-stats-20250710
 date:
 - type: published
-  value: '2025-05-31'
+  value: '2025-07-10'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Manu
+        - content: Harald
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sporny
+        content: Alvestrand
         language:
         - en
         script:
@@ -46,78 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Dmitri
+        - content: Varun
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zagidulin
+        content: Singh
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-05-31'
+- person:
+    name:
+      given:
+        forename:
+        - content: Henrik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boström
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-07-10'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdid-1.1
+    id: W3Cwebrtc-stats
     title:
-    - content: Decentralized Identifiers (DIDs) v1.1
+    - content: Identifiers for WebRTC's Statistics API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/did-1.1/
+    - content: https://www.w3.org/TR/webrtc-stats/
       type: src
     docid:
-    - id: W3C did-1.1
+    - id: W3C webrtc-stats
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-did-1.1-20250408
+    id: W3CCRD-webrtc-stats-20250328
     title:
-    - content: Decentralized Identifiers (DIDs) v1.1
+    - content: Identifiers for WebRTC's Statistics API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-did-1.1-20250408/
+    - content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250328/
       type: src
     docid:
-    - id: W3C WD-did-1.1-20250408
+    - id: W3C CRD-webrtc-stats-20250328
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-did-1.1-20250710
-    title:
-    - content: Decentralized Identifiers (DIDs) v1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-did-1.1-20250710/
-      type: src
-    docid:
-    - id: W3C WD-did-1.1-20250710
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: WD-did-1.1-20250531
+  number: CRD-webrtc-stats-20250710
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Decentralized Identifier Working Group
+  - name: Web Real-Time Communications Working Group
