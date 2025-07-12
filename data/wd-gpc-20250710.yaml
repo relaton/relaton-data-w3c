@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webdriver-bidi-20250708
+id: W3CWD-gpc-20250710
 title:
-- content: WebDriver BiDi
+- content: Global Privacy Control (GPC)
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-webdriver-bidi-20250708/
+- content: https://www.w3.org/TR/2025/WD-gpc-20250710/
   type: src
 type: standard
 docid:
-- id: W3C WD-webdriver-bidi-20250708
+- id: W3C WD-gpc-20250710
   type: W3C
   primary: true
-docnumber: WD-webdriver-bidi-20250708
+docnumber: WD-gpc-20250710
 date:
 - type: published
-  value: '2025-07-08'
+  value: '2025-07-10'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: James
+        - content: Sebastian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Graham
+        content: Zimmeck
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Alex
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: Rudenko
+        content: Snyder
         language:
         - en
         script:
@@ -63,20 +63,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Maksim
+        - content: Justin
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sadym
+        content: Brookman
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-07-08'
+- person:
+    name:
+      given:
+        forename:
+        - content: Aram
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zucker-Scharff
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-07-10'
 language:
 - en
 script:
@@ -87,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebdriver-bidi
+    id: W3Cgpc
     title:
-    - content: WebDriver BiDi
+    - content: Global Privacy Control (GPC)
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webdriver-bidi/
+    - content: https://www.w3.org/TR/gpc/
       type: src
     docid:
-    - id: W3C webdriver-bidi
+    - id: W3C gpc
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webdriver-bidi-20250703
+    id: W3CWD-gpc-20250416
     title:
-    - content: WebDriver BiDi
+    - content: Global Privacy Control (GPC)
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-webdriver-bidi-20250703/
+    - content: https://www.w3.org/TR/2025/WD-gpc-20250416/
       type: src
     docid:
-    - id: W3C WD-webdriver-bidi-20250703
+    - id: W3C WD-gpc-20250416
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webdriver-bidi-20250711
-    title:
-    - content: WebDriver BiDi
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-webdriver-bidi-20250711/
-      type: src
-    docid:
-    - id: W3C WD-webdriver-bidi-20250711
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webdriver-bidi-20250708
+  number: WD-gpc-20250710
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Browser Testing and Tools Working Group
+  - name: Privacy Working Group

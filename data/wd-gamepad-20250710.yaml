@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240201
+id: W3CWD-gamepad-20250710
 title:
-- content: WebGPU
+- content: Gamepad
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240201/
+- content: https://www.w3.org/TR/2025/WD-gamepad-20250710/
   type: src
 type: standard
 docid:
-- id: W3C WD-webgpu-20240201
+- id: W3C WD-gamepad-20250710
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240201
+docnumber: WD-gamepad-20250710
 date:
 - type: published
-  value: '2024-02-01'
+  value: '2025-07-10'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: Steve
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Agoston
         language:
         - en
         script:
@@ -46,37 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Matthew
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Reynolds
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Blandy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-02-01'
+revdate: '2025-07-10'
 language:
 - en
 script:
@@ -87,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Cgamepad
     title:
-    - content: WebGPU
+    - content: Gamepad
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/gamepad/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C gamepad
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240131
+    id: W3CWD-gamepad-20250612
     title:
-    - content: WebGPU
+    - content: Gamepad
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240131/
+    - content: https://www.w3.org/TR/2025/WD-gamepad-20250612/
       type: src
     docid:
-    - id: W3C WD-webgpu-20240131
+    - id: W3C WD-gamepad-20250612
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webgpu-20240202
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240202/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240202
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webgpu-20240201
+  number: WD-gamepad-20250710
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Web Applications Working Group
