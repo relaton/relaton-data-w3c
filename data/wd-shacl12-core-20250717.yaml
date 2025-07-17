@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-rdf12-semantics-20250704
+id: W3CWD-shacl12-core-20250717
 title:
-- content: RDF 1.2 Semantics
+- content: SHACL 1.2 Core
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250704/
+- content: https://www.w3.org/TR/2025/WD-shacl12-core-20250717/
   type: src
 type: standard
 docid:
-- id: W3C WD-rdf12-semantics-20250704
+- id: W3C WD-shacl12-core-20250717
   type: W3C
   primary: true
-docnumber: WD-rdf12-semantics-20250704
+docnumber: WD-shacl12-core-20250717
 date:
 - type: published
-  value: '2025-07-04'
+  value: '2025-07-17'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Peter
+        - content: Holger
           language:
           - en
           script:
           - Latn
       surname:
-        content: Patel-Schneider
+        content: Knublauch
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Dörthe
+        - content: Thomas
           language:
           - en
           script:
           - Latn
       surname:
-        content: Arndt
+        content: Bergwinkl
         language:
         - en
         script:
@@ -63,20 +63,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Enrico
+        - content: Yousouf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Franconi
+        content: Taghzouti
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-07-04'
+- person:
+    name:
+      given:
+        forename:
+        - content: Jesse
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wright
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-07-17'
 language:
 - en
 script:
@@ -87,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf12-semantics
+    id: W3Cshacl12-core
     title:
-    - content: RDF 1.2 Semantics
+    - content: SHACL 1.2 Core
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/rdf12-semantics/
+    - content: https://www.w3.org/TR/shacl12-core/
       type: src
     docid:
-    - id: W3C rdf12-semantics
+    - id: W3C shacl12-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdf12-semantics-20250703
+    id: W3CWD-shacl12-core-20250714
     title:
-    - content: RDF 1.2 Semantics
+    - content: SHACL 1.2 Core
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250703/
+    - content: https://www.w3.org/TR/2025/WD-shacl12-core-20250714/
       type: src
     docid:
-    - id: W3C WD-rdf12-semantics-20250703
+    - id: W3C WD-shacl12-core-20250714
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-rdf12-semantics-20250717
-    title:
-    - content: RDF 1.2 Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250717/
-      type: src
-    docid:
-    - id: W3C WD-rdf12-semantics-20250717
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-rdf12-semantics-20250704
+  number: WD-shacl12-core-20250717
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF & SPARQL Working Group
+  - name: Data Shapes Working Group
