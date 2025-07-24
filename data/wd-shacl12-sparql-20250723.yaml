@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-WGSL-20230801
+id: W3CWD-shacl12-sparql-20250723
 title:
-- content: WebGPU Shading Language
+- content: SHACL 1.2 SPARQL Extensions
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-WGSL-20230801/
+- content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20250723/
   type: src
 type: standard
 docid:
-- id: W3C WD-WGSL-20230801
+- id: W3C WD-shacl12-sparql-20250723
   type: W3C
   primary: true
-docnumber: WD-WGSL-20230801
+docnumber: WD-shacl12-sparql-20250723
 date:
 - type: published
-  value: '2023-08-01'
+  value: '2025-07-23'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Alan
+        - content: Holger
           language:
           - en
           script:
           - Latn
       surname:
-        content: Baker
+        content: Knublauch
         language:
         - en
         script:
@@ -46,37 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Mehmet Oguz
+        - content: Ashley
           language:
           - en
           script:
           - Latn
       surname:
-        content: Derin
+        content: Sommer
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Neto
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-08-01'
+revdate: '2025-07-23'
 language:
 - en
 script:
@@ -87,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWGSL
+    id: W3Cshacl12-sparql
     title:
-    - content: WebGPU Shading Language
+    - content: SHACL 1.2 SPARQL Extensions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/WGSL/
+    - content: https://www.w3.org/TR/shacl12-sparql/
       type: src
     docid:
-    - id: W3C WGSL
+    - id: W3C shacl12-sparql
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-WGSL-20230731
+    id: W3CWD-shacl12-sparql-20250721
     title:
-    - content: WebGPU Shading Language
+    - content: SHACL 1.2 SPARQL Extensions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2023/WD-WGSL-20230731/
+    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20250721/
       type: src
     docid:
-    - id: W3C WD-WGSL-20230731
+    - id: W3C WD-shacl12-sparql-20250721
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-WGSL-20230802
-    title:
-    - content: WebGPU Shading Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-WGSL-20230802/
-      type: src
-    docid:
-    - id: W3C WD-WGSL-20230802
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-WGSL-20230801
+  number: WD-shacl12-sparql-20250723
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Data Shapes Working Group
