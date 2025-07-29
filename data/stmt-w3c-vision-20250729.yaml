@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CNOTE-w3c-vision-20250402
+id: W3CSTMT-w3c-vision-20250729
 title:
 - content: Vision for W3C
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/NOTE-w3c-vision-20250402/
+- content: https://www.w3.org/TR/2025/STMT-w3c-vision-20250729/
   type: src
 type: standard
 docid:
-- id: W3C NOTE-w3c-vision-20250402
+- id: W3C STMT-w3c-vision-20250729
   type: W3C
   primary: true
-docnumber: NOTE-w3c-vision-20250402
+docnumber: STMT-w3c-vision-20250729
 date:
 - type: published
-  value: '2025-04-02'
+  value: '2025-07-29'
 contributor:
 - organization:
     name:
@@ -25,23 +25,6 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Chris
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 - person:
     name:
       given:
@@ -59,14 +42,31 @@ contributor:
         - Latn
   role:
   - type: editor
-revdate: '2025-04-02'
+- person:
+    name:
+      given:
+        forename:
+        - content: Chris
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wilson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-07-29'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Note
+    value: Statement
 relation:
 - type: editionOf
   bibitem:
@@ -83,38 +83,22 @@ relation:
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-w3c-vision-20241018
+    id: W3CNOTE-w3c-vision-20250402
     title:
     - content: Vision for W3C
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/NOTE-w3c-vision-20241018/
+    - content: https://www.w3.org/TR/2025/NOTE-w3c-vision-20250402/
       type: src
     docid:
-    - id: W3C NOTE-w3c-vision-20241018
+    - id: W3C NOTE-w3c-vision-20250402
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CSTMT-w3c-vision-20250729
-    title:
-    - content: Vision for W3C
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/STMT-w3c-vision-20250729/
-      type: src
-    docid:
-    - id: W3C STMT-w3c-vision-20250729
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Note
+    content: W3C Statement
     format: text/plain
-  number: NOTE-w3c-vision-20250402
+  number: STMT-w3c-vision-20250729
 ext:
   schema-version: v1.0.0
   doctype:
