@@ -83,7 +83,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Retired
+    value: Note
 relation:
 - type: editionOf
   bibitem:
@@ -111,9 +111,25 @@ relation:
     - id: W3C WD-pronunciation-use-cases-20190905
       type: W3C
       primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-pronunciation-use-cases-20250807
+    title:
+    - content: Pronunciation Use Cases
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/DNOTE-pronunciation-use-cases-20250807/
+      type: src
+    docid:
+    - id: W3C DNOTE-pronunciation-use-cases-20250807
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C Retired
+    content: W3C Note
     format: text/plain
   number: NOTE-pronunciation-use-cases-20200317
 ext:

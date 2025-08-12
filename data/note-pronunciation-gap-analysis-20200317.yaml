@@ -83,7 +83,7 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Retired
+    value: Note
 relation:
 - type: editionOf
   bibitem:
@@ -111,9 +111,25 @@ relation:
     - id: W3C WD-pronunciation-gap-analysis-20190905
       type: W3C
       primary: true
+- type: updatedBy
+  bibitem:
+    id: W3CDNOTE-pronunciation-gap-analysis-20250807
+    title:
+    - content: Pronunciation Gap Analysis
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/DNOTE-pronunciation-gap-analysis-20250807/
+      type: src
+    docid:
+    - id: W3C DNOTE-pronunciation-gap-analysis-20250807
+      type: W3C
+      primary: true
+  description:
+    content: errata
+    format: text/plain
 series:
 - title:
-    content: W3C Retired
+    content: W3C Note
     format: text/plain
   number: NOTE-pronunciation-gap-analysis-20200317
 ext:

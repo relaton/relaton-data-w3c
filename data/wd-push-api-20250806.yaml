@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240205
+id: W3CWD-push-api-20250806
 title:
-- content: WebGPU
+- content: Push API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240205/
+- content: https://www.w3.org/TR/2025/WD-push-api-20250806/
   type: src
 type: standard
 docid:
-- id: W3C WD-webgpu-20240205
+- id: W3C WD-push-api-20250806
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240205
+docnumber: WD-push-api-20250806
 date:
 - type: published
-  value: '2024-02-05'
+  value: '2025-08-06'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Beverloo
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Martin
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Thomson
         language:
         - en
         script:
@@ -63,20 +63,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Jim
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Blandy
+        content: Caceres
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-02-05'
+revdate: '2025-08-06'
 language:
 - en
 script:
@@ -87,54 +87,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Cpush-api
     title:
-    - content: WebGPU
+    - content: Push API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/push-api/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C push-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240202
+    id: W3CWD-push-api-20240903
     title:
-    - content: WebGPU
+    - content: Push API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240202/
+    - content: https://www.w3.org/TR/2024/WD-push-api-20240903/
       type: src
     docid:
-    - id: W3C WD-webgpu-20240202
+    - id: W3C WD-push-api-20240903
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webgpu-20240307
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240307/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240307
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webgpu-20240205
+  number: WD-push-api-20250806
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Web Applications Working Group
