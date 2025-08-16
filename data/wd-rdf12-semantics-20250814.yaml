@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-webgpu-20250811
+id: W3CWD-rdf12-semantics-20250814
 title:
-- content: WebGPU
+- content: RDF 1.2 Semantics
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/CRD-webgpu-20250811/
+- content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250814/
   type: src
 type: standard
 docid:
-- id: W3C CRD-webgpu-20250811
+- id: W3C WD-rdf12-semantics-20250814
   type: W3C
   primary: true
-docnumber: CRD-webgpu-20250811
+docnumber: WD-rdf12-semantics-20250814
 date:
 - type: published
-  value: '2025-08-11'
+  value: '2025-08-14'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Dörthe
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Arndt
         language:
         - en
         script:
@@ -63,78 +63,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Jim
+        - content: Enrico
           language:
           - en
           script:
           - Latn
       surname:
-        content: Blandy
+        content: Franconi
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-08-11'
+revdate: '2025-08-14'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Crdf12-semantics
     title:
-    - content: WebGPU
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/rdf12-semantics/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C rdf12-semantics
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webgpu-20250809
+    id: W3CWD-rdf12-semantics-20250812
     title:
-    - content: WebGPU
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/CRD-webgpu-20250809/
+    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250812/
       type: src
     docid:
-    - id: W3C CRD-webgpu-20250809
+    - id: W3C WD-rdf12-semantics-20250812
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CCRD-webgpu-20250815
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webgpu-20250815/
-      type: src
-    docid:
-    - id: W3C CRD-webgpu-20250815
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Candidate Recommendation Draft
+    content: W3C Working Draft
     format: text/plain
-  number: CRD-webgpu-20250811
+  number: WD-rdf12-semantics-20250814
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: RDF & SPARQL Working Group

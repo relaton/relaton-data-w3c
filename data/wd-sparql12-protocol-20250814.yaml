@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240307
+id: W3CWD-sparql12-protocol-20250814
 title:
-- content: WebGPU
+- content: SPARQL 1.2 Protocol
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240307/
+- content: https://www.w3.org/TR/2025/WD-sparql12-protocol-20250814/
   type: src
 type: standard
 docid:
-- id: W3C WD-webgpu-20240307
+- id: W3C WD-sparql12-protocol-20250814
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240307
+docnumber: WD-sparql12-protocol-20250814
 date:
 - type: published
-  value: '2024-03-07'
+  value: '2025-08-14'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Seaborne
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Taelman
         language:
         - en
         script:
@@ -63,20 +63,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Jim
+        - content: Gregory
           language:
           - en
           script:
           - Latn
       surname:
-        content: Blandy
+        content: Williams
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-03-07'
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-08-14'
 language:
 - en
 script:
@@ -87,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Csparql12-protocol
     title:
-    - content: WebGPU
+    - content: SPARQL 1.2 Protocol
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/sparql12-protocol/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C sparql12-protocol
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240205
+    id: W3CWD-sparql12-protocol-20250624
     title:
-    - content: WebGPU
+    - content: SPARQL 1.2 Protocol
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240205/
+    - content: https://www.w3.org/TR/2025/WD-sparql12-protocol-20250624/
       type: src
     docid:
-    - id: W3C WD-webgpu-20240205
+    - id: W3C WD-sparql12-protocol-20250624
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webgpu-20240313
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240313/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240313
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webgpu-20240307
+  number: WD-sparql12-protocol-20250814
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: RDF & SPARQL Working Group

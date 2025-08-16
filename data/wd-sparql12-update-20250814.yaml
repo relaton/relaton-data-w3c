@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-webnn-20240307
+id: W3CWD-sparql12-update-20250814
 title:
-- content: Web Neural Network API
+- content: SPARQL 1.2 Update
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-webnn-20240307/
+- content: https://www.w3.org/TR/2025/WD-sparql12-update-20250814/
   type: src
 type: standard
 docid:
-- id: W3C CRD-webnn-20240307
+- id: W3C WD-sparql12-update-20250814
   type: W3C
   primary: true
-docnumber: CRD-webnn-20240307
+docnumber: WD-sparql12-update-20250814
 date:
 - type: published
-  value: '2024-03-07'
+  value: '2025-08-14'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ningxin
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hu
+        content: Taelman
         language:
         - en
         script:
@@ -46,78 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Dwayne
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Robinson
+        content: Seaborne
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-03-07'
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-08-14'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebnn
+    id: W3Csparql12-update
     title:
-    - content: Web Neural Network API
+    - content: SPARQL 1.2 Update
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webnn/
+    - content: https://www.w3.org/TR/sparql12-update/
       type: src
     docid:
-    - id: W3C webnn
+    - id: W3C sparql12-update
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webnn-20240306
+    id: W3CWD-sparql12-update-20250206
     title:
-    - content: Web Neural Network API
+    - content: SPARQL 1.2 Update
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/CRD-webnn-20240306/
+    - content: https://www.w3.org/TR/2025/WD-sparql12-update-20250206/
       type: src
     docid:
-    - id: W3C CRD-webnn-20240306
+    - id: W3C WD-sparql12-update-20250206
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CCRD-webnn-20240308
-    title:
-    - content: Web Neural Network API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-webnn-20240308/
-      type: src
-    docid:
-    - id: W3C CRD-webnn-20240308
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Candidate Recommendation Draft
+    content: W3C Working Draft
     format: text/plain
-  number: CRD-webnn-20240307
+  number: WD-sparql12-update-20250814
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Machine Learning Working Group
+  - name: RDF & SPARQL Working Group
