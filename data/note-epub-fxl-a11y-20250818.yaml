@@ -1,18 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3Cepub-fxl-a11y
+id: W3CNOTE-epub-fxl-a11y-20250818
 title:
 - content: EPUB Accessibility - Fixed Layout Challenges and Best Practices
   format: text/plain
 link:
-- content: https://www.w3.org/TR/epub-fxl-a11y/
+- content: https://www.w3.org/TR/2025/NOTE-epub-fxl-a11y-20250818/
   type: src
 type: standard
 docid:
-- id: W3C epub-fxl-a11y
+- id: W3C NOTE-epub-fxl-a11y-20250818
   type: W3C
   primary: true
-docnumber: epub-fxl-a11y
+docnumber: NOTE-epub-fxl-a11y-20250818
+date:
+- type: published
+  value: '2025-08-18'
 contributor:
 - organization:
     name:
@@ -22,25 +25,46 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      given:
+        forename:
+        - content: Wendy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Reid
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-08-18'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Note
 relation:
-- type: hasEdition
+- type: editionOf
   bibitem:
-    id: W3CNOTE-epub-fxl-a11y-20250818
+    id: W3Cepub-fxl-a11y
     title:
     - content: EPUB Accessibility - Fixed Layout Challenges and Best Practices
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/NOTE-epub-fxl-a11y-20250818/
+    - content: https://www.w3.org/TR/epub-fxl-a11y/
       type: src
     docid:
-    - id: W3C NOTE-epub-fxl-a11y-20250818
+    - id: W3C epub-fxl-a11y
       type: W3C
       primary: true
-- type: hasEdition
+- type: obsoletes
   bibitem:
     id: W3CNOTE-epub-fxl-a11y-20250627
     title:
@@ -53,25 +77,14 @@ relation:
     - id: W3C NOTE-epub-fxl-a11y-20250627
       type: W3C
       primary: true
-- type: hasEdition
-  bibitem:
-    id: W3CNOTE-epub-fxl-a11y-20240530
-    title:
-    - content: EPUB Fixed Layout Accessibility
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/NOTE-epub-fxl-a11y-20240530/
-      type: src
-    docid:
-    - id: W3C NOTE-epub-fxl-a11y-20240530
-      type: W3C
-      primary: true
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C Note
     format: text/plain
-  number: epub-fxl-a11y
+  number: NOTE-epub-fxl-a11y-20250818
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: Publishing Maintenance Working Group

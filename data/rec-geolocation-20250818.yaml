@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CNOTE-epub-overview-34-20250714
+id: W3CREC-geolocation-20250818
 title:
-- content: EPUB 3 Overview
+- content: Geolocation
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/NOTE-epub-overview-34-20250714/
+- content: https://www.w3.org/TR/2025/REC-geolocation-20250818/
   type: src
 type: standard
 docid:
-- id: W3C NOTE-epub-overview-34-20250714
+- id: W3C REC-geolocation-20250818
   type: W3C
   primary: true
-docnumber: NOTE-epub-overview-34-20250714
+docnumber: REC-geolocation-20250818
 date:
 - type: published
-  value: '2025-07-14'
+  value: '2025-08-18'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Matt
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Garrish
+        content: Caceres
         language:
         - en
         script:
@@ -46,78 +46,63 @@ contributor:
     name:
       given:
         forename:
-        - content: Ivan
+        - content: Reilly
           language:
           - en
           script:
           - Latn
       surname:
-        content: Herman
+        content: Grant
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-07-14'
+revdate: '2025-08-18'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Note
+    value: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cepub-overview-34
+    id: W3Cgeolocation
     title:
-    - content: EPUB 3 Overview
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/epub-overview-34/
+    - content: https://www.w3.org/TR/geolocation/
       type: src
     docid:
-    - id: W3C epub-overview-34
+    - id: W3C geolocation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-epub-overview-34-20250627
+    id: W3CREC-geolocation-20250711
     title:
-    - content: EPUB 3 Overview
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/NOTE-epub-overview-34-20250627/
+    - content: https://www.w3.org/TR/2025/REC-geolocation-20250711/
       type: src
     docid:
-    - id: W3C NOTE-epub-overview-34-20250627
+    - id: W3C REC-geolocation-20250711
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CNOTE-epub-overview-34-20250818
-    title:
-    - content: EPUB 3 Overview
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-epub-overview-34-20250818/
-      type: src
-    docid:
-    - id: W3C NOTE-epub-overview-34-20250818
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Note
+    content: W3C Recommendation
     format: text/plain
-  number: NOTE-epub-overview-34-20250714
+  number: REC-geolocation-20250818
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Publishing Maintenance Working Group
+  - name: Devices and Sensors Working Group
+  - name: Web Applications Working Group
