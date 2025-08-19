@@ -1,18 +1,18 @@
 ---
 schema-version: v1.2.9
-id: W3CNOTE-epub-overview-34-20250818
+id: W3CWD-rdf12-schema-20250818
 title:
-- content: EPUB 3 Overview
+- content: RDF 1.2 Schema
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/NOTE-epub-overview-34-20250818/
+- content: https://www.w3.org/TR/2025/WD-rdf12-schema-20250818/
   type: src
 type: standard
 docid:
-- id: W3C NOTE-epub-overview-34-20250818
+- id: W3C WD-rdf12-schema-20250818
   type: W3C
   primary: true
-docnumber: NOTE-epub-overview-34-20250818
+docnumber: WD-rdf12-schema-20250818
 date:
 - type: published
   value: '2025-08-18'
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Matt
+        - content: Dominik
           language:
           - en
           script:
           - Latn
       surname:
-        content: Garrish
+        content: Tomaszuk
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ivan
+        - content: Timothée
           language:
           - en
           script:
           - Latn
       surname:
-        content: Herman
+        content: Haudebourg
         language:
         - en
         script:
@@ -66,58 +66,42 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Note
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cepub-overview-34
+    id: W3Crdf12-schema
     title:
-    - content: EPUB 3 Overview
+    - content: RDF 1.2 Schema
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/epub-overview-34/
+    - content: https://www.w3.org/TR/rdf12-schema/
       type: src
     docid:
-    - id: W3C epub-overview-34
+    - id: W3C rdf12-schema
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-epub-overview-34-20250714
+    id: W3CWD-rdf12-schema-20250811
     title:
-    - content: EPUB 3 Overview
+    - content: RDF 1.2 Schema
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/NOTE-epub-overview-34-20250714/
+    - content: https://www.w3.org/TR/2025/WD-rdf12-schema-20250811/
       type: src
     docid:
-    - id: W3C NOTE-epub-overview-34-20250714
+    - id: W3C WD-rdf12-schema-20250811
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CNOTE-epub-overview-34-20250819
-    title:
-    - content: EPUB 3 Overview
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-epub-overview-34-20250819/
-      type: src
-    docid:
-    - id: W3C NOTE-epub-overview-34-20250819
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Note
+    content: W3C Working Draft
     format: text/plain
-  number: NOTE-epub-overview-34-20250818
+  number: WD-rdf12-schema-20250818
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Publishing Maintenance Working Group
+  - name: RDF & SPARQL Working Group

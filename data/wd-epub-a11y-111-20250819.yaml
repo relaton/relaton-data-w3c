@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-act-rules-format-1.1-20240618
+id: W3CWD-epub-a11y-111-20250819
 title:
-- content: Accessibility Conformance Testing (ACT) Rules Format 1.1
+- content: EPUB Accessibility 1.1.1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-act-rules-format-1.1-20240618/
+- content: https://www.w3.org/TR/2025/WD-epub-a11y-111-20250819/
   type: src
 type: standard
 docid:
-- id: W3C WD-act-rules-format-1.1-20240618
+- id: W3C WD-epub-a11y-111-20250819
   type: W3C
   primary: true
-docnumber: WD-act-rules-format-1.1-20240618
+docnumber: WD-epub-a11y-111-20250819
 date:
 - type: published
-  value: '2024-06-18'
+  value: '2025-08-19'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Wilco
+        - content: Matt
           language:
           - en
           script:
           - Latn
       surname:
-        content: Fiers
+        content: Garrish
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Trevor
+        - content: George
           language:
           - en
           script:
           - Latn
       surname:
-        content: Bostic
+        content: Kerscher
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kathy
+        - content: Charles
           language:
           - en
           script:
           - Latn
       surname:
-        content: Eng
+        content: LaPierre
         language:
         - en
         script:
@@ -80,65 +80,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Daniel
+        - content: Gregorio
           language:
           - en
           script:
           - Latn
       surname:
-        content: Montalvo
+        content: Pellegrino
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-06-18'
+- person:
+    name:
+      given:
+        forename:
+        - content: Avneesh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singh
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-08-19'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: First Public Working Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cact-rules-format-1.1
+    id: W3Cepub-a11y-111
     title:
-    - content: Accessibility Conformance Testing (ACT) Rules Format 1.1
+    - content: EPUB Accessibility 1.1.1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/act-rules-format-1.1/
+    - content: https://www.w3.org/TR/epub-a11y-111/
       type: src
     docid:
-    - id: W3C act-rules-format-1.1
+    - id: W3C epub-a11y-111
       type: W3C
       primary: true
-- type: updatedBy
+- type: obsoletes
   bibitem:
-    id: W3CCR-act-rules-format-1.1-20250819
+    id: W3CWD-epub-a11y-111-20250818
     title:
-    - content: Accessibility Conformance Testing (ACT) Rules Format 1.1
+    - content: EPUB Accessibility 1.1.1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/CR-act-rules-format-1.1-20250819/
+    - content: https://www.w3.org/TR/2025/WD-epub-a11y-111-20250818/
       type: src
     docid:
-    - id: W3C CR-act-rules-format-1.1-20250819
+    - id: W3C WD-epub-a11y-111-20250818
       type: W3C
       primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C First Public Working Draft
+    content: W3C Working Draft
     format: text/plain
-  number: WD-act-rules-format-1.1-20240618
+  number: WD-epub-a11y-111-20250819
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessibility Guidelines Working Group
+  - name: Publishing Maintenance Working Group
