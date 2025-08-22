@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240323
+id: W3CWD-dbsc-1-20250821
 title:
-- content: WebGPU
+- content: Device Bound Session Credentials
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240323/
+- content: https://www.w3.org/TR/2025/WD-dbsc-1-20250821/
   type: src
 type: standard
 docid:
-- id: W3C WD-webgpu-20240323
+- id: W3C WD-dbsc-1-20250821
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240323
+docnumber: WD-dbsc-1-20250821
 date:
 - type: published
-  value: '2024-03-23'
+  value: '2025-08-21'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: Ian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Clelland
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Daniel
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Rubery
         language:
         - en
         script:
@@ -63,78 +63,49 @@ contributor:
     name:
       given:
         forename:
-        - content: Jim
+        - content: thefrog
           language:
           - en
           script:
           - Latn
       surname:
-        content: Blandy
+        content: t
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-03-23'
+revdate: '2025-08-21'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Cdbsc-1
     title:
-    - content: WebGPU
+    - content: Device Bound Session Credentials
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/dbsc-1/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C dbsc-1
       type: W3C
       primary: true
-- type: obsoletes
-  bibitem:
-    id: W3CWD-webgpu-20240313
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240313/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240313
-      type: W3C
-      primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webgpu-20240327
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240327/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240327
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C First Public Working Draft
     format: text/plain
-  number: WD-webgpu-20240323
+  number: WD-dbsc-1-20250821
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Web Application Security Working Group

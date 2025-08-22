@@ -1,18 +1,18 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-digital-credentials-20250820
+id: W3CWD-edit-context-20250820
 title:
-- content: Digital Credentials
+- content: EditContext API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-digital-credentials-20250820/
+- content: https://www.w3.org/TR/2025/WD-edit-context-20250820/
   type: src
 type: standard
 docid:
-- id: W3C WD-digital-credentials-20250820
+- id: W3C WD-edit-context-20250820
   type: W3C
   primary: true
-docnumber: WD-digital-credentials-20250820
+docnumber: WD-edit-context-20250820
 date:
 - type: published
   value: '2025-08-20'
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Marcos
+        - content: alex
           language:
           - en
           script:
           - Latn
       surname:
-        content: Caceres
+        content: keng
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Tim
+        - content: Anupam
           language:
           - en
           script:
           - Latn
       surname:
-        content: Cappalli
+        content: Snigdha
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Mohamed Amir
+        - content: Daniel
           language:
           - en
           script:
           - Latn
       surname:
-        content: Yosef
+        content: Clark
         language:
         - en
         script:
@@ -87,54 +87,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdigital-credentials
+    id: W3Cedit-context
     title:
-    - content: Digital Credentials
+    - content: EditContext API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/digital-credentials/
+    - content: https://www.w3.org/TR/edit-context/
       type: src
     docid:
-    - id: W3C digital-credentials
+    - id: W3C edit-context
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-digital-credentials-20250819
+    id: W3CWD-edit-context-20241221
     title:
-    - content: Digital Credentials
+    - content: EditContext API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-digital-credentials-20250819/
+    - content: https://www.w3.org/TR/2024/WD-edit-context-20241221/
       type: src
     docid:
-    - id: W3C WD-digital-credentials-20250819
+    - id: W3C WD-edit-context-20241221
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-digital-credentials-20250822
-    title:
-    - content: Digital Credentials
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-digital-credentials-20250822/
-      type: src
-    docid:
-    - id: W3C WD-digital-credentials-20250822
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-digital-credentials-20250820
+  number: WD-edit-context-20250820
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Federated Identity Working Group
+  - name: Web Editing Working Group

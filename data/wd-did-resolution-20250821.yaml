@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-encrypted-media-2-20250404
+id: W3CWD-did-resolution-20250821
 title:
-- content: Encrypted Media Extensions
+- content: Decentralized Identifier Resolution (DID Resolution) v0.3
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-encrypted-media-2-20250404/
+- content: https://www.w3.org/TR/2025/WD-did-resolution-20250821/
   type: src
 type: standard
 docid:
-- id: W3C WD-encrypted-media-2-20250404
+- id: W3C WD-did-resolution-20250821
   type: W3C
   primary: true
-docnumber: WD-encrypted-media-2-20250404
+docnumber: WD-did-resolution-20250821
 date:
 - type: published
-  value: '2025-04-04'
+  value: '2025-08-21'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Joey
+        - content: Markus
           language:
           - en
           script:
           - Latn
       surname:
-        content: Parrish
+        content: Sabadello
         language:
         - en
         script:
@@ -46,20 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Greg
+        - content: Dmitri
           language:
           - en
           script:
           - Latn
       surname:
-        content: Freedman
+        content: Zagidulin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-04-04'
+revdate: '2025-08-21'
 language:
 - en
 script:
@@ -70,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cencrypted-media-2
+    id: W3Cdid-resolution
     title:
-    - content: Encrypted Media Extensions
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/encrypted-media-2/
+    - content: https://www.w3.org/TR/did-resolution/
       type: src
     docid:
-    - id: W3C encrypted-media-2
+    - id: W3C did-resolution
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-encrypted-media-2-20250326
+    id: W3CWD-did-resolution-20250803
     title:
-    - content: Encrypted Media Extensions
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-encrypted-media-2-20250326/
+    - content: https://www.w3.org/TR/2025/WD-did-resolution-20250803/
       type: src
     docid:
-    - id: W3C WD-encrypted-media-2-20250326
+    - id: W3C WD-did-resolution-20250803
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-encrypted-media-2-20250821
-    title:
-    - content: Encrypted Media Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-encrypted-media-2-20250821/
-      type: src
-    docid:
-    - id: W3C WD-encrypted-media-2-20250821
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-encrypted-media-2-20250404
+  number: WD-did-resolution-20250821
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Media Working Group
+  - name: Decentralized Identifier Working Group
