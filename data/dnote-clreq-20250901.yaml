@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-shacl12-sparql-20250828
+id: W3CDNOTE-clreq-20250901
 title:
-- content: SHACL 1.2 SPARQL Extensions
+- content: Requirements for Chinese Text Layout - 中文排版需求
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20250828/
+- content: https://www.w3.org/TR/2025/DNOTE-clreq-20250901/
   type: src
 type: standard
 docid:
-- id: W3C WD-shacl12-sparql-20250828
+- id: W3C DNOTE-clreq-20250901
   type: W3C
   primary: true
-docnumber: WD-shacl12-sparql-20250828
+docnumber: DNOTE-clreq-20250901
 date:
 - type: published
-  value: '2025-08-28'
+  value: '2025-09-01'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Holger
+        - content: Fuqiao
           language:
           - en
           script:
           - Latn
       surname:
-        content: Knublauch
+        content: Xue
         language:
         - en
         script:
@@ -46,78 +46,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Ashley
+        - content: Richard
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sommer
+        content: Ishida
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-08-28'
+revdate: '2025-09-01'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshacl12-sparql
+    id: W3Cclreq
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Requirements for Chinese Text Layout - 中文排版需求
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/shacl12-sparql/
+    - content: https://www.w3.org/TR/clreq/
       type: src
     docid:
-    - id: W3C shacl12-sparql
+    - id: W3C clreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shacl12-sparql-20250806
+    id: W3CDNOTE-clreq-20250804
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Requirements for Chinese Text Layout - 中文排版需求
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20250806/
+    - content: https://www.w3.org/TR/2025/DNOTE-clreq-20250804/
       type: src
     docid:
-    - id: W3C WD-shacl12-sparql-20250806
+    - id: W3C DNOTE-clreq-20250804
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-shacl12-sparql-20250901
-    title:
-    - content: SHACL 1.2 SPARQL Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20250901/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-sparql-20250901
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Draft Note
     format: text/plain
-  number: WD-shacl12-sparql-20250828
+  number: DNOTE-clreq-20250901
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Data Shapes Working Group
+  - name: Internationalization Working Group
