@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-edit-context-20250905
+id: W3CWD-push-api-20250910
 title:
-- content: EditContext API
+- content: Push API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-edit-context-20250905/
+- content: https://www.w3.org/TR/2025/WD-push-api-20250910/
   type: src
 type: standard
 docid:
-- id: W3C WD-edit-context-20250905
+- id: W3C WD-push-api-20250910
   type: W3C
   primary: true
-docnumber: WD-edit-context-20250905
+docnumber: WD-push-api-20250910
 date:
 - type: published
-  value: '2025-09-05'
+  value: '2025-09-10'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: alex
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: keng
+        content: Beverloo
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Anupam
+        - content: Martin
           language:
           - en
           script:
           - Latn
       surname:
-        content: Snigdha
+        content: Thomson
         language:
         - en
         script:
@@ -63,20 +63,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Daniel
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Clark
+        content: Caceres
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-09-05'
+revdate: '2025-09-10'
 language:
 - en
 script:
@@ -87,54 +87,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cedit-context
+    id: W3Cpush-api
     title:
-    - content: EditContext API
+    - content: Push API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/edit-context/
+    - content: https://www.w3.org/TR/push-api/
       type: src
     docid:
-    - id: W3C edit-context
+    - id: W3C push-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-edit-context-20250820
+    id: W3CWD-push-api-20250828
     title:
-    - content: EditContext API
+    - content: Push API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-edit-context-20250820/
+    - content: https://www.w3.org/TR/2025/WD-push-api-20250828/
       type: src
     docid:
-    - id: W3C WD-edit-context-20250820
+    - id: W3C WD-push-api-20250828
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-edit-context-20250909
-    title:
-    - content: EditContext API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-edit-context-20250909/
-      type: src
-    docid:
-    - id: W3C WD-edit-context-20250909
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-edit-context-20250905
+  number: WD-push-api-20250910
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Editing Working Group
+  - name: Web Applications Working Group
