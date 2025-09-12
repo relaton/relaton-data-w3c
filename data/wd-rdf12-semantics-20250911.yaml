@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-mediacapture-streams-20250624
+id: W3CWD-rdf12-semantics-20250911
 title:
-- content: Media Capture and Streams
+- content: RDF 1.2 Semantics
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20250624/
+- content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250911/
   type: src
 type: standard
 docid:
-- id: W3C CRD-mediacapture-streams-20250624
+- id: W3C WD-rdf12-semantics-20250911
   type: W3C
   primary: true
-docnumber: CRD-mediacapture-streams-20250624
+docnumber: WD-rdf12-semantics-20250911
 date:
 - type: published
-  value: '2025-06-24'
+  value: '2025-09-11'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Cullen
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jennings
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Jan-Ivar
+        - content: Dörthe
           language:
           - en
           script:
           - Latn
       surname:
-        content: Bruaroey
+        content: Arndt
         language:
         - en
         script:
@@ -63,82 +63,65 @@ contributor:
     name:
       given:
         forename:
-        - content: Henrik
+        - content: Enrico
           language:
           - en
           script:
           - Latn
       surname:
-        content: Boström
+        content: Franconi
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: youenn
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: fablet
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-06-24'
+revdate: '2025-09-11'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmediacapture-streams
+    id: W3Crdf12-semantics
     title:
-    - content: Media Capture and Streams
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/mediacapture-streams/
+    - content: https://www.w3.org/TR/rdf12-semantics/
       type: src
     docid:
-    - id: W3C mediacapture-streams
+    - id: W3C rdf12-semantics
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-mediacapture-streams-20250526
+    id: W3CWD-rdf12-semantics-20250823
     title:
-    - content: Media Capture and Streams
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20250526/
+    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250823/
       type: src
     docid:
-    - id: W3C CRD-mediacapture-streams-20250526
+    - id: W3C WD-rdf12-semantics-20250823
       type: W3C
       primary: true
 - type: updatedBy
   bibitem:
-    id: W3CCRD-mediacapture-streams-20250911
+    id: W3CWD-rdf12-semantics-20250912
     title:
-    - content: Media Capture and Streams
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20250911/
+    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250912/
       type: src
     docid:
-    - id: W3C CRD-mediacapture-streams-20250911
+    - id: W3C WD-rdf12-semantics-20250912
       type: W3C
       primary: true
   description:
@@ -146,12 +129,12 @@ relation:
     format: text/plain
 series:
 - title:
-    content: W3C Candidate Recommendation Draft
+    content: W3C Working Draft
     format: text/plain
-  number: CRD-mediacapture-streams-20250624
+  number: WD-rdf12-semantics-20250911
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Real-Time Communications Working Group
+  - name: RDF & SPARQL Working Group
