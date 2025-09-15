@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-webnn-20250904
+id: W3CWD-paint-timing-20250915
 title:
-- content: Web Neural Network API
+- content: Paint Timing
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/CRD-webnn-20250904/
+- content: https://www.w3.org/TR/2025/WD-paint-timing-20250915/
   type: src
 type: standard
 docid:
-- id: W3C CRD-webnn-20250904
+- id: W3C WD-paint-timing-20250915
   type: W3C
   primary: true
-docnumber: CRD-webnn-20250904
+docnumber: WD-paint-timing-20250915
 date:
 - type: published
-  value: '2025-09-04'
+  value: '2025-09-15'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ningxin
+        - content: Ian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hu
+        content: Clelland
         language:
         - en
         script:
@@ -46,78 +46,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Dwayne
+        - content: Noam
           language:
           - en
           script:
           - Latn
       surname:
-        content: Robinson
+        content: Rosenthal
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-09-04'
+revdate: '2025-09-15'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Candidate Recommendation Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebnn
+    id: W3Cpaint-timing
     title:
-    - content: Web Neural Network API
+    - content: Paint Timing
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webnn/
+    - content: https://www.w3.org/TR/paint-timing/
       type: src
     docid:
-    - id: W3C webnn
+    - id: W3C paint-timing
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webnn-20250829
+    id: W3CWD-paint-timing-20250517
     title:
-    - content: Web Neural Network API
+    - content: Paint Timing
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/CRD-webnn-20250829/
+    - content: https://www.w3.org/TR/2025/WD-paint-timing-20250517/
       type: src
     docid:
-    - id: W3C CRD-webnn-20250829
+    - id: W3C WD-paint-timing-20250517
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CCRD-webnn-20250915
-    title:
-    - content: Web Neural Network API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webnn-20250915/
-      type: src
-    docid:
-    - id: W3C CRD-webnn-20250915
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Candidate Recommendation Draft
+    content: W3C Working Draft
     format: text/plain
-  number: CRD-webnn-20250904
+  number: WD-paint-timing-20250915
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Machine Learning Working Group
+  - name: Web Performance Working Group
