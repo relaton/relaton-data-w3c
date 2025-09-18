@@ -1,18 +1,18 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webdriver-bidi-20250917
+id: W3CWD-css-grid-3-20250917
 title:
-- content: WebDriver BiDi
+- content: CSS Grid Layout Module Level 3
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-webdriver-bidi-20250917/
+- content: https://www.w3.org/TR/2025/WD-css-grid-3-20250917/
   type: src
 type: standard
 docid:
-- id: W3C WD-webdriver-bidi-20250917
+- id: W3C WD-css-grid-3-20250917
   type: W3C
   primary: true
-docnumber: WD-webdriver-bidi-20250917
+docnumber: WD-css-grid-3-20250917
 date:
 - type: published
   value: '2025-09-17'
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: James
+        - content: Tab
           language:
           - en
           script:
           - Latn
       surname:
-        content: Graham
+        content: Atkins Jr.
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Alex
+        - content: Elika
           language:
           - en
           script:
           - Latn
       surname:
-        content: Rudenko
+        content: Etemad
         language:
         - en
         script:
@@ -63,13 +63,30 @@ contributor:
     name:
       given:
         forename:
-        - content: Maksim
+        - content: Jen
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sadym
+        content: Simmons
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Brandon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stewart
         language:
         - en
         script:
@@ -87,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebdriver-bidi
+    id: W3Ccss-grid-3
     title:
-    - content: WebDriver BiDi
+    - content: CSS Grid Layout Module Level 3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webdriver-bidi/
+    - content: https://www.w3.org/TR/css-grid-3/
       type: src
     docid:
-    - id: W3C webdriver-bidi
+    - id: W3C css-grid-3
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webdriver-bidi-20250916
+    id: W3CWD-css-grid-3-20250207
     title:
-    - content: WebDriver BiDi
+    - content: CSS Grid Layout Module Level 3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-webdriver-bidi-20250916/
+    - content: https://www.w3.org/TR/2025/WD-css-grid-3-20250207/
       type: src
     docid:
-    - id: W3C WD-webdriver-bidi-20250916
+    - id: W3C WD-css-grid-3-20250207
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webdriver-bidi-20250918
-    title:
-    - content: WebDriver BiDi
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-webdriver-bidi-20250918/
-      type: src
-    docid:
-    - id: W3C WD-webdriver-bidi-20250918
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webdriver-bidi-20250917
+  number: WD-css-grid-3-20250917
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Browser Testing and Tools Working Group
+  - name: Cascading Style Sheets (CSS) Working Group
