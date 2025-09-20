@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-mediasession-20250821
+id: W3CCRD-webgpu-20250920
 title:
-- content: Media Session
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-mediasession-20250821/
+- content: https://www.w3.org/TR/2025/CRD-webgpu-20250920/
   type: src
 type: standard
 docid:
-- id: W3C WD-mediasession-20250821
+- id: W3C CRD-webgpu-20250920
   type: W3C
   primary: true
-docnumber: WD-mediasession-20250821
+docnumber: CRD-webgpu-20250920
 date:
 - type: published
-  value: '2025-08-21'
+  value: '2025-09-20'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Thomas
+        - content: Kai
           language:
           - en
           script:
           - Latn
       surname:
-        content: Steimel
+        content: Ninomiya
         language:
         - en
         script:
@@ -46,78 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: youenn
+        - content: Brandon
           language:
           - en
           script:
           - Latn
       surname:
-        content: fablet
+        content: Jones
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-08-21'
+- person:
+    name:
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Blandy
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-09-20'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmediasession
+    id: W3Cwebgpu
     title:
-    - content: Media Session
+    - content: WebGPU
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/mediasession/
+    - content: https://www.w3.org/TR/webgpu/
       type: src
     docid:
-    - id: W3C mediasession
+    - id: W3C webgpu
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-mediasession-20250430
+    id: W3CCRD-webgpu-20250919
     title:
-    - content: Media Session
+    - content: WebGPU
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-mediasession-20250430/
+    - content: https://www.w3.org/TR/2025/CRD-webgpu-20250919/
       type: src
     docid:
-    - id: W3C WD-mediasession-20250430
+    - id: W3C CRD-webgpu-20250919
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-mediasession-20250919
-    title:
-    - content: Media Session
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-mediasession-20250919/
-      type: src
-    docid:
-    - id: W3C WD-mediasession-20250919
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: WD-mediasession-20250821
+  number: CRD-webgpu-20250920
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Media Working Group
+  - name: GPU for the Web Working Group
