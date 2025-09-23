@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CNOTE-explainer-explainer-20250827
+id: W3CNOTE-did-extensions-methods-20250922
 title:
-- content: Writing Effective Explainers
+- content: DID Methods
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250827/
+- content: https://www.w3.org/TR/2025/NOTE-did-extensions-methods-20250922/
   type: src
 type: standard
 docid:
-- id: W3C NOTE-explainer-explainer-20250827
+- id: W3C NOTE-did-extensions-methods-20250922
   type: W3C
   primary: true
-docnumber: NOTE-explainer-explainer-20250827
+docnumber: NOTE-did-extensions-methods-20250922
 date:
 - type: published
-  value: '2025-08-27'
+  value: '2025-09-22'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Matthew
+        - content: Manu
           language:
           - en
           script:
           - Latn
       surname:
-        content: Atkinson
+        content: Sporny
         language:
         - en
         script:
@@ -46,20 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Jeffrey
+        - content: Markus
           language:
           - en
           script:
           - Latn
       surname:
-        content: Yasskin
+        content: Sabadello
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-08-27'
+revdate: '2025-09-22'
 language:
 - en
 script:
@@ -70,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cexplainer-explainer
+    id: W3Cdid-extensions-methods
     title:
-    - content: Writing Effective Explainers
+    - content: DID Methods
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/explainer-explainer/
+    - content: https://www.w3.org/TR/did-extensions-methods/
       type: src
     docid:
-    - id: W3C explainer-explainer
+    - id: W3C did-extensions-methods
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-explainer-explainer-20250703
+    id: W3CNOTE-did-extensions-methods-20250902
     title:
-    - content: Writing Effective Explainers
+    - content: DID Methods
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250703/
+    - content: https://www.w3.org/TR/2025/NOTE-did-extensions-methods-20250902/
       type: src
     docid:
-    - id: W3C NOTE-explainer-explainer-20250703
+    - id: W3C NOTE-did-extensions-methods-20250902
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CNOTE-explainer-explainer-20250922
-    title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250922/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250922
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Note
     format: text/plain
-  number: NOTE-explainer-explainer-20250827
+  number: NOTE-did-extensions-methods-20250922
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Technical Architecture Group
+  - name: Decentralized Identifier Working Group

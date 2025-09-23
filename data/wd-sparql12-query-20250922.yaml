@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-digital-credentials-20250917
+id: W3CWD-sparql12-query-20250922
 title:
-- content: Digital Credentials
+- content: SPARQL 1.2 Query Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-digital-credentials-20250917/
+- content: https://www.w3.org/TR/2025/WD-sparql12-query-20250922/
   type: src
 type: standard
 docid:
-- id: W3C WD-digital-credentials-20250917
+- id: W3C WD-sparql12-query-20250922
   type: W3C
   primary: true
-docnumber: WD-digital-credentials-20250917
+docnumber: WD-sparql12-query-20250922
 date:
 - type: published
-  value: '2025-09-17'
+  value: '2025-09-22'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Marcos
+        - content: Olaf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Caceres
+        content: Hartig
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Tim
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Cappalli
+        content: Seaborne
         language:
         - en
         script:
@@ -63,20 +63,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Mohamed Amir
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Yosef
+        content: Taelman
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-09-17'
+- person:
+    name:
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-09-22'
 language:
 - en
 script:
@@ -87,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdigital-credentials
+    id: W3Csparql12-query
     title:
-    - content: Digital Credentials
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/digital-credentials/
+    - content: https://www.w3.org/TR/sparql12-query/
       type: src
     docid:
-    - id: W3C digital-credentials
+    - id: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-digital-credentials-20250916
+    id: W3CWD-sparql12-query-20250913
     title:
-    - content: Digital Credentials
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-digital-credentials-20250916/
+    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20250913/
       type: src
     docid:
-    - id: W3C WD-digital-credentials-20250916
+    - id: W3C WD-sparql12-query-20250913
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-digital-credentials-20250923
-    title:
-    - content: Digital Credentials
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-digital-credentials-20250923/
-      type: src
-    docid:
-    - id: W3C WD-digital-credentials-20250923
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-digital-credentials-20250917
+  number: WD-sparql12-query-20250922
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Federated Identity Working Group
+  - name: RDF & SPARQL Working Group
