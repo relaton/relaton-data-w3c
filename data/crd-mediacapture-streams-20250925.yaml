@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-sparql12-query-20250922
+id: W3CCRD-mediacapture-streams-20250925
 title:
-- content: SPARQL 1.2 Query Language
+- content: Media Capture and Streams
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-sparql12-query-20250922/
+- content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20250925/
   type: src
 type: standard
 docid:
-- id: W3C WD-sparql12-query-20250922
+- id: W3C CRD-mediacapture-streams-20250925
   type: W3C
   primary: true
-docnumber: WD-sparql12-query-20250922
+docnumber: CRD-mediacapture-streams-20250925
 date:
 - type: published
-  value: '2025-09-22'
+  value: '2025-09-25'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Olaf
+        - content: Cullen
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hartig
+        content: Jennings
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Andy
+        - content: Jan-Ivar
           language:
           - en
           script:
           - Latn
       surname:
-        content: Seaborne
+        content: Bruaroey
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ruben
+        - content: Henrik
           language:
           - en
           script:
           - Latn
       surname:
-        content: Taelman
+        content: Boström
         language:
         - en
         script:
@@ -80,95 +80,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Gregory
+        - content: youenn
           language:
           - en
           script:
           - Latn
       surname:
-        content: Williams
+        content: fablet
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Thomas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pellissier Tanon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-09-22'
+revdate: '2025-09-25'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csparql12-query
+    id: W3Cmediacapture-streams
     title:
-    - content: SPARQL 1.2 Query Language
+    - content: Media Capture and Streams
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/sparql12-query/
+    - content: https://www.w3.org/TR/mediacapture-streams/
       type: src
     docid:
-    - id: W3C sparql12-query
+    - id: W3C mediacapture-streams
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-query-20250913
+    id: W3CCRD-mediacapture-streams-20250911
     title:
-    - content: SPARQL 1.2 Query Language
+    - content: Media Capture and Streams
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20250913/
+    - content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20250911/
       type: src
     docid:
-    - id: W3C WD-sparql12-query-20250913
+    - id: W3C CRD-mediacapture-streams-20250911
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-sparql12-query-20250925
-    title:
-    - content: SPARQL 1.2 Query Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20250925/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-query-20250925
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: WD-sparql12-query-20250922
+  number: CRD-mediacapture-streams-20250925
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF & SPARQL Working Group
+  - name: Web Real-Time Communications Working Group

@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-web-locks-20230105
+id: W3CWD-rdf12-semantics-20250924
 title:
-- content: Web Locks API
+- content: RDF 1.2 Semantics
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-web-locks-20230105/
+- content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250924/
   type: src
 type: standard
 docid:
-- id: W3C WD-web-locks-20230105
+- id: W3C WD-rdf12-semantics-20250924
   type: W3C
   primary: true
-docnumber: WD-web-locks-20230105
+docnumber: WD-rdf12-semantics-20250924
 date:
 - type: published
-  value: '2023-01-05'
+  value: '2025-09-24'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Joshua
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: Bell
+        content: Patel-Schneider
         language:
         - en
         script:
@@ -46,65 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Kagami
+        - content: Dörthe
           language:
           - en
           script:
           - Latn
       surname:
-        content: Rosylight
+        content: Arndt
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-01-05'
+- person:
+    name:
+      given:
+        forename:
+        - content: Enrico
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Franconi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-09-24'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: First Public Working Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cweb-locks
+    id: W3Crdf12-semantics
     title:
-    - content: Web Locks API
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/web-locks/
+    - content: https://www.w3.org/TR/rdf12-semantics/
       type: src
     docid:
-    - id: W3C web-locks
+    - id: W3C rdf12-semantics
       type: W3C
       primary: true
-- type: updatedBy
+- type: obsoletes
   bibitem:
-    id: W3CWD-web-locks-20250924
+    id: W3CWD-rdf12-semantics-20250912
     title:
-    - content: Web Locks API
+    - content: RDF 1.2 Semantics
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-web-locks-20250924/
+    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20250912/
       type: src
     docid:
-    - id: W3C WD-web-locks-20250924
+    - id: W3C WD-rdf12-semantics-20250912
       type: W3C
       primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C First Public Working Draft
+    content: W3C Working Draft
     format: text/plain
-  number: WD-web-locks-20230105
+  number: WD-rdf12-semantics-20250924
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: RDF & SPARQL Working Group

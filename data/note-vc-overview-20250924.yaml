@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-ttml-imsc1.3-20250722
+id: W3CNOTE-vc-overview-20250924
 title:
-- content: IMSC Text Profile 1.3
+- content: Verifiable Credentials Overview
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-ttml-imsc1.3-20250722/
+- content: https://www.w3.org/TR/2025/NOTE-vc-overview-20250924/
   type: src
 type: standard
 docid:
-- id: W3C WD-ttml-imsc1.3-20250722
+- id: W3C NOTE-vc-overview-20250924
   type: W3C
   primary: true
-docnumber: WD-ttml-imsc1.3-20250722
+docnumber: NOTE-vc-overview-20250924
 date:
 - type: published
-  value: '2025-07-22'
+  value: '2025-09-24'
 contributor:
 - organization:
     name:
@@ -29,65 +29,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Pierre-Anthony
+        - content: Ivan
           language:
           - en
           script:
           - Latn
       surname:
-        content: Lemieux
+        content: Herman
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-07-22'
+revdate: '2025-09-24'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: First Public Working Draft
+    value: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cttml-imsc1.3
+    id: W3Cvc-overview
     title:
-    - content: IMSC Text Profile 1.3
+    - content: Verifiable Credentials Overview
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/ttml-imsc1.3/
+    - content: https://www.w3.org/TR/vc-overview/
       type: src
     docid:
-    - id: W3C ttml-imsc1.3
+    - id: W3C vc-overview
       type: W3C
       primary: true
-- type: updatedBy
+- type: obsoletes
   bibitem:
-    id: W3CWD-ttml-imsc1.3-20250925
+    id: W3CNOTE-vc-overview-20250825
     title:
-    - content: IMSC Text Profile 1.3
+    - content: Verifiable Credentials Overview
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-ttml-imsc1.3-20250925/
+    - content: https://www.w3.org/TR/2025/NOTE-vc-overview-20250825/
       type: src
     docid:
-    - id: W3C WD-ttml-imsc1.3-20250925
+    - id: W3C NOTE-vc-overview-20250825
       type: W3C
       primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C First Public Working Draft
+    content: W3C Note
     format: text/plain
-  number: WD-ttml-imsc1.3-20250722
+  number: NOTE-vc-overview-20250924
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Timed Text Working Group
+  - name: Verifiable Credentials Working Group
