@@ -1,18 +1,18 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-accname-1.2-20250925
+id: W3CNOTE-fingerprinting-guidance-20250925
 title:
-- content: Accessible Name and Description Computation 1.2
+- content: Mitigating Browser Fingerprinting in Web Specifications
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-accname-1.2-20250925/
+- content: https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250925/
   type: src
 type: standard
 docid:
-- id: W3C WD-accname-1.2-20250925
+- id: W3C NOTE-fingerprinting-guidance-20250925
   type: W3C
   primary: true
-docnumber: WD-accname-1.2-20250925
+docnumber: NOTE-fingerprinting-guidance-20250925
 date:
 - type: published
   value: '2025-09-25'
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Bryan
+        - content: Nick
           language:
           - en
           script:
           - Latn
       surname:
-        content: Garaventa
+        content: Doty
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Melanie
+        - content: Tom
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sumner
+        content: Ritter
         language:
         - en
         script:
@@ -66,58 +66,42 @@ script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Caccname-1.2
+    id: W3Cfingerprinting-guidance
     title:
-    - content: Accessible Name and Description Computation 1.2
+    - content: Mitigating Browser Fingerprinting in Web Specifications
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/accname-1.2/
+    - content: https://www.w3.org/TR/fingerprinting-guidance/
       type: src
     docid:
-    - id: W3C accname-1.2
+    - id: W3C fingerprinting-guidance
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-accname-1.2-20250918
+    id: W3CNOTE-fingerprinting-guidance-20250912
     title:
-    - content: Accessible Name and Description Computation 1.2
+    - content: Mitigating Browser Fingerprinting in Web Specifications
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-accname-1.2-20250918/
+    - content: https://www.w3.org/TR/2025/NOTE-fingerprinting-guidance-20250912/
       type: src
     docid:
-    - id: W3C WD-accname-1.2-20250918
+    - id: W3C NOTE-fingerprinting-guidance-20250912
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-accname-1.2-20250926
-    title:
-    - content: Accessible Name and Description Computation 1.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-accname-1.2-20250926/
-      type: src
-    docid:
-    - id: W3C WD-accname-1.2-20250926
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Note
     format: text/plain
-  number: WD-accname-1.2-20250925
+  number: NOTE-fingerprinting-guidance-20250925
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Rich Internet Applications Working Group
+  - name: Privacy Working Group
