@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-WGSL-20231012
+id: W3CWD-payment-handler-20250927
 title:
-- content: WebGPU Shading Language
+- content: Payment Handler API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2023/WD-WGSL-20231012/
+- content: https://www.w3.org/TR/2025/WD-payment-handler-20250927/
   type: src
 type: standard
 docid:
-- id: W3C WD-WGSL-20231012
+- id: W3C WD-payment-handler-20250927
   type: W3C
   primary: true
-docnumber: WD-WGSL-20231012
+docnumber: WD-payment-handler-20250927
 date:
 - type: published
-  value: '2023-10-12'
+  value: '2025-09-27'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Alan
+        - content: Ian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Baker
+        content: Jacobs
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Mehmet Oguz
+        - content: Jinho
           language:
           - en
           script:
           - Latn
       surname:
-        content: Derin
+        content: Bang
         language:
         - en
         script:
@@ -63,20 +63,20 @@ contributor:
     name:
       given:
         forename:
-        - content: David
+        - content: Stephen
           language:
           - en
           script:
           - Latn
       surname:
-        content: Neto
+        content: McGruer
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2023-10-12'
+revdate: '2025-09-27'
 language:
 - en
 script:
@@ -87,54 +87,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWGSL
+    id: W3Cpayment-handler
     title:
-    - content: WebGPU Shading Language
+    - content: Payment Handler API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/WGSL/
+    - content: https://www.w3.org/TR/payment-handler/
       type: src
     docid:
-    - id: W3C WGSL
+    - id: W3C payment-handler
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-WGSL-20231011
+    id: W3CWD-payment-handler-20230125
     title:
-    - content: WebGPU Shading Language
+    - content: Payment Handler API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2023/WD-WGSL-20231011/
+    - content: https://www.w3.org/TR/2023/WD-payment-handler-20230125/
       type: src
     docid:
-    - id: W3C WD-WGSL-20231011
+    - id: W3C WD-payment-handler-20230125
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-WGSL-20231020
-    title:
-    - content: WebGPU Shading Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-WGSL-20231020/
-      type: src
-    docid:
-    - id: W3C WD-WGSL-20231020
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-WGSL-20231012
+  number: WD-payment-handler-20250927
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Web Payments Working Group
