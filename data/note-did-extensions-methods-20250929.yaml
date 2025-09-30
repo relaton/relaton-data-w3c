@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-pointerlock-2-20240617
+id: W3CNOTE-did-extensions-methods-20250929
 title:
-- content: Pointer Lock 2.0
+- content: DID Methods
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-pointerlock-2-20240617/
+- content: https://www.w3.org/TR/2025/NOTE-did-extensions-methods-20250929/
   type: src
 type: standard
 docid:
-- id: W3C WD-pointerlock-2-20240617
+- id: W3C NOTE-did-extensions-methods-20250929
   type: W3C
   primary: true
-docnumber: WD-pointerlock-2-20240617
+docnumber: NOTE-did-extensions-methods-20250929
 date:
 - type: published
-  value: '2024-06-17'
+  value: '2025-09-29'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Mustaq
+        - content: Manu
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ahmed
+        content: Sporny
         language:
         - en
         script:
@@ -46,78 +46,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Vincent
+        - content: Markus
           language:
           - en
           script:
           - Latn
       surname:
-        content: Scheib
+        content: Sabadello
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-06-17'
+revdate: '2025-09-29'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpointerlock-2
+    id: W3Cdid-extensions-methods
     title:
-    - content: Pointer Lock 2.0
+    - content: DID Methods
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/pointerlock-2/
+    - content: https://www.w3.org/TR/did-extensions-methods/
       type: src
     docid:
-    - id: W3C pointerlock-2
+    - id: W3C did-extensions-methods
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-pointerlock-2-20240516
+    id: W3CNOTE-did-extensions-methods-20250927
     title:
-    - content: Pointer Lock 2.0
+    - content: DID Methods
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/WD-pointerlock-2-20240516/
+    - content: https://www.w3.org/TR/2025/NOTE-did-extensions-methods-20250927/
       type: src
     docid:
-    - id: W3C WD-pointerlock-2-20240516
+    - id: W3C NOTE-did-extensions-methods-20250927
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-pointerlock-2-20250929
-    title:
-    - content: Pointer Lock 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-pointerlock-2-20250929/
-      type: src
-    docid:
-    - id: W3C WD-pointerlock-2-20250929
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Note
     format: text/plain
-  number: WD-pointerlock-2-20240617
+  number: NOTE-did-extensions-methods-20250929
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Applications Working Group
+  - name: Decentralized Identifier Working Group
