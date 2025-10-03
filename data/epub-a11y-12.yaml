@@ -1,18 +1,18 @@
 ---
 schema-version: v1.2.9
-id: W3Cepub-a11y-111
+id: W3Cepub-a11y-12
 title:
-- content: EPUB Accessibility 1.1.1
+- content: EPUB Accessibility 1.2
   format: text/plain
 link:
-- content: https://www.w3.org/TR/epub-a11y-111/
+- content: https://www.w3.org/TR/epub-a11y-12/
   type: src
 type: standard
 docid:
-- id: W3C epub-a11y-111
+- id: W3C epub-a11y-12
   type: W3C
   primary: true
-docnumber: epub-a11y-111
+docnumber: epub-a11y-12
 contributor:
 - organization:
     name:
@@ -27,6 +27,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-epub-a11y-12-20251002
+    title:
+    - content: EPUB Accessibility 1.2
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251002/
+      type: src
+    docid:
+    - id: W3C WD-epub-a11y-12-20251002
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     id: W3CWD-epub-a11y-111-20250910
@@ -226,7 +239,7 @@ series:
 - title:
     content: W3C technicalReport
     format: text/plain
-  number: epub-a11y-111
+  number: epub-a11y-12
 ext:
   schema-version: v1.0.0
   doctype:

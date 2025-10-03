@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240418
+id: W3CWD-epub-a11y-12-20251002
 title:
-- content: WebGPU
+- content: EPUB Accessibility 1.2
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240418/
+- content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251002/
   type: src
 type: standard
 docid:
-- id: W3C WD-webgpu-20240418
+- id: W3C WD-epub-a11y-12-20251002
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240418
+docnumber: WD-epub-a11y-12-20251002
 date:
 - type: published
-  value: '2024-04-18'
+  value: '2025-10-02'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: George
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Kerscher
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Matt
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Garrish
         language:
         - en
         script:
@@ -63,20 +63,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Jim
+        - content: Charles
           language:
           - en
           script:
           - Latn
       surname:
-        content: Blandy
+        content: LaPierre
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-04-18'
+- person:
+    name:
+      given:
+        forename:
+        - content: Avneesh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singh
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Gregorio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellegrino
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-10-02'
 language:
 - en
 script:
@@ -87,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Cepub-a11y-12
     title:
-    - content: WebGPU
+    - content: EPUB Accessibility 1.2
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/epub-a11y-12/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C epub-a11y-12
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240417
+    id: W3CWD-epub-a11y-111-20250910
     title:
-    - content: WebGPU
+    - content: EPUB Accessibility 1.1.1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240417/
+    - content: https://www.w3.org/TR/2025/WD-epub-a11y-111-20250910/
       type: src
     docid:
-    - id: W3C WD-webgpu-20240417
+    - id: W3C WD-epub-a11y-111-20250910
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webgpu-20240424
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240424/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240424
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webgpu-20240418
+  number: WD-epub-a11y-12-20251002
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Publishing Maintenance Working Group
