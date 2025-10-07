@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-permissions-20251003
+id: W3CREC-geolocation-20251007
 title:
-- content: Permissions
+- content: Geolocation
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-permissions-20251003/
+- content: https://www.w3.org/TR/2025/REC-geolocation-20251007/
   type: src
 type: standard
 docid:
-- id: W3C WD-permissions-20251003
+- id: W3C REC-geolocation-20251007
   type: W3C
   primary: true
-docnumber: WD-permissions-20251003
+docnumber: REC-geolocation-20251007
 date:
 - type: published
-  value: '2025-10-03'
+  value: '2025-10-07'
 contributor:
 - organization:
     name:
@@ -46,78 +46,63 @@ contributor:
     name:
       given:
         forename:
-        - content: Mike
+        - content: Reilly
           language:
           - en
           script:
           - Latn
       surname:
-        content: Taylor
+        content: Grant
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-03'
+revdate: '2025-10-07'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpermissions
+    id: W3Cgeolocation
     title:
-    - content: Permissions
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/permissions/
+    - content: https://www.w3.org/TR/geolocation/
       type: src
     docid:
-    - id: W3C permissions
+    - id: W3C geolocation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-permissions-20250926
+    id: W3CREC-geolocation-20250923
     title:
-    - content: Permissions
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-permissions-20250926/
+    - content: https://www.w3.org/TR/2025/REC-geolocation-20250923/
       type: src
     docid:
-    - id: W3C WD-permissions-20250926
+    - id: W3C REC-geolocation-20250923
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-permissions-20251006
-    title:
-    - content: Permissions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-permissions-20251006/
-      type: src
-    docid:
-    - id: W3C WD-permissions-20251006
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Recommendation
     format: text/plain
-  number: WD-permissions-20251003
+  number: REC-geolocation-20251007
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Application Security Working Group
+  - name: Devices and Sensors Working Group
+  - name: Web Applications Working Group
