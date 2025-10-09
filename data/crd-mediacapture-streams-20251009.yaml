@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webtransport-20250702
+id: W3CCRD-mediacapture-streams-20251009
 title:
-- content: WebTransport
+- content: Media Capture and Streams
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-webtransport-20250702/
+- content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20251009/
   type: src
 type: standard
 docid:
-- id: W3C WD-webtransport-20250702
+- id: W3C CRD-mediacapture-streams-20251009
   type: W3C
   primary: true
-docnumber: WD-webtransport-20250702
+docnumber: CRD-mediacapture-streams-20251009
 date:
 - type: published
-  value: '2025-07-02'
+  value: '2025-10-09'
 contributor:
 - organization:
     name:
@@ -29,30 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Nidhi
+        - content: Cullen
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jaju
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Victor
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Vasiliev
+        content: Jennings
         language:
         - en
         script:
@@ -76,65 +59,83 @@ contributor:
         - Latn
   role:
   - type: editor
-revdate: '2025-07-02'
+- person:
+    name:
+      given:
+        forename:
+        - content: Henrik
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boström
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: youenn
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: fablet
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-10-09'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebtransport
+    id: W3Cmediacapture-streams
     title:
-    - content: WebTransport
+    - content: Media Capture and Streams
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webtransport/
+    - content: https://www.w3.org/TR/mediacapture-streams/
       type: src
     docid:
-    - id: W3C webtransport
+    - id: W3C mediacapture-streams
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webtransport-20250212
+    id: W3CCRD-mediacapture-streams-20251002
     title:
-    - content: WebTransport
+    - content: Media Capture and Streams
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-webtransport-20250212/
+    - content: https://www.w3.org/TR/2025/CRD-mediacapture-streams-20251002/
       type: src
     docid:
-    - id: W3C WD-webtransport-20250212
+    - id: W3C CRD-mediacapture-streams-20251002
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webtransport-20251008
-    title:
-    - content: WebTransport
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-webtransport-20251008/
-      type: src
-    docid:
-    - id: W3C WD-webtransport-20251008
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: WD-webtransport-20250702
+  number: CRD-mediacapture-streams-20251009
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: WebTransport Working Group
+  - name: Web Real-Time Communications Working Group
