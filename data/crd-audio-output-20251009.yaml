@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-dapt-20251007
+id: W3CCRD-audio-output-20251009
 title:
-- content: Dubbing and Audio description Profiles of TTML2
+- content: Audio Output Devices API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/CRD-dapt-20251007/
+- content: https://www.w3.org/TR/2025/CRD-audio-output-20251009/
   type: src
 type: standard
 docid:
-- id: W3C CRD-dapt-20251007
+- id: W3C CRD-audio-output-20251009
   type: W3C
   primary: true
-docnumber: CRD-dapt-20251007
+docnumber: CRD-audio-output-20251009
 date:
 - type: published
-  value: '2025-10-07'
+  value: '2025-10-09'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Cyril
+        - content: Guido
           language:
           - en
           script:
           - Latn
       surname:
-        content: Concolato
+        content: Urdaneta
         language:
         - en
         script:
@@ -46,20 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Nigel
+        - content: youenn
           language:
           - en
           script:
           - Latn
       surname:
-        content: Megitt
+        content: fablet
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-07'
+revdate: '2025-10-09'
 language:
 - en
 script:
@@ -70,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdapt
+    id: W3Caudio-output
     title:
-    - content: Dubbing and Audio description Profiles of TTML2
+    - content: Audio Output Devices API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/dapt/
+    - content: https://www.w3.org/TR/audio-output/
       type: src
     docid:
-    - id: W3C dapt
+    - id: W3C audio-output
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-dapt-20250929
+    id: W3CCRD-audio-output-20250417
     title:
-    - content: Dubbing and Audio description Profiles of TTML2
+    - content: Audio Output Devices API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/CRD-dapt-20250929/
+    - content: https://www.w3.org/TR/2025/CRD-audio-output-20250417/
       type: src
     docid:
-    - id: W3C CRD-dapt-20250929
+    - id: W3C CRD-audio-output-20250417
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CCRD-dapt-20251010
-    title:
-    - content: Dubbing and Audio description Profiles of TTML2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-dapt-20251010/
-      type: src
-    docid:
-    - id: W3C CRD-dapt-20251010
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: CRD-dapt-20251007
+  number: CRD-audio-output-20251009
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Timed Text Working Group
+  - name: Web Real-Time Communications Working Group
