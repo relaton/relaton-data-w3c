@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-epub-rs-34-20251009
+id: W3CCRD-css-flexbox-1-20251014
 title:
-- content: EPUB Reading Systems 3.4
+- content: CSS Flexible Box Layout Module Level 1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-epub-rs-34-20251009/
+- content: https://www.w3.org/TR/2025/CRD-css-flexbox-1-20251014/
   type: src
 type: standard
 docid:
-- id: W3C WD-epub-rs-34-20251009
+- id: W3C CRD-css-flexbox-1-20251014
   type: W3C
   primary: true
-docnumber: WD-epub-rs-34-20251009
+docnumber: CRD-css-flexbox-1-20251014
 date:
 - type: published
-  value: '2025-10-09'
+  value: '2025-10-14'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Matt
+        - content: Elika
           language:
           - en
           script:
           - Latn
       surname:
-        content: Garrish
+        content: Etemad
         language:
         - en
         script:
@@ -46,78 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Ivan
+        - content: Tab
           language:
           - en
           script:
           - Latn
       surname:
-        content: Herman
+        content: Atkins Jr.
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-09'
+- person:
+    name:
+      given:
+        forename:
+        - content: Rossen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Atanassov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-10-14'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cepub-rs-34
+    id: W3Ccss-flexbox-1
     title:
-    - content: EPUB Reading Systems 3.4
+    - content: CSS Flexible Box Layout Module Level 1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/epub-rs-34/
+    - content: https://www.w3.org/TR/css-flexbox-1/
       type: src
     docid:
-    - id: W3C epub-rs-34
+    - id: W3C css-flexbox-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-epub-rs-34-20251004
+    id: W3CCR-css-flexbox-1-20181119
     title:
-    - content: EPUB Reading Systems 3.4
+    - content: CSS Flexible Box Layout Module Level 1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-epub-rs-34-20251004/
+    - content: https://www.w3.org/TR/2018/CR-css-flexbox-1-20181119/
       type: src
     docid:
-    - id: W3C WD-epub-rs-34-20251004
+    - id: W3C CR-css-flexbox-1-20181119
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-epub-rs-34-20251014
-    title:
-    - content: EPUB Reading Systems 3.4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-epub-rs-34-20251014/
-      type: src
-    docid:
-    - id: W3C WD-epub-rs-34-20251014
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: WD-epub-rs-34-20251009
+  number: CRD-css-flexbox-1-20251014
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Publishing Maintenance Working Group
+  - name: Cascading Style Sheets (CSS) Working Group
