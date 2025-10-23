@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-html-aam-1.0-20251014
+id: W3CWD-shacl12-sparql-20251020
 title:
-- content: HTML Accessibility API Mappings 1.0
+- content: SHACL 1.2 SPARQL Extensions
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251014/
+- content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251020/
   type: src
 type: standard
 docid:
-- id: W3C WD-html-aam-1.0-20251014
+- id: W3C WD-shacl12-sparql-20251020
   type: W3C
   primary: true
-docnumber: WD-html-aam-1.0-20251014
+docnumber: WD-shacl12-sparql-20251020
 date:
 - type: published
-  value: '2025-10-14'
+  value: '2025-10-20'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Scott
+        - content: Holger
           language:
           - en
           script:
           - Latn
       surname:
-        content: O'Hara
+        content: Knublauch
         language:
         - en
         script:
@@ -46,20 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Rahim
+        - content: Ashley
           language:
           - en
           script:
           - Latn
       surname:
-        content: Abdi
+        content: Sommer
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-14'
+revdate: '2025-10-20'
 language:
 - en
 script:
@@ -70,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml-aam-1.0
+    id: W3Cshacl12-sparql
     title:
-    - content: HTML Accessibility API Mappings 1.0
+    - content: SHACL 1.2 SPARQL Extensions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/html-aam-1.0/
+    - content: https://www.w3.org/TR/shacl12-sparql/
       type: src
     docid:
-    - id: W3C html-aam-1.0
+    - id: W3C shacl12-sparql
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-html-aam-1.0-20251010
+    id: W3CWD-shacl12-sparql-20251014
     title:
-    - content: HTML Accessibility API Mappings 1.0
+    - content: SHACL 1.2 SPARQL Extensions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251010/
+    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251014/
       type: src
     docid:
-    - id: W3C WD-html-aam-1.0-20251010
+    - id: W3C WD-shacl12-sparql-20251014
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-html-aam-1.0-20251022
-    title:
-    - content: HTML Accessibility API Mappings 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251022/
-      type: src
-    docid:
-    - id: W3C WD-html-aam-1.0-20251022
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-html-aam-1.0-20251014
+  number: WD-shacl12-sparql-20251020
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Rich Internet Applications Working Group
+  - name: Data Shapes Working Group

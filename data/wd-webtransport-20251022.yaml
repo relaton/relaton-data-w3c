@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-html-aam-1.0-20251014
+id: W3CWD-webtransport-20251022
 title:
-- content: HTML Accessibility API Mappings 1.0
+- content: WebTransport
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251014/
+- content: https://www.w3.org/TR/2025/WD-webtransport-20251022/
   type: src
 type: standard
 docid:
-- id: W3C WD-html-aam-1.0-20251014
+- id: W3C WD-webtransport-20251022
   type: W3C
   primary: true
-docnumber: WD-html-aam-1.0-20251014
+docnumber: WD-webtransport-20251022
 date:
 - type: published
-  value: '2025-10-14'
+  value: '2025-10-22'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Scott
+        - content: Nidhi
           language:
           - en
           script:
           - Latn
       surname:
-        content: O'Hara
+        content: Jaju
         language:
         - en
         script:
@@ -46,20 +46,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Rahim
+        - content: Victor
           language:
           - en
           script:
           - Latn
       surname:
-        content: Abdi
+        content: Vasiliev
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-14'
+- person:
+    name:
+      given:
+        forename:
+        - content: Jan-Ivar
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bruaroey
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-10-22'
 language:
 - en
 script:
@@ -70,54 +87,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml-aam-1.0
+    id: W3Cwebtransport
     title:
-    - content: HTML Accessibility API Mappings 1.0
+    - content: WebTransport
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/html-aam-1.0/
+    - content: https://www.w3.org/TR/webtransport/
       type: src
     docid:
-    - id: W3C html-aam-1.0
+    - id: W3C webtransport
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-html-aam-1.0-20251010
+    id: W3CWD-webtransport-20251008
     title:
-    - content: HTML Accessibility API Mappings 1.0
+    - content: WebTransport
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251010/
+    - content: https://www.w3.org/TR/2025/WD-webtransport-20251008/
       type: src
     docid:
-    - id: W3C WD-html-aam-1.0-20251010
+    - id: W3C WD-webtransport-20251008
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-html-aam-1.0-20251022
-    title:
-    - content: HTML Accessibility API Mappings 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251022/
-      type: src
-    docid:
-    - id: W3C WD-html-aam-1.0-20251022
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-html-aam-1.0-20251014
+  number: WD-webtransport-20251022
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Rich Internet Applications Working Group
+  - name: WebTransport Working Group
