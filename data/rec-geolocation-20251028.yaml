@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webdriver2-20251020
+id: W3CREC-geolocation-20251028
 title:
-- content: WebDriver
+- content: Geolocation
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-webdriver2-20251020/
+- content: https://www.w3.org/TR/2025/REC-geolocation-20251028/
   type: src
 type: standard
 docid:
-- id: W3C WD-webdriver2-20251020
+- id: W3C REC-geolocation-20251028
   type: W3C
   primary: true
-docnumber: WD-webdriver2-20251020
+docnumber: REC-geolocation-20251028
 date:
 - type: published
-  value: '2025-10-20'
+  value: '2025-10-28'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Simon
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Stewart
+        content: Caceres
         language:
         - en
         script:
@@ -46,78 +46,63 @@ contributor:
     name:
       given:
         forename:
-        - content: David
+        - content: Reilly
           language:
           - en
           script:
           - Latn
       surname:
-        content: Burns
+        content: Grant
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-20'
+revdate: '2025-10-28'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebdriver2
+    id: W3Cgeolocation
     title:
-    - content: WebDriver
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webdriver2/
+    - content: https://www.w3.org/TR/geolocation/
       type: src
     docid:
-    - id: W3C webdriver2
+    - id: W3C geolocation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webdriver2-20250908
+    id: W3CREC-geolocation-20251017
     title:
-    - content: WebDriver
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-webdriver2-20250908/
+    - content: https://www.w3.org/TR/2025/REC-geolocation-20251017/
       type: src
     docid:
-    - id: W3C WD-webdriver2-20250908
+    - id: W3C REC-geolocation-20251017
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webdriver2-20251028
-    title:
-    - content: WebDriver
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-webdriver2-20251028/
-      type: src
-    docid:
-    - id: W3C WD-webdriver2-20251028
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Recommendation
     format: text/plain
-  number: WD-webdriver2-20251020
+  number: REC-geolocation-20251028
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Browser Testing and Tools Working Group
+  - name: Devices and Sensors Working Group
+  - name: Web Applications Working Group
