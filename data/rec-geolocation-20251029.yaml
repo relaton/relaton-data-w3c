@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-shacl12-sparql-20251020
+id: W3CREC-geolocation-20251029
 title:
-- content: SHACL 1.2 SPARQL Extensions
+- content: Geolocation
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251020/
+- content: https://www.w3.org/TR/2025/REC-geolocation-20251029/
   type: src
 type: standard
 docid:
-- id: W3C WD-shacl12-sparql-20251020
+- id: W3C REC-geolocation-20251029
   type: W3C
   primary: true
-docnumber: WD-shacl12-sparql-20251020
+docnumber: REC-geolocation-20251029
 date:
 - type: published
-  value: '2025-10-20'
+  value: '2025-10-29'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Holger
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Knublauch
+        content: Caceres
         language:
         - en
         script:
@@ -46,78 +46,63 @@ contributor:
     name:
       given:
         forename:
-        - content: Ashley
+        - content: Reilly
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sommer
+        content: Grant
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-20'
+revdate: '2025-10-29'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshacl12-sparql
+    id: W3Cgeolocation
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/shacl12-sparql/
+    - content: https://www.w3.org/TR/geolocation/
       type: src
     docid:
-    - id: W3C shacl12-sparql
+    - id: W3C geolocation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shacl12-sparql-20251014
+    id: W3CREC-geolocation-20251028
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Geolocation
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251014/
+    - content: https://www.w3.org/TR/2025/REC-geolocation-20251028/
       type: src
     docid:
-    - id: W3C WD-shacl12-sparql-20251014
+    - id: W3C REC-geolocation-20251028
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-shacl12-sparql-20251029
-    title:
-    - content: SHACL 1.2 SPARQL Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251029/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-sparql-20251029
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Recommendation
     format: text/plain
-  number: WD-shacl12-sparql-20251020
+  number: REC-geolocation-20251029
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Data Shapes Working Group
+  - name: Devices and Sensors Working Group
+  - name: Web Applications Working Group

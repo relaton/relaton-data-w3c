@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-shacl12-core-20250901
+id: W3CWD-css-conditional-5-20251030
 title:
-- content: SHACL 1.2 Core
+- content: CSS Conditional Rules Module Level 5
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-shacl12-core-20250901/
+- content: https://www.w3.org/TR/2025/WD-css-conditional-5-20251030/
   type: src
 type: standard
 docid:
-- id: W3C WD-shacl12-core-20250901
+- id: W3C WD-css-conditional-5-20251030
   type: W3C
   primary: true
-docnumber: WD-shacl12-core-20250901
+docnumber: WD-css-conditional-5-20251030
 date:
 - type: published
-  value: '2025-09-01'
+  value: '2025-10-30'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Holger
+        - content: Chris
           language:
           - en
           script:
           - Latn
       surname:
-        content: Knublauch
+        content: Lilley
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Thomas
+        - content: David
           language:
           - en
           script:
           - Latn
       surname:
-        content: Bergwinkl
+        content: Baron
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Yousouf
+        - content: Elika
           language:
           - en
           script:
           - Latn
       surname:
-        content: Taghzouti
+        content: Etemad
         language:
         - en
         script:
@@ -80,20 +80,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Jesse
+        - content: Lea
           language:
           - en
           script:
           - Latn
       surname:
-        content: Wright
+        content: Verou
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-09-01'
+- person:
+    name:
+      given:
+        forename:
+        - content: Miriam
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Suzanne
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-10-30'
 language:
 - en
 script:
@@ -104,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshacl12-core
+    id: W3Ccss-conditional-5
     title:
-    - content: SHACL 1.2 Core
+    - content: CSS Conditional Rules Module Level 5
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/shacl12-core/
+    - content: https://www.w3.org/TR/css-conditional-5/
       type: src
     docid:
-    - id: W3C shacl12-core
+    - id: W3C css-conditional-5
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shacl12-core-20250830
+    id: W3CWD-css-conditional-5-20241105
     title:
-    - content: SHACL 1.2 Core
+    - content: CSS Conditional Rules Module Level 5
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-core-20250830/
+    - content: https://www.w3.org/TR/2024/WD-css-conditional-5-20241105/
       type: src
     docid:
-    - id: W3C WD-shacl12-core-20250830
+    - id: W3C WD-css-conditional-5-20241105
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-shacl12-core-20251030
-    title:
-    - content: SHACL 1.2 Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-core-20251030/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-core-20251030
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-shacl12-core-20250901
+  number: WD-css-conditional-5-20251030
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Data Shapes Working Group
+  - name: Cascading Style Sheets (CSS) Working Group
