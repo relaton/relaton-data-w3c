@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-gpc-20250916
+id: W3CWD-sparql12-query-20251106
 title:
-- content: Global Privacy Control (GPC)
+- content: SPARQL 1.2 Query Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-gpc-20250916/
+- content: https://www.w3.org/TR/2025/WD-sparql12-query-20251106/
   type: src
 type: standard
 docid:
-- id: W3C WD-gpc-20250916
+- id: W3C WD-sparql12-query-20251106
   type: W3C
   primary: true
-docnumber: WD-gpc-20250916
+docnumber: WD-sparql12-query-20251106
 date:
 - type: published
-  value: '2025-09-16'
+  value: '2025-11-06'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Sebastian
+        - content: Olaf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zimmeck
+        content: Hartig
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Peter
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Snyder
+        content: Seaborne
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Justin
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Brookman
+        content: Taelman
         language:
         - en
         script:
@@ -80,20 +80,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Aram
+        - content: Gregory
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zucker-Scharff
+        content: Williams
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-09-16'
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-11-06'
 language:
 - en
 script:
@@ -104,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cgpc
+    id: W3Csparql12-query
     title:
-    - content: Global Privacy Control (GPC)
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/gpc/
+    - content: https://www.w3.org/TR/sparql12-query/
       type: src
     docid:
-    - id: W3C gpc
+    - id: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-gpc-20250904
+    id: W3CWD-sparql12-query-20250925
     title:
-    - content: Global Privacy Control (GPC)
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-gpc-20250904/
+    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20250925/
       type: src
     docid:
-    - id: W3C WD-gpc-20250904
+    - id: W3C WD-sparql12-query-20250925
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-gpc-20251106
-    title:
-    - content: Global Privacy Control (GPC)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-gpc-20251106/
-      type: src
-    docid:
-    - id: W3C WD-gpc-20251106
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-gpc-20250916
+  number: WD-sparql12-query-20251106
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Privacy Working Group
+  - name: RDF & SPARQL Working Group
