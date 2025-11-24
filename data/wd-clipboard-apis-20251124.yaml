@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webgpu-20240508
+id: W3CWD-clipboard-apis-20251124
 title:
-- content: WebGPU
+- content: Clipboard API and events
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/WD-webgpu-20240508/
+- content: https://www.w3.org/TR/2025/WD-clipboard-apis-20251124/
   type: src
 type: standard
 docid:
-- id: W3C WD-webgpu-20240508
+- id: W3C WD-clipboard-apis-20251124
   type: W3C
   primary: true
-docnumber: WD-webgpu-20240508
+docnumber: WD-clipboard-apis-20251124
 date:
 - type: published
-  value: '2024-05-08'
+  value: '2025-11-24'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Kai
+        - content: Rakesh
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ninomiya
+        content: Goulikar
         language:
         - en
         script:
@@ -46,37 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Brandon
+        - content: Rohan
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Raja
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Blandy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-05-08'
+revdate: '2025-11-24'
 language:
 - en
 script:
@@ -87,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
+    id: W3Cclipboard-apis
     title:
-    - content: WebGPU
+    - content: Clipboard API and events
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webgpu/
+    - content: https://www.w3.org/TR/clipboard-apis/
       type: src
     docid:
-    - id: W3C webgpu
+    - id: W3C clipboard-apis
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webgpu-20240507
+    id: W3CWD-clipboard-apis-20251114
     title:
-    - content: WebGPU
+    - content: Clipboard API and events
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240507/
+    - content: https://www.w3.org/TR/2025/WD-clipboard-apis-20251114/
       type: src
     docid:
-    - id: W3C WD-webgpu-20240507
+    - id: W3C WD-clipboard-apis-20251114
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webgpu-20240514
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-webgpu-20240514/
-      type: src
-    docid:
-    - id: W3C WD-webgpu-20240514
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webgpu-20240508
+  number: WD-clipboard-apis-20251124
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: GPU for the Web Working Group
+  - name: Web Editing Working Group
