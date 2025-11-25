@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-shacl12-sparql-20251120
+id: W3CWD-push-api-20251124
 title:
-- content: SHACL 1.2 SPARQL Extensions
+- content: Push API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251120/
+- content: https://www.w3.org/TR/2025/WD-push-api-20251124/
   type: src
 type: standard
 docid:
-- id: W3C WD-shacl12-sparql-20251120
+- id: W3C WD-push-api-20251124
   type: W3C
   primary: true
-docnumber: WD-shacl12-sparql-20251120
+docnumber: WD-push-api-20251124
 date:
 - type: published
-  value: '2025-11-20'
+  value: '2025-11-24'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Holger
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Knublauch
+        content: Caceres
         language:
         - en
         script:
@@ -46,20 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Ashley
+        - content: Kagami
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sommer
+        content: Rosylight
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-11-20'
+revdate: '2025-11-24'
 language:
 - en
 script:
@@ -70,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshacl12-sparql
+    id: W3Cpush-api
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Push API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/shacl12-sparql/
+    - content: https://www.w3.org/TR/push-api/
       type: src
     docid:
-    - id: W3C shacl12-sparql
+    - id: W3C push-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shacl12-sparql-20251029
+    id: W3CWD-push-api-20250925
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Push API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251029/
+    - content: https://www.w3.org/TR/2025/WD-push-api-20250925/
       type: src
     docid:
-    - id: W3C WD-shacl12-sparql-20251029
+    - id: W3C WD-push-api-20250925
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-shacl12-sparql-20251125
-    title:
-    - content: SHACL 1.2 SPARQL Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251125/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-sparql-20251125
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-shacl12-sparql-20251120
+  number: WD-push-api-20251124
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Data Shapes Working Group
+  - name: Web Applications Working Group
