@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-sparql12-query-20251122
+id: W3CWD-appmanifest-20251127
 title:
-- content: SPARQL 1.2 Query Language
+- content: Web Application Manifest
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-sparql12-query-20251122/
+- content: https://www.w3.org/TR/2025/WD-appmanifest-20251127/
   type: src
 type: standard
 docid:
-- id: W3C WD-sparql12-query-20251122
+- id: W3C WD-appmanifest-20251127
   type: W3C
   primary: true
-docnumber: WD-sparql12-query-20251122
+docnumber: WD-appmanifest-20251127
 date:
 - type: published
-  value: '2025-11-22'
+  value: '2025-11-27'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Olaf
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hartig
+        content: Caceres
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Andy
+        - content: Diego
           language:
           - en
           script:
           - Latn
       surname:
-        content: Seaborne
+        content: Gonzalez-Zuniga
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ruben
+        - content: Daniel
           language:
           - en
           script:
           - Latn
       surname:
-        content: Taelman
+        content: Murphy
         language:
         - en
         script:
@@ -80,37 +80,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Gregory
+        - content: Christian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Williams
+        content: Liebel
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Thomas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pellissier Tanon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-11-22'
+revdate: '2025-11-27'
 language:
 - en
 script:
@@ -121,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csparql12-query
+    id: W3Cappmanifest
     title:
-    - content: SPARQL 1.2 Query Language
+    - content: Web Application Manifest
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/sparql12-query/
+    - content: https://www.w3.org/TR/appmanifest/
       type: src
     docid:
-    - id: W3C sparql12-query
+    - id: W3C appmanifest
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-query-20251120
+    id: W3CWD-appmanifest-20250903
     title:
-    - content: SPARQL 1.2 Query Language
+    - content: Web Application Manifest
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20251120/
+    - content: https://www.w3.org/TR/2025/WD-appmanifest-20250903/
       type: src
     docid:
-    - id: W3C WD-sparql12-query-20251120
+    - id: W3C WD-appmanifest-20250903
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-sparql12-query-20251128
-    title:
-    - content: SPARQL 1.2 Query Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20251128/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-query-20251128
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-sparql12-query-20251122
+  number: WD-appmanifest-20251127
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF & SPARQL Working Group
+  - name: Web Applications Working Group
