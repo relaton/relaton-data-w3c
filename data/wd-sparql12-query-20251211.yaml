@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-privacy-preserving-attribution-20250616
+id: W3CWD-sparql12-query-20251211
 title:
-- content: 'Privacy-Preserving Attribution: Level 1'
+- content: SPARQL 1.2 Query Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-privacy-preserving-attribution-20250616/
+- content: https://www.w3.org/TR/2025/WD-sparql12-query-20251211/
   type: src
 type: standard
 docid:
-- id: W3C WD-privacy-preserving-attribution-20250616
+- id: W3C WD-sparql12-query-20251211
   type: W3C
   primary: true
-docnumber: WD-privacy-preserving-attribution-20250616
+docnumber: WD-sparql12-query-20251211
 date:
 - type: published
-  value: '2025-06-16'
+  value: '2025-12-11'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Andrew
+        - content: Olaf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Paseltiner
+        content: Hartig
         language:
         - en
         script:
@@ -52,7 +52,7 @@ contributor:
           script:
           - Latn
       surname:
-        content: Leiserson
+        content: Seaborne
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Benjamin
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Savage
+        content: Taelman
         language:
         - en
         script:
@@ -80,13 +80,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Charlie
+        - content: Gregory
           language:
           - en
           script:
           - Latn
       surname:
-        content: Harrison
+        content: Williams
         language:
         - en
         script:
@@ -97,20 +97,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Martin
+        - content: Thomas
           language:
           - en
           script:
           - Latn
       surname:
-        content: Thomson
+        content: Pellissier Tanon
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-06-16'
+revdate: '2025-12-11'
 language:
 - en
 script:
@@ -121,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cattribution
+    id: W3Csparql12-query
     title:
-    - content: Attribution Level 1
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/attribution/
+    - content: https://www.w3.org/TR/sparql12-query/
       type: src
     docid:
-    - id: W3C attribution
+    - id: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-privacy-preserving-attribution-20250422
+    id: W3CWD-sparql12-query-20251205
     title:
-    - content: 'Privacy-Preserving Attribution: Level 1'
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-privacy-preserving-attribution-20250422/
+    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20251205/
       type: src
     docid:
-    - id: W3C WD-privacy-preserving-attribution-20250422
+    - id: W3C WD-sparql12-query-20251205
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-attribution-20251211
-    title:
-    - content: Attribution Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-attribution-20251211/
-      type: src
-    docid:
-    - id: W3C WD-attribution-20251211
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-privacy-preserving-attribution-20250616
+  number: WD-sparql12-query-20251211
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Private Advertising Technology Working Group
+  - name: RDF & SPARQL Working Group

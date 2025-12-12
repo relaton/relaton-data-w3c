@@ -1,18 +1,18 @@
 ---
 schema-version: v1.2.9
-id: W3Cprivacy-preserving-attribution
+id: W3Cattribution
 title:
-- content: 'Privacy-Preserving Attribution: Level 1'
+- content: Attribution Level 1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/privacy-preserving-attribution/
+- content: https://www.w3.org/TR/attribution/
   type: src
 type: standard
 docid:
-- id: W3C privacy-preserving-attribution
+- id: W3C attribution
   type: W3C
   primary: true
-docnumber: privacy-preserving-attribution
+docnumber: attribution
 contributor:
 - organization:
     name:
@@ -27,6 +27,32 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    id: W3CWD-attribution-20251212
+    title:
+    - content: Attribution Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/WD-attribution-20251212/
+      type: src
+    docid:
+    - id: W3C WD-attribution-20251212
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    id: W3CWD-attribution-20251211
+    title:
+    - content: Attribution Level 1
+      format: text/plain
+    link:
+    - content: https://www.w3.org/TR/2025/WD-attribution-20251211/
+      type: src
+    docid:
+    - id: W3C WD-attribution-20251211
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     id: W3CWD-privacy-preserving-attribution-20250616
@@ -57,7 +83,7 @@ series:
 - title:
     content: W3C technicalReport
     format: text/plain
-  number: privacy-preserving-attribution
+  number: attribution
 ext:
   schema-version: v1.0.0
   doctype:
