@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-accname-1.2-20251205
+id: W3CWD-gpc-20251217
 title:
-- content: Accessible Name and Description Computation 1.2
+- content: Global Privacy Control (GPC)
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-accname-1.2-20251205/
+- content: https://www.w3.org/TR/2025/WD-gpc-20251217/
   type: src
 type: standard
 docid:
-- id: W3C WD-accname-1.2-20251205
+- id: W3C WD-gpc-20251217
   type: W3C
   primary: true
-docnumber: WD-accname-1.2-20251205
+docnumber: WD-gpc-20251217
 date:
 - type: published
-  value: '2025-12-05'
+  value: '2025-12-17'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Bryan
+        - content: Sebastian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Garaventa
+        content: Zimmeck
         language:
         - en
         script:
@@ -46,20 +46,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Melanie
+        - content: Peter
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sumner
+        content: Snyder
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-12-05'
+- person:
+    name:
+      given:
+        forename:
+        - content: Justin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brookman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Aram
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zucker-Scharff
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-12-17'
 language:
 - en
 script:
@@ -70,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Caccname-1.2
+    id: W3Cgpc
     title:
-    - content: Accessible Name and Description Computation 1.2
+    - content: Global Privacy Control (GPC)
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/accname-1.2/
+    - content: https://www.w3.org/TR/gpc/
       type: src
     docid:
-    - id: W3C accname-1.2
+    - id: W3C gpc
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-accname-1.2-20251023
+    id: W3CWD-gpc-20251125
     title:
-    - content: Accessible Name and Description Computation 1.2
+    - content: Global Privacy Control (GPC)
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-accname-1.2-20251023/
+    - content: https://www.w3.org/TR/2025/WD-gpc-20251125/
       type: src
     docid:
-    - id: W3C WD-accname-1.2-20251023
+    - id: W3C WD-gpc-20251125
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-accname-1.2-20251216
-    title:
-    - content: Accessible Name and Description Computation 1.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-accname-1.2-20251216/
-      type: src
-    docid:
-    - id: W3C WD-accname-1.2-20251216
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-accname-1.2-20251205
+  number: WD-gpc-20251217
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Accessible Rich Internet Applications Working Group
+  - name: Privacy Working Group
