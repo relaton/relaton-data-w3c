@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-shacl12-sparql-20251209
+id: W3CNOTE-design-principles-20251218
 title:
-- content: SHACL 1.2 SPARQL Extensions
+- content: Web Platform Design Principles
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251209/
+- content: https://www.w3.org/TR/2025/NOTE-design-principles-20251218/
   type: src
 type: standard
 docid:
-- id: W3C WD-shacl12-sparql-20251209
+- id: W3C NOTE-design-principles-20251218
   type: W3C
   primary: true
-docnumber: WD-shacl12-sparql-20251209
+docnumber: NOTE-design-principles-20251218
 date:
 - type: published
-  value: '2025-12-09'
+  value: '2025-12-18'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Holger
+        - content: Martin
           language:
           - en
           script:
           - Latn
       surname:
-        content: Knublauch
+        content: Thomson
         language:
         - en
         script:
@@ -46,78 +46,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Ashley
+        - content: Jeffrey
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sommer
+        content: Yasskin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-12-09'
+revdate: '2025-12-18'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshacl12-sparql
+    id: W3Cdesign-principles
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Web Platform Design Principles
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/shacl12-sparql/
+    - content: https://www.w3.org/TR/design-principles/
       type: src
     docid:
-    - id: W3C shacl12-sparql
+    - id: W3C design-principles
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shacl12-sparql-20251125
+    id: W3CNOTE-design-principles-20251209
     title:
-    - content: SHACL 1.2 SPARQL Extensions
+    - content: Web Platform Design Principles
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251125/
+    - content: https://www.w3.org/TR/2025/NOTE-design-principles-20251209/
       type: src
     docid:
-    - id: W3C WD-shacl12-sparql-20251125
+    - id: W3C NOTE-design-principles-20251209
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-shacl12-sparql-20251218
-    title:
-    - content: SHACL 1.2 SPARQL Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251218/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-sparql-20251218
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Note
     format: text/plain
-  number: WD-shacl12-sparql-20251209
+  number: NOTE-design-principles-20251218
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Data Shapes Working Group
+  - name: Technical Architecture Group
