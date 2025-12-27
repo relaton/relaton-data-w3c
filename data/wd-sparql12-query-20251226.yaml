@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-css-anchor-position-1-20251007
+id: W3CWD-sparql12-query-20251226
 title:
-- content: CSS Anchor Positioning
+- content: SPARQL 1.2 Query Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-css-anchor-position-1-20251007/
+- content: https://www.w3.org/TR/2025/WD-sparql12-query-20251226/
   type: src
 type: standard
 docid:
-- id: W3C WD-css-anchor-position-1-20251007
+- id: W3C WD-sparql12-query-20251226
   type: W3C
   primary: true
-docnumber: WD-css-anchor-position-1-20251007
+docnumber: WD-sparql12-query-20251226
 date:
 - type: published
-  value: '2025-10-07'
+  value: '2025-12-26'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Tab
+        - content: Olaf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Atkins Jr.
+        content: Hartig
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Elika
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Etemad
+        content: Seaborne
         language:
         - en
         script:
@@ -63,20 +63,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Ian
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Kilpatrick
+        content: Taelman
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-10-07'
+- person:
+    name:
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2025-12-26'
 language:
 - en
 script:
@@ -87,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-anchor-position-1
+    id: W3Csparql12-query
     title:
-    - content: CSS Anchor Positioning Module Level 1
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/css-anchor-position-1/
+    - content: https://www.w3.org/TR/sparql12-query/
       type: src
     docid:
-    - id: W3C css-anchor-position-1
+    - id: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css-anchor-position-1-20250509
+    id: W3CWD-sparql12-query-20251221
     title:
-    - content: CSS Anchor Positioning
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-css-anchor-position-1-20250509/
+    - content: https://www.w3.org/TR/2025/WD-sparql12-query-20251221/
       type: src
     docid:
-    - id: W3C WD-css-anchor-position-1-20250509
+    - id: W3C WD-sparql12-query-20251221
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-css-anchor-position-1-20251222
-    title:
-    - content: CSS Anchor Positioning Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-css-anchor-position-1-20251222/
-      type: src
-    docid:
-    - id: W3C WD-css-anchor-position-1-20251222
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-css-anchor-position-1-20251007
+  number: WD-sparql12-query-20251226
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+  - name: RDF & SPARQL Working Group
