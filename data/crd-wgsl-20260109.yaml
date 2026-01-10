@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CCRD-webnn-20240327
+id: W3CCRD-WGSL-20260109
 title:
-- content: Web Neural Network API
+- content: WebGPU Shading Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2024/CRD-webnn-20240327/
+- content: https://www.w3.org/TR/2026/CRD-WGSL-20260109/
   type: src
 type: standard
 docid:
-- id: W3C CRD-webnn-20240327
+- id: W3C CRD-WGSL-20260109
   type: W3C
   primary: true
-docnumber: CRD-webnn-20240327
+docnumber: CRD-WGSL-20260109
 date:
 - type: published
-  value: '2024-03-27'
+  value: '2026-01-09'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ningxin
+        - content: Alan
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hu
+        content: Baker
         language:
         - en
         script:
@@ -46,20 +46,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Dwayne
+        - content: Mehmet Oguz
           language:
           - en
           script:
           - Latn
       surname:
-        content: Robinson
+        content: Derin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2024-03-27'
+- person:
+    name:
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Neto
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-09'
 language:
 - en
 script:
@@ -70,54 +87,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebnn
+    id: W3CWGSL
     title:
-    - content: Web Neural Network API
+    - content: WebGPU Shading Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webnn/
+    - content: https://www.w3.org/TR/WGSL/
       type: src
     docid:
-    - id: W3C webnn
+    - id: W3C WGSL
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webnn-20240325
+    id: W3CCRD-WGSL-20260108
     title:
-    - content: Web Neural Network API
+    - content: WebGPU Shading Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2024/CRD-webnn-20240325/
+    - content: https://www.w3.org/TR/2026/CRD-WGSL-20260108/
       type: src
     docid:
-    - id: W3C CRD-webnn-20240325
+    - id: W3C CRD-WGSL-20260108
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CCRD-webnn-20240328
-    title:
-    - content: Web Neural Network API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-webnn-20240328/
-      type: src
-    docid:
-    - id: W3C CRD-webnn-20240328
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: CRD-webnn-20240327
+  number: CRD-WGSL-20260109
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Machine Learning Working Group
+  - name: GPU for the Web Working Group

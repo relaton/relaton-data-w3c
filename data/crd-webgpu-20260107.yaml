@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CNOTE-did-extensions-methods-20251212
+id: W3CCRD-webgpu-20260107
 title:
-- content: DID Methods
+- content: WebGPU
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/NOTE-did-extensions-methods-20251212/
+- content: https://www.w3.org/TR/2026/CRD-webgpu-20260107/
   type: src
 type: standard
 docid:
-- id: W3C NOTE-did-extensions-methods-20251212
+- id: W3C CRD-webgpu-20260107
   type: W3C
   primary: true
-docnumber: NOTE-did-extensions-methods-20251212
+docnumber: CRD-webgpu-20260107
 date:
 - type: published
-  value: '2025-12-12'
+  value: '2026-01-07'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Manu
+        - content: Kai
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sporny
+        content: Ninomiya
         language:
         - en
         script:
@@ -46,65 +46,82 @@ contributor:
     name:
       given:
         forename:
-        - content: Markus
+        - content: Brandon
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sabadello
+        content: Jones
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-12-12'
+- person:
+    name:
+      given:
+        forename:
+        - content: Jim
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Blandy
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-07'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Note
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdid-extensions-methods
+    id: W3Cwebgpu
     title:
-    - content: DID Methods
+    - content: WebGPU
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/did-extensions-methods/
+    - content: https://www.w3.org/TR/webgpu/
       type: src
     docid:
-    - id: W3C did-extensions-methods
+    - id: W3C webgpu
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-did-extensions-methods-20251211
+    id: W3CCRD-webgpu-20260106
     title:
-    - content: DID Methods
+    - content: WebGPU
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/NOTE-did-extensions-methods-20251211/
+    - content: https://www.w3.org/TR/2026/CRD-webgpu-20260106/
       type: src
     docid:
-    - id: W3C NOTE-did-extensions-methods-20251211
+    - id: W3C CRD-webgpu-20260106
       type: W3C
       primary: true
 - type: updatedBy
   bibitem:
-    id: W3CNOTE-did-extensions-methods-20260106
+    id: W3CCRD-webgpu-20260109
     title:
-    - content: DID Methods
+    - content: WebGPU
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/NOTE-did-extensions-methods-20260106/
+    - content: https://www.w3.org/TR/2026/CRD-webgpu-20260109/
       type: src
     docid:
-    - id: W3C NOTE-did-extensions-methods-20260106
+    - id: W3C CRD-webgpu-20260109
       type: W3C
       primary: true
   description:
@@ -112,12 +129,12 @@ relation:
     format: text/plain
 series:
 - title:
-    content: W3C Note
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: NOTE-did-extensions-methods-20251212
+  number: CRD-webgpu-20260107
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Decentralized Identifier Working Group
+  - name: GPU for the Web Working Group

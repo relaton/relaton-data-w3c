@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-rdf12-concepts-20251205
+id: W3CWD-shacl12-node-expr-20260108
 title:
-- content: RDF 1.2 Concepts and Abstract Data Model
+- content: SHACL 1.2 Node Expressions
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-rdf12-concepts-20251205/
+- content: https://www.w3.org/TR/2026/WD-shacl12-node-expr-20260108/
   type: src
 type: standard
 docid:
-- id: W3C WD-rdf12-concepts-20251205
+- id: W3C WD-shacl12-node-expr-20260108
   type: W3C
   primary: true
-docnumber: WD-rdf12-concepts-20251205
+docnumber: WD-shacl12-node-expr-20260108
 date:
 - type: published
-  value: '2025-12-05'
+  value: '2026-01-08'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Gregg
+        - content: Holger
           language:
           - en
           script:
           - Latn
       surname:
-        content: Kellogg
+        content: Knublauch
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Olaf
+        - content: Simon
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hartig
+        content: Steyskal
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Pierre-Antoine
+        - content: Robert
           language:
           - en
           script:
           - Latn
       surname:
-        content: Champin
+        content: David
         language:
         - en
         script:
@@ -80,78 +80,49 @@ contributor:
     name:
       given:
         forename:
-        - content: Andy
+        - content: David
           language:
           - en
           script:
           - Latn
       surname:
-        content: Seaborne
+        content: Habgood
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-12-05'
+revdate: '2026-01-08'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf12-concepts
+    id: W3Cshacl12-node-expr
     title:
-    - content: RDF 1.2 Concepts and Abstract Data Model
+    - content: SHACL 1.2 Node Expressions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/rdf12-concepts/
+    - content: https://www.w3.org/TR/shacl12-node-expr/
       type: src
     docid:
-    - id: W3C rdf12-concepts
+    - id: W3C shacl12-node-expr
       type: W3C
       primary: true
-- type: obsoletes
-  bibitem:
-    id: W3CWD-rdf12-concepts-20251120
-    title:
-    - content: RDF 1.2 Concepts and Abstract Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-rdf12-concepts-20251120/
-      type: src
-    docid:
-    - id: W3C WD-rdf12-concepts-20251120
-      type: W3C
-      primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-rdf12-concepts-20260109
-    title:
-    - content: RDF 1.2 Concepts and Abstract Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-rdf12-concepts-20260109/
-      type: src
-    docid:
-    - id: W3C WD-rdf12-concepts-20260109
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C First Public Working Draft
     format: text/plain
-  number: WD-rdf12-concepts-20251205
+  number: WD-shacl12-node-expr-20260108
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF & SPARQL Working Group
+  - name: Data Shapes Working Group
