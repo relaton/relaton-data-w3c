@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-digital-credentials-20251218
+id: W3CWD-did-resolution-20260115
 title:
-- content: Digital Credentials
+- content: Decentralized Identifier Resolution (DID Resolution) v0.3
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-digital-credentials-20251218/
+- content: https://www.w3.org/TR/2026/WD-did-resolution-20260115/
   type: src
 type: standard
 docid:
-- id: W3C WD-digital-credentials-20251218
+- id: W3C WD-did-resolution-20260115
   type: W3C
   primary: true
-docnumber: WD-digital-credentials-20251218
+docnumber: WD-did-resolution-20260115
 date:
 - type: published
-  value: '2025-12-18'
+  value: '2026-01-15'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Marcos
+        - content: Markus
           language:
           - en
           script:
           - Latn
       surname:
-        content: Caceres
+        content: Sabadello
         language:
         - en
         script:
@@ -46,37 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Tim
+        - content: Dmitri
           language:
           - en
           script:
           - Latn
       surname:
-        content: Cappalli
+        content: Zagidulin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Mohamed Amir
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yosef
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-12-18'
+revdate: '2026-01-15'
 language:
 - en
 script:
@@ -87,41 +70,41 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdigital-credentials
+    id: W3Cdid-resolution
     title:
-    - content: Digital Credentials
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/digital-credentials/
+    - content: https://www.w3.org/TR/did-resolution/
       type: src
     docid:
-    - id: W3C digital-credentials
+    - id: W3C did-resolution
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-digital-credentials-20251208
+    id: W3CWD-did-resolution-20260113
     title:
-    - content: Digital Credentials
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-digital-credentials-20251208/
+    - content: https://www.w3.org/TR/2026/WD-did-resolution-20260113/
       type: src
     docid:
-    - id: W3C WD-digital-credentials-20251208
+    - id: W3C WD-did-resolution-20260113
       type: W3C
       primary: true
 - type: updatedBy
   bibitem:
-    id: W3CWD-digital-credentials-20260113
+    id: W3CWD-did-resolution-20260117
     title:
-    - content: Digital Credentials
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/WD-digital-credentials-20260113/
+    - content: https://www.w3.org/TR/2026/WD-did-resolution-20260117/
       type: src
     docid:
-    - id: W3C WD-digital-credentials-20260113
+    - id: W3C WD-did-resolution-20260117
       type: W3C
       primary: true
   description:
@@ -131,10 +114,10 @@ series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-digital-credentials-20251218
+  number: WD-did-resolution-20260115
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Federated Identity Working Group
+  - name: Decentralized Identifier Working Group
