@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-web-user-agents-20260113
+id: W3CCRD-WGSL-20260119
 title:
-- content: Web User Agents
+- content: WebGPU Shading Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260113/
+- content: https://www.w3.org/TR/2026/CRD-WGSL-20260119/
   type: src
 type: standard
 docid:
-- id: W3C DNOTE-web-user-agents-20260113
+- id: W3C CRD-WGSL-20260119
   type: W3C
   primary: true
-docnumber: DNOTE-web-user-agents-20260113
+docnumber: CRD-WGSL-20260119
 date:
 - type: published
-  value: '2026-01-13'
+  value: '2026-01-19'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Jeffrey
+        - content: Alan
           language:
           - en
           script:
           - Latn
       surname:
-        content: Yasskin
+        content: Baker
         language:
         - en
         script:
@@ -46,78 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Sarven
+        - content: Mehmet Oguz
           language:
           - en
           script:
           - Latn
       surname:
-        content: Capadisli
+        content: Derin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-13'
+- person:
+    name:
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Neto
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-19'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Draft Note
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cweb-user-agents
+    id: W3CWGSL
     title:
-    - content: Web User Agents
+    - content: WebGPU Shading Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/web-user-agents/
+    - content: https://www.w3.org/TR/WGSL/
       type: src
     docid:
-    - id: W3C web-user-agents
+    - id: W3C WGSL
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-web-user-agents-20251127
+    id: W3CCRD-WGSL-20260113
     title:
-    - content: Web User Agents
+    - content: WebGPU Shading Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/DNOTE-web-user-agents-20251127/
+    - content: https://www.w3.org/TR/2026/CRD-WGSL-20260113/
       type: src
     docid:
-    - id: W3C DNOTE-web-user-agents-20251127
+    - id: W3C CRD-WGSL-20260113
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CDNOTE-web-user-agents-20260120
-    title:
-    - content: Web User Agents
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/DNOTE-web-user-agents-20260120/
-      type: src
-    docid:
-    - id: W3C DNOTE-web-user-agents-20260120
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Draft Note
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: DNOTE-web-user-agents-20260113
+  number: CRD-WGSL-20260119
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Technical Architecture Group
+  - name: GPU for the Web Working Group

@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-sparql12-query-20260115
+id: W3CWD-attribution-20260119
 title:
-- content: SPARQL 1.2 Query Language
+- content: Attribution Level 1
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-sparql12-query-20260115/
+- content: https://www.w3.org/TR/2026/WD-attribution-20260119/
   type: src
 type: standard
 docid:
-- id: W3C WD-sparql12-query-20260115
+- id: W3C WD-attribution-20260119
   type: W3C
   primary: true
-docnumber: WD-sparql12-query-20260115
+docnumber: WD-attribution-20260119
 date:
 - type: published
-  value: '2026-01-15'
+  value: '2026-01-19'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Olaf
+        - content: Andrew
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hartig
+        content: Paseltiner
         language:
         - en
         script:
@@ -52,7 +52,7 @@ contributor:
           script:
           - Latn
       surname:
-        content: Seaborne
+        content: Leiserson
         language:
         - en
         script:
@@ -63,13 +63,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ruben
+        - content: Benjamin
           language:
           - en
           script:
           - Latn
       surname:
-        content: Taelman
+        content: Case
         language:
         - en
         script:
@@ -80,13 +80,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Gregory
+        - content: Benjamin
           language:
           - en
           script:
           - Latn
       surname:
-        content: Williams
+        content: Savage
         language:
         - en
         script:
@@ -97,20 +97,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Thomas
+        - content: Charlie
           language:
           - en
           script:
           - Latn
       surname:
-        content: Pellissier Tanon
+        content: Harrison
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-15'
+- person:
+    name:
+      given:
+        forename:
+        - content: Martin
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-19'
 language:
 - en
 script:
@@ -121,54 +138,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csparql12-query
+    id: W3Cattribution
     title:
-    - content: SPARQL 1.2 Query Language
+    - content: Attribution Level 1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/sparql12-query/
+    - content: https://www.w3.org/TR/attribution/
       type: src
     docid:
-    - id: W3C sparql12-query
+    - id: W3C attribution
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-query-20260109
+    id: W3CWD-attribution-20260115
     title:
-    - content: SPARQL 1.2 Query Language
+    - content: Attribution Level 1
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/WD-sparql12-query-20260109/
+    - content: https://www.w3.org/TR/2026/WD-attribution-20260115/
       type: src
     docid:
-    - id: W3C WD-sparql12-query-20260109
+    - id: W3C WD-attribution-20260115
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-sparql12-query-20260119
-    title:
-    - content: SPARQL 1.2 Query Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-sparql12-query-20260119/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-query-20260119
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-sparql12-query-20260115
+  number: WD-attribution-20260119
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF & SPARQL Working Group
+  - name: Private Advertising Technology Working Group
