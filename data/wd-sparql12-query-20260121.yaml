@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-rdf12-concepts-20260115
+id: W3CWD-sparql12-query-20260121
 title:
-- content: RDF 1.2 Concepts and Abstract Data Model
+- content: SPARQL 1.2 Query Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-rdf12-concepts-20260115/
+- content: https://www.w3.org/TR/2026/WD-sparql12-query-20260121/
   type: src
 type: standard
 docid:
-- id: W3C WD-rdf12-concepts-20260115
+- id: W3C WD-sparql12-query-20260121
   type: W3C
   primary: true
-docnumber: WD-rdf12-concepts-20260115
+docnumber: WD-sparql12-query-20260121
 date:
 - type: published
-  value: '2026-01-15'
+  value: '2026-01-21'
 contributor:
 - organization:
     name:
@@ -29,23 +29,6 @@ contributor:
     name:
       given:
         forename:
-        - content: Gregg
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kellogg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      given:
-        forename:
         - content: Olaf
           language:
           - en
@@ -53,23 +36,6 @@ contributor:
           - Latn
       surname:
         content: Hartig
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Pierre-Antoine
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Champin
         language:
         - en
         script:
@@ -93,7 +59,58 @@ contributor:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-15'
+- person:
+    name:
+      given:
+        forename:
+        - content: Ruben
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taelman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-21'
 language:
 - en
 script:
@@ -104,51 +121,35 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf12-concepts
+    id: W3Csparql12-query
     title:
-    - content: RDF 1.2 Concepts and Abstract Data Model
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/rdf12-concepts/
+    - content: https://www.w3.org/TR/sparql12-query/
       type: src
     docid:
-    - id: W3C rdf12-concepts
+    - id: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdf12-concepts-20260109
+    id: W3CWD-sparql12-query-20260119
     title:
-    - content: RDF 1.2 Concepts and Abstract Data Model
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/WD-rdf12-concepts-20260109/
+    - content: https://www.w3.org/TR/2026/WD-sparql12-query-20260119/
       type: src
     docid:
-    - id: W3C WD-rdf12-concepts-20260109
+    - id: W3C WD-sparql12-query-20260119
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-rdf12-concepts-20260121
-    title:
-    - content: RDF 1.2 Concepts and Abstract Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-rdf12-concepts-20260121/
-      type: src
-    docid:
-    - id: W3C WD-rdf12-concepts-20260121
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-rdf12-concepts-20260115
+  number: WD-sparql12-query-20260121
 ext:
   schema-version: v1.0.0
   doctype:
