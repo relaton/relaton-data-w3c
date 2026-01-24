@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-rdf12-semantics-20251218
+id: W3CWD-sparql12-query-20260123
 title:
-- content: RDF 1.2 Semantics
+- content: SPARQL 1.2 Query Language
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20251218/
+- content: https://www.w3.org/TR/2026/WD-sparql12-query-20260123/
   type: src
 type: standard
 docid:
-- id: W3C WD-rdf12-semantics-20251218
+- id: W3C WD-sparql12-query-20260123
   type: W3C
   primary: true
-docnumber: WD-rdf12-semantics-20251218
+docnumber: WD-sparql12-query-20260123
 date:
 - type: published
-  value: '2025-12-18'
+  value: '2026-01-23'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Peter
+        - content: Olaf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Patel-Schneider
+        content: Hartig
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Dörthe
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Arndt
+        content: Seaborne
         language:
         - en
         script:
@@ -63,20 +63,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Enrico
+        - content: Ruben
           language:
           - en
           script:
           - Latn
       surname:
-        content: Franconi
+        content: Taelman
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-12-18'
+- person:
+    name:
+      given:
+        forename:
+        - content: Gregory
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Thomas
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellissier Tanon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-23'
 language:
 - en
 script:
@@ -87,51 +121,35 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf12-semantics
+    id: W3Csparql12-query
     title:
-    - content: RDF 1.2 Semantics
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/rdf12-semantics/
+    - content: https://www.w3.org/TR/sparql12-query/
       type: src
     docid:
-    - id: W3C rdf12-semantics
+    - id: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdf12-semantics-20251203
+    id: W3CWD-sparql12-query-20260121
     title:
-    - content: RDF 1.2 Semantics
+    - content: SPARQL 1.2 Query Language
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-rdf12-semantics-20251203/
+    - content: https://www.w3.org/TR/2026/WD-sparql12-query-20260121/
       type: src
     docid:
-    - id: W3C WD-rdf12-semantics-20251203
+    - id: W3C WD-sparql12-query-20260121
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-rdf12-semantics-20260123
-    title:
-    - content: RDF 1.2 Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-rdf12-semantics-20260123/
-      type: src
-    docid:
-    - id: W3C WD-rdf12-semantics-20260123
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-rdf12-semantics-20251218
+  number: WD-sparql12-query-20260123
 ext:
   schema-version: v1.0.0
   doctype:
