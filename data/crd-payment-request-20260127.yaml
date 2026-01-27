@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-did-1.1-20260109
+id: W3CCRD-payment-request-20260127
 title:
-- content: Decentralized Identifiers (DIDs) v1.1
+- content: Payment Request API
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-did-1.1-20260109/
+- content: https://www.w3.org/TR/2026/CRD-payment-request-20260127/
   type: src
 type: standard
 docid:
-- id: W3C WD-did-1.1-20260109
+- id: W3C CRD-payment-request-20260127
   type: W3C
   primary: true
-docnumber: WD-did-1.1-20260109
+docnumber: CRD-payment-request-20260127
 date:
 - type: published
-  value: '2026-01-09'
+  value: '2026-01-27'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Manu
+        - content: Marcos
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sporny
+        content: Caceres
         language:
         - en
         script:
@@ -46,78 +46,79 @@ contributor:
     name:
       given:
         forename:
-        - content: Dmitri
+        - content: Ian
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zagidulin
+        content: Jacobs
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-09'
+- person:
+    name:
+      given:
+        forename:
+        - content: Stephen
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McGruer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-27'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdid-1.1
+    id: W3Cpayment-request
     title:
-    - content: Decentralized Identifiers (DIDs) v1.1
+    - content: Payment Request API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/did-1.1/
+    - content: https://www.w3.org/TR/payment-request/
       type: src
     docid:
-    - id: W3C did-1.1
+    - id: W3C payment-request
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-did-1.1-20250918
+    id: W3CCRD-payment-request-20250930
     title:
-    - content: Decentralized Identifiers (DIDs) v1.1
+    - content: Payment Request API
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-did-1.1-20250918/
+    - content: https://www.w3.org/TR/2025/CRD-payment-request-20250930/
       type: src
     docid:
-    - id: W3C WD-did-1.1-20250918
+    - id: W3C CRD-payment-request-20250930
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-did-1.1-20260124
-    title:
-    - content: Decentralized Identifiers (DIDs) v1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-did-1.1-20260124/
-      type: src
-    docid:
-    - id: W3C WD-did-1.1-20260124
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Candidate Recommendation Draft
     format: text/plain
-  number: WD-did-1.1-20260109
+  number: CRD-payment-request-20260127
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Decentralized Identifier Working Group
+  - name: Web Payments Working Group

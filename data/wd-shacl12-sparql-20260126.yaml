@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-did-1.1-20260109
+id: W3CWD-shacl12-sparql-20260126
 title:
-- content: Decentralized Identifiers (DIDs) v1.1
+- content: SHACL 1.2 SPARQL Extensions
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-did-1.1-20260109/
+- content: https://www.w3.org/TR/2026/WD-shacl12-sparql-20260126/
   type: src
 type: standard
 docid:
-- id: W3C WD-did-1.1-20260109
+- id: W3C WD-shacl12-sparql-20260126
   type: W3C
   primary: true
-docnumber: WD-did-1.1-20260109
+docnumber: WD-shacl12-sparql-20260126
 date:
 - type: published
-  value: '2026-01-09'
+  value: '2026-01-26'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Manu
+        - content: Holger
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sporny
+        content: Knublauch
         language:
         - en
         script:
@@ -46,20 +46,20 @@ contributor:
     name:
       given:
         forename:
-        - content: Dmitri
+        - content: Ashley
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zagidulin
+        content: Sommer
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-09'
+revdate: '2026-01-26'
 language:
 - en
 script:
@@ -70,54 +70,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdid-1.1
+    id: W3Cshacl12-sparql
     title:
-    - content: Decentralized Identifiers (DIDs) v1.1
+    - content: SHACL 1.2 SPARQL Extensions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/did-1.1/
+    - content: https://www.w3.org/TR/shacl12-sparql/
       type: src
     docid:
-    - id: W3C did-1.1
+    - id: W3C shacl12-sparql
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-did-1.1-20250918
+    id: W3CWD-shacl12-sparql-20251218
     title:
-    - content: Decentralized Identifiers (DIDs) v1.1
+    - content: SHACL 1.2 SPARQL Extensions
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-did-1.1-20250918/
+    - content: https://www.w3.org/TR/2025/WD-shacl12-sparql-20251218/
       type: src
     docid:
-    - id: W3C WD-did-1.1-20250918
+    - id: W3C WD-shacl12-sparql-20251218
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-did-1.1-20260124
-    title:
-    - content: Decentralized Identifiers (DIDs) v1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-did-1.1-20260124/
-      type: src
-    docid:
-    - id: W3C WD-did-1.1-20260124
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-did-1.1-20260109
+  number: WD-shacl12-sparql-20260126
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Decentralized Identifier Working Group
+  - name: Data Shapes Working Group
