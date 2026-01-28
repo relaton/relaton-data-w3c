@@ -1,18 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3Copenscreen-network
+id: W3CWD-openscreen-network-20260128
 title:
 - content: Open Screen Network Protocol
   format: text/plain
 link:
-- content: https://www.w3.org/TR/openscreen-network/
+- content: https://www.w3.org/TR/2026/WD-openscreen-network-20260128/
   type: src
 type: standard
 docid:
-- id: W3C openscreen-network
+- id: W3C WD-openscreen-network-20260128
   type: W3C
   primary: true
-docnumber: openscreen-network
+docnumber: WD-openscreen-network-20260128
+date:
+- type: published
+  value: '2026-01-28'
 contributor:
 - organization:
     name:
@@ -22,25 +25,46 @@ contributor:
     url: https://www.w3.org/
   role:
   - type: publisher
+- person:
+    name:
+      given:
+        forename:
+        - content: Mark
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Foltz
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-28'
 language:
 - en
 script:
 - Latn
+docstatus:
+  stage:
+    value: Working Draft
 relation:
-- type: hasEdition
+- type: editionOf
   bibitem:
-    id: W3CWD-openscreen-network-20260128
+    id: W3Copenscreen-network
     title:
     - content: Open Screen Network Protocol
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/WD-openscreen-network-20260128/
+    - content: https://www.w3.org/TR/openscreen-network/
       type: src
     docid:
-    - id: W3C WD-openscreen-network-20260128
+    - id: W3C openscreen-network
       type: W3C
       primary: true
-- type: hasEdition
+- type: obsoletes
   bibitem:
     id: W3CWD-openscreen-network-20250609
     title:
@@ -53,25 +77,14 @@ relation:
     - id: W3C WD-openscreen-network-20250609
       type: W3C
       primary: true
-- type: hasEdition
-  bibitem:
-    id: W3CWD-openscreen-network-20241210
-    title:
-    - content: Open Screen Network Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-openscreen-network-20241210/
-      type: src
-    docid:
-    - id: W3C WD-openscreen-network-20241210
-      type: W3C
-      primary: true
 series:
 - title:
-    content: W3C technicalReport
+    content: W3C Working Draft
     format: text/plain
-  number: openscreen-network
+  number: WD-openscreen-network-20260128
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
+  editorialgroup:
+  - name: Second Screen Working Group
