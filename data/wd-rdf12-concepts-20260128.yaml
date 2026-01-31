@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webcodecs-20220808
+id: W3CWD-rdf12-concepts-20260128
 title:
-- content: WebCodecs
+- content: RDF 1.2 Concepts and Abstract Data Model
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2022/WD-webcodecs-20220808/
+- content: https://www.w3.org/TR/2026/WD-rdf12-concepts-20260128/
   type: src
 type: standard
 docid:
-- id: W3C WD-webcodecs-20220808
+- id: W3C WD-rdf12-concepts-20260128
   type: W3C
   primary: true
-docnumber: WD-webcodecs-20220808
+docnumber: WD-rdf12-concepts-20260128
 date:
 - type: published
-  value: '2022-08-08'
+  value: '2026-01-28'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Chris
+        - content: Gregg
           language:
           - en
           script:
           - Latn
       surname:
-        content: Cunningham
+        content: Kellogg
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Paul
+        - content: Olaf
           language:
           - en
           script:
           - Latn
       surname:
-        content: Adenot
+        content: Hartig
         language:
         - en
         script:
@@ -63,20 +63,37 @@ contributor:
     name:
       given:
         forename:
-        - content: Bernard
+        - content: Pierre-Antoine
           language:
           - en
           script:
           - Latn
       surname:
-        content: Aboba
+        content: Champin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2022-08-08'
+- person:
+    name:
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-01-28'
 language:
 - en
 script:
@@ -87,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebcodecs
+    id: W3Crdf12-concepts
     title:
-    - content: WebCodecs
+    - content: RDF 1.2 Concepts and Abstract Data Model
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webcodecs/
+    - content: https://www.w3.org/TR/rdf12-concepts/
       type: src
     docid:
-    - id: W3C webcodecs
+    - id: W3C rdf12-concepts
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webcodecs-20220802
+    id: W3CWD-rdf12-concepts-20260121
     title:
-    - content: WebCodecs
+    - content: RDF 1.2 Concepts and Abstract Data Model
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2022/WD-webcodecs-20220802/
+    - content: https://www.w3.org/TR/2026/WD-rdf12-concepts-20260121/
       type: src
     docid:
-    - id: W3C WD-webcodecs-20220802
+    - id: W3C WD-rdf12-concepts-20260121
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webcodecs-20220809
-    title:
-    - content: WebCodecs
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-webcodecs-20220809/
-      type: src
-    docid:
-    - id: W3C WD-webcodecs-20220809
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webcodecs-20220808
+  number: WD-rdf12-concepts-20260128
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Media Working Group
+  - name: RDF & SPARQL Working Group
