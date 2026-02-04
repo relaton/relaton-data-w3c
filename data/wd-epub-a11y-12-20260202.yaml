@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-digital-credentials-20260129
+id: W3CWD-epub-a11y-12-20260202
 title:
-- content: Digital Credentials
+- content: EPUB Accessibility 1.2
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-digital-credentials-20260129/
+- content: https://www.w3.org/TR/2026/WD-epub-a11y-12-20260202/
   type: src
 type: standard
 docid:
-- id: W3C WD-digital-credentials-20260129
+- id: W3C WD-epub-a11y-12-20260202
   type: W3C
   primary: true
-docnumber: WD-digital-credentials-20260129
+docnumber: WD-epub-a11y-12-20260202
 date:
 - type: published
-  value: '2026-01-29'
+  value: '2026-02-02'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Marcos
+        - content: Matt
           language:
           - en
           script:
           - Latn
       surname:
-        content: Caceres
+        content: Garrish
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Tim
+        - content: George
           language:
           - en
           script:
           - Latn
       surname:
-        content: Cappalli
+        content: Kerscher
         language:
         - en
         script:
@@ -63,20 +63,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Mohamed Amir
+        - content: Charles
           language:
           - en
           script:
           - Latn
       surname:
-        content: Yosef
+        content: LaPierre
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-29'
+- person:
+    name:
+      given:
+        forename:
+        - content: Gregorio
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pellegrino
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Avneesh
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singh
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-02-02'
 language:
 - en
 script:
@@ -87,54 +121,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdigital-credentials
+    id: W3Cepub-a11y-12
     title:
-    - content: Digital Credentials
+    - content: EPUB Accessibility 1.2
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/digital-credentials/
+    - content: https://www.w3.org/TR/epub-a11y-12/
       type: src
     docid:
-    - id: W3C digital-credentials
+    - id: W3C epub-a11y-12
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-digital-credentials-20260128
+    id: W3CWD-epub-a11y-12-20251103
     title:
-    - content: Digital Credentials
+    - content: EPUB Accessibility 1.2
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/WD-digital-credentials-20260128/
+    - content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251103/
       type: src
     docid:
-    - id: W3C WD-digital-credentials-20260128
+    - id: W3C WD-epub-a11y-12-20251103
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-digital-credentials-20260204
-    title:
-    - content: Digital Credentials
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-digital-credentials-20260204/
-      type: src
-    docid:
-    - id: W3C WD-digital-credentials-20260204
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-digital-credentials-20260129
+  number: WD-epub-a11y-12-20260202
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Federated Identity Working Group
+  - name: Publishing Maintenance Working Group
