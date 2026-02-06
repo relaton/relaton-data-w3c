@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-webrtc-encoded-transform-20251219
+id: W3CWD-shacl12-rules-20260206
 title:
-- content: WebRTC Encoded Transform
+- content: SHACL 1.2 Rules
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-webrtc-encoded-transform-20251219/
+- content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260206/
   type: src
 type: standard
 docid:
-- id: W3C WD-webrtc-encoded-transform-20251219
+- id: W3C WD-shacl12-rules-20260206
   type: W3C
   primary: true
-docnumber: WD-webrtc-encoded-transform-20251219
+docnumber: WD-shacl12-rules-20260206
 date:
 - type: published
-  value: '2025-12-19'
+  value: '2026-02-06'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Harald
+        - content: Robert
           language:
           - en
           script:
           - Latn
       surname:
-        content: Alvestrand
+        content: David
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Guido
+        - content: David
           language:
           - en
           script:
           - Latn
       surname:
-        content: Urdaneta
+        content: Habgood
         language:
         - en
         script:
@@ -63,20 +63,37 @@ contributor:
     name:
       given:
         forename:
-        - content: youenn
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: fablet
+        content: Seaborne
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-12-19'
+- person:
+    name:
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steyskal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-02-06'
 language:
 - en
 script:
@@ -87,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebrtc-encoded-transform
+    id: W3Cshacl12-rules
     title:
-    - content: WebRTC Encoded Transform
+    - content: SHACL 1.2 Rules
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/webrtc-encoded-transform/
+    - content: https://www.w3.org/TR/shacl12-rules/
       type: src
     docid:
-    - id: W3C webrtc-encoded-transform
+    - id: W3C shacl12-rules
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webrtc-encoded-transform-20251120
+    id: W3CWD-shacl12-rules-20260203
     title:
-    - content: WebRTC Encoded Transform
+    - content: SHACL 1.2 Rules
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-webrtc-encoded-transform-20251120/
+    - content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260203/
       type: src
     docid:
-    - id: W3C WD-webrtc-encoded-transform-20251120
+    - id: W3C WD-shacl12-rules-20260203
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-webrtc-encoded-transform-20260205
-    title:
-    - content: WebRTC Encoded Transform
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-webrtc-encoded-transform-20260205/
-      type: src
-    docid:
-    - id: W3C WD-webrtc-encoded-transform-20260205
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-webrtc-encoded-transform-20251219
+  number: WD-shacl12-rules-20260206
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Real-Time Communications Working Group
+  - name: Data Shapes Working Group
