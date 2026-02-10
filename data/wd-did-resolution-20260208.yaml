@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CDNOTE-threat-modeling-guide-20260120
+id: W3CWD-did-resolution-20260208
 title:
-- content: Threat Modeling Guide
+- content: Decentralized Identifier Resolution (DID Resolution) v0.3
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260120/
+- content: https://www.w3.org/TR/2026/WD-did-resolution-20260208/
   type: src
 type: standard
 docid:
-- id: W3C DNOTE-threat-modeling-guide-20260120
+- id: W3C WD-did-resolution-20260208
   type: W3C
   primary: true
-docnumber: DNOTE-threat-modeling-guide-20260120
+docnumber: WD-did-resolution-20260208
 date:
 - type: published
-  value: '2026-01-20'
+  value: '2026-02-08'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Simone
+        - content: Markus
           language:
           - en
           script:
           - Latn
       surname:
-        content: Onofri
+        content: Sabadello
         language:
         - en
         script:
@@ -46,65 +46,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Joe
+        - content: Dmitri
           language:
           - en
           script:
           - Latn
       surname:
-        content: Andrieu
+        content: Zagidulin
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-01-20'
+revdate: '2026-02-08'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Draft Note
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cthreat-modeling-guide
+    id: W3Cdid-resolution
     title:
-    - content: Threat Modeling Guide
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/threat-modeling-guide/
+    - content: https://www.w3.org/TR/did-resolution/
       type: src
     docid:
-    - id: W3C threat-modeling-guide
+    - id: W3C did-resolution
       type: W3C
       primary: true
-- type: updatedBy
+- type: obsoletes
   bibitem:
-    id: W3CDNOTE-threat-modeling-guide-20260209
+    id: W3CWD-did-resolution-20260205
     title:
-    - content: Threat Modeling Guide
+    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260209/
+    - content: https://www.w3.org/TR/2026/WD-did-resolution-20260205/
       type: src
     docid:
-    - id: W3C DNOTE-threat-modeling-guide-20260209
+    - id: W3C WD-did-resolution-20260205
       type: W3C
       primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Draft Note
+    content: W3C Working Draft
     format: text/plain
-  number: DNOTE-threat-modeling-guide-20260120
+  number: WD-did-resolution-20260208
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Security Interest Group
+  - name: Decentralized Identifier Working Group
