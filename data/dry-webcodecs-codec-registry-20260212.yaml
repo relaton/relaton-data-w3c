@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-CSP3-20260206
+id: W3CDRY-webcodecs-codec-registry-20260212
 title:
-- content: Content Security Policy Level 3
+- content: WebCodecs Codec Registry
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-CSP3-20260206/
+- content: https://www.w3.org/TR/2026/DRY-webcodecs-codec-registry-20260212/
   type: src
 type: standard
 docid:
-- id: W3C WD-CSP3-20260206
+- id: W3C DRY-webcodecs-codec-registry-20260212
   type: W3C
   primary: true
-docnumber: WD-CSP3-20260206
+docnumber: DRY-webcodecs-codec-registry-20260212
 date:
 - type: published
-  value: '2026-02-06'
+  value: '2026-02-12'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Mike
+        - content: Paul
           language:
           - en
           script:
           - Latn
       surname:
-        content: West
+        content: Adenot
         language:
         - en
         script:
@@ -46,78 +46,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Antonio
+        - content: Eugene
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sartori
+        content: Zemtsov
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-02-06'
+revdate: '2026-02-12'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: Working Draft
+    value: Draft Registry
 relation:
 - type: editionOf
   bibitem:
-    id: W3CCSP3
+    id: W3Cwebcodecs-codec-registry
     title:
-    - content: Content Security Policy Level 3
+    - content: WebCodecs Codec Registry
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/CSP3/
+    - content: https://www.w3.org/TR/webcodecs-codec-registry/
       type: src
     docid:
-    - id: W3C CSP3
+    - id: W3C webcodecs-codec-registry
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-CSP3-20251106
+    id: W3CDRY-webcodecs-codec-registry-20240909
     title:
-    - content: Content Security Policy Level 3
+    - content: WebCodecs Codec Registry
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-CSP3-20251106/
+    - content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240909/
       type: src
     docid:
-    - id: W3C WD-CSP3-20251106
+    - id: W3C DRY-webcodecs-codec-registry-20240909
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-CSP3-20260211
-    title:
-    - content: Content Security Policy Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-CSP3-20260211/
-      type: src
-    docid:
-    - id: W3C WD-CSP3-20260211
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C Working Draft
+    content: W3C Draft Registry
     format: text/plain
-  number: WD-CSP3-20260206
+  number: DRY-webcodecs-codec-registry-20260212
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Application Security Working Group
+  - name: Media Working Group

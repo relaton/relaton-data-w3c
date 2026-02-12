@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-CSP3-20260206
+id: W3CWD-shacl12-rules-20260211
 title:
-- content: Content Security Policy Level 3
+- content: SHACL 1.2 Rules
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-CSP3-20260206/
+- content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260211/
   type: src
 type: standard
 docid:
-- id: W3C WD-CSP3-20260206
+- id: W3C WD-shacl12-rules-20260211
   type: W3C
   primary: true
-docnumber: WD-CSP3-20260206
+docnumber: WD-shacl12-rules-20260211
 date:
 - type: published
-  value: '2026-02-06'
+  value: '2026-02-11'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Mike
+        - content: Robert
           language:
           - en
           script:
           - Latn
       surname:
-        content: West
+        content: David
         language:
         - en
         script:
@@ -46,20 +46,54 @@ contributor:
     name:
       given:
         forename:
-        - content: Antonio
+        - content: David
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sartori
+        content: Habgood
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-02-06'
+- person:
+    name:
+      given:
+        forename:
+        - content: Andy
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Seaborne
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Simon
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steyskal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-02-11'
 language:
 - en
 script:
@@ -70,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3CCSP3
+    id: W3Cshacl12-rules
     title:
-    - content: Content Security Policy Level 3
+    - content: SHACL 1.2 Rules
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/CSP3/
+    - content: https://www.w3.org/TR/shacl12-rules/
       type: src
     docid:
-    - id: W3C CSP3
+    - id: W3C shacl12-rules
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-CSP3-20251106
+    id: W3CWD-shacl12-rules-20260206
     title:
-    - content: Content Security Policy Level 3
+    - content: SHACL 1.2 Rules
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-CSP3-20251106/
+    - content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260206/
       type: src
     docid:
-    - id: W3C WD-CSP3-20251106
+    - id: W3C WD-shacl12-rules-20260206
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-CSP3-20260211
-    title:
-    - content: Content Security Policy Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-CSP3-20260211/
-      type: src
-    docid:
-    - id: W3C WD-CSP3-20260211
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-CSP3-20260206
+  number: WD-shacl12-rules-20260211
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Web Application Security Working Group
+  - name: Data Shapes Working Group
