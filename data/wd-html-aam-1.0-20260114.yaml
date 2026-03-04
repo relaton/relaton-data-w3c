@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-html-aam-1.0-20260114
-title:
-- content: HTML Accessibility API Mappings 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2026/WD-html-aam-1.0-20260114/
-  type: src
+id: W3CWDhtmlaam1020260114
 type: standard
-docid:
-- id: W3C WD-html-aam-1.0-20260114
+schema_version: v1.4.1
+formattedref: W3C WD-html-aam-1.0-20260114
+title:
+- language: en
+  script: Latn
+  content: HTML Accessibility API Mappings 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2026/WD-html-aam-1.0-20260114/
+docidentifier:
+- content: W3C WD-html-aam-1.0-20260114
   type: W3C
   primary: true
 docnumber: WD-html-aam-1.0-20260114
 date:
 - type: published
-  value: '2026-01-14'
+  at: '2026-01-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Scott
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Scott
       surname:
+        language: en
+        script: Latn
         content: O'Hara
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rahim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rahim
       surname:
+        language: en
+        script: Latn
         content: Abdi
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2026-01-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessible Rich Internet Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml-aam-1.0
     title:
-    - content: HTML Accessibility API Mappings 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html-aam-1.0/
-      type: src
-    docid:
-    - id: W3C html-aam-1.0
+    - language: en
+      script: Latn
+      content: HTML Accessibility API Mappings 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html-aam-1.0/
+    docidentifier:
+    - content: W3C html-aam-1.0
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-html-aam-1.0-20251216
     title:
-    - content: HTML Accessibility API Mappings 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251216/
-      type: src
-    docid:
-    - id: W3C WD-html-aam-1.0-20251216
+    - language: en
+      script: Latn
+      content: HTML Accessibility API Mappings 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-html-aam-1.0-20251216/
+    docidentifier:
+    - content: W3C WD-html-aam-1.0-20251216
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-html-aam-1.0-20260121
-    title:
-    - content: HTML Accessibility API Mappings 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-html-aam-1.0-20260121/
-      type: src
-    docid:
-    - id: W3C WD-html-aam-1.0-20260121
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML Accessibility API Mappings 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-html-aam-1.0-20260121/
+    docidentifier:
+    - content: W3C WD-html-aam-1.0-20260121
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-html-aam-1.0-20260114
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessible Rich Internet Applications Working Group
+    content: technicalReport
+  flavor: w3c

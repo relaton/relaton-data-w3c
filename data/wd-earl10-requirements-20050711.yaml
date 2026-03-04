@@ -1,110 +1,116 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-EARL10-Requirements-20050711
-title:
-- content: Requirements for the Evaluation and Report Language (EARL) 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/WD-EARL10-Requirements-20050711
-  type: src
+id: W3CWDEARL10Requirements20050711
 type: standard
-docid:
-- id: W3C WD-EARL10-Requirements-20050711
+schema_version: v1.4.1
+formattedref: W3C WD-EARL10-Requirements-20050711
+title:
+- language: en
+  script: Latn
+  content: Requirements for the Evaluation and Report Language (EARL) 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/WD-EARL10-Requirements-20050711
+docidentifier:
+- content: W3C WD-EARL10-Requirements-20050711
   type: W3C
   primary: true
 docnumber: WD-EARL10-Requirements-20050711
 date:
 - type: published
-  value: '2005-07-11'
+  at: '2005-07-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Shadi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Shadi
       surname:
+        language: en
+        script: Latn
         content: Abou-Zahra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
       surname:
+        language: en
+        script: Latn
         content: Ley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2005-07-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Evaluation and Repair Tools Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CEARL10-Requirements
     title:
-    - content: Requirements for the Evaluation and Report Language (EARL) 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/EARL10-Requirements/
-      type: src
-    docid:
-    - id: W3C EARL10-Requirements
+    - language: en
+      script: Latn
+      content: Requirements for the Evaluation and Report Language (EARL) 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/EARL10-Requirements/
+    docidentifier:
+    - content: W3C EARL10-Requirements
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-EARL10-Requirements-20091029
-    title:
-    - content: Requirements for the Evaluation and Report Language (EARL) 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-EARL10-Requirements-20091029/
-      type: src
-    docid:
-    - id: W3C WD-EARL10-Requirements-20091029
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Requirements for the Evaluation and Report Language (EARL) 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-EARL10-Requirements-20091029/
+    docidentifier:
+    - content: W3C WD-EARL10-Requirements-20091029
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-EARL10-Requirements-20050711
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Evaluation and Repair Tools Working Group
+    content: technicalReport
+  flavor: w3c

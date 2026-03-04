@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xmlschema-2-19991105
-title:
-- content: 'XML Schema Part 2: Datatypes'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1999/WD-xmlschema-2-19991105/
-  type: src
+id: W3CWDxmlschema219991105
 type: standard
-docid:
-- id: W3C WD-xmlschema-2-19991105
+schema_version: v1.4.1
+formattedref: W3C WD-xmlschema-2-19991105
+title:
+- language: en
+  script: Latn
+  content: 'XML Schema Part 2: Datatypes'
+source:
+- type: src
+  content: https://www.w3.org/TR/1999/WD-xmlschema-2-19991105/
+docidentifier:
+- content: W3C WD-xmlschema-2-19991105
   type: W3C
   primary: true
 docnumber: WD-xmlschema-2-19991105
 date:
 - type: published
-  value: '1999-11-05'
+  at: '1999-11-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1999-11-05'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlschema-2
     title:
-    - content: 'XML Schema Part 2: Datatypes Second Edition'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlschema-2/
-      type: src
-    docid:
-    - id: W3C xmlschema-2
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 2: Datatypes Second Edition'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlschema-2/
+    docidentifier:
+    - content: W3C xmlschema-2
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3C06-xmlschema-2
     title:
-    - content: 'XML Schema Part 2: Datatypes'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/1999/05/06-xmlschema-2/
-      type: src
-    docid:
-    - id: W3C 06-xmlschema-2
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 2: Datatypes'
+    source:
+    - type: src
+      content: https://www.w3.org/1999/05/06-xmlschema-2/
+    docidentifier:
+    - content: W3C 06-xmlschema-2
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xmlschema-2-19991217
-    title:
-    - content: 'XML Schema Part 2: Datatypes'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/WD-xmlschema-2-19991217/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema-2-19991217
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 2: Datatypes'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/WD-xmlschema-2-19991217/
+    docidentifier:
+    - content: W3C WD-xmlschema-2-19991217
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xmlschema-2-19991105
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

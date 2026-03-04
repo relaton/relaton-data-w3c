@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Caudiobooks
-title:
-- content: Audiobooks
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/audiobooks/
-  type: src
 type: standard
-docid:
-- id: W3C audiobooks
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Audiobooks
+source:
+- type: src
+  content: https://www.w3.org/TR/audiobooks/
+docidentifier:
+- content: W3C audiobooks
   type: W3C
   primary: true
 docnumber: audiobooks
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,166 +31,168 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-audiobooks-20201110
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/REC-audiobooks-20201110/
-      type: src
-    docid:
-    - id: W3C REC-audiobooks-20201110
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/REC-audiobooks-20201110/
+    docidentifier:
+    - content: W3C REC-audiobooks-20201110
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-audiobooks-20201001
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/PR-audiobooks-20201001/
-      type: src
-    docid:
-    - id: W3C PR-audiobooks-20201001
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/PR-audiobooks-20201001/
+    docidentifier:
+    - content: W3C PR-audiobooks-20201001
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20200914
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200914/
-      type: src
-    docid:
-    - id: W3C CR-audiobooks-20200914
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-audiobooks-20200914/
+    docidentifier:
+    - content: W3C CR-audiobooks-20200914
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20200909
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200909/
-      type: src
-    docid:
-    - id: W3C CR-audiobooks-20200909
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-audiobooks-20200909/
+    docidentifier:
+    - content: W3C CR-audiobooks-20200909
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20200730
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200730/
-      type: src
-    docid:
-    - id: W3C CR-audiobooks-20200730
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-audiobooks-20200730/
+    docidentifier:
+    - content: W3C CR-audiobooks-20200730
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20200317
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200317/
-      type: src
-    docid:
-    - id: W3C CR-audiobooks-20200317
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-audiobooks-20200317/
+    docidentifier:
+    - content: W3C CR-audiobooks-20200317
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20200128
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-audiobooks-20200128/
-      type: src
-    docid:
-    - id: W3C CR-audiobooks-20200128
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-audiobooks-20200128/
+    docidentifier:
+    - content: W3C CR-audiobooks-20200128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-audiobooks-20191205
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-audiobooks-20191205/
-      type: src
-    docid:
-    - id: W3C CR-audiobooks-20191205
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-audiobooks-20191205/
+    docidentifier:
+    - content: W3C CR-audiobooks-20191205
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-audiobooks-20191118
     title:
-    - content: Audiobooks
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-audiobooks-20191118/
-      type: src
-    docid:
-    - id: W3C WD-audiobooks-20191118
+    - language: en
+      script: Latn
+      content: Audiobooks
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-audiobooks-20191118/
+    docidentifier:
+    - content: W3C WD-audiobooks-20191118
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-audiobooks-20190911
     title:
-    - content: Audiobook Profile for Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190911/
-      type: src
-    docid:
-    - id: W3C WD-audiobooks-20190911
+    - language: en
+      script: Latn
+      content: Audiobook Profile for Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-audiobooks-20190911/
+    docidentifier:
+    - content: W3C WD-audiobooks-20190911
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-audiobooks-20190830
     title:
-    - content: Audiobook Profile for Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190830/
-      type: src
-    docid:
-    - id: W3C WD-audiobooks-20190830
+    - language: en
+      script: Latn
+      content: Audiobook Profile for Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-audiobooks-20190830/
+    docidentifier:
+    - content: W3C WD-audiobooks-20190830
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-audiobooks-20190620
     title:
-    - content: Audiobook Profile for Web Publications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-audiobooks-20190620/
-      type: src
-    docid:
-    - id: W3C WD-audiobooks-20190620
+    - language: en
+      script: Latn
+      content: Audiobook Profile for Web Publications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-audiobooks-20190620/
+    docidentifier:
+    - content: W3C WD-audiobooks-20190620
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: audiobooks
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

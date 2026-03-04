@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-contacts-api-20140114
-title:
-- content: Pick Contacts Intent
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/NOTE-contacts-api-20140114/
-  type: src
+id: W3CNOTEcontactsapi20140114
 type: standard
-docid:
-- id: W3C NOTE-contacts-api-20140114
+schema_version: v1.4.1
+formattedref: W3C NOTE-contacts-api-20140114
+title:
+- language: en
+  script: Latn
+  content: Pick Contacts Intent
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/NOTE-contacts-api-20140114/
+docidentifier:
+- content: W3C NOTE-contacts-api-20140114
   type: W3C
   primary: true
 docnumber: NOTE-contacts-api-20140114
 date:
 - type: published
-  value: '2014-01-14'
+  at: '2014-01-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Tibbett
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Robin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Robin
       surname:
+        language: en
+        script: Latn
         content: Berjon
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jungkee
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jungkee
       surname:
+        language: en
+        script: Latn
         content: Song
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-01-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccontacts-api
     title:
-    - content: Pick Contacts Intent
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/contacts-api/
-      type: src
-    docid:
-    - id: W3C contacts-api
+    - language: en
+      script: Latn
+      content: Pick Contacts Intent
+    source:
+    - type: src
+      content: https://www.w3.org/TR/contacts-api/
+    docidentifier:
+    - content: W3C contacts-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-contacts-api-20120712
     title:
-    - content: Pick Contacts Intent
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-contacts-api-20120712/
-      type: src
-    docid:
-    - id: W3C WD-contacts-api-20120712
+    - language: en
+      script: Latn
+      content: Pick Contacts Intent
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-contacts-api-20120712/
+    docidentifier:
+    - content: W3C WD-contacts-api-20120712
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-contacts-api-20140114
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

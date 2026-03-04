@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-MathML-19980407
-title:
-- content: Mathematical Markup Language (MathML) 1.0 Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/REC-MathML-19980407/
-  type: src
+id: W3CRECMathML19980407
 type: standard
-docid:
-- id: W3C REC-MathML-19980407
+schema_version: v1.4.1
+formattedref: W3C REC-MathML-19980407
+title:
+- language: en
+  script: Latn
+  content: Mathematical Markup Language (MathML) 1.0 Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/REC-MathML-19980407/
+docidentifier:
+- content: W3C REC-MathML-19980407
   type: W3C
   primary: true
 docnumber: REC-MathML-19980407
 date:
 - type: published
-  value: '1998-04-07'
+  at: '1998-04-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Patrick D F
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick D F
       surname:
+        language: en
+        script: Latn
         content: Ion
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Robert R
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Robert R
       surname:
+        language: en
+        script: Latn
         content: Miner
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '1998-04-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Math Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-MathML
     title:
-    - content: Mathematical Markup Language (MathML™) 1.01 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-MathML/
-      type: src
-    docid:
-    - id: W3C REC-MathML
+    - language: en
+      script: Latn
+      content: Mathematical Markup Language (MathML™) 1.01 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-MathML/
+    docidentifier:
+    - content: W3C REC-MathML
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-math-19980224
     title:
-    - content: Mathematical Markup Language (MathML) 1.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1998/PR-math-19980224
-      type: src
-    docid:
-    - id: W3C PR-math-19980224
+    - language: en
+      script: Latn
+      content: Mathematical Markup Language (MathML) 1.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1998/PR-math-19980224
+    docidentifier:
+    - content: W3C PR-math-19980224
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-MathML-19990707
-    title:
-    - content: Mathematical Markup Language (MathML) 1.01 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/1999/07/REC-MathML-19990707/
-      type: src
-    docid:
-    - id: W3C REC-MathML-19990707
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Mathematical Markup Language (MathML) 1.01 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/1999/07/REC-MathML-19990707/
+    docidentifier:
+    - content: W3C REC-MathML-19990707
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-MathML-19980407
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Math Working Group
+    content: technicalReport
+  flavor: w3c

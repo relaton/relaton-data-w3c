@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-exi-evaluation-20090407
-title:
-- content: Efficient XML Interchange Evaluation
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/WD-exi-evaluation-20090407/
-  type: src
+id: W3CWDexievaluation20090407
 type: standard
-docid:
-- id: W3C WD-exi-evaluation-20090407
+schema_version: v1.4.1
+formattedref: W3C WD-exi-evaluation-20090407
+title:
+- language: en
+  script: Latn
+  content: Efficient XML Interchange Evaluation
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/WD-exi-evaluation-20090407/
+docidentifier:
+- content: W3C WD-exi-evaluation-20090407
   type: W3C
   primary: true
 docnumber: WD-exi-evaluation-20090407
 date:
 - type: published
-  value: '2009-04-07'
+  at: '2009-04-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Carine
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bournez
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2009-04-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Carine
+      surname:
+        language: en
+        script: Latn
+        content: Bournez
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Efficient Extensible Interchange  Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cexi-evaluation
     title:
-    - content: Efficient XML Interchange Evaluation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/exi-evaluation/
-      type: src
-    docid:
-    - id: W3C exi-evaluation
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange Evaluation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/exi-evaluation/
+    docidentifier:
+    - content: W3C exi-evaluation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-exi-evaluation-20080728
     title:
-    - content: Efficient XML Interchange Evaluation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-exi-evaluation-20080728
-      type: src
-    docid:
-    - id: W3C WD-exi-evaluation-20080728
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange Evaluation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-exi-evaluation-20080728
+    docidentifier:
+    - content: W3C WD-exi-evaluation-20080728
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-exi-evaluation-20090407
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Efficient Extensible Interchange  Working Group
+    content: technicalReport
+  flavor: w3c

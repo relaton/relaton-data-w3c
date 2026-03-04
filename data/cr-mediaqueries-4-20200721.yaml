@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-mediaqueries-4-20200721
-title:
-- content: Media Queries Level 4
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2020/CR-mediaqueries-4-20200721/
-  type: src
+id: W3CCRmediaqueries420200721
 type: standard
-docid:
-- id: W3C CR-mediaqueries-4-20200721
+schema_version: v1.4.1
+formattedref: W3C CR-mediaqueries-4-20200721
+title:
+- language: en
+  script: Latn
+  content: Media Queries Level 4
+source:
+- type: src
+  content: https://www.w3.org/TR/2020/CR-mediaqueries-4-20200721/
+docidentifier:
+- content: W3C CR-mediaqueries-4-20200721
   type: W3C
   primary: true
 docnumber: CR-mediaqueries-4-20200721
 date:
 - type: published
-  value: '2020-07-21'
+  at: '2020-07-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Florian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Florian
       surname:
+        language: en
+        script: Latn
         content: Rivoal
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tab
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tab
       surname:
+        language: en
+        script: Latn
         content: Atkins Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2020-07-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmediaqueries-4
     title:
-    - content: Media Queries Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mediaqueries-4/
-      type: src
-    docid:
-    - id: W3C mediaqueries-4
+    - language: en
+      script: Latn
+      content: Media Queries Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mediaqueries-4/
+    docidentifier:
+    - content: W3C mediaqueries-4
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-mediaqueries-4-20170905
     title:
-    - content: Media Queries Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/CR-mediaqueries-4-20170905/
-      type: src
-    docid:
-    - id: W3C CR-mediaqueries-4-20170905
+    - language: en
+      script: Latn
+      content: Media Queries Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/CR-mediaqueries-4-20170905/
+    docidentifier:
+    - content: W3C CR-mediaqueries-4-20170905
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-mediaqueries-4-20211225
-    title:
-    - content: Media Queries Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/CRD-mediaqueries-4-20211225/
-      type: src
-    docid:
-    - id: W3C CRD-mediaqueries-4-20211225
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Media Queries Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/CRD-mediaqueries-4-20211225/
+    docidentifier:
+    - content: W3C CRD-mediaqueries-4-20211225
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-mediaqueries-4-20200721
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

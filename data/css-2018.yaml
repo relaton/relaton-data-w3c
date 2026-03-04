@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss-2018
-title:
-- content: CSS Snapshot 2018
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css-2018/
-  type: src
+id: W3Ccss2018
 type: standard
-docid:
-- id: W3C css-2018
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS Snapshot 2018
+source:
+- type: src
+  content: https://www.w3.org/TR/css-2018/
+docidentifier:
+- content: W3C css-2018
   type: W3C
   primary: true
 docnumber: css-2018
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-css-2018-20190122
     title:
-    - content: CSS Snapshot 2018
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/NOTE-css-2018-20190122/
-      type: src
-    docid:
-    - id: W3C NOTE-css-2018-20190122
+    - language: en
+      script: Latn
+      content: CSS Snapshot 2018
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/NOTE-css-2018-20190122/
+    docidentifier:
+    - content: W3C NOTE-css-2018-20190122
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-css-2018-20181115
     title:
-    - content: CSS Snapshot 2018
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
-      type: src
-    docid:
-    - id: W3C NOTE-css-2018-20181115
+    - language: en
+      script: Latn
+      content: CSS Snapshot 2018
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
+    docidentifier:
+    - content: W3C NOTE-css-2018-20181115
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css-2018
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

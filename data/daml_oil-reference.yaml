@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cdaml+oil-reference
-title:
-- content: DAML+OIL (March 2001) Reference Description
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/daml+oil-reference
-  type: src
+id: W3Cdamloilreference
 type: standard
-docid:
-- id: W3C daml+oil-reference
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: DAML+OIL (March 2001) Reference Description
+source:
+- type: src
+  content: https://www.w3.org/TR/daml+oil-reference
+docidentifier:
+- content: W3C daml+oil-reference
   type: W3C
   primary: true
 docnumber: daml+oil-reference
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-daml+oil-reference-20011218
     title:
-    - content: DAML+OIL (March 2001) Reference Description
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/NOTE-daml+oil-reference-20011218
-      type: src
-    docid:
-    - id: W3C NOTE-daml+oil-reference-20011218
+    - language: en
+      script: Latn
+      content: DAML+OIL (March 2001) Reference Description
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/NOTE-daml+oil-reference-20011218
+    docidentifier:
+    - content: W3C NOTE-daml+oil-reference-20011218
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: daml+oil-reference
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

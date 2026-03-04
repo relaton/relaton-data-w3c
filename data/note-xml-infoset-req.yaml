@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xml-infoset-req
-title:
-- content: XML Information Set Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/NOTE-xml-infoset-req
-  type: src
+id: W3CNOTExmlinfosetreq
 type: standard
-docid:
-- id: W3C NOTE-xml-infoset-req
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: XML Information Set Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/NOTE-xml-infoset-req
+docidentifier:
+- content: W3C NOTE-xml-infoset-req
   type: W3C
   primary: true
 docnumber: NOTE-xml-infoset-req
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-xml-infoset-req-19990218
     title:
-    - content: XML Information Set Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/NOTE-xml-infoset-req-19990218
-      type: src
-    docid:
-    - id: W3C NOTE-xml-infoset-req-19990218
+    - language: en
+      script: Latn
+      content: XML Information Set Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/NOTE-xml-infoset-req-19990218
+    docidentifier:
+    - content: W3C NOTE-xml-infoset-req-19990218
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: NOTE-xml-infoset-req
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

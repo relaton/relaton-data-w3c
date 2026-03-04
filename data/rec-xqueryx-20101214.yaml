@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-xqueryx-20101214
-title:
-- content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/REC-xqueryx-20101214/
-  type: src
+id: W3CRECxqueryx20101214
 type: standard
-docid:
-- id: W3C REC-xqueryx-20101214
+schema_version: v1.4.1
+formattedref: W3C REC-xqueryx-20101214
+title:
+- language: en
+  script: Latn
+  content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/REC-xqueryx-20101214/
+docidentifier:
+- content: W3C REC-xqueryx-20101214
   type: W3C
   primary: true
 docnumber: REC-xqueryx-20101214
 date:
 - type: published
-  value: '2010-12-14'
+  at: '2010-12-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
       surname:
+        language: en
+        script: Latn
         content: Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Subramanian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Subramanian
       surname:
+        language: en
+        script: Latn
         content: Muralidhar
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2010-12-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxqueryx
     title:
-    - content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xqueryx/
-      type: src
-    docid:
-    - id: W3C xqueryx
+    - language: en
+      script: Latn
+      content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xqueryx/
+    docidentifier:
+    - content: W3C xqueryx
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPER-xqueryx-20090421
     title:
-    - content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/PER-xqueryx-20090421
-      type: src
-    docid:
-    - id: W3C PER-xqueryx-20090421
+    - language: en
+      script: Latn
+      content: XML Syntax for XQuery 1.0 (XQueryX) (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/PER-xqueryx-20090421
+    docidentifier:
+    - content: W3C PER-xqueryx-20090421
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-xqueryx-20101214
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
+    content: technicalReport
+  flavor: w3c

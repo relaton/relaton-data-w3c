@@ -1,60 +1,77 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-patent-practice-20020124
-title:
-- content: Current Patent Practice
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/NOTE-patent-practice-20020124
-  type: src
+id: W3CNOTEpatentpractice20020124
 type: standard
-docid:
-- id: W3C NOTE-patent-practice-20020124
+schema_version: v1.4.1
+formattedref: W3C NOTE-patent-practice-20020124
+title:
+- language: en
+  script: Latn
+  content: Current Patent Practice
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/NOTE-patent-practice-20020124
+docidentifier:
+- content: W3C NOTE-patent-practice-20020124
   type: W3C
   primary: true
 docnumber: NOTE-patent-practice-20020124
 date:
 - type: published
-  value: '2002-01-24'
+  at: '2002-01-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2002-01-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpatent-practice
     title:
-    - content: Current Patent Practice
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/patent-practice
-      type: src
-    docid:
-    - id: W3C patent-practice
+    - language: en
+      script: Latn
+      content: Current Patent Practice
+    source:
+    - type: src
+      content: https://www.w3.org/TR/patent-practice
+    docidentifier:
+    - content: W3C patent-practice
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-patent-practice-20020124
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

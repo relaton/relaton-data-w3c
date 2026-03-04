@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-DSIG-label-971024.html
-title:
-- content: PICS Signed Labels (DSig) 1.0 Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/pub/WWW/TR/WD-DSIG-label-971024.html
-  type: src
+id: W3CWDDSIGlabel971024html
 type: standard
-docid:
-- id: W3C WD-DSIG-label-971024.html
+schema_version: v1.4.1
+formattedref: W3C WD-DSIG-label-971024.html
+title:
+- language: en
+  script: Latn
+  content: PICS Signed Labels (DSig) 1.0 Specification
+source:
+- type: src
+  content: https://www.w3.org/pub/WWW/TR/WD-DSIG-label-971024.html
+docidentifier:
+- content: W3C WD-DSIG-label-971024.html
   type: W3C
   primary: true
 docnumber: WD-DSIG-label-971024.html
 date:
 - type: published
-  value: '1997-10-24'
+  at: '1997-10-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1997-10-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-DSig-label
     title:
-    - content: PICS Signed Labels (DSig) 1.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-DSig-label/
-      type: src
-    docid:
-    - id: W3C REC-DSig-label
+    - language: en
+      script: Latn
+      content: PICS Signed Labels (DSig) 1.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-DSig-label/
+    docidentifier:
+    - content: W3C REC-DSig-label
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-DSIG-label-970605.html
     title:
-    - content: PICS Signed Labels (DSig) 1.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/pub/WWW/TR/WD-DSIG-label-970605.html
-      type: src
-    docid:
-    - id: W3C WD-DSIG-label-970605.html
+    - language: en
+      script: Latn
+      content: PICS Signed Labels (DSig) 1.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/pub/WWW/TR/WD-DSIG-label-970605.html
+    docidentifier:
+    - content: W3C WD-DSIG-label-970605.html
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-DSig-label-971111
-    title:
-    - content: PICS Signed Labels (DSig) 1.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/PR-DSig-label-971111
-      type: src
-    docid:
-    - id: W3C PR-DSig-label-971111
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: PICS Signed Labels (DSig) 1.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/PR-DSig-label-971111
+    docidentifier:
+    - content: W3C PR-DSig-label-971111
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-DSIG-label-971024.html
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-webxr-hit-test-1-20210831
-title:
-- content: WebXR Hit Test Module
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/WD-webxr-hit-test-1-20210831/
-  type: src
+id: W3CWDwebxrhittest120210831
 type: standard
-docid:
-- id: W3C WD-webxr-hit-test-1-20210831
+schema_version: v1.4.1
+formattedref: W3C WD-webxr-hit-test-1-20210831
+title:
+- language: en
+  script: Latn
+  content: WebXR Hit Test Module
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/WD-webxr-hit-test-1-20210831/
+docidentifier:
+- content: W3C WD-webxr-hit-test-1-20210831
   type: W3C
   primary: true
 docnumber: WD-webxr-hit-test-1-20210831
 date:
 - type: published
-  value: '2021-08-31'
+  at: '2021-08-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Piotr
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bialecki
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-08-31'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Piotr
+      surname:
+        language: en
+        script: Latn
+        content: Bialecki
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Immersive Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebxr-hit-test-1
     title:
-    - content: WebXR Hit Test Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webxr-hit-test-1/
-      type: src
-    docid:
-    - id: W3C webxr-hit-test-1
+    - language: en
+      script: Latn
+      content: WebXR Hit Test Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webxr-hit-test-1/
+    docidentifier:
+    - content: W3C webxr-hit-test-1
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-webxr-hit-test-1-20220419
-    title:
-    - content: WebXR Hit Test Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-webxr-hit-test-1-20220419/
-      type: src
-    docid:
-    - id: W3C WD-webxr-hit-test-1-20220419
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebXR Hit Test Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-webxr-hit-test-1-20220419/
+    docidentifier:
+    - content: W3C WD-webxr-hit-test-1-20220419
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-webxr-hit-test-1-20210831
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Immersive Web Working Group
+    content: technicalReport
+  flavor: w3c

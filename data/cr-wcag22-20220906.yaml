@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-WCAG22-20220906
-title:
-- content: Web Content Accessibility Guidelines (WCAG) 2.2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/CR-WCAG22-20220906/
-  type: src
+id: W3CCRWCAG2220220906
 type: standard
-docid:
-- id: W3C CR-WCAG22-20220906
+schema_version: v1.4.1
+formattedref: W3C CR-WCAG22-20220906
+title:
+- language: en
+  script: Latn
+  content: Web Content Accessibility Guidelines (WCAG) 2.2
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/CR-WCAG22-20220906/
+docidentifier:
+- content: W3C CR-WCAG22-20220906
   type: W3C
   primary: true
 docnumber: CR-WCAG22-20220906
 date:
 - type: published
-  value: '2022-09-06'
+  at: '2022-09-06'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Charles
       surname:
+        language: en
+        script: Latn
         content: Adams
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alastair
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alastair
       surname:
+        language: en
+        script: Latn
         content: Campbell
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rachael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rachael
       surname:
+        language: en
+        script: Latn
         content: Bradley Montgomery
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andrew
       surname:
+        language: en
+        script: Latn
         content: Kirkpatrick
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-09-06'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessibility Guidelines Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWCAG22
     title:
-    - content: Web Content Accessibility Guidelines (WCAG) 2.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WCAG22/
-      type: src
-    docid:
-    - id: W3C WCAG22
+    - language: en
+      script: Latn
+      content: Web Content Accessibility Guidelines (WCAG) 2.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WCAG22/
+    docidentifier:
+    - content: W3C WCAG22
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-WCAG22-20210521
     title:
-    - content: Web Content Accessibility Guidelines (WCAG) 2.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-WCAG22-20210521/
-      type: src
-    docid:
-    - id: W3C WD-WCAG22-20210521
+    - language: en
+      script: Latn
+      content: Web Content Accessibility Guidelines (WCAG) 2.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-WCAG22-20210521/
+    docidentifier:
+    - content: W3C WD-WCAG22-20210521
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-WCAG22-20230125
-    title:
-    - content: Web Content Accessibility Guidelines (WCAG) 2.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-WCAG22-20230125/
-      type: src
-    docid:
-    - id: W3C CRD-WCAG22-20230125
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Content Accessibility Guidelines (WCAG) 2.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/CRD-WCAG22-20230125/
+    docidentifier:
+    - content: W3C CRD-WCAG22-20230125
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-WCAG22-20220906
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessibility Guidelines Working Group
+    content: technicalReport
+  flavor: w3c

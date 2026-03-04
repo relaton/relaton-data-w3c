@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cxmlp-am
-title:
-- content: XML Protocol Abstract Model
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/xmlp-am/
-  type: src
+id: W3Cxmlpam
 type: standard
-docid:
-- id: W3C xmlp-am
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: XML Protocol Abstract Model
+source:
+- type: src
+  content: https://www.w3.org/TR/xmlp-am/
+docidentifier:
+- content: W3C xmlp-am
   type: W3C
   primary: true
 docnumber: xmlp-am
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-xmlp-am-20030220
     title:
-    - content: XML Protocol Abstract Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-xmlp-am-20030220/
-      type: src
-    docid:
-    - id: W3C WD-xmlp-am-20030220
+    - language: en
+      script: Latn
+      content: XML Protocol Abstract Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-xmlp-am-20030220/
+    docidentifier:
+    - content: W3C WD-xmlp-am-20030220
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-xmlp-am-20010709
     title:
-    - content: XML Protocol Abstract Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/WD-xmlp-am-20010709/
-      type: src
-    docid:
-    - id: W3C WD-xmlp-am-20010709
+    - language: en
+      script: Latn
+      content: XML Protocol Abstract Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/WD-xmlp-am-20010709/
+    docidentifier:
+    - content: W3C WD-xmlp-am-20010709
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: xmlp-am
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

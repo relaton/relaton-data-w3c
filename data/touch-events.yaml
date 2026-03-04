@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ctouch-events
-title:
-- content: Touch Events
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/touch-events/
-  type: src
+id: W3Ctouchevents
 type: standard
-docid:
-- id: W3C touch-events
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Touch Events
+source:
+- type: src
+  content: https://www.w3.org/TR/touch-events/
+docidentifier:
+- content: W3C touch-events
   type: W3C
   primary: true
 docnumber: touch-events
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,101 +31,103 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-touch-events-20131010
     title:
-    - content: Touch Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-touch-events-20131010/
-      type: src
-    docid:
-    - id: W3C REC-touch-events-20131010
+    - language: en
+      script: Latn
+      content: Touch Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-touch-events-20131010/
+    docidentifier:
+    - content: W3C REC-touch-events-20131010
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-touch-events-20130509
     title:
-    - content: Touch Events version 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/PR-touch-events-20130509/
-      type: src
-    docid:
-    - id: W3C PR-touch-events-20130509
+    - language: en
+      script: Latn
+      content: Touch Events version 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/PR-touch-events-20130509/
+    docidentifier:
+    - content: W3C PR-touch-events-20130509
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-touch-events-20130124
     title:
-    - content: Touch Events version 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-touch-events-20130124/
-      type: src
-    docid:
-    - id: W3C WD-touch-events-20130124
+    - language: en
+      script: Latn
+      content: Touch Events version 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-touch-events-20130124/
+    docidentifier:
+    - content: W3C WD-touch-events-20130124
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-touch-events-20111215
     title:
-    - content: Touch Events version 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/CR-touch-events-20111215/
-      type: src
-    docid:
-    - id: W3C CR-touch-events-20111215
+    - language: en
+      script: Latn
+      content: Touch Events version 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/CR-touch-events-20111215/
+    docidentifier:
+    - content: W3C CR-touch-events-20111215
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-touch-events-20111027
     title:
-    - content: Touch Events version 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-touch-events-20111027/
-      type: src
-    docid:
-    - id: W3C WD-touch-events-20111027
+    - language: en
+      script: Latn
+      content: Touch Events version 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-touch-events-20111027/
+    docidentifier:
+    - content: W3C WD-touch-events-20111027
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-touch-events-20110913
     title:
-    - content: Touch Events version 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-touch-events-20110913/
-      type: src
-    docid:
-    - id: W3C WD-touch-events-20110913
+    - language: en
+      script: Latn
+      content: Touch Events version 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-touch-events-20110913/
+    docidentifier:
+    - content: W3C WD-touch-events-20110913
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-touch-events-20110505
     title:
-    - content: Touch Events Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-touch-events-20110505/
-      type: src
-    docid:
-    - id: W3C WD-touch-events-20110505
+    - language: en
+      script: Latn
+      content: Touch Events Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-touch-events-20110505/
+    docidentifier:
+    - content: W3C WD-touch-events-20110505
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: touch-events
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

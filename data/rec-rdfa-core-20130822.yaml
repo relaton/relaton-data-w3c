@@ -1,141 +1,138 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-rdfa-core-20130822
-title:
-- content: RDFa Core 1.1 - Second Edition
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/REC-rdfa-core-20130822/
-  type: src
+id: W3CRECrdfacore20130822
 type: standard
-docid:
-- id: W3C REC-rdfa-core-20130822
+schema_version: v1.4.1
+formattedref: W3C REC-rdfa-core-20130822
+title:
+- language: en
+  script: Latn
+  content: RDFa Core 1.1 - Second Edition
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/REC-rdfa-core-20130822/
+docidentifier:
+- content: W3C REC-rdfa-core-20130822
   type: W3C
   primary: true
 docnumber: REC-rdfa-core-20130822
 date:
 - type: published
-  value: '2013-08-22'
+  at: '2013-08-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ben
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ben
       surname:
+        language: en
+        script: Latn
         content: Adida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mark
       surname:
+        language: en
+        script: Latn
         content: Birbeck
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Shane
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Shane
       surname:
+        language: en
+        script: Latn
         content: McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ivan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ivan
       surname:
+        language: en
+        script: Latn
         content: Herman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-08-22'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDFa Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdfa-core
     title:
-    - content: RDFa Core 1.1 - Third Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdfa-core/
-      type: src
-    docid:
-    - id: W3C rdfa-core
+    - language: en
+      script: Latn
+      content: RDFa Core 1.1 - Third Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdfa-core/
+    docidentifier:
+    - content: W3C rdfa-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPER-rdfa-core-20130625
     title:
-    - content: RDFa Core 1.1 - Second Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/PER-rdfa-core-20130625/
-      type: src
-    docid:
-    - id: W3C PER-rdfa-core-20130625
+    - language: en
+      script: Latn
+      content: RDFa Core 1.1 - Second Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/PER-rdfa-core-20130625/
+    docidentifier:
+    - content: W3C PER-rdfa-core-20130625
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-rdfa-core-20130822
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDFa Working Group
+    content: technicalReport
+  flavor: w3c

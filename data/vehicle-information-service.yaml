@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cvehicle-information-service
-title:
-- content: Vehicle Information Service Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/vehicle-information-service/
-  type: src
+id: W3Cvehicleinformationservice
 type: standard
-docid:
-- id: W3C vehicle-information-service
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Vehicle Information Service Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/vehicle-information-service/
+docidentifier:
+- content: W3C vehicle-information-service
   type: W3C
   primary: true
 docnumber: vehicle-information-service
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDISC-vehicle-information-service-20220329
     title:
-    - content: Vehicle Information Service Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DISC-vehicle-information-service-20220329/
-      type: src
-    docid:
-    - id: W3C DISC-vehicle-information-service-20220329
+    - language: en
+      script: Latn
+      content: Vehicle Information Service Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DISC-vehicle-information-service-20220329/
+    docidentifier:
+    - content: W3C DISC-vehicle-information-service-20220329
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-vehicle-information-service-20180213
     title:
-    - content: Vehicle Information Service Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/CR-vehicle-information-service-20180213/
-      type: src
-    docid:
-    - id: W3C CR-vehicle-information-service-20180213
+    - language: en
+      script: Latn
+      content: Vehicle Information Service Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/CR-vehicle-information-service-20180213/
+    docidentifier:
+    - content: W3C CR-vehicle-information-service-20180213
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-vehicle-information-service-20161020
     title:
-    - content: Vehicle Signal Server Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-vehicle-information-service-20161020/
-      type: src
-    docid:
-    - id: W3C WD-vehicle-information-service-20161020
+    - language: en
+      script: Latn
+      content: Vehicle Signal Server Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-vehicle-information-service-20161020/
+    docidentifier:
+    - content: W3C WD-vehicle-information-service-20161020
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: vehicle-information-service
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

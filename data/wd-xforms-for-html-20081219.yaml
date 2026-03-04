@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-XForms-for-HTML-20081219
-title:
-- content: XForms for HTML
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/WD-XForms-for-HTML-20081219/
-  type: src
+id: W3CWDXFormsforHTML20081219
 type: standard
-docid:
-- id: W3C WD-XForms-for-HTML-20081219
+schema_version: v1.4.1
+formattedref: W3C WD-XForms-for-HTML-20081219
+title:
+- language: en
+  script: Latn
+  content: XForms for HTML
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/WD-XForms-for-HTML-20081219/
+docidentifier:
+- content: W3C WD-XForms-for-HTML-20081219
   type: W3C
   primary: true
 docnumber: WD-XForms-for-HTML-20081219
 date:
 - type: published
-  value: '2008-12-19'
+  at: '2008-12-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Boyer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2008-12-19'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: John
+      surname:
+        language: en
+        script: Latn
+        content: Boyer
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Forms Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CXForms-for-HTML
     title:
-    - content: XForms for HTML
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/XForms-for-HTML/
-      type: src
-    docid:
-    - id: W3C XForms-for-HTML
+    - language: en
+      script: Latn
+      content: XForms for HTML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/XForms-for-HTML/
+    docidentifier:
+    - content: W3C XForms-for-HTML
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-XForms-for-HTML-20081219
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Forms Working Group
+    content: technicalReport
+  flavor: w3c

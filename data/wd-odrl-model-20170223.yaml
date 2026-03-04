@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-odrl-model-20170223
-title:
-- content: ODRL Information Model
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/WD-odrl-model-20170223/
-  type: src
+id: W3CWDodrlmodel20170223
 type: standard
-docid:
-- id: W3C WD-odrl-model-20170223
+schema_version: v1.4.1
+formattedref: W3C WD-odrl-model-20170223
+title:
+- language: en
+  script: Latn
+  content: ODRL Information Model
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/WD-odrl-model-20170223/
+docidentifier:
+- content: W3C WD-odrl-model-20170223
   type: W3C
   primary: true
 docnumber: WD-odrl-model-20170223
 date:
 - type: published
-  value: '2017-02-23'
+  at: '2017-02-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Renato
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Renato
       surname:
+        language: en
+        script: Latn
         content: Iannella
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Serena
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Serena
       surname:
+        language: en
+        script: Latn
         content: Villata
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-02-23'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Permissions and Obligations Expression Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Codrl-model
     title:
-    - content: ODRL Information Model 2.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/odrl-model/
-      type: src
-    docid:
-    - id: W3C odrl-model
+    - language: en
+      script: Latn
+      content: ODRL Information Model 2.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/odrl-model/
+    docidentifier:
+    - content: W3C odrl-model
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-odrl-model-20160721
     title:
-    - content: ODRL Information Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-odrl-model-20160721/
-      type: src
-    docid:
-    - id: W3C WD-odrl-model-20160721
+    - language: en
+      script: Latn
+      content: ODRL Information Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-odrl-model-20160721/
+    docidentifier:
+    - content: W3C WD-odrl-model-20160721
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-odrl-model-20170926
-    title:
-    - content: ODRL Information Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/CR-odrl-model-20170926/
-      type: src
-    docid:
-    - id: W3C CR-odrl-model-20170926
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: ODRL Information Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/CR-odrl-model-20170926/
+    docidentifier:
+    - content: W3C CR-odrl-model-20170926
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-odrl-model-20170223
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Permissions and Obligations Expression Working Group
+    content: technicalReport
+  flavor: w3c

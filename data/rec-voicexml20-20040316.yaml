@@ -1,243 +1,210 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-voicexml20-20040316
-title:
-- content: Voice Extensible Markup Language (VoiceXML) Version 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/REC-voicexml20-20040316/
-  type: src
+id: W3CRECvoicexml2020040316
 type: standard
-docid:
-- id: W3C REC-voicexml20-20040316
+schema_version: v1.4.1
+formattedref: W3C REC-voicexml20-20040316
+title:
+- language: en
+  script: Latn
+  content: Voice Extensible Markup Language (VoiceXML) Version 2.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/REC-voicexml20-20040316/
+docidentifier:
+- content: W3C REC-voicexml20-20040316
   type: W3C
   primary: true
 docnumber: REC-voicexml20-20040316
 date:
 - type: published
-  value: '2004-03-16'
+  at: '2004-03-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Scott
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Scott
       surname:
+        language: en
+        script: Latn
         content: McGlashan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jerry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jerry
       surname:
+        language: en
+        script: Latn
         content: Carter
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Peter
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Peter
       surname:
+        language: en
+        script: Latn
         content: Danielsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
       surname:
+        language: en
+        script: Latn
         content: Ferrans
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andrew
       surname:
+        language: en
+        script: Latn
         content: Hunt
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bruce
       surname:
+        language: en
+        script: Latn
         content: Lucas
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Brandon
       surname:
+        language: en
+        script: Latn
         content: Porter
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Kenneth
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kenneth
       surname:
+        language: en
+        script: Latn
         content: Rehor
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Steph
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steph
       surname:
+        language: en
+        script: Latn
         content: Tryphonas
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-03-16'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Voice Browser Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvoicexml20
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) Version 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/voicexml20/
-      type: src
-    docid:
-    - id: W3C voicexml20
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) Version 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/voicexml20/
+    docidentifier:
+    - content: W3C voicexml20
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-voicexml20-20040203
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) Version 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/PR-voicexml20-20040203/
-      type: src
-    docid:
-    - id: W3C PR-voicexml20-20040203
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) Version 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/PR-voicexml20-20040203/
+    docidentifier:
+    - content: W3C PR-voicexml20-20040203
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-voicexml20-20040316
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Voice Browser Working Group
+    content: technicalReport
+  flavor: w3c

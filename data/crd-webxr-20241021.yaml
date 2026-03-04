@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-webxr-20241021
-title:
-- content: WebXR Device API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/CRD-webxr-20241021/
-  type: src
+id: W3CCRDwebxr20241021
 type: standard
-docid:
-- id: W3C CRD-webxr-20241021
+schema_version: v1.4.1
+formattedref: W3C CRD-webxr-20241021
+title:
+- language: en
+  script: Latn
+  content: WebXR Device API
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/CRD-webxr-20241021/
+docidentifier:
+- content: W3C CRD-webxr-20241021
   type: W3C
   primary: true
 docnumber: CRD-webxr-20241021
 date:
 - type: published
-  value: '2024-10-21'
+  at: '2024-10-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Brandon
       surname:
+        language: en
+        script: Latn
         content: Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Manish
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Manish
       surname:
+        language: en
+        script: Latn
         content: Goregaokar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rik
       surname:
+        language: en
+        script: Latn
         content: Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-10-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Immersive Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebxr
     title:
-    - content: WebXR Device API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webxr/
-      type: src
-    docid:
-    - id: W3C webxr
+    - language: en
+      script: Latn
+      content: WebXR Device API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webxr/
+    docidentifier:
+    - content: W3C webxr
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webxr-20240927
     title:
-    - content: WebXR Device API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-webxr-20240927/
-      type: src
-    docid:
-    - id: W3C CRD-webxr-20240927
+    - language: en
+      script: Latn
+      content: WebXR Device API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-webxr-20240927/
+    docidentifier:
+    - content: W3C CRD-webxr-20240927
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-webxr-20250326
-    title:
-    - content: WebXR Device API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webxr-20250326/
-      type: src
-    docid:
-    - id: W3C CRD-webxr-20250326
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebXR Device API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webxr-20250326/
+    docidentifier:
+    - content: W3C CRD-webxr-20250326
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-webxr-20241021
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Immersive Web Working Group
+    content: technicalReport
+  flavor: w3c

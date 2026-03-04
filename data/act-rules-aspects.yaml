@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cact-rules-aspects
-title:
-- content: 'Accessibility Conformance Testing Rules: Common Input Aspects'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/act-rules-aspects/
-  type: src
+id: W3Cactrulesaspects
 type: standard
-docid:
-- id: W3C act-rules-aspects
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Accessibility Conformance Testing Rules: Common Input Aspects'
+source:
+- type: src
+  content: https://www.w3.org/TR/act-rules-aspects/
+docidentifier:
+- content: W3C act-rules-aspects
   type: W3C
   primary: true
 docnumber: act-rules-aspects
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-act-rules-aspects-20220712
     title:
-    - content: 'Accessibility Conformance Testing Rules: Common Input Aspects'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/NOTE-act-rules-aspects-20220712/
-      type: src
-    docid:
-    - id: W3C NOTE-act-rules-aspects-20220712
+    - language: en
+      script: Latn
+      content: 'Accessibility Conformance Testing Rules: Common Input Aspects'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/NOTE-act-rules-aspects-20220712/
+    docidentifier:
+    - content: W3C NOTE-act-rules-aspects-20220712
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-act-rules-aspects-20190416
     title:
-    - content: 'Accessibility Conformance Testing (ACT) Rules: Common Input Aspects'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/NOTE-act-rules-aspects-20190416/
-      type: src
-    docid:
-    - id: W3C NOTE-act-rules-aspects-20190416
+    - language: en
+      script: Latn
+      content: 'Accessibility Conformance Testing (ACT) Rules: Common Input Aspects'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/NOTE-act-rules-aspects-20190416/
+    docidentifier:
+    - content: W3C NOTE-act-rules-aspects-20190416
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: act-rules-aspects
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csparql11-results-json
-title:
-- content: SPARQL 1.1 Query Results JSON Format
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/sparql11-results-json/
-  type: src
+id: W3Csparql11resultsjson
 type: standard
-docid:
-- id: W3C sparql11-results-json
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SPARQL 1.1 Query Results JSON Format
+source:
+- type: src
+  content: https://www.w3.org/TR/sparql11-results-json/
+docidentifier:
+- content: W3C sparql11-results-json
   type: W3C
   primary: true
 docnumber: sparql11-results-json
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-sparql11-results-json-20130321
     title:
-    - content: SPARQL 1.1 Query Results JSON Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321/
-      type: src
-    docid:
-    - id: W3C REC-sparql11-results-json-20130321
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Query Results JSON Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321/
+    docidentifier:
+    - content: W3C REC-sparql11-results-json-20130321
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-sparql11-results-json-20121108
     title:
-    - content: SPARQL 1.1 Query Results JSON Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/PR-sparql11-results-json-20121108/
-      type: src
-    docid:
-    - id: W3C PR-sparql11-results-json-20121108
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Query Results JSON Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/PR-sparql11-results-json-20121108/
+    docidentifier:
+    - content: W3C PR-sparql11-results-json-20121108
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sparql11-results-json-20110913
     title:
-    - content: SPARQL 1.1 Query Results JSON Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
-      type: src
-    docid:
-    - id: W3C WD-sparql11-results-json-20110913
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Query Results JSON Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
+    docidentifier:
+    - content: W3C WD-sparql11-results-json-20110913
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: sparql11-results-json
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

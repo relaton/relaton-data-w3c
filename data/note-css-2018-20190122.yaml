@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-css-2018-20190122
-title:
-- content: CSS Snapshot 2018
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/NOTE-css-2018-20190122/
-  type: src
+id: W3CNOTEcss201820190122
 type: standard
-docid:
-- id: W3C NOTE-css-2018-20190122
+schema_version: v1.4.1
+formattedref: W3C NOTE-css-2018-20190122
+title:
+- language: en
+  script: Latn
+  content: CSS Snapshot 2018
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/NOTE-css-2018-20190122/
+docidentifier:
+- content: W3C NOTE-css-2018-20190122
   type: W3C
   primary: true
 docnumber: NOTE-css-2018-20190122
 date:
 - type: published
-  value: '2019-01-22'
+  at: '2019-01-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Tab
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tab
       surname:
+        language: en
+        script: Latn
         content: Atkins Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Elika
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elika
       surname:
+        language: en
+        script: Latn
         content: Etemad
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Florian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Florian
       surname:
+        language: en
+        script: Latn
         content: Rivoal
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-01-22'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-2018
     title:
-    - content: CSS Snapshot 2018
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-2018/
-      type: src
-    docid:
-    - id: W3C css-2018
+    - language: en
+      script: Latn
+      content: CSS Snapshot 2018
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-2018/
+    docidentifier:
+    - content: W3C css-2018
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-css-2018-20181115
     title:
-    - content: CSS Snapshot 2018
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
-      type: src
-    docid:
-    - id: W3C NOTE-css-2018-20181115
+    - language: en
+      script: Latn
+      content: CSS Snapshot 2018
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/NOTE-css-2018-20181115/
+    docidentifier:
+    - content: W3C NOTE-css-2018-20181115
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-css-2018-20190122
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-qaframe-test-20040820
-title:
-- content: 'QA Framework: Test Guidelines'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/WD-qaframe-test-20040820/
-  type: src
+id: W3CWDqaframetest20040820
 type: standard
-docid:
-- id: W3C WD-qaframe-test-20040820
+schema_version: v1.4.1
+formattedref: W3C WD-qaframe-test-20040820
+title:
+- language: en
+  script: Latn
+  content: 'QA Framework: Test Guidelines'
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/WD-qaframe-test-20040820/
+docidentifier:
+- content: W3C WD-qaframe-test-20040820
   type: W3C
   primary: true
 docnumber: WD-qaframe-test-20040820
 date:
 - type: published
-  value: '2004-08-20'
+  at: '2004-08-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick
       surname:
+        language: en
+        script: Latn
         content: Curran
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dimitris
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dimitris
       surname:
+        language: en
+        script: Latn
         content: Dimitriadis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-08-20'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Quality Assurance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cqaframe-test
     title:
-    - content: 'QA Framework: Test Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/qaframe-test/
-      type: src
-    docid:
-    - id: W3C qaframe-test
+    - language: en
+      script: Latn
+      content: 'QA Framework: Test Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/qaframe-test/
+    docidentifier:
+    - content: W3C qaframe-test
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-qaframe-test-20040225
     title:
-    - content: 'QA Framework: Test Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-qaframe-test-20040225/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-test-20040225
+    - language: en
+      script: Latn
+      content: 'QA Framework: Test Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-qaframe-test-20040225/
+    docidentifier:
+    - content: W3C WD-qaframe-test-20040225
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WD-qaframe-test-20040820
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Quality Assurance Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-skos-primer-20080829
-title:
-- content: SKOS Simple Knowledge Organization System Primer
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/WD-skos-primer-20080829/
-  type: src
+id: W3CWDskosprimer20080829
 type: standard
-docid:
-- id: W3C WD-skos-primer-20080829
+schema_version: v1.4.1
+formattedref: W3C WD-skos-primer-20080829
+title:
+- language: en
+  script: Latn
+  content: SKOS Simple Knowledge Organization System Primer
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/WD-skos-primer-20080829/
+docidentifier:
+- content: W3C WD-skos-primer-20080829
   type: W3C
   primary: true
 docnumber: WD-skos-primer-20080829
 date:
 - type: published
-  value: '2008-08-29'
+  at: '2008-08-29'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Antoine
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Antoine
       surname:
+        language: en
+        script: Latn
         content: Isaac
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ed
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ed
       surname:
+        language: en
+        script: Latn
         content: Summers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2008-08-29'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Semantic Web Deployment Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cskos-primer
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/skos-primer/
-      type: src
-    docid:
-    - id: W3C skos-primer
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/skos-primer/
+    docidentifier:
+    - content: W3C skos-primer
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-skos-primer-20080221
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-skos-primer-20080221/
-      type: src
-    docid:
-    - id: W3C WD-skos-primer-20080221
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-skos-primer-20080221/
+    docidentifier:
+    - content: W3C WD-skos-primer-20080221
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-skos-primer-20090317
-    title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-skos-primer-20090317/
-      type: src
-    docid:
-    - id: W3C WD-skos-primer-20090317
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-skos-primer-20090317/
+    docidentifier:
+    - content: W3C WD-skos-primer-20090317
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-skos-primer-20080829
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Semantic Web Deployment Working Group
+    content: technicalReport
+  flavor: w3c

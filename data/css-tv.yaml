@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss-tv
-title:
-- content: CSS TV Profile 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css-tv/
-  type: src
+id: W3Ccsstv
 type: standard
-docid:
-- id: W3C css-tv
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS TV Profile 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/css-tv/
+docidentifier:
+- content: W3C css-tv
   type: W3C
   primary: true
 docnumber: css-tv
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-css-tv-20141014
     title:
-    - content: CSS TV Profile 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/NOTE-css-tv-20141014/
-      type: src
-    docid:
-    - id: W3C NOTE-css-tv-20141014
+    - language: en
+      script: Latn
+      content: CSS TV Profile 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/NOTE-css-tv-20141014/
+    docidentifier:
+    - content: W3C NOTE-css-tv-20141014
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-css-tv-20030514
     title:
-    - content: CSS TV Profile 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/CR-css-tv-20030514
-      type: src
-    docid:
-    - id: W3C CR-css-tv-20030514
+    - language: en
+      script: Latn
+      content: CSS TV Profile 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/CR-css-tv-20030514
+    docidentifier:
+    - content: W3C CR-css-tv-20030514
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-css-tv-20020807
     title:
-    - content: CSS TV Profile 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/CR-css-tv-20020807
-      type: src
-    docid:
-    - id: W3C CR-css-tv-20020807
+    - language: en
+      script: Latn
+      content: CSS TV Profile 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/CR-css-tv-20020807
+    docidentifier:
+    - content: W3C CR-css-tv-20020807
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-tv-20020515
     title:
-    - content: CSS TV Profile 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-css-tv-20020515
-      type: src
-    docid:
-    - id: W3C WD-css-tv-20020515
+    - language: en
+      script: Latn
+      content: CSS TV Profile 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-css-tv-20020515
+    docidentifier:
+    - content: W3C WD-css-tv-20020515
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-tv-20011221
     title:
-    - content: CSS TV Profile 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/WD-css-tv-20011221
-      type: src
-    docid:
-    - id: W3C WD-css-tv-20011221
+    - language: en
+      script: Latn
+      content: CSS TV Profile 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/WD-css-tv-20011221
+    docidentifier:
+    - content: W3C WD-css-tv-20011221
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css-tv
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-session-id-960221
-title:
-- content: Session Identification URI
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/WD-session-id-960221
-  type: src
+id: W3CWDsessionid960221
 type: standard
-docid:
-- id: W3C WD-session-id-960221
+schema_version: v1.4.1
+formattedref: W3C WD-session-id-960221
+title:
+- language: en
+  script: Latn
+  content: Session Identification URI
+source:
+- type: src
+  content: https://www.w3.org/TR/WD-session-id-960221
+docidentifier:
+- content: W3C WD-session-id-960221
   type: W3C
   primary: true
 docnumber: WD-session-id-960221
 date:
 - type: published
-  value: '1996-02-21'
+  at: '1996-02-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Dan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Connolly
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '1996-02-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Dan
+      surname:
+        language: en
+        script: Latn
+        content: Connolly
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWD-session-id
     title:
-    - content: Session Identification URI
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-session-id
-      type: src
-    docid:
-    - id: W3C WD-session-id
+    - language: en
+      script: Latn
+      content: Session Identification URI
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-session-id
+    docidentifier:
+    - content: W3C WD-session-id
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: WD-session-id-960221
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

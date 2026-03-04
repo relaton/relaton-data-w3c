@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-pwp-ucr-20170502
-title:
-- content: Web Publications Use Cases and Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/NOTE-pwp-ucr-20170502/
-  type: src
+id: W3CNOTEpwpucr20170502
 type: standard
-docid:
-- id: W3C NOTE-pwp-ucr-20170502
+schema_version: v1.4.1
+formattedref: W3C NOTE-pwp-ucr-20170502
+title:
+- language: en
+  script: Latn
+  content: Web Publications Use Cases and Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/NOTE-pwp-ucr-20170502/
+docidentifier:
+- content: W3C NOTE-pwp-ucr-20170502
   type: W3C
   primary: true
 docnumber: NOTE-pwp-ucr-20170502
 date:
 - type: published
-  value: '2017-05-02'
+  at: '2017-05-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Heather
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Heather
       surname:
+        language: en
+        script: Latn
         content: Flanagan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ivan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ivan
       surname:
+        language: en
+        script: Latn
         content: Herman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Leonard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Leonard
       surname:
+        language: en
+        script: Latn
         content: Rosenthol
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-05-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Digital Publishing Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpwp-ucr
     title:
-    - content: Web Publications Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/pwp-ucr/
-      type: src
-    docid:
-    - id: W3C pwp-ucr
+    - language: en
+      script: Latn
+      content: Web Publications Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/pwp-ucr/
+    docidentifier:
+    - content: W3C pwp-ucr
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-pwp-ucr-20170309
     title:
-    - content: Web Publications Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-pwp-ucr-20170309/
-      type: src
-    docid:
-    - id: W3C WD-pwp-ucr-20170309
+    - language: en
+      script: Latn
+      content: Web Publications Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-pwp-ucr-20170309/
+    docidentifier:
+    - content: W3C WD-pwp-ucr-20170309
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-pwp-ucr-20190219
-    title:
-    - content: Web Publications Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190219/
-      type: src
-    docid:
-    - id: W3C NOTE-pwp-ucr-20190219
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Publications Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190219/
+    docidentifier:
+    - content: W3C NOTE-pwp-ucr-20190219
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-pwp-ucr-20170502
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Digital Publishing Interest Group
+    content: technicalReport
+  flavor: w3c

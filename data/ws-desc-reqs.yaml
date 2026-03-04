@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cws-desc-reqs
-title:
-- content: Web Services Description Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ws-desc-reqs/
-  type: src
+id: W3Cwsdescreqs
 type: standard
-docid:
-- id: W3C ws-desc-reqs
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Services Description Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/ws-desc-reqs/
+docidentifier:
+- content: W3C ws-desc-reqs
   type: W3C
   primary: true
 docnumber: ws-desc-reqs
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-desc-reqs-20021028
     title:
-    - content: Web Services Description Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-ws-desc-reqs-20021028/
-      type: src
-    docid:
-    - id: W3C WD-ws-desc-reqs-20021028
+    - language: en
+      script: Latn
+      content: Web Services Description Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-ws-desc-reqs-20021028/
+    docidentifier:
+    - content: W3C WD-ws-desc-reqs-20021028
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-desc-reqs-20020429
     title:
-    - content: Web Service Description Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-ws-desc-reqs-20020429
-      type: src
-    docid:
-    - id: W3C WD-ws-desc-reqs-20020429
+    - language: en
+      script: Latn
+      content: Web Service Description Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-ws-desc-reqs-20020429
+    docidentifier:
+    - content: W3C WD-ws-desc-reqs-20020429
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ws-desc-reqs
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-dpub-css-priorities-20150820
-title:
-- content: Priorities for CSS from the Digital Publishing Interest Group
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/
-  type: src
+id: W3CWDdpubcsspriorities20150820
 type: standard
-docid:
-- id: W3C WD-dpub-css-priorities-20150820
+schema_version: v1.4.1
+formattedref: W3C WD-dpub-css-priorities-20150820
+title:
+- language: en
+  script: Latn
+  content: Priorities for CSS from the Digital Publishing Interest Group
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/WD-dpub-css-priorities-20150820/
+docidentifier:
+- content: W3C WD-dpub-css-priorities-20150820
   type: W3C
   primary: true
 docnumber: WD-dpub-css-priorities-20150820
 date:
 - type: published
-  value: '2015-08-20'
+  at: '2015-08-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cramer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-08-20'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
+      surname:
+        language: en
+        script: Latn
+        content: Cramer
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Digital Publishing Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdpub-css-priorities
     title:
-    - content: Priorities for CSS from the Digital Publishing Interest Group
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/dpub-css-priorities/
-      type: src
-    docid:
-    - id: W3C dpub-css-priorities
+    - language: en
+      script: Latn
+      content: Priorities for CSS from the Digital Publishing Interest Group
+    source:
+    - type: src
+      content: https://www.w3.org/TR/dpub-css-priorities/
+    docidentifier:
+    - content: W3C dpub-css-priorities
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-dpub-css-priorities-20150820
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Digital Publishing Interest Group
+    content: technicalReport
+  flavor: w3c

@@ -1,76 +1,92 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-WAI-PAGEAUTH-0203
-title:
-- content: Web Content Accessibility Guidelines 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-0203
-  type: src
+id: W3CWDWAIPAGEAUTH0203
 type: standard
-docid:
-- id: W3C WD-WAI-PAGEAUTH-0203
+schema_version: v1.4.1
+formattedref: W3C WD-WAI-PAGEAUTH-0203
+title:
+- language: en
+  script: Latn
+  content: Web Content Accessibility Guidelines 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-0203
+docidentifier:
+- content: W3C WD-WAI-PAGEAUTH-0203
   type: W3C
   primary: true
 docnumber: WD-WAI-PAGEAUTH-0203
 date:
 - type: published
-  value: '1998-02-03'
+  at: '1998-02-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1998-02-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWAI-WEBCONTENT
     title:
-    - content: Web Content Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WAI-WEBCONTENT/
-      type: src
-    docid:
-    - id: W3C WAI-WEBCONTENT
+    - language: en
+      script: Latn
+      content: Web Content Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WAI-WEBCONTENT/
+    docidentifier:
+    - content: W3C WAI-WEBCONTENT
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-WAI-PAGEAUTH-0414
-    title:
-    - content: Web Content Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-0414
-      type: src
-    docid:
-    - id: W3C WD-WAI-PAGEAUTH-0414
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Content Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1998/WD-WAI-PAGEAUTH-0414
+    docidentifier:
+    - content: W3C WD-WAI-PAGEAUTH-0414
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-WAI-PAGEAUTH-0203
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

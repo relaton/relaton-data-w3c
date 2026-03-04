@@ -1,28 +1,30 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-PICS-services
-title:
-- content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
-    Descriptions
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/REC-PICS-services/
-  type: src
+id: W3CRECPICSservices
 type: standard
-docid:
-- id: W3C REC-PICS-services
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
+    Descriptions
+source:
+- type: src
+  content: https://www.w3.org/TR/REC-PICS-services/
+docidentifier:
+- content: W3C REC-PICS-services
   type: W3C
   primary: true
 docnumber: REC-PICS-services
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -30,38 +32,40 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-PICS-services-20091124
     title:
-    - content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
+    - language: en
+      script: Latn
+      content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
         Descriptions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/REC-PICS-services-20091124/
-      type: src
-    docid:
-    - id: W3C REC-PICS-services-20091124
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/REC-PICS-services-20091124/
+    docidentifier:
+    - content: W3C REC-PICS-services-20091124
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CREC-PICS-services-961031
     title:
-    - content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
+    - language: en
+      script: Latn
+      content: PICS 1.1 Rating Services and Rating Systems -- and Their Machine Readable
         Descriptions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-PICS-services-961031
-      type: src
-    docid:
-    - id: W3C REC-PICS-services-961031
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-PICS-services-961031
+    docidentifier:
+    - content: W3C REC-PICS-services-961031
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: REC-PICS-services
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

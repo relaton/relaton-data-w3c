@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-netinfo-api-20140410
-title:
-- content: The Network Information API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/NOTE-netinfo-api-20140410/
-  type: src
+id: W3CNOTEnetinfoapi20140410
 type: standard
-docid:
-- id: W3C NOTE-netinfo-api-20140410
+schema_version: v1.4.1
+formattedref: W3C NOTE-netinfo-api-20140410
+title:
+- language: en
+  script: Latn
+  content: The Network Information API
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/NOTE-netinfo-api-20140410/
+docidentifier:
+- content: W3C NOTE-netinfo-api-20140410
   type: W3C
   primary: true
 docnumber: NOTE-netinfo-api-20140410
 date:
 - type: published
-  value: '2014-04-10'
+  at: '2014-04-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Mounir
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lamouri
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2014-04-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mounir
+      surname:
+        language: en
+        script: Latn
+        content: Lamouri
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cnetinfo-api
     title:
-    - content: The Network Information API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/netinfo-api/
-      type: src
-    docid:
-    - id: W3C netinfo-api
+    - language: en
+      script: Latn
+      content: The Network Information API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/netinfo-api/
+    docidentifier:
+    - content: W3C netinfo-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-netinfo-api-20121129
     title:
-    - content: The Network Information API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-netinfo-api-20121129/
-      type: src
-    docid:
-    - id: W3C WD-netinfo-api-20121129
+    - language: en
+      script: Latn
+      content: The Network Information API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-netinfo-api-20121129/
+    docidentifier:
+    - content: W3C WD-netinfo-api-20121129
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-netinfo-api-20140410
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

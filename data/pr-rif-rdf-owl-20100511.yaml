@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-rif-rdf-owl-20100511
-title:
-- content: RIF RDF and OWL Compatibility
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/PR-rif-rdf-owl-20100511/
-  type: src
+id: W3CPRrifrdfowl20100511
 type: standard
-docid:
-- id: W3C PR-rif-rdf-owl-20100511
+schema_version: v1.4.1
+formattedref: W3C PR-rif-rdf-owl-20100511
+title:
+- language: en
+  script: Latn
+  content: RIF RDF and OWL Compatibility
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/PR-rif-rdf-owl-20100511/
+docidentifier:
+- content: W3C PR-rif-rdf-owl-20100511
   type: W3C
   primary: true
 docnumber: PR-rif-rdf-owl-20100511
 date:
 - type: published
-  value: '2010-05-11'
+  at: '2010-05-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Jos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: de Bruijn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2010-05-11'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jos
+      surname:
+        language: en
+        script: Latn
+        content: de Bruijn
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Rule Interchange Format Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crif-rdf-owl
     title:
-    - content: RIF RDF and OWL Compatibility (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rif-rdf-owl/
-      type: src
-    docid:
-    - id: W3C rif-rdf-owl
+    - language: en
+      script: Latn
+      content: RIF RDF and OWL Compatibility (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rif-rdf-owl/
+    docidentifier:
+    - content: W3C rif-rdf-owl
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-rif-rdf-owl-20091001
     title:
-    - content: RIF RDF and OWL Compatibility
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/CR-rif-rdf-owl-20091001/
-      type: src
-    docid:
-    - id: W3C CR-rif-rdf-owl-20091001
+    - language: en
+      script: Latn
+      content: RIF RDF and OWL Compatibility
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/CR-rif-rdf-owl-20091001/
+    docidentifier:
+    - content: W3C CR-rif-rdf-owl-20091001
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-rif-rdf-owl-20100622
-    title:
-    - content: RIF RDF and OWL Compatibility
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/REC-rif-rdf-owl-20100622/
-      type: src
-    docid:
-    - id: W3C REC-rif-rdf-owl-20100622
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RIF RDF and OWL Compatibility
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/REC-rif-rdf-owl-20100622/
+    docidentifier:
+    - content: W3C REC-rif-rdf-owl-20100622
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-rif-rdf-owl-20100511
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Rule Interchange Format Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cxpath-functions
-title:
-- content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/xpath-functions/
-  type: src
+id: W3Cxpathfunctions
 type: standard
-docid:
-- id: W3C xpath-functions
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/xpath-functions/
+docidentifier:
+- content: W3C xpath-functions
   type: W3C
   primary: true
 docnumber: xpath-functions
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-xpath-functions-20101214
     title:
-    - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/REC-xpath-functions-20101214/
-      type: src
-    docid:
-    - id: W3C REC-xpath-functions-20101214
+    - language: en
+      script: Latn
+      content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/REC-xpath-functions-20101214/
+    docidentifier:
+    - content: W3C REC-xpath-functions-20101214
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPER-xpath-functions-20090421
     title:
-    - content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/PER-xpath-functions-20090421/
-      type: src
-    docid:
-    - id: W3C PER-xpath-functions-20090421
+    - language: en
+      script: Latn
+      content: XQuery 1.0 and XPath 2.0 Functions and Operators (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/PER-xpath-functions-20090421/
+    docidentifier:
+    - content: W3C PER-xpath-functions-20090421
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: xpath-functions
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

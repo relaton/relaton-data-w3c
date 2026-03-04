@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-its-20061102
-title:
-- content: Internationalization Tag Set (ITS) Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2006/CR-its-20061102/
-  type: src
+id: W3CCRits20061102
 type: standard
-docid:
-- id: W3C CR-its-20061102
+schema_version: v1.4.1
+formattedref: W3C CR-its-20061102
+title:
+- language: en
+  script: Latn
+  content: Internationalization Tag Set (ITS) Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2006/CR-its-20061102/
+docidentifier:
+- content: W3C CR-its-20061102
   type: W3C
   primary: true
 docnumber: CR-its-20061102
 date:
 - type: published
-  value: '2006-11-02'
+  at: '2006-11-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Christian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Christian
       surname:
+        language: en
+        script: Latn
         content: Lieske
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Felix
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Felix
       surname:
+        language: en
+        script: Latn
         content: Sasaki
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2006-11-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Tag Set (ITS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cits
     title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/its/
-      type: src
-    docid:
-    - id: W3C its
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/its/
+    docidentifier:
+    - content: W3C its
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-its-20060518
     title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-its-20060518/
-      type: src
-    docid:
-    - id: W3C WD-its-20060518
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-its-20060518/
+    docidentifier:
+    - content: W3C WD-its-20060518
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-its-20070226
-    title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/PR-its-20070226/
-      type: src
-    docid:
-    - id: W3C PR-its-20070226
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/PR-its-20070226/
+    docidentifier:
+    - content: W3C PR-its-20070226
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-its-20061102
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Tag Set (ITS) Working Group
+    content: technicalReport
+  flavor: w3c

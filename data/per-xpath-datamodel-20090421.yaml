@@ -1,179 +1,179 @@
 ---
-schema-version: v1.2.9
-id: W3CPER-xpath-datamodel-20090421
-title:
-- content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/PER-xpath-datamodel-20090421/
-  type: src
+id: W3CPERxpathdatamodel20090421
 type: standard
-docid:
-- id: W3C PER-xpath-datamodel-20090421
+schema_version: v1.4.1
+formattedref: W3C PER-xpath-datamodel-20090421
+title:
+- language: en
+  script: Latn
+  content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/PER-xpath-datamodel-20090421/
+docidentifier:
+- content: W3C PER-xpath-datamodel-20090421
   type: W3C
   primary: true
 docnumber: PER-xpath-datamodel-20090421
 date:
 - type: published
-  value: '2009-04-21'
+  at: '2009-04-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Anders
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Anders
       surname:
+        language: en
+        script: Latn
         content: Berglund
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Norman
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Norman
       surname:
+        language: en
+        script: Latn
         content: Walsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonathan
       surname:
+        language: en
+        script: Latn
         content: Marsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Marton
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Marton
       surname:
+        language: en
+        script: Latn
         content: Nagy
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ashok
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ashok
       surname:
+        language: en
+        script: Latn
         content: Malhotra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mary
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mary
       surname:
+        language: en
+        script: Latn
         content: Fernandez
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2009-04-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Edited Recommendation
+    content: Proposed Edited Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxpath-datamodel
     title:
-    - content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xpath-datamodel/
-      type: src
-    docid:
-    - id: W3C xpath-datamodel
+    - language: en
+      script: Latn
+      content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xpath-datamodel/
+    docidentifier:
+    - content: W3C xpath-datamodel
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-xpath-datamodel-20101214
-    title:
-    - content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/REC-xpath-datamodel-20101214/
-      type: src
-    docid:
-    - id: W3C REC-xpath-datamodel-20101214
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XQuery 1.0 and XPath 2.0 Data Model (XDM) (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/REC-xpath-datamodel-20101214/
+    docidentifier:
+    - content: W3C REC-xpath-datamodel-20101214
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Edited Recommendation
-    format: text/plain
   number: PER-xpath-datamodel-20090421
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

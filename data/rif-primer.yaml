@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Crif-primer
-title:
-- content: RIF Primer (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/rif-primer/
-  type: src
+id: W3Crifprimer
 type: standard
-docid:
-- id: W3C rif-primer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: RIF Primer (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/rif-primer/
+docidentifier:
+- content: W3C rif-primer
   type: W3C
   primary: true
 docnumber: rif-primer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-rif-primer-20130205
     title:
-    - content: RIF Primer (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/NOTE-rif-primer-20130205/
-      type: src
-    docid:
-    - id: W3C NOTE-rif-primer-20130205
+    - language: en
+      script: Latn
+      content: RIF Primer (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/NOTE-rif-primer-20130205/
+    docidentifier:
+    - content: W3C NOTE-rif-primer-20130205
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-rif-primer-20121211
     title:
-    - content: RIF Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/NOTE-rif-primer-20121211/
-      type: src
-    docid:
-    - id: W3C NOTE-rif-primer-20121211
+    - language: en
+      script: Latn
+      content: RIF Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/NOTE-rif-primer-20121211/
+    docidentifier:
+    - content: W3C NOTE-rif-primer-20121211
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: rif-primer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

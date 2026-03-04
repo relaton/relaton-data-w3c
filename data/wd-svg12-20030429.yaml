@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-SVG12-20030429
-title:
-- content: Scalable Vector Graphics (SVG) 1.2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/WD-SVG12-20030429/
-  type: src
+id: W3CWDSVG1220030429
 type: standard
-docid:
-- id: W3C WD-SVG12-20030429
+schema_version: v1.4.1
+formattedref: W3C WD-SVG12-20030429
+title:
+- language: en
+  script: Latn
+  content: Scalable Vector Graphics (SVG) 1.2
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/WD-SVG12-20030429/
+docidentifier:
+- content: W3C WD-SVG12-20030429
   type: W3C
   primary: true
 docnumber: WD-SVG12-20030429
 date:
 - type: published
-  value: '2003-04-29'
+  at: '2003-04-29'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Dean
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Jackson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2003-04-29'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Dean
+      surname:
+        language: en
+        script: Latn
+        content: Jackson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SVG Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CSVG12
     title:
-    - content: Scalable Vector Graphics (SVG) Full 1.2 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/SVG12/
-      type: src
-    docid:
-    - id: W3C SVG12
+    - language: en
+      script: Latn
+      content: Scalable Vector Graphics (SVG) Full 1.2 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/SVG12/
+    docidentifier:
+    - content: W3C SVG12
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-SVG12-20021115
     title:
-    - content: Scalable Vector Graphics (SVG) 1.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-SVG12-20021115/
-      type: src
-    docid:
-    - id: W3C WD-SVG12-20021115
+    - language: en
+      script: Latn
+      content: Scalable Vector Graphics (SVG) 1.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-SVG12-20021115/
+    docidentifier:
+    - content: W3C WD-SVG12-20021115
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-SVG12-20030715
-    title:
-    - content: Scalable Vector Graphics (SVG) 1.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-SVG12-20030715/
-      type: src
-    docid:
-    - id: W3C WD-SVG12-20030715
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Scalable Vector Graphics (SVG) 1.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-SVG12-20030715/
+    docidentifier:
+    - content: W3C WD-SVG12-20030715
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-SVG12-20030429
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SVG Working Group
+    content: technicalReport
+  flavor: w3c

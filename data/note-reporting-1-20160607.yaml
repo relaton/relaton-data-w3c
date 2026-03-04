@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-reporting-1-20160607
-title:
-- content: Reporting API 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/NOTE-reporting-1-20160607/
-  type: src
+id: W3CNOTEreporting120160607
 type: standard
-docid:
-- id: W3C NOTE-reporting-1-20160607
+schema_version: v1.4.1
+formattedref: W3C NOTE-reporting-1-20160607
+title:
+- language: en
+  script: Latn
+  content: Reporting API 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/NOTE-reporting-1-20160607/
+docidentifier:
+- content: W3C NOTE-reporting-1-20160607
   type: W3C
   primary: true
 docnumber: NOTE-reporting-1-20160607
 date:
 - type: published
-  value: '2016-06-07'
+  at: '2016-06-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ilya
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ilya
       surname:
+        language: en
+        script: Latn
         content: Grigorik
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
       surname:
+        language: en
+        script: Latn
         content: West
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-06-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Performance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Creporting-1
     title:
-    - content: Reporting API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/reporting-1/
-      type: src
-    docid:
-    - id: W3C reporting-1
+    - language: en
+      script: Latn
+      content: Reporting API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/reporting-1/
+    docidentifier:
+    - content: W3C reporting-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-reporting-1-20160407
     title:
-    - content: Reporting API 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-reporting-1-20160407/
-      type: src
-    docid:
-    - id: W3C WD-reporting-1-20160407
+    - language: en
+      script: Latn
+      content: Reporting API 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-reporting-1-20160407/
+    docidentifier:
+    - content: W3C WD-reporting-1-20160407
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-reporting-1-20180925
-    title:
-    - content: Reporting API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-reporting-1-20180925/
-      type: src
-    docid:
-    - id: W3C WD-reporting-1-20180925
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Reporting API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-reporting-1-20180925/
+    docidentifier:
+    - content: W3C WD-reporting-1-20180925
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-reporting-1-20160607
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Performance Working Group
+    content: technicalReport
+  flavor: w3c

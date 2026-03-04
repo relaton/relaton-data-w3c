@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-shadow-dom-20170213
-title:
-- content: Shadow DOM
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/WD-shadow-dom-20170213/
-  type: src
+id: W3CWDshadowdom20170213
 type: standard
-docid:
-- id: W3C WD-shadow-dom-20170213
+schema_version: v1.4.1
+formattedref: W3C WD-shadow-dom-20170213
+title:
+- language: en
+  script: Latn
+  content: Shadow DOM
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/WD-shadow-dom-20170213/
+docidentifier:
+- content: W3C WD-shadow-dom-20170213
   type: W3C
   primary: true
 docnumber: WD-shadow-dom-20170213
 date:
 - type: published
-  value: '2017-02-13'
+  at: '2017-02-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Hayato
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ito
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2017-02-13'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Hayato
+      surname:
+        language: en
+        script: Latn
+        content: Ito
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshadow-dom
     title:
-    - content: Shadow DOM
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/shadow-dom/
-      type: src
-    docid:
-    - id: W3C shadow-dom
+    - language: en
+      script: Latn
+      content: Shadow DOM
+    source:
+    - type: src
+      content: https://www.w3.org/TR/shadow-dom/
+    docidentifier:
+    - content: W3C shadow-dom
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shadow-dom-20170116
     title:
-    - content: Shadow DOM
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-shadow-dom-20170116/
-      type: src
-    docid:
-    - id: W3C WD-shadow-dom-20170116
+    - language: en
+      script: Latn
+      content: Shadow DOM
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-shadow-dom-20170116/
+    docidentifier:
+    - content: W3C WD-shadow-dom-20170116
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-shadow-dom-20170905
-    title:
-    - content: Shadow DOM
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-shadow-dom-20170905/
-      type: src
-    docid:
-    - id: W3C WD-shadow-dom-20170905
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Shadow DOM
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-shadow-dom-20170905/
+    docidentifier:
+    - content: W3C WD-shadow-dom-20170905
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-shadow-dom-20170213
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

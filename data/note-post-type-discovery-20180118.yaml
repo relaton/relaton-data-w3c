@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-post-type-discovery-20180118
-title:
-- content: Post Type Discovery
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/NOTE-post-type-discovery-20180118/
-  type: src
+id: W3CNOTEposttypediscovery20180118
 type: standard
-docid:
-- id: W3C NOTE-post-type-discovery-20180118
+schema_version: v1.4.1
+formattedref: W3C NOTE-post-type-discovery-20180118
+title:
+- language: en
+  script: Latn
+  content: Post Type Discovery
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/NOTE-post-type-discovery-20180118/
+docidentifier:
+- content: W3C NOTE-post-type-discovery-20180118
   type: W3C
   primary: true
 docnumber: NOTE-post-type-discovery-20180118
 date:
 - type: published
-  value: '2018-01-18'
+  at: '2018-01-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Tantek
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Çelik
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2018-01-18'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Tantek
+      surname:
+        language: en
+        script: Latn
+        content: Çelik
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Social Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpost-type-discovery
     title:
-    - content: Post Type Discovery
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/post-type-discovery/
-      type: src
-    docid:
-    - id: W3C post-type-discovery
+    - language: en
+      script: Latn
+      content: Post Type Discovery
+    source:
+    - type: src
+      content: https://www.w3.org/TR/post-type-discovery/
+    docidentifier:
+    - content: W3C post-type-discovery
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-post-type-discovery-20170801
     title:
-    - content: Post Type Discovery
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-post-type-discovery-20170801/
-      type: src
-    docid:
-    - id: W3C WD-post-type-discovery-20170801
+    - language: en
+      script: Latn
+      content: Post Type Discovery
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-post-type-discovery-20170801/
+    docidentifier:
+    - content: W3C WD-post-type-discovery-20170801
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-post-type-discovery-20180118
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Social Web Working Group
+    content: technicalReport
+  flavor: w3c

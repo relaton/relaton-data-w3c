@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-EARL10-Schema-20070323
-title:
-- content: Evaluation and Report Language (EARL) 1.0 Schema
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/WD-EARL10-Schema-20070323
-  type: src
+id: W3CWDEARL10Schema20070323
 type: standard
-docid:
-- id: W3C WD-EARL10-Schema-20070323
+schema_version: v1.4.1
+formattedref: W3C WD-EARL10-Schema-20070323
+title:
+- language: en
+  script: Latn
+  content: Evaluation and Report Language (EARL) 1.0 Schema
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/WD-EARL10-Schema-20070323
+docidentifier:
+- content: W3C WD-EARL10-Schema-20070323
   type: W3C
   primary: true
 docnumber: WD-EARL10-Schema-20070323
 date:
 - type: published
-  value: '2007-03-23'
+  at: '2007-03-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Shadi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Abou-Zahra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2007-03-23'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Shadi
+      surname:
+        language: en
+        script: Latn
+        content: Abou-Zahra
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Evaluation and Repair Tools Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CEARL10-Schema
     title:
-    - content: Evaluation and Report Language (EARL) 1.0 Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/EARL10-Schema/
-      type: src
-    docid:
-    - id: W3C EARL10-Schema
+    - language: en
+      script: Latn
+      content: Evaluation and Report Language (EARL) 1.0 Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/EARL10-Schema/
+    docidentifier:
+    - content: W3C EARL10-Schema
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-EARL10-Schema-20060927
     title:
-    - content: Evaluation and Report Language (EARL) 1.0 Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-EARL10-Schema-20060927
-      type: src
-    docid:
-    - id: W3C WD-EARL10-Schema-20060927
+    - language: en
+      script: Latn
+      content: Evaluation and Report Language (EARL) 1.0 Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-EARL10-Schema-20060927
+    docidentifier:
+    - content: W3C WD-EARL10-Schema-20060927
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-EARL10-Schema-20090428
-    title:
-    - content: Evaluation and Report Language (EARL) 1.0 Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-EARL10-Schema-20090428/
-      type: src
-    docid:
-    - id: W3C WD-EARL10-Schema-20090428
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Evaluation and Report Language (EARL) 1.0 Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-EARL10-Schema-20090428/
+    docidentifier:
+    - content: W3C WD-EARL10-Schema-20090428
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-EARL10-Schema-20070323
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Evaluation and Repair Tools Working Group
+    content: technicalReport
+  flavor: w3c

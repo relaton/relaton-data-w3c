@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CSVGParamPrimer
-title:
-- content: 'SVG Parameters 1.0, Part 1: Primer'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/SVGParamPrimer/
-  type: src
 type: standard
-docid:
-- id: W3C SVGParamPrimer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'SVG Parameters 1.0, Part 1: Primer'
+source:
+- type: src
+  content: https://www.w3.org/TR/SVGParamPrimer/
+docidentifier:
+- content: W3C SVGParamPrimer
   type: W3C
   primary: true
 docnumber: SVGParamPrimer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVGParamPrimer-20090616
     title:
-    - content: 'SVG Parameters 1.0, Part 1: Primer'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-SVGParamPrimer-20090616/
-      type: src
-    docid:
-    - id: W3C WD-SVGParamPrimer-20090616
+    - language: en
+      script: Latn
+      content: 'SVG Parameters 1.0, Part 1: Primer'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-SVGParamPrimer-20090616/
+    docidentifier:
+    - content: W3C WD-SVGParamPrimer-20090616
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVGParamPrimer-20090430
     title:
-    - content: 'SVG Referenced Parameter Variables 1.0, Part 1: Primer'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-SVGParamPrimer-20090430/
-      type: src
-    docid:
-    - id: W3C WD-SVGParamPrimer-20090430
+    - language: en
+      script: Latn
+      content: 'SVG Referenced Parameter Variables 1.0, Part 1: Primer'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-SVGParamPrimer-20090430/
+    docidentifier:
+    - content: W3C WD-SVGParamPrimer-20090430
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: SVGParamPrimer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

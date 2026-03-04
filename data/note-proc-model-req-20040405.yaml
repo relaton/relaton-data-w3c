@@ -1,94 +1,101 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-proc-model-req-20040405
-title:
-- content: XML Processing Model Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/NOTE-proc-model-req-20040405/
-  type: src
+id: W3CNOTEprocmodelreq20040405
 type: standard
-docid:
-- id: W3C NOTE-proc-model-req-20040405
+schema_version: v1.4.1
+formattedref: W3C NOTE-proc-model-req-20040405
+title:
+- language: en
+  script: Latn
+  content: XML Processing Model Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/NOTE-proc-model-req-20040405/
+docidentifier:
+- content: W3C NOTE-proc-model-req-20040405
   type: W3C
   primary: true
 docnumber: NOTE-proc-model-req-20040405
 date:
 - type: published
-  value: '2004-04-05'
+  at: '2004-04-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Dmitry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dmitry
       surname:
+        language: en
+        script: Latn
         content: Lenkov
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Norman
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Norman
       surname:
+        language: en
+        script: Latn
         content: Walsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-04-05'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Core Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cproc-model-req
     title:
-    - content: XML Processing Model Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/proc-model-req/
-      type: src
-    docid:
-    - id: W3C proc-model-req
+    - language: en
+      script: Latn
+      content: XML Processing Model Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/proc-model-req/
+    docidentifier:
+    - content: W3C proc-model-req
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-proc-model-req-20040405
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Core Working Group
+    content: technicalReport
+  flavor: w3c

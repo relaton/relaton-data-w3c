@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-UISecurity-20130523
-title:
-- content: User Interface Security Directives for Content Security Policy
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-UISecurity-20130523/
-  type: src
+id: W3CWDUISecurity20130523
 type: standard
-docid:
-- id: W3C WD-UISecurity-20130523
+schema_version: v1.4.1
+formattedref: W3C WD-UISecurity-20130523
+title:
+- language: en
+  script: Latn
+  content: User Interface Security Directives for Content Security Policy
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-UISecurity-20130523/
+docidentifier:
+- content: W3C WD-UISecurity-20130523
   type: W3C
   primary: true
 docnumber: WD-UISecurity-20130523
 date:
 - type: published
-  value: '2013-05-23'
+  at: '2013-05-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Giorgio
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Giorgio
       surname:
+        language: en
+        script: Latn
         content: Maone
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Huang
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tobias
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tobias
       surname:
+        language: en
+        script: Latn
         content: Gondrom
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Brad
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Brad
       surname:
+        language: en
+        script: Latn
         content: Hill
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-05-23'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Application Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CUISecurity
     title:
-    - content: User Interface Security and the Visibility API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/UISecurity/
-      type: src
-    docid:
-    - id: W3C UISecurity
+    - language: en
+      script: Latn
+      content: User Interface Security and the Visibility API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/UISecurity/
+    docidentifier:
+    - content: W3C UISecurity
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-UISafety-20121120
     title:
-    - content: User Interface Safety Directives for Content Security Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-UISafety-20121120/
-      type: src
-    docid:
-    - id: W3C WD-UISafety-20121120
+    - language: en
+      script: Latn
+      content: User Interface Safety Directives for Content Security Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-UISafety-20121120/
+    docidentifier:
+    - content: W3C WD-UISafety-20121120
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-UISecurity-20140318
-    title:
-    - content: User Interface Security Directives for Content Security Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-UISecurity-20140318/
-      type: src
-    docid:
-    - id: W3C WD-UISecurity-20140318
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: User Interface Security Directives for Content Security Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-UISecurity-20140318/
+    docidentifier:
+    - content: W3C WD-UISecurity-20140318
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-UISecurity-20130523
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Application Security Working Group
+    content: technicalReport
+  flavor: w3c

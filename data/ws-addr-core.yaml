@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cws-addr-core
-title:
-- content: Web Services Addressing 1.0 - Core
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ws-addr-core/
-  type: src
+id: W3Cwsaddrcore
 type: standard
-docid:
-- id: W3C ws-addr-core
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Services Addressing 1.0 - Core
+source:
+- type: src
+  content: https://www.w3.org/TR/ws-addr-core/
+docidentifier:
+- content: W3C ws-addr-core
   type: W3C
   primary: true
 docnumber: ws-addr-core
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-ws-addr-core-20060509
     title:
-    - content: Web Services Addressing 1.0 - Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/REC-ws-addr-core-20060509/
-      type: src
-    docid:
-    - id: W3C REC-ws-addr-core-20060509
+    - language: en
+      script: Latn
+      content: Web Services Addressing 1.0 - Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/REC-ws-addr-core-20060509/
+    docidentifier:
+    - content: W3C REC-ws-addr-core-20060509
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-ws-addr-core-20060321
     title:
-    - content: Web Services Addressing 1.0 - Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/PR-ws-addr-core-20060321
-      type: src
-    docid:
-    - id: W3C PR-ws-addr-core-20060321
+    - language: en
+      script: Latn
+      content: Web Services Addressing 1.0 - Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/PR-ws-addr-core-20060321
+    docidentifier:
+    - content: W3C PR-ws-addr-core-20060321
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-ws-addr-core-20050817
     title:
-    - content: Web Services Addressing 1.0 - Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/CR-ws-addr-core-20050817
-      type: src
-    docid:
-    - id: W3C CR-ws-addr-core-20050817
+    - language: en
+      script: Latn
+      content: Web Services Addressing 1.0 - Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/CR-ws-addr-core-20050817
+    docidentifier:
+    - content: W3C CR-ws-addr-core-20050817
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-addr-core-20050331
     title:
-    - content: Web Services Addressing 1.0 - Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-ws-addr-core-20050331
-      type: src
-    docid:
-    - id: W3C WD-ws-addr-core-20050331
+    - language: en
+      script: Latn
+      content: Web Services Addressing 1.0 - Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-ws-addr-core-20050331
+    docidentifier:
+    - content: W3C WD-ws-addr-core-20050331
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-addr-core-20050215
     title:
-    - content: Web Services Addressing 1.0 - Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-ws-addr-core-20050215
-      type: src
-    docid:
-    - id: W3C WD-ws-addr-core-20050215
+    - language: en
+      script: Latn
+      content: Web Services Addressing 1.0 - Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-ws-addr-core-20050215
+    docidentifier:
+    - content: W3C WD-ws-addr-core-20050215
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-addr-core-20041208
     title:
-    - content: Web Services Addressing - Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-ws-addr-core-20041208
-      type: src
-    docid:
-    - id: W3C WD-ws-addr-core-20041208
+    - language: en
+      script: Latn
+      content: Web Services Addressing - Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-ws-addr-core-20041208
+    docidentifier:
+    - content: W3C WD-ws-addr-core-20041208
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ws-addr-core
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-picture-in-picture-20220411
-title:
-- content: Picture-in-Picture
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220411/
-  type: src
+id: W3CWDpictureinpicture20220411
 type: standard
-docid:
-- id: W3C WD-picture-in-picture-20220411
+schema_version: v1.4.1
+formattedref: W3C WD-picture-in-picture-20220411
+title:
+- language: en
+  script: Latn
+  content: Picture-in-Picture
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220411/
+docidentifier:
+- content: W3C WD-picture-in-picture-20220411
   type: W3C
   primary: true
 docnumber: WD-picture-in-picture-20220411
 date:
 - type: published
-  value: '2022-04-11'
+  at: '2022-04-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Francois
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Francois
       surname:
+        language: en
+        script: Latn
         content: Beaufort
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mounir
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mounir
       surname:
+        language: en
+        script: Latn
         content: Lamouri
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-04-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Media Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpicture-in-picture
     title:
-    - content: Picture-in-Picture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/picture-in-picture/
-      type: src
-    docid:
-    - id: W3C picture-in-picture
+    - language: en
+      script: Latn
+      content: Picture-in-Picture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/picture-in-picture/
+    docidentifier:
+    - content: W3C picture-in-picture
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-picture-in-picture-20210830
     title:
-    - content: Picture-in-Picture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-picture-in-picture-20210830/
-      type: src
-    docid:
-    - id: W3C WD-picture-in-picture-20210830
+    - language: en
+      script: Latn
+      content: Picture-in-Picture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-picture-in-picture-20210830/
+    docidentifier:
+    - content: W3C WD-picture-in-picture-20210830
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-picture-in-picture-20220428
-    title:
-    - content: Picture-in-Picture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220428/
-      type: src
-    docid:
-    - id: W3C WD-picture-in-picture-20220428
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Picture-in-Picture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-picture-in-picture-20220428/
+    docidentifier:
+    - content: W3C WD-picture-in-picture-20220428
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-picture-in-picture-20220411
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Media Working Group
+    content: technicalReport
+  flavor: w3c

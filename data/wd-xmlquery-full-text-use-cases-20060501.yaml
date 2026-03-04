@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xmlquery-full-text-use-cases-20060501
-title:
-- content: XQuery 1.0 and XPath 2.0 Full-Text Use Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2006/WD-xmlquery-full-text-use-cases-20060501/
-  type: src
+id: W3CWDxmlqueryfulltextusecases20060501
 type: standard
-docid:
-- id: W3C WD-xmlquery-full-text-use-cases-20060501
+schema_version: v1.4.1
+formattedref: W3C WD-xmlquery-full-text-use-cases-20060501
+title:
+- language: en
+  script: Latn
+  content: XQuery 1.0 and XPath 2.0 Full-Text Use Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2006/WD-xmlquery-full-text-use-cases-20060501/
+docidentifier:
+- content: W3C WD-xmlquery-full-text-use-cases-20060501
   type: W3C
   primary: true
 docnumber: WD-xmlquery-full-text-use-cases-20060501
 date:
 - type: published
-  value: '2006-05-01'
+  at: '2006-05-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Sihem
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sihem
       surname:
+        language: en
+        script: Latn
         content: Amer-Yahia
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Pat
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Pat
       surname:
+        language: en
+        script: Latn
         content: Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2006-05-01'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxpath-full-text-10-use-cases
     title:
-    - content: XQuery and XPath Full Text 1.0 Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xpath-full-text-10-use-cases/
-      type: src
-    docid:
-    - id: W3C xpath-full-text-10-use-cases
+    - language: en
+      script: Latn
+      content: XQuery and XPath Full Text 1.0 Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xpath-full-text-10-use-cases/
+    docidentifier:
+    - content: W3C xpath-full-text-10-use-cases
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xmlquery-full-text-use-cases-20051103
     title:
-    - content: XQuery 1.0 and XPath 2.0 Full-Text Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-xmlquery-full-text-use-cases-20051103/
-      type: src
-    docid:
-    - id: W3C WD-xmlquery-full-text-use-cases-20051103
+    - language: en
+      script: Latn
+      content: XQuery 1.0 and XPath 2.0 Full-Text Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-xmlquery-full-text-use-cases-20051103/
+    docidentifier:
+    - content: W3C WD-xmlquery-full-text-use-cases-20051103
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xpath-full-text-10-use-cases-20070518
-    title:
-    - content: XQuery 1.0 and XPath 2.0 Full-Text 1.0 Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-xpath-full-text-10-use-cases-20070518/
-      type: src
-    docid:
-    - id: W3C WD-xpath-full-text-10-use-cases-20070518
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XQuery 1.0 and XPath 2.0 Full-Text 1.0 Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-xpath-full-text-10-use-cases-20070518/
+    docidentifier:
+    - content: W3C WD-xpath-full-text-10-use-cases-20070518
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xmlquery-full-text-use-cases-20060501
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

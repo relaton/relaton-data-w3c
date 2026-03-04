@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-html-json-forms-20150929
-title:
-- content: W3C HTML JSON form submission
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/NOTE-html-json-forms-20150929/
-  type: src
+id: W3CNOTEhtmljsonforms20150929
 type: standard
-docid:
-- id: W3C NOTE-html-json-forms-20150929
+schema_version: v1.4.1
+formattedref: W3C NOTE-html-json-forms-20150929
+title:
+- language: en
+  script: Latn
+  content: W3C HTML JSON form submission
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/NOTE-html-json-forms-20150929/
+docidentifier:
+- content: W3C NOTE-html-json-forms-20150929
   type: W3C
   primary: true
 docnumber: NOTE-html-json-forms-20150929
 date:
 - type: published
-  value: '2015-09-29'
+  at: '2015-09-29'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Robin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Berjon
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-09-29'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Robin
+      surname:
+        language: en
+        script: Latn
+        content: Berjon
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: HTML Media Extensions Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml-json-forms
     title:
-    - content: W3C HTML JSON form submission
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html-json-forms/
-      type: src
-    docid:
-    - id: W3C html-json-forms
+    - language: en
+      script: Latn
+      content: W3C HTML JSON form submission
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html-json-forms/
+    docidentifier:
+    - content: W3C html-json-forms
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-html-json-forms-20140529
     title:
-    - content: W3C HTML JSON form submission
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-html-json-forms-20140529/
-      type: src
-    docid:
-    - id: W3C WD-html-json-forms-20140529
+    - language: en
+      script: Latn
+      content: W3C HTML JSON form submission
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-html-json-forms-20140529/
+    docidentifier:
+    - content: W3C WD-html-json-forms-20140529
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-html-json-forms-20150929
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: HTML Media Extensions Working Group
+    content: technicalReport
+  flavor: w3c

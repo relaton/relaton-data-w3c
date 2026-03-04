@@ -1,75 +1,87 @@
 ---
-schema-version: v1.2.9
-id: W3CWCA-terms-01
-title:
-- content: Web Characterization Terminology & Definitions Sheet
-  format: text/plain
-link:
-- content: https://www.w3.org/1999/05/WCA-terms/01
-  type: src
+id: W3CWCAterms01
 type: standard
-docid:
-- id: W3C WCA-terms/01
+schema_version: v1.4.1
+formattedref: W3C WCA-terms/01
+title:
+- language: en
+  script: Latn
+  content: Web Characterization Terminology & Definitions Sheet
+source:
+- type: src
+  content: https://www.w3.org/1999/05/WCA-terms/01
+docidentifier:
+- content: W3C WCA-terms/01
   type: W3C
   primary: true
 docnumber: WCA-terms/01
 date:
 - type: published
-  value: '1999-05-24'
+  at: '1999-05-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Henrik Frystyk
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nielsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '1999-05-24'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Henrik Frystyk
+      surname:
+        language: en
+        script: Latn
+        content: Nielsen
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWCA-terms
     title:
-    - content: Web Characterization Terminology & Definitions Sheet
-      format: text/plain
-    link:
-    - content: https://www.w3.org/1999/05/WCA-terms/
-      type: src
-    docid:
-    - id: W3C WCA-terms
+    - language: en
+      script: Latn
+      content: Web Characterization Terminology & Definitions Sheet
+    source:
+    - type: src
+      content: https://www.w3.org/1999/05/WCA-terms/
+    docidentifier:
+    - content: W3C WCA-terms
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WCA-terms/01
 ext:
-  schema-version: v1.0.0
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+  schema_version: v1.0.0
+  flavor: w3c

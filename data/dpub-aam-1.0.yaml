@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cdpub-aam-1.0
-title:
-- content: Digital Publishing Accessibility API Mappings
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/dpub-aam-1.0/
-  type: src
+id: W3Cdpubaam10
 type: standard
-docid:
-- id: W3C dpub-aam-1.0
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Digital Publishing Accessibility API Mappings
+source:
+- type: src
+  content: https://www.w3.org/TR/dpub-aam-1.0/
+docidentifier:
+- content: W3C dpub-aam-1.0
   type: W3C
   primary: true
 docnumber: dpub-aam-1.0
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-dpub-aam-1.0-20171214
     title:
-    - content: Digital Publishing Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/REC-dpub-aam-1.0-20171214/
-      type: src
-    docid:
-    - id: W3C REC-dpub-aam-1.0-20171214
+    - language: en
+      script: Latn
+      content: Digital Publishing Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/REC-dpub-aam-1.0-20171214/
+    docidentifier:
+    - content: W3C REC-dpub-aam-1.0-20171214
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-dpub-aam-1.0-20171102
     title:
-    - content: Digital Publishing Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/PR-dpub-aam-1.0-20171102/
-      type: src
-    docid:
-    - id: W3C PR-dpub-aam-1.0-20171102
+    - language: en
+      script: Latn
+      content: Digital Publishing Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/PR-dpub-aam-1.0-20171102/
+    docidentifier:
+    - content: W3C PR-dpub-aam-1.0-20171102
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-dpub-aam-1.0-20170606
     title:
-    - content: Digital Publishing Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/CR-dpub-aam-1.0-20170606/
-      type: src
-    docid:
-    - id: W3C CR-dpub-aam-1.0-20170606
+    - language: en
+      script: Latn
+      content: Digital Publishing Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/CR-dpub-aam-1.0-20170606/
+    docidentifier:
+    - content: W3C CR-dpub-aam-1.0-20170606
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-dpub-aam-1.0-20160317
     title:
-    - content: Digital Publishing Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-dpub-aam-1.0-20160317/
-      type: src
-    docid:
-    - id: W3C WD-dpub-aam-1.0-20160317
+    - language: en
+      script: Latn
+      content: Digital Publishing Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-dpub-aam-1.0-20160317/
+    docidentifier:
+    - content: W3C WD-dpub-aam-1.0-20160317
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-dpub-aam-1.0-20151203
     title:
-    - content: Digital Publishing Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-dpub-aam-1.0-20151203/
-      type: src
-    docid:
-    - id: W3C WD-dpub-aam-1.0-20151203
+    - language: en
+      script: Latn
+      content: Digital Publishing Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-dpub-aam-1.0-20151203/
+    docidentifier:
+    - content: W3C WD-dpub-aam-1.0-20151203
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: dpub-aam-1.0
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

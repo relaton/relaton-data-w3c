@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csvg-aam-1.0
-title:
-- content: SVG Accessibility API Mappings
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/svg-aam-1.0/
-  type: src
+id: W3Csvgaam10
 type: standard
-docid:
-- id: W3C svg-aam-1.0
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SVG Accessibility API Mappings
+source:
+- type: src
+  content: https://www.w3.org/TR/svg-aam-1.0/
+docidentifier:
+- content: W3C svg-aam-1.0
   type: W3C
   primary: true
 docnumber: svg-aam-1.0
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-svg-aam-1.0-20180510
     title:
-    - content: SVG Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-svg-aam-1.0-20180510/
-      type: src
-    docid:
-    - id: W3C WD-svg-aam-1.0-20180510
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-svg-aam-1.0-20260302/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20260302
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-svg-aam-1.0-20160908
     title:
-    - content: SVG Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-svg-aam-1.0-20160908/
-      type: src
-    docid:
-    - id: W3C WD-svg-aam-1.0-20160908
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-svg-aam-1.0-20260217/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20260217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-svg-aam-1.0-20151119
     title:
-    - content: SVG Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20151119/
-      type: src
-    docid:
-    - id: W3C WD-svg-aam-1.0-20151119
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-svg-aam-1.0-20180510/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20180510
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-svg-aam-1.0-20150226
     title:
-    - content: SVG Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226/
-      type: src
-    docid:
-    - id: W3C WD-svg-aam-1.0-20150226
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-svg-aam-1.0-20160908/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20160908
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20151119/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20151119
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20150226
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: svg-aam-1.0
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

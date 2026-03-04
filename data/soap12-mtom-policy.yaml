@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csoap12-mtom-policy
-title:
-- content: MTOM Serialization Policy Assertion 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/soap12-mtom-policy/
-  type: src
+id: W3Csoap12mtompolicy
 type: standard
-docid:
-- id: W3C soap12-mtom-policy
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: MTOM Serialization Policy Assertion 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/soap12-mtom-policy/
+docidentifier:
+- content: W3C soap12-mtom-policy
   type: W3C
   primary: true
 docnumber: soap12-mtom-policy
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-soap12-mtom-policy-20070918
     title:
-    - content: MTOM Serialization Policy Assertion 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-soap12-mtom-policy-20070918/
-      type: src
-    docid:
-    - id: W3C WD-soap12-mtom-policy-20070918
+    - language: en
+      script: Latn
+      content: MTOM Serialization Policy Assertion 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-soap12-mtom-policy-20070918/
+    docidentifier:
+    - content: W3C WD-soap12-mtom-policy-20070918
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: soap12-mtom-policy
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

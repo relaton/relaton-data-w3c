@@ -1,94 +1,101 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-inkreqs-20030122
-title:
-- content: Requirements for the Ink Markup Language
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/NOTE-inkreqs-20030122/
-  type: src
+id: W3CNOTEinkreqs20030122
 type: standard
-docid:
-- id: W3C NOTE-inkreqs-20030122
+schema_version: v1.4.1
+formattedref: W3C NOTE-inkreqs-20030122
+title:
+- language: en
+  script: Latn
+  content: Requirements for the Ink Markup Language
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/NOTE-inkreqs-20030122/
+docidentifier:
+- content: W3C NOTE-inkreqs-20030122
   type: W3C
   primary: true
 docnumber: NOTE-inkreqs-20030122
 date:
 - type: published
-  value: '2003-01-22'
+  at: '2003-01-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Yi-Min
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yi-Min
       surname:
+        language: en
+        script: Latn
         content: Chee
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sai
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sai
       surname:
+        language: en
+        script: Latn
         content: Prasad
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2003-01-22'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Multimodal Interaction Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cinkreqs
     title:
-    - content: Requirements for the Ink Markup Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/inkreqs/
-      type: src
-    docid:
-    - id: W3C inkreqs
+    - language: en
+      script: Latn
+      content: Requirements for the Ink Markup Language
+    source:
+    - type: src
+      content: https://www.w3.org/TR/inkreqs/
+    docidentifier:
+    - content: W3C inkreqs
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-inkreqs-20030122
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Multimodal Interaction Working Group
+    content: technicalReport
+  flavor: w3c

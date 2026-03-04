@@ -1,208 +1,189 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-html53-20180703
-title:
-- content: HTML 5.3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/WD-html53-20180703/
-  type: src
+id: W3CWDhtml5320180703
 type: standard
-docid:
-- id: W3C WD-html53-20180703
+schema_version: v1.4.1
+formattedref: W3C WD-html53-20180703
+title:
+- language: en
+  script: Latn
+  content: HTML 5.3
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/WD-html53-20180703/
+docidentifier:
+- content: W3C WD-html53-20180703
   type: W3C
   primary: true
 docnumber: WD-html53-20180703
 date:
 - type: published
-  value: '2018-07-03'
+  at: '2018-07-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Patricia
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Patricia
       surname:
+        language: en
+        script: Latn
         content: Aas
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Shwetank
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Shwetank
       surname:
+        language: en
+        script: Latn
         content: Dixit
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Terence
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Terence
       surname:
+        language: en
+        script: Latn
         content: Eden
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bruce
       surname:
+        language: en
+        script: Latn
         content: Lawson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sangwhan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sangwhan
       surname:
+        language: en
+        script: Latn
         content: Moon
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Xiaoqian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Xiaoqian
       surname:
+        language: en
+        script: Latn
         content: Wu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Scott
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Scott
       surname:
+        language: en
+        script: Latn
         content: O'Hara
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2018-07-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml53
     title:
-    - content: HTML 5.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html53/
-      type: src
-    docid:
-    - id: W3C html53
+    - language: en
+      script: Latn
+      content: HTML 5.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html53/
+    docidentifier:
+    - content: W3C html53
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-html53-20180426
     title:
-    - content: HTML 5.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-html53-20180426/
-      type: src
-    docid:
-    - id: W3C WD-html53-20180426
+    - language: en
+      script: Latn
+      content: HTML 5.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-html53-20180426/
+    docidentifier:
+    - content: W3C WD-html53-20180426
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-html53-20180809
-    title:
-    - content: HTML 5.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-html53-20180809/
-      type: src
-    docid:
-    - id: W3C WD-html53-20180809
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML 5.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-html53-20180809/
+    docidentifier:
+    - content: W3C WD-html53-20180809
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-html53-20180703
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

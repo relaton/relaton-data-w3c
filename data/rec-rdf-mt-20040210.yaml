@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-rdf-mt-20040210
-title:
-- content: RDF Semantics
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/REC-rdf-mt-20040210/
-  type: src
+id: W3CRECrdfmt20040210
 type: standard
-docid:
-- id: W3C REC-rdf-mt-20040210
+schema_version: v1.4.1
+formattedref: W3C REC-rdf-mt-20040210
+title:
+- language: en
+  script: Latn
+  content: RDF Semantics
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/REC-rdf-mt-20040210/
+docidentifier:
+- content: W3C REC-rdf-mt-20040210
   type: W3C
   primary: true
 docnumber: REC-rdf-mt-20040210
 date:
 - type: published
-  value: '2004-02-10'
+  at: '2004-02-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Patrick
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hayes
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2004-02-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick
+      surname:
+        language: en
+        script: Latn
+        content: Hayes
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDF Core Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf-mt
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdf-mt/
-      type: src
-    docid:
-    - id: W3C rdf-mt
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdf-mt/
+    docidentifier:
+    - content: W3C rdf-mt
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-rdf-mt-20031215
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/PR-rdf-mt-20031215/
-      type: src
-    docid:
-    - id: W3C PR-rdf-mt-20031215
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/PR-rdf-mt-20031215/
+    docidentifier:
+    - content: W3C PR-rdf-mt-20031215
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-rdf-mt-20040210
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDF Core Working Group
+    content: technicalReport
+  flavor: w3c

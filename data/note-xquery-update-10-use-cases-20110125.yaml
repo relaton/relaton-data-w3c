@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xquery-update-10-use-cases-20110125
-title:
-- content: XQuery Update Facility 1.0 Use Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/NOTE-xquery-update-10-use-cases-20110125/
-  type: src
+id: W3CNOTExqueryupdate10usecases20110125
 type: standard
-docid:
-- id: W3C NOTE-xquery-update-10-use-cases-20110125
+schema_version: v1.4.1
+formattedref: W3C NOTE-xquery-update-10-use-cases-20110125
+title:
+- language: en
+  script: Latn
+  content: XQuery Update Facility 1.0 Use Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/NOTE-xquery-update-10-use-cases-20110125/
+docidentifier:
+- content: W3C NOTE-xquery-update-10-use-cases-20110125
   type: W3C
   primary: true
 docnumber: NOTE-xquery-update-10-use-cases-20110125
 date:
 - type: published
-  value: '2011-01-25'
+  at: '2011-01-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ioana
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ioana
       surname:
+        language: en
+        script: Latn
         content: Manolescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonathan
       surname:
+        language: en
+        script: Latn
         content: Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-01-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxquery-update-10-use-cases
     title:
-    - content: XQuery Update Facility 1.0 Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xquery-update-10-use-cases/
-      type: src
-    docid:
-    - id: W3C xquery-update-10-use-cases
+    - language: en
+      script: Latn
+      content: XQuery Update Facility 1.0 Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xquery-update-10-use-cases/
+    docidentifier:
+    - content: W3C xquery-update-10-use-cases
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-xquery-update-10-use-cases-20080314
     title:
-    - content: XQuery Update Facility 1.0 Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/CR-xquery-update-10-use-cases-20080314/
-      type: src
-    docid:
-    - id: W3C CR-xquery-update-10-use-cases-20080314
+    - language: en
+      script: Latn
+      content: XQuery Update Facility 1.0 Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/CR-xquery-update-10-use-cases-20080314/
+    docidentifier:
+    - content: W3C CR-xquery-update-10-use-cases-20080314
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xquery-update-10-use-cases-20110125
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
+    content: technicalReport
+  flavor: w3c

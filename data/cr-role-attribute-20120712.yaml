@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-role-attribute-20120712
-title:
-- content: Role Attribute 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/CR-role-attribute-20120712/
-  type: src
+id: W3CCRroleattribute20120712
 type: standard
-docid:
-- id: W3C CR-role-attribute-20120712
+schema_version: v1.4.1
+formattedref: W3C CR-role-attribute-20120712
+title:
+- language: en
+  script: Latn
+  content: Role Attribute 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/CR-role-attribute-20120712/
+docidentifier:
+- content: W3C CR-role-attribute-20120712
   type: W3C
   primary: true
 docnumber: CR-role-attribute-20120712
 date:
 - type: published
-  value: '2012-07-12'
+  at: '2012-07-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Shane
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-07-12'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Shane
+      surname:
+        language: en
+        script: Latn
+        content: McCarron
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Protocols and Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crole-attribute
     title:
-    - content: Role Attribute 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/role-attribute/
-      type: src
-    docid:
-    - id: W3C role-attribute
+    - language: en
+      script: Latn
+      content: Role Attribute 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/role-attribute/
+    docidentifier:
+    - content: W3C role-attribute
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-role-attribute-20110113
     title:
-    - content: Role Attribute 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-role-attribute-20110113/
-      type: src
-    docid:
-    - id: W3C WD-role-attribute-20110113
+    - language: en
+      script: Latn
+      content: Role Attribute 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-role-attribute-20110113/
+    docidentifier:
+    - content: W3C WD-role-attribute-20110113
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-role-attribute-20121213
-    title:
-    - content: Role Attribute 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/PR-role-attribute-20121213/
-      type: src
-    docid:
-    - id: W3C PR-role-attribute-20121213
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Role Attribute 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/PR-role-attribute-20121213/
+    docidentifier:
+    - content: W3C PR-role-attribute-20121213
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-role-attribute-20120712
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Protocols and Formats Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-rex-reqs-20060202
-title:
-- content: Remote Events for XML (REX) Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2006/NOTE-rex-reqs-20060202/
-  type: src
+id: W3CNOTErexreqs20060202
 type: standard
-docid:
-- id: W3C NOTE-rex-reqs-20060202
+schema_version: v1.4.1
+formattedref: W3C NOTE-rex-reqs-20060202
+title:
+- language: en
+  script: Latn
+  content: Remote Events for XML (REX) Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2006/NOTE-rex-reqs-20060202/
+docidentifier:
+- content: W3C NOTE-rex-reqs-20060202
   type: W3C
   primary: true
 docnumber: NOTE-rex-reqs-20060202
 date:
 - type: published
-  value: '2006-02-02'
+  at: '2006-02-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Robin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Berjon
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2006-02-02'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Robin
+      surname:
+        language: en
+        script: Latn
+        content: Berjon
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SVG Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crex-reqs
     title:
-    - content: Remote Events for XML (REX) Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rex-reqs/
-      type: src
-    docid:
-    - id: W3C rex-reqs
+    - language: en
+      script: Latn
+      content: Remote Events for XML (REX) Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rex-reqs/
+    docidentifier:
+    - content: W3C rex-reqs
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-rex-reqs-20060202
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SVG Working Group
+    content: technicalReport
+  flavor: w3c

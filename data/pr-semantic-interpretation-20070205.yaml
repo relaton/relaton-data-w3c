@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-semantic-interpretation-20070205
-title:
-- content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/PR-semantic-interpretation-20070205/
-  type: src
+id: W3CPRsemanticinterpretation20070205
 type: standard
-docid:
-- id: W3C PR-semantic-interpretation-20070205
+schema_version: v1.4.1
+formattedref: W3C PR-semantic-interpretation-20070205
+title:
+- language: en
+  script: Latn
+  content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/PR-semantic-interpretation-20070205/
+docidentifier:
+- content: W3C PR-semantic-interpretation-20070205
   type: W3C
   primary: true
 docnumber: PR-semantic-interpretation-20070205
 date:
 - type: published
-  value: '2007-02-05'
+  at: '2007-02-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Luc
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Luc
       surname:
+        language: en
+        script: Latn
         content: Van Tichelen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Burke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2007-02-05'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Voice Browser Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csemantic-interpretation
     title:
-    - content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/semantic-interpretation/
-      type: src
-    docid:
-    - id: W3C semantic-interpretation
+    - language: en
+      script: Latn
+      content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/semantic-interpretation/
+    docidentifier:
+    - content: W3C semantic-interpretation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-semantic-interpretation-20061103
     title:
-    - content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-semantic-interpretation-20061103
-      type: src
-    docid:
-    - id: W3C WD-semantic-interpretation-20061103
+    - language: en
+      script: Latn
+      content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-semantic-interpretation-20061103
+    docidentifier:
+    - content: W3C WD-semantic-interpretation-20061103
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-semantic-interpretation-20070405
-    title:
-    - content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/REC-semantic-interpretation-20070405/
-      type: src
-    docid:
-    - id: W3C REC-semantic-interpretation-20070405
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Semantic Interpretation for Speech Recognition (SISR) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/REC-semantic-interpretation-20070405/
+    docidentifier:
+    - content: W3C REC-semantic-interpretation-20070405
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-semantic-interpretation-20070205
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Voice Browser Working Group
+    content: technicalReport
+  flavor: w3c

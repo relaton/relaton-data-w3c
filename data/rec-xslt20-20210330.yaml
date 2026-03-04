@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-xslt20-20210330
-title:
-- content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/REC-xslt20-20210330/
-  type: src
+id: W3CRECxslt2020210330
 type: standard
-docid:
-- id: W3C REC-xslt20-20210330
+schema_version: v1.4.1
+formattedref: W3C REC-xslt20-20210330
+title:
+- language: en
+  script: Latn
+  content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/REC-xslt20-20210330/
+docidentifier:
+- content: W3C REC-xslt20-20210330
   type: W3C
   primary: true
 docnumber: REC-xslt20-20210330
 date:
 - type: published
-  value: '2021-03-30'
+  at: '2021-03-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kay
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-03-30'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
+      surname:
+        language: en
+        script: Latn
+        content: Kay
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxslt20
     title:
-    - content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xslt20/
-      type: src
-    docid:
-    - id: W3C xslt20
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xslt20/
+    docidentifier:
+    - content: W3C xslt20
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPER-xslt20-20090421
     title:
-    - content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/PER-xslt20-20090421/
-      type: src
-    docid:
-    - id: W3C PER-xslt20-20090421
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 2.0 (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/PER-xslt20-20090421/
+    docidentifier:
+    - content: W3C PER-xslt20-20090421
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-xslt20-20210330
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

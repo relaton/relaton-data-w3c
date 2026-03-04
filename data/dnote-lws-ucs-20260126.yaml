@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-lws-ucs-20260126
-title:
-- content: Linked Web Storage Use Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260126/
-  type: src
+id: W3CDNOTElwsucs20260126
 type: standard
-docid:
-- id: W3C DNOTE-lws-ucs-20260126
+schema_version: v1.4.1
+formattedref: W3C DNOTE-lws-ucs-20260126
+title:
+- language: en
+  script: Latn
+  content: Linked Web Storage Use Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260126/
+docidentifier:
+- content: W3C DNOTE-lws-ucs-20260126
   type: W3C
   primary: true
 docnumber: DNOTE-lws-ucs-20260126
 date:
 - type: published
-  value: '2026-01-26'
+  at: '2026-01-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Hadrian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zbarcea
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2026-01-26'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Hadrian
+      surname:
+        language: en
+        script: Latn
+        content: Zbarcea
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Linked Web Storage Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Clws-ucs
     title:
-    - content: Linked Web Storage Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/lws-ucs/
-      type: src
-    docid:
-    - id: W3C lws-ucs
+    - language: en
+      script: Latn
+      content: Linked Web Storage Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/lws-ucs/
+    docidentifier:
+    - content: W3C lws-ucs
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-lws-ucs-20260123
     title:
-    - content: Linked Web Storage Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260123/
-      type: src
-    docid:
-    - id: W3C DNOTE-lws-ucs-20260123
+    - language: en
+      script: Latn
+      content: Linked Web Storage Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260123/
+    docidentifier:
+    - content: W3C DNOTE-lws-ucs-20260123
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-lws-ucs-20260210
-    title:
-    - content: Linked Web Storage Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260210/
-      type: src
-    docid:
-    - id: W3C DNOTE-lws-ucs-20260210
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Linked Web Storage Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/DNOTE-lws-ucs-20260210/
+    docidentifier:
+    - content: W3C DNOTE-lws-ucs-20260210
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-lws-ucs-20260126
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Linked Web Storage Working Group
+    content: technicalReport
+  flavor: w3c

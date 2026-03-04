@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-css-cascade-3-20200817
-title:
-- content: CSS Cascading and Inheritance Level 3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2020/CR-css-cascade-3-20200817/
-  type: src
+id: W3CCRcsscascade320200817
 type: standard
-docid:
-- id: W3C CR-css-cascade-3-20200817
+schema_version: v1.4.1
+formattedref: W3C CR-css-cascade-3-20200817
+title:
+- language: en
+  script: Latn
+  content: CSS Cascading and Inheritance Level 3
+source:
+- type: src
+  content: https://www.w3.org/TR/2020/CR-css-cascade-3-20200817/
+docidentifier:
+- content: W3C CR-css-cascade-3-20200817
   type: W3C
   primary: true
 docnumber: CR-css-cascade-3-20200817
 date:
 - type: published
-  value: '2020-08-17'
+  at: '2020-08-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Elika
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elika
       surname:
+        language: en
+        script: Latn
         content: Etemad
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tab
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tab
       surname:
+        language: en
+        script: Latn
         content: Atkins Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2020-08-17'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-cascade-3
     title:
-    - content: CSS Cascading and Inheritance Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-cascade-3/
-      type: src
-    docid:
-    - id: W3C css-cascade-3
+    - language: en
+      script: Latn
+      content: CSS Cascading and Inheritance Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-cascade-3/
+    docidentifier:
+    - content: W3C css-cascade-3
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-css-cascade-3-20180828
     title:
-    - content: CSS Cascading and Inheritance Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/CR-css-cascade-3-20180828/
-      type: src
-    docid:
-    - id: W3C CR-css-cascade-3-20180828
+    - language: en
+      script: Latn
+      content: CSS Cascading and Inheritance Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/CR-css-cascade-3-20180828/
+    docidentifier:
+    - content: W3C CR-css-cascade-3-20180828
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-css-cascade-3-20201222
-    title:
-    - content: CSS Cascading and Inheritance Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/PR-css-cascade-3-20201222/
-      type: src
-    docid:
-    - id: W3C PR-css-cascade-3-20201222
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Cascading and Inheritance Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/PR-css-cascade-3-20201222/
+    docidentifier:
+    - content: W3C PR-css-cascade-3-20201222
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-css-cascade-3-20200817
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

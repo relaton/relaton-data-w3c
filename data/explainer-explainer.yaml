@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cexplainer-explainer
-title:
-- content: Writing Effective Explainers
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/explainer-explainer/
-  type: src
+id: W3Cexplainerexplainer
 type: standard
-docid:
-- id: W3C explainer-explainer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Writing Effective Explainers
+source:
+- type: src
+  content: https://www.w3.org/TR/explainer-explainer/
+docidentifier:
+- content: W3C explainer-explainer
   type: W3C
   primary: true
 docnumber: explainer-explainer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-explainer-explainer-20251001
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20251001/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20251001
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20251001/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20251001
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-explainer-explainer-20250922
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250922/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250922
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250922/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20250922
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-explainer-explainer-20250827
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250827/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250827
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250827/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20250827
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-explainer-explainer-20250703
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250703/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250703
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250703/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20250703
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-explainer-explainer-20250612
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250612/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250612
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250612/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20250612
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: explainer-explainer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

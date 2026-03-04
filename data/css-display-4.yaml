@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss-display-4
-title:
-- content: CSS Display Module Level 4
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css-display-4/
-  type: src
+id: W3Ccssdisplay4
 type: standard
-docid:
-- id: W3C css-display-4
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS Display Module Level 4
+source:
+- type: src
+  content: https://www.w3.org/TR/css-display-4/
+docidentifier:
+- content: W3C css-display-4
   type: W3C
   primary: true
 docnumber: css-display-4
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-display-4-20251106
     title:
-    - content: CSS Display Module Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-css-display-4-20251106/
-      type: src
-    docid:
-    - id: W3C WD-css-display-4-20251106
+    - language: en
+      script: Latn
+      content: CSS Display Module Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-css-display-4-20251106/
+    docidentifier:
+    - content: W3C WD-css-display-4-20251106
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-display-4-20241219
     title:
-    - content: CSS Display Module Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-css-display-4-20241219/
-      type: src
-    docid:
-    - id: W3C WD-css-display-4-20241219
+    - language: en
+      script: Latn
+      content: CSS Display Module Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-css-display-4-20241219/
+    docidentifier:
+    - content: W3C WD-css-display-4-20241219
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css-display-4
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

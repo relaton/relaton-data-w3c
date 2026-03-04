@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-autoplay-detection-20230127
-title:
-- content: Autoplay Policy Detection
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-autoplay-detection-20230127/
-  type: src
+id: W3CWDautoplaydetection20230127
 type: standard
-docid:
-- id: W3C WD-autoplay-detection-20230127
+schema_version: v1.4.1
+formattedref: W3C WD-autoplay-detection-20230127
+title:
+- language: en
+  script: Latn
+  content: Autoplay Policy Detection
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-autoplay-detection-20230127/
+docidentifier:
+- content: W3C WD-autoplay-detection-20230127
   type: W3C
   primary: true
 docnumber: WD-autoplay-detection-20230127
 date:
 - type: published
-  value: '2023-01-27'
+  at: '2023-01-27'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Alastor
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2023-01-27'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Alastor
+      surname:
+        language: en
+        script: Latn
+        content: Wu
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Media Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cautoplay-detection
     title:
-    - content: Autoplay Policy Detection
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/autoplay-detection/
-      type: src
-    docid:
-    - id: W3C autoplay-detection
+    - language: en
+      script: Latn
+      content: Autoplay Policy Detection
+    source:
+    - type: src
+      content: https://www.w3.org/TR/autoplay-detection/
+    docidentifier:
+    - content: W3C autoplay-detection
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-autoplay-detection-20220915
     title:
-    - content: Autoplay Policy Detection
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-autoplay-detection-20220915/
-      type: src
-    docid:
-    - id: W3C WD-autoplay-detection-20220915
+    - language: en
+      script: Latn
+      content: Autoplay Policy Detection
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-autoplay-detection-20220915/
+    docidentifier:
+    - content: W3C WD-autoplay-detection-20220915
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-autoplay-detection-20230210
-    title:
-    - content: Autoplay Policy Detection
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-autoplay-detection-20230210/
-      type: src
-    docid:
-    - id: W3C WD-autoplay-detection-20230210
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Autoplay Policy Detection
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-autoplay-detection-20230210/
+    docidentifier:
+    - content: W3C WD-autoplay-detection-20230210
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-autoplay-detection-20230127
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Media Working Group
+    content: technicalReport
+  flavor: w3c

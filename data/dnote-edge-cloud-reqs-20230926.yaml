@@ -1,111 +1,113 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-edge-cloud-reqs-20230926
-title:
-- content: Client-Edge-Cloud coordination Use Cases and Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/DNOTE-edge-cloud-reqs-20230926/
-  type: src
+id: W3CDNOTEedgecloudreqs20230926
 type: standard
-docid:
-- id: W3C DNOTE-edge-cloud-reqs-20230926
+schema_version: v1.4.1
+formattedref: W3C DNOTE-edge-cloud-reqs-20230926
+title:
+- language: en
+  script: Latn
+  content: Client-Edge-Cloud coordination Use Cases and Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/DNOTE-edge-cloud-reqs-20230926/
+docidentifier:
+- content: W3C DNOTE-edge-cloud-reqs-20230926
   type: W3C
   primary: true
 docnumber: DNOTE-edge-cloud-reqs-20230926
 date:
 - type: published
-  value: '2023-09-26'
+  at: '2023-09-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Dapeng(Max)
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dapeng(Max)
       surname:
+        language: en
+        script: Latn
         content: Liu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: McCool
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Song
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Song
       surname:
+        language: en
+        script: Latn
         content: XU
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-09-26'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web & Networks Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cedge-cloud-reqs
     title:
-    - content: Client-Edge-Cloud coordination Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/edge-cloud-reqs/
-      type: src
-    docid:
-    - id: W3C edge-cloud-reqs
+    - language: en
+      script: Latn
+      content: Client-Edge-Cloud coordination Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/edge-cloud-reqs/
+    docidentifier:
+    - content: W3C edge-cloud-reqs
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-edge-cloud-reqs-20230926
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web & Networks Interest Group
+    content: technicalReport
+  flavor: w3c

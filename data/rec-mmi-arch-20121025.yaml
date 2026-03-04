@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-mmi-arch-20121025
-title:
-- content: Multimodal Architecture and Interfaces
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/REC-mmi-arch-20121025/
-  type: src
+id: W3CRECmmiarch20121025
 type: standard
-docid:
-- id: W3C REC-mmi-arch-20121025
+schema_version: v1.4.1
+formattedref: W3C REC-mmi-arch-20121025
+title:
+- language: en
+  script: Latn
+  content: Multimodal Architecture and Interfaces
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/REC-mmi-arch-20121025/
+docidentifier:
+- content: W3C REC-mmi-arch-20121025
   type: W3C
   primary: true
 docnumber: REC-mmi-arch-20121025
 date:
 - type: published
-  value: '2012-10-25'
+  at: '2012-10-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2012-10-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Multimodal Interaction Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmmi-arch
     title:
-    - content: Multimodal Architecture and Interfaces
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mmi-arch/
-      type: src
-    docid:
-    - id: W3C mmi-arch
+    - language: en
+      script: Latn
+      content: Multimodal Architecture and Interfaces
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mmi-arch/
+    docidentifier:
+    - content: W3C mmi-arch
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-mmi-arch-20120814
     title:
-    - content: Multimodal Architecture and Interfaces
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/PR-mmi-arch-20120814/
-      type: src
-    docid:
-    - id: W3C PR-mmi-arch-20120814
+    - language: en
+      script: Latn
+      content: Multimodal Architecture and Interfaces
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/PR-mmi-arch-20120814/
+    docidentifier:
+    - content: W3C PR-mmi-arch-20120814
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-mmi-arch-20121025
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Multimodal Interaction Working Group
+    content: technicalReport
+  flavor: w3c

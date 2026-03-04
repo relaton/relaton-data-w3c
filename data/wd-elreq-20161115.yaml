@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-elreq-20161115
-title:
-- content: Ethiopic Layout Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/WD-elreq-20161115/
-  type: src
+id: W3CWDelreq20161115
 type: standard
-docid:
-- id: W3C WD-elreq-20161115
+schema_version: v1.4.1
+formattedref: W3C WD-elreq-20161115
+title:
+- language: en
+  script: Latn
+  content: Ethiopic Layout Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/WD-elreq-20161115/
+docidentifier:
+- content: W3C WD-elreq-20161115
   type: W3C
   primary: true
 docnumber: WD-elreq-20161115
 date:
 - type: published
-  value: '2016-11-15'
+  at: '2016-11-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2016-11-15'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Celreq
     title:
-    - content: Ethiopic Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/elreq/
-      type: src
-    docid:
-    - id: W3C elreq
+    - language: en
+      script: Latn
+      content: Ethiopic Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/elreq/
+    docidentifier:
+    - content: W3C elreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-elreq-20161113
     title:
-    - content: Ethiopic Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-elreq-20161113/
-      type: src
-    docid:
-    - id: W3C WD-elreq-20161113
+    - language: en
+      script: Latn
+      content: Ethiopic Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-elreq-20161113/
+    docidentifier:
+    - content: W3C WD-elreq-20161113
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-elreq-20200526
-    title:
-    - content: Ethiopic Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-elreq-20200526/
-      type: src
-    docid:
-    - id: W3C WD-elreq-20200526
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Ethiopic Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-elreq-20200526/
+    docidentifier:
+    - content: W3C WD-elreq-20200526
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-elreq-20161115
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

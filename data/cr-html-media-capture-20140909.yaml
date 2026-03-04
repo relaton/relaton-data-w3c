@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-html-media-capture-20140909
-title:
-- content: HTML Media Capture
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/CR-html-media-capture-20140909/
-  type: src
+id: W3CCRhtmlmediacapture20140909
 type: standard
-docid:
-- id: W3C CR-html-media-capture-20140909
+schema_version: v1.4.1
+formattedref: W3C CR-html-media-capture-20140909
+title:
+- language: en
+  script: Latn
+  content: HTML Media Capture
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/CR-html-media-capture-20140909/
+docidentifier:
+- content: W3C CR-html-media-capture-20140909
   type: W3C
   primary: true
 docnumber: CR-html-media-capture-20140909
 date:
 - type: published
-  value: '2014-09-09'
+  at: '2014-09-09'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Anssi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Anssi
       surname:
+        language: en
+        script: Latn
         content: Kostiainen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ilkka
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ilkka
       surname:
+        language: en
+        script: Latn
         content: Oksanen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dominique
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dominique
       surname:
+        language: en
+        script: Latn
         content: Hazaël-Massieux
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-09-09'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml-media-capture
     title:
-    - content: HTML Media Capture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html-media-capture/
-      type: src
-    docid:
-    - id: W3C html-media-capture
+    - language: en
+      script: Latn
+      content: HTML Media Capture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html-media-capture/
+    docidentifier:
+    - content: W3C html-media-capture
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-html-media-capture-20140619
     title:
-    - content: HTML Media Capture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-html-media-capture-20140619/
-      type: src
-    docid:
-    - id: W3C WD-html-media-capture-20140619
+    - language: en
+      script: Latn
+      content: HTML Media Capture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-html-media-capture-20140619/
+    docidentifier:
+    - content: W3C WD-html-media-capture-20140619
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-html-media-capture-20170504
-    title:
-    - content: HTML Media Capture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/CR-html-media-capture-20170504/
-      type: src
-    docid:
-    - id: W3C CR-html-media-capture-20170504
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML Media Capture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/CR-html-media-capture-20170504/
+    docidentifier:
+    - content: W3C CR-html-media-capture-20170504
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-html-media-capture-20140909
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

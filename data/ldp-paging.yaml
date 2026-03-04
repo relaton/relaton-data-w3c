@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cldp-paging
-title:
-- content: Linked Data Platform Paging 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ldp-paging/
-  type: src
+id: W3Cldppaging
 type: standard
-docid:
-- id: W3C ldp-paging
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Linked Data Platform Paging 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/ldp-paging/
+docidentifier:
+- content: W3C ldp-paging
   type: W3C
   primary: true
 docnumber: ldp-paging
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-ldp-paging-20150630
     title:
-    - content: Linked Data Platform Paging 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-ldp-paging-20150630/
-      type: src
-    docid:
-    - id: W3C NOTE-ldp-paging-20150630
+    - language: en
+      script: Latn
+      content: Linked Data Platform Paging 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/NOTE-ldp-paging-20150630/
+    docidentifier:
+    - content: W3C NOTE-ldp-paging-20150630
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-ldp-paging-20141216
     title:
-    - content: Linked Data Platform Paging 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/CR-ldp-paging-20141216/
-      type: src
-    docid:
-    - id: W3C CR-ldp-paging-20141216
+    - language: en
+      script: Latn
+      content: Linked Data Platform Paging 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/CR-ldp-paging-20141216/
+    docidentifier:
+    - content: W3C CR-ldp-paging-20141216
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ldp-paging-20140909
     title:
-    - content: Linked Data Platform Paging 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-ldp-paging-20140909/
-      type: src
-    docid:
-    - id: W3C WD-ldp-paging-20140909
+    - language: en
+      script: Latn
+      content: Linked Data Platform Paging 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-ldp-paging-20140909/
+    docidentifier:
+    - content: W3C WD-ldp-paging-20140909
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ldp-20130730
     title:
-    - content: Linked Data Platform 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-ldp-20130730/
-      type: src
-    docid:
-    - id: W3C WD-ldp-20130730
+    - language: en
+      script: Latn
+      content: Linked Data Platform 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-ldp-20130730/
+    docidentifier:
+    - content: W3C WD-ldp-20130730
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ldp-20130307
     title:
-    - content: Linked Data Platform 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-ldp-20130307/
-      type: src
-    docid:
-    - id: W3C WD-ldp-20130307
+    - language: en
+      script: Latn
+      content: Linked Data Platform 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-ldp-20130307/
+    docidentifier:
+    - content: W3C WD-ldp-20130307
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ldp-20121025
     title:
-    - content: Linked Data Platform 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-ldp-20121025/
-      type: src
-    docid:
-    - id: W3C WD-ldp-20121025
+    - language: en
+      script: Latn
+      content: Linked Data Platform 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-ldp-20121025/
+    docidentifier:
+    - content: W3C WD-ldp-20121025
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ldp-paging
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

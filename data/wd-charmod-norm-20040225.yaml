@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-charmod-norm-20040225
-title:
-- content: 'Character Model for the World Wide Web 1.0: Normalization'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/WD-charmod-norm-20040225/
-  type: src
+id: W3CWDcharmodnorm20040225
 type: standard
-docid:
-- id: W3C WD-charmod-norm-20040225
+schema_version: v1.4.1
+formattedref: W3C WD-charmod-norm-20040225
+title:
+- language: en
+  script: Latn
+  content: 'Character Model for the World Wide Web 1.0: Normalization'
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/WD-charmod-norm-20040225/
+docidentifier:
+- content: W3C WD-charmod-norm-20040225
   type: W3C
   primary: true
 docnumber: WD-charmod-norm-20040225
 date:
 - type: published
-  value: '2004-02-25'
+  at: '2004-02-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Martin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Martin
       surname:
+        language: en
+        script: Latn
         content: Dürst
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Misha
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Misha
       surname:
+        language: en
+        script: Latn
         content: Wolf
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: François
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: François
       surname:
+        language: en
+        script: Latn
         content: Yergeau
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tex
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tex
       surname:
+        language: en
+        script: Latn
         content: Texin
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Addison
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Addison
       surname:
+        language: en
+        script: Latn
         content: Phillips
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-02-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccharmod-norm
     title:
-    - content: 'Character Model for the World Wide Web: String Matching'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/charmod-norm/
-      type: src
-    docid:
-    - id: W3C charmod-norm
+    - language: en
+      script: Latn
+      content: 'Character Model for the World Wide Web: String Matching'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/charmod-norm/
+    docidentifier:
+    - content: W3C charmod-norm
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-charmod-20030822
     title:
-    - content: Character Model for the World Wide Web 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-charmod-20030822/
-      type: src
-    docid:
-    - id: W3C WD-charmod-20030822
+    - language: en
+      script: Latn
+      content: Character Model for the World Wide Web 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-charmod-20030822/
+    docidentifier:
+    - content: W3C WD-charmod-20030822
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-charmod-norm-20051027
-    title:
-    - content: 'Character Model for the World Wide Web 1.0: Normalization'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-charmod-norm-20051027/
-      type: src
-    docid:
-    - id: W3C WD-charmod-norm-20051027
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Character Model for the World Wide Web 1.0: Normalization'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-charmod-norm-20051027/
+    docidentifier:
+    - content: W3C WD-charmod-norm-20051027
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-charmod-norm-20040225
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

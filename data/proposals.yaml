@@ -1,75 +1,87 @@
 ---
-schema-version: v1.2.9
 id: W3CProposals
-title:
-- content: Proposals for Gathering Consumer Demographics
-  format: text/plain
-link:
-- content: https://www.w3.org/Demographics/Proposals
-  type: src
 type: standard
-docid:
-- id: W3C Proposals
+schema_version: v1.4.1
+formattedref: W3C Proposals
+title:
+- language: en
+  script: Latn
+  content: Proposals for Gathering Consumer Demographics
+source:
+- type: src
+  content: https://www.w3.org/Demographics/Proposals
+docidentifier:
+- content: W3C Proposals
   type: W3C
   primary: true
 docnumber: Proposals
 date:
 - type: published
-  value: '1995-11-06'
+  at: '1995-11-06'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Dan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Connolly
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '1995-11-06'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Dan
+      surname:
+        language: en
+        script: Latn
+        content: Connolly
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CProposals
     title:
-    - content: Proposals for Gathering Consumer Demographics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/Demographics/Proposals
-      type: src
-    docid:
-    - id: W3C Proposals
+    - language: en
+      script: Latn
+      content: Proposals for Gathering Consumer Demographics
+    source:
+    - type: src
+      content: https://www.w3.org/Demographics/Proposals
+    docidentifier:
+    - content: W3C Proposals
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: Proposals
 ext:
-  schema-version: v1.0.0
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+  schema_version: v1.0.0
+  flavor: w3c

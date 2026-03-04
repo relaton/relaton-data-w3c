@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-di-princ-20030901
-title:
-- content: Device Independence Principles
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/NOTE-di-princ-20030901/
-  type: src
+id: W3CNOTEdiprinc20030901
 type: standard
-docid:
-- id: W3C NOTE-di-princ-20030901
+schema_version: v1.4.1
+formattedref: W3C NOTE-di-princ-20030901
+title:
+- language: en
+  script: Latn
+  content: Device Independence Principles
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/NOTE-di-princ-20030901/
+docidentifier:
+- content: W3C NOTE-di-princ-20030901
   type: W3C
   primary: true
 docnumber: NOTE-di-princ-20030901
 date:
 - type: published
-  value: '2003-09-01'
+  at: '2003-09-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Roger
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gimson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2003-09-01'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Roger
+      surname:
+        language: en
+        script: Latn
+        content: Gimson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Device Independence Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdi-princ
     title:
-    - content: Device Independence Principles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/di-princ/
-      type: src
-    docid:
-    - id: W3C di-princ
+    - language: en
+      script: Latn
+      content: Device Independence Principles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/di-princ/
+    docidentifier:
+    - content: W3C di-princ
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-di-princ-20010918
     title:
-    - content: Device Independence Principles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/WD-di-princ-20010918/
-      type: src
-    docid:
-    - id: W3C WD-di-princ-20010918
+    - language: en
+      script: Latn
+      content: Device Independence Principles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/WD-di-princ-20010918/
+    docidentifier:
+    - content: W3C WD-di-princ-20010918
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-di-princ-20030901
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Device Independence Working Group
+    content: technicalReport
+  flavor: w3c

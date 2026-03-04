@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Chtml-srcset
-title:
-- content: The srcset attribute
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/html-srcset/
-  type: src
+id: W3Chtmlsrcset
 type: standard
-docid:
-- id: W3C html-srcset
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: The srcset attribute
+source:
+- type: src
+  content: https://www.w3.org/TR/html-srcset/
+docidentifier:
+- content: W3C html-srcset
   type: W3C
   primary: true
 docnumber: html-srcset
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-html-srcset-20140819
     title:
-    - content: The srcset attribute
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/NOTE-html-srcset-20140819/
-      type: src
-    docid:
-    - id: W3C NOTE-html-srcset-20140819
+    - language: en
+      script: Latn
+      content: The srcset attribute
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/NOTE-html-srcset-20140819/
+    docidentifier:
+    - content: W3C NOTE-html-srcset-20140819
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-html-srcset-20130228
     title:
-    - content: The srcset attribute
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-html-srcset-20130228/
-      type: src
-    docid:
-    - id: W3C WD-html-srcset-20130228
+    - language: en
+      script: Latn
+      content: The srcset attribute
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-html-srcset-20130228/
+    docidentifier:
+    - content: W3C WD-html-srcset-20130228
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: html-srcset
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

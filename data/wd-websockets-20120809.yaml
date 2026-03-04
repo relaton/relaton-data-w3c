@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-websockets-20120809
-title:
-- content: The WebSocket API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/WD-websockets-20120809/
-  type: src
+id: W3CWDwebsockets20120809
 type: standard
-docid:
-- id: W3C WD-websockets-20120809
+schema_version: v1.4.1
+formattedref: W3C WD-websockets-20120809
+title:
+- language: en
+  script: Latn
+  content: The WebSocket API
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/WD-websockets-20120809/
+docidentifier:
+- content: W3C WD-websockets-20120809
   type: W3C
   primary: true
 docnumber: WD-websockets-20120809
 date:
 - type: published
-  value: '2012-08-09'
+  at: '2012-08-09'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-08-09'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
+      surname:
+        language: en
+        script: Latn
+        content: Hickson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebsockets
     title:
-    - content: The WebSocket API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/websockets/
-      type: src
-    docid:
-    - id: W3C websockets
+    - language: en
+      script: Latn
+      content: The WebSocket API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/websockets/
+    docidentifier:
+    - content: W3C websockets
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-websockets-20120524
     title:
-    - content: The WebSocket API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-websockets-20120524/
-      type: src
-    docid:
-    - id: W3C WD-websockets-20120524
+    - language: en
+      script: Latn
+      content: The WebSocket API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-websockets-20120524/
+    docidentifier:
+    - content: W3C WD-websockets-20120524
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-websockets-20120920
-    title:
-    - content: The WebSocket API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-websockets-20120920/
-      type: src
-    docid:
-    - id: W3C CR-websockets-20120920
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: The WebSocket API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-websockets-20120920/
+    docidentifier:
+    - content: W3C CR-websockets-20120920
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-websockets-20120809
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

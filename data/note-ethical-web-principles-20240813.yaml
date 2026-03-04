@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-ethical-web-principles-20240813
-title:
-- content: Ethical Web Principles
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/NOTE-ethical-web-principles-20240813/
-  type: src
+id: W3CNOTEethicalwebprinciples20240813
 type: standard
-docid:
-- id: W3C NOTE-ethical-web-principles-20240813
+schema_version: v1.4.1
+formattedref: W3C NOTE-ethical-web-principles-20240813
+title:
+- language: en
+  script: Latn
+  content: Ethical Web Principles
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/NOTE-ethical-web-principles-20240813/
+docidentifier:
+- content: W3C NOTE-ethical-web-principles-20240813
   type: W3C
   primary: true
 docnumber: NOTE-ethical-web-principles-20240813
 date:
 - type: published
-  value: '2024-08-13'
+  at: '2024-08-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Appelquist
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Hadley
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hadley
       surname:
+        language: en
+        script: Latn
         content: Beeman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Amy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Amy
       surname:
+        language: en
+        script: Latn
         content: Guy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-08-13'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Technical Architecture Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cethical-web-principles
     title:
-    - content: Ethical Web Principles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ethical-web-principles/
-      type: src
-    docid:
-    - id: W3C ethical-web-principles
+    - language: en
+      script: Latn
+      content: Ethical Web Principles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ethical-web-principles/
+    docidentifier:
+    - content: W3C ethical-web-principles
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-ethical-web-principles-20240718
     title:
-    - content: Ethical Web Principles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-ethical-web-principles-20240718/
-      type: src
-    docid:
-    - id: W3C DNOTE-ethical-web-principles-20240718
+    - language: en
+      script: Latn
+      content: Ethical Web Principles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-ethical-web-principles-20240718/
+    docidentifier:
+    - content: W3C DNOTE-ethical-web-principles-20240718
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CSTMT-ethical-web-principles-20241212
-    title:
-    - content: Ethical Web Principles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/STMT-ethical-web-principles-20241212/
-      type: src
-    docid:
-    - id: W3C STMT-ethical-web-principles-20241212
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Ethical Web Principles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/STMT-ethical-web-principles-20241212/
+    docidentifier:
+    - content: W3C STMT-ethical-web-principles-20241212
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-ethical-web-principles-20240813
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Technical Architecture Group
+    content: technicalReport
+  flavor: w3c

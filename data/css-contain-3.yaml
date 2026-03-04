@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss-contain-3
-title:
-- content: CSS Containment Module Level 3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css-contain-3/
-  type: src
+id: W3Ccsscontain3
 type: standard
-docid:
-- id: W3C css-contain-3
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS Containment Module Level 3
+source:
+- type: src
+  content: https://www.w3.org/TR/css-contain-3/
+docidentifier:
+- content: W3C css-contain-3
   type: W3C
   primary: true
 docnumber: css-contain-3
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-contain-3-20220818
     title:
-    - content: CSS Containment Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-css-contain-3-20220818/
-      type: src
-    docid:
-    - id: W3C WD-css-contain-3-20220818
+    - language: en
+      script: Latn
+      content: CSS Containment Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-css-contain-3-20220818/
+    docidentifier:
+    - content: W3C WD-css-contain-3-20220818
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-contain-3-20211221
     title:
-    - content: CSS Containment Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-css-contain-3-20211221/
-      type: src
-    docid:
-    - id: W3C WD-css-contain-3-20211221
+    - language: en
+      script: Latn
+      content: CSS Containment Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-css-contain-3-20211221/
+    docidentifier:
+    - content: W3C WD-css-contain-3-20211221
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css-contain-3
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

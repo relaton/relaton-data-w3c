@@ -1,76 +1,92 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-html53-20171214
-title:
-- content: HTML 5.3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/WD-html53-20171214/
-  type: src
+id: W3CWDhtml5320171214
 type: standard
-docid:
-- id: W3C WD-html53-20171214
+schema_version: v1.4.1
+formattedref: W3C WD-html53-20171214
+title:
+- language: en
+  script: Latn
+  content: HTML 5.3
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/WD-html53-20171214/
+docidentifier:
+- content: W3C WD-html53-20171214
   type: W3C
   primary: true
 docnumber: WD-html53-20171214
 date:
 - type: published
-  value: '2017-12-14'
+  at: '2017-12-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2017-12-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml53
     title:
-    - content: HTML 5.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html53/
-      type: src
-    docid:
-    - id: W3C html53
+    - language: en
+      script: Latn
+      content: HTML 5.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html53/
+    docidentifier:
+    - content: W3C html53
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-html53-20180206
-    title:
-    - content: HTML 5.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-html53-20180206/
-      type: src
-    docid:
-    - id: W3C WD-html53-20180206
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML 5.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-html53-20180206/
+    docidentifier:
+    - content: W3C WD-html53-20180206
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-html53-20171214
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

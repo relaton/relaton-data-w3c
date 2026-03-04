@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cwcag-3.0-explainer
-title:
-- content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/wcag-3.0-explainer/
-  type: src
+id: W3Cwcag30explainer
 type: standard
-docid:
-- id: W3C wcag-3.0-explainer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+source:
+- type: src
+  content: https://www.w3.org/TR/wcag-3.0-explainer/
+docidentifier:
+- content: W3C wcag-3.0-explainer
   type: W3C
   primary: true
 docnumber: wcag-3.0-explainer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-wcag-3.0-explainer-20250904
     title:
-    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/DNOTE-wcag-3.0-explainer-20250904/
-      type: src
-    docid:
-    - id: W3C DNOTE-wcag-3.0-explainer-20250904
+    - language: en
+      script: Latn
+      content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/DNOTE-wcag-3.0-explainer-20260303/
+    docidentifier:
+    - content: W3C DNOTE-wcag-3.0-explainer-20260303
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-wcag-3.0-explainer-20241212
     title:
-    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/
-      type: src
-    docid:
-    - id: W3C DNOTE-wcag-3.0-explainer-20241212
+    - language: en
+      script: Latn
+      content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/DNOTE-wcag-3.0-explainer-20250904/
+    docidentifier:
+    - content: W3C DNOTE-wcag-3.0-explainer-20250904
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-wcag-3.0-explainer-20211207
     title:
-    - content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/DNOTE-wcag-3.0-explainer-20211207/
-      type: src
-    docid:
-    - id: W3C DNOTE-wcag-3.0-explainer-20211207
+    - language: en
+      script: Latn
+      content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-wcag-3.0-explainer-20241212/
+    docidentifier:
+    - content: W3C DNOTE-wcag-3.0-explainer-20241212
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Explainer for W3C Accessibility Guidelines (WCAG) 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/DNOTE-wcag-3.0-explainer-20211207/
+    docidentifier:
+    - content: W3C DNOTE-wcag-3.0-explainer-20211207
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: wcag-3.0-explainer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

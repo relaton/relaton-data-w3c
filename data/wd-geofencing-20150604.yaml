@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-geofencing-20150604
-title:
-- content: Geofencing API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/WD-geofencing-20150604/
-  type: src
+id: W3CWDgeofencing20150604
 type: standard
-docid:
-- id: W3C WD-geofencing-20150604
+schema_version: v1.4.1
+formattedref: W3C WD-geofencing-20150604
+title:
+- language: en
+  script: Latn
+  content: Geofencing API
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/WD-geofencing-20150604/
+docidentifier:
+- content: W3C WD-geofencing-20150604
   type: W3C
   primary: true
 docnumber: WD-geofencing-20150604
 date:
 - type: published
-  value: '2015-06-04'
+  at: '2015-06-04'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marijn
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kruisselbrink
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-06-04'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marijn
+      surname:
+        language: en
+        script: Latn
+        content: Kruisselbrink
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Geolocation Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cgeofencing
     title:
-    - content: Geofencing API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/geofencing/
-      type: src
-    docid:
-    - id: W3C geofencing
+    - language: en
+      script: Latn
+      content: Geofencing API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/geofencing/
+    docidentifier:
+    - content: W3C geofencing
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-geofencing-20170530
-    title:
-    - content: Geofencing API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/NOTE-geofencing-20170530/
-      type: src
-    docid:
-    - id: W3C NOTE-geofencing-20170530
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Geofencing API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/NOTE-geofencing-20170530/
+    docidentifier:
+    - content: W3C NOTE-geofencing-20170530
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-geofencing-20150604
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Geolocation Working Group
+    content: technicalReport
+  flavor: w3c

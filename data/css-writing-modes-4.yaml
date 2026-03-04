@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss-writing-modes-4
-title:
-- content: CSS Writing Modes Level 4
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css-writing-modes-4/
-  type: src
+id: W3Ccsswritingmodes4
 type: standard
-docid:
-- id: W3C css-writing-modes-4
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS Writing Modes Level 4
+source:
+- type: src
+  content: https://www.w3.org/TR/css-writing-modes-4/
+docidentifier:
+- content: W3C css-writing-modes-4
   type: W3C
   primary: true
 docnumber: css-writing-modes-4
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCR-css-writing-modes-4-20190730
     title:
-    - content: CSS Writing Modes Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-css-writing-modes-4-20190730/
-      type: src
-    docid:
-    - id: W3C CR-css-writing-modes-4-20190730
+    - language: en
+      script: Latn
+      content: CSS Writing Modes Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-css-writing-modes-4-20190730/
+    docidentifier:
+    - content: W3C CR-css-writing-modes-4-20190730
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-css-writing-modes-4-20180524
     title:
-    - content: CSS Writing Modes Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/CR-css-writing-modes-4-20180524/
-      type: src
-    docid:
-    - id: W3C CR-css-writing-modes-4-20180524
+    - language: en
+      script: Latn
+      content: CSS Writing Modes Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/CR-css-writing-modes-4-20180524/
+    docidentifier:
+    - content: W3C CR-css-writing-modes-4-20180524
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-writing-modes-4-20171207
     title:
-    - content: CSS Writing Modes Level 4
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-css-writing-modes-4-20171207/
-      type: src
-    docid:
-    - id: W3C WD-css-writing-modes-4-20171207
+    - language: en
+      script: Latn
+      content: CSS Writing Modes Level 4
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-css-writing-modes-4-20171207/
+    docidentifier:
+    - content: W3C WD-css-writing-modes-4-20171207
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css-writing-modes-4
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

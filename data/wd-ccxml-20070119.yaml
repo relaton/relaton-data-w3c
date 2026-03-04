@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-ccxml-20070119
-title:
-- content: 'Voice Browser Call Control: CCXML Version 1.0'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/WD-ccxml-20070119/
-  type: src
+id: W3CWDccxml20070119
 type: standard
-docid:
-- id: W3C WD-ccxml-20070119
+schema_version: v1.4.1
+formattedref: W3C WD-ccxml-20070119
+title:
+- language: en
+  script: Latn
+  content: 'Voice Browser Call Control: CCXML Version 1.0'
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/WD-ccxml-20070119/
+docidentifier:
+- content: W3C WD-ccxml-20070119
   type: W3C
   primary: true
 docnumber: WD-ccxml-20070119
 date:
 - type: published
-  value: '2007-01-19'
+  at: '2007-01-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: RJ
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Auburn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2007-01-19'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: RJ
+      surname:
+        language: en
+        script: Latn
+        content: Auburn
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Voice Browser Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cccxml
     title:
-    - content: 'Voice Browser Call Control: CCXML Version 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ccxml/
-      type: src
-    docid:
-    - id: W3C ccxml
+    - language: en
+      script: Latn
+      content: 'Voice Browser Call Control: CCXML Version 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ccxml/
+    docidentifier:
+    - content: W3C ccxml
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-ccxml-20061122
     title:
-    - content: 'Voice Browser Call Control: CCXML Version 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-ccxml-20061122/
-      type: src
-    docid:
-    - id: W3C WD-ccxml-20061122
+    - language: en
+      script: Latn
+      content: 'Voice Browser Call Control: CCXML Version 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-ccxml-20061122/
+    docidentifier:
+    - content: W3C WD-ccxml-20061122
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-ccxml-20100401
-    title:
-    - content: 'Voice Browser Call Control: CCXML Version 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/CR-ccxml-20100401/
-      type: src
-    docid:
-    - id: W3C CR-ccxml-20100401
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Voice Browser Call Control: CCXML Version 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/CR-ccxml-20100401/
+    docidentifier:
+    - content: W3C CR-ccxml-20100401
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-ccxml-20070119
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Voice Browser Working Group
+    content: technicalReport
+  flavor: w3c

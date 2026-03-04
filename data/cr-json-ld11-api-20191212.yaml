@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-json-ld11-api-20191212
-title:
-- content: JSON-LD 1.1 Processing Algorithms and API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/CR-json-ld11-api-20191212/
-  type: src
+id: W3CCRjsonld11api20191212
 type: standard
-docid:
-- id: W3C CR-json-ld11-api-20191212
+schema_version: v1.4.1
+formattedref: W3C CR-json-ld11-api-20191212
+title:
+- language: en
+  script: Latn
+  content: JSON-LD 1.1 Processing Algorithms and API
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/CR-json-ld11-api-20191212/
+docidentifier:
+- content: W3C CR-json-ld11-api-20191212
   type: W3C
   primary: true
 docnumber: CR-json-ld11-api-20191212
 date:
 - type: published
-  value: '2019-12-12'
+  at: '2019-12-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Gregg
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gregg
       surname:
+        language: en
+        script: Latn
         content: Kellogg
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
       surname:
+        language: en
+        script: Latn
         content: Longley
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Pierre-Antoine
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Pierre-Antoine
       surname:
+        language: en
+        script: Latn
         content: Champin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-12-12'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: JSON-LD Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cjson-ld11-api
     title:
-    - content: JSON-LD 1.1 Processing Algorithms and API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/json-ld11-api/
-      type: src
-    docid:
-    - id: W3C json-ld11-api
+    - language: en
+      script: Latn
+      content: JSON-LD 1.1 Processing Algorithms and API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/json-ld11-api/
+    docidentifier:
+    - content: W3C json-ld11-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-json-ld11-api-20191112
     title:
-    - content: JSON-LD 1.1 Processing Algorithms and API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-json-ld11-api-20191112/
-      type: src
-    docid:
-    - id: W3C WD-json-ld11-api-20191112
+    - language: en
+      script: Latn
+      content: JSON-LD 1.1 Processing Algorithms and API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-json-ld11-api-20191112/
+    docidentifier:
+    - content: W3C WD-json-ld11-api-20191112
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-json-ld11-api-20200305
-    title:
-    - content: JSON-LD 1.1 Processing Algorithms and API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-json-ld11-api-20200305/
-      type: src
-    docid:
-    - id: W3C CR-json-ld11-api-20200305
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: JSON-LD 1.1 Processing Algorithms and API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-json-ld11-api-20200305/
+    docidentifier:
+    - content: W3C CR-json-ld11-api-20200305
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-json-ld11-api-20191212
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: JSON-LD Working Group
+    content: technicalReport
+  flavor: w3c

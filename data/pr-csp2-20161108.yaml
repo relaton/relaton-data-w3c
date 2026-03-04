@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-CSP2-20161108
-title:
-- content: Content Security Policy Level 2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/PR-CSP2-20161108/
-  type: src
+id: W3CPRCSP220161108
 type: standard
-docid:
-- id: W3C PR-CSP2-20161108
+schema_version: v1.4.1
+formattedref: W3C PR-CSP2-20161108
+title:
+- language: en
+  script: Latn
+  content: Content Security Policy Level 2
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/PR-CSP2-20161108/
+docidentifier:
+- content: W3C PR-CSP2-20161108
   type: W3C
   primary: true
 docnumber: PR-CSP2-20161108
 date:
 - type: published
-  value: '2016-11-08'
+  at: '2016-11-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
       surname:
+        language: en
+        script: Latn
         content: West
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Adam
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Adam
       surname:
+        language: en
+        script: Latn
         content: Barth
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Veditz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-11-08'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Application Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CCSP2
     title:
-    - content: Content Security Policy Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/CSP2/
-      type: src
-    docid:
-    - id: W3C CSP2
+    - language: en
+      script: Latn
+      content: Content Security Policy Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/CSP2/
+    docidentifier:
+    - content: W3C CSP2
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-CSP2-20150721
     title:
-    - content: Content Security Policy Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/CR-CSP2-20150721/
-      type: src
-    docid:
-    - id: W3C CR-CSP2-20150721
+    - language: en
+      script: Latn
+      content: Content Security Policy Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/CR-CSP2-20150721/
+    docidentifier:
+    - content: W3C CR-CSP2-20150721
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-CSP2-20161215
-    title:
-    - content: Content Security Policy Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/REC-CSP2-20161215/
-      type: src
-    docid:
-    - id: W3C REC-CSP2-20161215
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Content Security Policy Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/REC-CSP2-20161215/
+    docidentifier:
+    - content: W3C REC-CSP2-20161215
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-CSP2-20161108
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Application Security Working Group
+    content: technicalReport
+  flavor: w3c

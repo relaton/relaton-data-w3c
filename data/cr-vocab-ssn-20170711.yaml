@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-vocab-ssn-20170711
-title:
-- content: Semantic Sensor Network Ontology
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/CR-vocab-ssn-20170711/
-  type: src
+id: W3CCRvocabssn20170711
 type: standard
-docid:
-- id: W3C CR-vocab-ssn-20170711
+schema_version: v1.4.1
+formattedref: W3C CR-vocab-ssn-20170711
+title:
+- language: en
+  script: Latn
+  content: Semantic Sensor Network Ontology
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/CR-vocab-ssn-20170711/
+docidentifier:
+- content: W3C CR-vocab-ssn-20170711
   type: W3C
   primary: true
 docnumber: CR-vocab-ssn-20170711
 date:
 - type: published
-  value: '2017-07-11'
+  at: '2017-07-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Armin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Armin
       surname:
+        language: en
+        script: Latn
         content: Haller
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Krzysztof
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Krzysztof
       surname:
+        language: en
+        script: Latn
         content: Janowicz
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Simon
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Simon
       surname:
+        language: en
+        script: Latn
         content: Cox
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Danh
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Danh
       surname:
+        language: en
+        script: Latn
         content: Le Phuoc
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Kerry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kerry
       surname:
+        language: en
+        script: Latn
         content: Taylor
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Maxime
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Maxime
       surname:
+        language: en
+        script: Latn
         content: Lefrançois
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-07-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Spatio-temporal Data on the Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvocab-ssn-2017
     title:
-    - content: Semantic Sensor Network Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vocab-ssn-2017/
-      type: src
-    docid:
-    - id: W3C vocab-ssn-2017
+    - language: en
+      script: Latn
+      content: Semantic Sensor Network Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vocab-ssn-2017/
+    docidentifier:
+    - content: W3C vocab-ssn-2017
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-vocab-ssn-20170504
     title:
-    - content: Semantic Sensor Network Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-vocab-ssn-20170504/
-      type: src
-    docid:
-    - id: W3C WD-vocab-ssn-20170504
+    - language: en
+      script: Latn
+      content: Semantic Sensor Network Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-vocab-ssn-20170504/
+    docidentifier:
+    - content: W3C WD-vocab-ssn-20170504
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-vocab-ssn-20170907
-    title:
-    - content: Semantic Sensor Network Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/PR-vocab-ssn-20170907/
-      type: src
-    docid:
-    - id: W3C PR-vocab-ssn-20170907
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Semantic Sensor Network Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/PR-vocab-ssn-20170907/
+    docidentifier:
+    - content: W3C PR-vocab-ssn-20170907
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-vocab-ssn-20170711
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Spatio-temporal Data on the Web Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cnaur
-title:
-- content: Natural Language Interface Accessibility User Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/naur/
-  type: src
 type: standard
-docid:
-- id: W3C naur
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Natural Language Interface Accessibility User Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/naur/
+docidentifier:
+- content: W3C naur
   type: W3C
   primary: true
 docnumber: naur
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-naur-20220903
     title:
-    - content: Natural Language Interface Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220903/
-      type: src
-    docid:
-    - id: W3C DNOTE-naur-20220903
+    - language: en
+      script: Latn
+      content: Natural Language Interface Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-naur-20220903/
+    docidentifier:
+    - content: W3C DNOTE-naur-20220903
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-naur-20220722
     title:
-    - content: Natural Language Interface Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220722/
-      type: src
-    docid:
-    - id: W3C DNOTE-naur-20220722
+    - language: en
+      script: Latn
+      content: Natural Language Interface Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-naur-20220722/
+    docidentifier:
+    - content: W3C DNOTE-naur-20220722
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-naur-20220513
     title:
-    - content: Natural Language Interface Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-naur-20220513/
-      type: src
-    docid:
-    - id: W3C DNOTE-naur-20220513
+    - language: en
+      script: Latn
+      content: Natural Language Interface Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-naur-20220513/
+    docidentifier:
+    - content: W3C DNOTE-naur-20220513
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-naur-20211012
     title:
-    - content: Natural Language Interface Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-naur-20211012/
-      type: src
-    docid:
-    - id: W3C WD-naur-20211012
+    - language: en
+      script: Latn
+      content: Natural Language Interface Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-naur-20211012/
+    docidentifier:
+    - content: W3C WD-naur-20211012
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: naur
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

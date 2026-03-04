@@ -1,110 +1,116 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-selectors-nonelement-1-20140603
-title:
-- content: Non-element Selectors Module Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/WD-selectors-nonelement-1-20140603/
-  type: src
+id: W3CWDselectorsnonelement120140603
 type: standard
-docid:
-- id: W3C WD-selectors-nonelement-1-20140603
+schema_version: v1.4.1
+formattedref: W3C WD-selectors-nonelement-1-20140603
+title:
+- language: en
+  script: Latn
+  content: Non-element Selectors Module Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/WD-selectors-nonelement-1-20140603/
+docidentifier:
+- content: W3C WD-selectors-nonelement-1-20140603
   type: W3C
   primary: true
 docnumber: WD-selectors-nonelement-1-20140603
 date:
 - type: published
-  value: '2014-06-03'
+  at: '2014-06-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jirka
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jirka
       surname:
+        language: en
+        script: Latn
         content: Kosek
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tab
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tab
       surname:
+        language: en
+        script: Latn
         content: Atkins Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-06-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cselectors-nonelement-1
     title:
-    - content: Non-element Selectors Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/selectors-nonelement-1/
-      type: src
-    docid:
-    - id: W3C selectors-nonelement-1
+    - language: en
+      script: Latn
+      content: Non-element Selectors Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/selectors-nonelement-1/
+    docidentifier:
+    - content: W3C selectors-nonelement-1
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-selectors-nonelement-1-20190402
-    title:
-    - content: Non-element Selectors Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/NOTE-selectors-nonelement-1-20190402/
-      type: src
-    docid:
-    - id: W3C NOTE-selectors-nonelement-1-20190402
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Non-element Selectors Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/NOTE-selectors-nonelement-1-20190402/
+    docidentifier:
+    - content: W3C NOTE-selectors-nonelement-1-20190402
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-selectors-nonelement-1-20140603
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

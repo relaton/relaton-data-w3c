@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csparql11-protocol
-title:
-- content: SPARQL 1.1 Protocol
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/sparql11-protocol/
-  type: src
+id: W3Csparql11protocol
 type: standard
-docid:
-- id: W3C sparql11-protocol
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SPARQL 1.1 Protocol
+source:
+- type: src
+  content: https://www.w3.org/TR/sparql11-protocol/
+docidentifier:
+- content: W3C sparql11-protocol
   type: W3C
   primary: true
 docnumber: sparql11-protocol
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-sparql11-protocol-20130321
     title:
-    - content: SPARQL 1.1 Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-sparql11-protocol-20130321/
-      type: src
-    docid:
-    - id: W3C REC-sparql11-protocol-20130321
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-sparql11-protocol-20130321/
+    docidentifier:
+    - content: W3C REC-sparql11-protocol-20130321
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-sparql11-protocol-20130129
     title:
-    - content: SPARQL 1.1 Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/PR-sparql11-protocol-20130129/
-      type: src
-    docid:
-    - id: W3C PR-sparql11-protocol-20130129
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/PR-sparql11-protocol-20130129/
+    docidentifier:
+    - content: W3C PR-sparql11-protocol-20130129
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-sparql11-protocol-20121108
     title:
-    - content: SPARQL 1.1 Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-sparql11-protocol-20121108/
-      type: src
-    docid:
-    - id: W3C CR-sparql11-protocol-20121108
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-sparql11-protocol-20121108/
+    docidentifier:
+    - content: W3C CR-sparql11-protocol-20121108
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sparql11-protocol-20120105
     title:
-    - content: SPARQL 1.1 Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-sparql11-protocol-20120105/
-      type: src
-    docid:
-    - id: W3C WD-sparql11-protocol-20120105
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-sparql11-protocol-20120105/
+    docidentifier:
+    - content: W3C WD-sparql11-protocol-20120105
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sparql11-protocol-20100126
     title:
-    - content: SPARQL 1.1 Protocol for RDF
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-sparql11-protocol-20100126/
-      type: src
-    docid:
-    - id: W3C WD-sparql11-protocol-20100126
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Protocol for RDF
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-sparql11-protocol-20100126/
+    docidentifier:
+    - content: W3C WD-sparql11-protocol-20100126
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sparql11-protocol-20091022
     title:
-    - content: SPARQL 1.1 Protocol for RDF
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-sparql11-protocol-20091022/
-      type: src
-    docid:
-    - id: W3C WD-sparql11-protocol-20091022
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Protocol for RDF
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-sparql11-protocol-20091022/
+    docidentifier:
+    - content: W3C WD-sparql11-protocol-20091022
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: sparql11-protocol
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

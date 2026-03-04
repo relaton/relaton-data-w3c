@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-jpan-lreq-20240808
-title:
-- content: Japanese Script Resources
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/DNOTE-jpan-lreq-20240808/
-  type: src
+id: W3CDNOTEjpanlreq20240808
 type: standard
-docid:
-- id: W3C DNOTE-jpan-lreq-20240808
+schema_version: v1.4.1
+formattedref: W3C DNOTE-jpan-lreq-20240808
+title:
+- language: en
+  script: Latn
+  content: Japanese Script Resources
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/DNOTE-jpan-lreq-20240808/
+docidentifier:
+- content: W3C DNOTE-jpan-lreq-20240808
   type: W3C
   primary: true
 docnumber: DNOTE-jpan-lreq-20240808
 date:
 - type: published
-  value: '2024-08-08'
+  at: '2024-08-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-08-08'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cjpan-lreq
     title:
-    - content: Japanese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/jpan-lreq/
-      type: src
-    docid:
-    - id: W3C jpan-lreq
+    - language: en
+      script: Latn
+      content: Japanese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/jpan-lreq/
+    docidentifier:
+    - content: W3C jpan-lreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-jpan-lreq-20240730
     title:
-    - content: Japanese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-jpan-lreq-20240730/
-      type: src
-    docid:
-    - id: W3C DNOTE-jpan-lreq-20240730
+    - language: en
+      script: Latn
+      content: Japanese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-jpan-lreq-20240730/
+    docidentifier:
+    - content: W3C DNOTE-jpan-lreq-20240730
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-jpan-lreq-20240815
-    title:
-    - content: Japanese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-jpan-lreq-20240815/
-      type: src
-    docid:
-    - id: W3C DNOTE-jpan-lreq-20240815
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Japanese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-jpan-lreq-20240815/
+    docidentifier:
+    - content: W3C DNOTE-jpan-lreq-20240815
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-jpan-lreq-20240808
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cgov-data
-title:
-- content: Publishing Open Government Data
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/gov-data/
-  type: src
+id: W3Cgovdata
 type: standard
-docid:
-- id: W3C gov-data
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Publishing Open Government Data
+source:
+- type: src
+  content: https://www.w3.org/TR/gov-data/
+docidentifier:
+- content: W3C gov-data
   type: W3C
   primary: true
 docnumber: gov-data
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-gov-data-20090908
     title:
-    - content: Publishing Open Government Data
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-gov-data-20090908/
-      type: src
-    docid:
-    - id: W3C WD-gov-data-20090908
+    - language: en
+      script: Latn
+      content: Publishing Open Government Data
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-gov-data-20090908/
+    docidentifier:
+    - content: W3C WD-gov-data-20090908
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: gov-data
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

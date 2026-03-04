@@ -1,164 +1,155 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-webauthn-3-20210427
-title:
-- content: 'Web Authentication: An API for accessing Public Key Credentials - Level
-    3'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/WD-webauthn-3-20210427/
-  type: src
+id: W3CWDwebauthn320210427
 type: standard
-docid:
-- id: W3C WD-webauthn-3-20210427
+schema_version: v1.4.1
+formattedref: W3C WD-webauthn-3-20210427
+title:
+- language: en
+  script: Latn
+  content: 'Web Authentication: An API for accessing Public Key Credentials - Level
+    3'
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/WD-webauthn-3-20210427/
+docidentifier:
+- content: W3C WD-webauthn-3-20210427
   type: W3C
   primary: true
 docnumber: WD-webauthn-3-20210427
 date:
 - type: published
-  value: '2021-04-27'
+  at: '2021-04-27'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jeff
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jeff
       surname:
+        language: en
+        script: Latn
         content: Hodges
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: J.C.
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: J.C.
       surname:
+        language: en
+        script: Latn
         content: Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Akshay
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Akshay
       surname:
+        language: en
+        script: Latn
         content: Kumar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Emil
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Emil
       surname:
+        language: en
+        script: Latn
         content: Lundberg
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2021-04-27'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Authentication Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebauthn-3
     title:
-    - content: 'Web Authentication: An API for accessing Public Key Credentials -
+    - language: en
+      script: Latn
+      content: 'Web Authentication: An API for accessing Public Key Credentials -
         Level 3'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webauthn-3/
-      type: src
-    docid:
-    - id: W3C webauthn-3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webauthn-3/
+    docidentifier:
+    - content: W3C webauthn-3
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-webauthn-3-20230927
-    title:
-    - content: 'Web Authentication: An API for accessing Public Key Credentials -
-        Level 3'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-webauthn-3-20230927/
-      type: src
-    docid:
-    - id: W3C WD-webauthn-3-20230927
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Web Authentication: An API for accessing Public Key Credentials -
+        Level 3'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-webauthn-3-20230927/
+    docidentifier:
+    - content: W3C WD-webauthn-3-20230927
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-webauthn-3-20210427
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Authentication Working Group
+    content: technicalReport
+  flavor: w3c

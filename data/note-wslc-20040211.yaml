@@ -1,111 +1,113 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-wslc-20040211
-title:
-- content: 'Web Service Management: Service Life Cycle'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/NOTE-wslc-20040211/
-  type: src
+id: W3CNOTEwslc20040211
 type: standard
-docid:
-- id: W3C NOTE-wslc-20040211
+schema_version: v1.4.1
+formattedref: W3C NOTE-wslc-20040211
+title:
+- language: en
+  script: Latn
+  content: 'Web Service Management: Service Life Cycle'
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/NOTE-wslc-20040211/
+docidentifier:
+- content: W3C NOTE-wslc-20040211
   type: W3C
   primary: true
 docnumber: NOTE-wslc-20040211
 date:
 - type: published
-  value: '2004-02-11'
+  at: '2004-02-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Hao
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hao
       surname:
+        language: en
+        script: Latn
         content: He
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mark
       surname:
+        language: en
+        script: Latn
         content: Potts
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Igor
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Igor
       surname:
+        language: en
+        script: Latn
         content: Sedukhin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-02-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Services Architecture Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwslc
     title:
-    - content: 'Web Service Management: Service Life Cycle'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/wslc/
-      type: src
-    docid:
-    - id: W3C wslc
+    - language: en
+      script: Latn
+      content: 'Web Service Management: Service Life Cycle'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/wslc/
+    docidentifier:
+    - content: W3C wslc
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-wslc-20040211
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Services Architecture Working Group
+    content: technicalReport
+  flavor: w3c

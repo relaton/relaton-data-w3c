@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-miniapp-manifest-20230530
-title:
-- content: MiniApp Manifest
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-miniapp-manifest-20230530/
-  type: src
+id: W3CWDminiappmanifest20230530
 type: standard
-docid:
-- id: W3C WD-miniapp-manifest-20230530
+schema_version: v1.4.1
+formattedref: W3C WD-miniapp-manifest-20230530
+title:
+- language: en
+  script: Latn
+  content: MiniApp Manifest
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-miniapp-manifest-20230530/
+docidentifier:
+- content: W3C WD-miniapp-manifest-20230530
   type: W3C
   primary: true
 docnumber: WD-miniapp-manifest-20230530
 date:
 - type: published
-  value: '2023-05-30'
+  at: '2023-05-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Martin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Martin
       surname:
+        language: en
+        script: Latn
         content: Alvarez-Espinar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yongjing
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yongjing
       surname:
+        language: en
+        script: Latn
         content: ZHANG
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-05-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: MiniApps Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cminiapp-manifest
     title:
-    - content: MiniApp Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/miniapp-manifest/
-      type: src
-    docid:
-    - id: W3C miniapp-manifest
+    - language: en
+      script: Latn
+      content: MiniApp Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/miniapp-manifest/
+    docidentifier:
+    - content: W3C miniapp-manifest
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-miniapp-manifest-20230228
     title:
-    - content: MiniApp Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-miniapp-manifest-20230228/
-      type: src
-    docid:
-    - id: W3C WD-miniapp-manifest-20230228
+    - language: en
+      script: Latn
+      content: MiniApp Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-miniapp-manifest-20230228/
+    docidentifier:
+    - content: W3C WD-miniapp-manifest-20230228
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-miniapp-manifest-20241114
-    title:
-    - content: MiniApp Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-miniapp-manifest-20241114/
-      type: src
-    docid:
-    - id: W3C WD-miniapp-manifest-20241114
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: MiniApp Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-miniapp-manifest-20241114/
+    docidentifier:
+    - content: W3C WD-miniapp-manifest-20241114
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-miniapp-manifest-20230530
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: MiniApps Working Group
+    content: technicalReport
+  flavor: w3c

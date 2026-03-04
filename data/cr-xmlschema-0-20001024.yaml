@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-xmlschema-0-20001024
-title:
-- content: 'XML Schema Part 0: Primer'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2000/CR-xmlschema-0-20001024/
-  type: src
+id: W3CCRxmlschema020001024
 type: standard
-docid:
-- id: W3C CR-xmlschema-0-20001024
+schema_version: v1.4.1
+formattedref: W3C CR-xmlschema-0-20001024
+title:
+- language: en
+  script: Latn
+  content: 'XML Schema Part 0: Primer'
+source:
+- type: src
+  content: https://www.w3.org/TR/2000/CR-xmlschema-0-20001024/
+docidentifier:
+- content: W3C CR-xmlschema-0-20001024
   type: W3C
   primary: true
 docnumber: CR-xmlschema-0-20001024
 date:
 - type: published
-  value: '2000-10-24'
+  at: '2000-10-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2000-10-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlschema-0
     title:
-    - content: 'XML Schema Part 0: Primer Second Edition'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlschema-0/
-      type: src
-    docid:
-    - id: W3C xmlschema-0
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 0: Primer Second Edition'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlschema-0/
+    docidentifier:
+    - content: W3C xmlschema-0
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xmlschema-0-20000922
     title:
-    - content: 'XML Schema Part 0: Primer'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/WD-xmlschema-0-20000922/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema-0-20000922
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 0: Primer'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/WD-xmlschema-0-20000922/
+    docidentifier:
+    - content: W3C WD-xmlschema-0-20000922
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-xmlschema-0-20010316
-    title:
-    - content: 'XML Schema Part 0: Primer'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/PR-xmlschema-0-20010316/
-      type: src
-    docid:
-    - id: W3C PR-xmlschema-0-20010316
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 0: Primer'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/PR-xmlschema-0-20010316/
+    docidentifier:
+    - content: W3C PR-xmlschema-0-20010316
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-xmlschema-0-20001024
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

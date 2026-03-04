@@ -1,158 +1,150 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-mathml-for-css-20110607
-title:
-- content: A MathML for CSS Profile
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/REC-mathml-for-css-20110607/
-  type: src
+id: W3CRECmathmlforcss20110607
 type: standard
-docid:
-- id: W3C REC-mathml-for-css-20110607
+schema_version: v1.4.1
+formattedref: W3C REC-mathml-for-css-20110607
+title:
+- language: en
+  script: Latn
+  content: A MathML for CSS Profile
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/REC-mathml-for-css-20110607/
+docidentifier:
+- content: W3C REC-mathml-for-css-20110607
   type: W3C
   primary: true
 docnumber: REC-mathml-for-css-20110607
 date:
 - type: published
-  value: '2011-06-07'
+  at: '2011-06-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Bert
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bert
       surname:
+        language: en
+        script: Latn
         content: Bos
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Carlisle
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Giorgi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Giorgi
       surname:
+        language: en
+        script: Latn
         content: Chavchanidze
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Patrick D F
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick D F
       surname:
+        language: en
+        script: Latn
         content: Ion
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bruce
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bruce
       surname:
+        language: en
+        script: Latn
         content: Miller
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-06-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Math Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmathml-for-css
     title:
-    - content: A MathML for CSS Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mathml-for-css/
-      type: src
-    docid:
-    - id: W3C mathml-for-css
+    - language: en
+      script: Latn
+      content: A MathML for CSS Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mathml-for-css/
+    docidentifier:
+    - content: W3C mathml-for-css
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-mathml-for-css-20100810
     title:
-    - content: A MathML for CSS Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/PR-mathml-for-css-20100810/
-      type: src
-    docid:
-    - id: W3C PR-mathml-for-css-20100810
+    - language: en
+      script: Latn
+      content: A MathML for CSS Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/PR-mathml-for-css-20100810/
+    docidentifier:
+    - content: W3C PR-mathml-for-css-20100810
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-mathml-for-css-20110607
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Math Working Group
+    content: technicalReport
+  flavor: w3c

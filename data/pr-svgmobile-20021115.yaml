@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-SVGMobile-20021115
-title:
-- content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/PR-SVGMobile-20021115/
-  type: src
+id: W3CPRSVGMobile20021115
 type: standard
-docid:
-- id: W3C PR-SVGMobile-20021115
+schema_version: v1.4.1
+formattedref: W3C PR-SVGMobile-20021115
+title:
+- language: en
+  script: Latn
+  content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/PR-SVGMobile-20021115/
+docidentifier:
+- content: W3C PR-SVGMobile-20021115
   type: W3C
   primary: true
 docnumber: PR-SVGMobile-20021115
 date:
 - type: published
-  value: '2002-11-15'
+  at: '2002-11-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Tolga
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Capin
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2002-11-15'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Tolga
+      surname:
+        language: en
+        script: Latn
+        content: Capin
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CSVGMobile
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/SVGMobile/
-      type: src
-    docid:
-    - id: W3C SVGMobile
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/SVGMobile/
+    docidentifier:
+    - content: W3C SVGMobile
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-SVGMobile-20020430
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/CR-SVGMobile-20020430/
-      type: src
-    docid:
-    - id: W3C CR-SVGMobile-20020430
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/CR-SVGMobile-20020430/
+    docidentifier:
+    - content: W3C CR-SVGMobile-20020430
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-SVGMobile-20030114
-    title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/REC-SVGMobile-20030114/
-      type: src
-    docid:
-    - id: W3C REC-SVGMobile-20030114
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/REC-SVGMobile-20030114/
+    docidentifier:
+    - content: W3C REC-SVGMobile-20030114
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-SVGMobile-20021115
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

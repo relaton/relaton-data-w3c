@@ -1,76 +1,92 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-vc-di-bbs-20230518
-title:
-- content: BBS Cryptosuite v2023
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230518/
-  type: src
+id: W3CWDvcdibbs20230518
 type: standard
-docid:
-- id: W3C WD-vc-di-bbs-20230518
+schema_version: v1.4.1
+formattedref: W3C WD-vc-di-bbs-20230518
+title:
+- language: en
+  script: Latn
+  content: BBS Cryptosuite v2023
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230518/
+docidentifier:
+- content: W3C WD-vc-di-bbs-20230518
   type: W3C
   primary: true
 docnumber: WD-vc-di-bbs-20230518
 date:
 - type: published
-  value: '2023-05-18'
+  at: '2023-05-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2023-05-18'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Verifiable Credentials Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvc-di-bbs
     title:
-    - content: Data Integrity BBS Cryptosuites v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vc-di-bbs/
-      type: src
-    docid:
-    - id: W3C vc-di-bbs
+    - language: en
+      script: Latn
+      content: Data Integrity BBS Cryptosuites v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vc-di-bbs/
+    docidentifier:
+    - content: W3C vc-di-bbs
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-vc-di-bbs-20230524
-    title:
-    - content: BBS Cryptosuite v2023
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230524/
-      type: src
-    docid:
-    - id: W3C WD-vc-di-bbs-20230524
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: BBS Cryptosuite v2023
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-vc-di-bbs-20230524/
+    docidentifier:
+    - content: W3C WD-vc-di-bbs-20230524
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-vc-di-bbs-20230518
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Verifiable Credentials Working Group
+    content: technicalReport
+  flavor: w3c

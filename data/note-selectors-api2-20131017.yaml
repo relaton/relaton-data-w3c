@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-selectors-api2-20131017
-title:
-- content: Selectors API Level 2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/NOTE-selectors-api2-20131017/
-  type: src
+id: W3CNOTEselectorsapi220131017
 type: standard
-docid:
-- id: W3C NOTE-selectors-api2-20131017
+schema_version: v1.4.1
+formattedref: W3C NOTE-selectors-api2-20131017
+title:
+- language: en
+  script: Latn
+  content: Selectors API Level 2
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/NOTE-selectors-api2-20131017/
+docidentifier:
+- content: W3C NOTE-selectors-api2-20131017
   type: W3C
   primary: true
 docnumber: NOTE-selectors-api2-20131017
 date:
 - type: published
-  value: '2013-10-17'
+  at: '2013-10-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Lachlan
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hunt
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-10-17'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Lachlan
+      surname:
+        language: en
+        script: Latn
+        content: Hunt
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cselectors-api2
     title:
-    - content: Selectors API Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/selectors-api2/
-      type: src
-    docid:
-    - id: W3C selectors-api2
+    - language: en
+      script: Latn
+      content: Selectors API Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/selectors-api2/
+    docidentifier:
+    - content: W3C selectors-api2
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-selectors-api2-20120628
     title:
-    - content: Selectors API Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-selectors-api2-20120628/
-      type: src
-    docid:
-    - id: W3C WD-selectors-api2-20120628
+    - language: en
+      script: Latn
+      content: Selectors API Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-selectors-api2-20120628/
+    docidentifier:
+    - content: W3C WD-selectors-api2-20120628
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-selectors-api2-20131017
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

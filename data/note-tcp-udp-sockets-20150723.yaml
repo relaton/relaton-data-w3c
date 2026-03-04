@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-tcp-udp-sockets-20150723
-title:
-- content: TCP and UDP Socket API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/NOTE-tcp-udp-sockets-20150723/
-  type: src
+id: W3CNOTEtcpudpsockets20150723
 type: standard
-docid:
-- id: W3C NOTE-tcp-udp-sockets-20150723
+schema_version: v1.4.1
+formattedref: W3C NOTE-tcp-udp-sockets-20150723
+title:
+- language: en
+  script: Latn
+  content: TCP and UDP Socket API
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/NOTE-tcp-udp-sockets-20150723/
+docidentifier:
+- content: W3C NOTE-tcp-udp-sockets-20150723
   type: W3C
   primary: true
 docnumber: NOTE-tcp-udp-sockets-20150723
 date:
 - type: published
-  value: '2015-07-23'
+  at: '2015-07-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Claes
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Nilsson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-07-23'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Claes
+      surname:
+        language: en
+        script: Latn
+        content: Nilsson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: System Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctcp-udp-sockets
     title:
-    - content: TCP and UDP Socket API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/tcp-udp-sockets/
-      type: src
-    docid:
-    - id: W3C tcp-udp-sockets
+    - language: en
+      script: Latn
+      content: TCP and UDP Socket API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/tcp-udp-sockets/
+    docidentifier:
+    - content: W3C tcp-udp-sockets
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-tcp-udp-sockets-20141202
     title:
-    - content: TCP and UDP Socket API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-tcp-udp-sockets-20141202/
-      type: src
-    docid:
-    - id: W3C WD-tcp-udp-sockets-20141202
+    - language: en
+      script: Latn
+      content: TCP and UDP Socket API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-tcp-udp-sockets-20141202/
+    docidentifier:
+    - content: W3C WD-tcp-udp-sockets-20141202
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-tcp-udp-sockets-20150723
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: System Applications Working Group
+    content: technicalReport
+  flavor: w3c

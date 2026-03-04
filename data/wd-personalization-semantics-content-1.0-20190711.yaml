@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-personalization-semantics-content-1.0-20190711
-title:
-- content: Personalization Semantics Content Module 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/WD-personalization-semantics-content-1.0-20190711/
-  type: src
+id: W3CWDpersonalizationsemanticscontent1020190711
 type: standard
-docid:
-- id: W3C WD-personalization-semantics-content-1.0-20190711
+schema_version: v1.4.1
+formattedref: W3C WD-personalization-semantics-content-1.0-20190711
+title:
+- language: en
+  script: Latn
+  content: Personalization Semantics Content Module 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/WD-personalization-semantics-content-1.0-20190711/
+docidentifier:
+- content: W3C WD-personalization-semantics-content-1.0-20190711
   type: W3C
   primary: true
 docnumber: WD-personalization-semantics-content-1.0-20190711
 date:
 - type: published
-  value: '2019-07-11'
+  at: '2019-07-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lisa
       surname:
+        language: en
+        script: Latn
         content: Seeman-Horwitz
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Charles
       surname:
+        language: en
+        script: Latn
         content: LaPierre
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ruoxi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ruoxi
       surname:
+        language: en
+        script: Latn
         content: Ran
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Schwerdtfeger
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-07-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessible Platform Architectures Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cadapt-symbols
     title:
-    - content: 'WAI-Adapt: Symbols Module'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/adapt-symbols/
-      type: src
-    docid:
-    - id: W3C adapt-symbols
+    - language: en
+      script: Latn
+      content: 'WAI-Adapt: Symbols Module'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/adapt-symbols/
+    docidentifier:
+    - content: W3C adapt-symbols
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-personalization-semantics-content-1.0-20181018
     title:
-    - content: Personalization Semantics Content Module 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-personalization-semantics-content-1.0-20181018/
-      type: src
-    docid:
-    - id: W3C WD-personalization-semantics-content-1.0-20181018
+    - language: en
+      script: Latn
+      content: Personalization Semantics Content Module 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-personalization-semantics-content-1.0-20181018/
+    docidentifier:
+    - content: W3C WD-personalization-semantics-content-1.0-20181018
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-personalization-semantics-content-1.0-20200127
-    title:
-    - content: Personalization Semantics Content Module 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-personalization-semantics-content-1.0-20200127/
-      type: src
-    docid:
-    - id: W3C WD-personalization-semantics-content-1.0-20200127
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Personalization Semantics Content Module 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-personalization-semantics-content-1.0-20200127/
+    docidentifier:
+    - content: W3C WD-personalization-semantics-content-1.0-20200127
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-personalization-semantics-content-1.0-20190711
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessible Platform Architectures Working Group
+    content: technicalReport
+  flavor: w3c

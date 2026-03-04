@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-sparql12-update-20230714
-title:
-- content: SPARQL 1.2 Update
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-sparql12-update-20230714/
-  type: src
+id: W3CWDsparql12update20230714
 type: standard
-docid:
-- id: W3C WD-sparql12-update-20230714
+schema_version: v1.4.1
+formattedref: W3C WD-sparql12-update-20230714
+title:
+- language: en
+  script: Latn
+  content: SPARQL 1.2 Update
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-sparql12-update-20230714/
+docidentifier:
+- content: W3C WD-sparql12-update-20230714
   type: W3C
   primary: true
 docnumber: WD-sparql12-update-20230714
 date:
 - type: published
-  value: '2023-07-14'
+  at: '2023-07-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ruben
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ruben
       surname:
+        language: en
+        script: Latn
         content: Taelman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Andy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andy
       surname:
+        language: en
+        script: Latn
         content: Seaborne
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Thomas
       surname:
+        language: en
+        script: Latn
         content: Pellissier Tanon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-07-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDF & SPARQL Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csparql12-update
     title:
-    - content: SPARQL 1.2 Update
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/sparql12-update/
-      type: src
-    docid:
-    - id: W3C sparql12-update
+    - language: en
+      script: Latn
+      content: SPARQL 1.2 Update
+    source:
+    - type: src
+      content: https://www.w3.org/TR/sparql12-update/
+    docidentifier:
+    - content: W3C sparql12-update
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-update-20230706
     title:
-    - content: SPARQL 1.2 Update
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-sparql12-update-20230706/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-update-20230706
+    - language: en
+      script: Latn
+      content: SPARQL 1.2 Update
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-sparql12-update-20230706/
+    docidentifier:
+    - content: W3C WD-sparql12-update-20230706
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-sparql12-update-20230922
-    title:
-    - content: SPARQL 1.2 Update
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-sparql12-update-20230922/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-update-20230922
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SPARQL 1.2 Update
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-sparql12-update-20230922/
+    docidentifier:
+    - content: W3C WD-sparql12-update-20230922
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-sparql12-update-20230714
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDF & SPARQL Working Group
+    content: technicalReport
+  flavor: w3c

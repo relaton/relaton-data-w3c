@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-uievents-key-20241126
-title:
-- content: UI Events KeyboardEvent key Values
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/PR-uievents-key-20241126/
-  type: src
+id: W3CPRuieventskey20241126
 type: standard
-docid:
-- id: W3C PR-uievents-key-20241126
+schema_version: v1.4.1
+formattedref: W3C PR-uievents-key-20241126
+title:
+- language: en
+  script: Latn
+  content: UI Events KeyboardEvent key Values
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/PR-uievents-key-20241126/
+docidentifier:
+- content: W3C PR-uievents-key-20241126
   type: W3C
   primary: true
 docnumber: PR-uievents-key-20241126
 date:
 - type: published
-  value: '2024-11-26'
+  at: '2024-11-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Travis
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Travis
       surname:
+        language: en
+        script: Latn
         content: Leithead
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gary
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gary
       surname:
+        language: en
+        script: Latn
         content: Kacmarcik
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-11-26'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cuievents-key
     title:
-    - content: UI Events KeyboardEvent key Values
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/uievents-key/
-      type: src
-    docid:
-    - id: W3C uievents-key
+    - language: en
+      script: Latn
+      content: UI Events KeyboardEvent key Values
+    source:
+    - type: src
+      content: https://www.w3.org/TR/uievents-key/
+    docidentifier:
+    - content: W3C uievents-key
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-uievents-key-20230530
     title:
-    - content: UI Events KeyboardEvent key Values
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/CR-uievents-key-20230530/
-      type: src
-    docid:
-    - id: W3C CR-uievents-key-20230530
+    - language: en
+      script: Latn
+      content: UI Events KeyboardEvent key Values
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/CR-uievents-key-20230530/
+    docidentifier:
+    - content: W3C CR-uievents-key-20230530
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-uievents-key-20250422
-    title:
-    - content: UI Events KeyboardEvent key Values
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/REC-uievents-key-20250422/
-      type: src
-    docid:
-    - id: W3C REC-uievents-key-20250422
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: UI Events KeyboardEvent key Values
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/REC-uievents-key-20250422/
+    docidentifier:
+    - content: W3C REC-uievents-key-20250422
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-uievents-key-20241126
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Applications Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-activitystreams-core-20141023
-title:
-- content: Activity Streams 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/WD-activitystreams-core-20141023/
-  type: src
+id: W3CWDactivitystreamscore20141023
 type: standard
-docid:
-- id: W3C WD-activitystreams-core-20141023
+schema_version: v1.4.1
+formattedref: W3C WD-activitystreams-core-20141023
+title:
+- language: en
+  script: Latn
+  content: Activity Streams 2.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/WD-activitystreams-core-20141023/
+docidentifier:
+- content: W3C WD-activitystreams-core-20141023
   type: W3C
   primary: true
 docnumber: WD-activitystreams-core-20141023
 date:
 - type: published
-  value: '2014-10-23'
+  at: '2014-10-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Snell
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2014-10-23'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: James
+      surname:
+        language: en
+        script: Latn
+        content: Snell
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Social Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cactivitystreams-core
     title:
-    - content: Activity Streams 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/activitystreams-core/
-      type: src
-    docid:
-    - id: W3C activitystreams-core
+    - language: en
+      script: Latn
+      content: Activity Streams 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/activitystreams-core/
+    docidentifier:
+    - content: W3C activitystreams-core
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-activitystreams-core-20150129
-    title:
-    - content: Activity Streams 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-activitystreams-core-20150129/
-      type: src
-    docid:
-    - id: W3C WD-activitystreams-core-20150129
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Activity Streams 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-activitystreams-core-20150129/
+    docidentifier:
+    - content: W3C WD-activitystreams-core-20150129
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-activitystreams-core-20141023
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Social Web Working Group
+    content: technicalReport
+  flavor: w3c

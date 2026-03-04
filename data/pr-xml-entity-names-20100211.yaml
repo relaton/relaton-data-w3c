@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-xml-entity-names-20100211
-title:
-- content: XML Entity Definitions for Characters
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/PR-xml-entity-names-20100211/
-  type: src
+id: W3CPRxmlentitynames20100211
 type: standard
-docid:
-- id: W3C PR-xml-entity-names-20100211
+schema_version: v1.4.1
+formattedref: W3C PR-xml-entity-names-20100211
+title:
+- language: en
+  script: Latn
+  content: XML Entity Definitions for Characters
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/PR-xml-entity-names-20100211/
+docidentifier:
+- content: W3C PR-xml-entity-names-20100211
   type: W3C
   primary: true
 docnumber: PR-xml-entity-names-20100211
 date:
 - type: published
-  value: '2010-02-11'
+  at: '2010-02-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Patrick D F
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick D F
       surname:
+        language: en
+        script: Latn
         content: Ion
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Carlisle
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2010-02-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Math Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxml-entity-names
     title:
-    - content: XML Entity Definitions for Characters (3rd Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xml-entity-names/
-      type: src
-    docid:
-    - id: W3C xml-entity-names
+    - language: en
+      script: Latn
+      content: XML Entity Definitions for Characters (3rd Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xml-entity-names/
+    docidentifier:
+    - content: W3C xml-entity-names
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xml-entity-names-20091117
     title:
-    - content: XML Entity definitions for Characters
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-xml-entity-names-20091117/
-      type: src
-    docid:
-    - id: W3C WD-xml-entity-names-20091117
+    - language: en
+      script: Latn
+      content: XML Entity definitions for Characters
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-xml-entity-names-20091117/
+    docidentifier:
+    - content: W3C WD-xml-entity-names-20091117
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-xml-entity-names-20100401
-    title:
-    - content: XML Entity Definitions for Characters
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/REC-xml-entity-names-20100401/
-      type: src
-    docid:
-    - id: W3C REC-xml-entity-names-20100401
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Entity Definitions for Characters
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/REC-xml-entity-names-20100401/
+    docidentifier:
+    - content: W3C REC-xml-entity-names-20100401
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-xml-entity-names-20100211
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Math Working Group
+    content: technicalReport
+  flavor: w3c

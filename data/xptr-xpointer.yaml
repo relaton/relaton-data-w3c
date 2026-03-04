@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cxptr-xpointer
-title:
-- content: XPointer xpointer() Scheme
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/xptr-xpointer/
-  type: src
+id: W3Cxptrxpointer
 type: standard
-docid:
-- id: W3C xptr-xpointer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: XPointer xpointer() Scheme
+source:
+- type: src
+  content: https://www.w3.org/TR/xptr-xpointer/
+docidentifier:
+- content: W3C xptr-xpointer
   type: W3C
   primary: true
 docnumber: xptr-xpointer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-xptr-xpointer-20021219
     title:
-    - content: XPointer xpointer() Scheme
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-xptr-xpointer-20021219/
-      type: src
-    docid:
-    - id: W3C WD-xptr-xpointer-20021219
+    - language: en
+      script: Latn
+      content: XPointer xpointer() Scheme
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-xptr-xpointer-20021219/
+    docidentifier:
+    - content: W3C WD-xptr-xpointer-20021219
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-xptr-xpointer-20020710
     title:
-    - content: XPointer xpointer() Scheme
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-xptr-xpointer-20020710/
-      type: src
-    docid:
-    - id: W3C WD-xptr-xpointer-20020710
+    - language: en
+      script: Latn
+      content: XPointer xpointer() Scheme
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-xptr-xpointer-20020710/
+    docidentifier:
+    - content: W3C WD-xptr-xpointer-20020710
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: xptr-xpointer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

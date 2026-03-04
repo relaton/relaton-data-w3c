@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cwordnet-rdf
-title:
-- content: RDF/OWL Representation of WordNet
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/wordnet-rdf/
-  type: src
+id: W3Cwordnetrdf
 type: standard
-docid:
-- id: W3C wordnet-rdf
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: RDF/OWL Representation of WordNet
+source:
+- type: src
+  content: https://www.w3.org/TR/wordnet-rdf/
+docidentifier:
+- content: W3C wordnet-rdf
   type: W3C
   primary: true
 docnumber: wordnet-rdf
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wordnet-rdf-20060619
     title:
-    - content: RDF/OWL Representation of WordNet
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-wordnet-rdf-20060619/
-      type: src
-    docid:
-    - id: W3C WD-wordnet-rdf-20060619
+    - language: en
+      script: Latn
+      content: RDF/OWL Representation of WordNet
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-wordnet-rdf-20060619/
+    docidentifier:
+    - content: W3C WD-wordnet-rdf-20060619
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: wordnet-rdf
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

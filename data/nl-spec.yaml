@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cnl-spec
-title:
-- content: Natural Language Semantics Markup Language for the Speech Interface Framework
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/nl-spec/
-  type: src
+id: W3Cnlspec
 type: standard
-docid:
-- id: W3C nl-spec
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Natural Language Semantics Markup Language for the Speech Interface Framework
+source:
+- type: src
+  content: https://www.w3.org/TR/nl-spec/
+docidentifier:
+- content: W3C nl-spec
   type: W3C
   primary: true
 docnumber: nl-spec
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,24 +31,26 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-nl-spec-20001120
     title:
-    - content: Natural Language Semantics Markup Language for the Speech Interface
+    - language: en
+      script: Latn
+      content: Natural Language Semantics Markup Language for the Speech Interface
         Framework
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/WD-nl-spec-20001120/
-      type: src
-    docid:
-    - id: W3C WD-nl-spec-20001120
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/WD-nl-spec-20001120/
+    docidentifier:
+    - content: W3C WD-nl-spec-20001120
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: nl-spec
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

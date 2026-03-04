@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-widgets-access-20111213
-title:
-- content: Widget Access Request Policy
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/PR-widgets-access-20111213/
-  type: src
+id: W3CPRwidgetsaccess20111213
 type: standard
-docid:
-- id: W3C PR-widgets-access-20111213
+schema_version: v1.4.1
+formattedref: W3C PR-widgets-access-20111213
+title:
+- language: en
+  script: Latn
+  content: Widget Access Request Policy
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/PR-widgets-access-20111213/
+docidentifier:
+- content: W3C PR-widgets-access-20111213
   type: W3C
   primary: true
 docnumber: PR-widgets-access-20111213
 date:
 - type: published
-  value: '2011-12-13'
+  at: '2011-12-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-12-13'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwidgets-access
     title:
-    - content: Widget Access Request Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/widgets-access/
-      type: src
-    docid:
-    - id: W3C widgets-access
+    - language: en
+      script: Latn
+      content: Widget Access Request Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/widgets-access/
+    docidentifier:
+    - content: W3C widgets-access
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-widgets-access-20100420
     title:
-    - content: Widget Access Request Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/CR-widgets-access-20100420/
-      type: src
-    docid:
-    - id: W3C CR-widgets-access-20100420
+    - language: en
+      script: Latn
+      content: Widget Access Request Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/CR-widgets-access-20100420/
+    docidentifier:
+    - content: W3C CR-widgets-access-20100420
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-widgets-access-20120207
-    title:
-    - content: Widget Access Request Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/REC-widgets-access-20120207/
-      type: src
-    docid:
-    - id: W3C REC-widgets-access-20120207
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Widget Access Request Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/REC-widgets-access-20120207/
+    docidentifier:
+    - content: W3C REC-widgets-access-20120207
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-widgets-access-20111213
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

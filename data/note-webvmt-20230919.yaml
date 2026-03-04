@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-webvmt-20230919
-title:
-- content: 'WebVMT: The Web Video Map Tracks Format'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/NOTE-webvmt-20230919/
-  type: src
+id: W3CNOTEwebvmt20230919
 type: standard
-docid:
-- id: W3C NOTE-webvmt-20230919
+schema_version: v1.4.1
+formattedref: W3C NOTE-webvmt-20230919
+title:
+- language: en
+  script: Latn
+  content: 'WebVMT: The Web Video Map Tracks Format'
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/NOTE-webvmt-20230919/
+docidentifier:
+- content: W3C NOTE-webvmt-20230919
   type: W3C
   primary: true
 docnumber: NOTE-webvmt-20230919
 date:
 - type: published
-  value: '2023-09-19'
+  at: '2023-09-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Rob
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Smith
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2023-09-19'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Rob
+      surname:
+        language: en
+        script: Latn
+        content: Smith
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Spatio-temporal Data on the Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebvmt
     title:
-    - content: 'WebVMT: The Web Video Map Tracks Format'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webvmt/
-      type: src
-    docid:
-    - id: W3C webvmt
+    - language: en
+      script: Latn
+      content: 'WebVMT: The Web Video Map Tracks Format'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webvmt/
+    docidentifier:
+    - content: W3C webvmt
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-webvmt-20230919
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Spatio-temporal Data on the Web Working Group
+    content: technicalReport
+  flavor: w3c

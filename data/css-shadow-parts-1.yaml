@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss-shadow-parts-1
-title:
-- content: CSS Shadow Parts Module Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css-shadow-parts-1/
-  type: src
+id: W3Ccssshadowparts1
 type: standard
-docid:
-- id: W3C css-shadow-parts-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS Shadow Parts Module Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/css-shadow-parts-1/
+docidentifier:
+- content: W3C css-shadow-parts-1
   type: W3C
   primary: true
 docnumber: css-shadow-parts-1
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-shadow-parts-1-20251216
     title:
-    - content: CSS Shadow Parts Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-css-shadow-parts-1-20251216/
-      type: src
-    docid:
-    - id: W3C WD-css-shadow-parts-1-20251216
+    - language: en
+      script: Latn
+      content: CSS Shadow Parts Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-css-shadow-parts-1-20251216/
+    docidentifier:
+    - content: W3C WD-css-shadow-parts-1-20251216
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css-shadow-parts-1-20181115
     title:
-    - content: CSS Shadow Parts
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-css-shadow-parts-1-20181115/
-      type: src
-    docid:
-    - id: W3C WD-css-shadow-parts-1-20181115
+    - language: en
+      script: Latn
+      content: CSS Shadow Parts
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-css-shadow-parts-1-20181115/
+    docidentifier:
+    - content: W3C WD-css-shadow-parts-1-20181115
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css-shadow-parts-1
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

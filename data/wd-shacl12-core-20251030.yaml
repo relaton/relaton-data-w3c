@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-shacl12-core-20251030
-title:
-- content: SHACL 1.2 Core
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/WD-shacl12-core-20251030/
-  type: src
+id: W3CWDshacl12core20251030
 type: standard
-docid:
-- id: W3C WD-shacl12-core-20251030
+schema_version: v1.4.1
+formattedref: W3C WD-shacl12-core-20251030
+title:
+- language: en
+  script: Latn
+  content: SHACL 1.2 Core
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/WD-shacl12-core-20251030/
+docidentifier:
+- content: W3C WD-shacl12-core-20251030
   type: W3C
   primary: true
 docnumber: WD-shacl12-core-20251030
 date:
 - type: published
-  value: '2025-10-30'
+  at: '2025-10-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Holger
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Holger
       surname:
+        language: en
+        script: Latn
         content: Knublauch
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Thomas
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Thomas
       surname:
+        language: en
+        script: Latn
         content: Bergwinkl
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yousouf
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yousouf
       surname:
+        language: en
+        script: Latn
         content: Taghzouti
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jesse
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jesse
       surname:
+        language: en
+        script: Latn
         content: Wright
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-10-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Data Shapes Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshacl12-core
     title:
-    - content: SHACL 1.2 Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/shacl12-core/
-      type: src
-    docid:
-    - id: W3C shacl12-core
+    - language: en
+      script: Latn
+      content: SHACL 1.2 Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/shacl12-core/
+    docidentifier:
+    - content: W3C shacl12-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-shacl12-core-20250901
     title:
-    - content: SHACL 1.2 Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-core-20250901/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-core-20250901
+    - language: en
+      script: Latn
+      content: SHACL 1.2 Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-shacl12-core-20250901/
+    docidentifier:
+    - content: W3C WD-shacl12-core-20250901
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-shacl12-core-20251103
-    title:
-    - content: SHACL 1.2 Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-shacl12-core-20251103/
-      type: src
-    docid:
-    - id: W3C WD-shacl12-core-20251103
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SHACL 1.2 Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-shacl12-core-20251103/
+    docidentifier:
+    - content: W3C WD-shacl12-core-20251103
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-shacl12-core-20251030
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Data Shapes Working Group
+    content: technicalReport
+  flavor: w3c

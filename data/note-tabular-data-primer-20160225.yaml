@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-tabular-data-primer-20160225
-title:
-- content: 'CSV on the Web: A Primer'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/NOTE-tabular-data-primer-20160225/
-  type: src
+id: W3CNOTEtabulardataprimer20160225
 type: standard
-docid:
-- id: W3C NOTE-tabular-data-primer-20160225
+schema_version: v1.4.1
+formattedref: W3C NOTE-tabular-data-primer-20160225
+title:
+- language: en
+  script: Latn
+  content: 'CSV on the Web: A Primer'
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/NOTE-tabular-data-primer-20160225/
+docidentifier:
+- content: W3C NOTE-tabular-data-primer-20160225
   type: W3C
   primary: true
 docnumber: NOTE-tabular-data-primer-20160225
 date:
 - type: published
-  value: '2016-02-25'
+  at: '2016-02-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Jeni
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Tennison
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2016-02-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jeni
+      surname:
+        language: en
+        script: Latn
+        content: Tennison
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: CSV on the Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctabular-data-primer
     title:
-    - content: 'CSV on the Web: A Primer'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/tabular-data-primer/
-      type: src
-    docid:
-    - id: W3C tabular-data-primer
+    - language: en
+      script: Latn
+      content: 'CSV on the Web: A Primer'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/tabular-data-primer/
+    docidentifier:
+    - content: W3C tabular-data-primer
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-tabular-data-primer-20160225
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: CSV on the Web Working Group
+    content: technicalReport
+  flavor: w3c

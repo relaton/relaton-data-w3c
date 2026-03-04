@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-laoo-gap-20210127
-title:
-- content: Lao Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/WD-laoo-gap-20210127/
-  type: src
+id: W3CWDlaoogap20210127
 type: standard
-docid:
-- id: W3C WD-laoo-gap-20210127
+schema_version: v1.4.1
+formattedref: W3C WD-laoo-gap-20210127
+title:
+- language: en
+  script: Latn
+  content: Lao Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/WD-laoo-gap-20210127/
+docidentifier:
+- content: W3C WD-laoo-gap-20210127
   type: W3C
   primary: true
 docnumber: WD-laoo-gap-20210127
 date:
 - type: published
-  value: '2021-01-27'
+  at: '2021-01-27'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-01-27'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Claoo-gap
     title:
-    - content: Lao Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/laoo-gap/
-      type: src
-    docid:
-    - id: W3C laoo-gap
+    - language: en
+      script: Latn
+      content: Lao Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/laoo-gap/
+    docidentifier:
+    - content: W3C laoo-gap
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-laoo-gap-20200616
     title:
-    - content: Lao Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-laoo-gap-20200616/
-      type: src
-    docid:
-    - id: W3C WD-laoo-gap-20200616
+    - language: en
+      script: Latn
+      content: Lao Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-laoo-gap-20200616/
+    docidentifier:
+    - content: W3C WD-laoo-gap-20200616
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-laoo-gap-20210525
-    title:
-    - content: Lao Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-laoo-gap-20210525/
-      type: src
-    docid:
-    - id: W3C WD-laoo-gap-20210525
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Lao Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-laoo-gap-20210525/
+    docidentifier:
+    - content: W3C WD-laoo-gap-20210525
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-laoo-gap-20210127
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

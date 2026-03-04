@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-trace-context-20190813
-title:
-- content: Trace Context
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/CR-trace-context-20190813/
-  type: src
+id: W3CCRtracecontext20190813
 type: standard
-docid:
-- id: W3C CR-trace-context-20190813
+schema_version: v1.4.1
+formattedref: W3C CR-trace-context-20190813
+title:
+- language: en
+  script: Latn
+  content: Trace Context
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/CR-trace-context-20190813/
+docidentifier:
+- content: W3C CR-trace-context-20190813
   type: W3C
   primary: true
 docnumber: CR-trace-context-20190813
 date:
 - type: published
-  value: '2019-08-13'
+  at: '2019-08-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Sergey
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sergey
       surname:
+        language: en
+        script: Latn
         content: Kanzhelev
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Morgan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Morgan
       surname:
+        language: en
+        script: Latn
         content: McLean
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alois
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alois
       surname:
+        language: en
+        script: Latn
         content: Reitbauer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bogdan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bogdan
       surname:
+        language: en
+        script: Latn
         content: Drutu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Nik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Nik
       surname:
+        language: en
+        script: Latn
         content: Molnar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yuri
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yuri
       surname:
+        language: en
+        script: Latn
         content: Shkuro
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-08-13'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Distributed Tracing Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctrace-context-1
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/trace-context-1/
-      type: src
-    docid:
-    - id: W3C trace-context-1
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/trace-context-1/
+    docidentifier:
+    - content: W3C trace-context-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-trace-context-20190509
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-trace-context-20190509/
-      type: src
-    docid:
-    - id: W3C CR-trace-context-20190509
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-trace-context-20190509/
+    docidentifier:
+    - content: W3C CR-trace-context-20190509
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-trace-context-1-20191121
-    title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/PR-trace-context-1-20191121/
-      type: src
-    docid:
-    - id: W3C PR-trace-context-1-20191121
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/PR-trace-context-1-20191121/
+    docidentifier:
+    - content: W3C PR-trace-context-1-20191121
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-trace-context-20190813
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Distributed Tracing Working Group
+    content: technicalReport
+  flavor: w3c

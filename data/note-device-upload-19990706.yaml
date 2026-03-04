@@ -1,60 +1,77 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-device-upload-19990706
-title:
-- content: Form-based Device Input and Upload in HTML
-  format: text/plain
-link:
-- content: https://www.w3.org/1999/07/NOTE-device-upload-19990706
-  type: src
+id: W3CNOTEdeviceupload19990706
 type: standard
-docid:
-- id: W3C NOTE-device-upload-19990706
+schema_version: v1.4.1
+formattedref: W3C NOTE-device-upload-19990706
+title:
+- language: en
+  script: Latn
+  content: Form-based Device Input and Upload in HTML
+source:
+- type: src
+  content: https://www.w3.org/1999/07/NOTE-device-upload-19990706
+docidentifier:
+- content: W3C NOTE-device-upload-19990706
   type: W3C
   primary: true
 docnumber: NOTE-device-upload-19990706
 date:
 - type: published
-  value: '1999-07-06'
+  at: '1999-07-06'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1999-07-06'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdevice-upload
     title:
-    - content: Form-based Device Input and Upload in HTML
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/device-upload
-      type: src
-    docid:
-    - id: W3C device-upload
+    - language: en
+      script: Latn
+      content: Form-based Device Input and Upload in HTML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/device-upload
+    docidentifier:
+    - content: W3C device-upload
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-device-upload-19990706
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cnotifications
-title:
-- content: Web Notifications
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/notifications/
-  type: src
 type: standard
-docid:
-- id: W3C notifications
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Notifications
+source:
+- type: src
+  content: https://www.w3.org/TR/notifications/
+docidentifier:
+- content: W3C notifications
   type: W3C
   primary: true
 docnumber: notifications
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,101 +31,103 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CSPSD-notifications-20200602
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/SPSD-notifications-20200602/
-      type: src
-    docid:
-    - id: W3C SPSD-notifications-20200602
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/SPSD-notifications-20200602/
+    docidentifier:
+    - content: W3C SPSD-notifications-20200602
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CREC-notifications-20151022
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/REC-notifications-20151022/
-      type: src
-    docid:
-    - id: W3C REC-notifications-20151022
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/REC-notifications-20151022/
+    docidentifier:
+    - content: W3C REC-notifications-20151022
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-notifications-20150910
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/PR-notifications-20150910/
-      type: src
-    docid:
-    - id: W3C PR-notifications-20150910
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/PR-notifications-20150910/
+    docidentifier:
+    - content: W3C PR-notifications-20150910
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-notifications-20150519
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/CR-notifications-20150519/
-      type: src
-    docid:
-    - id: W3C CR-notifications-20150519
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/CR-notifications-20150519/
+    docidentifier:
+    - content: W3C CR-notifications-20150519
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-notifications-20130912
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-notifications-20130912/
-      type: src
-    docid:
-    - id: W3C WD-notifications-20130912
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-notifications-20130912/
+    docidentifier:
+    - content: W3C WD-notifications-20130912
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-notifications-20120614
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-notifications-20120614/
-      type: src
-    docid:
-    - id: W3C WD-notifications-20120614
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-notifications-20120614/
+    docidentifier:
+    - content: W3C WD-notifications-20120614
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-notifications-20110301
     title:
-    - content: Web Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-notifications-20110301/
-      type: src
-    docid:
-    - id: W3C WD-notifications-20110301
+    - language: en
+      script: Latn
+      content: Web Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-notifications-20110301/
+    docidentifier:
+    - content: W3C WD-notifications-20110301
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: notifications
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

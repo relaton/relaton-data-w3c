@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-emotionml-20110407
-title:
-- content: Emotion Markup Language (EmotionML) 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-emotionml-20110407/
-  type: src
+id: W3CWDemotionml20110407
 type: standard
-docid:
-- id: W3C WD-emotionml-20110407
+schema_version: v1.4.1
+formattedref: W3C WD-emotionml-20110407
+title:
+- language: en
+  script: Latn
+  content: Emotion Markup Language (EmotionML) 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-emotionml-20110407/
+docidentifier:
+- content: W3C WD-emotionml-20110407
   type: W3C
   primary: true
 docnumber: WD-emotionml-20110407
 date:
 - type: published
-  value: '2011-04-07'
+  at: '2011-04-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marc
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schröder
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-04-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marc
+      surname:
+        language: en
+        script: Latn
+        content: Schröder
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Multimodal Interaction Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cemotionml
     title:
-    - content: Emotion Markup Language (EmotionML) 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/emotionml/
-      type: src
-    docid:
-    - id: W3C emotionml
+    - language: en
+      script: Latn
+      content: Emotion Markup Language (EmotionML) 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/emotionml/
+    docidentifier:
+    - content: W3C emotionml
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-emotionml-20100729
     title:
-    - content: Emotion Markup Language (EmotionML) 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-emotionml-20100729/
-      type: src
-    docid:
-    - id: W3C WD-emotionml-20100729
+    - language: en
+      script: Latn
+      content: Emotion Markup Language (EmotionML) 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-emotionml-20100729/
+    docidentifier:
+    - content: W3C WD-emotionml-20100729
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-emotionml-20120510
-    title:
-    - content: Emotion Markup Language (EmotionML) 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-emotionml-20120510/
-      type: src
-    docid:
-    - id: W3C CR-emotionml-20120510
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Emotion Markup Language (EmotionML) 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-emotionml-20120510/
+    docidentifier:
+    - content: W3C CR-emotionml-20120510
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-emotionml-20110407
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Multimodal Interaction Working Group
+    content: technicalReport
+  flavor: w3c

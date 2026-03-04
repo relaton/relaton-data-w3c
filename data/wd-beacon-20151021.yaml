@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-beacon-20151021
-title:
-- content: Beacon
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/WD-beacon-20151021/
-  type: src
+id: W3CWDbeacon20151021
 type: standard
-docid:
-- id: W3C WD-beacon-20151021
+schema_version: v1.4.1
+formattedref: W3C WD-beacon-20151021
+title:
+- language: en
+  script: Latn
+  content: Beacon
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/WD-beacon-20151021/
+docidentifier:
+- content: W3C WD-beacon-20151021
   type: W3C
   primary: true
 docnumber: WD-beacon-20151021
 date:
 - type: published
-  value: '2015-10-21'
+  at: '2015-10-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ilya
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ilya
       surname:
+        language: en
+        script: Latn
         content: Grigorik
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alois
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alois
       surname:
+        language: en
+        script: Latn
         content: Reitbauer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Arvind
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Arvind
       surname:
+        language: en
+        script: Latn
         content: Jain
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jatinder
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jatinder
       surname:
+        language: en
+        script: Latn
         content: Mann
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2015-10-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Performance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cbeacon
     title:
-    - content: Beacon
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/beacon/
-      type: src
-    docid:
-    - id: W3C beacon
+    - language: en
+      script: Latn
+      content: Beacon
+    source:
+    - type: src
+      content: https://www.w3.org/TR/beacon/
+    docidentifier:
+    - content: W3C beacon
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-beacon-20150929
     title:
-    - content: Beacon
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-beacon-20150929/
-      type: src
-    docid:
-    - id: W3C WD-beacon-20150929
+    - language: en
+      script: Latn
+      content: Beacon
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-beacon-20150929/
+    docidentifier:
+    - content: W3C WD-beacon-20150929
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-beacon-20151027
-    title:
-    - content: Beacon
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-beacon-20151027/
-      type: src
-    docid:
-    - id: W3C WD-beacon-20151027
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Beacon
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-beacon-20151027/
+    docidentifier:
+    - content: W3C WD-beacon-20151027
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-beacon-20151021
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Performance Working Group
+    content: technicalReport
+  flavor: w3c

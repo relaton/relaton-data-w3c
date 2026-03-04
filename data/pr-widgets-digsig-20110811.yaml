@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-widgets-digsig-20110811
-title:
-- content: XML Digital Signatures for Widgets
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/PR-widgets-digsig-20110811/
-  type: src
+id: W3CPRwidgetsdigsig20110811
 type: standard
-docid:
-- id: W3C PR-widgets-digsig-20110811
+schema_version: v1.4.1
+formattedref: W3C PR-widgets-digsig-20110811
+title:
+- language: en
+  script: Latn
+  content: XML Digital Signatures for Widgets
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/PR-widgets-digsig-20110811/
+docidentifier:
+- content: W3C PR-widgets-digsig-20110811
   type: W3C
   primary: true
 docnumber: PR-widgets-digsig-20110811
 date:
 - type: published
-  value: '2011-08-11'
+  at: '2011-08-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Frederick
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Frederick
       surname:
+        language: en
+        script: Latn
         content: Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
       surname:
+        language: en
+        script: Latn
         content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mark
       surname:
+        language: en
+        script: Latn
         content: Priestley
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Paddy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Paddy
       surname:
+        language: en
+        script: Latn
         content: Byers
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Stuart
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Stuart
       surname:
+        language: en
+        script: Latn
         content: Knightley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-08-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwidgets-digsig
     title:
-    - content: XML Digital Signatures for Widgets
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/widgets-digsig/
-      type: src
-    docid:
-    - id: W3C widgets-digsig
+    - language: en
+      script: Latn
+      content: XML Digital Signatures for Widgets
+    source:
+    - type: src
+      content: https://www.w3.org/TR/widgets-digsig/
+    docidentifier:
+    - content: W3C widgets-digsig
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-widgets-digsig-20110607
     title:
-    - content: XML Digital Signatures for Widgets
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-widgets-digsig-20110607/
-      type: src
-    docid:
-    - id: W3C WD-widgets-digsig-20110607
+    - language: en
+      script: Latn
+      content: XML Digital Signatures for Widgets
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-widgets-digsig-20110607/
+    docidentifier:
+    - content: W3C WD-widgets-digsig-20110607
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-widgets-digsig-20130418
-    title:
-    - content: XML Digital Signatures for Widgets
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-widgets-digsig-20130418/
-      type: src
-    docid:
-    - id: W3C REC-widgets-digsig-20130418
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Digital Signatures for Widgets
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-widgets-digsig-20130418/
+    docidentifier:
+    - content: W3C REC-widgets-digsig-20130418
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-widgets-digsig-20110811
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

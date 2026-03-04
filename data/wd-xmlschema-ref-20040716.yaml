@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xmlschema-ref-20040716
-title:
-- content: 'XML Schema: Component Designators'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/WD-xmlschema-ref-20040716/
-  type: src
+id: W3CWDxmlschemaref20040716
 type: standard
-docid:
-- id: W3C WD-xmlschema-ref-20040716
+schema_version: v1.4.1
+formattedref: W3C WD-xmlschema-ref-20040716
+title:
+- language: en
+  script: Latn
+  content: 'XML Schema: Component Designators'
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/WD-xmlschema-ref-20040716/
+docidentifier:
+- content: W3C WD-xmlschema-ref-20040716
   type: W3C
   primary: true
 docnumber: WD-xmlschema-ref-20040716
 date:
 - type: published
-  value: '2004-07-16'
+  at: '2004-07-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Mary
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mary
       surname:
+        language: en
+        script: Latn
         content: Holstege
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Asir
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Asir
       surname:
+        language: en
+        script: Latn
         content: Vedamuthu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-07-16'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Schema Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlschema-ref
     title:
-    - content: 'W3C XML Schema Definition Language (XSD): Component Designators'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlschema-ref/
-      type: src
-    docid:
-    - id: W3C xmlschema-ref
+    - language: en
+      script: Latn
+      content: 'W3C XML Schema Definition Language (XSD): Component Designators'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlschema-ref/
+    docidentifier:
+    - content: W3C xmlschema-ref
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xmlschema-ref-20040309
     title:
-    - content: 'XML Schema: Component Designators'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-xmlschema-ref-20040309/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema-ref-20040309
+    - language: en
+      script: Latn
+      content: 'XML Schema: Component Designators'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-xmlschema-ref-20040309/
+    docidentifier:
+    - content: W3C WD-xmlschema-ref-20040309
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xmlschema-ref-20050329
-    title:
-    - content: 'XML Schema: Component Designators'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-xmlschema-ref-20050329/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema-ref-20050329
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'XML Schema: Component Designators'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-xmlschema-ref-20050329/
+    docidentifier:
+    - content: W3C WD-xmlschema-ref-20050329
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xmlschema-ref-20040716
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Schema Working Group
+    content: technicalReport
+  flavor: w3c

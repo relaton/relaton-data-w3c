@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xmlenc-transform20-20130411
-title:
-- content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/NOTE-xmlenc-transform20-20130411/
-  type: src
+id: W3CNOTExmlenctransform2020130411
 type: standard
-docid:
-- id: W3C NOTE-xmlenc-transform20-20130411
+schema_version: v1.4.1
+formattedref: W3C NOTE-xmlenc-transform20-20130411
+title:
+- language: en
+  script: Latn
+  content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/NOTE-xmlenc-transform20-20130411/
+docidentifier:
+- content: W3C NOTE-xmlenc-transform20-20130411
   type: W3C
   primary: true
 docnumber: NOTE-xmlenc-transform20-20130411
 date:
 - type: published
-  value: '2013-04-11'
+  at: '2013-04-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Frederick
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-04-11'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Frederick
+      surname:
+        language: en
+        script: Latn
+        content: Hirsch
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlenc-transform20
     title:
-    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlenc-transform20/
-      type: src
-    docid:
-    - id: W3C xmlenc-transform20
+    - language: en
+      script: Latn
+      content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlenc-transform20/
+    docidentifier:
+    - content: W3C xmlenc-transform20
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-xmlenc-transform20-20120313
     title:
-    - content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-xmlenc-transform20-20120313/
-      type: src
-    docid:
-    - id: W3C CR-xmlenc-transform20-20120313
+    - language: en
+      script: Latn
+      content: XML Encryption 1.1 CipherReference Processing using 2.0 Transforms
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-xmlenc-transform20-20120313/
+    docidentifier:
+    - content: W3C CR-xmlenc-transform20-20120313
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xmlenc-transform20-20130411
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Security Working Group
+    content: technicalReport
+  flavor: w3c

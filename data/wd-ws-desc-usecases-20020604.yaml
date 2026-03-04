@@ -1,94 +1,101 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-ws-desc-usecases-20020604
-title:
-- content: Web Service Description Usage Scenarios
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/WD-ws-desc-usecases-20020604/
-  type: src
+id: W3CWDwsdescusecases20020604
 type: standard
-docid:
-- id: W3C WD-ws-desc-usecases-20020604
+schema_version: v1.4.1
+formattedref: W3C WD-ws-desc-usecases-20020604
+title:
+- language: en
+  script: Latn
+  content: Web Service Description Usage Scenarios
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/WD-ws-desc-usecases-20020604/
+docidentifier:
+- content: W3C WD-ws-desc-usecases-20020604
   type: W3C
   primary: true
 docnumber: WD-ws-desc-usecases-20020604
 date:
 - type: published
-  value: '2002-06-04'
+  at: '2002-06-04'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Waqar
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Waqar
       surname:
+        language: en
+        script: Latn
         content: Sadiq
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sandeep
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sandeep
       surname:
+        language: en
+        script: Latn
         content: Kumar
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2002-06-04'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Services Description Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cws-desc-usecases
     title:
-    - content: Web Service Description Usage Scenarios
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ws-desc-usecases/
-      type: src
-    docid:
-    - id: W3C ws-desc-usecases
+    - language: en
+      script: Latn
+      content: Web Service Description Usage Scenarios
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ws-desc-usecases/
+    docidentifier:
+    - content: W3C ws-desc-usecases
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WD-ws-desc-usecases-20020604
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Services Description Working Group
+    content: technicalReport
+  flavor: w3c

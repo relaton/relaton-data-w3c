@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xmlschema11-2-20080620
-title:
-- content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/WD-xmlschema11-2-20080620/
-  type: src
+id: W3CWDxmlschema11220080620
 type: standard
-docid:
-- id: W3C WD-xmlschema11-2-20080620
+schema_version: v1.4.1
+formattedref: W3C WD-xmlschema11-2-20080620
+title:
+- language: en
+  script: Latn
+  content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/WD-xmlschema11-2-20080620/
+docidentifier:
+- content: W3C WD-xmlschema11-2-20080620
   type: W3C
   primary: true
 docnumber: WD-xmlschema11-2-20080620
 date:
 - type: published
-  value: '2008-06-20'
+  at: '2008-06-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Sperberg-McQueen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Henry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Henry
       surname:
+        language: en
+        script: Latn
         content: Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ashok
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ashok
       surname:
+        language: en
+        script: Latn
         content: Malhotra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sandy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sandy
       surname:
+        language: en
+        script: Latn
         content: Gao
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Peterson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2008-06-20'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Schema Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlschema11-2
     title:
-    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlschema11-2/
-      type: src
-    docid:
-    - id: W3C xmlschema11-2
+    - language: en
+      script: Latn
+      content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlschema11-2/
+    docidentifier:
+    - content: W3C xmlschema11-2
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xmlschema11-2-20060217
     title:
-    - content: 'XML Schema 1.1 Part 2: Datatypes'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-xmlschema11-2-20060217/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema11-2-20060217
+    - language: en
+      script: Latn
+      content: 'XML Schema 1.1 Part 2: Datatypes'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-xmlschema11-2-20060217/
+    docidentifier:
+    - content: W3C WD-xmlschema11-2-20060217
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xmlschema11-2-20090130
-    title:
-    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-xmlschema11-2-20090130/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema11-2-20090130
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-xmlschema11-2-20090130/
+    docidentifier:
+    - content: W3C WD-xmlschema11-2-20090130
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-xmlschema11-2-20080620
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Schema Working Group
+    content: technicalReport
+  flavor: w3c

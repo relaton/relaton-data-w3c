@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cdx-prof-conneg
-title:
-- content: Content Negotiation by Profile
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/dx-prof-conneg/
-  type: src
+id: W3Cdxprofconneg
 type: standard
-docid:
-- id: W3C dx-prof-conneg
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Content Negotiation by Profile
+source:
+- type: src
+  content: https://www.w3.org/TR/dx-prof-conneg/
+docidentifier:
+- content: W3C dx-prof-conneg
   type: W3C
   primary: true
 docnumber: dx-prof-conneg
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-dx-prof-conneg-20231002
     title:
-    - content: Content Negotiation by Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-dx-prof-conneg-20231002/
-      type: src
-    docid:
-    - id: W3C WD-dx-prof-conneg-20231002
+    - language: en
+      script: Latn
+      content: Content Negotiation by Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-dx-prof-conneg-20231002/
+    docidentifier:
+    - content: W3C WD-dx-prof-conneg-20231002
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-dx-prof-conneg-20191126
     title:
-    - content: Content Negotiation by Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-dx-prof-conneg-20191126/
-      type: src
-    docid:
-    - id: W3C WD-dx-prof-conneg-20191126
+    - language: en
+      script: Latn
+      content: Content Negotiation by Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-dx-prof-conneg-20191126/
+    docidentifier:
+    - content: W3C WD-dx-prof-conneg-20191126
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-dx-prof-conneg-20190430
     title:
-    - content: Content Negotiation by Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-dx-prof-conneg-20190430/
-      type: src
-    docid:
-    - id: W3C WD-dx-prof-conneg-20190430
+    - language: en
+      script: Latn
+      content: Content Negotiation by Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-dx-prof-conneg-20190430/
+    docidentifier:
+    - content: W3C WD-dx-prof-conneg-20190430
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-dx-prof-conneg-20181218
     title:
-    - content: Content Negotiation by Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-dx-prof-conneg-20181218/
-      type: src
-    docid:
-    - id: W3C WD-dx-prof-conneg-20181218
+    - language: en
+      script: Latn
+      content: Content Negotiation by Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-dx-prof-conneg-20181218/
+    docidentifier:
+    - content: W3C WD-dx-prof-conneg-20181218
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: dx-prof-conneg
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

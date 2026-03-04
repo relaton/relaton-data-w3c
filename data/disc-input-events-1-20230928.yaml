@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CDISC-input-events-1-20230928
-title:
-- content: Input Events Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/DISC-input-events-1-20230928/
-  type: src
+id: W3CDISCinputevents120230928
 type: standard
-docid:
-- id: W3C DISC-input-events-1-20230928
+schema_version: v1.4.1
+formattedref: W3C DISC-input-events-1-20230928
+title:
+- language: en
+  script: Latn
+  content: Input Events Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/DISC-input-events-1-20230928/
+docidentifier:
+- content: W3C DISC-input-events-1-20230928
   type: W3C
   primary: true
 docnumber: DISC-input-events-1-20230928
 date:
 - type: published
-  value: '2023-09-28'
+  at: '2023-09-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Johannes
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilm
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2023-09-28'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Johannes
+      surname:
+        language: en
+        script: Latn
+        content: Wilm
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Editing Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cinput-events-1
     title:
-    - content: Input Events Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/input-events-1/
-      type: src
-    docid:
-    - id: W3C input-events-1
+    - language: en
+      script: Latn
+      content: Input Events Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/input-events-1/
+    docidentifier:
+    - content: W3C input-events-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-input-events-1-20190530
     title:
-    - content: Input Events Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-input-events-1-20190530/
-      type: src
-    docid:
-    - id: W3C WD-input-events-1-20190530
+    - language: en
+      script: Latn
+      content: Input Events Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-input-events-1-20190530/
+    docidentifier:
+    - content: W3C WD-input-events-1-20190530
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: DISC-input-events-1-20230928
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Editing Working Group
+    content: technicalReport
+  flavor: w3c

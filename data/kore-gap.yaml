@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ckore-gap
-title:
-- content: Korean Layout Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/kore-gap/
-  type: src
+id: W3Ckoregap
 type: standard
-docid:
-- id: W3C kore-gap
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Korean Layout Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/kore-gap/
+docidentifier:
+- content: W3C kore-gap
   type: W3C
   primary: true
 docnumber: kore-gap
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-kore-gap-20250531
     title:
-    - content: Korean Layout Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/DNOTE-kore-gap-20250531/
-      type: src
-    docid:
-    - id: W3C DNOTE-kore-gap-20250531
+    - language: en
+      script: Latn
+      content: Korean Layout Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/DNOTE-kore-gap-20250531/
+    docidentifier:
+    - content: W3C DNOTE-kore-gap-20250531
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-kore-gap-20240710
     title:
-    - content: Korean Layout Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240710/
-      type: src
-    docid:
-    - id: W3C DNOTE-kore-gap-20240710
+    - language: en
+      script: Latn
+      content: Korean Layout Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240710/
+    docidentifier:
+    - content: W3C DNOTE-kore-gap-20240710
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-kore-gap-20240705
     title:
-    - content: Korean Layout Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240705/
-      type: src
-    docid:
-    - id: W3C DNOTE-kore-gap-20240705
+    - language: en
+      script: Latn
+      content: Korean Layout Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-kore-gap-20240705/
+    docidentifier:
+    - content: W3C DNOTE-kore-gap-20240705
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-kore-gap-20230720
     title:
-    - content: Korean Layout Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-kore-gap-20230720/
-      type: src
-    docid:
-    - id: W3C DNOTE-kore-gap-20230720
+    - language: en
+      script: Latn
+      content: Korean Layout Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-kore-gap-20230720/
+    docidentifier:
+    - content: W3C DNOTE-kore-gap-20230720
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-kore-gap-20230711
     title:
-    - content: Korean Layout Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-kore-gap-20230711/
-      type: src
-    docid:
-    - id: W3C DNOTE-kore-gap-20230711
+    - language: en
+      script: Latn
+      content: Korean Layout Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-kore-gap-20230711/
+    docidentifier:
+    - content: W3C DNOTE-kore-gap-20230711
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: kore-gap
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

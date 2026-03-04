@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-WCA
-title:
-- content: 'Web Characterization: From working group to activity'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/NOTE-WCA/
-  type: src
+id: W3CNOTEWCA
 type: standard
-docid:
-- id: W3C NOTE-WCA
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Web Characterization: From working group to activity'
+source:
+- type: src
+  content: https://www.w3.org/TR/NOTE-WCA/
+docidentifier:
+- content: W3C NOTE-WCA
   type: W3C
   primary: true
 docnumber: NOTE-WCA
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-WCA-19990319
     title:
-    - content: 'Web Characterization: From working group to activity'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/NOTE-WCA-19990319/
-      type: src
-    docid:
-    - id: W3C NOTE-WCA-19990319
+    - language: en
+      script: Latn
+      content: 'Web Characterization: From working group to activity'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/NOTE-WCA-19990319/
+    docidentifier:
+    - content: W3C NOTE-WCA-19990319
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: NOTE-WCA
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

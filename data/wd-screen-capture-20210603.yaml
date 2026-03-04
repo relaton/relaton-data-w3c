@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-screen-capture-20210603
-title:
-- content: Screen Capture
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/WD-screen-capture-20210603/
-  type: src
+id: W3CWDscreencapture20210603
 type: standard
-docid:
-- id: W3C WD-screen-capture-20210603
+schema_version: v1.4.1
+formattedref: W3C WD-screen-capture-20210603
+title:
+- language: en
+  script: Latn
+  content: Screen Capture
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/WD-screen-capture-20210603/
+docidentifier:
+- content: W3C WD-screen-capture-20210603
   type: W3C
   primary: true
 docnumber: WD-screen-capture-20210603
 date:
 - type: published
-  value: '2021-06-03'
+  at: '2021-06-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Martin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Martin
       surname:
+        language: en
+        script: Latn
         content: Thomson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Keith
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Keith
       surname:
+        language: en
+        script: Latn
         content: Griffin
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Suhas
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Suhas
       surname:
+        language: en
+        script: Latn
         content: Nandakumar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Henrik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Henrik
       surname:
+        language: en
+        script: Latn
         content: Boström
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jan-Ivar
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jan-Ivar
       surname:
+        language: en
+        script: Latn
         content: Bruaroey
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Elad
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elad
       surname:
+        language: en
+        script: Latn
         content: Alon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2021-06-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cscreen-capture
     title:
-    - content: Screen Capture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/screen-capture/
-      type: src
-    docid:
-    - id: W3C screen-capture
+    - language: en
+      script: Latn
+      content: Screen Capture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/screen-capture/
+    docidentifier:
+    - content: W3C screen-capture
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-screen-capture-20210527
     title:
-    - content: Screen Capture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-screen-capture-20210527/
-      type: src
-    docid:
-    - id: W3C WD-screen-capture-20210527
+    - language: en
+      script: Latn
+      content: Screen Capture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-screen-capture-20210527/
+    docidentifier:
+    - content: W3C WD-screen-capture-20210527
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-screen-capture-20210610
-    title:
-    - content: Screen Capture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-screen-capture-20210610/
-      type: src
-    docid:
-    - id: W3C WD-screen-capture-20210610
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Screen Capture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-screen-capture-20210610/
+    docidentifier:
+    - content: W3C WD-screen-capture-20210610
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-screen-capture-20210603
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

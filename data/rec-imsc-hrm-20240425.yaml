@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-imsc-hrm-20240425
-title:
-- content: IMSC Hypothetical Render Model
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/REC-imsc-hrm-20240425/
-  type: src
+id: W3CRECimschrm20240425
 type: standard
-docid:
-- id: W3C REC-imsc-hrm-20240425
+schema_version: v1.4.1
+formattedref: W3C REC-imsc-hrm-20240425
+title:
+- language: en
+  script: Latn
+  content: IMSC Hypothetical Render Model
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/REC-imsc-hrm-20240425/
+docidentifier:
+- content: W3C REC-imsc-hrm-20240425
   type: W3C
   primary: true
 docnumber: REC-imsc-hrm-20240425
 date:
 - type: published
-  value: '2024-04-25'
+  at: '2024-04-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Pierre-Anthony
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lemieux
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-04-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Pierre-Anthony
+      surname:
+        language: en
+        script: Latn
+        content: Lemieux
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Timed Text Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cimsc-hrm
     title:
-    - content: IMSC Hypothetical Render Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/imsc-hrm/
-      type: src
-    docid:
-    - id: W3C imsc-hrm
+    - language: en
+      script: Latn
+      content: IMSC Hypothetical Render Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/imsc-hrm/
+    docidentifier:
+    - content: W3C imsc-hrm
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-imsc-hrm-20240229
     title:
-    - content: IMSC Hypothetical Render Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/PR-imsc-hrm-20240229/
-      type: src
-    docid:
-    - id: W3C PR-imsc-hrm-20240229
+    - language: en
+      script: Latn
+      content: IMSC Hypothetical Render Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/PR-imsc-hrm-20240229/
+    docidentifier:
+    - content: W3C PR-imsc-hrm-20240229
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-imsc-hrm-20240425
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Timed Text Working Group
+    content: technicalReport
+  flavor: w3c

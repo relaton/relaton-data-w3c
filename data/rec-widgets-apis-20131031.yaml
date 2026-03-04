@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-widgets-apis-20131031
-title:
-- content: Widget Interface
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/REC-widgets-apis-20131031/
-  type: src
+id: W3CRECwidgetsapis20131031
 type: standard
-docid:
-- id: W3C REC-widgets-apis-20131031
+schema_version: v1.4.1
+formattedref: W3C REC-widgets-apis-20131031
+title:
+- language: en
+  script: Latn
+  content: Widget Interface
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/REC-widgets-apis-20131031/
+docidentifier:
+- content: W3C REC-widgets-apis-20131031
   type: W3C
   primary: true
 docnumber: REC-widgets-apis-20131031
 date:
 - type: published
-  value: '2013-10-31'
+  at: '2013-10-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-10-31'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwidgets-apis
     title:
-    - content: Widget Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/widgets-apis/
-      type: src
-    docid:
-    - id: W3C widgets-apis
+    - language: en
+      script: Latn
+      content: Widget Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/widgets-apis/
+    docidentifier:
+    - content: W3C widgets-apis
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-widgets-apis-20120522
     title:
-    - content: Widget Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/PR-widgets-apis-20120522/
-      type: src
-    docid:
-    - id: W3C PR-widgets-apis-20120522
+    - language: en
+      script: Latn
+      content: Widget Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/PR-widgets-apis-20120522/
+    docidentifier:
+    - content: W3C PR-widgets-apis-20120522
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3COBSL-widgets-apis-20181011
-    title:
-    - content: Widget Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/OBSL-widgets-apis-20181011/
-      type: src
-    docid:
-    - id: W3C OBSL-widgets-apis-20181011
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Widget Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/OBSL-widgets-apis-20181011/
+    docidentifier:
+    - content: W3C OBSL-widgets-apis-20181011
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-widgets-apis-20131031
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

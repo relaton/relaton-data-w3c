@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-owl-time-20221115
-title:
-- content: Time Ontology in OWL
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/CRD-owl-time-20221115/
-  type: src
+id: W3CCRDowltime20221115
 type: standard
-docid:
-- id: W3C CRD-owl-time-20221115
+schema_version: v1.4.1
+formattedref: W3C CRD-owl-time-20221115
+title:
+- language: en
+  script: Latn
+  content: Time Ontology in OWL
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/CRD-owl-time-20221115/
+docidentifier:
+- content: W3C CRD-owl-time-20221115
   type: W3C
   primary: true
 docnumber: CRD-owl-time-20221115
 date:
 - type: published
-  value: '2022-11-15'
+  at: '2022-11-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Simon
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Simon
       surname:
+        language: en
+        script: Latn
         content: Cox
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Chris
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Chris
       surname:
+        language: en
+        script: Latn
         content: Little
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-11-15'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Spatio-temporal Data on the Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cowl-time
     title:
-    - content: Time Ontology in OWL
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/owl-time/
-      type: src
-    docid:
-    - id: W3C owl-time
+    - language: en
+      script: Latn
+      content: Time Ontology in OWL
+    source:
+    - type: src
+      content: https://www.w3.org/TR/owl-time/
+    docidentifier:
+    - content: W3C owl-time
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-owl-time-20200326
     title:
-    - content: Time Ontology in OWL
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-owl-time-20200326/
-      type: src
-    docid:
-    - id: W3C CR-owl-time-20200326
+    - language: en
+      script: Latn
+      content: Time Ontology in OWL
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-owl-time-20200326/
+    docidentifier:
+    - content: W3C CR-owl-time-20200326
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-owl-time-20221115
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Spatio-temporal Data on the Web Working Group
+    content: technicalReport
+  flavor: w3c

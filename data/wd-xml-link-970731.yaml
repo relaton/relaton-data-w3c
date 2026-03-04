@@ -1,105 +1,120 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xml-link-970731
-title:
-- content: XML Linking Language (XLink) Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/WD-xml-link-970731
-  type: src
+id: W3CWDxmllink970731
 type: standard
-docid:
-- id: W3C WD-xml-link-970731
+schema_version: v1.4.1
+formattedref: W3C WD-xml-link-970731
+title:
+- language: en
+  script: Latn
+  content: XML Linking Language (XLink) Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/WD-xml-link-970731
+docidentifier:
+- content: W3C WD-xml-link-970731
   type: W3C
   primary: true
 docnumber: WD-xml-link-970731
 date:
 - type: published
-  value: '1997-07-31'
+  at: '1997-07-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1997-07-31'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxlink
     title:
-    - content: XML Linking Language (XLink) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xlink/
-      type: src
-    docid:
-    - id: W3C xlink
+    - language: en
+      script: Latn
+      content: XML Linking Language (XLink) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xlink/
+    docidentifier:
+    - content: W3C xlink
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xml-link-970406
     title:
-    - content: XML Linking Language (XLink) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-xml-link-970406
-      type: src
-    docid:
-    - id: W3C WD-xml-link-970406
+    - language: en
+      script: Latn
+      content: XML Linking Language (XLink) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-xml-link-970406
+    docidentifier:
+    - content: W3C WD-xml-link-970406
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xptr-19990709
-    title:
-    - content: XPointer Framework
-      format: text/plain
-    link:
-    - content: https://www.w3.org/1999/07/WD-xptr-19990709
-      type: src
-    docid:
-    - id: W3C WD-xptr-19990709
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XPointer Framework
+    source:
+    - type: src
+      content: https://www.w3.org/1999/07/WD-xptr-19990709
+    docidentifier:
+    - content: W3C WD-xptr-19990709
+      type: W3C
+      primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xlink-19980303
-    title:
-    - content: XML Linking Language (XLink) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1998/WD-xlink-19980303
-      type: src
-    docid:
-    - id: W3C WD-xlink-19980303
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Linking Language (XLink) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1998/WD-xlink-19980303
+    docidentifier:
+    - content: W3C WD-xlink-19980303
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xml-link-970731
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

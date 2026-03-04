@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Chtml-imports
-title:
-- content: HTML Imports
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/html-imports/
-  type: src
+id: W3Chtmlimports
 type: standard
-docid:
-- id: W3C html-imports
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: HTML Imports
+source:
+- type: src
+  content: https://www.w3.org/TR/html-imports/
+docidentifier:
+- content: W3C html-imports
   type: W3C
   primary: true
 docnumber: html-imports
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDISC-html-imports-20230615
     title:
-    - content: HTML Imports
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DISC-html-imports-20230615/
-      type: src
-    docid:
-    - id: W3C DISC-html-imports-20230615
+    - language: en
+      script: Latn
+      content: HTML Imports
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DISC-html-imports-20230615/
+    docidentifier:
+    - content: W3C DISC-html-imports-20230615
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-html-imports-20160225
     title:
-    - content: HTML Imports
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-html-imports-20160225/
-      type: src
-    docid:
-    - id: W3C WD-html-imports-20160225
+    - language: en
+      script: Latn
+      content: HTML Imports
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-html-imports-20160225/
+    docidentifier:
+    - content: W3C WD-html-imports-20160225
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-html-imports-20140311
     title:
-    - content: HTML Imports
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-html-imports-20140311/
-      type: src
-    docid:
-    - id: W3C WD-html-imports-20140311
+    - language: en
+      script: Latn
+      content: HTML Imports
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-html-imports-20140311/
+    docidentifier:
+    - content: W3C WD-html-imports-20140311
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-html-imports-20130514
     title:
-    - content: HTML Imports
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-html-imports-20130514/
-      type: src
-    docid:
-    - id: W3C WD-html-imports-20130514
+    - language: en
+      script: Latn
+      content: HTML Imports
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-html-imports-20130514/
+    docidentifier:
+    - content: W3C WD-html-imports-20130514
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: html-imports
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

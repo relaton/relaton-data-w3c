@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccss3-exclusions
-title:
-- content: CSS Exclusions Module Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/css3-exclusions/
-  type: src
+id: W3Ccss3exclusions
 type: standard
-docid:
-- id: W3C css3-exclusions
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: CSS Exclusions Module Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/css3-exclusions/
+docidentifier:
+- content: W3C css3-exclusions
   type: W3C
   primary: true
 docnumber: css3-exclusions
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-css3-exclusions-20150115
     title:
-    - content: CSS Exclusions Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-css3-exclusions-20150115/
-      type: src
-    docid:
-    - id: W3C WD-css3-exclusions-20150115
+    - language: en
+      script: Latn
+      content: CSS Exclusions Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-css3-exclusions-20150115/
+    docidentifier:
+    - content: W3C WD-css3-exclusions-20150115
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css3-exclusions-20130528
     title:
-    - content: CSS Exclusions Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-css3-exclusions-20130528/
-      type: src
-    docid:
-    - id: W3C WD-css3-exclusions-20130528
+    - language: en
+      script: Latn
+      content: CSS Exclusions Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-css3-exclusions-20130528/
+    docidentifier:
+    - content: W3C WD-css3-exclusions-20130528
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css3-exclusions-20120503
     title:
-    - content: CSS Exclusions and Shapes Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-css3-exclusions-20120503/
-      type: src
-    docid:
-    - id: W3C WD-css3-exclusions-20120503
+    - language: en
+      script: Latn
+      content: CSS Exclusions and Shapes Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-css3-exclusions-20120503/
+    docidentifier:
+    - content: W3C WD-css3-exclusions-20120503
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-css3-exclusions-20111213
     title:
-    - content: CSS Exclusions and Shapes Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-css3-exclusions-20111213/
-      type: src
-    docid:
-    - id: W3C WD-css3-exclusions-20111213
+    - language: en
+      script: Latn
+      content: CSS Exclusions and Shapes Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-css3-exclusions-20111213/
+    docidentifier:
+    - content: W3C WD-css3-exclusions-20111213
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: css3-exclusions
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

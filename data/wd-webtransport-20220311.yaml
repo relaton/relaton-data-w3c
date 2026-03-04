@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-webtransport-20220311
-title:
-- content: WebTransport
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/WD-webtransport-20220311/
-  type: src
+id: W3CWDwebtransport20220311
 type: standard
-docid:
-- id: W3C WD-webtransport-20220311
+schema_version: v1.4.1
+formattedref: W3C WD-webtransport-20220311
+title:
+- language: en
+  script: Latn
+  content: WebTransport
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/WD-webtransport-20220311/
+docidentifier:
+- content: W3C WD-webtransport-20220311
   type: W3C
   primary: true
 docnumber: WD-webtransport-20220311
 date:
 - type: published
-  value: '2022-03-11'
+  at: '2022-03-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Bernard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bernard
       surname:
+        language: en
+        script: Latn
         content: Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Victor
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Victor
       surname:
+        language: en
+        script: Latn
         content: Vasiliev
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yutaka
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yutaka
       surname:
+        language: en
+        script: Latn
         content: Hirano
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-03-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: WebTransport Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebtransport
     title:
-    - content: WebTransport
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webtransport/
-      type: src
-    docid:
-    - id: W3C webtransport
+    - language: en
+      script: Latn
+      content: WebTransport
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webtransport/
+    docidentifier:
+    - content: W3C webtransport
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webtransport-20211014
     title:
-    - content: WebTransport
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-webtransport-20211014/
-      type: src
-    docid:
-    - id: W3C WD-webtransport-20211014
+    - language: en
+      script: Latn
+      content: WebTransport
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-webtransport-20211014/
+    docidentifier:
+    - content: W3C WD-webtransport-20211014
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-webtransport-20220623
-    title:
-    - content: WebTransport
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-webtransport-20220623/
-      type: src
-    docid:
-    - id: W3C WD-webtransport-20220623
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebTransport
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-webtransport-20220623/
+    docidentifier:
+    - content: W3C WD-webtransport-20220623
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-webtransport-20220311
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: WebTransport Working Group
+    content: technicalReport
+  flavor: w3c

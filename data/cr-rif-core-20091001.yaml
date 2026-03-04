@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-rif-core-20091001
-title:
-- content: RIF Core Dialect
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/CR-rif-core-20091001/
-  type: src
+id: W3CCRrifcore20091001
 type: standard
-docid:
-- id: W3C CR-rif-core-20091001
+schema_version: v1.4.1
+formattedref: W3C CR-rif-core-20091001
+title:
+- language: en
+  script: Latn
+  content: RIF Core Dialect
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/CR-rif-core-20091001/
+docidentifier:
+- content: W3C CR-rif-core-20091001
   type: W3C
   primary: true
 docnumber: CR-rif-core-20091001
 date:
 - type: published
-  value: '2009-10-01'
+  at: '2009-10-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
       surname:
+        language: en
+        script: Latn
         content: Reynolds
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Axel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Axel
       surname:
+        language: en
+        script: Latn
         content: Polleres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Harold
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Harold
       surname:
+        language: en
+        script: Latn
         content: Boley
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Kifer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gary
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gary
       surname:
+        language: en
+        script: Latn
         content: Hallmark
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Adrian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Adrian
       surname:
+        language: en
+        script: Latn
         content: Paschke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2009-10-01'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Rule Interchange Format Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crif-core
     title:
-    - content: RIF Core Dialect (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rif-core/
-      type: src
-    docid:
-    - id: W3C rif-core
+    - language: en
+      script: Latn
+      content: RIF Core Dialect (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rif-core/
+    docidentifier:
+    - content: W3C rif-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rif-core-20090703
     title:
-    - content: RIF Core Dialect
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-rif-core-20090703/
-      type: src
-    docid:
-    - id: W3C WD-rif-core-20090703
+    - language: en
+      script: Latn
+      content: RIF Core Dialect
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-rif-core-20090703/
+    docidentifier:
+    - content: W3C WD-rif-core-20090703
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-rif-core-20100511
-    title:
-    - content: RIF Core Dialect
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/PR-rif-core-20100511/
-      type: src
-    docid:
-    - id: W3C PR-rif-core-20100511
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RIF Core Dialect
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/PR-rif-core-20100511/
+    docidentifier:
+    - content: W3C PR-rif-core-20100511
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-rif-core-20091001
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Rule Interchange Format Working Group
+    content: technicalReport
+  flavor: w3c

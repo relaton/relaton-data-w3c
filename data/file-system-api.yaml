@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cfile-system-api
-title:
-- content: 'File API: Directories and System'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/file-system-api/
-  type: src
+id: W3Cfilesystemapi
 type: standard
-docid:
-- id: W3C file-system-api
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'File API: Directories and System'
+source:
+- type: src
+  content: https://www.w3.org/TR/file-system-api/
+docidentifier:
+- content: W3C file-system-api
   type: W3C
   primary: true
 docnumber: file-system-api
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-file-system-api-20140424
     title:
-    - content: 'File API: Directories and System'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/NOTE-file-system-api-20140424/
-      type: src
-    docid:
-    - id: W3C NOTE-file-system-api-20140424
+    - language: en
+      script: Latn
+      content: 'File API: Directories and System'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/NOTE-file-system-api-20140424/
+    docidentifier:
+    - content: W3C NOTE-file-system-api-20140424
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-file-system-api-20120417
     title:
-    - content: 'File API: Directories and System'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-file-system-api-20120417/
-      type: src
-    docid:
-    - id: W3C WD-file-system-api-20120417
+    - language: en
+      script: Latn
+      content: 'File API: Directories and System'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-file-system-api-20120417/
+    docidentifier:
+    - content: W3C WD-file-system-api-20120417
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-file-system-api-20110419
     title:
-    - content: 'File API: Directories and System'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-file-system-api-20110419/
-      type: src
-    docid:
-    - id: W3C WD-file-system-api-20110419
+    - language: en
+      script: Latn
+      content: 'File API: Directories and System'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-file-system-api-20110419/
+    docidentifier:
+    - content: W3C WD-file-system-api-20110419
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-file-system-api-20101026
     title:
-    - content: 'File API: Directories and System'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-file-system-api-20101026/
-      type: src
-    docid:
-    - id: W3C WD-file-system-api-20101026
+    - language: en
+      script: Latn
+      content: 'File API: Directories and System'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-file-system-api-20101026/
+    docidentifier:
+    - content: W3C WD-file-system-api-20101026
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: file-system-api
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

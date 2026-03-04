@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-css-properties-values-api-1-20240326
-title:
-- content: CSS Properties and Values API Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-css-properties-values-api-1-20240326/
-  type: src
+id: W3CWDcsspropertiesvaluesapi120240326
 type: standard
-docid:
-- id: W3C WD-css-properties-values-api-1-20240326
+schema_version: v1.4.1
+formattedref: W3C WD-css-properties-values-api-1-20240326
+title:
+- language: en
+  script: Latn
+  content: CSS Properties and Values API Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-css-properties-values-api-1-20240326/
+docidentifier:
+- content: W3C WD-css-properties-values-api-1-20240326
   type: W3C
   primary: true
 docnumber: WD-css-properties-values-api-1-20240326
 date:
 - type: published
-  value: '2024-03-26'
+  at: '2024-03-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Tab
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tab
       surname:
+        language: en
+        script: Latn
         content: Atkins Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alan
       surname:
+        language: en
+        script: Latn
         content: Stearns
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Greg
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Greg
       surname:
+        language: en
+        script: Latn
         content: Whitworth
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-03-26'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-properties-values-api-1
     title:
-    - content: CSS Properties and Values API Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-properties-values-api-1/
-      type: src
-    docid:
-    - id: W3C css-properties-values-api-1
+    - language: en
+      script: Latn
+      content: CSS Properties and Values API Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-properties-values-api-1/
+    docidentifier:
+    - content: W3C css-properties-values-api-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css-properties-values-api-1-20201013
     title:
-    - content: CSS Properties and Values API Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-css-properties-values-api-1-20201013/
-      type: src
-    docid:
-    - id: W3C WD-css-properties-values-api-1-20201013
+    - language: en
+      script: Latn
+      content: CSS Properties and Values API Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-css-properties-values-api-1-20201013/
+    docidentifier:
+    - content: W3C WD-css-properties-values-api-1-20201013
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-css-properties-values-api-1-20240326
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

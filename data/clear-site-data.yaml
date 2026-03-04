@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cclear-site-data
-title:
-- content: Clear Site Data
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/clear-site-data/
-  type: src
+id: W3Cclearsitedata
 type: standard
-docid:
-- id: W3C clear-site-data
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Clear Site Data
+source:
+- type: src
+  content: https://www.w3.org/TR/clear-site-data/
+docidentifier:
+- content: W3C clear-site-data
   type: W3C
   primary: true
 docnumber: clear-site-data
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-clear-site-data-20171130
     title:
-    - content: Clear Site Data
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-clear-site-data-20171130/
-      type: src
-    docid:
-    - id: W3C WD-clear-site-data-20171130
+    - language: en
+      script: Latn
+      content: Clear Site Data
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-clear-site-data-20171130/
+    docidentifier:
+    - content: W3C WD-clear-site-data-20171130
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-clear-site-data-20160720
     title:
-    - content: Clear Site Data
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-clear-site-data-20160720/
-      type: src
-    docid:
-    - id: W3C WD-clear-site-data-20160720
+    - language: en
+      script: Latn
+      content: Clear Site Data
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-clear-site-data-20160720/
+    docidentifier:
+    - content: W3C WD-clear-site-data-20160720
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-clear-site-data-20150804
     title:
-    - content: Clear Site Data
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-clear-site-data-20150804/
-      type: src
-    docid:
-    - id: W3C WD-clear-site-data-20150804
+    - language: en
+      script: Latn
+      content: Clear Site Data
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-clear-site-data-20150804/
+    docidentifier:
+    - content: W3C WD-clear-site-data-20150804
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: clear-site-data
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

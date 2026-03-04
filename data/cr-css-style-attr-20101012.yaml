@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-css-style-attr-20101012
-title:
-- content: CSS Style Attributes
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/CR-css-style-attr-20101012/
-  type: src
+id: W3CCRcssstyleattr20101012
 type: standard
-docid:
-- id: W3C CR-css-style-attr-20101012
+schema_version: v1.4.1
+formattedref: W3C CR-css-style-attr-20101012
+title:
+- language: en
+  script: Latn
+  content: CSS Style Attributes
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/CR-css-style-attr-20101012/
+docidentifier:
+- content: W3C CR-css-style-attr-20101012
   type: W3C
   primary: true
 docnumber: CR-css-style-attr-20101012
 date:
 - type: published
-  value: '2010-10-12'
+  at: '2010-10-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Tantek
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tantek
       surname:
+        language: en
+        script: Latn
         content: Çelik
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Elika
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elika
       surname:
+        language: en
+        script: Latn
         content: Etemad
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2010-10-12'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-style-attr
     title:
-    - content: CSS Style Attributes
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-style-attr/
-      type: src
-    docid:
-    - id: W3C css-style-attr
+    - language: en
+      script: Latn
+      content: CSS Style Attributes
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-style-attr/
+    docidentifier:
+    - content: W3C css-style-attr
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css-style-attr-20100121
     title:
-    - content: CSS Styling Attributes Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-css-style-attr-20100121/
-      type: src
-    docid:
-    - id: W3C WD-css-style-attr-20100121
+    - language: en
+      script: Latn
+      content: CSS Styling Attributes Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-css-style-attr-20100121/
+    docidentifier:
+    - content: W3C WD-css-style-attr-20100121
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-css-style-attr-20131003
-    title:
-    - content: CSS Style Attributes
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/PR-css-style-attr-20131003/
-      type: src
-    docid:
-    - id: W3C PR-css-style-attr-20131003
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Style Attributes
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/PR-css-style-attr-20131003/
+    docidentifier:
+    - content: W3C PR-css-style-attr-20131003
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-css-style-attr-20101012
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

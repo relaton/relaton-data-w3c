@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-EARL10-Schema-20170202
-title:
-- content: Evaluation and Report Language (EARL) 1.0 Schema
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/NOTE-EARL10-Schema-20170202/
-  type: src
+id: W3CNOTEEARL10Schema20170202
 type: standard
-docid:
-- id: W3C NOTE-EARL10-Schema-20170202
+schema_version: v1.4.1
+formattedref: W3C NOTE-EARL10-Schema-20170202
+title:
+- language: en
+  script: Latn
+  content: Evaluation and Report Language (EARL) 1.0 Schema
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/NOTE-EARL10-Schema-20170202/
+docidentifier:
+- content: W3C NOTE-EARL10-Schema-20170202
   type: W3C
   primary: true
 docnumber: NOTE-EARL10-Schema-20170202
 date:
 - type: published
-  value: '2017-02-02'
+  at: '2017-02-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Shadi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Abou-Zahra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2017-02-02'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Shadi
+      surname:
+        language: en
+        script: Latn
+        content: Abou-Zahra
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Evaluation and Repair Tools Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CEARL10-Schema
     title:
-    - content: Evaluation and Report Language (EARL) 1.0 Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/EARL10-Schema/
-      type: src
-    docid:
-    - id: W3C EARL10-Schema
+    - language: en
+      script: Latn
+      content: Evaluation and Report Language (EARL) 1.0 Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/EARL10-Schema/
+    docidentifier:
+    - content: W3C EARL10-Schema
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-EARL10-Schema-20110510
     title:
-    - content: Evaluation and Report Language (EARL) 1.0 Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-EARL10-Schema-20110510/
-      type: src
-    docid:
-    - id: W3C WD-EARL10-Schema-20110510
+    - language: en
+      script: Latn
+      content: Evaluation and Report Language (EARL) 1.0 Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-EARL10-Schema-20110510/
+    docidentifier:
+    - content: W3C WD-EARL10-Schema-20110510
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-EARL10-Schema-20170202
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Evaluation and Repair Tools Working Group
+    content: technicalReport
+  flavor: w3c

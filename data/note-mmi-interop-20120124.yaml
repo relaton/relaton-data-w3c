@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-mmi-interop-20120124
-title:
-- content: MMI interoperability test report
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/NOTE-mmi-interop-20120124/
-  type: src
+id: W3CNOTEmmiinterop20120124
 type: standard
-docid:
-- id: W3C NOTE-mmi-interop-20120124
+schema_version: v1.4.1
+formattedref: W3C NOTE-mmi-interop-20120124
+title:
+- language: en
+  script: Latn
+  content: MMI interoperability test report
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/NOTE-mmi-interop-20120124/
+docidentifier:
+- content: W3C NOTE-mmi-interop-20120124
   type: W3C
   primary: true
 docnumber: NOTE-mmi-interop-20120124
 date:
 - type: published
-  value: '2012-01-24'
+  at: '2012-01-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Ingmar
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kliche
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-01-24'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ingmar
+      surname:
+        language: en
+        script: Latn
+        content: Kliche
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Multimodal Interaction Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmmi-interop
     title:
-    - content: MMI interoperability test report
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mmi-interop/
-      type: src
-    docid:
-    - id: W3C mmi-interop
+    - language: en
+      script: Latn
+      content: MMI interoperability test report
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mmi-interop/
+    docidentifier:
+    - content: W3C mmi-interop
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-mmi-interop-20120124
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Multimodal Interaction Working Group
+    content: technicalReport
+  flavor: w3c

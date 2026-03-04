@@ -1,141 +1,138 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-qaframe-spec-20050817
-title:
-- content: 'QA Framework: Specification Guidelines'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/REC-qaframe-spec-20050817/
-  type: src
+id: W3CRECqaframespec20050817
 type: standard
-docid:
-- id: W3C REC-qaframe-spec-20050817
+schema_version: v1.4.1
+formattedref: W3C REC-qaframe-spec-20050817
+title:
+- language: en
+  script: Latn
+  content: 'QA Framework: Specification Guidelines'
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/REC-qaframe-spec-20050817/
+docidentifier:
+- content: W3C REC-qaframe-spec-20050817
   type: W3C
   primary: true
 docnumber: REC-qaframe-spec-20050817
 date:
 - type: published
-  value: '2005-08-17'
+  at: '2005-08-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Karl
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Karl
       surname:
+        language: en
+        script: Latn
         content: Dubost
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Lynne
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lynne
       surname:
+        language: en
+        script: Latn
         content: Rosenthal
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dominique
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dominique
       surname:
+        language: en
+        script: Latn
         content: Hazaël-Massieux
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Lofton
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lofton
       surname:
+        language: en
+        script: Latn
         content: Henderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2005-08-17'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Quality Assurance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cqaframe-spec
     title:
-    - content: 'QA Framework: Specification Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/qaframe-spec/
-      type: src
-    docid:
-    - id: W3C qaframe-spec
+    - language: en
+      script: Latn
+      content: 'QA Framework: Specification Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/qaframe-spec/
+    docidentifier:
+    - content: W3C qaframe-spec
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-qaframe-spec-20050629
     title:
-    - content: 'QA Framework: Specification Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/PR-qaframe-spec-20050629/
-      type: src
-    docid:
-    - id: W3C PR-qaframe-spec-20050629
+    - language: en
+      script: Latn
+      content: 'QA Framework: Specification Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/PR-qaframe-spec-20050629/
+    docidentifier:
+    - content: W3C PR-qaframe-spec-20050629
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-qaframe-spec-20050817
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Quality Assurance Working Group
+    content: technicalReport
+  flavor: w3c

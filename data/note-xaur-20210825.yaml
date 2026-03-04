@@ -1,158 +1,150 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xaur-20210825
-title:
-- content: XR Accessibility User Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/NOTE-xaur-20210825/
-  type: src
+id: W3CNOTExaur20210825
 type: standard
-docid:
-- id: W3C NOTE-xaur-20210825
+schema_version: v1.4.1
+formattedref: W3C NOTE-xaur-20210825
+title:
+- language: en
+  script: Latn
+  content: XR Accessibility User Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/NOTE-xaur-20210825/
+docidentifier:
+- content: W3C NOTE-xaur-20210825
   type: W3C
   primary: true
 docnumber: NOTE-xaur-20210825
 date:
 - type: published
-  value: '2021-08-25'
+  at: '2021-08-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Joshue
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Joshue
       surname:
+        language: en
+        script: Latn
         content: O'Connor
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Janina
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Janina
       surname:
+        language: en
+        script: Latn
         content: Sajka
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jason
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jason
       surname:
+        language: en
+        script: Latn
         content: White
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Scott
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Scott
       surname:
+        language: en
+        script: Latn
         content: Hollier
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2021-08-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessible Platform Architectures Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxaur
     title:
-    - content: XR Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xaur/
-      type: src
-    docid:
-    - id: W3C xaur
+    - language: en
+      script: Latn
+      content: XR Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xaur/
+    docidentifier:
+    - content: W3C xaur
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xaur-20200916
     title:
-    - content: XR Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-xaur-20200916/
-      type: src
-    docid:
-    - id: W3C WD-xaur-20200916
+    - language: en
+      script: Latn
+      content: XR Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-xaur-20200916/
+    docidentifier:
+    - content: W3C WD-xaur-20200916
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xaur-20210825
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessible Platform Architectures Working Group
+    content: technicalReport
+  flavor: w3c

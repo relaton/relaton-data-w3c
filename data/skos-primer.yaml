@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cskos-primer
-title:
-- content: SKOS Simple Knowledge Organization System Primer
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/skos-primer/
-  type: src
+id: W3Cskosprimer
 type: standard
-docid:
-- id: W3C skos-primer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SKOS Simple Knowledge Organization System Primer
+source:
+- type: src
+  content: https://www.w3.org/TR/skos-primer/
+docidentifier:
+- content: W3C skos-primer
   type: W3C
   primary: true
 docnumber: skos-primer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-skos-primer-20090818
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/
-      type: src
-    docid:
-    - id: W3C NOTE-skos-primer-20090818
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/
+    docidentifier:
+    - content: W3C NOTE-skos-primer-20090818
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-skos-primer-20090615
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-skos-primer-20090615/
-      type: src
-    docid:
-    - id: W3C WD-skos-primer-20090615
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-skos-primer-20090615/
+    docidentifier:
+    - content: W3C WD-skos-primer-20090615
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-skos-primer-20090317
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-skos-primer-20090317/
-      type: src
-    docid:
-    - id: W3C WD-skos-primer-20090317
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-skos-primer-20090317/
+    docidentifier:
+    - content: W3C WD-skos-primer-20090317
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-skos-primer-20080829
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-skos-primer-20080829/
-      type: src
-    docid:
-    - id: W3C WD-skos-primer-20080829
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-skos-primer-20080829/
+    docidentifier:
+    - content: W3C WD-skos-primer-20080829
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-skos-primer-20080221
     title:
-    - content: SKOS Simple Knowledge Organization System Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-skos-primer-20080221/
-      type: src
-    docid:
-    - id: W3C WD-skos-primer-20080221
+    - language: en
+      script: Latn
+      content: SKOS Simple Knowledge Organization System Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-skos-primer-20080221/
+    docidentifier:
+    - content: W3C WD-skos-primer-20080221
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: skos-primer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

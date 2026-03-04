@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-xmlschema11-1-20110721
-title:
-- content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/CR-xmlschema11-1-20110721/
-  type: src
+id: W3CCRxmlschema11120110721
 type: standard
-docid:
-- id: W3C CR-xmlschema11-1-20110721
+schema_version: v1.4.1
+formattedref: W3C CR-xmlschema11-1-20110721
+title:
+- language: en
+  script: Latn
+  content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/CR-xmlschema11-1-20110721/
+docidentifier:
+- content: W3C CR-xmlschema11-1-20110721
   type: W3C
   primary: true
 docnumber: CR-xmlschema11-1-20110721
 date:
 - type: published
-  value: '2011-07-21'
+  at: '2011-07-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Murray
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Murray
       surname:
+        language: en
+        script: Latn
         content: Maloney
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Sperberg-McQueen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Beech
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Henry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Henry
       surname:
+        language: en
+        script: Latn
         content: Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sandy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sandy
       surname:
+        language: en
+        script: Latn
         content: Gao
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Noah
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Noah
       surname:
+        language: en
+        script: Latn
         content: Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-07-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Schema Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlschema11-1
     title:
-    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlschema11-1/
-      type: src
-    docid:
-    - id: W3C xmlschema11-1
+    - language: en
+      script: Latn
+      content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlschema11-1/
+    docidentifier:
+    - content: W3C xmlschema11-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xmlschema11-1-20091203
     title:
-    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/
-      type: src
-    docid:
-    - id: W3C WD-xmlschema11-1-20091203
+    - language: en
+      script: Latn
+      content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-xmlschema11-1-20091203/
+    docidentifier:
+    - content: W3C WD-xmlschema11-1-20091203
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-xmlschema11-1-20120119
-    title:
-    - content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/PR-xmlschema11-1-20120119/
-      type: src
-    docid:
-    - id: W3C PR-xmlschema11-1-20120119
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/PR-xmlschema11-1-20120119/
+    docidentifier:
+    - content: W3C PR-xmlschema11-1-20120119
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-xmlschema11-1-20110721
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Schema Working Group
+    content: technicalReport
+  flavor: w3c

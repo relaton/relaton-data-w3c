@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CPER-rdfa-lite-20141216
-title:
-- content: RDFa Lite 1.1 - Second Edition
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/PER-rdfa-lite-20141216/
-  type: src
+id: W3CPERrdfalite20141216
 type: standard
-docid:
-- id: W3C PER-rdfa-lite-20141216
+schema_version: v1.4.1
+formattedref: W3C PER-rdfa-lite-20141216
+title:
+- language: en
+  script: Latn
+  content: RDFa Lite 1.1 - Second Edition
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/PER-rdfa-lite-20141216/
+docidentifier:
+- content: W3C PER-rdfa-lite-20141216
   type: W3C
   primary: true
 docnumber: PER-rdfa-lite-20141216
 date:
 - type: published
-  value: '2014-12-16'
+  at: '2014-12-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Manu
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sporny
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2014-12-16'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Manu
+      surname:
+        language: en
+        script: Latn
+        content: Sporny
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDFa Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Edited Recommendation
+    content: Proposed Edited Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdfa-lite
     title:
-    - content: RDFa Lite 1.1 - Second Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdfa-lite/
-      type: src
-    docid:
-    - id: W3C rdfa-lite
+    - language: en
+      script: Latn
+      content: RDFa Lite 1.1 - Second Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdfa-lite/
+    docidentifier:
+    - content: W3C rdfa-lite
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-rdfa-lite-20150317
-    title:
-    - content: RDFa Lite 1.1 - Second Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/REC-rdfa-lite-20150317/
-      type: src
-    docid:
-    - id: W3C REC-rdfa-lite-20150317
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RDFa Lite 1.1 - Second Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/REC-rdfa-lite-20150317/
+    docidentifier:
+    - content: W3C REC-rdfa-lite-20150317
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Edited Recommendation
-    format: text/plain
   number: PER-rdfa-lite-20141216
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDFa Working Group
+    content: technicalReport
+  flavor: w3c

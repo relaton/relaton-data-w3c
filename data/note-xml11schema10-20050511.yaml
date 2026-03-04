@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xml11schema10-20050511
-title:
-- content: Processing XML 1.1 documents with XML Schema 1.0 processors
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/NOTE-xml11schema10-20050511/
-  type: src
+id: W3CNOTExml11schema1020050511
 type: standard
-docid:
-- id: W3C NOTE-xml11schema10-20050511
+schema_version: v1.4.1
+formattedref: W3C NOTE-xml11schema10-20050511
+title:
+- language: en
+  script: Latn
+  content: Processing XML 1.1 documents with XML Schema 1.0 processors
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/NOTE-xml11schema10-20050511/
+docidentifier:
+- content: W3C NOTE-xml11schema10-20050511
   type: W3C
   primary: true
 docnumber: NOTE-xml11schema10-20050511
 date:
 - type: published
-  value: '2005-05-11'
+  at: '2005-05-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Henry
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thompson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2005-05-11'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Henry
+      surname:
+        language: en
+        script: Latn
+        content: Thompson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Schema Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxml11schema10
     title:
-    - content: Processing XML 1.1 documents with XML Schema 1.0 processors
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xml11schema10/
-      type: src
-    docid:
-    - id: W3C xml11schema10
+    - language: en
+      script: Latn
+      content: Processing XML 1.1 documents with XML Schema 1.0 processors
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xml11schema10/
+    docidentifier:
+    - content: W3C xml11schema10
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xml11schema10-20050511
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Schema Working Group
+    content: technicalReport
+  flavor: w3c

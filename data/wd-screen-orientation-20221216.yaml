@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-screen-orientation-20221216
-title:
-- content: Screen Orientation
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/WD-screen-orientation-20221216/
-  type: src
+id: W3CWDscreenorientation20221216
 type: standard
-docid:
-- id: W3C WD-screen-orientation-20221216
+schema_version: v1.4.1
+formattedref: W3C WD-screen-orientation-20221216
+title:
+- language: en
+  script: Latn
+  content: Screen Orientation
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/WD-screen-orientation-20221216/
+docidentifier:
+- content: W3C WD-screen-orientation-20221216
   type: W3C
   primary: true
 docnumber: WD-screen-orientation-20221216
 date:
 - type: published
-  value: '2022-12-16'
+  at: '2022-12-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2022-12-16'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cscreen-orientation
     title:
-    - content: Screen Orientation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/screen-orientation/
-      type: src
-    docid:
-    - id: W3C screen-orientation
+    - language: en
+      script: Latn
+      content: Screen Orientation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/screen-orientation/
+    docidentifier:
+    - content: W3C screen-orientation
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-screen-orientation-20221114
     title:
-    - content: Screen Orientation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-screen-orientation-20221114/
-      type: src
-    docid:
-    - id: W3C WD-screen-orientation-20221114
+    - language: en
+      script: Latn
+      content: Screen Orientation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-screen-orientation-20221114/
+    docidentifier:
+    - content: W3C WD-screen-orientation-20221114
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-screen-orientation-20230215
-    title:
-    - content: Screen Orientation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-screen-orientation-20230215/
-      type: src
-    docid:
-    - id: W3C WD-screen-orientation-20230215
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Screen Orientation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-screen-orientation-20230215/
+    docidentifier:
+    - content: W3C WD-screen-orientation-20230215
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-screen-orientation-20221216
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Applications Working Group
+    content: technicalReport
+  flavor: w3c

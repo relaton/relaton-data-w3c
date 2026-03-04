@@ -1,141 +1,138 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-odrl-vocab-20180215
-title:
-- content: ODRL Vocabulary & Expression 2.2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/REC-odrl-vocab-20180215/
-  type: src
+id: W3CRECodrlvocab20180215
 type: standard
-docid:
-- id: W3C REC-odrl-vocab-20180215
+schema_version: v1.4.1
+formattedref: W3C REC-odrl-vocab-20180215
+title:
+- language: en
+  script: Latn
+  content: ODRL Vocabulary & Expression 2.2
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/REC-odrl-vocab-20180215/
+docidentifier:
+- content: W3C REC-odrl-vocab-20180215
   type: W3C
   primary: true
 docnumber: REC-odrl-vocab-20180215
 date:
 - type: published
-  value: '2018-02-15'
+  at: '2018-02-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Renato
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Renato
       surname:
+        language: en
+        script: Latn
         content: Iannella
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Steidl
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Stuart
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Stuart
       surname:
+        language: en
+        script: Latn
         content: Myles
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Víctor
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Víctor
       surname:
+        language: en
+        script: Latn
         content: Rodríguez-Doncel
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2018-02-15'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Permissions and Obligations Expression Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Codrl-vocab
     title:
-    - content: ODRL Vocabulary & Expression 2.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/odrl-vocab/
-      type: src
-    docid:
-    - id: W3C odrl-vocab
+    - language: en
+      script: Latn
+      content: ODRL Vocabulary & Expression 2.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/odrl-vocab/
+    docidentifier:
+    - content: W3C odrl-vocab
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-odrl-vocab-20180104
     title:
-    - content: ODRL Vocabulary & Expression 2.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/PR-odrl-vocab-20180104/
-      type: src
-    docid:
-    - id: W3C PR-odrl-vocab-20180104
+    - language: en
+      script: Latn
+      content: ODRL Vocabulary & Expression 2.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/PR-odrl-vocab-20180104/
+    docidentifier:
+    - content: W3C PR-odrl-vocab-20180104
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-odrl-vocab-20180215
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Permissions and Obligations Expression Working Group
+    content: technicalReport
+  flavor: w3c

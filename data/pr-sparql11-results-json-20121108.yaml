@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-sparql11-results-json-20121108
-title:
-- content: SPARQL 1.1 Query Results JSON Format
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/PR-sparql11-results-json-20121108/
-  type: src
+id: W3CPRsparql11resultsjson20121108
 type: standard
-docid:
-- id: W3C PR-sparql11-results-json-20121108
+schema_version: v1.4.1
+formattedref: W3C PR-sparql11-results-json-20121108
+title:
+- language: en
+  script: Latn
+  content: SPARQL 1.1 Query Results JSON Format
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/PR-sparql11-results-json-20121108/
+docidentifier:
+- content: W3C PR-sparql11-results-json-20121108
   type: W3C
   primary: true
 docnumber: PR-sparql11-results-json-20121108
 date:
 - type: published
-  value: '2012-11-08'
+  at: '2012-11-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Andy
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Seaborne
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-11-08'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Andy
+      surname:
+        language: en
+        script: Latn
+        content: Seaborne
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SPARQL Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csparql11-results-json
     title:
-    - content: SPARQL 1.1 Query Results JSON Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/sparql11-results-json/
-      type: src
-    docid:
-    - id: W3C sparql11-results-json
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Query Results JSON Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/sparql11-results-json/
+    docidentifier:
+    - content: W3C sparql11-results-json
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql11-results-json-20110913
     title:
-    - content: SPARQL 1.1 Query Results JSON Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
-      type: src
-    docid:
-    - id: W3C WD-sparql11-results-json-20110913
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Query Results JSON Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-sparql11-results-json-20110913/
+    docidentifier:
+    - content: W3C WD-sparql11-results-json-20110913
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-sparql11-results-json-20130321
-    title:
-    - content: SPARQL 1.1 Query Results JSON Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321/
-      type: src
-    docid:
-    - id: W3C REC-sparql11-results-json-20130321
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SPARQL 1.1 Query Results JSON Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-sparql11-results-json-20130321/
+    docidentifier:
+    - content: W3C REC-sparql11-results-json-20130321
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-sparql11-results-json-20121108
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SPARQL Working Group
+    content: technicalReport
+  flavor: w3c

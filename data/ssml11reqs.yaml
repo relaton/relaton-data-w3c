@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cssml11reqs
-title:
-- content: Speech Synthesis Markup Language Version 1.1 Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ssml11reqs/
-  type: src
 type: standard
-docid:
-- id: W3C ssml11reqs
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Speech Synthesis Markup Language Version 1.1 Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/ssml11reqs/
+docidentifier:
+- content: W3C ssml11reqs
   type: W3C
   primary: true
 docnumber: ssml11reqs
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-ssml11reqs-20070611
     title:
-    - content: Speech Synthesis Markup Language Version 1.1 Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-ssml11reqs-20070611/
-      type: src
-    docid:
-    - id: W3C WD-ssml11reqs-20070611
+    - language: en
+      script: Latn
+      content: Speech Synthesis Markup Language Version 1.1 Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-ssml11reqs-20070611/
+    docidentifier:
+    - content: W3C WD-ssml11reqs-20070611
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ssml11reqs-20061219
     title:
-    - content: Speech Synthesis Markup Language Version 1.1 Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-ssml11reqs-20061219/
-      type: src
-    docid:
-    - id: W3C WD-ssml11reqs-20061219
+    - language: en
+      script: Latn
+      content: Speech Synthesis Markup Language Version 1.1 Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-ssml11reqs-20061219/
+    docidentifier:
+    - content: W3C WD-ssml11reqs-20061219
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ssml11reqs
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

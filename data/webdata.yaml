@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CWebData
-title:
-- content: 'Web Architecture: Describing and Exchanging Data'
-  format: text/plain
-link:
-- content: https://www.w3.org/1999/04/WebData
-  type: src
 type: standard
-docid:
-- id: W3C WebData
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Web Architecture: Describing and Exchanging Data'
+source:
+- type: src
+  content: https://www.w3.org/1999/04/WebData
+docidentifier:
+- content: W3C WebData
   type: W3C
   primary: true
 docnumber: WebData
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,19 +31,23 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3C07-WebData
     title:
-    - content: 'Web Architecture: Describing and Exchanging Data'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/1999/06/07-WebData
-      type: src
-    docid:
-    - id: W3C 07-WebData
+    - language: en
+      script: Latn
+      content: 'Web Architecture: Describing and Exchanging Data'
+    source:
+    - type: src
+      content: https://www.w3.org/1999/06/07-WebData
+    docidentifier:
+    - content: W3C 07-WebData
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: WebData
+ext:
+  schema_version: v1.0.0
+  flavor: w3c

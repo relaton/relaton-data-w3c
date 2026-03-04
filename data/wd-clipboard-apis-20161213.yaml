@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-clipboard-apis-20161213
-title:
-- content: Clipboard API and events
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/WD-clipboard-apis-20161213/
-  type: src
+id: W3CWDclipboardapis20161213
 type: standard
-docid:
-- id: W3C WD-clipboard-apis-20161213
+schema_version: v1.4.1
+formattedref: W3C WD-clipboard-apis-20161213
+title:
+- language: en
+  script: Latn
+  content: Clipboard API and events
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/WD-clipboard-apis-20161213/
+docidentifier:
+- content: W3C WD-clipboard-apis-20161213
   type: W3C
   primary: true
 docnumber: WD-clipboard-apis-20161213
 date:
 - type: published
-  value: '2016-12-13'
+  at: '2016-12-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Hallvord
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Steen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2016-12-13'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Hallvord
+      surname:
+        language: en
+        script: Latn
+        content: Steen
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cclipboard-apis
     title:
-    - content: Clipboard API and events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/clipboard-apis/
-      type: src
-    docid:
-    - id: W3C clipboard-apis
+    - language: en
+      script: Latn
+      content: Clipboard API and events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/clipboard-apis/
+    docidentifier:
+    - content: W3C clipboard-apis
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-clipboard-apis-20160403
     title:
-    - content: Clipboard API and events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-clipboard-apis-20160403/
-      type: src
-    docid:
-    - id: W3C WD-clipboard-apis-20160403
+    - language: en
+      script: Latn
+      content: Clipboard API and events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-clipboard-apis-20160403/
+    docidentifier:
+    - content: W3C WD-clipboard-apis-20160403
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-clipboard-apis-20170929
-    title:
-    - content: Clipboard API and events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-clipboard-apis-20170929/
-      type: src
-    docid:
-    - id: W3C WD-clipboard-apis-20170929
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Clipboard API and events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-clipboard-apis-20170929/
+    docidentifier:
+    - content: W3C WD-clipboard-apis-20170929
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-clipboard-apis-20161213
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

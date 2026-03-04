@@ -1,94 +1,101 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-dpub-accessibility-20160503
-title:
-- content: Digital Publishing and Accessibility in W3C Documents
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/NOTE-dpub-accessibility-20160503/
-  type: src
+id: W3CNOTEdpubaccessibility20160503
 type: standard
-docid:
-- id: W3C NOTE-dpub-accessibility-20160503
+schema_version: v1.4.1
+formattedref: W3C NOTE-dpub-accessibility-20160503
+title:
+- language: en
+  script: Latn
+  content: Digital Publishing and Accessibility in W3C Documents
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/NOTE-dpub-accessibility-20160503/
+docidentifier:
+- content: W3C NOTE-dpub-accessibility-20160503
   type: W3C
   primary: true
 docnumber: NOTE-dpub-accessibility-20160503
 date:
 - type: published
-  value: '2016-05-03'
+  at: '2016-05-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Deborah
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Deborah
       surname:
+        language: en
+        script: Latn
         content: Kaplan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Charles
       surname:
+        language: en
+        script: Latn
         content: LaPierre
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-05-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Digital Publishing Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdpub-accessibility
     title:
-    - content: Digital Publishing and Accessibility in W3C Documents
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/dpub-accessibility/
-      type: src
-    docid:
-    - id: W3C dpub-accessibility
+    - language: en
+      script: Latn
+      content: Digital Publishing and Accessibility in W3C Documents
+    source:
+    - type: src
+      content: https://www.w3.org/TR/dpub-accessibility/
+    docidentifier:
+    - content: W3C dpub-accessibility
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-dpub-accessibility-20160503
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Digital Publishing Interest Group
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-explainer-explainer-20250827
-title:
-- content: Writing Effective Explainers
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250827/
-  type: src
+id: W3CNOTEexplainerexplainer20250827
 type: standard
-docid:
-- id: W3C NOTE-explainer-explainer-20250827
+schema_version: v1.4.1
+formattedref: W3C NOTE-explainer-explainer-20250827
+title:
+- language: en
+  script: Latn
+  content: Writing Effective Explainers
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250827/
+docidentifier:
+- content: W3C NOTE-explainer-explainer-20250827
   type: W3C
   primary: true
 docnumber: NOTE-explainer-explainer-20250827
 date:
 - type: published
-  value: '2025-08-27'
+  at: '2025-08-27'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Matthew
       surname:
+        language: en
+        script: Latn
         content: Atkinson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jeffrey
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jeffrey
       surname:
+        language: en
+        script: Latn
         content: Yasskin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-08-27'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Technical Architecture Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cexplainer-explainer
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/explainer-explainer/
-      type: src
-    docid:
-    - id: W3C explainer-explainer
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/explainer-explainer/
+    docidentifier:
+    - content: W3C explainer-explainer
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-explainer-explainer-20250703
     title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250703/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250703
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250703/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20250703
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-explainer-explainer-20250922
-    title:
-    - content: Writing Effective Explainers
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250922/
-      type: src
-    docid:
-    - id: W3C NOTE-explainer-explainer-20250922
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Writing Effective Explainers
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/NOTE-explainer-explainer-20250922/
+    docidentifier:
+    - content: W3C NOTE-explainer-explainer-20250922
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-explainer-explainer-20250827
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Technical Architecture Group
+    content: technicalReport
+  flavor: w3c

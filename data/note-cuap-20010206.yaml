@@ -1,127 +1,128 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-cuap-20010206
-title:
-- content: Common User Agent Problems
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2001/NOTE-cuap-20010206
-  type: src
+id: W3CNOTEcuap20010206
 type: standard
-docid:
-- id: W3C NOTE-cuap-20010206
+schema_version: v1.4.1
+formattedref: W3C NOTE-cuap-20010206
+title:
+- language: en
+  script: Latn
+  content: Common User Agent Problems
+source:
+- type: src
+  content: https://www.w3.org/TR/2001/NOTE-cuap-20010206
+docidentifier:
+- content: W3C NOTE-cuap-20010206
   type: W3C
   primary: true
 docnumber: NOTE-cuap-20010206
 date:
 - type: published
-  value: '2001-02-06'
+  at: '2001-02-06'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
       surname:
+        language: en
+        script: Latn
         content: Jacobs
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Hugo
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hugo
       surname:
+        language: en
+        script: Latn
         content: Haas
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Karl
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Karl
       surname:
+        language: en
+        script: Latn
         content: Dubost
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2001-02-06'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccuap
     title:
-    - content: Common User Agent Problems
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/cuap
-      type: src
-    docid:
-    - id: W3C cuap
+    - language: en
+      script: Latn
+      content: Common User Agent Problems
+    source:
+    - type: src
+      content: https://www.w3.org/TR/cuap
+    docidentifier:
+    - content: W3C cuap
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-cuap-20030128
-    title:
-    - content: Common User Agent Problems
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/NOTE-cuap-20030128
-      type: src
-    docid:
-    - id: W3C NOTE-cuap-20030128
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Common User Agent Problems
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/NOTE-cuap-20030128
+    docidentifier:
+    - content: W3C NOTE-cuap-20030128
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-cuap-20010206
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

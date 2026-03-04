@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xmldsig-xpath-20100831
-title:
-- content: XML Signature Streaming Profile of XPath 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/WD-xmldsig-xpath-20100831/
-  type: src
+id: W3CWDxmldsigxpath20100831
 type: standard
-docid:
-- id: W3C WD-xmldsig-xpath-20100831
+schema_version: v1.4.1
+formattedref: W3C WD-xmldsig-xpath-20100831
+title:
+- language: en
+  script: Latn
+  content: XML Signature Streaming Profile of XPath 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/WD-xmldsig-xpath-20100831/
+docidentifier:
+- content: W3C WD-xmldsig-xpath-20100831
   type: W3C
   primary: true
 docnumber: WD-xmldsig-xpath-20100831
 date:
 - type: published
-  value: '2010-08-31'
+  at: '2010-08-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Pratik
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Datta
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2010-08-31'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Pratik
+      surname:
+        language: en
+        script: Latn
+        content: Datta
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmldsig-xpath
     title:
-    - content: XML Signature Streaming Profile of XPath 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmldsig-xpath/
-      type: src
-    docid:
-    - id: W3C xmldsig-xpath
+    - language: en
+      script: Latn
+      content: XML Signature Streaming Profile of XPath 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmldsig-xpath/
+    docidentifier:
+    - content: W3C xmldsig-xpath
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xmldsig-xpath-20110421
-    title:
-    - content: XML Signature Streaming Profile of XPath 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-xmldsig-xpath-20110421/
-      type: src
-    docid:
-    - id: W3C WD-xmldsig-xpath-20110421
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Signature Streaming Profile of XPath 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-xmldsig-xpath-20110421/
+    docidentifier:
+    - content: W3C WD-xmldsig-xpath-20110421
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xmldsig-xpath-20100831
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Security Working Group
+    content: technicalReport
+  flavor: w3c

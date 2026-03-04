@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-webrtc-stats-20250710
-title:
-- content: Identifiers for WebRTC's Statistics API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250710/
-  type: src
+id: W3CCRDwebrtcstats20250710
 type: standard
-docid:
-- id: W3C CRD-webrtc-stats-20250710
+schema_version: v1.4.1
+formattedref: W3C CRD-webrtc-stats-20250710
+title:
+- language: en
+  script: Latn
+  content: Identifiers for WebRTC's Statistics API
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250710/
+docidentifier:
+- content: W3C CRD-webrtc-stats-20250710
   type: W3C
   primary: true
 docnumber: CRD-webrtc-stats-20250710
 date:
 - type: published
-  value: '2025-07-10'
+  at: '2025-07-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Harald
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Harald
       surname:
+        language: en
+        script: Latn
         content: Alvestrand
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Varun
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Varun
       surname:
+        language: en
+        script: Latn
         content: Singh
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Henrik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Henrik
       surname:
+        language: en
+        script: Latn
         content: Boström
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-07-10'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebrtc-stats
     title:
-    - content: Identifiers for WebRTC's Statistics API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webrtc-stats/
-      type: src
-    docid:
-    - id: W3C webrtc-stats
+    - language: en
+      script: Latn
+      content: Identifiers for WebRTC's Statistics API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webrtc-stats/
+    docidentifier:
+    - content: W3C webrtc-stats
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webrtc-stats-20250328
     title:
-    - content: Identifiers for WebRTC's Statistics API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250328/
-      type: src
-    docid:
-    - id: W3C CRD-webrtc-stats-20250328
+    - language: en
+      script: Latn
+      content: Identifiers for WebRTC's Statistics API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250328/
+    docidentifier:
+    - content: W3C CRD-webrtc-stats-20250328
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-webrtc-stats-20250731
-    title:
-    - content: Identifiers for WebRTC's Statistics API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250731/
-      type: src
-    docid:
-    - id: W3C CRD-webrtc-stats-20250731
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Identifiers for WebRTC's Statistics API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webrtc-stats-20250731/
+    docidentifier:
+    - content: W3C CRD-webrtc-stats-20250731
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-webrtc-stats-20250710
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-ruby-use-cases-20130910
-title:
-- content: Use Cases & Exploratory Approaches for Ruby Markup
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/
-  type: src
+id: W3CWDrubyusecases20130910
 type: standard
-docid:
-- id: W3C WD-ruby-use-cases-20130910
+schema_version: v1.4.1
+formattedref: W3C WD-ruby-use-cases-20130910
+title:
+- language: en
+  script: Latn
+  content: Use Cases & Exploratory Approaches for Ruby Markup
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-ruby-use-cases-20130910/
+docidentifier:
+- content: W3C WD-ruby-use-cases-20130910
   type: W3C
   primary: true
 docnumber: WD-ruby-use-cases-20130910
 date:
 - type: published
-  value: '2013-09-10'
+  at: '2013-09-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-09-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cruby-use-cases
     title:
-    - content: Use Cases & Exploratory Approaches for Ruby Markup
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ruby-use-cases/
-      type: src
-    docid:
-    - id: W3C ruby-use-cases
+    - language: en
+      script: Latn
+      content: Use Cases & Exploratory Approaches for Ruby Markup
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ruby-use-cases/
+    docidentifier:
+    - content: W3C ruby-use-cases
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-ruby-use-cases-20120710
     title:
-    - content: Use Cases & Exploratory Approaches for Ruby Markup
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-ruby-use-cases-20120710/
-      type: src
-    docid:
-    - id: W3C WD-ruby-use-cases-20120710
+    - language: en
+      script: Latn
+      content: Use Cases & Exploratory Approaches for Ruby Markup
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-ruby-use-cases-20120710/
+    docidentifier:
+    - content: W3C WD-ruby-use-cases-20120710
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-ruby-use-cases-20131008
-    title:
-    - content: Use Cases & Exploratory Approaches for Ruby Markup
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/NOTE-ruby-use-cases-20131008/
-      type: src
-    docid:
-    - id: W3C NOTE-ruby-use-cases-20131008
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Use Cases & Exploratory Approaches for Ruby Markup
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/NOTE-ruby-use-cases-20131008/
+    docidentifier:
+    - content: W3C NOTE-ruby-use-cases-20131008
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-ruby-use-cases-20130910
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

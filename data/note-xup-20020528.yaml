@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xup-20020528
-title:
-- content: XUP - Extensible User Interface Protocol
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/NOTE-xup-20020528
-  type: src
+id: W3CNOTExup20020528
 type: standard
-docid:
-- id: W3C NOTE-xup-20020528
+schema_version: v1.4.1
+formattedref: W3C NOTE-xup-20020528
+title:
+- language: en
+  script: Latn
+  content: XUP - Extensible User Interface Protocol
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/NOTE-xup-20020528
+docidentifier:
+- content: W3C NOTE-xup-20020528
   type: W3C
   primary: true
 docnumber: NOTE-xup-20020528
 date:
 - type: published
-  value: '2002-05-28'
+  at: '2002-05-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Jin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Yu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2002-05-28'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jin
+      surname:
+        language: en
+        script: Latn
+        content: Yu
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxup
     title:
-    - content: XUP - Extensible User Interface Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xup/
-      type: src
-    docid:
-    - id: W3C xup
+    - language: en
+      script: Latn
+      content: XUP - Extensible User Interface Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xup/
+    docidentifier:
+    - content: W3C xup
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xup-20020528
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

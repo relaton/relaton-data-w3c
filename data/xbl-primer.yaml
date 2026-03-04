@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cxbl-primer
-title:
-- content: 'XBL 2.0 Primer: An Introduction for Developers'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/xbl-primer/
-  type: src
+id: W3Cxblprimer
 type: standard
-docid:
-- id: W3C xbl-primer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'XBL 2.0 Primer: An Introduction for Developers'
+source:
+- type: src
+  content: https://www.w3.org/TR/xbl-primer/
+docidentifier:
+- content: W3C xbl-primer
   type: W3C
   primary: true
 docnumber: xbl-primer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-xbl-primer-20070718
     title:
-    - content: 'XBL 2.0 Primer: An Introduction for Developers'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-xbl-primer-20070718/
-      type: src
-    docid:
-    - id: W3C WD-xbl-primer-20070718
+    - language: en
+      script: Latn
+      content: 'XBL 2.0 Primer: An Introduction for Developers'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-xbl-primer-20070718/
+    docidentifier:
+    - content: W3C WD-xbl-primer-20070718
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: xbl-primer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CDRY-webcodecs-codec-registry-20240201
-title:
-- content: WebCodecs Codec Registry
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240201/
-  type: src
+id: W3CDRYwebcodecscodecregistry20240201
 type: standard
-docid:
-- id: W3C DRY-webcodecs-codec-registry-20240201
+schema_version: v1.4.1
+formattedref: W3C DRY-webcodecs-codec-registry-20240201
+title:
+- language: en
+  script: Latn
+  content: WebCodecs Codec Registry
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240201/
+docidentifier:
+- content: W3C DRY-webcodecs-codec-registry-20240201
   type: W3C
   primary: true
 docnumber: DRY-webcodecs-codec-registry-20240201
 date:
 - type: published
-  value: '2024-02-01'
+  at: '2024-02-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Paul
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Paul
       surname:
+        language: en
+        script: Latn
         content: Adenot
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bernard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bernard
       surname:
+        language: en
+        script: Latn
         content: Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-02-01'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Media Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Registry
+    content: Draft Registry
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebcodecs-codec-registry
     title:
-    - content: WebCodecs Codec Registry
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webcodecs-codec-registry/
-      type: src
-    docid:
-    - id: W3C webcodecs-codec-registry
+    - language: en
+      script: Latn
+      content: WebCodecs Codec Registry
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webcodecs-codec-registry/
+    docidentifier:
+    - content: W3C webcodecs-codec-registry
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDRY-webcodecs-codec-registry-20240129
     title:
-    - content: WebCodecs Codec Registry
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240129/
-      type: src
-    docid:
-    - id: W3C DRY-webcodecs-codec-registry-20240129
+    - language: en
+      script: Latn
+      content: WebCodecs Codec Registry
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240129/
+    docidentifier:
+    - content: W3C DRY-webcodecs-codec-registry-20240129
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDRY-webcodecs-codec-registry-20240206
-    title:
-    - content: WebCodecs Codec Registry
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240206/
-      type: src
-    docid:
-    - id: W3C DRY-webcodecs-codec-registry-20240206
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebCodecs Codec Registry
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DRY-webcodecs-codec-registry-20240206/
+    docidentifier:
+    - content: W3C DRY-webcodecs-codec-registry-20240206
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Registry
-    format: text/plain
   number: DRY-webcodecs-codec-registry-20240201
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Media Working Group
+    content: technicalReport
+  flavor: w3c

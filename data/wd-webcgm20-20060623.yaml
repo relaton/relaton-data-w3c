@@ -1,127 +1,128 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-webcgm20-20060623
-title:
-- content: WebCGM 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2006/WD-webcgm20-20060623/
-  type: src
+id: W3CWDwebcgm2020060623
 type: standard
-docid:
-- id: W3C WD-webcgm20-20060623
+schema_version: v1.4.1
+formattedref: W3C WD-webcgm20-20060623
+title:
+- language: en
+  script: Latn
+  content: WebCGM 2.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2006/WD-webcgm20-20060623/
+docidentifier:
+- content: W3C WD-webcgm20-20060623
   type: W3C
   primary: true
 docnumber: WD-webcgm20-20060623
 date:
 - type: published
-  value: '2006-06-23'
+  at: '2006-06-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Benoit
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Benoit
       surname:
+        language: en
+        script: Latn
         content: Bezaire
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Cruikshank
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Lofton
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lofton
       surname:
+        language: en
+        script: Latn
         content: Henderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2006-06-23'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: WebCGM Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebcgm20
     title:
-    - content: WebCGM 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webcgm20/
-      type: src
-    docid:
-    - id: W3C webcgm20
+    - language: en
+      script: Latn
+      content: WebCGM 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webcgm20/
+    docidentifier:
+    - content: W3C webcgm20
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-webcgm20-20060906
-    title:
-    - content: WebCGM 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/CR-webcgm20-20060906/
-      type: src
-    docid:
-    - id: W3C CR-webcgm20-20060906
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebCGM 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/CR-webcgm20-20060906/
+    docidentifier:
+    - content: W3C CR-webcgm20-20060906
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-webcgm20-20060623
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: WebCGM Working Group
+    content: technicalReport
+  flavor: w3c

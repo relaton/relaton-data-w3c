@@ -1,94 +1,101 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-test-metadata-20050914
-title:
-- content: Test Metadata
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/NOTE-test-metadata-20050914/
-  type: src
+id: W3CNOTEtestmetadata20050914
 type: standard
-docid:
-- id: W3C NOTE-test-metadata-20050914
+schema_version: v1.4.1
+formattedref: W3C NOTE-test-metadata-20050914
+title:
+- language: en
+  script: Latn
+  content: Test Metadata
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/NOTE-test-metadata-20050914/
+docidentifier:
+- content: W3C NOTE-test-metadata-20050914
   type: W3C
   primary: true
 docnumber: NOTE-test-metadata-20050914
 date:
 - type: published
-  value: '2005-09-14'
+  at: '2005-09-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Patrick
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick
       surname:
+        language: en
+        script: Latn
         content: Curran
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Karl
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Karl
       surname:
+        language: en
+        script: Latn
         content: Dubost
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2005-09-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Quality Assurance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctest-metadata
     title:
-    - content: Test Metadata
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/test-metadata/
-      type: src
-    docid:
-    - id: W3C test-metadata
+    - language: en
+      script: Latn
+      content: Test Metadata
+    source:
+    - type: src
+      content: https://www.w3.org/TR/test-metadata/
+    docidentifier:
+    - content: W3C test-metadata
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-test-metadata-20050914
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Quality Assurance Working Group
+    content: technicalReport
+  flavor: w3c

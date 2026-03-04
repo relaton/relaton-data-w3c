@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-webrtc-nv-use-cases-20231019
-title:
-- content: WebRTC Extended Use Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/DNOTE-webrtc-nv-use-cases-20231019/
-  type: src
+id: W3CDNOTEwebrtcnvusecases20231019
 type: standard
-docid:
-- id: W3C DNOTE-webrtc-nv-use-cases-20231019
+schema_version: v1.4.1
+formattedref: W3C DNOTE-webrtc-nv-use-cases-20231019
+title:
+- language: en
+  script: Latn
+  content: WebRTC Extended Use Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/DNOTE-webrtc-nv-use-cases-20231019/
+docidentifier:
+- content: W3C DNOTE-webrtc-nv-use-cases-20231019
   type: W3C
   primary: true
 docnumber: DNOTE-webrtc-nv-use-cases-20231019
 date:
 - type: published
-  value: '2023-10-19'
+  at: '2023-10-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Bernard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2023-10-19'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Bernard
+      surname:
+        language: en
+        script: Latn
+        content: Aboba
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebrtc-nv-use-cases
     title:
-    - content: WebRTC Extended Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webrtc-nv-use-cases/
-      type: src
-    docid:
-    - id: W3C webrtc-nv-use-cases
+    - language: en
+      script: Latn
+      content: WebRTC Extended Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webrtc-nv-use-cases/
+    docidentifier:
+    - content: W3C webrtc-nv-use-cases
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-webrtc-nv-use-cases-20230823
     title:
-    - content: WebRTC Extended Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-webrtc-nv-use-cases-20230823/
-      type: src
-    docid:
-    - id: W3C DNOTE-webrtc-nv-use-cases-20230823
+    - language: en
+      script: Latn
+      content: WebRTC Extended Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-webrtc-nv-use-cases-20230823/
+    docidentifier:
+    - content: W3C DNOTE-webrtc-nv-use-cases-20230823
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-webrtc-nv-use-cases-20231026
-    title:
-    - content: WebRTC Extended Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-webrtc-nv-use-cases-20231026/
-      type: src
-    docid:
-    - id: W3C DNOTE-webrtc-nv-use-cases-20231026
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebRTC Extended Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-webrtc-nv-use-cases-20231026/
+    docidentifier:
+    - content: W3C DNOTE-webrtc-nv-use-cases-20231026
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-webrtc-nv-use-cases-20231019
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

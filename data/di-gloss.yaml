@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cdi-gloss
-title:
-- content: Glossary of Terms for Device Independence
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/di-gloss/
-  type: src
+id: W3Cdigloss
 type: standard
-docid:
-- id: W3C di-gloss
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Glossary of Terms for Device Independence
+source:
+- type: src
+  content: https://www.w3.org/TR/di-gloss/
+docidentifier:
+- content: W3C di-gloss
   type: W3C
   primary: true
 docnumber: di-gloss
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-di-gloss-20050118
     title:
-    - content: Glossary of Terms for Device Independence
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-di-gloss-20050118/
-      type: src
-    docid:
-    - id: W3C WD-di-gloss-20050118
+    - language: en
+      script: Latn
+      content: Glossary of Terms for Device Independence
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-di-gloss-20050118/
+    docidentifier:
+    - content: W3C WD-di-gloss-20050118
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-di-gloss-20030825
     title:
-    - content: Glossary of Terms for Device Independence
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-di-gloss-20030825/
-      type: src
-    docid:
-    - id: W3C WD-di-gloss-20030825
+    - language: en
+      script: Latn
+      content: Glossary of Terms for Device Independence
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-di-gloss-20030825/
+    docidentifier:
+    - content: W3C WD-di-gloss-20030825
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: di-gloss
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

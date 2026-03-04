@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-mst-content-hint-20210722
-title:
-- content: MediaStreamTrack Content Hints
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/WD-mst-content-hint-20210722/
-  type: src
+id: W3CWDmstcontenthint20210722
 type: standard
-docid:
-- id: W3C WD-mst-content-hint-20210722
+schema_version: v1.4.1
+formattedref: W3C WD-mst-content-hint-20210722
+title:
+- language: en
+  script: Latn
+  content: MediaStreamTrack Content Hints
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/WD-mst-content-hint-20210722/
+docidentifier:
+- content: W3C WD-mst-content-hint-20210722
   type: W3C
   primary: true
 docnumber: WD-mst-content-hint-20210722
 date:
 - type: published
-  value: '2021-07-22'
+  at: '2021-07-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Harald
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Alvestrand
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-07-22'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Harald
+      surname:
+        language: en
+        script: Latn
+        content: Alvestrand
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmst-content-hint
     title:
-    - content: MediaStreamTrack Content Hints
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mst-content-hint/
-      type: src
-    docid:
-    - id: W3C mst-content-hint
+    - language: en
+      script: Latn
+      content: MediaStreamTrack Content Hints
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mst-content-hint/
+    docidentifier:
+    - content: W3C mst-content-hint
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-mst-content-hint-20210701
     title:
-    - content: MediaStreamTrack Content Hints
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-mst-content-hint-20210701/
-      type: src
-    docid:
-    - id: W3C WD-mst-content-hint-20210701
+    - language: en
+      script: Latn
+      content: MediaStreamTrack Content Hints
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-mst-content-hint-20210701/
+    docidentifier:
+    - content: W3C WD-mst-content-hint-20210701
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-mst-content-hint-20240801
-    title:
-    - content: MediaStreamTrack Content Hints
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-mst-content-hint-20240801/
-      type: src
-    docid:
-    - id: W3C WD-mst-content-hint-20240801
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: MediaStreamTrack Content Hints
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-mst-content-hint-20240801/
+    docidentifier:
+    - content: W3C WD-mst-content-hint-20240801
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-mst-content-hint-20210722
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

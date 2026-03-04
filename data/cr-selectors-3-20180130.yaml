@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-selectors-3-20180130
-title:
-- content: Selectors Level 3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/CR-selectors-3-20180130/
-  type: src
+id: W3CCRselectors320180130
 type: standard
-docid:
-- id: W3C CR-selectors-3-20180130
+schema_version: v1.4.1
+formattedref: W3C CR-selectors-3-20180130
+title:
+- language: en
+  script: Latn
+  content: Selectors Level 3
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/CR-selectors-3-20180130/
+docidentifier:
+- content: W3C CR-selectors-3-20180130
   type: W3C
   primary: true
 docnumber: CR-selectors-3-20180130
 date:
 - type: published
-  value: '2018-01-30'
+  at: '2018-01-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Tantek
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tantek
       surname:
+        language: en
+        script: Latn
         content: Çelik
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Elika
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elika
       surname:
+        language: en
+        script: Latn
         content: Etemad
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Glazman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
       surname:
+        language: en
+        script: Latn
         content: Hickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Peter
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Peter
       surname:
+        language: en
+        script: Latn
         content: Linss
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: John
       surname:
+        language: en
+        script: Latn
         content: Williams
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2018-01-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cselectors-3
     title:
-    - content: Selectors Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/selectors-3/
-      type: src
-    docid:
-    - id: W3C selectors-3
+    - language: en
+      script: Latn
+      content: Selectors Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/selectors-3/
+    docidentifier:
+    - content: W3C selectors-3
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CREC-css3-selectors-20110929
     title:
-    - content: Selectors Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/REC-css3-selectors-20110929/
-      type: src
-    docid:
-    - id: W3C REC-css3-selectors-20110929
+    - language: en
+      script: Latn
+      content: Selectors Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/REC-css3-selectors-20110929/
+    docidentifier:
+    - content: W3C REC-css3-selectors-20110929
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-selectors-3-20180911
-    title:
-    - content: Selectors Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/PR-selectors-3-20180911/
-      type: src
-    docid:
-    - id: W3C PR-selectors-3-20180911
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Selectors Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/PR-selectors-3-20180911/
+    docidentifier:
+    - content: W3C PR-selectors-3-20180911
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-selectors-3-20180130
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

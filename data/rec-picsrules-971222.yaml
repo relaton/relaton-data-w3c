@@ -1,76 +1,92 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-PICSRules-971222
-title:
-- content: PICSRules 1.1 Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/REC-PICSRules-971222
-  type: src
+id: W3CRECPICSRules971222
 type: standard
-docid:
-- id: W3C REC-PICSRules-971222
+schema_version: v1.4.1
+formattedref: W3C REC-PICSRules-971222
+title:
+- language: en
+  script: Latn
+  content: PICSRules 1.1 Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/REC-PICSRules-971222
+docidentifier:
+- content: W3C REC-PICSRules-971222
   type: W3C
   primary: true
 docnumber: REC-PICSRules-971222
 date:
 - type: published
-  value: '1997-12-22'
+  at: '1997-12-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1997-12-22'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-PICSRules
     title:
-    - content: PICSRules 1.1 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-PICSRules/
-      type: src
-    docid:
-    - id: W3C REC-PICSRules
+    - language: en
+      script: Latn
+      content: PICSRules 1.1 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-PICSRules/
+    docidentifier:
+    - content: W3C REC-PICSRules
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-PICSRules-971229
-    title:
-    - content: PICSRules 1.1 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-PICSRules-971229
-      type: src
-    docid:
-    - id: W3C REC-PICSRules-971229
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: PICSRules 1.1 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-PICSRules-971229
+    docidentifier:
+    - content: W3C REC-PICSRules-971229
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-PICSRules-971222
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

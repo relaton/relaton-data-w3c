@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cpoi-core
-title:
-- content: Points of Interest Core
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/poi-core/
-  type: src
+id: W3Cpoicore
 type: standard
-docid:
-- id: W3C poi-core
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Points of Interest Core
+source:
+- type: src
+  content: https://www.w3.org/TR/poi-core/
+docidentifier:
+- content: W3C poi-core
   type: W3C
   primary: true
 docnumber: poi-core
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-poi-core-20110512
     title:
-    - content: Points of Interest Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-poi-core-20110512/
-      type: src
-    docid:
-    - id: W3C WD-poi-core-20110512
+    - language: en
+      script: Latn
+      content: Points of Interest Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-poi-core-20110512/
+    docidentifier:
+    - content: W3C WD-poi-core-20110512
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: poi-core
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

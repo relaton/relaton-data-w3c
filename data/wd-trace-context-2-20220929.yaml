@@ -1,127 +1,128 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-trace-context-2-20220929
-title:
-- content: Trace Context Level 2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/WD-trace-context-2-20220929/
-  type: src
+id: W3CWDtracecontext220220929
 type: standard
-docid:
-- id: W3C WD-trace-context-2-20220929
+schema_version: v1.4.1
+formattedref: W3C WD-trace-context-2-20220929
+title:
+- language: en
+  script: Latn
+  content: Trace Context Level 2
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/WD-trace-context-2-20220929/
+docidentifier:
+- content: W3C WD-trace-context-2-20220929
   type: W3C
   primary: true
 docnumber: WD-trace-context-2-20220929
 date:
 - type: published
-  value: '2022-09-29'
+  at: '2022-09-29'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Sergey
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sergey
       surname:
+        language: en
+        script: Latn
         content: Kanzhelev
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Dyla
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yuri
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yuri
       surname:
+        language: en
+        script: Latn
         content: Shkuro
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-09-29'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Distributed Tracing Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctrace-context-2
     title:
-    - content: Trace Context Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/trace-context-2/
-      type: src
-    docid:
-    - id: W3C trace-context-2
+    - language: en
+      script: Latn
+      content: Trace Context Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/trace-context-2/
+    docidentifier:
+    - content: W3C trace-context-2
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-trace-context-2-20230406
-    title:
-    - content: Trace Context Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-trace-context-2-20230406/
-      type: src
-    docid:
-    - id: W3C WD-trace-context-2-20230406
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Trace Context Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-trace-context-2-20230406/
+    docidentifier:
+    - content: W3C WD-trace-context-2-20230406
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-trace-context-2-20220929
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Distributed Tracing Working Group
+    content: technicalReport
+  flavor: w3c

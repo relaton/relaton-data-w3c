@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-WebIDL-1-20160915
-title:
-- content: WebIDL Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/PR-WebIDL-1-20160915/
-  type: src
+id: W3CPRWebIDL120160915
 type: standard
-docid:
-- id: W3C PR-WebIDL-1-20160915
+schema_version: v1.4.1
+formattedref: W3C PR-WebIDL-1-20160915
+title:
+- language: en
+  script: Latn
+  content: WebIDL Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/PR-WebIDL-1-20160915/
+docidentifier:
+- content: W3C PR-WebIDL-1-20160915
   type: W3C
   primary: true
 docnumber: PR-WebIDL-1-20160915
 date:
 - type: published
-  value: '2016-09-15'
+  at: '2016-09-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Cameron
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Cameron
       surname:
+        language: en
+        script: Latn
         content: McCormack
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Boris
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Boris
       surname:
+        language: en
+        script: Latn
         content: Zbarsky
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-09-15'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWebIDL-1
     title:
-    - content: WebIDL Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WebIDL-1/
-      type: src
-    docid:
-    - id: W3C WebIDL-1
+    - language: en
+      script: Latn
+      content: WebIDL Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WebIDL-1/
+    docidentifier:
+    - content: W3C WebIDL-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-WebIDL-1-20160308
     title:
-    - content: WebIDL Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/CR-WebIDL-1-20160308/
-      type: src
-    docid:
-    - id: W3C CR-WebIDL-1-20160308
+    - language: en
+      script: Latn
+      content: WebIDL Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/CR-WebIDL-1-20160308/
+    docidentifier:
+    - content: W3C CR-WebIDL-1-20160308
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-WebIDL-1-20161215
-    title:
-    - content: WebIDL Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/
-      type: src
-    docid:
-    - id: W3C REC-WebIDL-1-20161215
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebIDL Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/
+    docidentifier:
+    - content: W3C REC-WebIDL-1-20161215
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-WebIDL-1-20160915
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

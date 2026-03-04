@@ -1,175 +1,162 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-adapt-20230103
-title:
-- content: WAI-Adapt Explainer
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/DNOTE-adapt-20230103/
-  type: src
+id: W3CDNOTEadapt20230103
 type: standard
-docid:
-- id: W3C DNOTE-adapt-20230103
+schema_version: v1.4.1
+formattedref: W3C DNOTE-adapt-20230103
+title:
+- language: en
+  script: Latn
+  content: WAI-Adapt Explainer
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/DNOTE-adapt-20230103/
+docidentifier:
+- content: W3C DNOTE-adapt-20230103
   type: W3C
   primary: true
 docnumber: DNOTE-adapt-20230103
 date:
 - type: published
-  value: '2023-01-03'
+  at: '2023-01-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Lisa
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lisa
       surname:
+        language: en
+        script: Latn
         content: Seeman-Horwitz
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Charles
       surname:
+        language: en
+        script: Latn
         content: LaPierre
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: John
       surname:
+        language: en
+        script: Latn
         content: Foliot
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ruoxi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ruoxi
       surname:
+        language: en
+        script: Latn
         content: Ran
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Schwerdtfeger
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-01-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessible Platform Architectures Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cadapt
     title:
-    - content: WAI-Adapt Explainer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/adapt/
-      type: src
-    docid:
-    - id: W3C adapt
+    - language: en
+      script: Latn
+      content: WAI-Adapt Explainer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/adapt/
+    docidentifier:
+    - content: W3C adapt
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-adapt-20220609
     title:
-    - content: WAI-Adapt Explainer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-adapt-20220609/
-      type: src
-    docid:
-    - id: W3C DNOTE-adapt-20220609
+    - language: en
+      script: Latn
+      content: WAI-Adapt Explainer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-adapt-20220609/
+    docidentifier:
+    - content: W3C DNOTE-adapt-20220609
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-adapt-20230103
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessible Platform Architectures Working Group
+    content: technicalReport
+  flavor: w3c

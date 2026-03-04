@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cprov-constraints
-title:
-- content: Constraints of the PROV Data Model
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/prov-constraints/
-  type: src
+id: W3Cprovconstraints
 type: standard
-docid:
-- id: W3C prov-constraints
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Constraints of the PROV Data Model
+source:
+- type: src
+  content: https://www.w3.org/TR/prov-constraints/
+docidentifier:
+- content: W3C prov-constraints
   type: W3C
   primary: true
 docnumber: prov-constraints
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-prov-constraints-20130430
     title:
-    - content: Constraints of the PROV Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-prov-constraints-20130430/
-      type: src
-    docid:
-    - id: W3C REC-prov-constraints-20130430
+    - language: en
+      script: Latn
+      content: Constraints of the PROV Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-prov-constraints-20130430/
+    docidentifier:
+    - content: W3C REC-prov-constraints-20130430
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-prov-constraints-20130312
     title:
-    - content: Constraints of the PROV Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/PR-prov-constraints-20130312/
-      type: src
-    docid:
-    - id: W3C PR-prov-constraints-20130312
+    - language: en
+      script: Latn
+      content: Constraints of the PROV Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/PR-prov-constraints-20130312/
+    docidentifier:
+    - content: W3C PR-prov-constraints-20130312
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-prov-constraints-20121211
     title:
-    - content: Constraints of the PROV Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-prov-constraints-20121211/
-      type: src
-    docid:
-    - id: W3C CR-prov-constraints-20121211
+    - language: en
+      script: Latn
+      content: Constraints of the PROV Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-prov-constraints-20121211/
+    docidentifier:
+    - content: W3C CR-prov-constraints-20121211
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-prov-constraints-20120911
     title:
-    - content: Constraints of the Provenance Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-prov-constraints-20120911/
-      type: src
-    docid:
-    - id: W3C WD-prov-constraints-20120911
+    - language: en
+      script: Latn
+      content: Constraints of the Provenance Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-prov-constraints-20120911/
+    docidentifier:
+    - content: W3C WD-prov-constraints-20120911
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-prov-constraints-20120503
     title:
-    - content: Constraints of the Provenance Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-prov-constraints-20120503/
-      type: src
-    docid:
-    - id: W3C WD-prov-constraints-20120503
+    - language: en
+      script: Latn
+      content: Constraints of the Provenance Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-prov-constraints-20120503/
+    docidentifier:
+    - content: W3C WD-prov-constraints-20120503
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: prov-constraints
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

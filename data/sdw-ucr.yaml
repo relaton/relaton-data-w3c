@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csdw-ucr
-title:
-- content: Spatial Data on the Web Use Cases & Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/sdw-ucr/
-  type: src
+id: W3Csdwucr
 type: standard
-docid:
-- id: W3C sdw-ucr
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Spatial Data on the Web Use Cases & Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/sdw-ucr/
+docidentifier:
+- content: W3C sdw-ucr
   type: W3C
   primary: true
 docnumber: sdw-ucr
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-sdw-ucr-20161025
     title:
-    - content: Spatial Data on the Web Use Cases & Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-sdw-ucr-20161025/
-      type: src
-    docid:
-    - id: W3C NOTE-sdw-ucr-20161025
+    - language: en
+      script: Latn
+      content: Spatial Data on the Web Use Cases & Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/NOTE-sdw-ucr-20161025/
+    docidentifier:
+    - content: W3C NOTE-sdw-ucr-20161025
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-sdw-ucr-20151217
     title:
-    - content: Spatial Data on the Web Use Cases & Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-sdw-ucr-20151217/
-      type: src
-    docid:
-    - id: W3C NOTE-sdw-ucr-20151217
+    - language: en
+      script: Latn
+      content: Spatial Data on the Web Use Cases & Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/NOTE-sdw-ucr-20151217/
+    docidentifier:
+    - content: W3C NOTE-sdw-ucr-20151217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-sdw-ucr-20150723
     title:
-    - content: Spatial Data on the Web Use Cases & Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-sdw-ucr-20150723/
-      type: src
-    docid:
-    - id: W3C NOTE-sdw-ucr-20150723
+    - language: en
+      script: Latn
+      content: Spatial Data on the Web Use Cases & Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/NOTE-sdw-ucr-20150723/
+    docidentifier:
+    - content: W3C NOTE-sdw-ucr-20150723
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: sdw-ucr
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

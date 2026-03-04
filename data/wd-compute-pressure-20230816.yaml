@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-compute-pressure-20230816
-title:
-- content: Compute Pressure Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-compute-pressure-20230816/
-  type: src
+id: W3CWDcomputepressure20230816
 type: standard
-docid:
-- id: W3C WD-compute-pressure-20230816
+schema_version: v1.4.1
+formattedref: W3C WD-compute-pressure-20230816
+title:
+- language: en
+  script: Latn
+  content: Compute Pressure Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-compute-pressure-20230816/
+docidentifier:
+- content: W3C WD-compute-pressure-20230816
   type: W3C
   primary: true
 docnumber: WD-compute-pressure-20230816
 date:
 - type: published
-  value: '2023-08-16'
+  at: '2023-08-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Kenneth
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kenneth
       surname:
+        language: en
+        script: Latn
         content: Christiansen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Arnaud
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Arnaud
       surname:
+        language: en
+        script: Latn
         content: Mandy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-08-16'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccompute-pressure
     title:
-    - content: Compute Pressure Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/compute-pressure/
-      type: src
-    docid:
-    - id: W3C compute-pressure
+    - language: en
+      script: Latn
+      content: Compute Pressure Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/compute-pressure/
+    docidentifier:
+    - content: W3C compute-pressure
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-compute-pressure-20230626
     title:
-    - content: Compute Pressure Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-compute-pressure-20230626/
-      type: src
-    docid:
-    - id: W3C WD-compute-pressure-20230626
+    - language: en
+      script: Latn
+      content: Compute Pressure Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-compute-pressure-20230626/
+    docidentifier:
+    - content: W3C WD-compute-pressure-20230626
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-compute-pressure-20230831
-    title:
-    - content: Compute Pressure Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-compute-pressure-20230831/
-      type: src
-    docid:
-    - id: W3C WD-compute-pressure-20230831
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Compute Pressure Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-compute-pressure-20230831/
+    docidentifier:
+    - content: W3C WD-compute-pressure-20230831
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-compute-pressure-20230816
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

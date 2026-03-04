@@ -1,111 +1,113 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-AS-19980619
-title:
-- content: 'Action Sheets: A Modular Way of Defining Behavior for XML and HTML'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/NOTE-AS-19980619
-  type: src
+id: W3CNOTEAS19980619
 type: standard
-docid:
-- id: W3C NOTE-AS-19980619
+schema_version: v1.4.1
+formattedref: W3C NOTE-AS-19980619
+title:
+- language: en
+  script: Latn
+  content: 'Action Sheets: A Modular Way of Defining Behavior for XML and HTML'
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/NOTE-AS-19980619
+docidentifier:
+- content: W3C NOTE-AS-19980619
   type: W3C
   primary: true
 docnumber: NOTE-AS-19980619
 date:
 - type: published
-  value: '1998-06-19'
+  at: '1998-06-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Nisheeth
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Nisheeth
       surname:
+        language: en
+        script: Latn
         content: Ranjan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ramanathan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ramanathan
       surname:
+        language: en
+        script: Latn
         content: Guha
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Brendan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Brendan
       surname:
+        language: en
+        script: Latn
         content: Eich
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '1998-06-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CNOTE-AS
     title:
-    - content: 'Action Sheets: A Modular Way of Defining Behavior for XML and HTML'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/NOTE-AS
-      type: src
-    docid:
-    - id: W3C NOTE-AS
+    - language: en
+      script: Latn
+      content: 'Action Sheets: A Modular Way of Defining Behavior for XML and HTML'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/NOTE-AS
+    docidentifier:
+    - content: W3C NOTE-AS
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-AS-19980619
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

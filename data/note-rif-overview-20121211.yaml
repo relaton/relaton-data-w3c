@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-rif-overview-20121211
-title:
-- content: RIF Overview
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/NOTE-rif-overview-20121211/
-  type: src
+id: W3CNOTErifoverview20121211
 type: standard
-docid:
-- id: W3C NOTE-rif-overview-20121211
+schema_version: v1.4.1
+formattedref: W3C NOTE-rif-overview-20121211
+title:
+- language: en
+  script: Latn
+  content: RIF Overview
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/NOTE-rif-overview-20121211/
+docidentifier:
+- content: W3C NOTE-rif-overview-20121211
   type: W3C
   primary: true
 docnumber: NOTE-rif-overview-20121211
 date:
 - type: published
-  value: '2012-12-11'
+  at: '2012-12-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Harold
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Harold
       surname:
+        language: en
+        script: Latn
         content: Boley
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Kifer
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2012-12-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Rule Interchange Format Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crif-overview
     title:
-    - content: RIF Overview (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rif-overview/
-      type: src
-    docid:
-    - id: W3C rif-overview
+    - language: en
+      script: Latn
+      content: RIF Overview (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rif-overview/
+    docidentifier:
+    - content: W3C rif-overview
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-rif-overview-20100622
     title:
-    - content: RIF Overview
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/NOTE-rif-overview-20100622/
-      type: src
-    docid:
-    - id: W3C NOTE-rif-overview-20100622
+    - language: en
+      script: Latn
+      content: RIF Overview
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/NOTE-rif-overview-20100622/
+    docidentifier:
+    - content: W3C NOTE-rif-overview-20100622
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-rif-overview-20130205
-    title:
-    - content: RIF Overview (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/NOTE-rif-overview-20130205/
-      type: src
-    docid:
-    - id: W3C NOTE-rif-overview-20130205
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RIF Overview (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/NOTE-rif-overview-20130205/
+    docidentifier:
+    - content: W3C NOTE-rif-overview-20130205
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-rif-overview-20121211
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Rule Interchange Format Working Group
+    content: technicalReport
+  flavor: w3c

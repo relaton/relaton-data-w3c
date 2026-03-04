@@ -1,259 +1,225 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-clreq-20190528
-title:
-- content: Requirements for Chinese Text Layout 中文排版需求
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/WD-clreq-20190528/
-  type: src
+id: W3CWDclreq20190528
 type: standard
-docid:
-- id: W3C WD-clreq-20190528
+schema_version: v1.4.1
+formattedref: W3C WD-clreq-20190528
+title:
+- language: en
+  script: Latn
+  content: Requirements for Chinese Text Layout 中文排版需求
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/WD-clreq-20190528/
+docidentifier:
+- content: W3C WD-clreq-20190528
   type: W3C
   primary: true
 docnumber: WD-clreq-20190528
 date:
 - type: published
-  value: '2019-05-28'
+  at: '2019-05-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Bobby
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bobby
       surname:
+        language: en
+        script: Latn
         content: Tung
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yijun
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yijun
       surname:
+        language: en
+        script: Latn
         content: Chen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Eric Q
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eric Q
       surname:
+        language: en
+        script: Latn
         content: LIU
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Hui Jing
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hui Jing
       surname:
+        language: en
+        script: Latn
         content: Chen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Fuqiao
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Fuqiao
       surname:
+        language: en
+        script: Latn
         content: Xue
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: An Qi (Angel)
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: An Qi (Angel)
       surname:
+        language: en
+        script: Latn
         content: Li
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Hai
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hai
       surname:
+        language: en
+        script: Latn
         content: Liang
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Xiaoqian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Xiaoqian
       surname:
+        language: en
+        script: Latn
         content: Wu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Aijie
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Aijie
       surname:
+        language: en
+        script: Latn
         content: Zhang
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-05-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cclreq
     title:
-    - content: Requirements for Chinese Text Layout - 中文排版需求
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/clreq/
-      type: src
-    docid:
-    - id: W3C clreq
+    - language: en
+      script: Latn
+      content: Requirements for Chinese Text Layout - 中文排版需求
+    source:
+    - type: src
+      content: https://www.w3.org/TR/clreq/
+    docidentifier:
+    - content: W3C clreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-clreq-20181220
     title:
-    - content: Requirements for Chinese Text Layout 中文排版需求
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-clreq-20181220/
-      type: src
-    docid:
-    - id: W3C WD-clreq-20181220
+    - language: en
+      script: Latn
+      content: Requirements for Chinese Text Layout 中文排版需求
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-clreq-20181220/
+    docidentifier:
+    - content: W3C WD-clreq-20181220
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-clreq-20200521
-    title:
-    - content: Requirements for Chinese Text Layout中文排版需求
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-clreq-20200521/
-      type: src
-    docid:
-    - id: W3C WD-clreq-20200521
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Requirements for Chinese Text Layout中文排版需求
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-clreq-20200521/
+    docidentifier:
+    - content: W3C WD-clreq-20200521
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-clreq-20190528
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

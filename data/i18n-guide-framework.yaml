@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ci18n-guide-framework
-title:
-- content: Framework Document for i18n Guidelines 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/i18n-guide-framework/
-  type: src
+id: W3Ci18nguideframework
 type: standard
-docid:
-- id: W3C i18n-guide-framework
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Framework Document for i18n Guidelines 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/i18n-guide-framework/
+docidentifier:
+- content: W3C i18n-guide-framework
   type: W3C
   primary: true
 docnumber: i18n-guide-framework
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-i18n-guide-framework-20030417
     title:
-    - content: Framework Document for i18n Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-i18n-guide-framework-20030417/
-      type: src
-    docid:
-    - id: W3C WD-i18n-guide-framework-20030417
+    - language: en
+      script: Latn
+      content: Framework Document for i18n Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-i18n-guide-framework-20030417/
+    docidentifier:
+    - content: W3C WD-i18n-guide-framework-20030417
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: i18n-guide-framework
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

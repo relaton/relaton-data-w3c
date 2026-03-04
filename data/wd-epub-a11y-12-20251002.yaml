@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-epub-a11y-12-20251002
-title:
-- content: EPUB Accessibility 1.2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251002/
-  type: src
+id: W3CWDepuba11y1220251002
 type: standard
-docid:
-- id: W3C WD-epub-a11y-12-20251002
+schema_version: v1.4.1
+formattedref: W3C WD-epub-a11y-12-20251002
+title:
+- language: en
+  script: Latn
+  content: EPUB Accessibility 1.2
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251002/
+docidentifier:
+- content: W3C WD-epub-a11y-12-20251002
   type: W3C
   primary: true
 docnumber: WD-epub-a11y-12-20251002
 date:
 - type: published
-  value: '2025-10-02'
+  at: '2025-10-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: George
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: George
       surname:
+        language: en
+        script: Latn
         content: Kerscher
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Matt
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Matt
       surname:
+        language: en
+        script: Latn
         content: Garrish
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Charles
       surname:
+        language: en
+        script: Latn
         content: LaPierre
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Avneesh
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Avneesh
       surname:
+        language: en
+        script: Latn
         content: Singh
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gregorio
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gregorio
       surname:
+        language: en
+        script: Latn
         content: Pellegrino
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-10-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Publishing Maintenance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cepub-a11y-12
     title:
-    - content: EPUB Accessibility 1.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/epub-a11y-12/
-      type: src
-    docid:
-    - id: W3C epub-a11y-12
+    - language: en
+      script: Latn
+      content: EPUB Accessibility 1.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/epub-a11y-12/
+    docidentifier:
+    - content: W3C epub-a11y-12
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-epub-a11y-111-20250910
     title:
-    - content: EPUB Accessibility 1.1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-epub-a11y-111-20250910/
-      type: src
-    docid:
-    - id: W3C WD-epub-a11y-111-20250910
+    - language: en
+      script: Latn
+      content: EPUB Accessibility 1.1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-epub-a11y-111-20250910/
+    docidentifier:
+    - content: W3C WD-epub-a11y-111-20250910
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-epub-a11y-12-20251103
-    title:
-    - content: EPUB Accessibility 1.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251103/
-      type: src
-    docid:
-    - id: W3C WD-epub-a11y-12-20251103
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: EPUB Accessibility 1.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-epub-a11y-12-20251103/
+    docidentifier:
+    - content: W3C WD-epub-a11y-12-20251103
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-epub-a11y-12-20251002
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Publishing Maintenance Working Group
+    content: technicalReport
+  flavor: w3c

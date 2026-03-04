@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-orientation-event-20240202
-title:
-- content: DeviceOrientation Event Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-orientation-event-20240202/
-  type: src
+id: W3CWDorientationevent20240202
 type: standard
-docid:
-- id: W3C WD-orientation-event-20240202
+schema_version: v1.4.1
+formattedref: W3C WD-orientation-event-20240202
+title:
+- language: en
+  script: Latn
+  content: DeviceOrientation Event Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-orientation-event-20240202/
+docidentifier:
+- content: W3C WD-orientation-event-20240202
   type: W3C
   primary: true
 docnumber: WD-orientation-event-20240202
 date:
 - type: published
-  value: '2024-02-02'
+  at: '2024-02-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Reilly
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Reilly
       surname:
+        language: en
+        script: Latn
         content: Grant
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Raphael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Raphael
       surname:
+        language: en
+        script: Latn
         content: Kubo da Costa
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-02-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Corientation-event
     title:
-    - content: Device Orientation and Motion
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/orientation-event/
-      type: src
-    docid:
-    - id: W3C orientation-event
+    - language: en
+      script: Latn
+      content: Device Orientation and Motion
+    source:
+    - type: src
+      content: https://www.w3.org/TR/orientation-event/
+    docidentifier:
+    - content: W3C orientation-event
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-orientation-event-20240131
     title:
-    - content: DeviceOrientation Event Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240131/
-      type: src
-    docid:
-    - id: W3C WD-orientation-event-20240131
+    - language: en
+      script: Latn
+      content: DeviceOrientation Event Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-orientation-event-20240131/
+    docidentifier:
+    - content: W3C WD-orientation-event-20240131
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-orientation-event-20240214
-    title:
-    - content: DeviceOrientation Event Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-orientation-event-20240214/
-      type: src
-    docid:
-    - id: W3C WD-orientation-event-20240214
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: DeviceOrientation Event Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-orientation-event-20240214/
+    docidentifier:
+    - content: W3C WD-orientation-event-20240214
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-orientation-event-20240202
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

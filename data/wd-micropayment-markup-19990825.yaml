@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-Micropayment-Markup-19990825
-title:
-- content: Common Markup for micropayment per-fee-links
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1999/WD-Micropayment-Markup-19990825/
-  type: src
+id: W3CWDMicropaymentMarkup19990825
 type: standard
-docid:
-- id: W3C WD-Micropayment-Markup-19990825
+schema_version: v1.4.1
+formattedref: W3C WD-Micropayment-Markup-19990825
+title:
+- language: en
+  script: Latn
+  content: Common Markup for micropayment per-fee-links
+source:
+- type: src
+  content: https://www.w3.org/TR/1999/WD-Micropayment-Markup-19990825/
+docidentifier:
+- content: W3C WD-Micropayment-Markup-19990825
   type: W3C
   primary: true
 docnumber: WD-Micropayment-Markup-19990825
 date:
 - type: published
-  value: '1999-08-25'
+  at: '1999-08-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Thierry
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Michel
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '1999-08-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Thierry
+      surname:
+        language: en
+        script: Latn
+        content: Michel
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3CMicropayment-Markup
     title:
-    - content: Common Markup for micropayment per-fee-links
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/Micropayment-Markup/
-      type: src
-    docid:
-    - id: W3C Micropayment-Markup
+    - language: en
+      script: Latn
+      content: Common Markup for micropayment per-fee-links
+    source:
+    - type: src
+      content: https://www.w3.org/TR/Micropayment-Markup/
+    docidentifier:
+    - content: W3C Micropayment-Markup
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WD-Micropayment-Markup-19990825
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

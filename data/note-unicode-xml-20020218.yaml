@@ -1,110 +1,116 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-unicode-xml-20020218
-title:
-- content: Unicode in XML and other Markup Languages
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/NOTE-unicode-xml-20020218/
-  type: src
+id: W3CNOTEunicodexml20020218
 type: standard
-docid:
-- id: W3C NOTE-unicode-xml-20020218
+schema_version: v1.4.1
+formattedref: W3C NOTE-unicode-xml-20020218
+title:
+- language: en
+  script: Latn
+  content: Unicode in XML and other Markup Languages
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/NOTE-unicode-xml-20020218/
+docidentifier:
+- content: W3C NOTE-unicode-xml-20020218
   type: W3C
   primary: true
 docnumber: NOTE-unicode-xml-20020218
 date:
 - type: published
-  value: '2002-02-18'
+  at: '2002-02-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Asmus
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Asmus
       surname:
+        language: en
+        script: Latn
         content: Freytag
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Martin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Martin
       surname:
+        language: en
+        script: Latn
         content: Dürst
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2002-02-18'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cunicode-xml
     title:
-    - content: Unicode in XML and other Markup Languages
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/unicode-xml/
-      type: src
-    docid:
-    - id: W3C unicode-xml
+    - language: en
+      script: Latn
+      content: Unicode in XML and other Markup Languages
+    source:
+    - type: src
+      content: https://www.w3.org/TR/unicode-xml/
+    docidentifier:
+    - content: W3C unicode-xml
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-unicode-xml-20030613
-    title:
-    - content: Unicode in XML and other Markup Languages
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/NOTE-unicode-xml-20030613/
-      type: src
-    docid:
-    - id: W3C NOTE-unicode-xml-20030613
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Unicode in XML and other Markup Languages
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/NOTE-unicode-xml-20030613/
+    docidentifier:
+    - content: W3C NOTE-unicode-xml-20030613
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-unicode-xml-20020218
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

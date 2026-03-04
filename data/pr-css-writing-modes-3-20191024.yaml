@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-css-writing-modes-3-20191024
-title:
-- content: CSS Writing Modes Level 3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/PR-css-writing-modes-3-20191024/
-  type: src
+id: W3CPRcsswritingmodes320191024
 type: standard
-docid:
-- id: W3C PR-css-writing-modes-3-20191024
+schema_version: v1.4.1
+formattedref: W3C PR-css-writing-modes-3-20191024
+title:
+- language: en
+  script: Latn
+  content: CSS Writing Modes Level 3
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/PR-css-writing-modes-3-20191024/
+docidentifier:
+- content: W3C PR-css-writing-modes-3-20191024
   type: W3C
   primary: true
 docnumber: PR-css-writing-modes-3-20191024
 date:
 - type: published
-  value: '2019-10-24'
+  at: '2019-10-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Elika
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elika
       surname:
+        language: en
+        script: Latn
         content: Etemad
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Koji
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Koji
       surname:
+        language: en
+        script: Latn
         content: Ishii
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-10-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-writing-modes-3
     title:
-    - content: CSS Writing Modes Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-writing-modes-3/
-      type: src
-    docid:
-    - id: W3C css-writing-modes-3
+    - language: en
+      script: Latn
+      content: CSS Writing Modes Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-writing-modes-3/
+    docidentifier:
+    - content: W3C css-writing-modes-3
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-css-writing-modes-3-20190903
     title:
-    - content: CSS Writing Modes Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-css-writing-modes-3-20190903/
-      type: src
-    docid:
-    - id: W3C CR-css-writing-modes-3-20190903
+    - language: en
+      script: Latn
+      content: CSS Writing Modes Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-css-writing-modes-3-20190903/
+    docidentifier:
+    - content: W3C CR-css-writing-modes-3-20190903
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-css-writing-modes-3-20191210
-    title:
-    - content: CSS Writing Modes Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/REC-css-writing-modes-3-20191210/
-      type: src
-    docid:
-    - id: W3C REC-css-writing-modes-3-20191210
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Writing Modes Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/REC-css-writing-modes-3-20191210/
+    docidentifier:
+    - content: W3C REC-css-writing-modes-3-20191210
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-css-writing-modes-3-20191024
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

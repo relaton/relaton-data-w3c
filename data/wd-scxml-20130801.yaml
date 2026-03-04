@@ -1,327 +1,273 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-scxml-20130801
-title:
-- content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-scxml-20130801/
-  type: src
+id: W3CWDscxml20130801
 type: standard
-docid:
-- id: W3C WD-scxml-20130801
+schema_version: v1.4.1
+formattedref: W3C WD-scxml-20130801
+title:
+- language: en
+  script: Latn
+  content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-scxml-20130801/
+docidentifier:
+- content: W3C WD-scxml-20130801
   type: W3C
   primary: true
 docnumber: WD-scxml-20130801
 date:
 - type: published
-  value: '2013-08-01'
+  at: '2013-08-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: James
       surname:
+        language: en
+        script: Latn
         content: Barnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rahul
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rahul
       surname:
+        language: en
+        script: Latn
         content: Akolkar
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: RJ
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: RJ
       surname:
+        language: en
+        script: Latn
         content: Auburn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Bodell
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Burnett
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jerry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jerry
       surname:
+        language: en
+        script: Latn
         content: Carter
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Scott
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Scott
       surname:
+        language: en
+        script: Latn
         content: McGlashan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Torbjörn
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Torbjörn
       surname:
+        language: en
+        script: Latn
         content: Lager
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Marc
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Marc
       surname:
+        language: en
+        script: Latn
         content: Helbing
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rafah
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rafah
       surname:
+        language: en
+        script: Latn
         content: Hosn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: T.V.
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: T.V.
       surname:
+        language: en
+        script: Latn
         content: Raman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Klaus
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Klaus
       surname:
+        language: en
+        script: Latn
         content: Reifenrath
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Noam
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Noam
       surname:
+        language: en
+        script: Latn
         content: Rosenthal
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Johan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Johan
       surname:
+        language: en
+        script: Latn
         content: Roxendal
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-08-01'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Voice Browser Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cscxml
     title:
-    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/scxml/
-      type: src
-    docid:
-    - id: W3C scxml
+    - language: en
+      script: Latn
+      content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/scxml/
+    docidentifier:
+    - content: W3C scxml
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-scxml-20121206
     title:
-    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-scxml-20121206/
-      type: src
-    docid:
-    - id: W3C WD-scxml-20121206
+    - language: en
+      script: Latn
+      content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-scxml-20121206/
+    docidentifier:
+    - content: W3C WD-scxml-20121206
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-scxml-20140313
-    title:
-    - content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/CR-scxml-20140313/
-      type: src
-    docid:
-    - id: W3C CR-scxml-20140313
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'State Chart XML (SCXML): State Machine Notation for Control Abstraction'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/CR-scxml-20140313/
+    docidentifier:
+    - content: W3C CR-scxml-20140313
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-scxml-20130801
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Voice Browser Working Group
+    content: technicalReport
+  flavor: w3c

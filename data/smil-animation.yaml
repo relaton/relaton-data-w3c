@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csmil-animation
-title:
-- content: SMIL Animation
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/smil-animation/
-  type: src
+id: W3Csmilanimation
 type: standard
-docid:
-- id: W3C smil-animation
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SMIL Animation
+source:
+- type: src
+  content: https://www.w3.org/TR/smil-animation/
+docidentifier:
+- content: W3C smil-animation
   type: W3C
   primary: true
 docnumber: smil-animation
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-smil-animation-20010904
     title:
-    - content: SMIL Animation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/REC-smil-animation-20010904/
-      type: src
-    docid:
-    - id: W3C REC-smil-animation-20010904
+    - language: en
+      script: Latn
+      content: SMIL Animation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/REC-smil-animation-20010904/
+    docidentifier:
+    - content: W3C REC-smil-animation-20010904
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-smil-animation-20010719
     title:
-    - content: SMIL Animation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/PR-smil-animation-20010719/
-      type: src
-    docid:
-    - id: W3C PR-smil-animation-20010719
+    - language: en
+      script: Latn
+      content: SMIL Animation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/PR-smil-animation-20010719/
+    docidentifier:
+    - content: W3C PR-smil-animation-20010719
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-smil-animation-20000731
     title:
-    - content: SMIL Animation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/WD-smil-animation-20000731/
-      type: src
-    docid:
-    - id: W3C WD-smil-animation-20000731
+    - language: en
+      script: Latn
+      content: SMIL Animation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/WD-smil-animation-20000731/
+    docidentifier:
+    - content: W3C WD-smil-animation-20000731
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-smil-animation-20000128
     title:
-    - content: SMIL Animation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/WD-smil-animation-20000128/
-      type: src
-    docid:
-    - id: W3C WD-smil-animation-20000128
+    - language: en
+      script: Latn
+      content: SMIL Animation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/WD-smil-animation-20000128/
+    docidentifier:
+    - content: W3C WD-smil-animation-20000128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-smil-animation-19991029
     title:
-    - content: SMIL Animation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/WD-smil-animation-19991029
-      type: src
-    docid:
-    - id: W3C WD-smil-animation-19991029
+    - language: en
+      script: Latn
+      content: SMIL Animation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/WD-smil-animation-19991029
+    docidentifier:
+    - content: W3C WD-smil-animation-19991029
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: smil-animation
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

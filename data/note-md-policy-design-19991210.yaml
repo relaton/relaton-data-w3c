@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-md-policy-design-19991210
-title:
-- content: 'Eskimo Snow and Scottish Rain: Legal Considerations of Schema Design'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1999/NOTE-md-policy-design-19991210
-  type: src
+id: W3CNOTEmdpolicydesign19991210
 type: standard
-docid:
-- id: W3C NOTE-md-policy-design-19991210
+schema_version: v1.4.1
+formattedref: W3C NOTE-md-policy-design-19991210
+title:
+- language: en
+  script: Latn
+  content: 'Eskimo Snow and Scottish Rain: Legal Considerations of Schema Design'
+source:
+- type: src
+  content: https://www.w3.org/TR/1999/NOTE-md-policy-design-19991210
+docidentifier:
+- content: W3C NOTE-md-policy-design-19991210
   type: W3C
   primary: true
 docnumber: NOTE-md-policy-design-19991210
 date:
 - type: published
-  value: '1999-12-10'
+  at: '1999-12-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Joseph
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Reagle
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '1999-12-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Joseph
+      surname:
+        language: en
+        script: Latn
+        content: Reagle
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmd-policy-design
     title:
-    - content: 'Eskimo Snow and Scottish Rain: Legal Considerations of Schema Design'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/md-policy-design
-      type: src
-    docid:
-    - id: W3C md-policy-design
+    - language: en
+      script: Latn
+      content: 'Eskimo Snow and Scottish Rain: Legal Considerations of Schema Design'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/md-policy-design
+    docidentifier:
+    - content: W3C md-policy-design
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-md-policy-design-19991210
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

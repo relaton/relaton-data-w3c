@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-lpf-20191205
-title:
-- content: Lightweight Packaging Format (LPF)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/NOTE-lpf-20191205/
-  type: src
+id: W3CNOTElpf20191205
 type: standard
-docid:
-- id: W3C NOTE-lpf-20191205
+schema_version: v1.4.1
+formattedref: W3C NOTE-lpf-20191205
+title:
+- language: en
+  script: Latn
+  content: Lightweight Packaging Format (LPF)
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/NOTE-lpf-20191205/
+docidentifier:
+- content: W3C NOTE-lpf-20191205
   type: W3C
   primary: true
 docnumber: NOTE-lpf-20191205
 date:
 - type: published
-  value: '2019-12-05'
+  at: '2019-12-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Laurent
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Le Meur
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2019-12-05'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Laurent
+      surname:
+        language: en
+        script: Latn
+        content: Le Meur
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Audiobooks Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Clpf
     title:
-    - content: Lightweight Packaging Format (LPF)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/lpf/
-      type: src
-    docid:
-    - id: W3C lpf
+    - language: en
+      script: Latn
+      content: Lightweight Packaging Format (LPF)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/lpf/
+    docidentifier:
+    - content: W3C lpf
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-lpf-20200319
-    title:
-    - content: Lightweight Packaging Format (LPF)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/NOTE-lpf-20200319/
-      type: src
-    docid:
-    - id: W3C NOTE-lpf-20200319
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Lightweight Packaging Format (LPF)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/NOTE-lpf-20200319/
+    docidentifier:
+    - content: W3C NOTE-lpf-20200319
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-lpf-20191205
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Audiobooks Working Group
+    content: technicalReport
+  flavor: w3c

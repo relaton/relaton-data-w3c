@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-audio-output-20230831
-title:
-- content: Audio Output Devices API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/CRD-audio-output-20230831/
-  type: src
+id: W3CCRDaudiooutput20230831
 type: standard
-docid:
-- id: W3C CRD-audio-output-20230831
+schema_version: v1.4.1
+formattedref: W3C CRD-audio-output-20230831
+title:
+- language: en
+  script: Latn
+  content: Audio Output Devices API
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/CRD-audio-output-20230831/
+docidentifier:
+- content: W3C CRD-audio-output-20230831
   type: W3C
   primary: true
 docnumber: CRD-audio-output-20230831
 date:
 - type: published
-  value: '2023-08-31'
+  at: '2023-08-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Justin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Justin
       surname:
+        language: en
+        script: Latn
         content: Uberti
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Guido
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Guido
       surname:
+        language: en
+        script: Latn
         content: Urdaneta
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: youenn
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: youenn
       surname:
+        language: en
+        script: Latn
         content: fablet
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-08-31'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Caudio-output
     title:
-    - content: Audio Output Devices API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/audio-output/
-      type: src
-    docid:
-    - id: W3C audio-output
+    - language: en
+      script: Latn
+      content: Audio Output Devices API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/audio-output/
+    docidentifier:
+    - content: W3C audio-output
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-audio-output-20230504
     title:
-    - content: Audio Output Devices API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-audio-output-20230504/
-      type: src
-    docid:
-    - id: W3C CRD-audio-output-20230504
+    - language: en
+      script: Latn
+      content: Audio Output Devices API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/CRD-audio-output-20230504/
+    docidentifier:
+    - content: W3C CRD-audio-output-20230504
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-audio-output-20250417
-    title:
-    - content: Audio Output Devices API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-audio-output-20250417/
-      type: src
-    docid:
-    - id: W3C CRD-audio-output-20250417
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Audio Output Devices API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-audio-output-20250417/
+    docidentifier:
+    - content: W3C CRD-audio-output-20250417
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-audio-output-20230831
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

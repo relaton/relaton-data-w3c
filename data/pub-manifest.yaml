@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cpub-manifest
-title:
-- content: Publication Manifest
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/pub-manifest/
-  type: src
+id: W3Cpubmanifest
 type: standard
-docid:
-- id: W3C pub-manifest
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Publication Manifest
+source:
+- type: src
+  content: https://www.w3.org/TR/pub-manifest/
+docidentifier:
+- content: W3C pub-manifest
   type: W3C
   primary: true
 docnumber: pub-manifest
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,153 +31,155 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-pub-manifest-20201110
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/REC-pub-manifest-20201110/
-      type: src
-    docid:
-    - id: W3C REC-pub-manifest-20201110
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/REC-pub-manifest-20201110/
+    docidentifier:
+    - content: W3C REC-pub-manifest-20201110
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-pub-manifest-20201001
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/PR-pub-manifest-20201001/
-      type: src
-    docid:
-    - id: W3C PR-pub-manifest-20201001
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/PR-pub-manifest-20201001/
+    docidentifier:
+    - content: W3C PR-pub-manifest-20201001
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-pub-manifest-20200914
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200914/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20200914
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-pub-manifest-20200914/
+    docidentifier:
+    - content: W3C CR-pub-manifest-20200914
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-pub-manifest-20200909
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200909/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20200909
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-pub-manifest-20200909/
+    docidentifier:
+    - content: W3C CR-pub-manifest-20200909
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-pub-manifest-20200730
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200730/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20200730
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-pub-manifest-20200730/
+    docidentifier:
+    - content: W3C CR-pub-manifest-20200730
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-pub-manifest-20200317
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200317/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20200317
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-pub-manifest-20200317/
+    docidentifier:
+    - content: W3C CR-pub-manifest-20200317
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-pub-manifest-20200128
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-pub-manifest-20200128/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20200128
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-pub-manifest-20200128/
+    docidentifier:
+    - content: W3C CR-pub-manifest-20200128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-pub-manifest-20191205
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-pub-manifest-20191205/
-      type: src
-    docid:
-    - id: W3C CR-pub-manifest-20191205
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-pub-manifest-20191205/
+    docidentifier:
+    - content: W3C CR-pub-manifest-20191205
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-pub-manifest-20191118
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-pub-manifest-20191118/
-      type: src
-    docid:
-    - id: W3C WD-pub-manifest-20191118
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-pub-manifest-20191118/
+    docidentifier:
+    - content: W3C WD-pub-manifest-20191118
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-pub-manifest-20190911
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-pub-manifest-20190911/
-      type: src
-    docid:
-    - id: W3C WD-pub-manifest-20190911
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-pub-manifest-20190911/
+    docidentifier:
+    - content: W3C WD-pub-manifest-20190911
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-pub-manifest-20190827
     title:
-    - content: Publication Manifest
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-pub-manifest-20190827/
-      type: src
-    docid:
-    - id: W3C WD-pub-manifest-20190827
+    - language: en
+      script: Latn
+      content: Publication Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-pub-manifest-20190827/
+    docidentifier:
+    - content: W3C WD-pub-manifest-20190827
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: pub-manifest
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

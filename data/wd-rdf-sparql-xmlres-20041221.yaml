@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-rdf-sparql-XMLres-20041221
-title:
-- content: SPARQL Variable Binding Results XML Format
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/WD-rdf-sparql-XMLres-20041221/
-  type: src
+id: W3CWDrdfsparqlXMLres20041221
 type: standard
-docid:
-- id: W3C WD-rdf-sparql-XMLres-20041221
+schema_version: v1.4.1
+formattedref: W3C WD-rdf-sparql-XMLres-20041221
+title:
+- language: en
+  script: Latn
+  content: SPARQL Variable Binding Results XML Format
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/WD-rdf-sparql-XMLres-20041221/
+docidentifier:
+- content: W3C WD-rdf-sparql-XMLres-20041221
   type: W3C
   primary: true
 docnumber: WD-rdf-sparql-XMLres-20041221
 date:
 - type: published
-  value: '2004-12-21'
+  at: '2004-12-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Beckett
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2004-12-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
+      surname:
+        language: en
+        script: Latn
+        content: Beckett
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SPARQL Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf-sparql-XMLres
     title:
-    - content: SPARQL Query Results XML Format (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdf-sparql-XMLres/
-      type: src
-    docid:
-    - id: W3C rdf-sparql-XMLres
+    - language: en
+      script: Latn
+      content: SPARQL Query Results XML Format (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdf-sparql-XMLres/
+    docidentifier:
+    - content: W3C rdf-sparql-XMLres
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-rdf-sparql-XMLres-20050527
-    title:
-    - content: SPARQL Query Results XML Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-rdf-sparql-XMLres-20050527/
-      type: src
-    docid:
-    - id: W3C WD-rdf-sparql-XMLres-20050527
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SPARQL Query Results XML Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-rdf-sparql-XMLres-20050527/
+    docidentifier:
+    - content: W3C WD-rdf-sparql-XMLres-20050527
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-rdf-sparql-XMLres-20041221
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SPARQL Working Group
+    content: technicalReport
+  flavor: w3c

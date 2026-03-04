@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cngram-spec
-title:
-- content: Stochastic Language Models (N-Gram) Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ngram-spec/
-  type: src
+id: W3Cngramspec
 type: standard
-docid:
-- id: W3C ngram-spec
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Stochastic Language Models (N-Gram) Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/ngram-spec/
+docidentifier:
+- content: W3C ngram-spec
   type: W3C
   primary: true
 docnumber: ngram-spec
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-ngram-spec-20010103
     title:
-    - content: Stochastic Language Models (N-Gram) Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/WD-ngram-spec-20010103/
-      type: src
-    docid:
-    - id: W3C WD-ngram-spec-20010103
+    - language: en
+      script: Latn
+      content: Stochastic Language Models (N-Gram) Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/WD-ngram-spec-20010103/
+    docidentifier:
+    - content: W3C WD-ngram-spec-20010103
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ngram-spec
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

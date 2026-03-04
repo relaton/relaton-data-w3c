@@ -1,110 +1,116 @@
 ---
-schema-version: v1.2.9
-id: W3CPER-xmlschema-0-20040318
-title:
-- content: 'XML Schema Part 0: Primer Second Edition'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/PER-xmlschema-0-20040318/
-  type: src
+id: W3CPERxmlschema020040318
 type: standard
-docid:
-- id: W3C PER-xmlschema-0-20040318
+schema_version: v1.4.1
+formattedref: W3C PER-xmlschema-0-20040318
+title:
+- language: en
+  script: Latn
+  content: 'XML Schema Part 0: Primer Second Edition'
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/PER-xmlschema-0-20040318/
+docidentifier:
+- content: W3C PER-xmlschema-0-20040318
   type: W3C
   primary: true
 docnumber: PER-xmlschema-0-20040318
 date:
 - type: published
-  value: '2004-03-18'
+  at: '2004-03-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Fallside
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Priscilla
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Priscilla
       surname:
+        language: en
+        script: Latn
         content: Walmsley
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-03-18'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Schema Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Edited Recommendation
+    content: Proposed Edited Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlschema-0
     title:
-    - content: 'XML Schema Part 0: Primer Second Edition'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlschema-0/
-      type: src
-    docid:
-    - id: W3C xmlschema-0
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 0: Primer Second Edition'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlschema-0/
+    docidentifier:
+    - content: W3C xmlschema-0
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-xmlschema-0-20041028
-    title:
-    - content: 'XML Schema Part 0: Primer Second Edition'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/REC-xmlschema-0-20041028/
-      type: src
-    docid:
-    - id: W3C REC-xmlschema-0-20041028
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'XML Schema Part 0: Primer Second Edition'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/REC-xmlschema-0-20041028/
+    docidentifier:
+    - content: W3C REC-xmlschema-0-20041028
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Edited Recommendation
-    format: text/plain
   number: PER-xmlschema-0-20040318
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Schema Working Group
+    content: technicalReport
+  flavor: w3c

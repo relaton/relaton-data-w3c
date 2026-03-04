@@ -1,107 +1,118 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-widgets-20110607
-title:
-- content: Widget Packaging and XML Configuration
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-widgets-20110607/
-  type: src
+id: W3CWDwidgets20110607
 type: standard
-docid:
-- id: W3C WD-widgets-20110607
+schema_version: v1.4.1
+formattedref: W3C WD-widgets-20110607
+title:
+- language: en
+  script: Latn
+  content: Widget Packaging and XML Configuration
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-widgets-20110607/
+docidentifier:
+- content: W3C WD-widgets-20110607
   type: W3C
   primary: true
 docnumber: WD-widgets-20110607
 date:
 - type: published
-  value: '2011-06-07'
+  at: '2011-06-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-06-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwidgets
     title:
-    - content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
+    - language: en
+      script: Latn
+      content: Packaged Web Apps (Widgets) - Packaging and XML Configuration (Second
         Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/widgets/
-      type: src
-    docid:
-    - id: W3C widgets
+    source:
+    - type: src
+      content: https://www.w3.org/TR/widgets/
+    docidentifier:
+    - content: W3C widgets
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-widgets-20110322
     title:
-    - content: Widget Packaging and Configuration
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-widgets-20110322/
-      type: src
-    docid:
-    - id: W3C WD-widgets-20110322
+    - language: en
+      script: Latn
+      content: Widget Packaging and Configuration
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-widgets-20110322/
+    docidentifier:
+    - content: W3C WD-widgets-20110322
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-widgets-20110811
-    title:
-    - content: Widget Packaging and XML Configuration
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/PR-widgets-20110811/
-      type: src
-    docid:
-    - id: W3C PR-widgets-20110811
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Widget Packaging and XML Configuration
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/PR-widgets-20110811/
+    docidentifier:
+    - content: W3C PR-widgets-20110811
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-widgets-20110607
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

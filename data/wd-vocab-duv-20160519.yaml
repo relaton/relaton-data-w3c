@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-vocab-duv-20160519
-title:
-- content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/WD-vocab-duv-20160519/
-  type: src
+id: W3CWDvocabduv20160519
 type: standard
-docid:
-- id: W3C WD-vocab-duv-20160519
+schema_version: v1.4.1
+formattedref: W3C WD-vocab-duv-20160519
+title:
+- language: en
+  script: Latn
+  content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/WD-vocab-duv-20160519/
+docidentifier:
+- content: W3C WD-vocab-duv-20160519
   type: W3C
   primary: true
 docnumber: WD-vocab-duv-20160519
 date:
 - type: published
-  value: '2016-05-19'
+  at: '2016-05-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Bernadette
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bernadette
       surname:
+        language: en
+        script: Latn
         content: Farias Loscio
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Eric
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eric
       surname:
+        language: en
+        script: Latn
         content: Stephan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sumit
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sumit
       surname:
+        language: en
+        script: Latn
         content: Purohit
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-05-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Data on the Web Best Practices Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvocab-duv
     title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vocab-duv/
-      type: src
-    docid:
-    - id: W3C vocab-duv
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vocab-duv/
+    docidentifier:
+    - content: W3C vocab-duv
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-vocab-duv-20160128
     title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-vocab-duv-20160128/
-      type: src
-    docid:
-    - id: W3C WD-vocab-duv-20160128
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-vocab-duv-20160128/
+    docidentifier:
+    - content: W3C WD-vocab-duv-20160128
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-vocab-duv-20160830
-    title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20160830/
-      type: src
-    docid:
-    - id: W3C NOTE-vocab-duv-20160830
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20160830/
+    docidentifier:
+    - content: W3C NOTE-vocab-duv-20160830
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-vocab-duv-20160519
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Data on the Web Best Practices Working Group
+    content: technicalReport
+  flavor: w3c

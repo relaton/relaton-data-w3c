@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-ctaur-20231024
-title:
-- content: Collaboration Tools Accessibility User Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/DNOTE-ctaur-20231024/
-  type: src
+id: W3CDNOTEctaur20231024
 type: standard
-docid:
-- id: W3C DNOTE-ctaur-20231024
+schema_version: v1.4.1
+formattedref: W3C DNOTE-ctaur-20231024
+title:
+- language: en
+  script: Latn
+  content: Collaboration Tools Accessibility User Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/DNOTE-ctaur-20231024/
+docidentifier:
+- content: W3C DNOTE-ctaur-20231024
   type: W3C
   primary: true
 docnumber: DNOTE-ctaur-20231024
 date:
 - type: published
-  value: '2023-10-24'
+  at: '2023-10-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jason
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jason
       surname:
+        language: en
+        script: Latn
         content: White
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Janina
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Janina
       surname:
+        language: en
+        script: Latn
         content: Sajka
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Scott
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Scott
       surname:
+        language: en
+        script: Latn
         content: Hollier
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-10-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessible Platform Architectures Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cctaur
     title:
-    - content: Collaboration Tools Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ctaur/
-      type: src
-    docid:
-    - id: W3C ctaur
+    - language: en
+      script: Latn
+      content: Collaboration Tools Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ctaur/
+    docidentifier:
+    - content: W3C ctaur
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-ctaur-20221108
     title:
-    - content: Collaboration Tools Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-ctaur-20221108/
-      type: src
-    docid:
-    - id: W3C DNOTE-ctaur-20221108
+    - language: en
+      script: Latn
+      content: Collaboration Tools Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-ctaur-20221108/
+    docidentifier:
+    - content: W3C DNOTE-ctaur-20221108
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-ctaur-20240320
-    title:
-    - content: Collaboration Tools Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-ctaur-20240320/
-      type: src
-    docid:
-    - id: W3C DNOTE-ctaur-20240320
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Collaboration Tools Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-ctaur-20240320/
+    docidentifier:
+    - content: W3C DNOTE-ctaur-20240320
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-ctaur-20231024
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessible Platform Architectures Working Group
+    content: technicalReport
+  flavor: w3c

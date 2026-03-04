@@ -1,60 +1,77 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-SDML-19980619
-title:
-- content: Signed Document Markup Language (SDML)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/NOTE-SDML-19980619
-  type: src
+id: W3CNOTESDML19980619
 type: standard
-docid:
-- id: W3C NOTE-SDML-19980619
+schema_version: v1.4.1
+formattedref: W3C NOTE-SDML-19980619
+title:
+- language: en
+  script: Latn
+  content: Signed Document Markup Language (SDML)
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/NOTE-SDML-19980619
+docidentifier:
+- content: W3C NOTE-SDML-19980619
   type: W3C
   primary: true
 docnumber: NOTE-SDML-19980619
 date:
 - type: published
-  value: '1998-06-19'
+  at: '1998-06-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1998-06-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CNOTE-SDML
     title:
-    - content: Signed Document Markup Language (SDML)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/NOTE-SDML
-      type: src
-    docid:
-    - id: W3C NOTE-SDML
+    - language: en
+      script: Latn
+      content: Signed Document Markup Language (SDML)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/NOTE-SDML
+    docidentifier:
+    - content: W3C NOTE-SDML
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-SDML-19980619
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

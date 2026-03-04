@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-webnn-20250526
-title:
-- content: Web Neural Network API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/CRD-webnn-20250526/
-  type: src
+id: W3CCRDwebnn20250526
 type: standard
-docid:
-- id: W3C CRD-webnn-20250526
+schema_version: v1.4.1
+formattedref: W3C CRD-webnn-20250526
+title:
+- language: en
+  script: Latn
+  content: Web Neural Network API
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/CRD-webnn-20250526/
+docidentifier:
+- content: W3C CRD-webnn-20250526
   type: W3C
   primary: true
 docnumber: CRD-webnn-20250526
 date:
 - type: published
-  value: '2025-05-26'
+  at: '2025-05-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ningxin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ningxin
       surname:
+        language: en
+        script: Latn
         content: Hu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dwayne
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dwayne
       surname:
+        language: en
+        script: Latn
         content: Robinson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-05-26'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Machine Learning Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebnn
     title:
-    - content: Web Neural Network API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webnn/
-      type: src
-    docid:
-    - id: W3C webnn
+    - language: en
+      script: Latn
+      content: Web Neural Network API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webnn/
+    docidentifier:
+    - content: W3C webnn
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webnn-20250522
     title:
-    - content: Web Neural Network API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webnn-20250522/
-      type: src
-    docid:
-    - id: W3C CRD-webnn-20250522
+    - language: en
+      script: Latn
+      content: Web Neural Network API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webnn-20250522/
+    docidentifier:
+    - content: W3C CRD-webnn-20250522
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-webnn-20250609
-    title:
-    - content: Web Neural Network API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webnn-20250609/
-      type: src
-    docid:
-    - id: W3C CRD-webnn-20250609
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Neural Network API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webnn-20250609/
+    docidentifier:
+    - content: W3C CRD-webnn-20250609
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-webnn-20250526
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Machine Learning Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-css-backgrounds-3-20231219
-title:
-- content: CSS Backgrounds and Borders Module Level 3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/CRD-css-backgrounds-3-20231219/
-  type: src
+id: W3CCRDcssbackgrounds320231219
 type: standard
-docid:
-- id: W3C CRD-css-backgrounds-3-20231219
+schema_version: v1.4.1
+formattedref: W3C CRD-css-backgrounds-3-20231219
+title:
+- language: en
+  script: Latn
+  content: CSS Backgrounds and Borders Module Level 3
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/CRD-css-backgrounds-3-20231219/
+docidentifier:
+- content: W3C CRD-css-backgrounds-3-20231219
   type: W3C
   primary: true
 docnumber: CRD-css-backgrounds-3-20231219
 date:
 - type: published
-  value: '2023-12-19'
+  at: '2023-12-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Elika
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elika
       surname:
+        language: en
+        script: Latn
         content: Etemad
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Brad
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Brad
       surname:
+        language: en
+        script: Latn
         content: Kemper
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-12-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-backgrounds-3
     title:
-    - content: CSS Backgrounds and Borders Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-backgrounds-3/
-      type: src
-    docid:
-    - id: W3C css-backgrounds-3
+    - language: en
+      script: Latn
+      content: CSS Backgrounds and Borders Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-backgrounds-3/
+    docidentifier:
+    - content: W3C css-backgrounds-3
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-css-backgrounds-3-20230214
     title:
-    - content: CSS Backgrounds and Borders Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-css-backgrounds-3-20230214/
-      type: src
-    docid:
-    - id: W3C CRD-css-backgrounds-3-20230214
+    - language: en
+      script: Latn
+      content: CSS Backgrounds and Borders Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/CRD-css-backgrounds-3-20230214/
+    docidentifier:
+    - content: W3C CRD-css-backgrounds-3-20230214
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-css-backgrounds-3-20240311
-    title:
-    - content: CSS Backgrounds and Borders Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-css-backgrounds-3-20240311/
-      type: src
-    docid:
-    - id: W3C CRD-css-backgrounds-3-20240311
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Backgrounds and Borders Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-css-backgrounds-3-20240311/
+    docidentifier:
+    - content: W3C CRD-css-backgrounds-3-20240311
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-css-backgrounds-3-20231219
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xlink11-20080331
-title:
-- content: XML Linking Language (XLink) Version 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/WD-xlink11-20080331/
-  type: src
+id: W3CWDxlink1120080331
 type: standard
-docid:
-- id: W3C WD-xlink11-20080331
+schema_version: v1.4.1
+formattedref: W3C WD-xlink11-20080331
+title:
+- language: en
+  script: Latn
+  content: XML Linking Language (XLink) Version 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/WD-xlink11-20080331/
+docidentifier:
+- content: W3C WD-xlink11-20080331
   type: W3C
   primary: true
 docnumber: WD-xlink11-20080331
 date:
 - type: published
-  value: '2008-03-31'
+  at: '2008-03-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Norman
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Norman
       surname:
+        language: en
+        script: Latn
         content: Walsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Steven
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steven
       surname:
+        language: en
+        script: Latn
         content: DeRose
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Orchard
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Eve
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eve
       surname:
+        language: en
+        script: Latn
         content: Maler
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2008-03-31'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Core Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxlink11
     title:
-    - content: XML Linking Language (XLink) Version 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xlink11/
-      type: src
-    docid:
-    - id: W3C xlink11
+    - language: en
+      script: Latn
+      content: XML Linking Language (XLink) Version 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xlink11/
+    docidentifier:
+    - content: W3C xlink11
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-xlink11-20060328
     title:
-    - content: XML Linking Language (XLink) Version 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/CR-xlink11-20060328/
-      type: src
-    docid:
-    - id: W3C CR-xlink11-20060328
+    - language: en
+      script: Latn
+      content: XML Linking Language (XLink) Version 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/CR-xlink11-20060328/
+    docidentifier:
+    - content: W3C CR-xlink11-20060328
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-xlink11-20100225
-    title:
-    - content: XML Linking Language (XLink) Version 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/PR-xlink11-20100225/
-      type: src
-    docid:
-    - id: W3C PR-xlink11-20100225
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Linking Language (XLink) Version 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/PR-xlink11-20100225/
+    docidentifier:
+    - content: W3C PR-xlink11-20100225
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-xlink11-20080331
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Core Working Group
+    content: technicalReport
+  flavor: w3c

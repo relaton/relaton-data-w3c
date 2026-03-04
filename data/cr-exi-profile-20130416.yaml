@@ -1,125 +1,131 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-exi-profile-20130416
-title:
-- content: Efficient XML Interchange (EXI) Profile
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/CR-exi-profile-20130416/
-  type: src
+id: W3CCRexiprofile20130416
 type: standard
-docid:
-- id: W3C CR-exi-profile-20130416
+schema_version: v1.4.1
+formattedref: W3C CR-exi-profile-20130416
+title:
+- language: en
+  script: Latn
+  content: Efficient XML Interchange (EXI) Profile
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/CR-exi-profile-20130416/
+docidentifier:
+- content: W3C CR-exi-profile-20130416
   type: W3C
   primary: true
 docnumber: CR-exi-profile-20130416
 date:
 - type: published
-  value: '2013-04-16'
+  at: '2013-04-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Youenn
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Youenn
       surname:
+        language: en
+        script: Latn
         content: Fablet
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Peintner
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-04-16'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Efficient Extensible Interchange  Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cexi-profile
     title:
-    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
         memory
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/exi-profile/
-      type: src
-    docid:
-    - id: W3C exi-profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/exi-profile/
+    docidentifier:
+    - content: W3C exi-profile
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-exi-profile-20120731
     title:
-    - content: Efficient XML Interchange (EXI) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-exi-profile-20120731/
-      type: src
-    docid:
-    - id: W3C WD-exi-profile-20120731
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-exi-profile-20120731/
+    docidentifier:
+    - content: W3C WD-exi-profile-20120731
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-exi-profile-20140506
-    title:
-    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
-        memory
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/PR-exi-profile-20140506/
-      type: src
-    docid:
-    - id: W3C PR-exi-profile-20140506
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+        memory
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/PR-exi-profile-20140506/
+    docidentifier:
+    - content: W3C PR-exi-profile-20140506
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-exi-profile-20130416
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Efficient Extensible Interchange  Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-WICD-20070718
-title:
-- content: WICD Core 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/CR-WICD-20070718/
-  type: src
+id: W3CCRWICD20070718
 type: standard
-docid:
-- id: W3C CR-WICD-20070718
+schema_version: v1.4.1
+formattedref: W3C CR-WICD-20070718
+title:
+- language: en
+  script: Latn
+  content: WICD Core 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/CR-WICD-20070718/
+docidentifier:
+- content: W3C CR-WICD-20070718
   type: W3C
   primary: true
 docnumber: CR-WICD-20070718
 date:
 - type: published
-  value: '2007-07-18'
+  at: '2007-07-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Julien
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Julien
       surname:
+        language: en
+        script: Latn
         content: Quint
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Lasse
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lasse
       surname:
+        language: en
+        script: Latn
         content: Pajunen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Appelquist
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Timur
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Timur
       surname:
+        language: en
+        script: Latn
         content: Mehrvarz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2007-07-18'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Compound Document Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWICD
     title:
-    - content: WICD Core 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WICD/
-      type: src
-    docid:
-    - id: W3C WICD
+    - language: en
+      script: Latn
+      content: WICD Core 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WICD/
+    docidentifier:
+    - content: W3C WICD
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-WICD-20061122
     title:
-    - content: WICD Core 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-WICD-20061122/
-      type: src
-    docid:
-    - id: W3C WD-WICD-20061122
+    - language: en
+      script: Latn
+      content: WICD Core 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-WICD-20061122/
+    docidentifier:
+    - content: W3C WD-WICD-20061122
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-WICD-20100819
-    title:
-    - content: WICD Core 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/NOTE-WICD-20100819/
-      type: src
-    docid:
-    - id: W3C NOTE-WICD-20100819
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WICD Core 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/NOTE-WICD-20100819/
+    docidentifier:
+    - content: W3C NOTE-WICD-20100819
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-WICD-20070718
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Compound Document Formats Working Group
+    content: technicalReport
+  flavor: w3c

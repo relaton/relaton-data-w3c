@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cvsso
-title:
-- content: 'VSSo: Vehicle Signal Specification Ontology'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/vsso/
-  type: src
 type: standard
-docid:
-- id: W3C vsso
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'VSSo: Vehicle Signal Specification Ontology'
+source:
+- type: src
+  content: https://www.w3.org/TR/vsso/
+docidentifier:
+- content: W3C vsso
   type: W3C
   primary: true
 docnumber: vsso
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDISC-vsso-20240222
     title:
-    - content: 'VSSo: Vehicle Signal Specification Ontology'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DISC-vsso-20240222/
-      type: src
-    docid:
-    - id: W3C DISC-vsso-20240222
+    - language: en
+      script: Latn
+      content: 'VSSo: Vehicle Signal Specification Ontology'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DISC-vsso-20240222/
+    docidentifier:
+    - content: W3C DISC-vsso-20240222
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-vsso-20220303
     title:
-    - content: 'VSSo: Vehicle Signal Specification Ontology'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-vsso-20220303/
-      type: src
-    docid:
-    - id: W3C WD-vsso-20220303
+    - language: en
+      script: Latn
+      content: 'VSSo: Vehicle Signal Specification Ontology'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-vsso-20220303/
+    docidentifier:
+    - content: W3C WD-vsso-20220303
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: vsso
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

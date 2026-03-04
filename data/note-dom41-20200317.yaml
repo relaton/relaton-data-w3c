@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-dom41-20200317
-title:
-- content: W3C DOM 4.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2020/NOTE-dom41-20200317/
-  type: src
+id: W3CNOTEdom4120200317
 type: standard
-docid:
-- id: W3C NOTE-dom41-20200317
+schema_version: v1.4.1
+formattedref: W3C NOTE-dom41-20200317
+title:
+- language: en
+  script: Latn
+  content: W3C DOM 4.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2020/NOTE-dom41-20200317/
+docidentifier:
+- content: W3C NOTE-dom41-20200317
   type: W3C
   primary: true
 docnumber: NOTE-dom41-20200317
 date:
 - type: published
-  value: '2020-03-17'
+  at: '2020-03-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Yongsheng
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zhu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2020-03-17'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Yongsheng
+      surname:
+        language: en
+        script: Latn
+        content: Zhu
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdom41
     title:
-    - content: W3C DOM 4.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/dom41/
-      type: src
-    docid:
-    - id: W3C dom41
+    - language: en
+      script: Latn
+      content: W3C DOM 4.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/dom41/
+    docidentifier:
+    - content: W3C dom41
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-dom41-20180201
     title:
-    - content: W3C DOM 4.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-dom41-20180201/
-      type: src
-    docid:
-    - id: W3C WD-dom41-20180201
+    - language: en
+      script: Latn
+      content: W3C DOM 4.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-dom41-20180201/
+    docidentifier:
+    - content: W3C WD-dom41-20180201
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-dom41-20200317
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

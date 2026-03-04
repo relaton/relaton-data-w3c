@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-mediastream-recording-20220607
-title:
-- content: MediaStream Recording
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/WD-mediastream-recording-20220607/
-  type: src
+id: W3CWDmediastreamrecording20220607
 type: standard
-docid:
-- id: W3C WD-mediastream-recording-20220607
+schema_version: v1.4.1
+formattedref: W3C WD-mediastream-recording-20220607
+title:
+- language: en
+  script: Latn
+  content: MediaStream Recording
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/WD-mediastream-recording-20220607/
+docidentifier:
+- content: W3C WD-mediastream-recording-20220607
   type: W3C
   primary: true
 docnumber: WD-mediastream-recording-20220607
 date:
 - type: published
-  value: '2022-06-07'
+  at: '2022-06-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Miguel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Casas-sanchez
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2022-06-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Miguel
+      surname:
+        language: en
+        script: Latn
+        content: Casas-sanchez
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmediastream-recording
     title:
-    - content: MediaStream Recording
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mediastream-recording/
-      type: src
-    docid:
-    - id: W3C mediastream-recording
+    - language: en
+      script: Latn
+      content: MediaStream Recording
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mediastream-recording/
+    docidentifier:
+    - content: W3C mediastream-recording
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-mediastream-recording-20210604
     title:
-    - content: MediaStream Recording
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-mediastream-recording-20210604/
-      type: src
-    docid:
-    - id: W3C WD-mediastream-recording-20210604
+    - language: en
+      script: Latn
+      content: MediaStream Recording
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-mediastream-recording-20210604/
+    docidentifier:
+    - content: W3C WD-mediastream-recording-20210604
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-mediastream-recording-20230414
-    title:
-    - content: MediaStream Recording
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-mediastream-recording-20230414/
-      type: src
-    docid:
-    - id: W3C WD-mediastream-recording-20230414
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: MediaStream Recording
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-mediastream-recording-20230414/
+    docidentifier:
+    - content: W3C WD-mediastream-recording-20230414
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-mediastream-recording-20220607
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

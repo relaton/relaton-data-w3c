@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-prov-sem-20130430
-title:
-- content: Semantics of the PROV Data Model
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/NOTE-prov-sem-20130430/
-  type: src
+id: W3CNOTEprovsem20130430
 type: standard
-docid:
-- id: W3C NOTE-prov-sem-20130430
+schema_version: v1.4.1
+formattedref: W3C NOTE-prov-sem-20130430
+title:
+- language: en
+  script: Latn
+  content: Semantics of the PROV Data Model
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/NOTE-prov-sem-20130430/
+docidentifier:
+- content: W3C NOTE-prov-sem-20130430
   type: W3C
   primary: true
 docnumber: NOTE-prov-sem-20130430
 date:
 - type: published
-  value: '2013-04-30'
+  at: '2013-04-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cheney
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-04-30'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: James
+      surname:
+        language: en
+        script: Latn
+        content: Cheney
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Provenance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cprov-sem
     title:
-    - content: Semantics of the PROV Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/prov-sem/
-      type: src
-    docid:
-    - id: W3C prov-sem
+    - language: en
+      script: Latn
+      content: Semantics of the PROV Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/prov-sem/
+    docidentifier:
+    - content: W3C prov-sem
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-prov-sem-20130312
     title:
-    - content: Semantics of the PROV Data Model
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-prov-sem-20130312/
-      type: src
-    docid:
-    - id: W3C WD-prov-sem-20130312
+    - language: en
+      script: Latn
+      content: Semantics of the PROV Data Model
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-prov-sem-20130312/
+    docidentifier:
+    - content: W3C WD-prov-sem-20130312
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-prov-sem-20130430
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Provenance Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Chtml40
-title:
-- content: HTML 4.0 Recommendation
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/html40/
-  type: src
 type: standard
-docid:
-- id: W3C html40
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: HTML 4.0 Recommendation
+source:
+- type: src
+  content: https://www.w3.org/TR/html40/
+docidentifier:
+- content: W3C html40
   type: W3C
   primary: true
 docnumber: html40
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CSPSD-html40-20180327
     title:
-    - content: HTML 4.0 Recommendation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/SPSD-html40-20180327/
-      type: src
-    docid:
-    - id: W3C SPSD-html40-20180327
+    - language: en
+      script: Latn
+      content: HTML 4.0 Recommendation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/SPSD-html40-20180327/
+    docidentifier:
+    - content: W3C SPSD-html40-20180327
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CREC-html40-19980424
     title:
-    - content: HTML 4.0 Recommendation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1998/REC-html40-19980424/
-      type: src
-    docid:
-    - id: W3C REC-html40-19980424
+    - language: en
+      script: Latn
+      content: HTML 4.0 Recommendation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1998/REC-html40-19980424/
+    docidentifier:
+    - content: W3C REC-html40-19980424
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CREC-html40-971218
     title:
-    - content: HTML 4.0 Recommendation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-html40-971218
-      type: src
-    docid:
-    - id: W3C REC-html40-971218
+    - language: en
+      script: Latn
+      content: HTML 4.0 Recommendation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-html40-971218
+    docidentifier:
+    - content: W3C REC-html40-971218
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-html40-971107
     title:
-    - content: HTML 4.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/PR-html40-971107
-      type: src
-    docid:
-    - id: W3C PR-html40-971107
+    - language: en
+      script: Latn
+      content: HTML 4.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/PR-html40-971107
+    docidentifier:
+    - content: W3C PR-html40-971107
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-html40-970917
     title:
-    - content: HTML 4.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-html40-970917/
-      type: src
-    docid:
-    - id: W3C WD-html40-970917
+    - language: en
+      script: Latn
+      content: HTML 4.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-html40-970917/
+    docidentifier:
+    - content: W3C WD-html40-970917
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-html40-970708
     title:
-    - content: HTML 4.0 Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-html40-970708/
-      type: src
-    docid:
-    - id: W3C WD-html40-970708
+    - language: en
+      script: Latn
+      content: HTML 4.0 Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-html40-970708/
+    docidentifier:
+    - content: W3C WD-html40-970708
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: html40
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

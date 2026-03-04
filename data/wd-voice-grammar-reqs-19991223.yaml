@@ -1,60 +1,77 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-voice-grammar-reqs-19991223
-title:
-- content: Grammar Representation Requirements for Voice Markup Languages
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1999/WD-voice-grammar-reqs-19991223/
-  type: src
+id: W3CWDvoicegrammarreqs19991223
 type: standard
-docid:
-- id: W3C WD-voice-grammar-reqs-19991223
+schema_version: v1.4.1
+formattedref: W3C WD-voice-grammar-reqs-19991223
+title:
+- language: en
+  script: Latn
+  content: Grammar Representation Requirements for Voice Markup Languages
+source:
+- type: src
+  content: https://www.w3.org/TR/1999/WD-voice-grammar-reqs-19991223/
+docidentifier:
+- content: W3C WD-voice-grammar-reqs-19991223
   type: W3C
   primary: true
 docnumber: WD-voice-grammar-reqs-19991223
 date:
 - type: published
-  value: '1999-12-23'
+  at: '1999-12-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1999-12-23'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Voice Browser Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvoice-grammar-reqs
     title:
-    - content: Grammar Representation Requirements for Voice Markup Languages
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/voice-grammar-reqs/
-      type: src
-    docid:
-    - id: W3C voice-grammar-reqs
+    - language: en
+      script: Latn
+      content: Grammar Representation Requirements for Voice Markup Languages
+    source:
+    - type: src
+      content: https://www.w3.org/TR/voice-grammar-reqs/
+    docidentifier:
+    - content: W3C voice-grammar-reqs
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WD-voice-grammar-reqs-19991223
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Voice Browser Working Group
+    content: technicalReport
+  flavor: w3c

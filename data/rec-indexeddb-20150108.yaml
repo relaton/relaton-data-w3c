@@ -1,175 +1,162 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-IndexedDB-20150108
-title:
-- content: Indexed Database API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/REC-IndexedDB-20150108/
-  type: src
+id: W3CRECIndexedDB20150108
 type: standard
-docid:
-- id: W3C REC-IndexedDB-20150108
+schema_version: v1.4.1
+formattedref: W3C REC-IndexedDB-20150108
+title:
+- language: en
+  script: Latn
+  content: Indexed Database API
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/REC-IndexedDB-20150108/
+docidentifier:
+- content: W3C REC-IndexedDB-20150108
   type: W3C
   primary: true
 docnumber: REC-IndexedDB-20150108
 date:
 - type: published
-  value: '2015-01-08'
+  at: '2015-01-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Nikunj
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Nikunj
       surname:
+        language: en
+        script: Latn
         content: Mehta
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jonas
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonas
       surname:
+        language: en
+        script: Latn
         content: Sicking
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Eliot
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eliot
       surname:
+        language: en
+        script: Latn
         content: Graff
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Andrei
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andrei
       surname:
+        language: en
+        script: Latn
         content: Popescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jeremy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jeremy
       surname:
+        language: en
+        script: Latn
         content: Orlow
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Joshua
       surname:
+        language: en
+        script: Latn
         content: Bell
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2015-01-08'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CIndexedDB
     title:
-    - content: Indexed Database API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/IndexedDB/
-      type: src
-    docid:
-    - id: W3C IndexedDB
+    - language: en
+      script: Latn
+      content: Indexed Database API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/IndexedDB/
+    docidentifier:
+    - content: W3C IndexedDB
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-IndexedDB-20141120
     title:
-    - content: Indexed Database API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/PR-IndexedDB-20141120/
-      type: src
-    docid:
-    - id: W3C PR-IndexedDB-20141120
+    - language: en
+      script: Latn
+      content: Indexed Database API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/PR-IndexedDB-20141120/
+    docidentifier:
+    - content: W3C PR-IndexedDB-20141120
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-IndexedDB-20150108
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

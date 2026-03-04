@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-ws-eventing-20100330
-title:
-- content: Web Services Eventing (WS-Eventing)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/WD-ws-eventing-20100330
-  type: src
+id: W3CWDwseventing20100330
 type: standard
-docid:
-- id: W3C WD-ws-eventing-20100330
+schema_version: v1.4.1
+formattedref: W3C WD-ws-eventing-20100330
+title:
+- language: en
+  script: Latn
+  content: Web Services Eventing (WS-Eventing)
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/WD-ws-eventing-20100330
+docidentifier:
+- content: W3C WD-ws-eventing-20100330
   type: W3C
   primary: true
 docnumber: WD-ws-eventing-20100330
 date:
 - type: published
-  value: '2010-03-30'
+  at: '2010-03-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ashok
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ashok
       surname:
+        language: en
+        script: Latn
         content: Malhotra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Wu
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Wu
       surname:
+        language: en
+        script: Latn
         content: Chou
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Doug
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Doug
       surname:
+        language: en
+        script: Latn
         content: Davis
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Katy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Katy
       surname:
+        language: en
+        script: Latn
         content: Warr
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2010-03-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Services Resource Access Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cws-eventing
     title:
-    - content: Web Services Eventing (WS-Eventing)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ws-eventing/
-      type: src
-    docid:
-    - id: W3C ws-eventing
+    - language: en
+      script: Latn
+      content: Web Services Eventing (WS-Eventing)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ws-eventing/
+    docidentifier:
+    - content: W3C ws-eventing
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-ws-eventing-20091217
     title:
-    - content: Web Services Eventing (WS-Eventing)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-ws-eventing-20091217
-      type: src
-    docid:
-    - id: W3C WD-ws-eventing-20091217
+    - language: en
+      script: Latn
+      content: Web Services Eventing (WS-Eventing)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-ws-eventing-20091217
+    docidentifier:
+    - content: W3C WD-ws-eventing-20091217
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-ws-eventing-20100805
-    title:
-    - content: Web Services Eventing (WS-Eventing)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-ws-eventing-20100805
-      type: src
-    docid:
-    - id: W3C WD-ws-eventing-20100805
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Services Eventing (WS-Eventing)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-ws-eventing-20100805
+    docidentifier:
+    - content: W3C WD-ws-eventing-20100805
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-ws-eventing-20100330
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Services Resource Access Working Group
+    content: technicalReport
+  flavor: w3c

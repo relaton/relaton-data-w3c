@@ -1,110 +1,116 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-threat-modeling-guide-20260120
-title:
-- content: Threat Modeling Guide
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260120/
-  type: src
+id: W3CDNOTEthreatmodelingguide20260120
 type: standard
-docid:
-- id: W3C DNOTE-threat-modeling-guide-20260120
+schema_version: v1.4.1
+formattedref: W3C DNOTE-threat-modeling-guide-20260120
+title:
+- language: en
+  script: Latn
+  content: Threat Modeling Guide
+source:
+- type: src
+  content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260120/
+docidentifier:
+- content: W3C DNOTE-threat-modeling-guide-20260120
   type: W3C
   primary: true
 docnumber: DNOTE-threat-modeling-guide-20260120
 date:
 - type: published
-  value: '2026-01-20'
+  at: '2026-01-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Simone
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Simone
       surname:
+        language: en
+        script: Latn
         content: Onofri
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Joe
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Joe
       surname:
+        language: en
+        script: Latn
         content: Andrieu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2026-01-20'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Security Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cthreat-modeling-guide
     title:
-    - content: Threat Modeling Guide
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/threat-modeling-guide/
-      type: src
-    docid:
-    - id: W3C threat-modeling-guide
+    - language: en
+      script: Latn
+      content: Threat Modeling Guide
+    source:
+    - type: src
+      content: https://www.w3.org/TR/threat-modeling-guide/
+    docidentifier:
+    - content: W3C threat-modeling-guide
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-threat-modeling-guide-20260209
-    title:
-    - content: Threat Modeling Guide
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260209/
-      type: src
-    docid:
-    - id: W3C DNOTE-threat-modeling-guide-20260209
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Threat Modeling Guide
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260209/
+    docidentifier:
+    - content: W3C DNOTE-threat-modeling-guide-20260209
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-threat-modeling-guide-20260120
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Security Interest Group
+    content: technicalReport
+  flavor: w3c

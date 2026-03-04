@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-fedcm-1-20240820
-title:
-- content: Federated Credential Management API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-fedcm-1-20240820/
-  type: src
+id: W3CWDfedcm120240820
 type: standard
-docid:
-- id: W3C WD-fedcm-1-20240820
+schema_version: v1.4.1
+formattedref: W3C WD-fedcm-1-20240820
+title:
+- language: en
+  script: Latn
+  content: Federated Credential Management API
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-fedcm-1-20240820/
+docidentifier:
+- content: W3C WD-fedcm-1-20240820
   type: W3C
   primary: true
 docnumber: WD-fedcm-1-20240820
 date:
 - type: published
-  value: '2024-08-20'
+  at: '2024-08-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Nicolas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pena Moreno
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-08-20'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Nicolas
+      surname:
+        language: en
+        script: Latn
+        content: Pena Moreno
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Federated Identity Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cfedcm-1
     title:
-    - content: Federated Credential Management API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/fedcm-1/
-      type: src
-    docid:
-    - id: W3C fedcm-1
+    - language: en
+      script: Latn
+      content: Federated Credential Management API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/fedcm-1/
+    docidentifier:
+    - content: W3C fedcm-1
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-fedcm-1-20240820
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Federated Identity Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-owl-parsing-20040121
-title:
-- content: OWL Web Ontology Language Parsing OWL in RDF/XML
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/NOTE-owl-parsing-20040121/
-  type: src
+id: W3CNOTEowlparsing20040121
 type: standard
-docid:
-- id: W3C NOTE-owl-parsing-20040121
+schema_version: v1.4.1
+formattedref: W3C NOTE-owl-parsing-20040121
+title:
+- language: en
+  script: Latn
+  content: OWL Web Ontology Language Parsing OWL in RDF/XML
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/NOTE-owl-parsing-20040121/
+docidentifier:
+- content: W3C NOTE-owl-parsing-20040121
   type: W3C
   primary: true
 docnumber: NOTE-owl-parsing-20040121
 date:
 - type: published
-  value: '2004-01-21'
+  at: '2004-01-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Sean
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bechhofer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2004-01-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Sean
+      surname:
+        language: en
+        script: Latn
+        content: Bechhofer
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Ontology Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cowl-parsing
     title:
-    - content: OWL Web Ontology Language Parsing OWL in RDF/XML
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/owl-parsing/
-      type: src
-    docid:
-    - id: W3C owl-parsing
+    - language: en
+      script: Latn
+      content: OWL Web Ontology Language Parsing OWL in RDF/XML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/owl-parsing/
+    docidentifier:
+    - content: W3C owl-parsing
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-owl-parsing-20040121
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Ontology Working Group
+    content: technicalReport
+  flavor: w3c

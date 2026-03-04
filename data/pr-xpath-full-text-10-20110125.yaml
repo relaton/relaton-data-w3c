@@ -1,260 +1,240 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-xpath-full-text-10-20110125
-title:
-- content: XQuery and XPath Full Text 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/PR-xpath-full-text-10-20110125/
-  type: src
+id: W3CPRxpathfulltext1020110125
 type: standard
-docid:
-- id: W3C PR-xpath-full-text-10-20110125
+schema_version: v1.4.1
+formattedref: W3C PR-xpath-full-text-10-20110125
+title:
+- language: en
+  script: Latn
+  content: XQuery and XPath Full Text 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/PR-xpath-full-text-10-20110125/
+docidentifier:
+- content: W3C PR-xpath-full-text-10-20110125
   type: W3C
   primary: true
 docnumber: PR-xpath-full-text-10-20110125
 date:
 - type: published
-  value: '2011-01-25'
+  at: '2011-01-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Mary
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mary
       surname:
+        language: en
+        script: Latn
         content: Holstege
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Stephen
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Stephen
       surname:
+        language: en
+        script: Latn
         content: Buxton
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jayavel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jayavel
       surname:
+        language: en
+        script: Latn
         content: Shanmugasundaram
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Chavdar
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Chavdar
       surname:
+        language: en
+        script: Latn
         content: Botev
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jochen
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jochen
       surname:
+        language: en
+        script: Latn
         content: Dörre
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Rys
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Pat
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Pat
       surname:
+        language: en
+        script: Latn
         content: Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sihem
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sihem
       surname:
+        language: en
+        script: Latn
         content: Amer-Yahia
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
       surname:
+        language: en
+        script: Latn
         content: Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Dyck
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-01-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxpath-full-text-10
     title:
-    - content: XQuery and XPath Full Text 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xpath-full-text-10/
-      type: src
-    docid:
-    - id: W3C xpath-full-text-10
+    - language: en
+      script: Latn
+      content: XQuery and XPath Full Text 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xpath-full-text-10/
+    docidentifier:
+    - content: W3C xpath-full-text-10
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-xpath-full-text-10-20100128
     title:
-    - content: XQuery and XPath Full Text 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/CR-xpath-full-text-10-20100128/
-      type: src
-    docid:
-    - id: W3C CR-xpath-full-text-10-20100128
+    - language: en
+      script: Latn
+      content: XQuery and XPath Full Text 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/CR-xpath-full-text-10-20100128/
+    docidentifier:
+    - content: W3C CR-xpath-full-text-10-20100128
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-xpath-full-text-10-20110317
-    title:
-    - content: XQuery and XPath Full Text 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/REC-xpath-full-text-10-20110317/
-      type: src
-    docid:
-    - id: W3C REC-xpath-full-text-10-20110317
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XQuery and XPath Full Text 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/REC-xpath-full-text-10-20110317/
+    docidentifier:
+    - content: W3C REC-xpath-full-text-10-20110317
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-xpath-full-text-10-20110125
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

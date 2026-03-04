@@ -1,208 +1,189 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-DOM-Level-3-Core-20031107
-title:
-- content: Document Object Model (DOM) Level 3 Core Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/CR-DOM-Level-3-Core-20031107
-  type: src
+id: W3CCRDOMLevel3Core20031107
 type: standard
-docid:
-- id: W3C CR-DOM-Level-3-Core-20031107
+schema_version: v1.4.1
+formattedref: W3C CR-DOM-Level-3-Core-20031107
+title:
+- language: en
+  script: Latn
+  content: Document Object Model (DOM) Level 3 Core Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/CR-DOM-Level-3-Core-20031107
+docidentifier:
+- content: W3C CR-DOM-Level-3-Core-20031107
   type: W3C
   primary: true
 docnumber: CR-DOM-Level-3-Core-20031107
 date:
 - type: published
-  value: '2003-11-07'
+  at: '2003-11-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Steven B
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steven B
       surname:
+        language: en
+        script: Latn
         content: Byrne
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Arnaud
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Arnaud
       surname:
+        language: en
+        script: Latn
         content: Le Hors
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Lauren
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lauren
       surname:
+        language: en
+        script: Latn
         content: Wood
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Philippe
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Philippe
       surname:
+        language: en
+        script: Latn
         content: Le Hegaret
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
       surname:
+        language: en
+        script: Latn
         content: Champion
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonathan
       surname:
+        language: en
+        script: Latn
         content: Robie
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gavin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gavin
       surname:
+        language: en
+        script: Latn
         content: Nicol
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2003-11-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Document Object Model Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3CDOM-Level-3-Core
     title:
-    - content: Document Object Model (DOM) Level 3 Core Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/DOM-Level-3-Core/
-      type: src
-    docid:
-    - id: W3C DOM-Level-3-Core
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 3 Core Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/DOM-Level-3-Core/
+    docidentifier:
+    - content: W3C DOM-Level-3-Core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-DOM-Level-3-Core-20030609
     title:
-    - content: Document Object Model (DOM) Level 3 Core Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030609
-      type: src
-    docid:
-    - id: W3C WD-DOM-Level-3-Core-20030609
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 3 Core Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030609
+    docidentifier:
+    - content: W3C WD-DOM-Level-3-Core-20030609
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-DOM-Level-3-Core-20040205
-    title:
-    - content: Document Object Model (DOM) Level 3 Core Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/PR-DOM-Level-3-Core-20040205
-      type: src
-    docid:
-    - id: W3C PR-DOM-Level-3-Core-20040205
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 3 Core Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/PR-DOM-Level-3-Core-20040205
+    docidentifier:
+    - content: W3C PR-DOM-Level-3-Core-20040205
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-DOM-Level-3-Core-20031107
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Document Object Model Working Group
+    content: technicalReport
+  flavor: w3c

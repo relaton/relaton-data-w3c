@@ -1,127 +1,128 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-soap12-mtom-20030721
-title:
-- content: SOAP Message Transmission Optimization Mechanism
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/WD-soap12-mtom-20030721
-  type: src
+id: W3CWDsoap12mtom20030721
 type: standard
-docid:
-- id: W3C WD-soap12-mtom-20030721
+schema_version: v1.4.1
+formattedref: W3C WD-soap12-mtom-20030721
+title:
+- language: en
+  script: Latn
+  content: SOAP Message Transmission Optimization Mechanism
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/WD-soap12-mtom-20030721
+docidentifier:
+- content: W3C WD-soap12-mtom-20030721
   type: W3C
   primary: true
 docnumber: WD-soap12-mtom-20030721
 date:
 - type: published
-  value: '2003-07-21'
+  at: '2003-07-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Hervé
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hervé
       surname:
+        language: en
+        script: Latn
         content: Ruellan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Noah
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Noah
       surname:
+        language: en
+        script: Latn
         content: Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mark
       surname:
+        language: en
+        script: Latn
         content: Nottingham
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2003-07-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Protocol Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csoap12-mtom
     title:
-    - content: SOAP Message Transmission Optimization Mechanism
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/soap12-mtom/
-      type: src
-    docid:
-    - id: W3C soap12-mtom
+    - language: en
+      script: Latn
+      content: SOAP Message Transmission Optimization Mechanism
+    source:
+    - type: src
+      content: https://www.w3.org/TR/soap12-mtom/
+    docidentifier:
+    - content: W3C soap12-mtom
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-soap12-mtom-20040209
-    title:
-    - content: SOAP Message Transmission Optimization Mechanism
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-soap12-mtom-20040209/
-      type: src
-    docid:
-    - id: W3C WD-soap12-mtom-20040209
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SOAP Message Transmission Optimization Mechanism
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-soap12-mtom-20040209/
+    docidentifier:
+    - content: W3C WD-soap12-mtom-20040209
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-soap12-mtom-20030721
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Protocol Working Group
+    content: technicalReport
+  flavor: w3c

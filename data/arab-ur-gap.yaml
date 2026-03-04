@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Carab-ur-gap
-title:
-- content: Urdu Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/arab-ur-gap/
-  type: src
+id: W3Caraburgap
 type: standard
-docid:
-- id: W3C arab-ur-gap
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Urdu Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/arab-ur-gap/
+docidentifier:
+- content: W3C arab-ur-gap
   type: W3C
   primary: true
 docnumber: arab-ur-gap
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-arab-ur-gap-20240719
     title:
-    - content: Urdu Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-arab-ur-gap-20240719/
-      type: src
-    docid:
-    - id: W3C DNOTE-arab-ur-gap-20240719
+    - language: en
+      script: Latn
+      content: Urdu Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-arab-ur-gap-20240719/
+    docidentifier:
+    - content: W3C DNOTE-arab-ur-gap-20240719
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-arab-ur-gap-20240702
     title:
-    - content: Urdu Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-arab-ur-gap-20240702/
-      type: src
-    docid:
-    - id: W3C DNOTE-arab-ur-gap-20240702
+    - language: en
+      script: Latn
+      content: Urdu Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-arab-ur-gap-20240702/
+    docidentifier:
+    - content: W3C DNOTE-arab-ur-gap-20240702
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: arab-ur-gap
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

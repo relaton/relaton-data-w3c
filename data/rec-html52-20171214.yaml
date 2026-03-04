@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-html52-20171214
-title:
-- content: HTML 5.2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/REC-html52-20171214/
-  type: src
+id: W3CREChtml5220171214
 type: standard
-docid:
-- id: W3C REC-html52-20171214
+schema_version: v1.4.1
+formattedref: W3C REC-html52-20171214
+title:
+- language: en
+  script: Latn
+  content: HTML 5.2
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/REC-html52-20171214/
+docidentifier:
+- content: W3C REC-html52-20171214
   type: W3C
   primary: true
 docnumber: REC-html52-20171214
 date:
 - type: published
-  value: '2017-12-14'
+  at: '2017-12-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Steve
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steve
       surname:
+        language: en
+        script: Latn
         content: Faulkner
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Arron
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Arron
       surname:
+        language: en
+        script: Latn
         content: Eicholz
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Travis
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Travis
       surname:
+        language: en
+        script: Latn
         content: Leithead
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alex
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alex
       surname:
+        language: en
+        script: Latn
         content: Danilo
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sangwhan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sangwhan
       surname:
+        language: en
+        script: Latn
         content: Moon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-12-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Platform Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml52
     title:
-    - content: HTML 5.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html52/
-      type: src
-    docid:
-    - id: W3C html52
+    - language: en
+      script: Latn
+      content: HTML 5.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html52/
+    docidentifier:
+    - content: W3C html52
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-html52-20171102
     title:
-    - content: HTML 5.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/PR-html52-20171102/
-      type: src
-    docid:
-    - id: W3C PR-html52-20171102
+    - language: en
+      script: Latn
+      content: HTML 5.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/PR-html52-20171102/
+    docidentifier:
+    - content: W3C PR-html52-20171102
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CSPSD-html52-20210128
-    title:
-    - content: HTML 5.2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/SPSD-html52-20210128/
-      type: src
-    docid:
-    - id: W3C SPSD-html52-20210128
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML 5.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/SPSD-html52-20210128/
+    docidentifier:
+    - content: W3C SPSD-html52-20210128
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-html52-20171214
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Platform Working Group
+    content: technicalReport
+  flavor: w3c

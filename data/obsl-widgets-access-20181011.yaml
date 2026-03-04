@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3COBSL-widgets-access-20181011
-title:
-- content: Widget Access Request Policy
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/OBSL-widgets-access-20181011/
-  type: src
+id: W3COBSLwidgetsaccess20181011
 type: standard
-docid:
-- id: W3C OBSL-widgets-access-20181011
+schema_version: v1.4.1
+formattedref: W3C OBSL-widgets-access-20181011
+title:
+- language: en
+  script: Latn
+  content: Widget Access Request Policy
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/OBSL-widgets-access-20181011/
+docidentifier:
+- content: W3C OBSL-widgets-access-20181011
   type: W3C
   primary: true
 docnumber: OBSL-widgets-access-20181011
 date:
 - type: published
-  value: '2018-10-11'
+  at: '2018-10-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
       surname:
+        language: en
+        script: Latn
         content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Robin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Robin
       surname:
+        language: en
+        script: Latn
         content: Berjon
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2018-10-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwidgets-access
     title:
-    - content: Widget Access Request Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/widgets-access/
-      type: src
-    docid:
-    - id: W3C widgets-access
+    - language: en
+      script: Latn
+      content: Widget Access Request Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/widgets-access/
+    docidentifier:
+    - content: W3C widgets-access
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CREC-widgets-access-20120207
     title:
-    - content: Widget Access Request Policy
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/REC-widgets-access-20120207/
-      type: src
-    docid:
-    - id: W3C REC-widgets-access-20120207
+    - language: en
+      script: Latn
+      content: Widget Access Request Policy
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/REC-widgets-access-20120207/
+    docidentifier:
+    - content: W3C REC-widgets-access-20120207
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: OBSL-widgets-access-20181011
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

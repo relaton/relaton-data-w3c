@@ -1,175 +1,162 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-abstract-ui-20140408
-title:
-- content: MBUI - Abstract User Interface Models
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/NOTE-abstract-ui-20140408/
-  type: src
+id: W3CNOTEabstractui20140408
 type: standard
-docid:
-- id: W3C NOTE-abstract-ui-20140408
+schema_version: v1.4.1
+formattedref: W3C NOTE-abstract-ui-20140408
+title:
+- language: en
+  script: Latn
+  content: MBUI - Abstract User Interface Models
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/NOTE-abstract-ui-20140408/
+docidentifier:
+- content: W3C NOTE-abstract-ui-20140408
   type: W3C
   primary: true
 docnumber: NOTE-abstract-ui-20140408
 date:
 - type: published
-  value: '2014-04-08'
+  at: '2014-04-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jean
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jean
       surname:
+        language: en
+        script: Latn
         content: Vanderdonckt
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ricardo
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ricardo
       surname:
+        language: en
+        script: Latn
         content: Tesoriero
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Nesrine
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Nesrine
       surname:
+        language: en
+        script: Latn
         content: Mezhoudi
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Vivian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Vivian
       surname:
+        language: en
+        script: Latn
         content: Genaro Motti
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: François
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: François
       surname:
+        language: en
+        script: Latn
         content: Beuvens
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jérémie
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jérémie
       surname:
+        language: en
+        script: Latn
         content: Melchior
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-04-08'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Model-Based User Interfaces Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cabstract-ui
     title:
-    - content: MBUI - Abstract User Interface Models
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/abstract-ui/
-      type: src
-    docid:
-    - id: W3C abstract-ui
+    - language: en
+      script: Latn
+      content: MBUI - Abstract User Interface Models
+    source:
+    - type: src
+      content: https://www.w3.org/TR/abstract-ui/
+    docidentifier:
+    - content: W3C abstract-ui
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-abstract-ui-20131105
     title:
-    - content: MBUI - Abstract User Interface Models
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-abstract-ui-20131105/
-      type: src
-    docid:
-    - id: W3C WD-abstract-ui-20131105
+    - language: en
+      script: Latn
+      content: MBUI - Abstract User Interface Models
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-abstract-ui-20131105/
+    docidentifier:
+    - content: W3C WD-abstract-ui-20131105
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-abstract-ui-20140408
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Model-Based User Interfaces Working Group
+    content: technicalReport
+  flavor: w3c

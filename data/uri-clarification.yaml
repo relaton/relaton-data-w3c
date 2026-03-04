@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Curi-clarification
-title:
-- content: 'URIs, URLs, and URNs: Clarifications and Recommendations 1.0'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/uri-clarification/
-  type: src
+id: W3Curiclarification
 type: standard
-docid:
-- id: W3C uri-clarification
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'URIs, URLs, and URNs: Clarifications and Recommendations 1.0'
+source:
+- type: src
+  content: https://www.w3.org/TR/uri-clarification/
+docidentifier:
+- content: W3C uri-clarification
   type: W3C
   primary: true
 docnumber: uri-clarification
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-uri-clarification-20010921
     title:
-    - content: 'URIs, URLs, and URNs: Clarifications and Recommendations 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/NOTE-uri-clarification-20010921/
-      type: src
-    docid:
-    - id: W3C NOTE-uri-clarification-20010921
+    - language: en
+      script: Latn
+      content: 'URIs, URLs, and URNs: Clarifications and Recommendations 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/NOTE-uri-clarification-20010921/
+    docidentifier:
+    - content: W3C NOTE-uri-clarification-20010921
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: uri-clarification
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-vocab-ssn-ext-20181122
-title:
-- content: Extensions to the Semantic Sensor Network Ontology
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/WD-vocab-ssn-ext-20181122/
-  type: src
+id: W3CWDvocabssnext20181122
 type: standard
-docid:
-- id: W3C WD-vocab-ssn-ext-20181122
+schema_version: v1.4.1
+formattedref: W3C WD-vocab-ssn-ext-20181122
+title:
+- language: en
+  script: Latn
+  content: Extensions to the Semantic Sensor Network Ontology
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/WD-vocab-ssn-ext-20181122/
+docidentifier:
+- content: W3C WD-vocab-ssn-ext-20181122
   type: W3C
   primary: true
 docnumber: WD-vocab-ssn-ext-20181122
 date:
 - type: published
-  value: '2018-11-22'
+  at: '2018-11-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Simon
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cox
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2018-11-22'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Simon
+      surname:
+        language: en
+        script: Latn
+        content: Cox
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Spatial Data on the Web Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvocab-ssn-ext
     title:
-    - content: Extensions to the Semantic Sensor Network Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vocab-ssn-ext/
-      type: src
-    docid:
-    - id: W3C vocab-ssn-ext
+    - language: en
+      script: Latn
+      content: Extensions to the Semantic Sensor Network Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vocab-ssn-ext/
+    docidentifier:
+    - content: W3C vocab-ssn-ext
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-vocab-ssn-ext-20200116
-    title:
-    - content: Extensions to the Semantic Sensor Network Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-vocab-ssn-ext-20200116/
-      type: src
-    docid:
-    - id: W3C WD-vocab-ssn-ext-20200116
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Extensions to the Semantic Sensor Network Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-vocab-ssn-ext-20200116/
+    docidentifier:
+    - content: W3C WD-vocab-ssn-ext-20200116
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-vocab-ssn-ext-20181122
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Spatial Data on the Web Interest Group
+    content: technicalReport
+  flavor: w3c

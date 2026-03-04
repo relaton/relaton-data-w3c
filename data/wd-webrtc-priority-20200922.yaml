@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-webrtc-priority-20200922
-title:
-- content: WebRTC Priority Control API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200922/
-  type: src
+id: W3CWDwebrtcpriority20200922
 type: standard
-docid:
-- id: W3C WD-webrtc-priority-20200922
+schema_version: v1.4.1
+formattedref: W3C WD-webrtc-priority-20200922
+title:
+- language: en
+  script: Latn
+  content: WebRTC Priority Control API
+source:
+- type: src
+  content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200922/
+docidentifier:
+- content: W3C WD-webrtc-priority-20200922
   type: W3C
   primary: true
 docnumber: WD-webrtc-priority-20200922
 date:
 - type: published
-  value: '2020-09-22'
+  at: '2020-09-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Harald
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Alvestrand
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2020-09-22'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Harald
+      surname:
+        language: en
+        script: Latn
+        content: Alvestrand
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebrtc-priority
     title:
-    - content: WebRTC Priority Control API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webrtc-priority/
-      type: src
-    docid:
-    - id: W3C webrtc-priority
+    - language: en
+      script: Latn
+      content: WebRTC Priority Control API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webrtc-priority/
+    docidentifier:
+    - content: W3C webrtc-priority
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webrtc-priority-20200123
     title:
-    - content: WebRTC Priority Control API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200123/
-      type: src
-    docid:
-    - id: W3C WD-webrtc-priority-20200123
+    - language: en
+      script: Latn
+      content: WebRTC Priority Control API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-webrtc-priority-20200123/
+    docidentifier:
+    - content: W3C WD-webrtc-priority-20200123
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-webrtc-priority-20210318
-    title:
-    - content: WebRTC Priority Control API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/
-      type: src
-    docid:
-    - id: W3C CR-webrtc-priority-20210318
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebRTC Priority Control API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/
+    docidentifier:
+    - content: W3C CR-webrtc-priority-20210318
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-webrtc-priority-20200922
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

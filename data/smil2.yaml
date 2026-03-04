@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CSMIL2
-title:
-- content: Synchronized Multimedia Integration Language (SMIL 2.1)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/SMIL2/
-  type: src
 type: standard
-docid:
-- id: W3C SMIL2
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Synchronized Multimedia Integration Language (SMIL 2.1)
+source:
+- type: src
+  content: https://www.w3.org/TR/SMIL2/
+docidentifier:
+- content: W3C SMIL2
   type: W3C
   primary: true
 docnumber: SMIL2
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-SMIL2-20051213
     title:
-    - content: Synchronized Multimedia Integration Language (SMIL 2.1)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/REC-SMIL2-20051213/
-      type: src
-    docid:
-    - id: W3C REC-SMIL2-20051213
+    - language: en
+      script: Latn
+      content: Synchronized Multimedia Integration Language (SMIL 2.1)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/REC-SMIL2-20051213/
+    docidentifier:
+    - content: W3C REC-SMIL2-20051213
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-SMIL2-20050927
     title:
-    - content: Synchronized Multimedia Integration Language (SMIL 2.1)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/PR-SMIL2-20050927/
-      type: src
-    docid:
-    - id: W3C PR-SMIL2-20050927
+    - language: en
+      script: Latn
+      content: Synchronized Multimedia Integration Language (SMIL 2.1)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/PR-SMIL2-20050927/
+    docidentifier:
+    - content: W3C PR-SMIL2-20050927
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-SMIL2-20050513
     title:
-    - content: Synchronized Multimedia Integration Language (SMIL 2.1)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/CR-SMIL2-20050513/
-      type: src
-    docid:
-    - id: W3C CR-SMIL2-20050513
+    - language: en
+      script: Latn
+      content: Synchronized Multimedia Integration Language (SMIL 2.1)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/CR-SMIL2-20050513/
+    docidentifier:
+    - content: W3C CR-SMIL2-20050513
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-SMIL2-20050201
     title:
-    - content: Synchronized Multimedia Integration Language (SMIL 2.1)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-SMIL2-20050201/
-      type: src
-    docid:
-    - id: W3C WD-SMIL2-20050201
+    - language: en
+      script: Latn
+      content: Synchronized Multimedia Integration Language (SMIL 2.1)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-SMIL2-20050201/
+    docidentifier:
+    - content: W3C WD-SMIL2-20050201
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: SMIL2
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

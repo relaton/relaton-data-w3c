@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-media-accessibility-reqs-20151203
-title:
-- content: Media Accessibility User Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/NOTE-media-accessibility-reqs-20151203/
-  type: src
+id: W3CNOTEmediaaccessibilityreqs20151203
 type: standard
-docid:
-- id: W3C NOTE-media-accessibility-reqs-20151203
+schema_version: v1.4.1
+formattedref: W3C NOTE-media-accessibility-reqs-20151203
+title:
+- language: en
+  script: Latn
+  content: Media Accessibility User Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/NOTE-media-accessibility-reqs-20151203/
+docidentifier:
+- content: W3C NOTE-media-accessibility-reqs-20151203
   type: W3C
   primary: true
 docnumber: NOTE-media-accessibility-reqs-20151203
 date:
 - type: published
-  value: '2015-12-03'
+  at: '2015-12-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Shane
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Shane
       surname:
+        language: en
+        script: Latn
         content: McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mark
       surname:
+        language: en
+        script: Latn
         content: Sadecki
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2015-12-03'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Protocols and Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmedia-accessibility-reqs
     title:
-    - content: Media Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/media-accessibility-reqs/
-      type: src
-    docid:
-    - id: W3C media-accessibility-reqs
+    - language: en
+      script: Latn
+      content: Media Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/media-accessibility-reqs/
+    docidentifier:
+    - content: W3C media-accessibility-reqs
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-media-accessibility-reqs-20140814
     title:
-    - content: Media Accessibility User Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140814/
-      type: src
-    docid:
-    - id: W3C WD-media-accessibility-reqs-20140814
+    - language: en
+      script: Latn
+      content: Media Accessibility User Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-media-accessibility-reqs-20140814/
+    docidentifier:
+    - content: W3C WD-media-accessibility-reqs-20140814
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-media-accessibility-reqs-20151203
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Protocols and Formats Working Group
+    content: technicalReport
+  flavor: w3c

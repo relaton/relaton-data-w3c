@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cvocab-people
-title:
-- content: Terms for describing people
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/vocab-people/
-  type: src
+id: W3Cvocabpeople
 type: standard
-docid:
-- id: W3C vocab-people
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Terms for describing people
+source:
+- type: src
+  content: https://www.w3.org/TR/vocab-people/
+docidentifier:
+- content: W3C vocab-people
   type: W3C
   primary: true
 docnumber: vocab-people
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-people-20120405
     title:
-    - content: Terms for describing people
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-vocab-people-20120405/
-      type: src
-    docid:
-    - id: W3C WD-vocab-people-20120405
+    - language: en
+      script: Latn
+      content: Terms for describing people
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-vocab-people-20120405/
+    docidentifier:
+    - content: W3C WD-vocab-people-20120405
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: vocab-people
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

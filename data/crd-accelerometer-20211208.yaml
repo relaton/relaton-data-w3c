@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-accelerometer-20211208
-title:
-- content: Accelerometer
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/CRD-accelerometer-20211208/
-  type: src
+id: W3CCRDaccelerometer20211208
 type: standard
-docid:
-- id: W3C CRD-accelerometer-20211208
+schema_version: v1.4.1
+formattedref: W3C CRD-accelerometer-20211208
+title:
+- language: en
+  script: Latn
+  content: Accelerometer
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/CRD-accelerometer-20211208/
+docidentifier:
+- content: W3C CRD-accelerometer-20211208
   type: W3C
   primary: true
 docnumber: CRD-accelerometer-20211208
 date:
 - type: published
-  value: '2021-12-08'
+  at: '2021-12-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Anssi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kostiainen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-12-08'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Anssi
+      surname:
+        language: en
+        script: Latn
+        content: Kostiainen
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Caccelerometer
     title:
-    - content: Accelerometer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/accelerometer/
-      type: src
-    docid:
-    - id: W3C accelerometer
+    - language: en
+      script: Latn
+      content: Accelerometer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/accelerometer/
+    docidentifier:
+    - content: W3C accelerometer
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-accelerometer-20211207
     title:
-    - content: Accelerometer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/CRD-accelerometer-20211207/
-      type: src
-    docid:
-    - id: W3C CRD-accelerometer-20211207
+    - language: en
+      script: Latn
+      content: Accelerometer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/CRD-accelerometer-20211207/
+    docidentifier:
+    - content: W3C CRD-accelerometer-20211207
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-accelerometer-20221018
-    title:
-    - content: Accelerometer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-accelerometer-20221018/
-      type: src
-    docid:
-    - id: W3C CRD-accelerometer-20221018
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Accelerometer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/CRD-accelerometer-20221018/
+    docidentifier:
+    - content: W3C CRD-accelerometer-20221018
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-accelerometer-20211208
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

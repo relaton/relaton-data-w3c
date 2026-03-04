@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-html40-19980424
-title:
-- content: HTML 4.0 Recommendation
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/REC-html40-19980424/
-  type: src
+id: W3CREChtml4019980424
 type: standard
-docid:
-- id: W3C REC-html40-19980424
+schema_version: v1.4.1
+formattedref: W3C REC-html40-19980424
+title:
+- language: en
+  script: Latn
+  content: HTML 4.0 Recommendation
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/REC-html40-19980424/
+docidentifier:
+- content: W3C REC-html40-19980424
   type: W3C
   primary: true
 docnumber: REC-html40-19980424
 date:
 - type: published
-  value: '1998-04-24'
+  at: '1998-04-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
       surname:
+        language: en
+        script: Latn
         content: Raggett
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Arnaud
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Arnaud
       surname:
+        language: en
+        script: Latn
         content: Le Hors
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
       surname:
+        language: en
+        script: Latn
         content: Jacobs
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '1998-04-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XHTML2 Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml40
     title:
-    - content: HTML 4.0 Recommendation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html40/
-      type: src
-    docid:
-    - id: W3C html40
+    - language: en
+      script: Latn
+      content: HTML 4.0 Recommendation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html40/
+    docidentifier:
+    - content: W3C html40
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CREC-html40-971218
     title:
-    - content: HTML 4.0 Recommendation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-html40-971218
-      type: src
-    docid:
-    - id: W3C REC-html40-971218
+    - language: en
+      script: Latn
+      content: HTML 4.0 Recommendation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-html40-971218
+    docidentifier:
+    - content: W3C REC-html40-971218
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CSPSD-html40-20180327
-    title:
-    - content: HTML 4.0 Recommendation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/SPSD-html40-20180327/
-      type: src
-    docid:
-    - id: W3C SPSD-html40-20180327
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML 4.0 Recommendation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/SPSD-html40-20180327/
+    docidentifier:
+    - content: W3C SPSD-html40-20180327
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-html40-19980424
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XHTML2 Working Group
+    content: technicalReport
+  flavor: w3c

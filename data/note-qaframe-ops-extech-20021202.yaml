@@ -1,141 +1,138 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-qaframe-ops-extech-20021202
-title:
-- content: 'QA Framework: Operational Examples & Techniques'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/NOTE-qaframe-ops-extech-20021202/
-  type: src
+id: W3CNOTEqaframeopsextech20021202
 type: standard
-docid:
-- id: W3C NOTE-qaframe-ops-extech-20021202
+schema_version: v1.4.1
+formattedref: W3C NOTE-qaframe-ops-extech-20021202
+title:
+- language: en
+  script: Latn
+  content: 'QA Framework: Operational Examples & Techniques'
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/NOTE-qaframe-ops-extech-20021202/
+docidentifier:
+- content: W3C NOTE-qaframe-ops-extech-20021202
   type: W3C
   primary: true
 docnumber: NOTE-qaframe-ops-extech-20021202
 date:
 - type: published
-  value: '2002-12-02'
+  at: '2002-12-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Lofton
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lofton
       surname:
+        language: en
+        script: Latn
         content: Henderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Lynne
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Lynne
       surname:
+        language: en
+        script: Latn
         content: Rosenthal
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dimitris
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dimitris
       surname:
+        language: en
+        script: Latn
         content: Dimitriadis
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Kirill
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kirill
       surname:
+        language: en
+        script: Latn
         content: Gavrylyuk
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2002-12-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Quality Assurance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cqaframe-ops-extech
     title:
-    - content: 'QA Framework: Operational Examples & Techniques'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/qaframe-ops-extech/
-      type: src
-    docid:
-    - id: W3C qaframe-ops-extech
+    - language: en
+      script: Latn
+      content: 'QA Framework: Operational Examples & Techniques'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/qaframe-ops-extech/
+    docidentifier:
+    - content: W3C qaframe-ops-extech
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-qaframe-ops-extech-20020515
     title:
-    - content: 'QA Framework: Operational Examples & Techniques'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-qaframe-ops-extech-20020515/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-ops-extech-20020515
+    - language: en
+      script: Latn
+      content: 'QA Framework: Operational Examples & Techniques'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-qaframe-ops-extech-20020515/
+    docidentifier:
+    - content: W3C WD-qaframe-ops-extech-20020515
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-qaframe-ops-extech-20021202
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Quality Assurance Working Group
+    content: technicalReport
+  flavor: w3c

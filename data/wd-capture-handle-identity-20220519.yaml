@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-capture-handle-identity-20220519
-title:
-- content: Capture Handle - Bootstrapping Collaboration when Screensharing
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220519/
-  type: src
+id: W3CWDcapturehandleidentity20220519
 type: standard
-docid:
-- id: W3C WD-capture-handle-identity-20220519
+schema_version: v1.4.1
+formattedref: W3C WD-capture-handle-identity-20220519
+title:
+- language: en
+  script: Latn
+  content: Capture Handle - Bootstrapping Collaboration when Screensharing
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220519/
+docidentifier:
+- content: W3C WD-capture-handle-identity-20220519
   type: W3C
   primary: true
 docnumber: WD-capture-handle-identity-20220519
 date:
 - type: published
-  value: '2022-05-19'
+  at: '2022-05-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Elad
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Elad
       surname:
+        language: en
+        script: Latn
         content: Alon
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jan-Ivar
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jan-Ivar
       surname:
+        language: en
+        script: Latn
         content: Bruaroey
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-05-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccapture-handle-identity
     title:
-    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/capture-handle-identity/
-      type: src
-    docid:
-    - id: W3C capture-handle-identity
+    - language: en
+      script: Latn
+      content: Capture Handle - Bootstrapping Collaboration when Screensharing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/capture-handle-identity/
+    docidentifier:
+    - content: W3C capture-handle-identity
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-capture-handle-identity-20220510
     title:
-    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220510/
-      type: src
-    docid:
-    - id: W3C WD-capture-handle-identity-20220510
+    - language: en
+      script: Latn
+      content: Capture Handle - Bootstrapping Collaboration when Screensharing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220510/
+    docidentifier:
+    - content: W3C WD-capture-handle-identity-20220510
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-capture-handle-identity-20220706
-    title:
-    - content: Capture Handle - Bootstrapping Collaboration when Screensharing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220706/
-      type: src
-    docid:
-    - id: W3C WD-capture-handle-identity-20220706
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Capture Handle - Bootstrapping Collaboration when Screensharing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-capture-handle-identity-20220706/
+    docidentifier:
+    - content: W3C WD-capture-handle-identity-20220706
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-capture-handle-identity-20220519
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

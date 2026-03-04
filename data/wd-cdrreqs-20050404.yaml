@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-CDRReqs-20050404
-title:
-- content: Compound Document by Reference Use Cases and Requirements Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/WD-CDRReqs-20050404/
-  type: src
+id: W3CWDCDRReqs20050404
 type: standard
-docid:
-- id: W3C WD-CDRReqs-20050404
+schema_version: v1.4.1
+formattedref: W3C WD-CDRReqs-20050404
+title:
+- language: en
+  script: Latn
+  content: Compound Document by Reference Use Cases and Requirements Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/WD-CDRReqs-20050404/
+docidentifier:
+- content: W3C WD-CDRReqs-20050404
   type: W3C
   primary: true
 docnumber: WD-CDRReqs-20050404
 date:
 - type: published
-  value: '2005-04-04'
+  at: '2005-04-04'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
       surname:
+        language: en
+        script: Latn
         content: Appelquist
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Timur
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Timur
       surname:
+        language: en
+        script: Latn
         content: Mehrvarz
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Antoine
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Antoine
       surname:
+        language: en
+        script: Latn
         content: Quint
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2005-04-04'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Compound Document Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CCDRReqs
     title:
-    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/CDRReqs/
-      type: src
-    docid:
-    - id: W3C CDRReqs
+    - language: en
+      script: Latn
+      content: Compound Document by Reference Use Cases and Requirements Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/CDRReqs/
+    docidentifier:
+    - content: W3C CDRReqs
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-CDRReqs-20050315
     title:
-    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-CDRReqs-20050315/
-      type: src
-    docid:
-    - id: W3C WD-CDRReqs-20050315
+    - language: en
+      script: Latn
+      content: Compound Document by Reference Use Cases and Requirements Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-CDRReqs-20050315/
+    docidentifier:
+    - content: W3C WD-CDRReqs-20050315
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-CDRReqs-20050809
-    title:
-    - content: Compound Document by Reference Use Cases and Requirements Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-CDRReqs-20050809/
-      type: src
-    docid:
-    - id: W3C WD-CDRReqs-20050809
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Compound Document by Reference Use Cases and Requirements Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-CDRReqs-20050809/
+    docidentifier:
+    - content: W3C WD-CDRReqs-20050809
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-CDRReqs-20050404
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Compound Document Formats Working Group
+    content: technicalReport
+  flavor: w3c

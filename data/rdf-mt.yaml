@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Crdf-mt
-title:
-- content: RDF Semantics
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/rdf-mt/
-  type: src
+id: W3Crdfmt
 type: standard
-docid:
-- id: W3C rdf-mt
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: RDF Semantics
+source:
+- type: src
+  content: https://www.w3.org/TR/rdf-mt/
+docidentifier:
+- content: W3C rdf-mt
   type: W3C
   primary: true
 docnumber: rdf-mt
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,101 +31,103 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-rdf-mt-20040210
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/REC-rdf-mt-20040210/
-      type: src
-    docid:
-    - id: W3C REC-rdf-mt-20040210
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/REC-rdf-mt-20040210/
+    docidentifier:
+    - content: W3C REC-rdf-mt-20040210
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-rdf-mt-20031215
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/PR-rdf-mt-20031215/
-      type: src
-    docid:
-    - id: W3C PR-rdf-mt-20031215
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/PR-rdf-mt-20031215/
+    docidentifier:
+    - content: W3C PR-rdf-mt-20031215
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-mt-20031010
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-rdf-mt-20031010/
-      type: src
-    docid:
-    - id: W3C WD-rdf-mt-20031010
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-rdf-mt-20031010/
+    docidentifier:
+    - content: W3C WD-rdf-mt-20031010
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-mt-20030905
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-rdf-mt-20030905/
-      type: src
-    docid:
-    - id: W3C WD-rdf-mt-20030905
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-rdf-mt-20030905/
+    docidentifier:
+    - content: W3C WD-rdf-mt-20030905
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-mt-20030123
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-rdf-mt-20030123/
-      type: src
-    docid:
-    - id: W3C WD-rdf-mt-20030123
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-rdf-mt-20030123/
+    docidentifier:
+    - content: W3C WD-rdf-mt-20030123
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-mt-20021112
     title:
-    - content: RDF Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-rdf-mt-20021112/
-      type: src
-    docid:
-    - id: W3C WD-rdf-mt-20021112
+    - language: en
+      script: Latn
+      content: RDF Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-rdf-mt-20021112/
+    docidentifier:
+    - content: W3C WD-rdf-mt-20021112
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-rdf-mt-20020429
     title:
-    - content: RDF Model Theory
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-rdf-mt-20020429/
-      type: src
-    docid:
-    - id: W3C WD-rdf-mt-20020429
+    - language: en
+      script: Latn
+      content: RDF Model Theory
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-rdf-mt-20020429/
+    docidentifier:
+    - content: W3C WD-rdf-mt-20020429
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: rdf-mt
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ctrace-context-1
-title:
-- content: Trace Context
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/trace-context-1/
-  type: src
+id: W3Ctracecontext1
 type: standard
-docid:
-- id: W3C trace-context-1
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Trace Context
+source:
+- type: src
+  content: https://www.w3.org/TR/trace-context-1/
+docidentifier:
+- content: W3C trace-context-1
   type: W3C
   primary: true
 docnumber: trace-context-1
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,101 +31,103 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-trace-context-1-20211123
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/REC-trace-context-1-20211123/
-      type: src
-    docid:
-    - id: W3C REC-trace-context-1-20211123
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/REC-trace-context-1-20211123/
+    docidentifier:
+    - content: W3C REC-trace-context-1-20211123
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CREC-trace-context-1-20200206
     title:
-    - content: Trace Context - Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/REC-trace-context-1-20200206/
-      type: src
-    docid:
-    - id: W3C REC-trace-context-1-20200206
+    - language: en
+      script: Latn
+      content: Trace Context - Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/REC-trace-context-1-20200206/
+    docidentifier:
+    - content: W3C REC-trace-context-1-20200206
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-trace-context-1-20191121
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/PR-trace-context-1-20191121/
-      type: src
-    docid:
-    - id: W3C PR-trace-context-1-20191121
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/PR-trace-context-1-20191121/
+    docidentifier:
+    - content: W3C PR-trace-context-1-20191121
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-trace-context-20190813
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-trace-context-20190813/
-      type: src
-    docid:
-    - id: W3C CR-trace-context-20190813
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-trace-context-20190813/
+    docidentifier:
+    - content: W3C CR-trace-context-20190813
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-trace-context-20190509
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/CR-trace-context-20190509/
-      type: src
-    docid:
-    - id: W3C CR-trace-context-20190509
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/CR-trace-context-20190509/
+    docidentifier:
+    - content: W3C CR-trace-context-20190509
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-trace-context-20181122
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-trace-context-20181122/
-      type: src
-    docid:
-    - id: W3C WD-trace-context-20181122
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-trace-context-20181122/
+    docidentifier:
+    - content: W3C WD-trace-context-20181122
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-distributed-tracing-20181106
     title:
-    - content: Trace Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/WD-distributed-tracing-20181106/
-      type: src
-    docid:
-    - id: W3C WD-distributed-tracing-20181106
+    - language: en
+      script: Latn
+      content: Trace Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/WD-distributed-tracing-20181106/
+    docidentifier:
+    - content: W3C WD-distributed-tracing-20181106
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: trace-context-1
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-timesheets-20120328
-title:
-- content: SMIL Timesheets 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/NOTE-timesheets-20120328/
-  type: src
+id: W3CNOTEtimesheets20120328
 type: standard
-docid:
-- id: W3C NOTE-timesheets-20120328
+schema_version: v1.4.1
+formattedref: W3C NOTE-timesheets-20120328
+title:
+- language: en
+  script: Latn
+  content: SMIL Timesheets 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/NOTE-timesheets-20120328/
+docidentifier:
+- content: W3C NOTE-timesheets-20120328
   type: W3C
   primary: true
 docnumber: NOTE-timesheets-20120328
 date:
 - type: published
-  value: '2012-03-28'
+  at: '2012-03-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Petri
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Petri
       surname:
+        language: en
+        script: Latn
         content: Vuorimaa
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dick
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dick
       surname:
+        language: en
+        script: Latn
         content: Bulterman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Pablo
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Pablo
       surname:
+        language: en
+        script: Latn
         content: Cesar
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2012-03-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SYMM Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctimesheets
     title:
-    - content: SMIL Timesheets 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/timesheets/
-      type: src
-    docid:
-    - id: W3C timesheets
+    - language: en
+      script: Latn
+      content: SMIL Timesheets 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/timesheets/
+    docidentifier:
+    - content: W3C timesheets
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-timesheets-20080110
     title:
-    - content: SMIL Timesheets 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-timesheets-20080110/
-      type: src
-    docid:
-    - id: W3C WD-timesheets-20080110
+    - language: en
+      script: Latn
+      content: SMIL Timesheets 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-timesheets-20080110/
+    docidentifier:
+    - content: W3C WD-timesheets-20080110
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-timesheets-20120328
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SYMM Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-DOM-Level-3-Events-20100907
-title:
-- content: Document Object Model (DOM) Level 3 Events Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/WD-DOM-Level-3-Events-20100907
-  type: src
+id: W3CWDDOMLevel3Events20100907
 type: standard
-docid:
-- id: W3C WD-DOM-Level-3-Events-20100907
+schema_version: v1.4.1
+formattedref: W3C WD-DOM-Level-3-Events-20100907
+title:
+- language: en
+  script: Latn
+  content: Document Object Model (DOM) Level 3 Events Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/WD-DOM-Level-3-Events-20100907
+docidentifier:
+- content: W3C WD-DOM-Level-3-Events-20100907
   type: W3C
   primary: true
 docnumber: WD-DOM-Level-3-Events-20100907
 date:
 - type: published
-  value: '2010-09-07'
+  at: '2010-09-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Philippe
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Philippe
       surname:
+        language: en
+        script: Latn
         content: Le Hegaret
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Björn
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Björn
       surname:
+        language: en
+        script: Latn
         content: Höhrmann
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Doug
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Doug
       surname:
+        language: en
+        script: Latn
         content: Schepers
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2010-09-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cuievents
     title:
-    - content: UI Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/uievents/
-      type: src
-    docid:
-    - id: W3C uievents
+    - language: en
+      script: Latn
+      content: UI Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/uievents/
+    docidentifier:
+    - content: W3C uievents
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-DOM-Level-3-Events-20090908
     title:
-    - content: Document Object Model (DOM) Level 3 Events Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-DOM-Level-3-Events-20090908
-      type: src
-    docid:
-    - id: W3C WD-DOM-Level-3-Events-20090908
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 3 Events Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-DOM-Level-3-Events-20090908
+    docidentifier:
+    - content: W3C WD-DOM-Level-3-Events-20090908
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-DOM-Level-3-Events-20110531
-    title:
-    - content: Document Object Model (DOM) Level 3 Events Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531/
-      type: src
-    docid:
-    - id: W3C WD-DOM-Level-3-Events-20110531
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 3 Events Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531/
+    docidentifier:
+    - content: W3C WD-DOM-Level-3-Events-20110531
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-DOM-Level-3-Events-20100907
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

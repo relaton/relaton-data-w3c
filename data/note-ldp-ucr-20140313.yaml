@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-ldp-ucr-20140313
-title:
-- content: Linked Data Platform Use Cases and Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/NOTE-ldp-ucr-20140313/
-  type: src
+id: W3CNOTEldpucr20140313
 type: standard
-docid:
-- id: W3C NOTE-ldp-ucr-20140313
+schema_version: v1.4.1
+formattedref: W3C NOTE-ldp-ucr-20140313
+title:
+- language: en
+  script: Latn
+  content: Linked Data Platform Use Cases and Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/NOTE-ldp-ucr-20140313/
+docidentifier:
+- content: W3C NOTE-ldp-ucr-20140313
   type: W3C
   primary: true
 docnumber: NOTE-ldp-ucr-20140313
 date:
 - type: published
-  value: '2014-03-13'
+  at: '2014-03-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Steve
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steve
       surname:
+        language: en
+        script: Latn
         content: Battle
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Steve
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steve
       surname:
+        language: en
+        script: Latn
         content: Speicher
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-03-13'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Linked Data Platform (LDP) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cldp-ucr
     title:
-    - content: Linked Data Platform Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ldp-ucr/
-      type: src
-    docid:
-    - id: W3C ldp-ucr
+    - language: en
+      script: Latn
+      content: Linked Data Platform Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ldp-ucr/
+    docidentifier:
+    - content: W3C ldp-ucr
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-ldp-ucr-20131031
     title:
-    - content: Linked Data Platform Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-ldp-ucr-20131031/
-      type: src
-    docid:
-    - id: W3C WD-ldp-ucr-20131031
+    - language: en
+      script: Latn
+      content: Linked Data Platform Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-ldp-ucr-20131031/
+    docidentifier:
+    - content: W3C WD-ldp-ucr-20131031
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-ldp-ucr-20140313
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Linked Data Platform (LDP) Working Group
+    content: technicalReport
+  flavor: w3c

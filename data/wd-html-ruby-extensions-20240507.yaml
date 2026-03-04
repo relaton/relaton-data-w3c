@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-html-ruby-extensions-20240507
-title:
-- content: HTML Ruby Markup Extensions
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240507/
-  type: src
+id: W3CWDhtmlrubyextensions20240507
 type: standard
-docid:
-- id: W3C WD-html-ruby-extensions-20240507
+schema_version: v1.4.1
+formattedref: W3C WD-html-ruby-extensions-20240507
+title:
+- language: en
+  script: Latn
+  content: HTML Ruby Markup Extensions
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240507/
+docidentifier:
+- content: W3C WD-html-ruby-extensions-20240507
   type: W3C
   primary: true
 docnumber: WD-html-ruby-extensions-20240507
 date:
 - type: published
-  value: '2024-05-07'
+  at: '2024-05-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Florian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rivoal
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-05-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Florian
+      surname:
+        language: en
+        script: Latn
+        content: Rivoal
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: HTML Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chtml-ruby-extensions
     title:
-    - content: HTML Ruby Markup Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/html-ruby-extensions/
-      type: src
-    docid:
-    - id: W3C html-ruby-extensions
+    - language: en
+      script: Latn
+      content: HTML Ruby Markup Extensions
+    source:
+    - type: src
+      content: https://www.w3.org/TR/html-ruby-extensions/
+    docidentifier:
+    - content: W3C html-ruby-extensions
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-html-ruby-extensions-20140204
     title:
-    - content: W3C HTML Ruby Markup Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/NOTE-html-ruby-extensions-20140204/
-      type: src
-    docid:
-    - id: W3C NOTE-html-ruby-extensions-20140204
+    - language: en
+      script: Latn
+      content: W3C HTML Ruby Markup Extensions
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/NOTE-html-ruby-extensions-20140204/
+    docidentifier:
+    - content: W3C NOTE-html-ruby-extensions-20140204
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-html-ruby-extensions-20240523
-    title:
-    - content: HTML Ruby Markup Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240523/
-      type: src
-    docid:
-    - id: W3C WD-html-ruby-extensions-20240523
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML Ruby Markup Extensions
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-html-ruby-extensions-20240523/
+    docidentifier:
+    - content: W3C WD-html-ruby-extensions-20240523
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-html-ruby-extensions-20240507
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: HTML Working Group
+    content: technicalReport
+  flavor: w3c

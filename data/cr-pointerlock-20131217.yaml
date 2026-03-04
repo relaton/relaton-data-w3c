@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-pointerlock-20131217
-title:
-- content: Pointer Lock
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/CR-pointerlock-20131217/
-  type: src
+id: W3CCRpointerlock20131217
 type: standard
-docid:
-- id: W3C CR-pointerlock-20131217
+schema_version: v1.4.1
+formattedref: W3C CR-pointerlock-20131217
+title:
+- language: en
+  script: Latn
+  content: Pointer Lock
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/CR-pointerlock-20131217/
+docidentifier:
+- content: W3C CR-pointerlock-20131217
   type: W3C
   primary: true
 docnumber: CR-pointerlock-20131217
 date:
 - type: published
-  value: '2013-12-17'
+  at: '2013-12-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Vincent
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scheib
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-12-17'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Vincent
+      surname:
+        language: en
+        script: Latn
+        content: Scheib
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpointerlock
     title:
-    - content: Pointer Lock
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/pointerlock/
-      type: src
-    docid:
-    - id: W3C pointerlock
+    - language: en
+      script: Latn
+      content: Pointer Lock
+    source:
+    - type: src
+      content: https://www.w3.org/TR/pointerlock/
+    docidentifier:
+    - content: W3C pointerlock
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-pointerlock-20131031
     title:
-    - content: Pointer Lock
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-pointerlock-20131031/
-      type: src
-    docid:
-    - id: W3C WD-pointerlock-20131031
+    - language: en
+      script: Latn
+      content: Pointer Lock
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-pointerlock-20131031/
+    docidentifier:
+    - content: W3C WD-pointerlock-20131031
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-pointerlock-20160705
-    title:
-    - content: Pointer Lock
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/CR-pointerlock-20160705/
-      type: src
-    docid:
-    - id: W3C CR-pointerlock-20160705
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Pointer Lock
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/CR-pointerlock-20160705/
+    docidentifier:
+    - content: W3C CR-pointerlock-20160705
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-pointerlock-20131217
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

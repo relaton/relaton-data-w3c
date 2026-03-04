@@ -1,208 +1,189 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-payment-handler-20170919
-title:
-- content: Payment Handler API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/WD-payment-handler-20170919/
-  type: src
+id: W3CWDpaymenthandler20170919
 type: standard
-docid:
-- id: W3C WD-payment-handler-20170919
+schema_version: v1.4.1
+formattedref: W3C WD-payment-handler-20170919
+title:
+- language: en
+  script: Latn
+  content: Payment Handler API
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/WD-payment-handler-20170919/
+docidentifier:
+- content: W3C WD-payment-handler-20170919
   type: W3C
   primary: true
 docnumber: WD-payment-handler-20170919
 date:
 - type: published
-  value: '2017-09-19'
+  at: '2017-09-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Adrian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Adrian
       surname:
+        language: en
+        script: Latn
         content: Hope-Bailie
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tommy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tommy
       surname:
+        language: en
+        script: Latn
         content: Thorsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Adam
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Adam
       surname:
+        language: en
+        script: Latn
         content: Roach
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jason
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jason
       surname:
+        language: en
+        script: Latn
         content: Normore
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
       surname:
+        language: en
+        script: Latn
         content: Jacobs
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rouslan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rouslan
       surname:
+        language: en
+        script: Latn
         content: Solomakhin
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jinho
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jinho
       surname:
+        language: en
+        script: Latn
         content: Bang
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-09-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Payments Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpayment-handler
     title:
-    - content: Payment Handler API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/payment-handler/
-      type: src
-    docid:
-    - id: W3C payment-handler
+    - language: en
+      script: Latn
+      content: Web-based Payment Handler API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/web-based-payment-handler/
+    docidentifier:
+    - content: W3C web-based-payment-handler
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-payment-handler-20170918
     title:
-    - content: Payment Handler API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-payment-handler-20170918/
-      type: src
-    docid:
-    - id: W3C WD-payment-handler-20170918
+    - language: en
+      script: Latn
+      content: Payment Handler API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-payment-handler-20170918/
+    docidentifier:
+    - content: W3C WD-payment-handler-20170918
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-payment-handler-20170921
-    title:
-    - content: Payment Handler API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-payment-handler-20170921/
-      type: src
-    docid:
-    - id: W3C WD-payment-handler-20170921
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Payment Handler API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-payment-handler-20170921/
+    docidentifier:
+    - content: W3C WD-payment-handler-20170921
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-payment-handler-20170919
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Payments Working Group
+    content: technicalReport
+  flavor: w3c

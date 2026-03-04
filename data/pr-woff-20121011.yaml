@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-WOFF-20121011
-title:
-- content: WOFF File Format 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/PR-WOFF-20121011/
-  type: src
+id: W3CPRWOFF20121011
 type: standard
-docid:
-- id: W3C PR-WOFF-20121011
+schema_version: v1.4.1
+formattedref: W3C PR-WOFF-20121011
+title:
+- language: en
+  script: Latn
+  content: WOFF File Format 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/PR-WOFF-20121011/
+docidentifier:
+- content: W3C PR-WOFF-20121011
   type: W3C
   primary: true
 docnumber: PR-WOFF-20121011
 date:
 - type: published
-  value: '2012-10-11'
+  at: '2012-10-11'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonathan
       surname:
+        language: en
+        script: Latn
         content: Kew
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Erik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Erik
       surname:
+        language: en
+        script: Latn
         content: van Blokland
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tal
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tal
       surname:
+        language: en
+        script: Latn
         content: Leming
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2012-10-11'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Fonts Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWOFF
     title:
-    - content: WOFF File Format 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WOFF/
-      type: src
-    docid:
-    - id: W3C WOFF
+    - language: en
+      script: Latn
+      content: WOFF File Format 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WOFF/
+    docidentifier:
+    - content: W3C WOFF
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-WOFF-20110804
     title:
-    - content: WOFF File Format 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/CR-WOFF-20110804/
-      type: src
-    docid:
-    - id: W3C CR-WOFF-20110804
+    - language: en
+      script: Latn
+      content: WOFF File Format 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/CR-WOFF-20110804/
+    docidentifier:
+    - content: W3C CR-WOFF-20110804
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-WOFF-20121213
-    title:
-    - content: WOFF File Format 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/REC-WOFF-20121213/
-      type: src
-    docid:
-    - id: W3C REC-WOFF-20121213
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WOFF File Format 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/REC-WOFF-20121213/
+    docidentifier:
+    - content: W3C REC-WOFF-20121213
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-WOFF-20121011
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Fonts Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-powerful-features-20150424
-title:
-- content: Privileged Contexts
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/WD-powerful-features-20150424/
-  type: src
+id: W3CWDpowerfulfeatures20150424
 type: standard
-docid:
-- id: W3C WD-powerful-features-20150424
+schema_version: v1.4.1
+formattedref: W3C WD-powerful-features-20150424
+title:
+- language: en
+  script: Latn
+  content: Privileged Contexts
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/WD-powerful-features-20150424/
+docidentifier:
+- content: W3C WD-powerful-features-20150424
   type: W3C
   primary: true
 docnumber: WD-powerful-features-20150424
 date:
 - type: published
-  value: '2015-04-24'
+  at: '2015-04-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
       surname:
+        language: en
+        script: Latn
         content: West
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yan
       surname:
+        language: en
+        script: Latn
         content: Zhu
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2015-04-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Application Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csecure-contexts
     title:
-    - content: Secure Contexts
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/secure-contexts/
-      type: src
-    docid:
-    - id: W3C secure-contexts
+    - language: en
+      script: Latn
+      content: Secure Contexts
+    source:
+    - type: src
+      content: https://www.w3.org/TR/secure-contexts/
+    docidentifier:
+    - content: W3C secure-contexts
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-powerful-features-20141204
     title:
-    - content: Requirements for Powerful Features
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-powerful-features-20141204/
-      type: src
-    docid:
-    - id: W3C WD-powerful-features-20141204
+    - language: en
+      script: Latn
+      content: Requirements for Powerful Features
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-powerful-features-20141204/
+    docidentifier:
+    - content: W3C WD-powerful-features-20141204
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-powerful-features-20160413
-    title:
-    - content: Secure Contexts
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-powerful-features-20160413/
-      type: src
-    docid:
-    - id: W3C WD-powerful-features-20160413
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Secure Contexts
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-powerful-features-20160413/
+    docidentifier:
+    - content: W3C WD-powerful-features-20160413
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-powerful-features-20150424
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Application Security Working Group
+    content: technicalReport
+  flavor: w3c

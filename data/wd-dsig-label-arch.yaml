@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-DSIG-label-arch
-title:
-- content: Digital Signature Label Architecture
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/WD-DSIG-label-arch
-  type: src
+id: W3CWDDSIGlabelarch
 type: standard
-docid:
-- id: W3C WD-DSIG-label-arch
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Digital Signature Label Architecture
+source:
+- type: src
+  content: https://www.w3.org/TR/WD-DSIG-label-arch
+docidentifier:
+- content: W3C WD-DSIG-label-arch
   type: W3C
   primary: true
 docnumber: WD-DSIG-label-arch
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-DSIG-label-arch-970610
     title:
-    - content: Digital Signature Label Architecture
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-DSIG-label-arch-970610
-      type: src
-    docid:
-    - id: W3C WD-DSIG-label-arch-970610
+    - language: en
+      script: Latn
+      content: Digital Signature Label Architecture
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-DSIG-label-arch-970610
+    docidentifier:
+    - content: W3C WD-DSIG-label-arch-970610
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: WD-DSIG-label-arch
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cindie-ui-context
-title:
-- content: 'IndieUI: User Context 1.0'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/indie-ui-context/
-  type: src
+id: W3Cindieuicontext
 type: standard
-docid:
-- id: W3C indie-ui-context
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'IndieUI: User Context 1.0'
+source:
+- type: src
+  content: https://www.w3.org/TR/indie-ui-context/
+docidentifier:
+- content: W3C indie-ui-context
   type: W3C
   primary: true
 docnumber: indie-ui-context
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-indie-ui-context-20150430
     title:
-    - content: 'IndieUI: User Context 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-indie-ui-context-20150430/
-      type: src
-    docid:
-    - id: W3C WD-indie-ui-context-20150430
+    - language: en
+      script: Latn
+      content: 'IndieUI: User Context 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-indie-ui-context-20150430/
+    docidentifier:
+    - content: W3C WD-indie-ui-context-20150430
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-indie-ui-context-20140626
     title:
-    - content: 'IndieUI: User Context 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-indie-ui-context-20140626/
-      type: src
-    docid:
-    - id: W3C WD-indie-ui-context-20140626
+    - language: en
+      script: Latn
+      content: 'IndieUI: User Context 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-indie-ui-context-20140626/
+    docidentifier:
+    - content: W3C WD-indie-ui-context-20140626
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: indie-ui-context
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

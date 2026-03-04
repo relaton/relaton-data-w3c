@@ -1,127 +1,128 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-soap12-rep-20040428
-title:
-- content: SOAP Resource Representation Header
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/WD-soap12-rep-20040428/
-  type: src
+id: W3CWDsoap12rep20040428
 type: standard
-docid:
-- id: W3C WD-soap12-rep-20040428
+schema_version: v1.4.1
+formattedref: W3C WD-soap12-rep-20040428
+title:
+- language: en
+  script: Latn
+  content: SOAP Resource Representation Header
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/WD-soap12-rep-20040428/
+docidentifier:
+- content: W3C WD-soap12-rep-20040428
   type: W3C
   primary: true
 docnumber: WD-soap12-rep-20040428
 date:
 - type: published
-  value: '2004-04-28'
+  at: '2004-04-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Yves
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yves
       surname:
+        language: en
+        script: Latn
         content: Lafon
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Martin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Martin
       surname:
+        language: en
+        script: Latn
         content: Gudgin
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Anish
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Anish
       surname:
+        language: en
+        script: Latn
         content: Karmarkar
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-04-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Protocol Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csoap12-rep
     title:
-    - content: Resource Representation SOAP Header Block
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/soap12-rep/
-      type: src
-    docid:
-    - id: W3C soap12-rep
+    - language: en
+      script: Latn
+      content: Resource Representation SOAP Header Block
+    source:
+    - type: src
+      content: https://www.w3.org/TR/soap12-rep/
+    docidentifier:
+    - content: W3C soap12-rep
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-soap12-rep-20040608
-    title:
-    - content: SOAP Resource Representation Header
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-soap12-rep-20040608/
-      type: src
-    docid:
-    - id: W3C WD-soap12-rep-20040608
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SOAP Resource Representation Header
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-soap12-rep-20040608/
+    docidentifier:
+    - content: W3C WD-soap12-rep-20040608
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-soap12-rep-20040428
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Protocol Working Group
+    content: technicalReport
+  flavor: w3c

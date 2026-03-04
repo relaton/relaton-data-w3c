@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-2dcontext-20151119
-title:
-- content: HTML Canvas 2D Context
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/REC-2dcontext-20151119/
-  type: src
+id: W3CREC2dcontext20151119
 type: standard
-docid:
-- id: W3C REC-2dcontext-20151119
+schema_version: v1.4.1
+formattedref: W3C REC-2dcontext-20151119
+title:
+- language: en
+  script: Latn
+  content: HTML Canvas 2D Context
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/REC-2dcontext-20151119/
+docidentifier:
+- content: W3C REC-2dcontext-20151119
   type: W3C
   primary: true
 docnumber: REC-2dcontext-20151119
 date:
 - type: published
-  value: '2015-11-19'
+  at: '2015-11-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Rik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rik
       surname:
+        language: en
+        script: Latn
         content: Cabanier
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jatinder
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jatinder
       surname:
+        language: en
+        script: Latn
         content: Mann
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jay
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jay
       surname:
+        language: en
+        script: Latn
         content: Munro
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tom
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tom
       surname:
+        language: en
+        script: Latn
         content: Wiltzius
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
       surname:
+        language: en
+        script: Latn
         content: Hickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2015-11-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: HTML Media Extensions Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3C2dcontext
     title:
-    - content: HTML Canvas 2D Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2dcontext/
-      type: src
-    docid:
-    - id: W3C 2dcontext
+    - language: en
+      script: Latn
+      content: HTML Canvas 2D Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2dcontext/
+    docidentifier:
+    - content: W3C 2dcontext
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-2dcontext-20150924
     title:
-    - content: HTML Canvas 2D Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/PR-2dcontext-20150924/
-      type: src
-    docid:
-    - id: W3C PR-2dcontext-20150924
+    - language: en
+      script: Latn
+      content: HTML Canvas 2D Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/PR-2dcontext-20150924/
+    docidentifier:
+    - content: W3C PR-2dcontext-20150924
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CSPSD-2dcontext-20210128
-    title:
-    - content: HTML Canvas 2D Context
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/SPSD-2dcontext-20210128/
-      type: src
-    docid:
-    - id: W3C SPSD-2dcontext-20210128
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML Canvas 2D Context
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/SPSD-2dcontext-20210128/
+    docidentifier:
+    - content: W3C SPSD-2dcontext-20210128
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-2dcontext-20151119
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: HTML Media Extensions Working Group
+    content: technicalReport
+  flavor: w3c

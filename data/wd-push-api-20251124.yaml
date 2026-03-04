@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-push-api-20251124
-title:
-- content: Push API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/WD-push-api-20251124/
-  type: src
+id: W3CWDpushapi20251124
 type: standard
-docid:
-- id: W3C WD-push-api-20251124
+schema_version: v1.4.1
+formattedref: W3C WD-push-api-20251124
+title:
+- language: en
+  script: Latn
+  content: Push API
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/WD-push-api-20251124/
+docidentifier:
+- content: W3C WD-push-api-20251124
   type: W3C
   primary: true
 docnumber: WD-push-api-20251124
 date:
 - type: published
-  value: '2025-11-24'
+  at: '2025-11-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
       surname:
+        language: en
+        script: Latn
         content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Kagami
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kagami
       surname:
+        language: en
+        script: Latn
         content: Rosylight
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-11-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpush-api
     title:
-    - content: Push API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/push-api/
-      type: src
-    docid:
-    - id: W3C push-api
+    - language: en
+      script: Latn
+      content: Push API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/push-api/
+    docidentifier:
+    - content: W3C push-api
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-push-api-20250925
     title:
-    - content: Push API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-push-api-20250925/
-      type: src
-    docid:
-    - id: W3C WD-push-api-20250925
+    - language: en
+      script: Latn
+      content: Push API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-push-api-20250925/
+    docidentifier:
+    - content: W3C WD-push-api-20250925
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-push-api-20251125
-    title:
-    - content: Push API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-push-api-20251125/
-      type: src
-    docid:
-    - id: W3C WD-push-api-20251125
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Push API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-push-api-20251125/
+    docidentifier:
+    - content: W3C WD-push-api-20251125
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-push-api-20251124
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Applications Working Group
+    content: technicalReport
+  flavor: w3c

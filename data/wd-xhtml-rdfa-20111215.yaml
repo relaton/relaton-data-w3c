@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xhtml-rdfa-20111215
-title:
-- content: XHTML+RDFa 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-xhtml-rdfa-20111215/
-  type: src
+id: W3CWDxhtmlrdfa20111215
 type: standard
-docid:
-- id: W3C WD-xhtml-rdfa-20111215
+schema_version: v1.4.1
+formattedref: W3C WD-xhtml-rdfa-20111215
+title:
+- language: en
+  script: Latn
+  content: XHTML+RDFa 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-xhtml-rdfa-20111215/
+docidentifier:
+- content: W3C WD-xhtml-rdfa-20111215
   type: W3C
   primary: true
 docnumber: WD-xhtml-rdfa-20111215
 date:
 - type: published
-  value: '2011-12-15'
+  at: '2011-12-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Shane
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-12-15'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Shane
+      surname:
+        language: en
+        script: Latn
+        content: McCarron
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDFa Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxhtml-rdfa
     title:
-    - content: XHTML+RDFa 1.1 - Third Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xhtml-rdfa/
-      type: src
-    docid:
-    - id: W3C xhtml-rdfa
+    - language: en
+      script: Latn
+      content: XHTML+RDFa 1.1 - Third Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xhtml-rdfa/
+    docidentifier:
+    - content: W3C xhtml-rdfa
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xhtml-rdfa-20110331
     title:
-    - content: XHTML+RDFa 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-xhtml-rdfa-20110331/
-      type: src
-    docid:
-    - id: W3C WD-xhtml-rdfa-20110331
+    - language: en
+      script: Latn
+      content: XHTML+RDFa 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-xhtml-rdfa-20110331/
+    docidentifier:
+    - content: W3C WD-xhtml-rdfa-20110331
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xhtml-rdfa-20120131
-    title:
-    - content: XHTML+RDFa 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-xhtml-rdfa-20120131/
-      type: src
-    docid:
-    - id: W3C WD-xhtml-rdfa-20120131
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XHTML+RDFa 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-xhtml-rdfa-20120131/
+    docidentifier:
+    - content: W3C WD-xhtml-rdfa-20120131
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xhtml-rdfa-20111215
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDFa Working Group
+    content: technicalReport
+  flavor: w3c

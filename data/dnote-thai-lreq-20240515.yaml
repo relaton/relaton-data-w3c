@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-thai-lreq-20240515
-title:
-- content: Thai Layout Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/DNOTE-thai-lreq-20240515/
-  type: src
+id: W3CDNOTEthailreq20240515
 type: standard
-docid:
-- id: W3C DNOTE-thai-lreq-20240515
+schema_version: v1.4.1
+formattedref: W3C DNOTE-thai-lreq-20240515
+title:
+- language: en
+  script: Latn
+  content: Thai Layout Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/DNOTE-thai-lreq-20240515/
+docidentifier:
+- content: W3C DNOTE-thai-lreq-20240515
   type: W3C
   primary: true
 docnumber: DNOTE-thai-lreq-20240515
 date:
 - type: published
-  value: '2024-05-15'
+  at: '2024-05-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-05-15'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cthai-lreq
     title:
-    - content: Thai Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/thai-lreq/
-      type: src
-    docid:
-    - id: W3C thai-lreq
+    - language: en
+      script: Latn
+      content: Thai Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/thai-lreq/
+    docidentifier:
+    - content: W3C thai-lreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-thai-lreq-20240430
     title:
-    - content: Thai Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-thai-lreq-20240430/
-      type: src
-    docid:
-    - id: W3C DNOTE-thai-lreq-20240430
+    - language: en
+      script: Latn
+      content: Thai Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-thai-lreq-20240430/
+    docidentifier:
+    - content: W3C DNOTE-thai-lreq-20240430
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-thai-lreq-20240630
-    title:
-    - content: Thai Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-thai-lreq-20240630/
-      type: src
-    docid:
-    - id: W3C DNOTE-thai-lreq-20240630
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Thai Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-thai-lreq-20240630/
+    docidentifier:
+    - content: W3C DNOTE-thai-lreq-20240630
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-thai-lreq-20240515
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Caudioproc
-title:
-- content: Audio Processing API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/audioproc/
-  type: src
 type: standard
-docid:
-- id: W3C audioproc
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Audio Processing API
+source:
+- type: src
+  content: https://www.w3.org/TR/audioproc/
+docidentifier:
+- content: W3C audioproc
   type: W3C
   primary: true
 docnumber: audioproc
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDISC-audioproc-20250527
     title:
-    - content: Audio Processing API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/DISC-audioproc-20250527/
-      type: src
-    docid:
-    - id: W3C DISC-audioproc-20250527
+    - language: en
+      script: Latn
+      content: Audio Processing API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/DISC-audioproc-20250527/
+    docidentifier:
+    - content: W3C DISC-audioproc-20250527
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-audioproc-20111215
     title:
-    - content: Audio Processing API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-audioproc-20111215/
-      type: src
-    docid:
-    - id: W3C WD-audioproc-20111215
+    - language: en
+      script: Latn
+      content: Audio Processing API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-audioproc-20111215/
+    docidentifier:
+    - content: W3C WD-audioproc-20111215
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: audioproc
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

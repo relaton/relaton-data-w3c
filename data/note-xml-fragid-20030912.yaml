@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xml-fragid-20030912
-title:
-- content: Proposal for XML Fragment Identifier Syntax 0.9
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/NOTE-xml-fragid-20030912/
-  type: src
+id: W3CNOTExmlfragid20030912
 type: standard
-docid:
-- id: W3C NOTE-xml-fragid-20030912
+schema_version: v1.4.1
+formattedref: W3C NOTE-xml-fragid-20030912
+title:
+- language: en
+  script: Latn
+  content: Proposal for XML Fragment Identifier Syntax 0.9
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/NOTE-xml-fragid-20030912/
+docidentifier:
+- content: W3C NOTE-xml-fragid-20030912
   type: W3C
   primary: true
 docnumber: NOTE-xml-fragid-20030912
 date:
 - type: published
-  value: '2003-09-12'
+  at: '2003-09-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Paul
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grosso
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2003-09-12'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Paul
+      surname:
+        language: en
+        script: Latn
+        content: Grosso
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxml-fragid
     title:
-    - content: Proposal for XML Fragment Identifier Syntax 0.9
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xml-fragid/
-      type: src
-    docid:
-    - id: W3C xml-fragid
+    - language: en
+      script: Latn
+      content: Proposal for XML Fragment Identifier Syntax 0.9
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xml-fragid/
+    docidentifier:
+    - content: W3C xml-fragid
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-xml-fragid-20030912
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-WebCryptoAPI-20130625
-title:
-- content: Web Cryptography API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-WebCryptoAPI-20130625/
-  type: src
+id: W3CWDWebCryptoAPI20130625
 type: standard
-docid:
-- id: W3C WD-WebCryptoAPI-20130625
+schema_version: v1.4.1
+formattedref: W3C WD-WebCryptoAPI-20130625
+title:
+- language: en
+  script: Latn
+  content: Web Cryptography API
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-WebCryptoAPI-20130625/
+docidentifier:
+- content: W3C WD-WebCryptoAPI-20130625
   type: W3C
   primary: true
 docnumber: WD-WebCryptoAPI-20130625
 date:
 - type: published
-  value: '2013-06-25'
+  at: '2013-06-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Dahl
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ryan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ryan
       surname:
+        language: en
+        script: Latn
         content: Sleevi
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-06-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Cryptography Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWebCryptoAPI
     title:
-    - content: Web Cryptography API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WebCryptoAPI/
-      type: src
-    docid:
-    - id: W3C WebCryptoAPI
+    - language: en
+      script: Latn
+      content: Web Cryptography API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WebCryptoAPI/
+    docidentifier:
+    - content: W3C WebCryptoAPI
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-WebCryptoAPI-20130108
     title:
-    - content: Web Cryptography API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-WebCryptoAPI-20130108/
-      type: src
-    docid:
-    - id: W3C WD-WebCryptoAPI-20130108
+    - language: en
+      script: Latn
+      content: Web Cryptography API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-WebCryptoAPI-20130108/
+    docidentifier:
+    - content: W3C WD-WebCryptoAPI-20130108
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-WebCryptoAPI-20140325
-    title:
-    - content: Web Cryptography API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/
-      type: src
-    docid:
-    - id: W3C WD-WebCryptoAPI-20140325
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Cryptography API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/
+    docidentifier:
+    - content: W3C WD-WebCryptoAPI-20140325
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-WebCryptoAPI-20130625
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Cryptography Working Group
+    content: technicalReport
+  flavor: w3c

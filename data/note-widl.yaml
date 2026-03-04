@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-widl
-title:
-- content: Web Interface Definition Language (WIDL)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/NOTE-widl
-  type: src
+id: W3CNOTEwidl
 type: standard
-docid:
-- id: W3C NOTE-widl
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Interface Definition Language (WIDL)
+source:
+- type: src
+  content: https://www.w3.org/TR/NOTE-widl
+docidentifier:
+- content: W3C NOTE-widl
   type: W3C
   primary: true
 docnumber: NOTE-widl
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-widl-970922
     title:
-    - content: Web Interface Definition Language (WIDL)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/NOTE-widl-970922
-      type: src
-    docid:
-    - id: W3C NOTE-widl-970922
+    - language: en
+      script: Latn
+      content: Web Interface Definition Language (WIDL)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/NOTE-widl-970922
+    docidentifier:
+    - content: W3C NOTE-widl-970922
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: NOTE-widl
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

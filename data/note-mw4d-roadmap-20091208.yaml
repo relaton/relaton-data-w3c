@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-mw4d-roadmap-20091208
-title:
-- content: Mobile Web for Social Development Roadmap
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/NOTE-mw4d-roadmap-20091208/
-  type: src
+id: W3CNOTEmw4droadmap20091208
 type: standard
-docid:
-- id: W3C NOTE-mw4d-roadmap-20091208
+schema_version: v1.4.1
+formattedref: W3C NOTE-mw4d-roadmap-20091208
+title:
+- language: en
+  script: Latn
+  content: Mobile Web for Social Development Roadmap
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/NOTE-mw4d-roadmap-20091208/
+docidentifier:
+- content: W3C NOTE-mw4d-roadmap-20091208
   type: W3C
   primary: true
 docnumber: NOTE-mw4d-roadmap-20091208
 date:
 - type: published
-  value: '2009-12-08'
+  at: '2009-12-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Stéphane
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Boyera
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2009-12-08'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Stéphane
+      surname:
+        language: en
+        script: Latn
+        content: Boyera
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Mobile Web For Social Development (MW4D) Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmw4d-roadmap
     title:
-    - content: Mobile Web for Social Development Roadmap
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mw4d-roadmap/
-      type: src
-    docid:
-    - id: W3C mw4d-roadmap
+    - language: en
+      script: Latn
+      content: Mobile Web for Social Development Roadmap
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mw4d-roadmap/
+    docidentifier:
+    - content: W3C mw4d-roadmap
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-mw4d-roadmap-20091117
     title:
-    - content: Mobile Web for Social Development Roadmap
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/NOTE-mw4d-roadmap-20091117/
-      type: src
-    docid:
-    - id: W3C NOTE-mw4d-roadmap-20091117
+    - language: en
+      script: Latn
+      content: Mobile Web for Social Development Roadmap
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/NOTE-mw4d-roadmap-20091117/
+    docidentifier:
+    - content: W3C NOTE-mw4d-roadmap-20091117
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-mw4d-roadmap-20091208
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Mobile Web For Social Development (MW4D) Interest Group
+    content: technicalReport
+  flavor: w3c

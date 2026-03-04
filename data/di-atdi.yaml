@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cdi-atdi
-title:
-- content: Authoring Techniques for Device Independence
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/di-atdi/
-  type: src
+id: W3Cdiatdi
 type: standard
-docid:
-- id: W3C di-atdi
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Authoring Techniques for Device Independence
+source:
+- type: src
+  content: https://www.w3.org/TR/di-atdi/
+docidentifier:
+- content: W3C di-atdi
   type: W3C
   primary: true
 docnumber: di-atdi
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-di-atdi-20040218
     title:
-    - content: Authoring Techniques for Device Independence
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/NOTE-di-atdi-20040218/
-      type: src
-    docid:
-    - id: W3C NOTE-di-atdi-20040218
+    - language: en
+      script: Latn
+      content: Authoring Techniques for Device Independence
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/NOTE-di-atdi-20040218/
+    docidentifier:
+    - content: W3C NOTE-di-atdi-20040218
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-di-atdi-20031106
     title:
-    - content: Authoring Techniques for Device Independence
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-di-atdi-20031106/
-      type: src
-    docid:
-    - id: W3C WD-di-atdi-20031106
+    - language: en
+      script: Latn
+      content: Authoring Techniques for Device Independence
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-di-atdi-20031106/
+    docidentifier:
+    - content: W3C WD-di-atdi-20031106
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: di-atdi
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

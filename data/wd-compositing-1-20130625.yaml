@@ -1,107 +1,132 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-compositing-1-20130625
-title:
-- content: Compositing and Blending Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-compositing-1-20130625/
-  type: src
+id: W3CWDcompositing120130625
 type: standard
-docid:
-- id: W3C WD-compositing-1-20130625
+schema_version: v1.4.1
+formattedref: W3C WD-compositing-1-20130625
+title:
+- language: en
+  script: Latn
+  content: Compositing and Blending Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-compositing-1-20130625/
+docidentifier:
+- content: W3C WD-compositing-1-20130625
   type: W3C
   primary: true
 docnumber: WD-compositing-1-20130625
 date:
 - type: published
-  value: '2013-06-25'
+  at: '2013-06-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Nikos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Andronikos
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-06-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Nikos
+      surname:
+        language: en
+        script: Latn
+        content: Andronikos
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SVG Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccompositing-1
     title:
-    - content: Compositing and Blending Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/compositing-1/
-      type: src
-    docid:
-    - id: W3C compositing-1
+    - language: en
+      script: Latn
+      content: Compositing and Blending Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/compositing-1/
+    docidentifier:
+    - content: W3C compositing-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-compositing-20120816
     title:
-    - content: Compositing and Blending 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-compositing-20120816/
-      type: src
-    docid:
-    - id: W3C WD-compositing-20120816
+    - language: en
+      script: Latn
+      content: Compositing and Blending 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-compositing-20120816/
+    docidentifier:
+    - content: W3C WD-compositing-20120816
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-compositing-1-20131010
-    title:
-    - content: Compositing and Blending Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-compositing-1-20131010/
-      type: src
-    docid:
-    - id: W3C WD-compositing-1-20131010
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Compositing and Blending Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-compositing-1-20131010/
+    docidentifier:
+    - content: W3C WD-compositing-1-20131010
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-compositing-1-20130625
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SVG Working Group
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

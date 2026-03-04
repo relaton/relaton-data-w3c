@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cmathml-core
-title:
-- content: MathML Core
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/mathml-core/
-  type: src
+id: W3Cmathmlcore
 type: standard
-docid:
-- id: W3C mathml-core
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: MathML Core
+source:
+- type: src
+  content: https://www.w3.org/TR/mathml-core/
+docidentifier:
+- content: W3C mathml-core
   type: W3C
   primary: true
 docnumber: mathml-core
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCR-mathml-core-20250624
     title:
-    - content: MathML Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CR-mathml-core-20250624/
-      type: src
-    docid:
-    - id: W3C CR-mathml-core-20250624
+    - language: en
+      script: Latn
+      content: MathML Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CR-mathml-core-20250624/
+    docidentifier:
+    - content: W3C CR-mathml-core-20250624
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mathml-core-20250523
     title:
-    - content: MathML Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-mathml-core-20250523/
-      type: src
-    docid:
-    - id: W3C WD-mathml-core-20250523
+    - language: en
+      script: Latn
+      content: MathML Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-mathml-core-20250523/
+    docidentifier:
+    - content: W3C WD-mathml-core-20250523
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mathml-core-20231127
     title:
-    - content: MathML Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-mathml-core-20231127/
-      type: src
-    docid:
-    - id: W3C WD-mathml-core-20231127
+    - language: en
+      script: Latn
+      content: MathML Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-mathml-core-20231127/
+    docidentifier:
+    - content: W3C WD-mathml-core-20231127
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mathml-core-20220504
     title:
-    - content: MathML Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-mathml-core-20220504/
-      type: src
-    docid:
-    - id: W3C WD-mathml-core-20220504
+    - language: en
+      script: Latn
+      content: MathML Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-mathml-core-20220504/
+    docidentifier:
+    - content: W3C WD-mathml-core-20220504
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mathml-core-20210816
     title:
-    - content: MathML Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-mathml-core-20210816/
-      type: src
-    docid:
-    - id: W3C WD-mathml-core-20210816
+    - language: en
+      script: Latn
+      content: MathML Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-mathml-core-20210816/
+    docidentifier:
+    - content: W3C WD-mathml-core-20210816
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mathml-core-20210810
     title:
-    - content: MathML Core
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-mathml-core-20210810/
-      type: src
-    docid:
-    - id: W3C WD-mathml-core-20210810
+    - language: en
+      script: Latn
+      content: MathML Core
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-mathml-core-20210810/
+    docidentifier:
+    - content: W3C WD-mathml-core-20210810
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: mathml-core
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

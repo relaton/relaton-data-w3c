@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccsp-cookies
-title:
-- content: 'Content Security Policy: Cookie Controls'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/csp-cookies/
-  type: src
+id: W3Ccspcookies
 type: standard
-docid:
-- id: W3C csp-cookies
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Content Security Policy: Cookie Controls'
+source:
+- type: src
+  content: https://www.w3.org/TR/csp-cookies/
+docidentifier:
+- content: W3C csp-cookies
   type: W3C
   primary: true
 docnumber: csp-cookies
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-csp-cookies-20160913
     title:
-    - content: 'Content Security Policy: Cookie Controls'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-csp-cookies-20160913/
-      type: src
-    docid:
-    - id: W3C NOTE-csp-cookies-20160913
+    - language: en
+      script: Latn
+      content: 'Content Security Policy: Cookie Controls'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/NOTE-csp-cookies-20160913/
+    docidentifier:
+    - content: W3C NOTE-csp-cookies-20160913
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-csp-cookies-20151215
     title:
-    - content: 'Content Security Policy: Cookie Controls'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-csp-cookies-20151215/
-      type: src
-    docid:
-    - id: W3C WD-csp-cookies-20151215
+    - language: en
+      script: Latn
+      content: 'Content Security Policy: Cookie Controls'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-csp-cookies-20151215/
+    docidentifier:
+    - content: W3C WD-csp-cookies-20151215
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: csp-cookies
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

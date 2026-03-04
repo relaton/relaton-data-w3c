@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-ldn-20170502
-title:
-- content: Linked Data Notifications
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/REC-ldn-20170502/
-  type: src
+id: W3CRECldn20170502
 type: standard
-docid:
-- id: W3C REC-ldn-20170502
+schema_version: v1.4.1
+formattedref: W3C REC-ldn-20170502
+title:
+- language: en
+  script: Latn
+  content: Linked Data Notifications
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/REC-ldn-20170502/
+docidentifier:
+- content: W3C REC-ldn-20170502
   type: W3C
   primary: true
 docnumber: REC-ldn-20170502
 date:
 - type: published
-  value: '2017-05-02'
+  at: '2017-05-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Sarven
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sarven
       surname:
+        language: en
+        script: Latn
         content: Capadisli
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Amy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Amy
       surname:
+        language: en
+        script: Latn
         content: Guy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-05-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Social Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cldn
     title:
-    - content: Linked Data Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ldn/
-      type: src
-    docid:
-    - id: W3C ldn
+    - language: en
+      script: Latn
+      content: Linked Data Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ldn/
+    docidentifier:
+    - content: W3C ldn
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-ldn-20170321
     title:
-    - content: Linked Data Notifications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/PR-ldn-20170321/
-      type: src
-    docid:
-    - id: W3C PR-ldn-20170321
+    - language: en
+      script: Latn
+      content: Linked Data Notifications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/PR-ldn-20170321/
+    docidentifier:
+    - content: W3C PR-ldn-20170321
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-ldn-20170502
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Social Web Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CSVG-Transforms
-title:
-- content: 'SVG Transforms 1.0, Part 2: Language'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/SVG-Transforms/
-  type: src
+id: W3CSVGTransforms
 type: standard
-docid:
-- id: W3C SVG-Transforms
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'SVG Transforms 1.0, Part 2: Language'
+source:
+- type: src
+  content: https://www.w3.org/TR/SVG-Transforms/
+docidentifier:
+- content: W3C SVG-Transforms
   type: W3C
   primary: true
 docnumber: SVG-Transforms
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVG-Transforms-20090320
     title:
-    - content: 'SVG Transforms 1.0, Part 2: Language'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-SVG-Transforms-20090320/
-      type: src
-    docid:
-    - id: W3C WD-SVG-Transforms-20090320
+    - language: en
+      script: Latn
+      content: 'SVG Transforms 1.0, Part 2: Language'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-SVG-Transforms-20090320/
+    docidentifier:
+    - content: W3C WD-SVG-Transforms-20090320
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: SVG-Transforms
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

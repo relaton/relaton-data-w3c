@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cp3p-rdfschema
-title:
-- content: An RDF Schema for P3P
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/p3p-rdfschema/
-  type: src
+id: W3Cp3prdfschema
 type: standard
-docid:
-- id: W3C p3p-rdfschema
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: An RDF Schema for P3P
+source:
+- type: src
+  content: https://www.w3.org/TR/p3p-rdfschema/
+docidentifier:
+- content: W3C p3p-rdfschema
   type: W3C
   primary: true
 docnumber: p3p-rdfschema
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-p3p-rdfschema-20180830
     title:
-    - content: An RDF Schema for P3P
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/NOTE-p3p-rdfschema-20180830/
-      type: src
-    docid:
-    - id: W3C NOTE-p3p-rdfschema-20180830
+    - language: en
+      script: Latn
+      content: An RDF Schema for P3P
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/NOTE-p3p-rdfschema-20180830/
+    docidentifier:
+    - content: W3C NOTE-p3p-rdfschema-20180830
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-p3p-rdfschema-20020125
     title:
-    - content: An RDF Schema for P3P
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/NOTE-p3p-rdfschema-20020125/
-      type: src
-    docid:
-    - id: W3C NOTE-p3p-rdfschema-20020125
+    - language: en
+      script: Latn
+      content: An RDF Schema for P3P
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/NOTE-p3p-rdfschema-20020125/
+    docidentifier:
+    - content: W3C NOTE-p3p-rdfschema-20020125
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: p3p-rdfschema
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

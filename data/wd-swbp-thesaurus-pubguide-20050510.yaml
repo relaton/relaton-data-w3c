@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-swbp-thesaurus-pubguide-20050510
-title:
-- content: Quick Guide to Publishing a Thesaurus on the Semantic Web
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/WD-swbp-thesaurus-pubguide-20050510
-  type: src
+id: W3CWDswbpthesauruspubguide20050510
 type: standard
-docid:
-- id: W3C WD-swbp-thesaurus-pubguide-20050510
+schema_version: v1.4.1
+formattedref: W3C WD-swbp-thesaurus-pubguide-20050510
+title:
+- language: en
+  script: Latn
+  content: Quick Guide to Publishing a Thesaurus on the Semantic Web
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/WD-swbp-thesaurus-pubguide-20050510
+docidentifier:
+- content: W3C WD-swbp-thesaurus-pubguide-20050510
   type: W3C
   primary: true
 docnumber: WD-swbp-thesaurus-pubguide-20050510
 date:
 - type: published
-  value: '2005-05-10'
+  at: '2005-05-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Alistair
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Miles
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2005-05-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Alistair
+      surname:
+        language: en
+        script: Latn
+        content: Miles
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Semantic Web Best Practices and Deployment Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cswbp-thesaurus-pubguide
     title:
-    - content: Quick Guide to Publishing a Thesaurus on the Semantic Web
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/swbp-thesaurus-pubguide/
-      type: src
-    docid:
-    - id: W3C swbp-thesaurus-pubguide
+    - language: en
+      script: Latn
+      content: Quick Guide to Publishing a Thesaurus on the Semantic Web
+    source:
+    - type: src
+      content: https://www.w3.org/TR/swbp-thesaurus-pubguide/
+    docidentifier:
+    - content: W3C swbp-thesaurus-pubguide
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-swbp-thesaurus-pubguide-20050517
-    title:
-    - content: Quick Guide to Publishing a Thesaurus on the Semantic Web
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-swbp-thesaurus-pubguide-20050517/
-      type: src
-    docid:
-    - id: W3C WD-swbp-thesaurus-pubguide-20050517
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Quick Guide to Publishing a Thesaurus on the Semantic Web
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-swbp-thesaurus-pubguide-20050517/
+    docidentifier:
+    - content: W3C WD-swbp-thesaurus-pubguide-20050517
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-swbp-thesaurus-pubguide-20050510
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Semantic Web Best Practices and Deployment Working Group
+    content: technicalReport
+  flavor: w3c

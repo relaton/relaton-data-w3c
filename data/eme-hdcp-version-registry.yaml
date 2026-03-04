@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ceme-hdcp-version-registry
-title:
-- content: Encrypted Media Extensions HDCP Version Registry
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/eme-hdcp-version-registry/
-  type: src
+id: W3Cemehdcpversionregistry
 type: standard
-docid:
-- id: W3C eme-hdcp-version-registry
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Encrypted Media Extensions HDCP Version Registry
+source:
+- type: src
+  content: https://www.w3.org/TR/eme-hdcp-version-registry/
+docidentifier:
+- content: W3C eme-hdcp-version-registry
   type: W3C
   primary: true
 docnumber: eme-hdcp-version-registry
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDRY-eme-hdcp-version-registry-20251202
     title:
-    - content: Encrypted Media Extensions HDCP Version Registry
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/DRY-eme-hdcp-version-registry-20251202/
-      type: src
-    docid:
-    - id: W3C DRY-eme-hdcp-version-registry-20251202
+    - language: en
+      script: Latn
+      content: Encrypted Media Extensions HDCP Version Registry
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/DRY-eme-hdcp-version-registry-20251202/
+    docidentifier:
+    - content: W3C DRY-eme-hdcp-version-registry-20251202
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDRY-eme-hdcp-version-registry-20240718
     title:
-    - content: Encrypted Media Extensions HDCP Version Registry
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DRY-eme-hdcp-version-registry-20240718/
-      type: src
-    docid:
-    - id: W3C DRY-eme-hdcp-version-registry-20240718
+    - language: en
+      script: Latn
+      content: Encrypted Media Extensions HDCP Version Registry
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DRY-eme-hdcp-version-registry-20240718/
+    docidentifier:
+    - content: W3C DRY-eme-hdcp-version-registry-20240718
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: eme-hdcp-version-registry
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

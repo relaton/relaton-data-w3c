@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-app-privacy-bp-20120703
-title:
-- content: Web Application Privacy Best Practices
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/NOTE-app-privacy-bp-20120703/
-  type: src
+id: W3CNOTEappprivacybp20120703
 type: standard
-docid:
-- id: W3C NOTE-app-privacy-bp-20120703
+schema_version: v1.4.1
+formattedref: W3C NOTE-app-privacy-bp-20120703
+title:
+- language: en
+  script: Latn
+  content: Web Application Privacy Best Practices
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/NOTE-app-privacy-bp-20120703/
+docidentifier:
+- content: W3C NOTE-app-privacy-bp-20120703
   type: W3C
   primary: true
 docnumber: NOTE-app-privacy-bp-20120703
 date:
 - type: published
-  value: '2012-07-03'
+  at: '2012-07-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Frederick
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-07-03'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Frederick
+      surname:
+        language: en
+        script: Latn
+        content: Hirsch
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Capp-privacy-bp
     title:
-    - content: Web Application Privacy Best Practices
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/app-privacy-bp/
-      type: src
-    docid:
-    - id: W3C app-privacy-bp
+    - language: en
+      script: Latn
+      content: Web Application Privacy Best Practices
+    source:
+    - type: src
+      content: https://www.w3.org/TR/app-privacy-bp/
+    docidentifier:
+    - content: W3C app-privacy-bp
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-app-privacy-bp-20110804
     title:
-    - content: Web Application Privacy Best Practices
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-app-privacy-bp-20110804/
-      type: src
-    docid:
-    - id: W3C WD-app-privacy-bp-20110804
+    - language: en
+      script: Latn
+      content: Web Application Privacy Best Practices
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-app-privacy-bp-20110804/
+    docidentifier:
+    - content: W3C WD-app-privacy-bp-20110804
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-app-privacy-bp-20120703
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

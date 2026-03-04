@@ -1,144 +1,140 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-core-aam-1.1-20140612
-title:
-- content: Core Accessibility API Mappings 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/WD-core-aam-1.1-20140612/
-  type: src
+id: W3CWDcoreaam1120140612
 type: standard
-docid:
-- id: W3C WD-core-aam-1.1-20140612
+schema_version: v1.4.1
+formattedref: W3C WD-core-aam-1.1-20140612
+title:
+- language: en
+  script: Latn
+  content: Core Accessibility API Mappings 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/WD-core-aam-1.1-20140612/
+docidentifier:
+- content: W3C WD-core-aam-1.1-20140612
   type: W3C
   primary: true
 docnumber: WD-core-aam-1.1-20140612
 date:
 - type: published
-  value: '2014-06-12'
+  at: '2014-06-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Joseph
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Joseph
       surname:
+        language: en
+        script: Latn
         content: Scheuhammer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Andi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andi
       surname:
+        language: en
+        script: Latn
         content: Snow-Weaver
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Aaron
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Aaron
       surname:
+        language: en
+        script: Latn
         content: Leventhal
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-06-12'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Protocols and Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccore-aam-1.1
     title:
-    - content: Core Accessibility API Mappings 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/core-aam-1.1/
-      type: src
-    docid:
-    - id: W3C core-aam-1.1
+    - language: en
+      script: Latn
+      content: Core Accessibility API Mappings 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/core-aam-1.1/
+    docidentifier:
+    - content: W3C core-aam-1.1
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-core-aam-1.1-20141211
-    title:
-    - content: Core Accessibility API Mappings 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-core-aam-1.1-20141211/
-      type: src
-    docid:
-    - id: W3C WD-core-aam-1.1-20141211
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Core Accessibility API Mappings 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-core-aam-1.1-20141211/
+    docidentifier:
+    - content: W3C WD-core-aam-1.1-20141211
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-core-aam-1.1-20140612
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Protocols and Formats Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-sml-epr-ref-scheme-20090630
-title:
-- content: Framework for SML EPR-Based Reference Schemes
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/NOTE-sml-epr-ref-scheme-20090630/
-  type: src
+id: W3CNOTEsmleprrefscheme20090630
 type: standard
-docid:
-- id: W3C NOTE-sml-epr-ref-scheme-20090630
+schema_version: v1.4.1
+formattedref: W3C NOTE-sml-epr-ref-scheme-20090630
+title:
+- language: en
+  script: Latn
+  content: Framework for SML EPR-Based Reference Schemes
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/NOTE-sml-epr-ref-scheme-20090630/
+docidentifier:
+- content: W3C NOTE-sml-epr-ref-scheme-20090630
   type: W3C
   primary: true
 docnumber: NOTE-sml-epr-ref-scheme-20090630
 date:
 - type: published
-  value: '2009-06-30'
+  at: '2009-06-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Len
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Charest
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2009-06-30'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Len
+      surname:
+        language: en
+        script: Latn
+        content: Charest
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Service Modeling Language Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csml-epr-ref-scheme
     title:
-    - content: Framework for SML EPR-Based Reference Schemes
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/sml-epr-ref-scheme/
-      type: src
-    docid:
-    - id: W3C sml-epr-ref-scheme
+    - language: en
+      script: Latn
+      content: Framework for SML EPR-Based Reference Schemes
+    source:
+    - type: src
+      content: https://www.w3.org/TR/sml-epr-ref-scheme/
+    docidentifier:
+    - content: W3C sml-epr-ref-scheme
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-sml-epr-ref-scheme-20090630
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Service Modeling Language Working Group
+    content: technicalReport
+  flavor: w3c

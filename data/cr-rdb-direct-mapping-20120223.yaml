@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-rdb-direct-mapping-20120223
-title:
-- content: A Direct Mapping of Relational Data to RDF
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/CR-rdb-direct-mapping-20120223/
-  type: src
+id: W3CCRrdbdirectmapping20120223
 type: standard
-docid:
-- id: W3C CR-rdb-direct-mapping-20120223
+schema_version: v1.4.1
+formattedref: W3C CR-rdb-direct-mapping-20120223
+title:
+- language: en
+  script: Latn
+  content: A Direct Mapping of Relational Data to RDF
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/CR-rdb-direct-mapping-20120223/
+docidentifier:
+- content: W3C CR-rdb-direct-mapping-20120223
   type: W3C
   primary: true
 docnumber: CR-rdb-direct-mapping-20120223
 date:
 - type: published
-  value: '2012-02-23'
+  at: '2012-02-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Eric
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eric
       surname:
+        language: en
+        script: Latn
         content: Prud'hommeaux
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Juan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Juan
       surname:
+        language: en
+        script: Latn
         content: Sequeda
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alexandre
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alexandre
       surname:
+        language: en
+        script: Latn
         content: Bertails
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Marcelo
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Marcelo
       surname:
+        language: en
+        script: Latn
         content: Arenas
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2012-02-23'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDB2RDF Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdb-direct-mapping
     title:
-    - content: A Direct Mapping of Relational Data to RDF
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdb-direct-mapping/
-      type: src
-    docid:
-    - id: W3C rdb-direct-mapping
+    - language: en
+      script: Latn
+      content: A Direct Mapping of Relational Data to RDF
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdb-direct-mapping/
+    docidentifier:
+    - content: W3C rdb-direct-mapping
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdb-direct-mapping-20110920
     title:
-    - content: A Direct Mapping of Relational Data to RDF
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-rdb-direct-mapping-20110920/
-      type: src
-    docid:
-    - id: W3C WD-rdb-direct-mapping-20110920
+    - language: en
+      script: Latn
+      content: A Direct Mapping of Relational Data to RDF
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-rdb-direct-mapping-20110920/
+    docidentifier:
+    - content: W3C WD-rdb-direct-mapping-20110920
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-rdb-direct-mapping-20120529
-    title:
-    - content: A Direct Mapping of Relational Data to RDF
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-rdb-direct-mapping-20120529/
-      type: src
-    docid:
-    - id: W3C WD-rdb-direct-mapping-20120529
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: A Direct Mapping of Relational Data to RDF
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-rdb-direct-mapping-20120529/
+    docidentifier:
+    - content: W3C WD-rdb-direct-mapping-20120529
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-rdb-direct-mapping-20120223
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDB2RDF Working Group
+    content: technicalReport
+  flavor: w3c

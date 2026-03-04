@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-XMLHttpRequest2-20080930
-title:
-- content: XMLHttpRequest Level 2
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080930/
-  type: src
+id: W3CWDXMLHttpRequest220080930
 type: standard
-docid:
-- id: W3C WD-XMLHttpRequest2-20080930
+schema_version: v1.4.1
+formattedref: W3C WD-XMLHttpRequest2-20080930
+title:
+- language: en
+  script: Latn
+  content: XMLHttpRequest Level 2
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080930/
+docidentifier:
+- content: W3C WD-XMLHttpRequest2-20080930
   type: W3C
   primary: true
 docnumber: WD-XMLHttpRequest2-20080930
 date:
 - type: published
-  value: '2008-09-30'
+  at: '2008-09-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Anne
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: van Kesteren
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2008-09-30'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Anne
+      surname:
+        language: en
+        script: Latn
+        content: van Kesteren
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CXMLHttpRequest2
     title:
-    - content: XMLHttpRequest Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/XMLHttpRequest2/
-      type: src
-    docid:
-    - id: W3C XMLHttpRequest2
+    - language: en
+      script: Latn
+      content: XMLHttpRequest Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/XMLHttpRequest2/
+    docidentifier:
+    - content: W3C XMLHttpRequest2
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-XMLHttpRequest2-20080225
     title:
-    - content: XMLHttpRequest Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080225/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest2-20080225
+    - language: en
+      script: Latn
+      content: XMLHttpRequest Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-XMLHttpRequest2-20080225/
+    docidentifier:
+    - content: W3C WD-XMLHttpRequest2-20080225
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-XMLHttpRequest2-20090820
-    title:
-    - content: XMLHttpRequest Level 2
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-XMLHttpRequest2-20090820/
-      type: src
-    docid:
-    - id: W3C WD-XMLHttpRequest2-20090820
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XMLHttpRequest Level 2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-XMLHttpRequest2-20090820/
+    docidentifier:
+    - content: W3C WD-XMLHttpRequest2-20090820
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-XMLHttpRequest2-20080930
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

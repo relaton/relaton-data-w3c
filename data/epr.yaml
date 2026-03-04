@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cepr
-title:
-- content: Entry Point Regulation
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/epr/
-  type: src
 type: standard
-docid:
-- id: W3C epr
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Entry Point Regulation
+source:
+- type: src
+  content: https://www.w3.org/TR/epr/
+docidentifier:
+- content: W3C epr
   type: W3C
   primary: true
 docnumber: epr
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-epr-20160913
     title:
-    - content: Entry Point Regulation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-epr-20160913/
-      type: src
-    docid:
-    - id: W3C NOTE-epr-20160913
+    - language: en
+      script: Latn
+      content: Entry Point Regulation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/NOTE-epr-20160913/
+    docidentifier:
+    - content: W3C NOTE-epr-20160913
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-epr-20150609
     title:
-    - content: Entry Point Regulation
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-epr-20150609/
-      type: src
-    docid:
-    - id: W3C WD-epr-20150609
+    - language: en
+      script: Latn
+      content: Entry Point Regulation
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-epr-20150609/
+    docidentifier:
+    - content: W3C WD-epr-20150609
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: epr
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

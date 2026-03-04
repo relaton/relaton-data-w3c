@@ -1,91 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xpath-full-text-30-requirements-use-cases-20151210
-title:
-- content: XQuery and XPath Full Text 3.0 Requirements and Use Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/NOTE-xpath-full-text-30-requirements-use-cases-20151210/
-  type: src
+id: W3CNOTExpathfulltext30requirementsusecases20151210
 type: standard
-docid:
-- id: W3C NOTE-xpath-full-text-30-requirements-use-cases-20151210
+schema_version: v1.4.1
+formattedref: W3C NOTE-xpath-full-text-30-requirements-use-cases-20151210
+title:
+- language: en
+  script: Latn
+  content: XQuery and XPath Full Text 3.0 Requirements and Use Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/NOTE-xpath-full-text-30-requirements-use-cases-20151210/
+docidentifier:
+- content: W3C NOTE-xpath-full-text-30-requirements-use-cases-20151210
   type: W3C
   primary: true
 docnumber: NOTE-xpath-full-text-30-requirements-use-cases-20151210
 date:
 - type: published
-  value: '2015-12-10'
+  at: '2015-12-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Pat
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Case
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-12-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Pat
+      surname:
+        language: en
+        script: Latn
+        content: Case
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxpath-full-text-30-requirements-use-cases
     title:
-    - content: XQuery and XPath Full Text 3.0 Requirements and Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xpath-full-text-30-requirements-use-cases/
-      type: src
-    docid:
-    - id: W3C xpath-full-text-30-requirements-use-cases
+    - language: en
+      script: Latn
+      content: XQuery and XPath Full Text 3.0 Requirements and Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xpath-full-text-30-requirements-use-cases/
+    docidentifier:
+    - content: W3C xpath-full-text-30-requirements-use-cases
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xpath-full-text-30-requirements-use-cases-20150312
     title:
-    - content: XQuery and XPath Full Text 3.0 Requirements and Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-xpath-full-text-30-requirements-use-cases-20150312/
-      type: src
-    docid:
-    - id: W3C WD-xpath-full-text-30-requirements-use-cases-20150312
+    - language: en
+      script: Latn
+      content: XQuery and XPath Full Text 3.0 Requirements and Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-xpath-full-text-30-requirements-use-cases-20150312/
+    docidentifier:
+    - content: W3C WD-xpath-full-text-30-requirements-use-cases-20150312
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xpath-full-text-30-requirements-use-cases-20151210
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-predefined-counter-styles-20170201
-title:
-- content: Ready-made Counter Styles
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/WD-predefined-counter-styles-20170201/
-  type: src
+id: W3CWDpredefinedcounterstyles20170201
 type: standard
-docid:
-- id: W3C WD-predefined-counter-styles-20170201
+schema_version: v1.4.1
+formattedref: W3C WD-predefined-counter-styles-20170201
+title:
+- language: en
+  script: Latn
+  content: Ready-made Counter Styles
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/WD-predefined-counter-styles-20170201/
+docidentifier:
+- content: W3C WD-predefined-counter-styles-20170201
   type: W3C
   primary: true
 docnumber: WD-predefined-counter-styles-20170201
 date:
 - type: published
-  value: '2017-02-01'
+  at: '2017-02-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2017-02-01'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpredefined-counter-styles
     title:
-    - content: Ready-made Counter Styles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/predefined-counter-styles/
-      type: src
-    docid:
-    - id: W3C predefined-counter-styles
+    - language: en
+      script: Latn
+      content: Ready-made Counter Styles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/predefined-counter-styles/
+    docidentifier:
+    - content: W3C predefined-counter-styles
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-predefined-counter-styles-20160622
     title:
-    - content: Custom Counter Styles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-predefined-counter-styles-20160622/
-      type: src
-    docid:
-    - id: W3C WD-predefined-counter-styles-20160622
+    - language: en
+      script: Latn
+      content: Custom Counter Styles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-predefined-counter-styles-20160622/
+    docidentifier:
+    - content: W3C WD-predefined-counter-styles-20160622
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-predefined-counter-styles-20170215
-    title:
-    - content: Ready-made Counter Styles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-predefined-counter-styles-20170215/
-      type: src
-    docid:
-    - id: W3C WD-predefined-counter-styles-20170215
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Ready-made Counter Styles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-predefined-counter-styles-20170215/
+    docidentifier:
+    - content: W3C WD-predefined-counter-styles-20170215
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-predefined-counter-styles-20170201
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

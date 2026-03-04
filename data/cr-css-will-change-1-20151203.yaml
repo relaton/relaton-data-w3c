@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-css-will-change-1-20151203
-title:
-- content: CSS Will Change Module Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/CR-css-will-change-1-20151203/
-  type: src
+id: W3CCRcsswillchange120151203
 type: standard
-docid:
-- id: W3C CR-css-will-change-1-20151203
+schema_version: v1.4.1
+formattedref: W3C CR-css-will-change-1-20151203
+title:
+- language: en
+  script: Latn
+  content: CSS Will Change Module Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/CR-css-will-change-1-20151203/
+docidentifier:
+- content: W3C CR-css-will-change-1-20151203
   type: W3C
   primary: true
 docnumber: CR-css-will-change-1-20151203
 date:
 - type: published
-  value: '2015-12-03'
+  at: '2015-12-03'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Tab
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Atkins Jr.
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-12-03'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Tab
+      surname:
+        language: en
+        script: Latn
+        content: Atkins Jr.
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-will-change-1
     title:
-    - content: CSS Will Change Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-will-change-1/
-      type: src
-    docid:
-    - id: W3C css-will-change-1
+    - language: en
+      script: Latn
+      content: CSS Will Change Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-will-change-1/
+    docidentifier:
+    - content: W3C css-will-change-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css-will-change-1-20140429
     title:
-    - content: CSS Will Change Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-css-will-change-1-20140429/
-      type: src
-    docid:
-    - id: W3C WD-css-will-change-1-20140429
+    - language: en
+      script: Latn
+      content: CSS Will Change Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-css-will-change-1-20140429/
+    docidentifier:
+    - content: W3C WD-css-will-change-1-20140429
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-css-will-change-1-20220505
-    title:
-    - content: CSS Will Change Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-css-will-change-1-20220505/
-      type: src
-    docid:
-    - id: W3C CRD-css-will-change-1-20220505
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Will Change Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/CRD-css-will-change-1-20220505/
+    docidentifier:
+    - content: W3C CRD-css-will-change-1-20220505
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-css-will-change-1-20151203
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

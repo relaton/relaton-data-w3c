@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-itsreq-20051122
-title:
-- content: Internationalization and Localization Markup Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2005/WD-itsreq-20051122/
-  type: src
+id: W3CWDitsreq20051122
 type: standard
-docid:
-- id: W3C WD-itsreq-20051122
+schema_version: v1.4.1
+formattedref: W3C WD-itsreq-20051122
+title:
+- language: en
+  script: Latn
+  content: Internationalization and Localization Markup Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2005/WD-itsreq-20051122/
+docidentifier:
+- content: W3C WD-itsreq-20051122
   type: W3C
   primary: true
 docnumber: WD-itsreq-20051122
 date:
 - type: published
-  value: '2005-11-22'
+  at: '2005-11-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Yves
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Savourel
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2005-11-22'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Yves
+      surname:
+        language: en
+        script: Latn
+        content: Savourel
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Tag Set (ITS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Citsreq
     title:
-    - content: Internationalization and Localization Markup Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/itsreq/
-      type: src
-    docid:
-    - id: W3C itsreq
+    - language: en
+      script: Latn
+      content: Internationalization and Localization Markup Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/itsreq/
+    docidentifier:
+    - content: W3C itsreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-itsreq-20050805
     title:
-    - content: Internationalization and Localization Markup Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-itsreq-20050805
-      type: src
-    docid:
-    - id: W3C WD-itsreq-20050805
+    - language: en
+      script: Latn
+      content: Internationalization and Localization Markup Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-itsreq-20050805
+    docidentifier:
+    - content: W3C WD-itsreq-20050805
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-itsreq-20060518
-    title:
-    - content: Internationalization and Localization Markup Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-itsreq-20060518/
-      type: src
-    docid:
-    - id: W3C WD-itsreq-20060518
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Internationalization and Localization Markup Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-itsreq-20060518/
+    docidentifier:
+    - content: W3C WD-itsreq-20060518
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-itsreq-20051122
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Tag Set (ITS) Working Group
+    content: technicalReport
+  flavor: w3c

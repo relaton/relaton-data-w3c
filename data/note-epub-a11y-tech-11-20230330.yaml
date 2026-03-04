@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-epub-a11y-tech-11-20230330
-title:
-- content: EPUB Accessibility Techniques 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/NOTE-epub-a11y-tech-11-20230330/
-  type: src
+id: W3CNOTEepuba11ytech1120230330
 type: standard
-docid:
-- id: W3C NOTE-epub-a11y-tech-11-20230330
+schema_version: v1.4.1
+formattedref: W3C NOTE-epub-a11y-tech-11-20230330
+title:
+- language: en
+  script: Latn
+  content: EPUB Accessibility Techniques 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/NOTE-epub-a11y-tech-11-20230330/
+docidentifier:
+- content: W3C NOTE-epub-a11y-tech-11-20230330
   type: W3C
   primary: true
 docnumber: NOTE-epub-a11y-tech-11-20230330
 date:
 - type: published
-  value: '2023-03-30'
+  at: '2023-03-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Matt
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Matt
       surname:
+        language: en
+        script: Latn
         content: Garrish
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: George
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: George
       surname:
+        language: en
+        script: Latn
         content: Kerscher
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Charles
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Charles
       surname:
+        language: en
+        script: Latn
         content: LaPierre
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gregorio
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gregorio
       surname:
+        language: en
+        script: Latn
         content: Pellegrino
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Avneesh
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Avneesh
       surname:
+        language: en
+        script: Latn
         content: Singh
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-03-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: EPUB 3 Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cepub-a11y-tech-11
     title:
-    - content: EPUB Accessibility Techniques 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/epub-a11y-tech-11/
-      type: src
-    docid:
-    - id: W3C epub-a11y-tech-11
+    - language: en
+      script: Latn
+      content: EPUB Accessibility Techniques 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/epub-a11y-tech-11/
+    docidentifier:
+    - content: W3C epub-a11y-tech-11
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-epub-a11y-tech-11-20230222
     title:
-    - content: EPUB Accessibility Techniques 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/NOTE-epub-a11y-tech-11-20230222/
-      type: src
-    docid:
-    - id: W3C NOTE-epub-a11y-tech-11-20230222
+    - language: en
+      script: Latn
+      content: EPUB Accessibility Techniques 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/NOTE-epub-a11y-tech-11-20230222/
+    docidentifier:
+    - content: W3C NOTE-epub-a11y-tech-11-20230222
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-epub-a11y-tech-11-20230402
-    title:
-    - content: EPUB Accessibility Techniques 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/NOTE-epub-a11y-tech-11-20230402/
-      type: src
-    docid:
-    - id: W3C NOTE-epub-a11y-tech-11-20230402
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: EPUB Accessibility Techniques 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/NOTE-epub-a11y-tech-11-20230402/
+    docidentifier:
+    - content: W3C NOTE-epub-a11y-tech-11-20230402
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-epub-a11y-tech-11-20230330
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: EPUB 3 Working Group
+    content: technicalReport
+  flavor: w3c

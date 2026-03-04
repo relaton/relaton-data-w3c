@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-w3c-vision-20231026
-title:
-- content: Vision for W3C
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/DNOTE-w3c-vision-20231026/
-  type: src
+id: W3CDNOTEw3cvision20231026
 type: standard
-docid:
-- id: W3C DNOTE-w3c-vision-20231026
+schema_version: v1.4.1
+formattedref: W3C DNOTE-w3c-vision-20231026
+title:
+- language: en
+  script: Latn
+  content: Vision for W3C
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/DNOTE-w3c-vision-20231026/
+docidentifier:
+- content: W3C DNOTE-w3c-vision-20231026
   type: W3C
   primary: true
 docnumber: DNOTE-w3c-vision-20231026
 date:
 - type: published
-  value: '2023-10-26'
+  at: '2023-10-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Chris
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Wilson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2023-10-26'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Chris
+      surname:
+        language: en
+        script: Latn
+        content: Wilson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Advisory Board
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cw3c-vision
     title:
-    - content: Vision for W3C
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/w3c-vision/
-      type: src
-    docid:
-    - id: W3C w3c-vision
+    - language: en
+      script: Latn
+      content: Vision for W3C
+    source:
+    - type: src
+      content: https://www.w3.org/TR/w3c-vision/
+    docidentifier:
+    - content: W3C w3c-vision
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-w3c-vision-20230725
     title:
-    - content: Vision for W3C
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-w3c-vision-20230725/
-      type: src
-    docid:
-    - id: W3C DNOTE-w3c-vision-20230725
+    - language: en
+      script: Latn
+      content: Vision for W3C
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-w3c-vision-20230725/
+    docidentifier:
+    - content: W3C DNOTE-w3c-vision-20230725
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-w3c-vision-20240403
-    title:
-    - content: Vision for W3C
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/NOTE-w3c-vision-20240403/
-      type: src
-    docid:
-    - id: W3C NOTE-w3c-vision-20240403
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Vision for W3C
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/NOTE-w3c-vision-20240403/
+    docidentifier:
+    - content: W3C NOTE-w3c-vision-20240403
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-w3c-vision-20231026
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Advisory Board
+    content: technicalReport
+  flavor: w3c

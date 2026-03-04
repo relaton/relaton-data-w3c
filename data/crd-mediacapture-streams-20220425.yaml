@@ -1,174 +1,165 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-mediacapture-streams-20220425
-title:
-- content: Media Capture and Streams
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/CRD-mediacapture-streams-20220425/
-  type: src
+id: W3CCRDmediacapturestreams20220425
 type: standard
-docid:
-- id: W3C CRD-mediacapture-streams-20220425
+schema_version: v1.4.1
+formattedref: W3C CRD-mediacapture-streams-20220425
+title:
+- language: en
+  script: Latn
+  content: Media Capture and Streams
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/CRD-mediacapture-streams-20220425/
+docidentifier:
+- content: W3C CRD-mediacapture-streams-20220425
   type: W3C
   primary: true
 docnumber: CRD-mediacapture-streams-20220425
 date:
 - type: published
-  value: '2022-04-25'
+  at: '2022-04-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Cullen
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Cullen
       surname:
+        language: en
+        script: Latn
         content: Jennings
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bernard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bernard
       surname:
+        language: en
+        script: Latn
         content: Aboba
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jan-Ivar
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jan-Ivar
       surname:
+        language: en
+        script: Latn
         content: Bruaroey
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Henrik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Henrik
       surname:
+        language: en
+        script: Latn
         content: Boström
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: youenn
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: youenn
       surname:
+        language: en
+        script: Latn
         content: fablet
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-04-25'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Real-Time Communications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmediacapture-streams
     title:
-    - content: Media Capture and Streams
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mediacapture-streams/
-      type: src
-    docid:
-    - id: W3C mediacapture-streams
+    - language: en
+      script: Latn
+      content: Media Capture and Streams
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mediacapture-streams/
+    docidentifier:
+    - content: W3C mediacapture-streams
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-mediacapture-streams-20220310
     title:
-    - content: Media Capture and Streams
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-mediacapture-streams-20220310/
-      type: src
-    docid:
-    - id: W3C CRD-mediacapture-streams-20220310
+    - language: en
+      script: Latn
+      content: Media Capture and Streams
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/CRD-mediacapture-streams-20220310/
+    docidentifier:
+    - content: W3C CRD-mediacapture-streams-20220310
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-mediacapture-streams-20220505
-    title:
-    - content: Media Capture and Streams
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/CRD-mediacapture-streams-20220505/
-      type: src
-    docid:
-    - id: W3C CRD-mediacapture-streams-20220505
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Media Capture and Streams
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/CRD-mediacapture-streams-20220505/
+    docidentifier:
+    - content: W3C CRD-mediacapture-streams-20220505
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-mediacapture-streams-20220425
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Real-Time Communications Working Group
+    content: technicalReport
+  flavor: w3c

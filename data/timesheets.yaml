@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Ctimesheets
-title:
-- content: SMIL Timesheets 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/timesheets/
-  type: src
 type: standard
-docid:
-- id: W3C timesheets
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SMIL Timesheets 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/timesheets/
+docidentifier:
+- content: W3C timesheets
   type: W3C
   primary: true
 docnumber: timesheets
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-timesheets-20120328
     title:
-    - content: SMIL Timesheets 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/NOTE-timesheets-20120328/
-      type: src
-    docid:
-    - id: W3C NOTE-timesheets-20120328
+    - language: en
+      script: Latn
+      content: SMIL Timesheets 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/NOTE-timesheets-20120328/
+    docidentifier:
+    - content: W3C NOTE-timesheets-20120328
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-timesheets-20080110
     title:
-    - content: SMIL Timesheets 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-timesheets-20080110/
-      type: src
-    docid:
-    - id: W3C WD-timesheets-20080110
+    - language: en
+      script: Latn
+      content: SMIL Timesheets 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-timesheets-20080110/
+    docidentifier:
+    - content: W3C WD-timesheets-20080110
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: timesheets
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

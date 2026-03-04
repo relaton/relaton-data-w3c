@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-xslt-30-20151119
-title:
-- content: XSL Transformations (XSLT) Version 3.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/CR-xslt-30-20151119/
-  type: src
+id: W3CCRxslt3020151119
 type: standard
-docid:
-- id: W3C CR-xslt-30-20151119
+schema_version: v1.4.1
+formattedref: W3C CR-xslt-30-20151119
+title:
+- language: en
+  script: Latn
+  content: XSL Transformations (XSLT) Version 3.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/CR-xslt-30-20151119/
+docidentifier:
+- content: W3C CR-xslt-30-20151119
   type: W3C
   primary: true
 docnumber: CR-xslt-30-20151119
 date:
 - type: published
-  value: '2015-11-19'
+  at: '2015-11-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kay
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-11-19'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
+      surname:
+        language: en
+        script: Latn
+        content: Kay
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxslt-30
     title:
-    - content: XSL Transformations (XSLT) Version 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xslt-30/
-      type: src
-    docid:
-    - id: W3C xslt-30
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xslt-30/
+    docidentifier:
+    - content: W3C xslt-30
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xslt-30-20141002
     title:
-    - content: XSL Transformations (XSLT) Version 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-xslt-30-20141002/
-      type: src
-    docid:
-    - id: W3C WD-xslt-30-20141002
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-xslt-30-20141002/
+    docidentifier:
+    - content: W3C WD-xslt-30-20141002
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-xslt-30-20170207
-    title:
-    - content: XSL Transformations (XSLT) Version 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/CR-xslt-30-20170207/
-      type: src
-    docid:
-    - id: W3C CR-xslt-30-20170207
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/CR-xslt-30-20170207/
+    docidentifier:
+    - content: W3C CR-xslt-30-20170207
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-xslt-30-20151119
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

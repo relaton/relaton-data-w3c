@@ -1,76 +1,92 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-pointerevents4-20241128
-title:
-- content: Pointer Events
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-pointerevents4-20241128/
-  type: src
+id: W3CWDpointerevents420241128
 type: standard
-docid:
-- id: W3C WD-pointerevents4-20241128
+schema_version: v1.4.1
+formattedref: W3C WD-pointerevents4-20241128
+title:
+- language: en
+  script: Latn
+  content: Pointer Events
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-pointerevents4-20241128/
+docidentifier:
+- content: W3C WD-pointerevents4-20241128
   type: W3C
   primary: true
 docnumber: WD-pointerevents4-20241128
 date:
 - type: published
-  value: '2024-11-28'
+  at: '2024-11-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2024-11-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Pointer Events Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpointerevents4
     title:
-    - content: Pointer Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/pointerevents4/
-      type: src
-    docid:
-    - id: W3C pointerevents4
+    - language: en
+      script: Latn
+      content: Pointer Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/pointerevents4/
+    docidentifier:
+    - content: W3C pointerevents4
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-pointerevents4-20241129
-    title:
-    - content: Pointer Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-pointerevents4-20241129/
-      type: src
-    docid:
-    - id: W3C WD-pointerevents4-20241129
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Pointer Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-pointerevents4-20241129/
+    docidentifier:
+    - content: W3C WD-pointerevents4-20241129
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-pointerevents4-20241128
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Pointer Events Working Group
+    content: technicalReport
+  flavor: w3c

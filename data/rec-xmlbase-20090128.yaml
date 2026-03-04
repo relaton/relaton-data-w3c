@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-xmlbase-20090128
-title:
-- content: XML Base (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/REC-xmlbase-20090128/
-  type: src
+id: W3CRECxmlbase20090128
 type: standard
-docid:
-- id: W3C REC-xmlbase-20090128
+schema_version: v1.4.1
+formattedref: W3C REC-xmlbase-20090128
+title:
+- language: en
+  script: Latn
+  content: XML Base (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/REC-xmlbase-20090128/
+docidentifier:
+- content: W3C REC-xmlbase-20090128
   type: W3C
   primary: true
 docnumber: REC-xmlbase-20090128
 date:
 - type: published
-  value: '2009-01-28'
+  at: '2009-01-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jonathan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonathan
       surname:
+        language: en
+        script: Latn
         content: Marsh
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Tobin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2009-01-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Core Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmlbase
     title:
-    - content: XML Base (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmlbase/
-      type: src
-    docid:
-    - id: W3C xmlbase
+    - language: en
+      script: Latn
+      content: XML Base (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmlbase/
+    docidentifier:
+    - content: W3C xmlbase
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPER-xmlbase-20080320
     title:
-    - content: XML Base (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/PER-xmlbase-20080320/
-      type: src
-    docid:
-    - id: W3C PER-xmlbase-20080320
+    - language: en
+      script: Latn
+      content: XML Base (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/PER-xmlbase-20080320/
+    docidentifier:
+    - content: W3C PER-xmlbase-20080320
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-xmlbase-20090128
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Core Working Group
+    content: technicalReport
+  flavor: w3c

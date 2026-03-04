@@ -1,175 +1,162 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-pwp-20170502
-title:
-- content: 'Web Publications for the Open Web Platform: Vision And Technical Challenges'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/NOTE-pwp-20170502/
-  type: src
+id: W3CNOTEpwp20170502
 type: standard
-docid:
-- id: W3C NOTE-pwp-20170502
+schema_version: v1.4.1
+formattedref: W3C NOTE-pwp-20170502
+title:
+- language: en
+  script: Latn
+  content: 'Web Publications for the Open Web Platform: Vision And Technical Challenges'
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/NOTE-pwp-20170502/
+docidentifier:
+- content: W3C NOTE-pwp-20170502
   type: W3C
   primary: true
 docnumber: NOTE-pwp-20170502
 date:
 - type: published
-  value: '2017-05-02'
+  at: '2017-05-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Markus
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Markus
       surname:
+        language: en
+        script: Latn
         content: Gylling
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ben
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ben
       surname:
+        language: en
+        script: Latn
         content: De Meester
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ivan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ivan
       surname:
+        language: en
+        script: Latn
         content: Herman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tzviya
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tzviya
       surname:
+        language: en
+        script: Latn
         content: Siegman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
       surname:
+        language: en
+        script: Latn
         content: Cramer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Leonard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Leonard
       surname:
+        language: en
+        script: Latn
         content: Rosenthol
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-05-02'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Digital Publishing Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpwp
     title:
-    - content: 'Web Publications for the Open Web Platform: Vision And Technical Challenges'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/pwp/
-      type: src
-    docid:
-    - id: W3C pwp
+    - language: en
+      script: Latn
+      content: 'Web Publications for the Open Web Platform: Vision And Technical Challenges'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/pwp/
+    docidentifier:
+    - content: W3C pwp
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-pwp-20170309
     title:
-    - content: Web Publications
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/WD-pwp-20170309/
-      type: src
-    docid:
-    - id: W3C WD-pwp-20170309
+    - language: en
+      script: Latn
+      content: Web Publications
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-pwp-20170309/
+    docidentifier:
+    - content: W3C WD-pwp-20170309
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-pwp-20170502
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Digital Publishing Interest Group
+    content: technicalReport
+  flavor: w3c

@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-rdf12-xml-20230516
-title:
-- content: RDF 1.2 XML Syntax
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230516/
-  type: src
+id: W3CWDrdf12xml20230516
 type: standard
-docid:
-- id: W3C WD-rdf12-xml-20230516
+schema_version: v1.4.1
+formattedref: W3C WD-rdf12-xml-20230516
+title:
+- language: en
+  script: Latn
+  content: RDF 1.2 XML Syntax
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230516/
+docidentifier:
+- content: W3C WD-rdf12-xml-20230516
   type: W3C
   primary: true
 docnumber: WD-rdf12-xml-20230516
 date:
 - type: published
-  value: '2023-05-16'
+  at: '2023-05-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Gregg
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kellogg
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2023-05-16'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Gregg
+      surname:
+        language: en
+        script: Latn
+        content: Kellogg
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDF & SPARQL Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdf12-xml
     title:
-    - content: RDF 1.2 XML Syntax
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdf12-xml/
-      type: src
-    docid:
-    - id: W3C rdf12-xml
+    - language: en
+      script: Latn
+      content: RDF 1.2 XML Syntax
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdf12-xml/
+    docidentifier:
+    - content: W3C rdf12-xml
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-rdf12-xml-20230615
-    title:
-    - content: RDF 1.2 XML Syntax
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230615/
-      type: src
-    docid:
-    - id: W3C WD-rdf12-xml-20230615
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RDF 1.2 XML Syntax
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230615/
+    docidentifier:
+    - content: W3C WD-rdf12-xml-20230615
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-rdf12-xml-20230516
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDF & SPARQL Working Group
+    content: technicalReport
+  flavor: w3c

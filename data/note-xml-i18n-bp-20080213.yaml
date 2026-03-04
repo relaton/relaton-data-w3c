@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-xml-i18n-bp-20080213
-title:
-- content: Best Practices for XML Internationalization
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/NOTE-xml-i18n-bp-20080213/
-  type: src
+id: W3CNOTExmli18nbp20080213
 type: standard
-docid:
-- id: W3C NOTE-xml-i18n-bp-20080213
+schema_version: v1.4.1
+formattedref: W3C NOTE-xml-i18n-bp-20080213
+title:
+- language: en
+  script: Latn
+  content: Best Practices for XML Internationalization
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/NOTE-xml-i18n-bp-20080213/
+docidentifier:
+- content: W3C NOTE-xml-i18n-bp-20080213
   type: W3C
   primary: true
 docnumber: NOTE-xml-i18n-bp-20080213
 date:
 - type: published
-  value: '2008-02-13'
+  at: '2008-02-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Yves
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yves
       surname:
+        language: en
+        script: Latn
         content: Savourel
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jirka
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jirka
       surname:
+        language: en
+        script: Latn
         content: Kosek
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
       surname:
+        language: en
+        script: Latn
         content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2008-02-13'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Tag Set (ITS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxml-i18n-bp
     title:
-    - content: Best Practices for XML Internationalization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xml-i18n-bp/
-      type: src
-    docid:
-    - id: W3C xml-i18n-bp
+    - language: en
+      script: Latn
+      content: Best Practices for XML Internationalization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xml-i18n-bp/
+    docidentifier:
+    - content: W3C xml-i18n-bp
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xml-i18n-bp-20071031
     title:
-    - content: Best Practices for XML Internationalization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20071031/
-      type: src
-    docid:
-    - id: W3C WD-xml-i18n-bp-20071031
+    - language: en
+      script: Latn
+      content: Best Practices for XML Internationalization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20071031/
+    docidentifier:
+    - content: W3C WD-xml-i18n-bp-20071031
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-xml-i18n-bp-20080213
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Tag Set (ITS) Working Group
+    content: technicalReport
+  flavor: w3c

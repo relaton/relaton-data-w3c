@@ -1,94 +1,119 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-svg-aam-1.0-20150226
-title:
-- content: SVG Accessibility API Mappings
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226/
-  type: src
+id: W3CWDsvgaam1020150226
 type: standard
-docid:
-- id: W3C WD-svg-aam-1.0-20150226
+schema_version: v1.4.1
+formattedref: W3C WD-svg-aam-1.0-20150226
+title:
+- language: en
+  script: Latn
+  content: SVG Accessibility API Mappings
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20150226/
+docidentifier:
+- content: W3C WD-svg-aam-1.0-20150226
   type: W3C
   primary: true
 docnumber: WD-svg-aam-1.0-20150226
 date:
 - type: published
-  value: '2015-02-26'
+  at: '2015-02-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schwerdtfeger
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-02-26'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Schwerdtfeger
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: SVG Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Protocols and Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csvg-aam-1.0
     title:
-    - content: SVG Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/svg-aam-1.0/
-      type: src
-    docid:
-    - id: W3C svg-aam-1.0
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/svg-aam-1.0/
+    docidentifier:
+    - content: W3C svg-aam-1.0
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-svg-aam-1.0-20151119
-    title:
-    - content: SVG Accessibility API Mappings
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20151119/
-      type: src
-    docid:
-    - id: W3C WD-svg-aam-1.0-20151119
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SVG Accessibility API Mappings
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-svg-aam-1.0-20151119/
+    docidentifier:
+    - content: W3C WD-svg-aam-1.0-20151119
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-svg-aam-1.0-20150226
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: SVG Working Group
-  - name: Protocols and Formats Working Group
+    content: technicalReport
+  flavor: w3c

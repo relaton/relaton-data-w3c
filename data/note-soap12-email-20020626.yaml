@@ -1,161 +1,152 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-soap12-email-20020626
-title:
-- content: SOAP Version 1.2 Email Binding
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
-  type: src
+id: W3CNOTEsoap12email20020626
 type: standard
-docid:
-- id: W3C NOTE-soap12-email-20020626
+schema_version: v1.4.1
+formattedref: W3C NOTE-soap12-email-20020626
+title:
+- language: en
+  script: Latn
+  content: SOAP Version 1.2 Email Binding
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
+docidentifier:
+- content: W3C NOTE-soap12-email-20020626
   type: W3C
   primary: true
 docnumber: NOTE-soap12-email-20020626
 date:
 - type: published
-  value: '2002-06-26'
+  at: '2002-06-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Stuart
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Stuart
       surname:
+        language: en
+        script: Latn
         content: Williams
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Glen
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Glen
       surname:
+        language: en
+        script: Latn
         content: Daniels
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Highland Mary
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Highland Mary
       surname:
+        language: en
+        script: Latn
         content: Mountain
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Noah
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Noah
       surname:
+        language: en
+        script: Latn
         content: Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jacek
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jacek
       surname:
+        language: en
+        script: Latn
         content: Kopecky
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2002-06-26'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csoap12-email
     title:
-    - content: SOAP Version 1.2 Email Binding
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/soap12-email/
-      type: src
-    docid:
-    - id: W3C soap12-email
+    - language: en
+      script: Latn
+      content: SOAP Version 1.2 Email Binding
+    source:
+    - type: src
+      content: https://www.w3.org/TR/soap12-email/
+    docidentifier:
+    - content: W3C soap12-email
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-soap12-email-20020703
-    title:
-    - content: SOAP Version 1.2 Email Binding
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020703
-      type: src
-    docid:
-    - id: W3C NOTE-soap12-email-20020703
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SOAP Version 1.2 Email Binding
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020703
+    docidentifier:
+    - content: W3C NOTE-soap12-email-20020703
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-soap12-email-20020626
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

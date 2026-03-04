@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Clatn-ca-gap
-title:
-- content: Catalan Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/latn-ca-gap/
-  type: src
+id: W3Clatncagap
 type: standard
-docid:
-- id: W3C latn-ca-gap
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Catalan Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/latn-ca-gap/
+docidentifier:
+- content: W3C latn-ca-gap
   type: W3C
   primary: true
 docnumber: latn-ca-gap
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-ca-gap-20240724
     title:
-    - content: Catalan Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-latn-ca-gap-20240724/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-ca-gap-20240724
+    - language: en
+      script: Latn
+      content: Catalan Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-latn-ca-gap-20240724/
+    docidentifier:
+    - content: W3C DNOTE-latn-ca-gap-20240724
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-ca-gap-20230822
     title:
-    - content: Catalan Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-latn-ca-gap-20230822/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-ca-gap-20230822
+    - language: en
+      script: Latn
+      content: Catalan Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-latn-ca-gap-20230822/
+    docidentifier:
+    - content: W3C DNOTE-latn-ca-gap-20230822
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: latn-ca-gap
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

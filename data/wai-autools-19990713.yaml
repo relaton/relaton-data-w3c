@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWAI-AUTOOLS-19990713
-title:
-- content: Authoring Tool Accessibility Guidelines 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1999/WAI-AUTOOLS-19990713/
-  type: src
+id: W3CWAIAUTOOLS19990713
 type: standard
-docid:
-- id: W3C WAI-AUTOOLS-19990713
+schema_version: v1.4.1
+formattedref: W3C WAI-AUTOOLS-19990713
+title:
+- language: en
+  script: Latn
+  content: Authoring Tool Accessibility Guidelines 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/1999/WAI-AUTOOLS-19990713/
+docidentifier:
+- content: W3C WAI-AUTOOLS-19990713
   type: W3C
   primary: true
 docnumber: WAI-AUTOOLS-19990713
 date:
 - type: published
-  value: '1999-07-13'
+  at: '1999-07-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1999-07-13'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CATAG10
     title:
-    - content: Authoring Tool Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ATAG10/
-      type: src
-    docid:
-    - id: W3C ATAG10
+    - language: en
+      script: Latn
+      content: Authoring Tool Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ATAG10/
+    docidentifier:
+    - content: W3C ATAG10
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWAI-AUTOOLS-19990503
     title:
-    - content: Authoring Tool Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/WAI-AUTOOLS-19990503
-      type: src
-    docid:
-    - id: W3C WAI-AUTOOLS-19990503
+    - language: en
+      script: Latn
+      content: Authoring Tool Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/WAI-AUTOOLS-19990503
+    docidentifier:
+    - content: W3C WAI-AUTOOLS-19990503
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWAI-AUTOOLS-19990903
-    title:
-    - content: Authoring Tool Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/WAI-AUTOOLS-19990903/
-      type: src
-    docid:
-    - id: W3C WAI-AUTOOLS-19990903
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Authoring Tool Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/WAI-AUTOOLS-19990903/
+    docidentifier:
+    - content: W3C WAI-AUTOOLS-19990903
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WAI-AUTOOLS-19990713
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

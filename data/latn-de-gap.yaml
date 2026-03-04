@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Clatn-de-gap
-title:
-- content: German Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/latn-de-gap/
-  type: src
+id: W3Clatndegap
 type: standard
-docid:
-- id: W3C latn-de-gap
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: German Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/latn-de-gap/
+docidentifier:
+- content: W3C latn-de-gap
   type: W3C
   primary: true
 docnumber: latn-de-gap
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-de-gap-20240724
     title:
-    - content: German Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-latn-de-gap-20240724/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-de-gap-20240724
+    - language: en
+      script: Latn
+      content: German Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-latn-de-gap-20240724/
+    docidentifier:
+    - content: W3C DNOTE-latn-de-gap-20240724
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-de-gap-20230614
     title:
-    - content: German Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/DNOTE-latn-de-gap-20230614/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-de-gap-20230614
+    - language: en
+      script: Latn
+      content: German Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/DNOTE-latn-de-gap-20230614/
+    docidentifier:
+    - content: W3C DNOTE-latn-de-gap-20230614
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-latn-de-gap-20220119
     title:
-    - content: German Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-latn-de-gap-20220119/
-      type: src
-    docid:
-    - id: W3C DNOTE-latn-de-gap-20220119
+    - language: en
+      script: Latn
+      content: German Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-latn-de-gap-20220119/
+    docidentifier:
+    - content: W3C DNOTE-latn-de-gap-20220119
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-latn-de-gap-20210525
     title:
-    - content: German Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210525/
-      type: src
-    docid:
-    - id: W3C WD-latn-de-gap-20210525
+    - language: en
+      script: Latn
+      content: German Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210525/
+    docidentifier:
+    - content: W3C WD-latn-de-gap-20210525
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-latn-de-gap-20210204
     title:
-    - content: German Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210204/
-      type: src
-    docid:
-    - id: W3C WD-latn-de-gap-20210204
+    - language: en
+      script: Latn
+      content: German Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-latn-de-gap-20210204/
+    docidentifier:
+    - content: W3C WD-latn-de-gap-20210204
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: latn-de-gap
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,107 +1,114 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-activitystreams-core-20170523
-title:
-- content: Activity Streams 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/REC-activitystreams-core-20170523/
-  type: src
+id: W3CRECactivitystreamscore20170523
 type: standard
-docid:
-- id: W3C REC-activitystreams-core-20170523
+schema_version: v1.4.1
+formattedref: W3C REC-activitystreams-core-20170523
+title:
+- language: en
+  script: Latn
+  content: Activity Streams 2.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/REC-activitystreams-core-20170523/
+docidentifier:
+- content: W3C REC-activitystreams-core-20170523
   type: W3C
   primary: true
 docnumber: REC-activitystreams-core-20170523
 date:
 - type: published
-  value: '2017-05-23'
+  at: '2017-05-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: James
       surname:
+        language: en
+        script: Latn
         content: Snell
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Evan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Evan
       surname:
+        language: en
+        script: Latn
         content: Prodromou
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2017-05-23'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Social Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cactivitystreams-core
     title:
-    - content: Activity Streams 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/activitystreams-core/
-      type: src
-    docid:
-    - id: W3C activitystreams-core
+    - language: en
+      script: Latn
+      content: Activity Streams 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/activitystreams-core/
+    docidentifier:
+    - content: W3C activitystreams-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-activitystreams-core-20170413
     title:
-    - content: Activity Streams 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/PR-activitystreams-core-20170413/
-      type: src
-    docid:
-    - id: W3C PR-activitystreams-core-20170413
+    - language: en
+      script: Latn
+      content: Activity Streams 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/PR-activitystreams-core-20170413/
+    docidentifier:
+    - content: W3C PR-activitystreams-core-20170413
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-activitystreams-core-20170523
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Social Web Working Group
+    content: technicalReport
+  flavor: w3c

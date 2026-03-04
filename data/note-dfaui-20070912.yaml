@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-dfaui-20070912
-title:
-- content: Declarative Formats for Applications and User Interfaces
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/NOTE-dfaui-20070912/
-  type: src
+id: W3CNOTEdfaui20070912
 type: standard
-docid:
-- id: W3C NOTE-dfaui-20070912
+schema_version: v1.4.1
+formattedref: W3C NOTE-dfaui-20070912
+title:
+- language: en
+  script: Latn
+  content: Declarative Formats for Applications and User Interfaces
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/NOTE-dfaui-20070912/
+docidentifier:
+- content: W3C NOTE-dfaui-20070912
   type: W3C
   primary: true
 docnumber: NOTE-dfaui-20070912
 date:
 - type: published
-  value: '2007-09-12'
+  at: '2007-09-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Arthur
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Barstow
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2007-09-12'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Arthur
+      surname:
+        language: en
+        script: Latn
+        content: Barstow
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Application Formats Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdfaui
     title:
-    - content: Declarative Formats for Applications and User Interfaces
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/dfaui/
-      type: src
-    docid:
-    - id: W3C dfaui
+    - language: en
+      script: Latn
+      content: Declarative Formats for Applications and User Interfaces
+    source:
+    - type: src
+      content: https://www.w3.org/TR/dfaui/
+    docidentifier:
+    - content: W3C dfaui
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-dfaui-20070912
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Application Formats Working Group
+    content: technicalReport
+  flavor: w3c

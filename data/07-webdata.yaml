@@ -1,92 +1,99 @@
 ---
-schema-version: v1.2.9
-id: W3C07-WebData
-title:
-- content: 'Web Architecture: Describing and Exchanging Data'
-  format: text/plain
-link:
-- content: https://www.w3.org/1999/06/07-WebData
-  type: src
+id: W3C07WebData
 type: standard
-docid:
-- id: W3C 07-WebData
+schema_version: v1.4.1
+formattedref: W3C 07-WebData
+title:
+- language: en
+  script: Latn
+  content: 'Web Architecture: Describing and Exchanging Data'
+source:
+- type: src
+  content: https://www.w3.org/1999/06/07-WebData
+docidentifier:
+- content: W3C 07-WebData
   type: W3C
   primary: true
 docnumber: 07-WebData
 date:
 - type: published
-  value: '1999-06-07'
+  at: '1999-06-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Tim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tim
       surname:
+        language: en
+        script: Latn
         content: Berners-Lee
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dan
       surname:
+        language: en
+        script: Latn
         content: Connolly
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '1999-06-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWebData
     title:
-    - content: 'Web Architecture: Describing and Exchanging Data'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/1999/04/WebData
-      type: src
-    docid:
-    - id: W3C WebData
+    - language: en
+      script: Latn
+      content: 'Web Architecture: Describing and Exchanging Data'
+    source:
+    - type: src
+      content: https://www.w3.org/1999/04/WebData
+    docidentifier:
+    - content: W3C WebData
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: 07-WebData
 ext:
-  schema-version: v1.0.0
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+  schema_version: v1.0.0
+  flavor: w3c

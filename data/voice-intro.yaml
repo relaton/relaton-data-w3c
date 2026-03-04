@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cvoice-intro
-title:
-- content: Voice Browsers, Introduction
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/voice-intro/
-  type: src
+id: W3Cvoiceintro
 type: standard
-docid:
-- id: W3C voice-intro
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Voice Browsers, Introduction
+source:
+- type: src
+  content: https://www.w3.org/TR/voice-intro/
+docidentifier:
+- content: W3C voice-intro
   type: W3C
   primary: true
 docnumber: voice-intro
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-voice-intro-20001204
     title:
-    - content: Voice Browsers, Introduction
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/WD-voice-intro-20001204/
-      type: src
-    docid:
-    - id: W3C WD-voice-intro-20001204
+    - language: en
+      script: Latn
+      content: Voice Browsers, Introduction
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/WD-voice-intro-20001204/
+    docidentifier:
+    - content: W3C WD-voice-intro-20001204
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-voice-intro-19991223
     title:
-    - content: Voice Browsers, Introduction
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/WD-voice-intro-19991223
-      type: src
-    docid:
-    - id: W3C WD-voice-intro-19991223
+    - language: en
+      script: Latn
+      content: Voice Browsers, Introduction
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/WD-voice-intro-19991223
+    docidentifier:
+    - content: W3C WD-voice-intro-19991223
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: voice-intro
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

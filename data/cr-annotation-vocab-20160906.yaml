@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-annotation-vocab-20160906
-title:
-- content: Web Annotation Vocabulary
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/CR-annotation-vocab-20160906/
-  type: src
+id: W3CCRannotationvocab20160906
 type: standard
-docid:
-- id: W3C CR-annotation-vocab-20160906
+schema_version: v1.4.1
+formattedref: W3C CR-annotation-vocab-20160906
+title:
+- language: en
+  script: Latn
+  content: Web Annotation Vocabulary
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/CR-annotation-vocab-20160906/
+docidentifier:
+- content: W3C CR-annotation-vocab-20160906
   type: W3C
   primary: true
 docnumber: CR-annotation-vocab-20160906
 date:
 - type: published
-  value: '2016-09-06'
+  at: '2016-09-06'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Robert
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Robert
       surname:
+        language: en
+        script: Latn
         content: Sanderson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Paolo
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Paolo
       surname:
+        language: en
+        script: Latn
         content: Ciccarese
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Benjamin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Benjamin
       surname:
+        language: en
+        script: Latn
         content: Young
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-09-06'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Annotation Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cannotation-vocab
     title:
-    - content: Web Annotation Vocabulary
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/annotation-vocab/
-      type: src
-    docid:
-    - id: W3C annotation-vocab
+    - language: en
+      script: Latn
+      content: Web Annotation Vocabulary
+    source:
+    - type: src
+      content: https://www.w3.org/TR/annotation-vocab/
+    docidentifier:
+    - content: W3C annotation-vocab
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-annotation-vocab-20160705
     title:
-    - content: Web Annotation Vocabulary
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/CR-annotation-vocab-20160705/
-      type: src
-    docid:
-    - id: W3C CR-annotation-vocab-20160705
+    - language: en
+      script: Latn
+      content: Web Annotation Vocabulary
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/CR-annotation-vocab-20160705/
+    docidentifier:
+    - content: W3C CR-annotation-vocab-20160705
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-annotation-vocab-20161122
-    title:
-    - content: Web Annotation Vocabulary
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/CR-annotation-vocab-20161122/
-      type: src
-    docid:
-    - id: W3C CR-annotation-vocab-20161122
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Annotation Vocabulary
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/CR-annotation-vocab-20161122/
+    docidentifier:
+    - content: W3C CR-annotation-vocab-20161122
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-annotation-vocab-20160906
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Annotation Working Group
+    content: technicalReport
+  flavor: w3c

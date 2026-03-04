@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cexi-profile
-title:
-- content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic memory
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/exi-profile/
-  type: src
+id: W3Cexiprofile
 type: standard
-docid:
-- id: W3C exi-profile
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic memory
+source:
+- type: src
+  content: https://www.w3.org/TR/exi-profile/
+docidentifier:
+- content: W3C exi-profile
   type: W3C
   primary: true
 docnumber: exi-profile
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,90 +31,92 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-exi-profile-20140909
     title:
-    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
         memory
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/REC-exi-profile-20140909/
-      type: src
-    docid:
-    - id: W3C REC-exi-profile-20140909
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/REC-exi-profile-20140909/
+    docidentifier:
+    - content: W3C REC-exi-profile-20140909
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-exi-profile-20140506
     title:
-    - content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile for limiting usage of dynamic
         memory
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/PR-exi-profile-20140506/
-      type: src
-    docid:
-    - id: W3C PR-exi-profile-20140506
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/PR-exi-profile-20140506/
+    docidentifier:
+    - content: W3C PR-exi-profile-20140506
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-exi-profile-20130416
     title:
-    - content: Efficient XML Interchange (EXI) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/CR-exi-profile-20130416/
-      type: src
-    docid:
-    - id: W3C CR-exi-profile-20130416
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/CR-exi-profile-20130416/
+    docidentifier:
+    - content: W3C CR-exi-profile-20130416
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-exi-profile-20120731
     title:
-    - content: Efficient XML Interchange (EXI) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-exi-profile-20120731/
-      type: src
-    docid:
-    - id: W3C WD-exi-profile-20120731
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-exi-profile-20120731/
+    docidentifier:
+    - content: W3C WD-exi-profile-20120731
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-exi-profile-20120410
     title:
-    - content: Efficient XML Interchange (EXI) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-exi-profile-20120410/
-      type: src
-    docid:
-    - id: W3C WD-exi-profile-20120410
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-exi-profile-20120410/
+    docidentifier:
+    - content: W3C WD-exi-profile-20120410
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-exi-profile-20110816
     title:
-    - content: Efficient XML Interchange (EXI) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-exi-profile-20110816/
-      type: src
-    docid:
-    - id: W3C WD-exi-profile-20110816
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-exi-profile-20110816/
+    docidentifier:
+    - content: W3C WD-exi-profile-20110816
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: exi-profile
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

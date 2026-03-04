@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-css3-exclusions-20130528
-title:
-- content: CSS Exclusions Module Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-css3-exclusions-20130528/
-  type: src
+id: W3CWDcss3exclusions20130528
 type: standard
-docid:
-- id: W3C WD-css3-exclusions-20130528
+schema_version: v1.4.1
+formattedref: W3C WD-css3-exclusions-20130528
+title:
+- language: en
+  script: Latn
+  content: CSS Exclusions Module Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-css3-exclusions-20130528/
+docidentifier:
+- content: W3C WD-css3-exclusions-20130528
   type: W3C
   primary: true
 docnumber: WD-css3-exclusions-20130528
 date:
 - type: published
-  value: '2013-05-28'
+  at: '2013-05-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Vincent
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Vincent
       surname:
+        language: en
+        script: Latn
         content: Hardy
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Rossen
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Rossen
       surname:
+        language: en
+        script: Latn
         content: Atanassov
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Alan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Alan
       surname:
+        language: en
+        script: Latn
         content: Stearns
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-05-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss3-exclusions
     title:
-    - content: CSS Exclusions Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css3-exclusions/
-      type: src
-    docid:
-    - id: W3C css3-exclusions
+    - language: en
+      script: Latn
+      content: CSS Exclusions Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css3-exclusions/
+    docidentifier:
+    - content: W3C css3-exclusions
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css3-exclusions-20120503
     title:
-    - content: CSS Exclusions and Shapes Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-css3-exclusions-20120503/
-      type: src
-    docid:
-    - id: W3C WD-css3-exclusions-20120503
+    - language: en
+      script: Latn
+      content: CSS Exclusions and Shapes Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-css3-exclusions-20120503/
+    docidentifier:
+    - content: W3C WD-css3-exclusions-20120503
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-css3-exclusions-20150115
-    title:
-    - content: CSS Exclusions Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-css3-exclusions-20150115/
-      type: src
-    docid:
-    - id: W3C WD-css3-exclusions-20150115
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Exclusions Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-css3-exclusions-20150115/
+    docidentifier:
+    - content: W3C WD-css3-exclusions-20150115
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-css3-exclusions-20130528
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

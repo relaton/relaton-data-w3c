@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-gyroscope-20240104
-title:
-- content: Gyroscope
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/CRD-gyroscope-20240104/
-  type: src
+id: W3CCRDgyroscope20240104
 type: standard
-docid:
-- id: W3C CRD-gyroscope-20240104
+schema_version: v1.4.1
+formattedref: W3C CRD-gyroscope-20240104
+title:
+- language: en
+  script: Latn
+  content: Gyroscope
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/CRD-gyroscope-20240104/
+docidentifier:
+- content: W3C CRD-gyroscope-20240104
   type: W3C
   primary: true
 docnumber: CRD-gyroscope-20240104
 date:
 - type: published
-  value: '2024-01-04'
+  at: '2024-01-04'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Anssi
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kostiainen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-01-04'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Anssi
+      surname:
+        language: en
+        script: Latn
+        content: Kostiainen
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cgyroscope
     title:
-    - content: Gyroscope
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/gyroscope/
-      type: src
-    docid:
-    - id: W3C gyroscope
+    - language: en
+      script: Latn
+      content: Gyroscope
+    source:
+    - type: src
+      content: https://www.w3.org/TR/gyroscope/
+    docidentifier:
+    - content: W3C gyroscope
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-gyroscope-20231207
     title:
-    - content: Gyroscope
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-gyroscope-20231207/
-      type: src
-    docid:
-    - id: W3C CRD-gyroscope-20231207
+    - language: en
+      script: Latn
+      content: Gyroscope
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/CRD-gyroscope-20231207/
+    docidentifier:
+    - content: W3C CRD-gyroscope-20231207
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-gyroscope-20240105
-    title:
-    - content: Gyroscope
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-gyroscope-20240105/
-      type: src
-    docid:
-    - id: W3C CRD-gyroscope-20240105
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Gyroscope
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-gyroscope-20240105/
+    docidentifier:
+    - content: W3C CRD-gyroscope-20240105
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-gyroscope-20240104
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
+    content: technicalReport
+  flavor: w3c

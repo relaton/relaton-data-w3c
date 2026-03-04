@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-soap12-part0-20030624
-title:
-- content: 'SOAP Version 1.2 Part 0: Primer'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/REC-soap12-part0-20030624/
-  type: src
+id: W3CRECsoap12part020030624
 type: standard
-docid:
-- id: W3C REC-soap12-part0-20030624
+schema_version: v1.4.1
+formattedref: W3C REC-soap12-part0-20030624
+title:
+- language: en
+  script: Latn
+  content: 'SOAP Version 1.2 Part 0: Primer'
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/REC-soap12-part0-20030624/
+docidentifier:
+- content: W3C REC-soap12-part0-20030624
   type: W3C
   primary: true
 docnumber: REC-soap12-part0-20030624
 date:
 - type: published
-  value: '2003-06-24'
+  at: '2003-06-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Nilo
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mitra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2003-06-24'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Nilo
+      surname:
+        language: en
+        script: Latn
+        content: Mitra
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Protocol Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csoap12-part0
     title:
-    - content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/soap12-part0/
-      type: src
-    docid:
-    - id: W3C soap12-part0
+    - language: en
+      script: Latn
+      content: 'SOAP Version 1.2 Part 0: Primer (Second Edition)'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/soap12-part0/
+    docidentifier:
+    - content: W3C soap12-part0
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-soap12-part0-20030507
     title:
-    - content: 'SOAP Version 1.2 Part 0: Primer'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/PR-soap12-part0-20030507/
-      type: src
-    docid:
-    - id: W3C PR-soap12-part0-20030507
+    - language: en
+      script: Latn
+      content: 'SOAP Version 1.2 Part 0: Primer'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/PR-soap12-part0-20030507/
+    docidentifier:
+    - content: W3C PR-soap12-part0-20030507
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-soap12-part0-20030624
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Protocol Working Group
+    content: technicalReport
+  flavor: w3c

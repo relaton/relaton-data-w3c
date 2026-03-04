@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-pwp-ucr-20190219
-title:
-- content: Web Publications Use Cases and Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190219/
-  type: src
+id: W3CNOTEpwpucr20190219
 type: standard
-docid:
-- id: W3C NOTE-pwp-ucr-20190219
+schema_version: v1.4.1
+formattedref: W3C NOTE-pwp-ucr-20190219
+title:
+- language: en
+  script: Latn
+  content: Web Publications Use Cases and Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190219/
+docidentifier:
+- content: W3C NOTE-pwp-ucr-20190219
   type: W3C
   primary: true
 docnumber: NOTE-pwp-ucr-20190219
 date:
 - type: published
-  value: '2019-02-19'
+  at: '2019-02-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Joshua
       surname:
+        language: en
+        script: Latn
         content: Pyle
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Franco
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Franco
       surname:
+        language: en
+        script: Latn
         content: Alvarado
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2019-02-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Audiobooks Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpwp-ucr
     title:
-    - content: Web Publications Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/pwp-ucr/
-      type: src
-    docid:
-    - id: W3C pwp-ucr
+    - language: en
+      script: Latn
+      content: Web Publications Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/pwp-ucr/
+    docidentifier:
+    - content: W3C pwp-ucr
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-pwp-ucr-20170502
     title:
-    - content: Web Publications Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/NOTE-pwp-ucr-20170502/
-      type: src
-    docid:
-    - id: W3C NOTE-pwp-ucr-20170502
+    - language: en
+      script: Latn
+      content: Web Publications Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/NOTE-pwp-ucr-20170502/
+    docidentifier:
+    - content: W3C NOTE-pwp-ucr-20170502
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-pwp-ucr-20190813
-    title:
-    - content: Web Publications Use Cases and Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190813/
-      type: src
-    docid:
-    - id: W3C NOTE-pwp-ucr-20190813
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Publications Use Cases and Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/NOTE-pwp-ucr-20190813/
+    docidentifier:
+    - content: W3C NOTE-pwp-ucr-20190813
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-pwp-ucr-20190219
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Audiobooks Working Group
+    content: technicalReport
+  flavor: w3c

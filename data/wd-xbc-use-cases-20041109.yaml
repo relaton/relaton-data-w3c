@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xbc-use-cases-20041109
-title:
-- content: XML Binary Characterization Use Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2004/WD-xbc-use-cases-20041109/
-  type: src
+id: W3CWDxbcusecases20041109
 type: standard
-docid:
-- id: W3C WD-xbc-use-cases-20041109
+schema_version: v1.4.1
+formattedref: W3C WD-xbc-use-cases-20041109
+title:
+- language: en
+  script: Latn
+  content: XML Binary Characterization Use Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2004/WD-xbc-use-cases-20041109/
+docidentifier:
+- content: W3C WD-xbc-use-cases-20041109
   type: W3C
   primary: true
 docnumber: WD-xbc-use-cases-20041109
 date:
 - type: published
-  value: '2004-11-09'
+  at: '2004-11-09'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Santiago
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Santiago
       surname:
+        language: en
+        script: Latn
         content: Pericas-Geertsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cokus
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2004-11-09'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Binary Characterization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxbc-use-cases
     title:
-    - content: XML Binary Characterization Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xbc-use-cases/
-      type: src
-    docid:
-    - id: W3C xbc-use-cases
+    - language: en
+      script: Latn
+      content: XML Binary Characterization Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xbc-use-cases/
+    docidentifier:
+    - content: W3C xbc-use-cases
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xbc-use-cases-20041104
     title:
-    - content: XML Binary Characterization Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-xbc-use-cases-20041104/
-      type: src
-    docid:
-    - id: W3C WD-xbc-use-cases-20041104
+    - language: en
+      script: Latn
+      content: XML Binary Characterization Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-xbc-use-cases-20041104/
+    docidentifier:
+    - content: W3C WD-xbc-use-cases-20041104
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xbc-use-cases-20050224
-    title:
-    - content: XML Binary Characterization Use Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-xbc-use-cases-20050224/
-      type: src
-    docid:
-    - id: W3C WD-xbc-use-cases-20050224
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Binary Characterization Use Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-xbc-use-cases-20050224/
+    docidentifier:
+    - content: W3C WD-xbc-use-cases-20050224
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xbc-use-cases-20041109
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Binary Characterization Working Group
+    content: technicalReport
+  flavor: w3c

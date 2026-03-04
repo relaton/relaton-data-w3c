@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cws-cdl-10
-title:
-- content: Web Services Choreography Description Language Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ws-cdl-10/
-  type: src
+id: W3Cwscdl10
 type: standard
-docid:
-- id: W3C ws-cdl-10
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Services Choreography Description Language Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/ws-cdl-10/
+docidentifier:
+- content: W3C ws-cdl-10
   type: W3C
   primary: true
 docnumber: ws-cdl-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCR-ws-cdl-10-20051109
     title:
-    - content: Web Services Choreography Description Language Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/CR-ws-cdl-10-20051109/
-      type: src
-    docid:
-    - id: W3C CR-ws-cdl-10-20051109
+    - language: en
+      script: Latn
+      content: Web Services Choreography Description Language Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/CR-ws-cdl-10-20051109/
+    docidentifier:
+    - content: W3C CR-ws-cdl-10-20051109
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-cdl-10-20041217
     title:
-    - content: Web Services Choreography Description Language Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20041217/
-      type: src
-    docid:
-    - id: W3C WD-ws-cdl-10-20041217
+    - language: en
+      script: Latn
+      content: Web Services Choreography Description Language Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20041217/
+    docidentifier:
+    - content: W3C WD-ws-cdl-10-20041217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-cdl-10-20041012
     title:
-    - content: Web Services Choreography Description Language Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20041012/
-      type: src
-    docid:
-    - id: W3C WD-ws-cdl-10-20041012
+    - language: en
+      script: Latn
+      content: Web Services Choreography Description Language Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20041012/
+    docidentifier:
+    - content: W3C WD-ws-cdl-10-20041012
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-cdl-10-20040427
     title:
-    - content: Web Services Choreography Description Language Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20040427/
-      type: src
-    docid:
-    - id: W3C WD-ws-cdl-10-20040427
+    - language: en
+      script: Latn
+      content: Web Services Choreography Description Language Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-ws-cdl-10-20040427/
+    docidentifier:
+    - content: W3C WD-ws-cdl-10-20040427
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ws-cdl-10
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

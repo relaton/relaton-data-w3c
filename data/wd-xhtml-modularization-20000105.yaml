@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xhtml-modularization-20000105
-title:
-- content: Modularization of XHTML™
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2000/WD-xhtml-modularization-20000105/
-  type: src
+id: W3CWDxhtmlmodularization20000105
 type: standard
-docid:
-- id: W3C WD-xhtml-modularization-20000105
+schema_version: v1.4.1
+formattedref: W3C WD-xhtml-modularization-20000105
+title:
+- language: en
+  script: Latn
+  content: Modularization of XHTML™
+source:
+- type: src
+  content: https://www.w3.org/TR/2000/WD-xhtml-modularization-20000105/
+docidentifier:
+- content: W3C WD-xhtml-modularization-20000105
   type: W3C
   primary: true
 docnumber: WD-xhtml-modularization-20000105
 date:
 - type: published
-  value: '2000-01-05'
+  at: '2000-01-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2000-01-05'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxhtml-modularization
     title:
-    - content: XHTML™ Modularization 1.1 - Second Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xhtml-modularization/
-      type: src
-    docid:
-    - id: W3C xhtml-modularization
+    - language: en
+      script: Latn
+      content: XHTML™ Modularization 1.1 - Second Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xhtml-modularization/
+    docidentifier:
+    - content: W3C xhtml-modularization
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xhtml-modularization-19990910
     title:
-    - content: Modularization of XHTML™
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/WD-xhtml-modularization-19990910/
-      type: src
-    docid:
-    - id: W3C WD-xhtml-modularization-19990910
+    - language: en
+      script: Latn
+      content: Modularization of XHTML™
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/WD-xhtml-modularization-19990910/
+    docidentifier:
+    - content: W3C WD-xhtml-modularization-19990910
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-xhtml-modularization-20001020
-    title:
-    - content: Modularization of XHTML™
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/CR-xhtml-modularization-20001020/
-      type: src
-    docid:
-    - id: W3C CR-xhtml-modularization-20001020
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Modularization of XHTML™
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/CR-xhtml-modularization-20001020/
+    docidentifier:
+    - content: W3C CR-xhtml-modularization-20001020
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xhtml-modularization-20000105
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

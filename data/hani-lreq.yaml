@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Chani-lreq
-title:
-- content: Chinese Script Resources
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/hani-lreq/
-  type: src
+id: W3Chanilreq
 type: standard
-docid:
-- id: W3C hani-lreq
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Chinese Script Resources
+source:
+- type: src
+  content: https://www.w3.org/TR/hani-lreq/
+docidentifier:
+- content: W3C hani-lreq
   type: W3C
   primary: true
 docnumber: hani-lreq
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-hani-lreq-20250319
     title:
-    - content: Chinese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/DNOTE-hani-lreq-20250319/
-      type: src
-    docid:
-    - id: W3C DNOTE-hani-lreq-20250319
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/DNOTE-hani-lreq-20250319/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20250319
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-hani-lreq-20241115
     title:
-    - content: Chinese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20241115/
-      type: src
-    docid:
-    - id: W3C DNOTE-hani-lreq-20241115
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20241115/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20241115
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-hani-lreq-20241114
     title:
-    - content: Chinese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20241114/
-      type: src
-    docid:
-    - id: W3C DNOTE-hani-lreq-20241114
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20241114/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20241114
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-hani-lreq-20240919
     title:
-    - content: Chinese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20240919/
-      type: src
-    docid:
-    - id: W3C DNOTE-hani-lreq-20240919
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20240919/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20240919
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-hani-lreq-20240808
     title:
-    - content: Chinese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20240808/
-      type: src
-    docid:
-    - id: W3C DNOTE-hani-lreq-20240808
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20240808/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20240808
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-hani-lreq-20240716
     title:
-    - content: Chinese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20240716/
-      type: src
-    docid:
-    - id: W3C DNOTE-hani-lreq-20240716
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-hani-lreq-20240716/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20240716
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: hani-lreq
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

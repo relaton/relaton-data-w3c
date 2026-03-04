@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xmldsig-bestpractices-20090226
-title:
-- content: XML Signature Best Practices
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/WD-xmldsig-bestpractices-20090226/
-  type: src
+id: W3CWDxmldsigbestpractices20090226
 type: standard
-docid:
-- id: W3C WD-xmldsig-bestpractices-20090226
+schema_version: v1.4.1
+formattedref: W3C WD-xmldsig-bestpractices-20090226
+title:
+- language: en
+  script: Latn
+  content: XML Signature Best Practices
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/WD-xmldsig-bestpractices-20090226/
+docidentifier:
+- content: W3C WD-xmldsig-bestpractices-20090226
   type: W3C
   primary: true
 docnumber: WD-xmldsig-bestpractices-20090226
 date:
 - type: published
-  value: '2009-02-26'
+  at: '2009-02-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Frederick
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Frederick
       surname:
+        language: en
+        script: Latn
         content: Hirsch
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Pratik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Pratik
       surname:
+        language: en
+        script: Latn
         content: Datta
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2009-02-26'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxmldsig-bestpractices
     title:
-    - content: XML Signature Best Practices
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xmldsig-bestpractices/
-      type: src
-    docid:
-    - id: W3C xmldsig-bestpractices
+    - language: en
+      script: Latn
+      content: XML Signature Best Practices
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xmldsig-bestpractices/
+    docidentifier:
+    - content: W3C xmldsig-bestpractices
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xmldsig-bestpractices-20081114
     title:
-    - content: XML Signature Best Practices
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-xmldsig-bestpractices-20081114/
-      type: src
-    docid:
-    - id: W3C WD-xmldsig-bestpractices-20081114
+    - language: en
+      script: Latn
+      content: XML Signature Best Practices
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-xmldsig-bestpractices-20081114/
+    docidentifier:
+    - content: W3C WD-xmldsig-bestpractices-20081114
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xmldsig-bestpractices-20090730
-    title:
-    - content: XML Signature Best Practices
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-xmldsig-bestpractices-20090730/
-      type: src
-    docid:
-    - id: W3C WD-xmldsig-bestpractices-20090730
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XML Signature Best Practices
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-xmldsig-bestpractices-20090730/
+    docidentifier:
+    - content: W3C WD-xmldsig-bestpractices-20090730
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xmldsig-bestpractices-20090226
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Security Working Group
+    content: technicalReport
+  flavor: w3c

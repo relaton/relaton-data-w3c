@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccapability-urls
-title:
-- content: Good Practices for Capability URLs
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/capability-urls/
-  type: src
+id: W3Ccapabilityurls
 type: standard
-docid:
-- id: W3C capability-urls
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Good Practices for Capability URLs
+source:
+- type: src
+  content: https://www.w3.org/TR/capability-urls/
+docidentifier:
+- content: W3C capability-urls
   type: W3C
   primary: true
 docnumber: capability-urls
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-capability-urls-20140218
     title:
-    - content: Good Practices for Capability URLs
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-capability-urls-20140218/
-      type: src
-    docid:
-    - id: W3C WD-capability-urls-20140218
+    - language: en
+      script: Latn
+      content: Good Practices for Capability URLs
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-capability-urls-20140218/
+    docidentifier:
+    - content: W3C WD-capability-urls-20140218
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: capability-urls
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

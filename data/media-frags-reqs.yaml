@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cmedia-frags-reqs
-title:
-- content: Use cases and requirements for Media Fragments
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/media-frags-reqs/
-  type: src
+id: W3Cmediafragsreqs
 type: standard
-docid:
-- id: W3C media-frags-reqs
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Use cases and requirements for Media Fragments
+source:
+- type: src
+  content: https://www.w3.org/TR/media-frags-reqs/
+docidentifier:
+- content: W3C media-frags-reqs
   type: W3C
   primary: true
 docnumber: media-frags-reqs
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-media-frags-reqs-20091217
     title:
-    - content: Use cases and requirements for Media Fragments
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-media-frags-reqs-20091217/
-      type: src
-    docid:
-    - id: W3C WD-media-frags-reqs-20091217
+    - language: en
+      script: Latn
+      content: Use cases and requirements for Media Fragments
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-media-frags-reqs-20091217/
+    docidentifier:
+    - content: W3C WD-media-frags-reqs-20091217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-media-frags-reqs-20090430
     title:
-    - content: Use cases and requirements for Media Fragments
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-media-frags-reqs-20090430
-      type: src
-    docid:
-    - id: W3C WD-media-frags-reqs-20090430
+    - language: en
+      script: Latn
+      content: Use cases and requirements for Media Fragments
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-media-frags-reqs-20090430
+    docidentifier:
+    - content: W3C WD-media-frags-reqs-20090430
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: media-frags-reqs
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

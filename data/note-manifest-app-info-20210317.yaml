@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-manifest-app-info-20210317
-title:
-- content: Web App Manifest - Application Information
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210317/
-  type: src
+id: W3CNOTEmanifestappinfo20210317
 type: standard
-docid:
-- id: W3C NOTE-manifest-app-info-20210317
+schema_version: v1.4.1
+formattedref: W3C NOTE-manifest-app-info-20210317
+title:
+- language: en
+  script: Latn
+  content: Web App Manifest - Application Information
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210317/
+docidentifier:
+- content: W3C NOTE-manifest-app-info-20210317
   type: W3C
   primary: true
 docnumber: NOTE-manifest-app-info-20210317
 date:
 - type: published
-  value: '2021-03-17'
+  at: '2021-03-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Aaron
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gustafson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-03-17'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Aaron
+      surname:
+        language: en
+        script: Latn
+        content: Gustafson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmanifest-app-info
     title:
-    - content: Web App Manifest - Application Information
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/manifest-app-info/
-      type: src
-    docid:
-    - id: W3C manifest-app-info
+    - language: en
+      script: Latn
+      content: Web App Manifest - Application Information
+    source:
+    - type: src
+      content: https://www.w3.org/TR/manifest-app-info/
+    docidentifier:
+    - content: W3C manifest-app-info
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CNOTE-manifest-app-info-20210315
     title:
-    - content: Web App Manifest - Application Information
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210315/
-      type: src
-    docid:
-    - id: W3C NOTE-manifest-app-info-20210315
+    - language: en
+      script: Latn
+      content: Web App Manifest - Application Information
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210315/
+    docidentifier:
+    - content: W3C NOTE-manifest-app-info-20210315
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-manifest-app-info-20210324
-    title:
-    - content: Web App Manifest - Application Information
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210324/
-      type: src
-    docid:
-    - id: W3C NOTE-manifest-app-info-20210324
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web App Manifest - Application Information
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210324/
+    docidentifier:
+    - content: W3C NOTE-manifest-app-info-20210324
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-manifest-app-info-20210317
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Applications Working Group
+    content: technicalReport
+  flavor: w3c

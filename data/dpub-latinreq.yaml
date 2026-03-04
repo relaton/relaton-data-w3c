@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cdpub-latinreq
-title:
-- content: Requirements for Latin Text Layout and Pagination
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/dpub-latinreq/
-  type: src
+id: W3Cdpublatinreq
 type: standard
-docid:
-- id: W3C dpub-latinreq
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Requirements for Latin Text Layout and Pagination
+source:
+- type: src
+  content: https://www.w3.org/TR/dpub-latinreq/
+docidentifier:
+- content: W3C dpub-latinreq
   type: W3C
   primary: true
 docnumber: dpub-latinreq
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-dpub-latinreq-20140930
     title:
-    - content: Requirements for Latin Text Layout and Pagination
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140930/
-      type: src
-    docid:
-    - id: W3C WD-dpub-latinreq-20140930
+    - language: en
+      script: Latn
+      content: Requirements for Latin Text Layout and Pagination
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140930/
+    docidentifier:
+    - content: W3C WD-dpub-latinreq-20140930
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-dpub-latinreq-20140313
     title:
-    - content: Requirements for Latin Text Layout and Pagination
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140313/
-      type: src
-    docid:
-    - id: W3C WD-dpub-latinreq-20140313
+    - language: en
+      script: Latn
+      content: Requirements for Latin Text Layout and Pagination
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-dpub-latinreq-20140313/
+    docidentifier:
+    - content: W3C WD-dpub-latinreq-20140313
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: dpub-latinreq
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,112 +1,132 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-WCAG-EM-20120327
-title:
-- content: Website Accessibility Conformance Evaluation Methodology 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/WD-WCAG-EM-20120327/
-  type: src
+id: W3CWDWCAGEM20120327
 type: standard
-docid:
-- id: W3C WD-WCAG-EM-20120327
+schema_version: v1.4.1
+formattedref: W3C WD-WCAG-EM-20120327
+title:
+- language: en
+  script: Latn
+  content: Website Accessibility Conformance Evaluation Methodology 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/WD-WCAG-EM-20120327/
+docidentifier:
+- content: W3C WD-WCAG-EM-20120327
   type: W3C
   primary: true
 docnumber: WD-WCAG-EM-20120327
 date:
 - type: published
-  value: '2012-03-27'
+  at: '2012-03-27'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Eric
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eric
       surname:
+        language: en
+        script: Latn
         content: Velleman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Shadi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Shadi
       surname:
+        language: en
+        script: Latn
         content: Abou-Zahra
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2012-03-27'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Evaluation and Repair Tools Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessibility Guidelines Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWCAG-EM
     title:
-    - content: Website Accessibility Conformance Evaluation Methodology (WCAG-EM)
+    - language: en
+      script: Latn
+      content: Website Accessibility Conformance Evaluation Methodology (WCAG-EM)
         1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WCAG-EM/
-      type: src
-    docid:
-    - id: W3C WCAG-EM
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WCAG-EM/
+    docidentifier:
+    - content: W3C WCAG-EM
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-WCAG-EM-20120920
-    title:
-    - content: Website Accessibility Conformance Evaluation Methodology 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-WCAG-EM-20120920/
-      type: src
-    docid:
-    - id: W3C WD-WCAG-EM-20120920
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Website Accessibility Conformance Evaluation Methodology 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-WCAG-EM-20120920/
+    docidentifier:
+    - content: W3C WD-WCAG-EM-20120920
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-WCAG-EM-20120327
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Evaluation and Repair Tools Working Group
-  - name: Accessibility Guidelines Working Group
+    content: technicalReport
+  flavor: w3c

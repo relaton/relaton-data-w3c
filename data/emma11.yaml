@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cemma11
-title:
-- content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/emma11/
-  type: src
 type: standard
-docid:
-- id: W3C emma11
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
+source:
+- type: src
+  content: https://www.w3.org/TR/emma11/
+docidentifier:
+- content: W3C emma11
   type: W3C
   primary: true
 docnumber: emma11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-emma11-20130627
     title:
-    - content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-emma11-20130627/
-      type: src
-    docid:
-    - id: W3C WD-emma11-20130627
+    - language: en
+      script: Latn
+      content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-emma11-20130627/
+    docidentifier:
+    - content: W3C WD-emma11-20130627
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-emma11-20120209
     title:
-    - content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-emma11-20120209/
-      type: src
-    docid:
-    - id: W3C WD-emma11-20120209
+    - language: en
+      script: Latn
+      content: 'EMMA: Extensible MultiModal Annotation markup language Version 1.1'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-emma11-20120209/
+    docidentifier:
+    - content: W3C WD-emma11-20120209
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: emma11
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

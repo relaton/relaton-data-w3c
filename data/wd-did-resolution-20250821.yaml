@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-did-resolution-20250821
-title:
-- content: Decentralized Identifier Resolution (DID Resolution) v0.3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/WD-did-resolution-20250821/
-  type: src
+id: W3CWDdidresolution20250821
 type: standard
-docid:
-- id: W3C WD-did-resolution-20250821
+schema_version: v1.4.1
+formattedref: W3C WD-did-resolution-20250821
+title:
+- language: en
+  script: Latn
+  content: Decentralized Identifier Resolution (DID Resolution) v0.3
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/WD-did-resolution-20250821/
+docidentifier:
+- content: W3C WD-did-resolution-20250821
   type: W3C
   primary: true
 docnumber: WD-did-resolution-20250821
 date:
 - type: published
-  value: '2025-08-21'
+  at: '2025-08-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Markus
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Markus
       surname:
+        language: en
+        script: Latn
         content: Sabadello
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dmitri
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dmitri
       surname:
+        language: en
+        script: Latn
         content: Zagidulin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-08-21'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Decentralized Identifier Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdid-resolution
     title:
-    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/did-resolution/
-      type: src
-    docid:
-    - id: W3C did-resolution
+    - language: en
+      script: Latn
+      content: Decentralized Identifier Resolution (DID Resolution) v0.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/did-resolution/
+    docidentifier:
+    - content: W3C did-resolution
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-did-resolution-20250803
     title:
-    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-did-resolution-20250803/
-      type: src
-    docid:
-    - id: W3C WD-did-resolution-20250803
+    - language: en
+      script: Latn
+      content: Decentralized Identifier Resolution (DID Resolution) v0.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-did-resolution-20250803/
+    docidentifier:
+    - content: W3C WD-did-resolution-20250803
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-did-resolution-20250908
-    title:
-    - content: Decentralized Identifier Resolution (DID Resolution) v0.3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-did-resolution-20250908/
-      type: src
-    docid:
-    - id: W3C WD-did-resolution-20250908
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Decentralized Identifier Resolution (DID Resolution) v0.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-did-resolution-20250908/
+    docidentifier:
+    - content: W3C WD-did-resolution-20250908
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-did-resolution-20250821
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Decentralized Identifier Working Group
+    content: technicalReport
+  flavor: w3c

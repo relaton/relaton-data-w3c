@@ -1,128 +1,125 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-mmi-dev-feedback-20060414
-title:
-- content: Multimodal Application Developer Feedback
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2006/NOTE-mmi-dev-feedback-20060414/
-  type: src
+id: W3CNOTEmmidevfeedback20060414
 type: standard
-docid:
-- id: W3C NOTE-mmi-dev-feedback-20060414
+schema_version: v1.4.1
+formattedref: W3C NOTE-mmi-dev-feedback-20060414
+title:
+- language: en
+  script: Latn
+  content: Multimodal Application Developer Feedback
+source:
+- type: src
+  content: https://www.w3.org/TR/2006/NOTE-mmi-dev-feedback-20060414/
+docidentifier:
+- content: W3C NOTE-mmi-dev-feedback-20060414
   type: W3C
   primary: true
 docnumber: NOTE-mmi-dev-feedback-20060414
 date:
 - type: published
-  value: '2006-04-14'
+  at: '2006-04-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Gerald
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gerald
       surname:
+        language: en
+        script: Latn
         content: McCobb
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Klaus
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Klaus
       surname:
+        language: en
+        script: Latn
         content: Reifenrath
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Raj
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Raj
       surname:
+        language: en
+        script: Latn
         content: Tumuluri
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Sunil
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Sunil
       surname:
+        language: en
+        script: Latn
         content: Kumar
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2006-04-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Multimodal Interaction Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmmi-dev-feedback
     title:
-    - content: Multimodal Application Developer Feedback
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mmi-dev-feedback/
-      type: src
-    docid:
-    - id: W3C mmi-dev-feedback
+    - language: en
+      script: Latn
+      content: Multimodal Application Developer Feedback
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mmi-dev-feedback/
+    docidentifier:
+    - content: W3C mmi-dev-feedback
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-mmi-dev-feedback-20060414
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Multimodal Interaction Working Group
+    content: technicalReport
+  flavor: w3c

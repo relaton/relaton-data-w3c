@@ -1,128 +1,125 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-tenthold-2-20011128
-title:
-- content: 'Tentative Hold Protocol Part 2: Technical Specification'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2001/NOTE-tenthold-2-20011128/
-  type: src
+id: W3CNOTEtenthold220011128
 type: standard
-docid:
-- id: W3C NOTE-tenthold-2-20011128
+schema_version: v1.4.1
+formattedref: W3C NOTE-tenthold-2-20011128
+title:
+- language: en
+  script: Latn
+  content: 'Tentative Hold Protocol Part 2: Technical Specification'
+source:
+- type: src
+  content: https://www.w3.org/TR/2001/NOTE-tenthold-2-20011128/
+docidentifier:
+- content: W3C NOTE-tenthold-2-20011128
   type: W3C
   primary: true
 docnumber: NOTE-tenthold-2-20011128
 date:
 - type: published
-  value: '2001-11-28'
+  at: '2001-11-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jerry
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jerry
       surname:
+        language: en
+        script: Latn
         content: Roberts
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tim
       surname:
+        language: en
+        script: Latn
         content: Collier
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Pallavi
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Pallavi
       surname:
+        language: en
+        script: Latn
         content: Malu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Krishnamurthy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Krishnamurthy
       surname:
+        language: en
+        script: Latn
         content: Srinivasan
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2001-11-28'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctenthold-2
     title:
-    - content: 'Tentative Hold Protocol Part 2: Technical Specification'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/tenthold-2/
-      type: src
-    docid:
-    - id: W3C tenthold-2
+    - language: en
+      script: Latn
+      content: 'Tentative Hold Protocol Part 2: Technical Specification'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/tenthold-2/
+    docidentifier:
+    - content: W3C tenthold-2
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-tenthold-2-20011128
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

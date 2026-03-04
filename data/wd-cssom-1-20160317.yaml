@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-cssom-1-20160317
-title:
-- content: CSS Object Model (CSSOM)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2016/WD-cssom-1-20160317/
-  type: src
+id: W3CWDcssom120160317
 type: standard
-docid:
-- id: W3C WD-cssom-1-20160317
+schema_version: v1.4.1
+formattedref: W3C WD-cssom-1-20160317
+title:
+- language: en
+  script: Latn
+  content: CSS Object Model (CSSOM)
+source:
+- type: src
+  content: https://www.w3.org/TR/2016/WD-cssom-1-20160317/
+docidentifier:
+- content: W3C WD-cssom-1-20160317
   type: W3C
   primary: true
 docnumber: WD-cssom-1-20160317
 date:
 - type: published
-  value: '2016-03-17'
+  at: '2016-03-17'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Simon
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Simon
       surname:
+        language: en
+        script: Latn
         content: Pieters
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Glenn
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Glenn
       surname:
+        language: en
+        script: Latn
         content: Adams
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2016-03-17'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccssom-1
     title:
-    - content: CSS Object Model (CSSOM)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/cssom-1/
-      type: src
-    docid:
-    - id: W3C cssom-1
+    - language: en
+      script: Latn
+      content: CSS Object Model (CSSOM)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/cssom-1/
+    docidentifier:
+    - content: W3C cssom-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-cssom-20131205
     title:
-    - content: CSS Object Model (CSSOM)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-cssom-20131205/
-      type: src
-    docid:
-    - id: W3C WD-cssom-20131205
+    - language: en
+      script: Latn
+      content: CSS Object Model (CSSOM)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-cssom-20131205/
+    docidentifier:
+    - content: W3C WD-cssom-20131205
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-cssom-1-20210826
-    title:
-    - content: CSS Object Model (CSSOM)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-cssom-1-20210826/
-      type: src
-    docid:
-    - id: W3C WD-cssom-1-20210826
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Object Model (CSSOM)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-cssom-1-20210826/
+    docidentifier:
+    - content: W3C WD-cssom-1-20210826
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-cssom-1-20160317
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

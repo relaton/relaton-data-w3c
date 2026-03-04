@@ -1,111 +1,113 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-wcag-em-2-20260205
-title:
-- content: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2026/DNOTE-wcag-em-2-20260205/
-  type: src
+id: W3CDNOTEwcagem220260205
 type: standard
-docid:
-- id: W3C DNOTE-wcag-em-2-20260205
+schema_version: v1.4.1
+formattedref: W3C DNOTE-wcag-em-2-20260205
+title:
+- language: en
+  script: Latn
+  content: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2026/DNOTE-wcag-em-2-20260205/
+docidentifier:
+- content: W3C DNOTE-wcag-em-2-20260205
   type: W3C
   primary: true
 docnumber: DNOTE-wcag-em-2-20260205
 date:
 - type: published
-  value: '2026-02-05'
+  at: '2026-02-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Steve
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Steve
       surname:
+        language: en
+        script: Latn
         content: Faulkner
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jeroen
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jeroen
       surname:
+        language: en
+        script: Latn
         content: Hulscher
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Hidde
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Hidde
       surname:
+        language: en
+        script: Latn
         content: de Vries
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2026-02-05'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessibility Guidelines Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwcag-em-2
     title:
-    - content: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/wcag-em-2/
-      type: src
-    docid:
-    - id: W3C wcag-em-2
+    - language: en
+      script: Latn
+      content: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/wcag-em-2/
+    docidentifier:
+    - content: W3C wcag-em-2
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-wcag-em-2-20260205
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessibility Guidelines Working Group
+    content: technicalReport
+  flavor: w3c

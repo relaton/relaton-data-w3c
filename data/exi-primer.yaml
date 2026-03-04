@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cexi-primer
-title:
-- content: Efficient XML Interchange (EXI) Primer
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/exi-primer/
-  type: src
+id: W3Cexiprimer
 type: standard
-docid:
-- id: W3C exi-primer
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Efficient XML Interchange (EXI) Primer
+source:
+- type: src
+  content: https://www.w3.org/TR/exi-primer/
+docidentifier:
+- content: W3C exi-primer
   type: W3C
   primary: true
 docnumber: exi-primer
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-exi-primer-20140424
     title:
-    - content: Efficient XML Interchange (EXI) Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-exi-primer-20140424/
-      type: src
-    docid:
-    - id: W3C WD-exi-primer-20140424
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-exi-primer-20140424/
+    docidentifier:
+    - content: W3C WD-exi-primer-20140424
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-exi-primer-20091208
     title:
-    - content: Efficient XML Interchange (EXI) Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-exi-primer-20091208/
-      type: src
-    docid:
-    - id: W3C WD-exi-primer-20091208
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-exi-primer-20091208/
+    docidentifier:
+    - content: W3C WD-exi-primer-20091208
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-exi-primer-20071219
     title:
-    - content: Efficient XML Interchange (EXI) Primer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-exi-primer-20071219/
-      type: src
-    docid:
-    - id: W3C WD-exi-primer-20071219
+    - language: en
+      script: Latn
+      content: Efficient XML Interchange (EXI) Primer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-exi-primer-20071219/
+    docidentifier:
+    - content: W3C WD-exi-primer-20071219
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: exi-primer
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-cid-1.0-20250207
-title:
-- content: Controlled Identifiers v1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/CRD-cid-1.0-20250207/
-  type: src
+id: W3CCRDcid1020250207
 type: standard
-docid:
-- id: W3C CRD-cid-1.0-20250207
+schema_version: v1.4.1
+formattedref: W3C CRD-cid-1.0-20250207
+title:
+- language: en
+  script: Latn
+  content: Controlled Identifiers v1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/CRD-cid-1.0-20250207/
+docidentifier:
+- content: W3C CRD-cid-1.0-20250207
   type: W3C
   primary: true
 docnumber: CRD-cid-1.0-20250207
 date:
 - type: published
-  value: '2025-02-07'
+  at: '2025-02-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Manu
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Manu
       surname:
+        language: en
+        script: Latn
         content: Sporny
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-02-07'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Verifiable Credentials Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccid-1.0
     title:
-    - content: Controlled Identifiers v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/cid-1.0/
-      type: src
-    docid:
-    - id: W3C cid-1.0
+    - language: en
+      script: Latn
+      content: Controlled Identifiers v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/cid-1.0/
+    docidentifier:
+    - content: W3C cid-1.0
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-cid-1.0-20250130
     title:
-    - content: Controlled Identifiers (CIDs) v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CR-cid-1.0-20250130/
-      type: src
-    docid:
-    - id: W3C CR-cid-1.0-20250130
+    - language: en
+      script: Latn
+      content: Controlled Identifiers (CIDs) v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CR-cid-1.0-20250130/
+    docidentifier:
+    - content: W3C CR-cid-1.0-20250130
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-cid-1.0-20250209
-    title:
-    - content: Controlled Identifiers v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-cid-1.0-20250209/
-      type: src
-    docid:
-    - id: W3C CRD-cid-1.0-20250209
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Controlled Identifiers v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-cid-1.0-20250209/
+    docidentifier:
+    - content: W3C CRD-cid-1.0-20250209
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-cid-1.0-20250207
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Verifiable Credentials Working Group
+    content: technicalReport
+  flavor: w3c

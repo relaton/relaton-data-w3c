@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cits
-title:
-- content: Internationalization Tag Set (ITS) Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/its/
-  type: src
 type: standard
-docid:
-- id: W3C its
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Internationalization Tag Set (ITS) Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/its/
+docidentifier:
+- content: W3C its
   type: W3C
   primary: true
 docnumber: its
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,101 +31,103 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-its-20070403
     title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/REC-its-20070403/
-      type: src
-    docid:
-    - id: W3C REC-its-20070403
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/REC-its-20070403/
+    docidentifier:
+    - content: W3C REC-its-20070403
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-its-20070226
     title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/PR-its-20070226/
-      type: src
-    docid:
-    - id: W3C PR-its-20070226
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/PR-its-20070226/
+    docidentifier:
+    - content: W3C PR-its-20070226
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-its-20061102
     title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/CR-its-20061102/
-      type: src
-    docid:
-    - id: W3C CR-its-20061102
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/CR-its-20061102/
+    docidentifier:
+    - content: W3C CR-its-20061102
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-its-20060518
     title:
-    - content: Internationalization Tag Set (ITS) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-its-20060518/
-      type: src
-    docid:
-    - id: W3C WD-its-20060518
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-its-20060518/
+    docidentifier:
+    - content: W3C WD-its-20060518
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-its-20060414
     title:
-    - content: Internationalization Tag Set (ITS)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-its-20060414/
-      type: src
-    docid:
-    - id: W3C WD-its-20060414
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-its-20060414/
+    docidentifier:
+    - content: W3C WD-its-20060414
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-its-20060222
     title:
-    - content: Internationalization Tag Set (ITS)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-its-20060222/
-      type: src
-    docid:
-    - id: W3C WD-its-20060222
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-its-20060222/
+    docidentifier:
+    - content: W3C WD-its-20060222
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-its-20051122
     title:
-    - content: Internationalization Tag Set (ITS)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-its-20051122/
-      type: src
-    docid:
-    - id: W3C WD-its-20051122
+    - language: en
+      script: Latn
+      content: Internationalization Tag Set (ITS)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-its-20051122/
+    docidentifier:
+    - content: W3C WD-its-20051122
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: its
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

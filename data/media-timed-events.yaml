@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cmedia-timed-events
-title:
-- content: Requirements for Media Timed Events
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/media-timed-events/
-  type: src
+id: W3Cmediatimedevents
 type: standard
-docid:
-- id: W3C media-timed-events
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Requirements for Media Timed Events
+source:
+- type: src
+  content: https://www.w3.org/TR/media-timed-events/
+docidentifier:
+- content: W3C media-timed-events
   type: W3C
   primary: true
 docnumber: media-timed-events
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-media-timed-events-20200625
     title:
-    - content: Requirements for Media Timed Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/NOTE-media-timed-events-20200625/
-      type: src
-    docid:
-    - id: W3C NOTE-media-timed-events-20200625
+    - language: en
+      script: Latn
+      content: Requirements for Media Timed Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/NOTE-media-timed-events-20200625/
+    docidentifier:
+    - content: W3C NOTE-media-timed-events-20200625
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-media-timed-events-20190516
     title:
-    - content: Media Timed Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/NOTE-media-timed-events-20190516/
-      type: src
-    docid:
-    - id: W3C NOTE-media-timed-events-20190516
+    - language: en
+      script: Latn
+      content: Media Timed Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/NOTE-media-timed-events-20190516/
+    docidentifier:
+    - content: W3C NOTE-media-timed-events-20190516
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: media-timed-events
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CsXBL
-title:
-- content: SVG's XML Binding Language (sXBL)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/sXBL/
-  type: src
 type: standard
-docid:
-- id: W3C sXBL
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SVG's XML Binding Language (sXBL)
+source:
+- type: src
+  content: https://www.w3.org/TR/sXBL/
+docidentifier:
+- content: W3C sXBL
   type: W3C
   primary: true
 docnumber: sXBL
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-sXBL-20050815
     title:
-    - content: SVG's XML Binding Language (sXBL)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-sXBL-20050815/
-      type: src
-    docid:
-    - id: W3C WD-sXBL-20050815
+    - language: en
+      script: Latn
+      content: SVG's XML Binding Language (sXBL)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-sXBL-20050815/
+    docidentifier:
+    - content: W3C WD-sXBL-20050815
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sXBL-20050405
     title:
-    - content: SVG's XML Binding Language (sXBL)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/WD-sXBL-20050405
-      type: src
-    docid:
-    - id: W3C WD-sXBL-20050405
+    - language: en
+      script: Latn
+      content: SVG's XML Binding Language (sXBL)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/WD-sXBL-20050405
+    docidentifier:
+    - content: W3C WD-sXBL-20050405
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sXBL-20041122
     title:
-    - content: SVG's XML Binding Language (sXBL)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-sXBL-20041122
-      type: src
-    docid:
-    - id: W3C WD-sXBL-20041122
+    - language: en
+      script: Latn
+      content: SVG's XML Binding Language (sXBL)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-sXBL-20041122
+    docidentifier:
+    - content: W3C WD-sXBL-20041122
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sXBL-20040901
     title:
-    - content: SVG's XML Binding Language (sXBL)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-sXBL-20040901
-      type: src
-    docid:
-    - id: W3C WD-sXBL-20040901
+    - language: en
+      script: Latn
+      content: SVG's XML Binding Language (sXBL)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-sXBL-20040901
+    docidentifier:
+    - content: W3C WD-sXBL-20040901
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: sXBL
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

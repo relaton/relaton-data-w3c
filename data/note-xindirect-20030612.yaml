@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-XIndirect-20030612
-title:
-- content: XML Indirection Facility
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/NOTE-XIndirect-20030612
-  type: src
+id: W3CNOTEXIndirect20030612
 type: standard
-docid:
-- id: W3C NOTE-XIndirect-20030612
+schema_version: v1.4.1
+formattedref: W3C NOTE-XIndirect-20030612
+title:
+- language: en
+  script: Latn
+  content: XML Indirection Facility
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/NOTE-XIndirect-20030612
+docidentifier:
+- content: W3C NOTE-XIndirect-20030612
   type: W3C
   primary: true
 docnumber: NOTE-XIndirect-20030612
 date:
 - type: published
-  value: '2003-06-12'
+  at: '2003-06-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Eliot
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kimber
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2003-06-12'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Eliot
+      surname:
+        language: en
+        script: Latn
+        content: Kimber
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CXIndirect
     title:
-    - content: XML Indirection Facility
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/XIndirect
-      type: src
-    docid:
-    - id: W3C XIndirect
+    - language: en
+      script: Latn
+      content: XML Indirection Facility
+    source:
+    - type: src
+      content: https://www.w3.org/TR/XIndirect
+    docidentifier:
+    - content: W3C XIndirect
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-XIndirect-20030612
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

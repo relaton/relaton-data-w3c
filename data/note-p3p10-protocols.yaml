@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-P3P10-Protocols
-title:
-- content: P3P Protocol and Data Transport Working Group Draft White Paper
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/NOTE-P3P10-Protocols
-  type: src
+id: W3CNOTEP3P10Protocols
 type: standard
-docid:
-- id: W3C NOTE-P3P10-Protocols
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: P3P Protocol and Data Transport Working Group Draft White Paper
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/NOTE-P3P10-Protocols
+docidentifier:
+- content: W3C NOTE-P3P10-Protocols
   type: W3C
   primary: true
 docnumber: NOTE-P3P10-Protocols
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-P3P10-Protocols-19980324
     title:
-    - content: P3P Protocol and Data Transport Working Group Draft White Paper
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1998/NOTE-P3P10-Protocols-19980324
-      type: src
-    docid:
-    - id: W3C NOTE-P3P10-Protocols-19980324
+    - language: en
+      script: Latn
+      content: P3P Protocol and Data Transport Working Group Draft White Paper
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1998/NOTE-P3P10-Protocols-19980324
+    docidentifier:
+    - content: W3C NOTE-P3P10-Protocols-19980324
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: NOTE-P3P10-Protocols
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

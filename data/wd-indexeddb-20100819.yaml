@@ -1,157 +1,153 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-IndexedDB-20100819
-title:
-- content: Indexed Database API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2010/WD-IndexedDB-20100819/
-  type: src
+id: W3CWDIndexedDB20100819
 type: standard
-docid:
-- id: W3C WD-IndexedDB-20100819
+schema_version: v1.4.1
+formattedref: W3C WD-IndexedDB-20100819
+title:
+- language: en
+  script: Latn
+  content: Indexed Database API
+source:
+- type: src
+  content: https://www.w3.org/TR/2010/WD-IndexedDB-20100819/
+docidentifier:
+- content: W3C WD-IndexedDB-20100819
   type: W3C
   primary: true
 docnumber: WD-IndexedDB-20100819
 date:
 - type: published
-  value: '2010-08-19'
+  at: '2010-08-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Andrei
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andrei
       surname:
+        language: en
+        script: Latn
         content: Popescu
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jonas
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jonas
       surname:
+        language: en
+        script: Latn
         content: Sicking
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Nikunj
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Nikunj
       surname:
+        language: en
+        script: Latn
         content: Mehta
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Eliot
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eliot
       surname:
+        language: en
+        script: Latn
         content: Graff
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2010-08-19'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CIndexedDB
     title:
-    - content: Indexed Database API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/IndexedDB/
-      type: src
-    docid:
-    - id: W3C IndexedDB
+    - language: en
+      script: Latn
+      content: Indexed Database API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/IndexedDB/
+    docidentifier:
+    - content: W3C IndexedDB
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-IndexedDB-20100105
     title:
-    - content: Indexed Database API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-IndexedDB-20100105/
-      type: src
-    docid:
-    - id: W3C WD-IndexedDB-20100105
+    - language: en
+      script: Latn
+      content: Indexed Database API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-IndexedDB-20100105/
+    docidentifier:
+    - content: W3C WD-IndexedDB-20100105
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-IndexedDB-20110419
-    title:
-    - content: Indexed Database API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-IndexedDB-20110419/
-      type: src
-    docid:
-    - id: W3C WD-IndexedDB-20110419
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Indexed Database API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-IndexedDB-20110419/
+    docidentifier:
+    - content: W3C WD-IndexedDB-20110419
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-IndexedDB-20100819
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

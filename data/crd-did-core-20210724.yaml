@@ -1,191 +1,177 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-did-core-20210724
-title:
-- content: Decentralized Identifiers (DIDs) v1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/CRD-did-core-20210724/
-  type: src
+id: W3CCRDdidcore20210724
 type: standard
-docid:
-- id: W3C CRD-did-core-20210724
+schema_version: v1.4.1
+formattedref: W3C CRD-did-core-20210724
+title:
+- language: en
+  script: Latn
+  content: Decentralized Identifiers (DIDs) v1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/CRD-did-core-20210724/
+docidentifier:
+- content: W3C CRD-did-core-20210724
   type: W3C
   primary: true
 docnumber: CRD-did-core-20210724
 date:
 - type: published
-  value: '2021-07-24'
+  at: '2021-07-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Manu
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Manu
       surname:
+        language: en
+        script: Latn
         content: Sporny
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Amy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Amy
       surname:
+        language: en
+        script: Latn
         content: Guy
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Markus
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Markus
       surname:
+        language: en
+        script: Latn
         content: Sabadello
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Drummond
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Drummond
       surname:
+        language: en
+        script: Latn
         content: Reed
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Dave
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
       surname:
+        language: en
+        script: Latn
         content: Longley
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Christopher
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Christopher
       surname:
+        language: en
+        script: Latn
         content: Allen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2021-07-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Decentralized Identifier Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdid-core
     title:
-    - content: Decentralized Identifiers (DIDs) v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/did-core/
-      type: src
-    docid:
-    - id: W3C did-core
+    - language: en
+      script: Latn
+      content: Decentralized Identifiers (DIDs) v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/did-core/
+    docidentifier:
+    - content: W3C did-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-did-core-20210720
     title:
-    - content: Decentralized Identifiers (DIDs) v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/CRD-did-core-20210720/
-      type: src
-    docid:
-    - id: W3C CRD-did-core-20210720
+    - language: en
+      script: Latn
+      content: Decentralized Identifiers (DIDs) v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/CRD-did-core-20210720/
+    docidentifier:
+    - content: W3C CRD-did-core-20210720
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-did-core-20210730
-    title:
-    - content: Decentralized Identifiers (DIDs) v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/CRD-did-core-20210730/
-      type: src
-    docid:
-    - id: W3C CRD-did-core-20210730
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Decentralized Identifiers (DIDs) v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/CRD-did-core-20210730/
+    docidentifier:
+    - content: W3C CRD-did-core-20210730
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-did-core-20210724
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Decentralized Identifier Working Group
+    content: technicalReport
+  flavor: w3c

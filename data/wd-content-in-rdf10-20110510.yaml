@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-Content-in-RDF10-20110510
-title:
-- content: Representing Content in RDF 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-Content-in-RDF10-20110510/
-  type: src
+id: W3CWDContentinRDF1020110510
 type: standard
-docid:
-- id: W3C WD-Content-in-RDF10-20110510
+schema_version: v1.4.1
+formattedref: W3C WD-Content-in-RDF10-20110510
+title:
+- language: en
+  script: Latn
+  content: Representing Content in RDF 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-Content-in-RDF10-20110510/
+docidentifier:
+- content: W3C WD-Content-in-RDF10-20110510
   type: W3C
   primary: true
 docnumber: WD-Content-in-RDF10-20110510
 date:
 - type: published
-  value: '2011-05-10'
+  at: '2011-05-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Johannes
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Johannes
       surname:
+        language: en
+        script: Latn
         content: Koch
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Carlos A.
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Carlos A.
       surname:
+        language: en
+        script: Latn
         content: Velasco
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Philip
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Philip
       surname:
+        language: en
+        script: Latn
         content: Ackermann
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-05-10'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Evaluation and Repair Tools Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CContent-in-RDF10
     title:
-    - content: Representing Content in RDF 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/Content-in-RDF10/
-      type: src
-    docid:
-    - id: W3C Content-in-RDF10
+    - language: en
+      script: Latn
+      content: Representing Content in RDF 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/Content-in-RDF10/
+    docidentifier:
+    - content: W3C Content-in-RDF10
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-Content-in-RDF10-20091029
     title:
-    - content: Representing Content in RDF 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/WD-Content-in-RDF10-20091029/
-      type: src
-    docid:
-    - id: W3C WD-Content-in-RDF10-20091029
+    - language: en
+      script: Latn
+      content: Representing Content in RDF 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/WD-Content-in-RDF10-20091029/
+    docidentifier:
+    - content: W3C WD-Content-in-RDF10-20091029
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-Content-in-RDF10-20170202
-    title:
-    - content: Representing Content in RDF 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/NOTE-Content-in-RDF10-20170202/
-      type: src
-    docid:
-    - id: W3C NOTE-Content-in-RDF10-20170202
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Representing Content in RDF 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/NOTE-Content-in-RDF10-20170202/
+    docidentifier:
+    - content: W3C NOTE-Content-in-RDF10-20170202
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-Content-in-RDF10-20110510
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Evaluation and Repair Tools Working Group
+    content: technicalReport
+  flavor: w3c

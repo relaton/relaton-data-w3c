@@ -1,158 +1,150 @@
 ---
-schema-version: v1.2.9
-id: W3CDISC-vehicle-information-service-20220329
-title:
-- content: Vehicle Information Service Specification
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2022/DISC-vehicle-information-service-20220329/
-  type: src
+id: W3CDISCvehicleinformationservice20220329
 type: standard
-docid:
-- id: W3C DISC-vehicle-information-service-20220329
+schema_version: v1.4.1
+formattedref: W3C DISC-vehicle-information-service-20220329
+title:
+- language: en
+  script: Latn
+  content: Vehicle Information Service Specification
+source:
+- type: src
+  content: https://www.w3.org/TR/2022/DISC-vehicle-information-service-20220329/
+docidentifier:
+- content: W3C DISC-vehicle-information-service-20220329
   type: W3C
   primary: true
 docnumber: DISC-vehicle-information-service-20220329
 date:
 - type: published
-  value: '2022-03-29'
+  at: '2022-03-29'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Kevin
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kevin
       surname:
+        language: en
+        script: Latn
         content: Gavigan
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Adam
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Adam
       surname:
+        language: en
+        script: Latn
         content: Crofts
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Wonsuk
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Wonsuk
       surname:
+        language: en
+        script: Latn
         content: Lee
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Powell
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Powell
       surname:
+        language: en
+        script: Latn
         content: Kinney
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Ted
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ted
       surname:
+        language: en
+        script: Latn
         content: Guild
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2022-03-29'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Automotive Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvehicle-information-service
     title:
-    - content: Vehicle Information Service Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vehicle-information-service/
-      type: src
-    docid:
-    - id: W3C vehicle-information-service
+    - language: en
+      script: Latn
+      content: Vehicle Information Service Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vehicle-information-service/
+    docidentifier:
+    - content: W3C vehicle-information-service
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-vehicle-information-service-20180213
     title:
-    - content: Vehicle Information Service Specification
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2018/CR-vehicle-information-service-20180213/
-      type: src
-    docid:
-    - id: W3C CR-vehicle-information-service-20180213
+    - language: en
+      script: Latn
+      content: Vehicle Information Service Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/CR-vehicle-information-service-20180213/
+    docidentifier:
+    - content: W3C CR-vehicle-information-service-20180213
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: DISC-vehicle-information-service-20220329
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Automotive Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-osge-osa-gap-20250531
-title:
-- content: Osage Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/DNOTE-osge-osa-gap-20250531/
-  type: src
+id: W3CDNOTEosgeosagap20250531
 type: standard
-docid:
-- id: W3C DNOTE-osge-osa-gap-20250531
+schema_version: v1.4.1
+formattedref: W3C DNOTE-osge-osa-gap-20250531
+title:
+- language: en
+  script: Latn
+  content: Osage Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/DNOTE-osge-osa-gap-20250531/
+docidentifier:
+- content: W3C DNOTE-osge-osa-gap-20250531
   type: W3C
   primary: true
 docnumber: DNOTE-osge-osa-gap-20250531
 date:
 - type: published
-  value: '2025-05-31'
+  at: '2025-05-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2025-05-31'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cosge-osa-gap
     title:
-    - content: Osage Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/osge-osa-gap/
-      type: src
-    docid:
-    - id: W3C osge-osa-gap
+    - language: en
+      script: Latn
+      content: Osage Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/osge-osa-gap/
+    docidentifier:
+    - content: W3C osge-osa-gap
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-osge-osa-gap-20240920
     title:
-    - content: Osage Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-osge-osa-gap-20240920/
-      type: src
-    docid:
-    - id: W3C DNOTE-osge-osa-gap-20240920
+    - language: en
+      script: Latn
+      content: Osage Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-osge-osa-gap-20240920/
+    docidentifier:
+    - content: W3C DNOTE-osge-osa-gap-20240920
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-osge-osa-gap-20250531
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

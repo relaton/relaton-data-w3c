@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-openscreen-network-20241210
-title:
-- content: Open Screen Network Protocol
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-openscreen-network-20241210/
-  type: src
+id: W3CWDopenscreennetwork20241210
 type: standard
-docid:
-- id: W3C WD-openscreen-network-20241210
+schema_version: v1.4.1
+formattedref: W3C WD-openscreen-network-20241210
+title:
+- language: en
+  script: Latn
+  content: Open Screen Network Protocol
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-openscreen-network-20241210/
+docidentifier:
+- content: W3C WD-openscreen-network-20241210
   type: W3C
   primary: true
 docnumber: WD-openscreen-network-20241210
 date:
 - type: published
-  value: '2024-12-10'
+  at: '2024-12-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Mark
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Foltz
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-12-10'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mark
+      surname:
+        language: en
+        script: Latn
+        content: Foltz
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Second Screen Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: First Public Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Copenscreen-network
     title:
-    - content: Open Screen Network Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/openscreen-network/
-      type: src
-    docid:
-    - id: W3C openscreen-network
+    - language: en
+      script: Latn
+      content: Open Screen Network Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/openscreen-network/
+    docidentifier:
+    - content: W3C openscreen-network
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-openscreen-network-20250609
-    title:
-    - content: Open Screen Network Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-openscreen-network-20250609/
-      type: src
-    docid:
-    - id: W3C WD-openscreen-network-20250609
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Open Screen Network Protocol
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-openscreen-network-20250609/
+    docidentifier:
+    - content: W3C WD-openscreen-network-20250609
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C First Public Working Draft
-    format: text/plain
   number: WD-openscreen-network-20241210
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Second Screen Working Group
+    content: technicalReport
+  flavor: w3c

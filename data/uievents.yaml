@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cuievents
-title:
-- content: UI Events
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/uievents/
-  type: src
 type: standard
-docid:
-- id: W3C uievents
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: UI Events
+source:
+- type: src
+  content: https://www.w3.org/TR/uievents/
+docidentifier:
+- content: W3C uievents
   type: W3C
   primary: true
 docnumber: uievents
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-uievents-20140612
     title:
-    - content: UI Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-uievents-20140612/
-      type: src
-    docid:
-    - id: W3C WD-uievents-20140612
+    - language: en
+      script: Latn
+      content: UI Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-uievents-20140612/
+    docidentifier:
+    - content: W3C WD-uievents-20140612
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-uievents-20131105
     title:
-    - content: UI Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-uievents-20131105/
-      type: src
-    docid:
-    - id: W3C WD-uievents-20131105
+    - language: en
+      script: Latn
+      content: UI Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-uievents-20131105/
+    docidentifier:
+    - content: W3C WD-uievents-20131105
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-uievents-20130725
     title:
-    - content: UI Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-uievents-20130725/
-      type: src
-    docid:
-    - id: W3C WD-uievents-20130725
+    - language: en
+      script: Latn
+      content: UI Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-uievents-20130725/
+    docidentifier:
+    - content: W3C WD-uievents-20130725
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: uievents
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

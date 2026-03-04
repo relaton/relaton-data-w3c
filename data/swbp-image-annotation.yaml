@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cswbp-image-annotation
-title:
-- content: Image Annotation on the Semantic Web
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/swbp-image-annotation/
-  type: src
+id: W3Cswbpimageannotation
 type: standard
-docid:
-- id: W3C swbp-image-annotation
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Image Annotation on the Semantic Web
+source:
+- type: src
+  content: https://www.w3.org/TR/swbp-image-annotation/
+docidentifier:
+- content: W3C swbp-image-annotation
   type: W3C
   primary: true
 docnumber: swbp-image-annotation
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-swbp-image-annotation-20060322
     title:
-    - content: Image Annotation on the Semantic Web
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-swbp-image-annotation-20060322/
-      type: src
-    docid:
-    - id: W3C WD-swbp-image-annotation-20060322
+    - language: en
+      script: Latn
+      content: Image Annotation on the Semantic Web
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-swbp-image-annotation-20060322/
+    docidentifier:
+    - content: W3C WD-swbp-image-annotation-20060322
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: swbp-image-annotation
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

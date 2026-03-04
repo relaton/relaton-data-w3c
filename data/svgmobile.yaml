@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CSVGMobile
-title:
-- content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/SVGMobile/
-  type: src
 type: standard
-docid:
-- id: W3C SVGMobile
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+source:
+- type: src
+  content: https://www.w3.org/TR/SVGMobile/
+docidentifier:
+- content: W3C SVGMobile
   type: W3C
   primary: true
 docnumber: SVGMobile
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-SVGMobile-20030114
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/REC-SVGMobile-20030114/
-      type: src
-    docid:
-    - id: W3C REC-SVGMobile-20030114
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/REC-SVGMobile-20030114/
+    docidentifier:
+    - content: W3C REC-SVGMobile-20030114
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-SVGMobile-20021115
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/PR-SVGMobile-20021115/
-      type: src
-    docid:
-    - id: W3C PR-SVGMobile-20021115
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/PR-SVGMobile-20021115/
+    docidentifier:
+    - content: W3C PR-SVGMobile-20021115
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-SVGMobile-20020430
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/CR-SVGMobile-20020430/
-      type: src
-    docid:
-    - id: W3C CR-SVGMobile-20020430
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/CR-SVGMobile-20020430/
+    docidentifier:
+    - content: W3C CR-SVGMobile-20020430
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVGMobile-20020215
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-SVGMobile-20020215/
-      type: src
-    docid:
-    - id: W3C WD-SVGMobile-20020215
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-SVGMobile-20020215/
+    docidentifier:
+    - content: W3C WD-SVGMobile-20020215
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVGMobile-20020108
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-SVGMobile-20020108/
-      type: src
-    docid:
-    - id: W3C WD-SVGMobile-20020108
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-SVGMobile-20020108/
+    docidentifier:
+    - content: W3C WD-SVGMobile-20020108
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVGMobile-20011030
     title:
-    - content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/WD-SVGMobile-20011030
-      type: src
-    docid:
-    - id: W3C WD-SVGMobile-20011030
+    - language: en
+      script: Latn
+      content: 'Mobile SVG Profiles: SVG Tiny and SVG Basic'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/WD-SVGMobile-20011030
+    docidentifier:
+    - content: W3C WD-SVGMobile-20011030
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: SVGMobile
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

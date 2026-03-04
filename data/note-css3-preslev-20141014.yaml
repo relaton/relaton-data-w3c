@@ -1,124 +1,126 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-css3-preslev-20141014
-title:
-- content: CSS Presentation Levels Module
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/NOTE-css3-preslev-20141014/
-  type: src
+id: W3CNOTEcss3preslev20141014
 type: standard
-docid:
-- id: W3C NOTE-css3-preslev-20141014
+schema_version: v1.4.1
+formattedref: W3C NOTE-css3-preslev-20141014
+title:
+- language: en
+  script: Latn
+  content: CSS Presentation Levels Module
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/NOTE-css3-preslev-20141014/
+docidentifier:
+- content: W3C NOTE-css3-preslev-20141014
   type: W3C
   primary: true
 docnumber: NOTE-css3-preslev-20141014
 date:
 - type: published
-  value: '2014-10-14'
+  at: '2014-10-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
       surname:
+        language: en
+        script: Latn
         content: Hickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Håkon Wium
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Håkon Wium
       surname:
+        language: en
+        script: Latn
         content: Lie
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Bert
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Bert
       surname:
+        language: en
+        script: Latn
         content: Bos
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2014-10-14'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss3-preslev
     title:
-    - content: CSS Presentation Levels Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css3-preslev/
-      type: src
-    docid:
-    - id: W3C css3-preslev
+    - language: en
+      script: Latn
+      content: CSS Presentation Levels Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css3-preslev/
+    docidentifier:
+    - content: W3C css3-preslev
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css3-preslev-20030813
     title:
-    - content: 'CSS3 module: Presentation Levels'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-css3-preslev-20030813
-      type: src
-    docid:
-    - id: W3C WD-css3-preslev-20030813
+    - language: en
+      script: Latn
+      content: 'CSS3 module: Presentation Levels'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-css3-preslev-20030813
+    docidentifier:
+    - content: W3C WD-css3-preslev-20030813
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-css3-preslev-20141014
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

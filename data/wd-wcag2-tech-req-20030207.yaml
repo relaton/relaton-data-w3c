@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-wcag2-tech-req-20030207
-title:
-- content: Requirements for WCAG 2.0 Checklists and Techniques
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/WD-wcag2-tech-req-20030207/
-  type: src
+id: W3CWDwcag2techreq20030207
 type: standard
-docid:
-- id: W3C WD-wcag2-tech-req-20030207
+schema_version: v1.4.1
+formattedref: W3C WD-wcag2-tech-req-20030207
+title:
+- language: en
+  script: Latn
+  content: Requirements for WCAG 2.0 Checklists and Techniques
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/WD-wcag2-tech-req-20030207/
+docidentifier:
+- content: W3C WD-wcag2-tech-req-20030207
   type: W3C
   primary: true
 docnumber: WD-wcag2-tech-req-20030207
 date:
 - type: published
-  value: '2003-02-07'
+  at: '2003-02-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2003-02-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
+      surname:
+        language: en
+        script: Latn
+        content: Cooper
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Accessibility Guidelines Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwcag2-tech-req
     title:
-    - content: Requirements for WCAG 2.0 Checklists and Techniques
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/wcag2-tech-req/
-      type: src
-    docid:
-    - id: W3C wcag2-tech-req
+    - language: en
+      script: Latn
+      content: Requirements for WCAG 2.0 Checklists and Techniques
+    source:
+    - type: src
+      content: https://www.w3.org/TR/wcag2-tech-req/
+    docidentifier:
+    - content: W3C wcag2-tech-req
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WD-wcag2-tech-req-20030207
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Accessibility Guidelines Working Group
+    content: technicalReport
+  flavor: w3c

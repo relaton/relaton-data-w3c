@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-secure-contexts-20210918
-title:
-- content: Secure Contexts
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/CRD-secure-contexts-20210918/
-  type: src
+id: W3CCRDsecurecontexts20210918
 type: standard
-docid:
-- id: W3C CRD-secure-contexts-20210918
+schema_version: v1.4.1
+formattedref: W3C CRD-secure-contexts-20210918
+title:
+- language: en
+  script: Latn
+  content: Secure Contexts
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/CRD-secure-contexts-20210918/
+docidentifier:
+- content: W3C CRD-secure-contexts-20210918
   type: W3C
   primary: true
 docnumber: CRD-secure-contexts-20210918
 date:
 - type: published
-  value: '2021-09-18'
+  at: '2021-09-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: West
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-09-18'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
+      surname:
+        language: en
+        script: Latn
+        content: West
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Application Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csecure-contexts
     title:
-    - content: Secure Contexts
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/secure-contexts/
-      type: src
-    docid:
-    - id: W3C secure-contexts
+    - language: en
+      script: Latn
+      content: Secure Contexts
+    source:
+    - type: src
+      content: https://www.w3.org/TR/secure-contexts/
+    docidentifier:
+    - content: W3C secure-contexts
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-secure-contexts-20210916
     title:
-    - content: Secure Contexts
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/CRD-secure-contexts-20210916/
-      type: src
-    docid:
-    - id: W3C CRD-secure-contexts-20210916
+    - language: en
+      script: Latn
+      content: Secure Contexts
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/CRD-secure-contexts-20210916/
+    docidentifier:
+    - content: W3C CRD-secure-contexts-20210916
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-secure-contexts-20231110
-    title:
-    - content: Secure Contexts
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/CRD-secure-contexts-20231110/
-      type: src
-    docid:
-    - id: W3C CRD-secure-contexts-20231110
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Secure Contexts
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/CRD-secure-contexts-20231110/
+    docidentifier:
+    - content: W3C CRD-secure-contexts-20231110
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-secure-contexts-20210918
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Application Security Working Group
+    content: technicalReport
+  flavor: w3c

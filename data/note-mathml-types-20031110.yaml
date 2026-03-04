@@ -1,111 +1,113 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-mathml-types-20031110
-title:
-- content: Structured Types in MathML 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/NOTE-mathml-types-20031110/
-  type: src
+id: W3CNOTEmathmltypes20031110
 type: standard
-docid:
-- id: W3C NOTE-mathml-types-20031110
+schema_version: v1.4.1
+formattedref: W3C NOTE-mathml-types-20031110
+title:
+- language: en
+  script: Latn
+  content: Structured Types in MathML 2.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/NOTE-mathml-types-20031110/
+docidentifier:
+- content: W3C NOTE-mathml-types-20031110
   type: W3C
   primary: true
 docnumber: NOTE-mathml-types-20031110
 date:
 - type: published
-  value: '2003-11-10'
+  at: '2003-11-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Stan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Stan
       surname:
+        language: en
+        script: Latn
         content: Devitt
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Kohlhase
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Max
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Max
       surname:
+        language: en
+        script: Latn
         content: Froumentin
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2003-11-10'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Math Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmathml-types
     title:
-    - content: Structured Types in MathML 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mathml-types/
-      type: src
-    docid:
-    - id: W3C mathml-types
+    - language: en
+      script: Latn
+      content: Structured Types in MathML 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mathml-types/
+    docidentifier:
+    - content: W3C mathml-types
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-mathml-types-20031110
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Math Working Group
+    content: technicalReport
+  flavor: w3c

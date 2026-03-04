@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cwcag2-ext-req
-title:
-- content: Requirements for WCAG 2.0 Extensions
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/wcag2-ext-req/
-  type: src
+id: W3Cwcag2extreq
 type: standard
-docid:
-- id: W3C wcag2-ext-req
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Requirements for WCAG 2.0 Extensions
+source:
+- type: src
+  content: https://www.w3.org/TR/wcag2-ext-req/
+docidentifier:
+- content: W3C wcag2-ext-req
   type: W3C
   primary: true
 docnumber: wcag2-ext-req
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wcag2-ext-req-20160105
     title:
-    - content: Requirements for WCAG 2.0 Extensions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-wcag2-ext-req-20160105/
-      type: src
-    docid:
-    - id: W3C WD-wcag2-ext-req-20160105
+    - language: en
+      script: Latn
+      content: Requirements for WCAG 2.0 Extensions
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-wcag2-ext-req-20160105/
+    docidentifier:
+    - content: W3C WD-wcag2-ext-req-20160105
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: wcag2-ext-req
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

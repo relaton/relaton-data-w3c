@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-typography-20240321
-title:
-- content: Language enablement index
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/DNOTE-typography-20240321/
-  type: src
+id: W3CDNOTEtypography20240321
 type: standard
-docid:
-- id: W3C DNOTE-typography-20240321
+schema_version: v1.4.1
+formattedref: W3C DNOTE-typography-20240321
+title:
+- language: en
+  script: Latn
+  content: Language enablement index
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/DNOTE-typography-20240321/
+docidentifier:
+- content: W3C DNOTE-typography-20240321
   type: W3C
   primary: true
 docnumber: DNOTE-typography-20240321
 date:
 - type: published
-  value: '2024-03-21'
+  at: '2024-03-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-03-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ctypography
     title:
-    - content: Language enablement index
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/typography/
-      type: src
-    docid:
-    - id: W3C typography
+    - language: en
+      script: Latn
+      content: Language enablement index
+    source:
+    - type: src
+      content: https://www.w3.org/TR/typography/
+    docidentifier:
+    - content: W3C typography
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-typography-20240125
     title:
-    - content: Language enablement index
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-typography-20240125/
-      type: src
-    docid:
-    - id: W3C DNOTE-typography-20240125
+    - language: en
+      script: Latn
+      content: Language enablement index
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-typography-20240125/
+    docidentifier:
+    - content: W3C DNOTE-typography-20240125
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-typography-20240322
-    title:
-    - content: Language enablement index
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-typography-20240322/
-      type: src
-    docid:
-    - id: W3C DNOTE-typography-20240322
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Language enablement index
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-typography-20240322/
+    docidentifier:
+    - content: W3C DNOTE-typography-20240322
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-typography-20240321
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

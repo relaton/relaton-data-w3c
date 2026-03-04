@@ -1,179 +1,161 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-SOX-19990730
-title:
-- content: Schema for Object-oriented XML 2.0
-  format: text/plain
-link:
-- content: https://www.w3.org/1999/07/NOTE-SOX-19990730
-  type: src
+id: W3CNOTESOX19990730
 type: standard
-docid:
-- id: W3C NOTE-SOX-19990730
+schema_version: v1.4.1
+formattedref: W3C NOTE-SOX-19990730
+title:
+- language: en
+  script: Latn
+  content: Schema for Object-oriented XML 2.0
+source:
+- type: src
+  content: https://www.w3.org/1999/07/NOTE-SOX-19990730
+docidentifier:
+- content: W3C NOTE-SOX-19990730
   type: W3C
   primary: true
 docnumber: NOTE-SOX-19990730
 date:
 - type: published
-  value: '1999-07-30'
+  at: '1999-07-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Murray
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Murray
       surname:
+        language: en
+        script: Latn
         content: Maloney
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jari
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jari
       surname:
+        language: en
+        script: Latn
         content: Koistinen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Matthew
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Matthew
       surname:
+        language: en
+        script: Latn
         content: Fuchs
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mudita
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mudita
       surname:
+        language: en
+        script: Latn
         content: Jain
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mette
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mette
       surname:
+        language: en
+        script: Latn
         content: Hedin
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Chris
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Chris
       surname:
+        language: en
+        script: Latn
         content: Lloyd
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Kelly
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kelly
       surname:
+        language: en
+        script: Latn
         content: Schwarzhoff
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '1999-07-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CNOTE-SOX
     title:
-    - content: Schema for Object-oriented XML 2.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/NOTE-SOX
-      type: src
-    docid:
-    - id: W3C NOTE-SOX
+    - language: en
+      script: Latn
+      content: Schema for Object-oriented XML 2.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/NOTE-SOX
+    docidentifier:
+    - content: W3C NOTE-SOX
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-SOX-19990730
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

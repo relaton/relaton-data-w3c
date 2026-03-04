@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-mwbp-guidelines-20091020
-title:
-- content: Extended Guidelines for Mobile Web Best Practices 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/NOTE-mwbp-guidelines-20091020/
-  type: src
+id: W3CNOTEmwbpguidelines20091020
 type: standard
-docid:
-- id: W3C NOTE-mwbp-guidelines-20091020
+schema_version: v1.4.1
+formattedref: W3C NOTE-mwbp-guidelines-20091020
+title:
+- language: en
+  script: Latn
+  content: Extended Guidelines for Mobile Web Best Practices 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/NOTE-mwbp-guidelines-20091020/
+docidentifier:
+- content: W3C NOTE-mwbp-guidelines-20091020
   type: W3C
   primary: true
 docnumber: NOTE-mwbp-guidelines-20091020
 date:
 - type: published
-  value: '2009-10-20'
+  at: '2009-10-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Kai
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scheppe
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2009-10-20'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Kai
+      surname:
+        language: en
+        script: Latn
+        content: Scheppe
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Mobile Web Best Practices Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmwbp-guidelines
     title:
-    - content: Extended Guidelines for Mobile Web Best Practices 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/mwbp-guidelines/
-      type: src
-    docid:
-    - id: W3C mwbp-guidelines
+    - language: en
+      script: Latn
+      content: Extended Guidelines for Mobile Web Best Practices 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/mwbp-guidelines/
+    docidentifier:
+    - content: W3C mwbp-guidelines
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-mwbp-guidelines-20091020
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Mobile Web Best Practices Working Group
+    content: technicalReport
+  flavor: w3c

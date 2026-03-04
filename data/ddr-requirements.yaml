@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CDDR-requirements
-title:
-- content: Device Description Repository Requirements 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/DDR-requirements/
-  type: src
+id: W3CDDRrequirements
 type: standard
-docid:
-- id: W3C DDR-requirements
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Device Description Repository Requirements 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/DDR-requirements/
+docidentifier:
+- content: W3C DDR-requirements
   type: W3C
   primary: true
 docnumber: DDR-requirements
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-DDR-requirements-20071217
     title:
-    - content: Device Description Repository Requirements 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/NOTE-DDR-requirements-20071217/
-      type: src
-    docid:
-    - id: W3C NOTE-DDR-requirements-20071217
+    - language: en
+      script: Latn
+      content: Device Description Repository Requirements 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/NOTE-DDR-requirements-20071217/
+    docidentifier:
+    - content: W3C NOTE-DDR-requirements-20071217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-DDR-requirements-20060410
     title:
-    - content: Device Description Repository Requirements 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-DDR-requirements-20060410
-      type: src
-    docid:
-    - id: W3C WD-DDR-requirements-20060410
+    - language: en
+      script: Latn
+      content: Device Description Repository Requirements 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-DDR-requirements-20060410
+    docidentifier:
+    - content: W3C WD-DDR-requirements-20060410
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: DDR-requirements
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Ccuap
-title:
-- content: Common User Agent Problems
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/cuap
-  type: src
 type: standard
-docid:
-- id: W3C cuap
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Common User Agent Problems
+source:
+- type: src
+  content: https://www.w3.org/TR/cuap
+docidentifier:
+- content: W3C cuap
   type: W3C
   primary: true
 docnumber: cuap
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-cuap-20030128
     title:
-    - content: Common User Agent Problems
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/NOTE-cuap-20030128
-      type: src
-    docid:
-    - id: W3C NOTE-cuap-20030128
+    - language: en
+      script: Latn
+      content: Common User Agent Problems
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/NOTE-cuap-20030128
+    docidentifier:
+    - content: W3C NOTE-cuap-20030128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-cuap-20010206
     title:
-    - content: Common User Agent Problems
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2001/NOTE-cuap-20010206
-      type: src
-    docid:
-    - id: W3C NOTE-cuap-20010206
+    - language: en
+      script: Latn
+      content: Common User Agent Problems
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2001/NOTE-cuap-20010206
+    docidentifier:
+    - content: W3C NOTE-cuap-20010206
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: cuap
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

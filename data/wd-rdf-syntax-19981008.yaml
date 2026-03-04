@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-rdf-syntax-19981008
-title:
-- content: RDF/XML Syntax Specification (Revised)
-  format: text/plain
-link:
-- content: https://www.w3.org/1998/10/WD-rdf-syntax-19981008
-  type: src
+id: W3CWDrdfsyntax19981008
 type: standard
-docid:
-- id: W3C WD-rdf-syntax-19981008
+schema_version: v1.4.1
+formattedref: W3C WD-rdf-syntax-19981008
+title:
+- language: en
+  script: Latn
+  content: RDF/XML Syntax Specification (Revised)
+source:
+- type: src
+  content: https://www.w3.org/1998/10/WD-rdf-syntax-19981008
+docidentifier:
+- content: W3C WD-rdf-syntax-19981008
   type: W3C
   primary: true
 docnumber: WD-rdf-syntax-19981008
 date:
 - type: published
-  value: '1998-10-08'
+  at: '1998-10-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1998-10-08'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CWD-rdf-syntax
     title:
-    - content: RDF/XML Syntax Specification (Revised)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-rdf-syntax
-      type: src
-    docid:
-    - id: W3C WD-rdf-syntax
+    - language: en
+      script: Latn
+      content: RDF/XML Syntax Specification (Revised)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-rdf-syntax
+    docidentifier:
+    - content: W3C WD-rdf-syntax
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdf-syntax-19980819
     title:
-    - content: RDF/XML Syntax Specification (Revised)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1998/WD-rdf-syntax-19980819
-      type: src
-    docid:
-    - id: W3C WD-rdf-syntax-19980819
+    - language: en
+      script: Latn
+      content: RDF/XML Syntax Specification (Revised)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1998/WD-rdf-syntax-19980819
+    docidentifier:
+    - content: W3C WD-rdf-syntax-19980819
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-rdf-syntax-19990105
-    title:
-    - content: RDF/XML Syntax Specification (Revised)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/PR-rdf-syntax-19990105
-      type: src
-    docid:
-    - id: W3C PR-rdf-syntax-19990105
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RDF/XML Syntax Specification (Revised)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/PR-rdf-syntax-19990105
+    docidentifier:
+    - content: W3C PR-rdf-syntax-19990105
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-rdf-syntax-19981008
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

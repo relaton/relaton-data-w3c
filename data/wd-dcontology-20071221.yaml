@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-dcontology-20071221
-title:
-- content: Delivery Context Ontology
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/WD-dcontology-20071221/
-  type: src
+id: W3CWDdcontology20071221
 type: standard
-docid:
-- id: W3C WD-dcontology-20071221
+schema_version: v1.4.1
+formattedref: W3C WD-dcontology-20071221
+title:
+- language: en
+  script: Latn
+  content: Delivery Context Ontology
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/WD-dcontology-20071221/
+docidentifier:
+- content: W3C WD-dcontology-20071221
   type: W3C
   primary: true
 docnumber: WD-dcontology-20071221
 date:
 - type: published
-  value: '2007-12-21'
+  at: '2007-12-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Rhys
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2007-12-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Rhys
+      surname:
+        language: en
+        script: Latn
+        content: Lewis
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Ubiquitous Web Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdcontology
     title:
-    - content: Delivery Context Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/dcontology/
-      type: src
-    docid:
-    - id: W3C dcontology
+    - language: en
+      script: Latn
+      content: Delivery Context Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/dcontology/
+    docidentifier:
+    - content: W3C dcontology
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-dcontology-20080415
-    title:
-    - content: Delivery Context Ontology
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-dcontology-20080415/
-      type: src
-    docid:
-    - id: W3C WD-dcontology-20080415
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Delivery Context Ontology
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-dcontology-20080415/
+    docidentifier:
+    - content: W3C WD-dcontology-20080415
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-dcontology-20071221
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Ubiquitous Web Applications Working Group
+    content: technicalReport
+  flavor: w3c

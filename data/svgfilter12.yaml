@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CSVGFilter12
-title:
-- content: 'SVG Filters 1.2, Part 2: Language'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/SVGFilter12/
-  type: src
 type: standard
-docid:
-- id: W3C SVGFilter12
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'SVG Filters 1.2, Part 2: Language'
+source:
+- type: src
+  content: https://www.w3.org/TR/SVGFilter12/
+docidentifier:
+- content: W3C SVGFilter12
   type: W3C
   primary: true
 docnumber: SVGFilter12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-SVGFilter12-20070501
     title:
-    - content: 'SVG Filters 1.2, Part 2: Language'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-SVGFilter12-20070501/
-      type: src
-    docid:
-    - id: W3C WD-SVGFilter12-20070501
+    - language: en
+      script: Latn
+      content: 'SVG Filters 1.2, Part 2: Language'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-SVGFilter12-20070501/
+    docidentifier:
+    - content: W3C WD-SVGFilter12-20070501
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: SVGFilter12
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

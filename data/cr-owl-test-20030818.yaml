@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-owl-test-20030818
-title:
-- content: OWL Web Ontology Language Test Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2003/CR-owl-test-20030818/
-  type: src
+id: W3CCRowltest20030818
 type: standard
-docid:
-- id: W3C CR-owl-test-20030818
+schema_version: v1.4.1
+formattedref: W3C CR-owl-test-20030818
+title:
+- language: en
+  script: Latn
+  content: OWL Web Ontology Language Test Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2003/CR-owl-test-20030818/
+docidentifier:
+- content: W3C CR-owl-test-20030818
   type: W3C
   primary: true
 docnumber: CR-owl-test-20030818
 date:
 - type: published
-  value: '2003-08-18'
+  at: '2003-08-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Jos
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jos
       surname:
+        language: en
+        script: Latn
         content: De Roo
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jeremy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jeremy
       surname:
+        language: en
+        script: Latn
         content: Carroll
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2003-08-18'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Ontology Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cowl-test
     title:
-    - content: OWL Web Ontology Language Test Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/owl-test/
-      type: src
-    docid:
-    - id: W3C owl-test
+    - language: en
+      script: Latn
+      content: OWL Web Ontology Language Test Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/owl-test/
+    docidentifier:
+    - content: W3C owl-test
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-owl-test-20030528
     title:
-    - content: OWL Web Ontology Language Test Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-owl-test-20030528/
-      type: src
-    docid:
-    - id: W3C WD-owl-test-20030528
+    - language: en
+      script: Latn
+      content: OWL Web Ontology Language Test Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-owl-test-20030528/
+    docidentifier:
+    - content: W3C WD-owl-test-20030528
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-owl-test-20031215
-    title:
-    - content: OWL Web Ontology Language Test Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/PR-owl-test-20031215/
-      type: src
-    docid:
-    - id: W3C PR-owl-test-20031215
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: OWL Web Ontology Language Test Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/PR-owl-test-20031215/
+    docidentifier:
+    - content: W3C PR-owl-test-20031215
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-owl-test-20030818
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Ontology Working Group
+    content: technicalReport
+  flavor: w3c

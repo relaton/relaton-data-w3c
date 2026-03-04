@@ -1,128 +1,125 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-VML-19980513
-title:
-- content: Vector Markup Language (VML)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1998/NOTE-VML-19980513
-  type: src
+id: W3CNOTEVML19980513
 type: standard
-docid:
-- id: W3C NOTE-VML-19980513
+schema_version: v1.4.1
+formattedref: W3C NOTE-VML-19980513
+title:
+- language: en
+  script: Latn
+  content: Vector Markup Language (VML)
+source:
+- type: src
+  content: https://www.w3.org/TR/1998/NOTE-VML-19980513
+docidentifier:
+- content: W3C NOTE-VML-19980513
   type: W3C
   primary: true
 docnumber: NOTE-VML-19980513
 date:
 - type: published
-  value: '1998-05-13'
+  at: '1998-05-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Howard
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Howard
       surname:
+        language: en
+        script: Latn
         content: Cooperstein
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: John
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: John
       surname:
+        language: en
+        script: Latn
         content: Bowler
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Troy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Troy
       surname:
+        language: en
+        script: Latn
         content: Sandal
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Tuan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Tuan
       surname:
+        language: en
+        script: Latn
         content: Nguyen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '1998-05-13'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CNOTE-VML
     title:
-    - content: Vector Markup Language (VML)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/NOTE-VML
-      type: src
-    docid:
-    - id: W3C NOTE-VML
+    - language: en
+      script: Latn
+      content: Vector Markup Language (VML)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/NOTE-VML
+    docidentifier:
+    - content: W3C NOTE-VML
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-VML-19980513
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

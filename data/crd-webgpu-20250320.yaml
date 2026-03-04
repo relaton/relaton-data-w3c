@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-webgpu-20250320
-title:
-- content: WebGPU
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/CRD-webgpu-20250320/
-  type: src
+id: W3CCRDwebgpu20250320
 type: standard
-docid:
-- id: W3C CRD-webgpu-20250320
+schema_version: v1.4.1
+formattedref: W3C CRD-webgpu-20250320
+title:
+- language: en
+  script: Latn
+  content: WebGPU
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/CRD-webgpu-20250320/
+docidentifier:
+- content: W3C CRD-webgpu-20250320
   type: W3C
   primary: true
 docnumber: CRD-webgpu-20250320
 date:
 - type: published
-  value: '2025-03-20'
+  at: '2025-03-20'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Kai
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Kai
       surname:
+        language: en
+        script: Latn
         content: Ninomiya
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Brandon
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Brandon
       surname:
+        language: en
+        script: Latn
         content: Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
       surname:
+        language: en
+        script: Latn
         content: Blandy
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2025-03-20'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: GPU for the Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebgpu
     title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webgpu/
-      type: src
-    docid:
-    - id: W3C webgpu
+    - language: en
+      script: Latn
+      content: WebGPU
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webgpu/
+    docidentifier:
+    - content: W3C webgpu
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-webgpu-20250319
     title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webgpu-20250319/
-      type: src
-    docid:
-    - id: W3C CRD-webgpu-20250319
+    - language: en
+      script: Latn
+      content: WebGPU
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webgpu-20250319/
+    docidentifier:
+    - content: W3C CRD-webgpu-20250319
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-webgpu-20250321
-    title:
-    - content: WebGPU
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-webgpu-20250321/
-      type: src
-    docid:
-    - id: W3C CRD-webgpu-20250321
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebGPU
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-webgpu-20250321/
+    docidentifier:
+    - content: W3C CRD-webgpu-20250321
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-webgpu-20250320
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: GPU for the Web Working Group
+    content: technicalReport
+  flavor: w3c

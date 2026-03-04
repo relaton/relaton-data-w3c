@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cjava-lreq
-title:
-- content: Javanese Script Resources
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/java-lreq/
-  type: src
+id: W3Cjavalreq
 type: standard
-docid:
-- id: W3C java-lreq
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Javanese Script Resources
+source:
+- type: src
+  content: https://www.w3.org/TR/java-lreq/
+docidentifier:
+- content: W3C java-lreq
   type: W3C
   primary: true
 docnumber: java-lreq
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-java-lreq-20241114
     title:
-    - content: Javanese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-java-lreq-20241114/
-      type: src
-    docid:
-    - id: W3C DNOTE-java-lreq-20241114
+    - language: en
+      script: Latn
+      content: Javanese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-java-lreq-20241114/
+    docidentifier:
+    - content: W3C DNOTE-java-lreq-20241114
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-java-lreq-20240809
     title:
-    - content: Javanese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-java-lreq-20240809/
-      type: src
-    docid:
-    - id: W3C DNOTE-java-lreq-20240809
+    - language: en
+      script: Latn
+      content: Javanese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-java-lreq-20240809/
+    docidentifier:
+    - content: W3C DNOTE-java-lreq-20240809
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-java-lreq-20240730
     title:
-    - content: Javanese Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-java-lreq-20240730/
-      type: src
-    docid:
-    - id: W3C DNOTE-java-lreq-20240730
+    - language: en
+      script: Latn
+      content: Javanese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-java-lreq-20240730/
+    docidentifier:
+    - content: W3C DNOTE-java-lreq-20240730
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: java-lreq
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

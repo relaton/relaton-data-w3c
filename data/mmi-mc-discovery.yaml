@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cmmi-mc-discovery
-title:
-- content: Discovery & Registration of Multimodal Modality Components
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/mmi-mc-discovery/
-  type: src
+id: W3Cmmimcdiscovery
 type: standard
-docid:
-- id: W3C mmi-mc-discovery
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Discovery & Registration of Multimodal Modality Components
+source:
+- type: src
+  content: https://www.w3.org/TR/mmi-mc-discovery/
+docidentifier:
+- content: W3C mmi-mc-discovery
   type: W3C
   primary: true
 docnumber: mmi-mc-discovery
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,51 +31,53 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-mmi-mc-discovery-20170202
     title:
-    - content: Discovery & Registration of Multimodal Modality Components
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/NOTE-mmi-mc-discovery-20170202/
-      type: src
-    docid:
-    - id: W3C NOTE-mmi-mc-discovery-20170202
+    - language: en
+      script: Latn
+      content: Discovery & Registration of Multimodal Modality Components
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/NOTE-mmi-mc-discovery-20170202/
+    docidentifier:
+    - content: W3C NOTE-mmi-mc-discovery-20170202
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mmi-mc-discovery-20160411
     title:
-    - content: 'Discovery & Registration of Multimodal Modality Components: State
+    - language: en
+      script: Latn
+      content: 'Discovery & Registration of Multimodal Modality Components: State
         Handling'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-mmi-mc-discovery-20160411/
-      type: src
-    docid:
-    - id: W3C WD-mmi-mc-discovery-20160411
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-mmi-mc-discovery-20160411/
+    docidentifier:
+    - content: W3C WD-mmi-mc-discovery-20160411
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-mmi-mc-discovery-20150611
     title:
-    - content: 'Discovery & Registration of Multimodal Modality Components: State
+    - language: en
+      script: Latn
+      content: 'Discovery & Registration of Multimodal Modality Components: State
         Handling'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/
-      type: src
-    docid:
-    - id: W3C WD-mmi-mc-discovery-20150611
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-mmi-mc-discovery-20150611/
+    docidentifier:
+    - content: W3C WD-mmi-mc-discovery-20150611
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: mmi-mc-discovery
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

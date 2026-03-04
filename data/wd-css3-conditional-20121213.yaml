@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-css3-conditional-20121213
-title:
-- content: CSS Conditional Rules Module Level 3
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/WD-css3-conditional-20121213/
-  type: src
+id: W3CWDcss3conditional20121213
 type: standard
-docid:
-- id: W3C WD-css3-conditional-20121213
+schema_version: v1.4.1
+formattedref: W3C WD-css3-conditional-20121213
+title:
+- language: en
+  script: Latn
+  content: CSS Conditional Rules Module Level 3
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/WD-css3-conditional-20121213/
+docidentifier:
+- content: W3C WD-css3-conditional-20121213
   type: W3C
   primary: true
 docnumber: WD-css3-conditional-20121213
 date:
 - type: published
-  value: '2012-12-13'
+  at: '2012-12-13'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Baron
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-12-13'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: David
+      surname:
+        language: en
+        script: Latn
+        content: Baron
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-conditional-3
     title:
-    - content: CSS Conditional Rules Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-conditional-3/
-      type: src
-    docid:
-    - id: W3C css-conditional-3
+    - language: en
+      script: Latn
+      content: CSS Conditional Rules Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-conditional-3/
+    docidentifier:
+    - content: W3C css-conditional-3
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-css3-conditional-20120911
     title:
-    - content: CSS Conditional Rules Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-css3-conditional-20120911/
-      type: src
-    docid:
-    - id: W3C WD-css3-conditional-20120911
+    - language: en
+      script: Latn
+      content: CSS Conditional Rules Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-css3-conditional-20120911/
+    docidentifier:
+    - content: W3C WD-css3-conditional-20120911
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-css3-conditional-20130404
-    title:
-    - content: CSS Conditional Rules Module Level 3
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/CR-css3-conditional-20130404/
-      type: src
-    docid:
-    - id: W3C CR-css3-conditional-20130404
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Conditional Rules Module Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/CR-css3-conditional-20130404/
+    docidentifier:
+    - content: W3C CR-css3-conditional-20130404
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-css3-conditional-20121213
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-khmr-lreq-20240705
-title:
-- content: Khmer Layout Requirements (Draft)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240705/
-  type: src
+id: W3CDNOTEkhmrlreq20240705
 type: standard
-docid:
-- id: W3C DNOTE-khmr-lreq-20240705
+schema_version: v1.4.1
+formattedref: W3C DNOTE-khmr-lreq-20240705
+title:
+- language: en
+  script: Latn
+  content: Khmer Layout Requirements (Draft)
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240705/
+docidentifier:
+- content: W3C DNOTE-khmr-lreq-20240705
   type: W3C
   primary: true
 docnumber: DNOTE-khmr-lreq-20240705
 date:
 - type: published
-  value: '2024-07-05'
+  at: '2024-07-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-07-05'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ckhmr-lreq
     title:
-    - content: Khmer Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/khmr-lreq/
-      type: src
-    docid:
-    - id: W3C khmr-lreq
+    - language: en
+      script: Latn
+      content: Khmer Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/khmr-lreq/
+    docidentifier:
+    - content: W3C khmr-lreq
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CDNOTE-khmr-lreq-20240630
     title:
-    - content: Khmer Layout Requirements (Draft)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240630/
-      type: src
-    docid:
-    - id: W3C DNOTE-khmr-lreq-20240630
+    - language: en
+      script: Latn
+      content: Khmer Layout Requirements (Draft)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240630/
+    docidentifier:
+    - content: W3C DNOTE-khmr-lreq-20240630
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-khmr-lreq-20240710
-    title:
-    - content: Khmer Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240710/
-      type: src
-    docid:
-    - id: W3C DNOTE-khmr-lreq-20240710
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Khmer Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-khmr-lreq-20240710/
+    docidentifier:
+    - content: W3C DNOTE-khmr-lreq-20240710
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-khmr-lreq-20240705
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

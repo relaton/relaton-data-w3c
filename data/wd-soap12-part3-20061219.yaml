@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-soap12-part3-20061219
-title:
-- content: 'SOAP 1.2 Part 3: One-Way MEP'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2006/WD-soap12-part3-20061219/
-  type: src
+id: W3CWDsoap12part320061219
 type: standard
-docid:
-- id: W3C WD-soap12-part3-20061219
+schema_version: v1.4.1
+formattedref: W3C WD-soap12-part3-20061219
+title:
+- language: en
+  script: Latn
+  content: 'SOAP 1.2 Part 3: One-Way MEP'
+source:
+- type: src
+  content: https://www.w3.org/TR/2006/WD-soap12-part3-20061219/
+docidentifier:
+- content: W3C WD-soap12-part3-20061219
   type: W3C
   primary: true
 docnumber: WD-soap12-part3-20061219
 date:
 - type: published
-  value: '2006-12-19'
+  at: '2006-12-19'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Orchard
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2006-12-19'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: David
+      surname:
+        language: en
+        script: Latn
+        content: Orchard
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Protocol Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csoap12-part3
     title:
-    - content: 'SOAP 1.2 Part 3: One-Way MEP'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/soap12-part3/
-      type: src
-    docid:
-    - id: W3C soap12-part3
+    - language: en
+      script: Latn
+      content: 'SOAP 1.2 Part 3: One-Way MEP'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/soap12-part3/
+    docidentifier:
+    - content: W3C soap12-part3
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-soap12-part3-20070702
-    title:
-    - content: 'SOAP 1.2 Part 3: One-Way MEP'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/NOTE-soap12-part3-20070702/
-      type: src
-    docid:
-    - id: W3C NOTE-soap12-part3-20070702
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'SOAP 1.2 Part 3: One-Way MEP'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/NOTE-soap12-part3-20070702/
+    docidentifier:
+    - content: W3C NOTE-soap12-part3-20070702
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-soap12-part3-20061219
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Protocol Working Group
+    content: technicalReport
+  flavor: w3c

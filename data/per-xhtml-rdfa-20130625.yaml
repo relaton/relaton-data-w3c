@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CPER-xhtml-rdfa-20130625
-title:
-- content: XHTML+RDFa 1.1 - Second Edition
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/PER-xhtml-rdfa-20130625/
-  type: src
+id: W3CPERxhtmlrdfa20130625
 type: standard
-docid:
-- id: W3C PER-xhtml-rdfa-20130625
+schema_version: v1.4.1
+formattedref: W3C PER-xhtml-rdfa-20130625
+title:
+- language: en
+  script: Latn
+  content: XHTML+RDFa 1.1 - Second Edition
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/PER-xhtml-rdfa-20130625/
+docidentifier:
+- content: W3C PER-xhtml-rdfa-20130625
   type: W3C
   primary: true
 docnumber: PER-xhtml-rdfa-20130625
 date:
 - type: published
-  value: '2013-06-25'
+  at: '2013-06-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Shane
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: McCarron
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-06-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Shane
+      surname:
+        language: en
+        script: Latn
+        content: McCarron
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDFa Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Edited Recommendation
+    content: Proposed Edited Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxhtml-rdfa
     title:
-    - content: XHTML+RDFa 1.1 - Third Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xhtml-rdfa/
-      type: src
-    docid:
-    - id: W3C xhtml-rdfa
+    - language: en
+      script: Latn
+      content: XHTML+RDFa 1.1 - Third Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xhtml-rdfa/
+    docidentifier:
+    - content: W3C xhtml-rdfa
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-xhtml-rdfa-20130822
-    title:
-    - content: XHTML+RDFa 1.1 - Second Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/
-      type: src
-    docid:
-    - id: W3C REC-xhtml-rdfa-20130822
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XHTML+RDFa 1.1 - Second Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/
+    docidentifier:
+    - content: W3C REC-xhtml-rdfa-20130822
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Edited Recommendation
-    format: text/plain
   number: PER-xhtml-rdfa-20130625
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDFa Working Group
+    content: technicalReport
+  flavor: w3c

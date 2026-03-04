@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-DOM-971209
-title:
-- content: Document Object Model (DOM) Level 1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/WD-DOM-971209
-  type: src
+id: W3CWDDOM971209
 type: standard
-docid:
-- id: W3C WD-DOM-971209
+schema_version: v1.4.1
+formattedref: W3C WD-DOM-971209
+title:
+- language: en
+  script: Latn
+  content: Document Object Model (DOM) Level 1
+source:
+- type: src
+  content: https://www.w3.org/TR/WD-DOM-971209
+docidentifier:
+- content: W3C WD-DOM-971209
   type: W3C
   primary: true
 docnumber: WD-DOM-971209
 date:
 - type: published
-  value: '1997-12-09'
+  at: '1997-12-09'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '1997-12-09'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3CREC-DOM-Level-1
     title:
-    - content: Document Object Model (DOM) Level 1 Specification (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/REC-DOM-Level-1/
-      type: src
-    docid:
-    - id: W3C REC-DOM-Level-1
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 1 Specification (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/REC-DOM-Level-1/
+    docidentifier:
+    - content: W3C REC-DOM-Level-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-DOM-971009
     title:
-    - content: Document Object Model (DOM) Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-DOM-971009
-      type: src
-    docid:
-    - id: W3C WD-DOM-971009
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-DOM-971009
+    docidentifier:
+    - content: W3C WD-DOM-971009
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-DOM-19980318
-    title:
-    - content: Document Object Model (DOM) Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-DOM-19980318
-      type: src
-    docid:
-    - id: W3C WD-DOM-19980318
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Document Object Model (DOM) Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-DOM-19980318
+    docidentifier:
+    - content: W3C WD-DOM-19980318
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-DOM-971209
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

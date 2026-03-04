@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-shoplogfileformat-20001115
-title:
-- content: Shop Log File Format
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2000/NOTE-shoplogfileformat-20001115
-  type: src
+id: W3CNOTEshoplogfileformat20001115
 type: standard
-docid:
-- id: W3C NOTE-shoplogfileformat-20001115
+schema_version: v1.4.1
+formattedref: W3C NOTE-shoplogfileformat-20001115
+title:
+- language: en
+  script: Latn
+  content: Shop Log File Format
+source:
+- type: src
+  content: https://www.w3.org/TR/2000/NOTE-shoplogfileformat-20001115
+docidentifier:
+- content: W3C NOTE-shoplogfileformat-20001115
   type: W3C
   primary: true
 docnumber: NOTE-shoplogfileformat-20001115
 date:
 - type: published
-  value: '2000-11-15'
+  at: '2000-11-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Erik
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Moeser
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2000-11-15'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Erik
+      surname:
+        language: en
+        script: Latn
+        content: Moeser
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cshoplogfileformat
     title:
-    - content: Shop Log File Format
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/shoplogfileformat
-      type: src
-    docid:
-    - id: W3C shoplogfileformat
+    - language: en
+      script: Latn
+      content: Shop Log File Format
+    source:
+    - type: src
+      content: https://www.w3.org/TR/shoplogfileformat
+    docidentifier:
+    - content: W3C shoplogfileformat
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-shoplogfileformat-20001115
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

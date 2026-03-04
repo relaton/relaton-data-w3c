@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Cvoicexml21
-title:
-- content: Voice Extensible Markup Language (VoiceXML) 2.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/voicexml21/
-  type: src
 type: standard
-docid:
-- id: W3C voicexml21
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Voice Extensible Markup Language (VoiceXML) 2.1
+source:
+- type: src
+  content: https://www.w3.org/TR/voicexml21/
+docidentifier:
+- content: W3C voicexml21
   type: W3C
   primary: true
 docnumber: voicexml21
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-voicexml21-20070619
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) 2.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/REC-voicexml21-20070619/
-      type: src
-    docid:
-    - id: W3C REC-voicexml21-20070619
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) 2.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/REC-voicexml21-20070619/
+    docidentifier:
+    - content: W3C REC-voicexml21-20070619
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-voicexml21-20070425
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) 2.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/PR-voicexml21-20070425/
-      type: src
-    docid:
-    - id: W3C PR-voicexml21-20070425
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) 2.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/PR-voicexml21-20070425/
+    docidentifier:
+    - content: W3C PR-voicexml21-20070425
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-voicexml21-20060915
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) 2.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-voicexml21-20060915/
-      type: src
-    docid:
-    - id: W3C WD-voicexml21-20060915
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) 2.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-voicexml21-20060915/
+    docidentifier:
+    - content: W3C WD-voicexml21-20060915
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-voicexml21-20050613
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) 2.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2005/CR-voicexml21-20050613/
-      type: src
-    docid:
-    - id: W3C CR-voicexml21-20050613
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) 2.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2005/CR-voicexml21-20050613/
+    docidentifier:
+    - content: W3C CR-voicexml21-20050613
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-voicexml21-20040728
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) 2.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-voicexml21-20040728/
-      type: src
-    docid:
-    - id: W3C WD-voicexml21-20040728
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) 2.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-voicexml21-20040728/
+    docidentifier:
+    - content: W3C WD-voicexml21-20040728
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-voicexml21-20040323
     title:
-    - content: Voice Extensible Markup Language (VoiceXML) 2.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-voicexml21-20040323/
-      type: src
-    docid:
-    - id: W3C WD-voicexml21-20040323
+    - language: en
+      script: Latn
+      content: Voice Extensible Markup Language (VoiceXML) 2.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-voicexml21-20040323/
+    docidentifier:
+    - content: W3C WD-voicexml21-20040323
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: voicexml21
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

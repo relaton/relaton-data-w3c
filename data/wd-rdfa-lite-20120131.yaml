@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-rdfa-lite-20120131
-title:
-- content: RDFa Lite 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2012/WD-rdfa-lite-20120131/
-  type: src
+id: W3CWDrdfalite20120131
 type: standard
-docid:
-- id: W3C WD-rdfa-lite-20120131
+schema_version: v1.4.1
+formattedref: W3C WD-rdfa-lite-20120131
+title:
+- language: en
+  script: Latn
+  content: RDFa Lite 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2012/WD-rdfa-lite-20120131/
+docidentifier:
+- content: W3C WD-rdfa-lite-20120131
   type: W3C
   primary: true
 docnumber: WD-rdfa-lite-20120131
 date:
 - type: published
-  value: '2012-01-31'
+  at: '2012-01-31'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Manu
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Sporny
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2012-01-31'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Manu
+      surname:
+        language: en
+        script: Latn
+        content: Sporny
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: RDFa Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Crdfa-lite
     title:
-    - content: RDFa Lite 1.1 - Second Edition
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/rdfa-lite/
-      type: src
-    docid:
-    - id: W3C rdfa-lite
+    - language: en
+      script: Latn
+      content: RDFa Lite 1.1 - Second Edition
+    source:
+    - type: src
+      content: https://www.w3.org/TR/rdfa-lite/
+    docidentifier:
+    - content: W3C rdfa-lite
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-rdfa-lite-20111208
     title:
-    - content: RDFa Lite 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-rdfa-lite-20111208/
-      type: src
-    docid:
-    - id: W3C WD-rdfa-lite-20111208
+    - language: en
+      script: Latn
+      content: RDFa Lite 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-rdfa-lite-20111208/
+    docidentifier:
+    - content: W3C WD-rdfa-lite-20111208
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-rdfa-lite-20120313
-    title:
-    - content: RDFa Lite 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-rdfa-lite-20120313/
-      type: src
-    docid:
-    - id: W3C CR-rdfa-lite-20120313
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: RDFa Lite 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-rdfa-lite-20120313/
+    docidentifier:
+    - content: W3C CR-rdfa-lite-20120313
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-rdfa-lite-20120131
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: RDFa Working Group
+    content: technicalReport
+  flavor: w3c

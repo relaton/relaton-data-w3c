@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CCR-vc-di-bbs-20240404
-title:
-- content: Data Integrity BBS Cryptosuites v1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
-  type: src
+id: W3CCRvcdibbs20240404
 type: standard
-docid:
-- id: W3C CR-vc-di-bbs-20240404
+schema_version: v1.4.1
+formattedref: W3C CR-vc-di-bbs-20240404
+title:
+- language: en
+  script: Latn
+  content: Data Integrity BBS Cryptosuites v1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/CR-vc-di-bbs-20240404/
+docidentifier:
+- content: W3C CR-vc-di-bbs-20240404
   type: W3C
   primary: true
 docnumber: CR-vc-di-bbs-20240404
 date:
 - type: published
-  value: '2024-04-04'
+  at: '2024-04-04'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Manu
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Manu
       surname:
+        language: en
+        script: Latn
         content: Sporny
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Greg
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Greg
       surname:
+        language: en
+        script: Latn
         content: Bernstein
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-04-04'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Verifiable Credentials Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Snapshot
+    content: Candidate Recommendation Snapshot
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvc-di-bbs
     title:
-    - content: Data Integrity BBS Cryptosuites v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vc-di-bbs/
-      type: src
-    docid:
-    - id: W3C vc-di-bbs
+    - language: en
+      script: Latn
+      content: Data Integrity BBS Cryptosuites v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vc-di-bbs/
+    docidentifier:
+    - content: W3C vc-di-bbs
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-vc-di-bbs-20240401
     title:
-    - content: Data Integrity BBS Cryptosuites v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-vc-di-bbs-20240401/
-      type: src
-    docid:
-    - id: W3C WD-vc-di-bbs-20240401
+    - language: en
+      script: Latn
+      content: Data Integrity BBS Cryptosuites v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-vc-di-bbs-20240401/
+    docidentifier:
+    - content: W3C WD-vc-di-bbs-20240401
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-vc-di-bbs-20240428
-    title:
-    - content: Data Integrity BBS Cryptosuites v1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240428/
-      type: src
-    docid:
-    - id: W3C CRD-vc-di-bbs-20240428
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Data Integrity BBS Cryptosuites v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-vc-di-bbs-20240428/
+    docidentifier:
+    - content: W3C CRD-vc-di-bbs-20240428
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Snapshot
-    format: text/plain
   number: CR-vc-di-bbs-20240404
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Verifiable Credentials Working Group
+    content: technicalReport
+  flavor: w3c

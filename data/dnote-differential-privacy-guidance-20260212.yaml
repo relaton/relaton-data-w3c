@@ -1,79 +1,91 @@
 ---
-schema-version: v1.2.9
-id: W3CDNOTE-differential-privacy-guidance-20260212
-title:
-- content: Considerations for Reviewing Differential Privacy Systems (for Non-Differential
-    Privacy Experts)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2026/DNOTE-differential-privacy-guidance-20260212/
-  type: src
+id: W3CDNOTEdifferentialprivacyguidance20260212
 type: standard
-docid:
-- id: W3C DNOTE-differential-privacy-guidance-20260212
+schema_version: v1.4.1
+formattedref: W3C DNOTE-differential-privacy-guidance-20260212
+title:
+- language: en
+  script: Latn
+  content: Considerations for Reviewing Differential Privacy Systems (for Non-Differential
+    Privacy Experts)
+source:
+- type: src
+  content: https://www.w3.org/TR/2026/DNOTE-differential-privacy-guidance-20260212/
+docidentifier:
+- content: W3C DNOTE-differential-privacy-guidance-20260212
   type: W3C
   primary: true
 docnumber: DNOTE-differential-privacy-guidance-20260212
 date:
 - type: published
-  value: '2026-02-12'
+  at: '2026-02-12'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Peter
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Snyder
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2026-02-12'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Peter
+      surname:
+        language: en
+        script: Latn
+        content: Snyder
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Privacy Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Draft Note
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cdifferential-privacy-guidance
     title:
-    - content: Considerations for Reviewing Differential Privacy Systems (for Non-Differential
+    - language: en
+      script: Latn
+      content: Considerations for Reviewing Differential Privacy Systems (for Non-Differential
         Privacy Experts)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/differential-privacy-guidance/
-      type: src
-    docid:
-    - id: W3C differential-privacy-guidance
+    source:
+    - type: src
+      content: https://www.w3.org/TR/differential-privacy-guidance/
+    docidentifier:
+    - content: W3C differential-privacy-guidance
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Draft Note
-    format: text/plain
   number: DNOTE-differential-privacy-guidance-20260212
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Privacy Working Group
+    content: technicalReport
+  flavor: w3c

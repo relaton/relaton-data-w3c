@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-css3-speech-20180605
-title:
-- content: CSS Speech Module
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/
-  type: src
+id: W3CNOTEcss3speech20180605
 type: standard
-docid:
-- id: W3C NOTE-css3-speech-20180605
+schema_version: v1.4.1
+formattedref: W3C NOTE-css3-speech-20180605
+title:
+- language: en
+  script: Latn
+  content: CSS Speech Module
+source:
+- type: src
+  content: https://www.w3.org/TR/2018/NOTE-css3-speech-20180605/
+docidentifier:
+- content: W3C NOTE-css3-speech-20180605
   type: W3C
   primary: true
 docnumber: NOTE-css3-speech-20180605
 date:
 - type: published
-  value: '2018-06-05'
+  at: '2018-06-05'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Weck
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2018-06-05'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
+      surname:
+        language: en
+        script: Latn
+        content: Weck
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccss-speech-1
     title:
-    - content: CSS Speech Module Level 1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/css-speech-1/
-      type: src
-    docid:
-    - id: W3C css-speech-1
+    - language: en
+      script: Latn
+      content: CSS Speech Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/css-speech-1/
+    docidentifier:
+    - content: W3C css-speech-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-css3-speech-20120320
     title:
-    - content: CSS Speech Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/CR-css3-speech-20120320/
-      type: src
-    docid:
-    - id: W3C CR-css3-speech-20120320
+    - language: en
+      script: Latn
+      content: CSS Speech Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/CR-css3-speech-20120320/
+    docidentifier:
+    - content: W3C CR-css3-speech-20120320
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-css-speech-1-20200310
-    title:
-    - content: CSS Speech Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
-      type: src
-    docid:
-    - id: W3C CR-css-speech-1-20200310
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Speech Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/CR-css-speech-1-20200310/
+    docidentifier:
+    - content: W3C CR-css-speech-1-20200310
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-css3-speech-20180605
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Cascading Style Sheets (CSS) Working Group
+    content: technicalReport
+  flavor: w3c

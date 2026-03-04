@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xkms2-xbulk-20020318
-title:
-- content: XML Key Management Specification Bulk Operation (X-BULK)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/WD-xkms2-xbulk-20020318/
-  type: src
+id: W3CWDxkms2xbulk20020318
 type: standard
-docid:
-- id: W3C WD-xkms2-xbulk-20020318
+schema_version: v1.4.1
+formattedref: W3C WD-xkms2-xbulk-20020318
+title:
+- language: en
+  script: Latn
+  content: XML Key Management Specification Bulk Operation (X-BULK)
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/WD-xkms2-xbulk-20020318/
+docidentifier:
+- content: W3C WD-xkms2-xbulk-20020318
   type: W3C
   primary: true
 docnumber: WD-xkms2-xbulk-20020318
 date:
 - type: published
-  value: '2002-03-18'
+  at: '2002-03-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Merlin
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hughes
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2002-03-18'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Merlin
+      surname:
+        language: en
+        script: Latn
+        content: Hughes
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxkms2-xbulk
     title:
-    - content: XML Key Management Specification Bulk Operation (X-BULK)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xkms2-xbulk/
-      type: src
-    docid:
-    - id: W3C xkms2-xbulk
+    - language: en
+      script: Latn
+      content: XML Key Management Specification Bulk Operation (X-BULK)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xkms2-xbulk/
+    docidentifier:
+    - content: W3C xkms2-xbulk
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: WD-xkms2-xbulk-20020318
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

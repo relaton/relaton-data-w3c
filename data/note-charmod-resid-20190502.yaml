@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-charmod-resid-20190502
-title:
-- content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/NOTE-charmod-resid-20190502/
-  type: src
+id: W3CNOTEcharmodresid20190502
 type: standard
-docid:
-- id: W3C NOTE-charmod-resid-20190502
+schema_version: v1.4.1
+formattedref: W3C NOTE-charmod-resid-20190502
+title:
+- language: en
+  script: Latn
+  content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/NOTE-charmod-resid-20190502/
+docidentifier:
+- content: W3C NOTE-charmod-resid-20190502
   type: W3C
   primary: true
 docnumber: NOTE-charmod-resid-20190502
 date:
 - type: published
-  value: '2019-05-02'
+  at: '2019-05-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2019-05-02'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ccharmod-resid
     title:
-    - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/charmod-resid/
-      type: src
-    docid:
-    - id: W3C charmod-resid
+    - language: en
+      script: Latn
+      content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/charmod-resid/
+    docidentifier:
+    - content: W3C charmod-resid
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-charmod-resid-20041122
     title:
-    - content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/CR-charmod-resid-20041122/
-      type: src
-    docid:
-    - id: W3C CR-charmod-resid-20041122
+    - language: en
+      script: Latn
+      content: 'Character Model for the World Wide Web 1.0: Resource Identifiers'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/CR-charmod-resid-20041122/
+    docidentifier:
+    - content: W3C CR-charmod-resid-20041122
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-charmod-resid-20190502
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

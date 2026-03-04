@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-grek-gap-20210525
-title:
-- content: Modern Greek Gap Analysis
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/WD-grek-gap-20210525/
-  type: src
+id: W3CWDgrekgap20210525
 type: standard
-docid:
-- id: W3C WD-grek-gap-20210525
+schema_version: v1.4.1
+formattedref: W3C WD-grek-gap-20210525
+title:
+- language: en
+  script: Latn
+  content: Modern Greek Gap Analysis
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/WD-grek-gap-20210525/
+docidentifier:
+- content: W3C WD-grek-gap-20210525
   type: W3C
   primary: true
 docnumber: WD-grek-gap-20210525
 date:
 - type: published
-  value: '2021-05-25'
+  at: '2021-05-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Richard
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ishida
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-05-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Richard
+      surname:
+        language: en
+        script: Latn
+        content: Ishida
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cgrek-gap
     title:
-    - content: Modern Greek Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/grek-gap/
-      type: src
-    docid:
-    - id: W3C grek-gap
+    - language: en
+      script: Latn
+      content: Modern Greek Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/grek-gap/
+    docidentifier:
+    - content: W3C grek-gap
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-grek-gap-20210126
     title:
-    - content: Modern Greek Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-grek-gap-20210126/
-      type: src
-    docid:
-    - id: W3C WD-grek-gap-20210126
+    - language: en
+      script: Latn
+      content: Modern Greek Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-grek-gap-20210126/
+    docidentifier:
+    - content: W3C WD-grek-gap-20210126
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CDNOTE-grek-gap-20220119
-    title:
-    - content: Modern Greek Gap Analysis
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-grek-gap-20220119/
-      type: src
-    docid:
-    - id: W3C DNOTE-grek-gap-20220119
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Modern Greek Gap Analysis
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-grek-gap-20220119/
+    docidentifier:
+    - content: W3C DNOTE-grek-gap-20220119
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-grek-gap-20210525
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Working Group
+    content: technicalReport
+  flavor: w3c

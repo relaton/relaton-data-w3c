@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cttml10-sdp-us
-title:
-- content: TTML Simple Delivery Profile for Closed Captions (US)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ttml10-sdp-us/
-  type: src
+id: W3Cttml10sdpus
 type: standard
-docid:
-- id: W3C ttml10-sdp-us
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: TTML Simple Delivery Profile for Closed Captions (US)
+source:
+- type: src
+  content: https://www.w3.org/TR/ttml10-sdp-us/
+docidentifier:
+- content: W3C ttml10-sdp-us
   type: W3C
   primary: true
 docnumber: ttml10-sdp-us
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-ttml10-sdp-us-20130205
     title:
-    - content: TTML Simple Delivery Profile for Closed Captions (US)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/NOTE-ttml10-sdp-us-20130205/
-      type: src
-    docid:
-    - id: W3C NOTE-ttml10-sdp-us-20130205
+    - language: en
+      script: Latn
+      content: TTML Simple Delivery Profile for Closed Captions (US)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/NOTE-ttml10-sdp-us-20130205/
+    docidentifier:
+    - content: W3C NOTE-ttml10-sdp-us-20130205
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ttml10-sdp-us-20130103
     title:
-    - content: Simple Delivery Profile for Closed Captions (US)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-ttml10-sdp-us-20130103/
-      type: src
-    docid:
-    - id: W3C WD-ttml10-sdp-us-20130103
+    - language: en
+      script: Latn
+      content: Simple Delivery Profile for Closed Captions (US)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-ttml10-sdp-us-20130103/
+    docidentifier:
+    - content: W3C WD-ttml10-sdp-us-20130103
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ttml10-sdp-us-20120913
     title:
-    - content: Simple Delivery Profile for Closed Captions (US)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-ttml10-sdp-us-20120913/
-      type: src
-    docid:
-    - id: W3C WD-ttml10-sdp-us-20120913
+    - language: en
+      script: Latn
+      content: Simple Delivery Profile for Closed Captions (US)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-ttml10-sdp-us-20120913/
+    docidentifier:
+    - content: W3C WD-ttml10-sdp-us-20120913
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ttml10-sdp-us
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

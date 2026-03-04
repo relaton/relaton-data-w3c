@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cwasm-js-api-2
-title:
-- content: WebAssembly JavaScript Interface
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/wasm-js-api-2/
-  type: src
+id: W3Cwasmjsapi2
 type: standard
-docid:
-- id: W3C wasm-js-api-2
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: WebAssembly JavaScript Interface
+source:
+- type: src
+  content: https://www.w3.org/TR/wasm-js-api-2/
+docidentifier:
+- content: W3C wasm-js-api-2
   type: W3C
   primary: true
 docnumber: wasm-js-api-2
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,699 +31,753 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260212
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260212/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260212
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260303/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260303
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260210
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260210/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260210
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260226/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260226
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260206
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260206/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260206
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260224/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260224
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260203
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260203/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260203
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260216/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260216
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260202
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260202/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260202
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260212/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260212
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260129
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260129/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260129
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260210/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260210
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20260121
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260121/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20260121
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260206/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260206
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251122
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251122/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251122
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260203/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260203
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251119
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251119/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251119
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260202/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260202
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251118
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251118/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251118
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260129/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260129
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251114
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251114/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251114
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260121/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20260121
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251102
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251102/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251102
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251122/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251122
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251101
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251101/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251101
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251119/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251119
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251030
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251030/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251030
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251118/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251118
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251027
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251027/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251027
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251114/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251114
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251016
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251016/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251016
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251102/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251102
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251015
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251015/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251015
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251101/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251101
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251008
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251008/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251008
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251030/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251030
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250624
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250624/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250624
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251027/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251027
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250623
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250623/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250623
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251016/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251016
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250616
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250616/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250616
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251015/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251015
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250515
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250515/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250515
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251008/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251008
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250509
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250509/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250509
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250624/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250624
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250425
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250425/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250425
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250623/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250623
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250128
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250128/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250128
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250616/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250616
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20250124
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250124/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20250124
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250515/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250515
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20241218
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-wasm-js-api-2-20241218/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20241218
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250509/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250509
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-wasm-js-api-2-20241217
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CR-wasm-js-api-2-20241217/
-      type: src
-    docid:
-    - id: W3C CR-wasm-js-api-2-20241217
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250425/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250425
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-wasm-js-api-2-20241217
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CR-wasm-js-api-2-20241217/
-      type: src
-    docid:
-    - id: W3C CR-wasm-js-api-2-20241217
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250128/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241213
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241213/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241213
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20250124/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20250124
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241206
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241206/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241206
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-wasm-js-api-2-20241218/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20241218
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241130
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241130/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241130
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CR-wasm-js-api-2-20241217/
+    docidentifier:
+    - content: W3C CR-wasm-js-api-2-20241217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241128
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241128/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241128
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CR-wasm-js-api-2-20241217/
+    docidentifier:
+    - content: W3C CR-wasm-js-api-2-20241217
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241112
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241112/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241112
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241213/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241213
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241108
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241108/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241108
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241206/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241206
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241107
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241107/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241107
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241130/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241130
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241007
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241007/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241007
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241128/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241006
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241006/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241006
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241112/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241112
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241004
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241004/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241004
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241108/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241108
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20241003
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241003/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20241003
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241107/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241107
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240930
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240930/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240930
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241007/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241007
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240911
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240911/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240911
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241006/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241006
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240903
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240903/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240903
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241004/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241004
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240822
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240822/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240822
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20241003/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20241003
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240821
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240821/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240821
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240930/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240930
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240626
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240626/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240626
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240911/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240911
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240402
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240402/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240402
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240903/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240903
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240305
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240305/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240305
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240822/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240822
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240219
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240219/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240219
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240821/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240821
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240217
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240217/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240217
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240626/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240626
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240216
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240216/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240216
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240402/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240402
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20240215
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240215/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20240215
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240305/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240305
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wasm-js-api-2-20220419
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-wasm-js-api-2-20220419/
-      type: src
-    docid:
-    - id: W3C WD-wasm-js-api-2-20220419
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240219/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240219
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240217/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240216/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240216
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240215/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20240215
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-wasm-js-api-2-20220419/
+    docidentifier:
+    - content: W3C WD-wasm-js-api-2-20220419
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: wasm-js-api-2
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cspoken-html
-title:
-- content: Specification for Spoken Presentation in HTML
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/spoken-html/
-  type: src
+id: W3Cspokenhtml
 type: standard
-docid:
-- id: W3C spoken-html
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Specification for Spoken Presentation in HTML
+source:
+- type: src
+  content: https://www.w3.org/TR/spoken-html/
+docidentifier:
+- content: W3C spoken-html
   type: W3C
   primary: true
 docnumber: spoken-html
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-spoken-html-20210923
     title:
-    - content: Specification for Spoken Presentation in HTML
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-spoken-html-20210923/
-      type: src
-    docid:
-    - id: W3C WD-spoken-html-20210923
+    - language: en
+      script: Latn
+      content: Specification for Spoken Presentation in HTML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-spoken-html-20210923/
+    docidentifier:
+    - content: W3C WD-spoken-html-20210923
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-spoken-html-20210518
     title:
-    - content: Specification for Spoken Presentation in HTML
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2021/WD-spoken-html-20210518/
-      type: src
-    docid:
-    - id: W3C WD-spoken-html-20210518
+    - language: en
+      script: Latn
+      content: Specification for Spoken Presentation in HTML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2021/WD-spoken-html-20210518/
+    docidentifier:
+    - content: W3C WD-spoken-html-20210518
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: spoken-html
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cminiapp-addressing
-title:
-- content: MiniApp Addressing
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/miniapp-addressing/
-  type: src
+id: W3Cminiappaddressing
 type: standard
-docid:
-- id: W3C miniapp-addressing
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: MiniApp Addressing
+source:
+- type: src
+  content: https://www.w3.org/TR/miniapp-addressing/
+docidentifier:
+- content: W3C miniapp-addressing
   type: W3C
   primary: true
 docnumber: miniapp-addressing
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20240625
     title:
-    - content: MiniApp Addressing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-miniapp-addressing-20240625/
-      type: src
-    docid:
-    - id: W3C DNOTE-miniapp-addressing-20240625
+    - language: en
+      script: Latn
+      content: MiniApp Addressing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-miniapp-addressing-20240625/
+    docidentifier:
+    - content: W3C DNOTE-miniapp-addressing-20240625
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-miniapp-addressing-20240131
     title:
-    - content: MiniApp Addressing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/WD-miniapp-addressing-20240131/
-      type: src
-    docid:
-    - id: W3C WD-miniapp-addressing-20240131
+    - language: en
+      script: Latn
+      content: MiniApp Addressing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/WD-miniapp-addressing-20240131/
+    docidentifier:
+    - content: W3C WD-miniapp-addressing-20240131
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220627
     title:
-    - content: MiniApp Addressing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220627/
-      type: src
-    docid:
-    - id: W3C DNOTE-miniapp-addressing-20220627
+    - language: en
+      script: Latn
+      content: MiniApp Addressing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220627/
+    docidentifier:
+    - content: W3C DNOTE-miniapp-addressing-20220627
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220311
     title:
-    - content: MiniApp Addressing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220311/
-      type: src
-    docid:
-    - id: W3C DNOTE-miniapp-addressing-20220311
+    - language: en
+      script: Latn
+      content: MiniApp Addressing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220311/
+    docidentifier:
+    - content: W3C DNOTE-miniapp-addressing-20220311
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-miniapp-addressing-20220310
     title:
-    - content: MiniApp Addressing
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220310/
-      type: src
-    docid:
-    - id: W3C DNOTE-miniapp-addressing-20220310
+    - language: en
+      script: Latn
+      content: MiniApp Addressing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/DNOTE-miniapp-addressing-20220310/
+    docidentifier:
+    - content: W3C DNOTE-miniapp-addressing-20220310
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: miniapp-addressing
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

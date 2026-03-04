@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-P3P-arch
-title:
-- content: 'P3P Architecture Working Group: General Overview of the P3P Architecture'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/WD-P3P-arch
-  type: src
+id: W3CWDP3Parch
 type: standard
-docid:
-- id: W3C WD-P3P-arch
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'P3P Architecture Working Group: General Overview of the P3P Architecture'
+source:
+- type: src
+  content: https://www.w3.org/TR/WD-P3P-arch
+docidentifier:
+- content: W3C WD-P3P-arch
   type: W3C
   primary: true
 docnumber: WD-P3P-arch
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,23 +31,25 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-P3P-arch-971022
     title:
-    - content: 'P3P Architecture Working Group: General Overview of the P3P Architecture'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/WD-P3P-arch-971022
-      type: src
-    docid:
-    - id: W3C WD-P3P-arch-971022
+    - language: en
+      script: Latn
+      content: 'P3P Architecture Working Group: General Overview of the P3P Architecture'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/WD-P3P-arch-971022
+    docidentifier:
+    - content: W3C WD-P3P-arch-971022
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: WD-P3P-arch
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-powder-test-20080815
-title:
-- content: 'Protocol for Web Description Resources (POWDER): Test Suite'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2008/WD-powder-test-20080815/
-  type: src
+id: W3CWDpowdertest20080815
 type: standard
-docid:
-- id: W3C WD-powder-test-20080815
+schema_version: v1.4.1
+formattedref: W3C WD-powder-test-20080815
+title:
+- language: en
+  script: Latn
+  content: 'Protocol for Web Description Resources (POWDER): Test Suite'
+source:
+- type: src
+  content: https://www.w3.org/TR/2008/WD-powder-test-20080815/
+docidentifier:
+- content: W3C WD-powder-test-20080815
   type: W3C
   primary: true
 docnumber: WD-powder-test-20080815
 date:
 - type: published
-  value: '2008-08-15'
+  at: '2008-08-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Antonis
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kukurikos
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2008-08-15'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Antonis
+      surname:
+        language: en
+        script: Latn
+        content: Kukurikos
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Protocol for Web Description Resources (POWDER) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cpowder-test
     title:
-    - content: 'Protocol for Web Description Resources (POWDER): Test Suite'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/powder-test/
-      type: src
-    docid:
-    - id: W3C powder-test
+    - language: en
+      script: Latn
+      content: 'Protocol for Web Description Resources (POWDER): Test Suite'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/powder-test/
+    docidentifier:
+    - content: W3C powder-test
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-powder-test-20090403
-    title:
-    - content: 'Protocol for Web Description Resources (POWDER): Test Suite'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/NOTE-powder-test-20090403/
-      type: src
-    docid:
-    - id: W3C NOTE-powder-test-20090403
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Protocol for Web Description Resources (POWDER): Test Suite'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/NOTE-powder-test-20090403/
+    docidentifier:
+    - content: W3C NOTE-powder-test-20090403
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-powder-test-20080815
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Protocol for Web Description Resources (POWDER) Working Group
+    content: technicalReport
+  flavor: w3c

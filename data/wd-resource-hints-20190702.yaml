@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-resource-hints-20190702
-title:
-- content: Resource Hints
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2019/WD-resource-hints-20190702/
-  type: src
+id: W3CWDresourcehints20190702
 type: standard
-docid:
-- id: W3C WD-resource-hints-20190702
+schema_version: v1.4.1
+formattedref: W3C WD-resource-hints-20190702
+title:
+- language: en
+  script: Latn
+  content: Resource Hints
+source:
+- type: src
+  content: https://www.w3.org/TR/2019/WD-resource-hints-20190702/
+docidentifier:
+- content: W3C WD-resource-hints-20190702
   type: W3C
   primary: true
 docnumber: WD-resource-hints-20190702
 date:
 - type: published
-  value: '2019-07-02'
+  at: '2019-07-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Ilya
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Grigorik
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2019-07-02'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ilya
+      surname:
+        language: en
+        script: Latn
+        content: Grigorik
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Performance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cresource-hints
     title:
-    - content: Resource Hints
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/resource-hints/
-      type: src
-    docid:
-    - id: W3C resource-hints
+    - language: en
+      script: Latn
+      content: Resource Hints
+    source:
+    - type: src
+      content: https://www.w3.org/TR/resource-hints/
+    docidentifier:
+    - content: W3C resource-hints
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-resource-hints-20190627
     title:
-    - content: Resource Hints
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2019/WD-resource-hints-20190627/
-      type: src
-    docid:
-    - id: W3C WD-resource-hints-20190627
+    - language: en
+      script: Latn
+      content: Resource Hints
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2019/WD-resource-hints-20190627/
+    docidentifier:
+    - content: W3C WD-resource-hints-20190627
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-resource-hints-20201005
-    title:
-    - content: Resource Hints
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-resource-hints-20201005/
-      type: src
-    docid:
-    - id: W3C WD-resource-hints-20201005
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Resource Hints
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-resource-hints-20201005/
+    docidentifier:
+    - content: W3C WD-resource-hints-20201005
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-resource-hints-20190702
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Performance Working Group
+    content: technicalReport
+  flavor: w3c

@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cwot-profile
-title:
-- content: Web of Things (WoT) Profiles
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/wot-profile/
-  type: src
+id: W3Cwotprofile
 type: standard
-docid:
-- id: W3C wot-profile
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web of Things (WoT) Profiles
+source:
+- type: src
+  content: https://www.w3.org/TR/wot-profile/
+docidentifier:
+- content: W3C wot-profile
   type: W3C
   primary: true
 docnumber: wot-profile
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-wot-profile-20251104
     title:
-    - content: Web of Things (WoT) Profiles
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/WD-wot-profile-20251104/
-      type: src
-    docid:
-    - id: W3C WD-wot-profile-20251104
+    - language: en
+      script: Latn
+      content: Web of Things (WoT) Profiles
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/WD-wot-profile-20251104/
+    docidentifier:
+    - content: W3C WD-wot-profile-20251104
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wot-profile-20230118
     title:
-    - content: Web of Things (WoT) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-wot-profile-20230118/
-      type: src
-    docid:
-    - id: W3C WD-wot-profile-20230118
+    - language: en
+      script: Latn
+      content: Web of Things (WoT) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-wot-profile-20230118/
+    docidentifier:
+    - content: W3C WD-wot-profile-20230118
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-wot-profile-20201124
     title:
-    - content: Web of Things (WoT) Profile
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2020/WD-wot-profile-20201124/
-      type: src
-    docid:
-    - id: W3C WD-wot-profile-20201124
+    - language: en
+      script: Latn
+      content: Web of Things (WoT) Profile
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2020/WD-wot-profile-20201124/
+    docidentifier:
+    - content: W3C WD-wot-profile-20201124
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: wot-profile
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

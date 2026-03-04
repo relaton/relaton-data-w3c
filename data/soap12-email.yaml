@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Csoap12-email
-title:
-- content: SOAP Version 1.2 Email Binding
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/soap12-email/
-  type: src
+id: W3Csoap12email
 type: standard
-docid:
-- id: W3C soap12-email
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SOAP Version 1.2 Email Binding
+source:
+- type: src
+  content: https://www.w3.org/TR/soap12-email/
+docidentifier:
+- content: W3C soap12-email
   type: W3C
   primary: true
 docnumber: soap12-email
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-soap12-email-20020703
     title:
-    - content: SOAP Version 1.2 Email Binding
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020703
-      type: src
-    docid:
-    - id: W3C NOTE-soap12-email-20020703
+    - language: en
+      script: Latn
+      content: SOAP Version 1.2 Email Binding
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020703
+    docidentifier:
+    - content: W3C NOTE-soap12-email-20020703
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-soap12-email-20020626
     title:
-    - content: SOAP Version 1.2 Email Binding
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
-      type: src
-    docid:
-    - id: W3C NOTE-soap12-email-20020626
+    - language: en
+      script: Latn
+      content: SOAP Version 1.2 Email Binding
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/NOTE-soap12-email-20020626
+    docidentifier:
+    - content: W3C NOTE-soap12-email-20020626
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: soap12-email
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

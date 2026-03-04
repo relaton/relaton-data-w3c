@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cvocab-duv
-title:
-- content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/vocab-duv/
-  type: src
+id: W3Cvocabduv
 type: standard
-docid:
-- id: W3C vocab-duv
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+source:
+- type: src
+  content: https://www.w3.org/TR/vocab-duv/
+docidentifier:
+- content: W3C vocab-duv
   type: W3C
   primary: true
 docnumber: vocab-duv
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-vocab-duv-20161215
     title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20161215/
-      type: src
-    docid:
-    - id: W3C NOTE-vocab-duv-20161215
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20161215/
+    docidentifier:
+    - content: W3C NOTE-vocab-duv-20161215
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-vocab-duv-20160830
     title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20160830/
-      type: src
-    docid:
-    - id: W3C NOTE-vocab-duv-20160830
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/NOTE-vocab-duv-20160830/
+    docidentifier:
+    - content: W3C NOTE-vocab-duv-20160830
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-duv-20160519
     title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-vocab-duv-20160519/
-      type: src
-    docid:
-    - id: W3C WD-vocab-duv-20160519
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-vocab-duv-20160519/
+    docidentifier:
+    - content: W3C WD-vocab-duv-20160519
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-duv-20160128
     title:
-    - content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-vocab-duv-20160128/
-      type: src
-    docid:
-    - id: W3C WD-vocab-duv-20160128
+    - language: en
+      script: Latn
+      content: 'Data on the Web Best Practices: Dataset Usage Vocabulary'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-vocab-duv-20160128/
+    docidentifier:
+    - content: W3C WD-vocab-duv-20160128
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-vocab-duv-20150625
     title:
-    - content: Dataset Usage Vocabulary
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/WD-vocab-duv-20150625/
-      type: src
-    docid:
-    - id: W3C WD-vocab-duv-20150625
+    - language: en
+      script: Latn
+      content: Dataset Usage Vocabulary
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/WD-vocab-duv-20150625/
+    docidentifier:
+    - content: W3C WD-vocab-duv-20150625
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: vocab-duv
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

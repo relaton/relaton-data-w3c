@@ -1,60 +1,77 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-SRML-20021218
-title:
-- content: SRML - Simulation Reference Markup Language
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2002/NOTE-SRML-20021218
-  type: src
+id: W3CNOTESRML20021218
 type: standard
-docid:
-- id: W3C NOTE-SRML-20021218
+schema_version: v1.4.1
+formattedref: W3C NOTE-SRML-20021218
+title:
+- language: en
+  script: Latn
+  content: SRML - Simulation Reference Markup Language
+source:
+- type: src
+  content: https://www.w3.org/TR/2002/NOTE-SRML-20021218
+docidentifier:
+- content: W3C NOTE-SRML-20021218
   type: W3C
   primary: true
 docnumber: NOTE-SRML-20021218
 date:
 - type: published
-  value: '2002-12-18'
+  at: '2002-12-18'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2002-12-18'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CSRML
     title:
-    - content: SRML - Simulation Reference Markup Language
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/SRML
-      type: src
-    docid:
-    - id: W3C SRML
+    - language: en
+      script: Latn
+      content: SRML - Simulation Reference Markup Language
+    source:
+    - type: src
+      content: https://www.w3.org/TR/SRML
+    docidentifier:
+    - content: W3C SRML
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-SRML-20021218
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

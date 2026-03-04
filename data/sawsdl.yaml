@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Csawsdl
-title:
-- content: Semantic Annotations for WSDL and XML Schema
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/sawsdl/
-  type: src
 type: standard
-docid:
-- id: W3C sawsdl
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Semantic Annotations for WSDL and XML Schema
+source:
+- type: src
+  content: https://www.w3.org/TR/sawsdl/
+docidentifier:
+- content: W3C sawsdl
   type: W3C
   primary: true
 docnumber: sawsdl
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-sawsdl-20070828
     title:
-    - content: Semantic Annotations for WSDL and XML Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/REC-sawsdl-20070828/
-      type: src
-    docid:
-    - id: W3C REC-sawsdl-20070828
+    - language: en
+      script: Latn
+      content: Semantic Annotations for WSDL and XML Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/REC-sawsdl-20070828/
+    docidentifier:
+    - content: W3C REC-sawsdl-20070828
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-sawsdl-20070705
     title:
-    - content: Semantic Annotations for WSDL and XML Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/PR-sawsdl-20070705/
-      type: src
-    docid:
-    - id: W3C PR-sawsdl-20070705
+    - language: en
+      script: Latn
+      content: Semantic Annotations for WSDL and XML Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/PR-sawsdl-20070705/
+    docidentifier:
+    - content: W3C PR-sawsdl-20070705
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sawsdl-20070410
     title:
-    - content: Semantic Annotations for WSDL and XML Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-sawsdl-20070410/
-      type: src
-    docid:
-    - id: W3C WD-sawsdl-20070410
+    - language: en
+      script: Latn
+      content: Semantic Annotations for WSDL and XML Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-sawsdl-20070410/
+    docidentifier:
+    - content: W3C WD-sawsdl-20070410
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-sawsdl-20070126
     title:
-    - content: Semantic Annotations for WSDL and XML Schema
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/CR-sawsdl-20070126
-      type: src
-    docid:
-    - id: W3C CR-sawsdl-20070126
+    - language: en
+      script: Latn
+      content: Semantic Annotations for WSDL and XML Schema
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/CR-sawsdl-20070126
+    docidentifier:
+    - content: W3C CR-sawsdl-20070126
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sawsdl-20060928
     title:
-    - content: Semantic Annotations for WSDL
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-sawsdl-20060928/
-      type: src
-    docid:
-    - id: W3C WD-sawsdl-20060928
+    - language: en
+      script: Latn
+      content: Semantic Annotations for WSDL
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-sawsdl-20060928/
+    docidentifier:
+    - content: W3C WD-sawsdl-20060928
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-sawsdl-20060630
     title:
-    - content: Semantic Annotations for WSDL
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-sawsdl-20060630/
-      type: src
-    docid:
-    - id: W3C WD-sawsdl-20060630
+    - language: en
+      script: Latn
+      content: Semantic Annotations for WSDL
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-sawsdl-20060630/
+    docidentifier:
+    - content: W3C WD-sawsdl-20060630
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: sawsdl
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-webxr-dom-overlays-1-20240924
-title:
-- content: WebXR DOM Overlays Module
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/WD-webxr-dom-overlays-1-20240924/
-  type: src
+id: W3CWDwebxrdomoverlays120240924
 type: standard
-docid:
-- id: W3C WD-webxr-dom-overlays-1-20240924
+schema_version: v1.4.1
+formattedref: W3C WD-webxr-dom-overlays-1-20240924
+title:
+- language: en
+  script: Latn
+  content: WebXR DOM Overlays Module
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/WD-webxr-dom-overlays-1-20240924/
+docidentifier:
+- content: W3C WD-webxr-dom-overlays-1-20240924
   type: W3C
   primary: true
 docnumber: WD-webxr-dom-overlays-1-20240924
 date:
 - type: published
-  value: '2024-09-24'
+  at: '2024-09-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Piotr
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bialecki
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2024-09-24'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Piotr
+      surname:
+        language: en
+        script: Latn
+        content: Bialecki
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Immersive Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwebxr-dom-overlays-1
     title:
-    - content: WebXR DOM Overlays Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/webxr-dom-overlays-1/
-      type: src
-    docid:
-    - id: W3C webxr-dom-overlays-1
+    - language: en
+      script: Latn
+      content: WebXR DOM Overlays Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/webxr-dom-overlays-1/
+    docidentifier:
+    - content: W3C webxr-dom-overlays-1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-webxr-dom-overlays-1-20221117
     title:
-    - content: WebXR DOM Overlays Module
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-webxr-dom-overlays-1-20221117/
-      type: src
-    docid:
-    - id: W3C WD-webxr-dom-overlays-1-20221117
+    - language: en
+      script: Latn
+      content: WebXR DOM Overlays Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-webxr-dom-overlays-1-20221117/
+    docidentifier:
+    - content: W3C WD-webxr-dom-overlays-1-20221117
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-webxr-dom-overlays-1-20240924
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Immersive Web Working Group
+    content: technicalReport
+  flavor: w3c

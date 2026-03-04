@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Ccontacts-manager-api
-title:
-- content: Contacts Manager API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/contacts-manager-api/
-  type: src
+id: W3Ccontactsmanagerapi
 type: standard
-docid:
-- id: W3C contacts-manager-api
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Contacts Manager API
+source:
+- type: src
+  content: https://www.w3.org/TR/contacts-manager-api/
+docidentifier:
+- content: W3C contacts-manager-api
   type: W3C
   primary: true
 docnumber: contacts-manager-api
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CNOTE-contacts-manager-api-20150602
     title:
-    - content: Contacts Manager API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-contacts-manager-api-20150602/
-      type: src
-    docid:
-    - id: W3C NOTE-contacts-manager-api-20150602
+    - language: en
+      script: Latn
+      content: Contacts Manager API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/NOTE-contacts-manager-api-20150602/
+    docidentifier:
+    - content: W3C NOTE-contacts-manager-api-20150602
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-contacts-manager-api-20130307
     title:
-    - content: Contacts Manager API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-contacts-manager-api-20130307/
-      type: src
-    docid:
-    - id: W3C WD-contacts-manager-api-20130307
+    - language: en
+      script: Latn
+      content: Contacts Manager API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-contacts-manager-api-20130307/
+    docidentifier:
+    - content: W3C WD-contacts-manager-api-20130307
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: contacts-manager-api
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

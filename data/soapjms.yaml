@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3Csoapjms
-title:
-- content: SOAP over Java Message Service 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/soapjms/
-  type: src
 type: standard
-docid:
-- id: W3C soapjms
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: SOAP over Java Message Service 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/soapjms/
+docidentifier:
+- content: W3C soapjms
   type: W3C
   primary: true
 docnumber: soapjms
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CREC-soapjms-20120216
     title:
-    - content: SOAP over Java Message Service 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/REC-soapjms-20120216/
-      type: src
-    docid:
-    - id: W3C REC-soapjms-20120216
+    - language: en
+      script: Latn
+      content: SOAP over Java Message Service 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/REC-soapjms-20120216/
+    docidentifier:
+    - content: W3C REC-soapjms-20120216
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CPR-soapjms-20111208
     title:
-    - content: SOAP over Java Message Service 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/PR-soapjms-20111208/
-      type: src
-    docid:
-    - id: W3C PR-soapjms-20111208
+    - language: en
+      script: Latn
+      content: SOAP over Java Message Service 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/PR-soapjms-20111208/
+    docidentifier:
+    - content: W3C PR-soapjms-20111208
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-soapjms-20101026
     title:
-    - content: SOAP over Java Message Service 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-soapjms-20101026/
-      type: src
-    docid:
-    - id: W3C WD-soapjms-20101026
+    - language: en
+      script: Latn
+      content: SOAP over Java Message Service 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-soapjms-20101026/
+    docidentifier:
+    - content: W3C WD-soapjms-20101026
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-soapjms-20090604
     title:
-    - content: SOAP over Java Message Service 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/CR-soapjms-20090604
-      type: src
-    docid:
-    - id: W3C CR-soapjms-20090604
+    - language: en
+      script: Latn
+      content: SOAP over Java Message Service 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/CR-soapjms-20090604
+    docidentifier:
+    - content: W3C CR-soapjms-20090604
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-soapjms-20081121
     title:
-    - content: SOAP over Java Message Service 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-soapjms-20081121
-      type: src
-    docid:
-    - id: W3C WD-soapjms-20081121
+    - language: en
+      script: Latn
+      content: SOAP over Java Message Service 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-soapjms-20081121
+    docidentifier:
+    - content: W3C WD-soapjms-20081121
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-soapjms-20080723
     title:
-    - content: SOAP over Java Message Service 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-soapjms-20080723
-      type: src
-    docid:
-    - id: W3C WD-soapjms-20080723
+    - language: en
+      script: Latn
+      content: SOAP over Java Message Service 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-soapjms-20080723
+    docidentifier:
+    - content: W3C WD-soapjms-20080723
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: soapjms
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

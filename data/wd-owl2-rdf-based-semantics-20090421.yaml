@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-owl2-rdf-based-semantics-20090421
-title:
-- content: OWL 2 Web Ontology Language RDF-Based Semantics
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/WD-owl2-rdf-based-semantics-20090421/
-  type: src
+id: W3CWDowl2rdfbasedsemantics20090421
 type: standard
-docid:
-- id: W3C WD-owl2-rdf-based-semantics-20090421
+schema_version: v1.4.1
+formattedref: W3C WD-owl2-rdf-based-semantics-20090421
+title:
+- language: en
+  script: Latn
+  content: OWL 2 Web Ontology Language RDF-Based Semantics
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/WD-owl2-rdf-based-semantics-20090421/
+docidentifier:
+- content: W3C WD-owl2-rdf-based-semantics-20090421
   type: W3C
   primary: true
 docnumber: WD-owl2-rdf-based-semantics-20090421
 date:
 - type: published
-  value: '2009-04-21'
+  at: '2009-04-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Schneider
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2009-04-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
+      surname:
+        language: en
+        script: Latn
+        content: Schneider
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: OWL Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cowl2-rdf-based-semantics
     title:
-    - content: OWL 2 Web Ontology Language RDF-Based Semantics (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/owl2-rdf-based-semantics/
-      type: src
-    docid:
-    - id: W3C owl2-rdf-based-semantics
+    - language: en
+      script: Latn
+      content: OWL 2 Web Ontology Language RDF-Based Semantics (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/owl2-rdf-based-semantics/
+    docidentifier:
+    - content: W3C owl2-rdf-based-semantics
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-owl2-rdf-based-semantics-20081202
     title:
-    - content: OWL 2 Web Ontology Language:RDF-Based Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-owl2-rdf-based-semantics-20081202/
-      type: src
-    docid:
-    - id: W3C WD-owl2-rdf-based-semantics-20081202
+    - language: en
+      script: Latn
+      content: OWL 2 Web Ontology Language:RDF-Based Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-owl2-rdf-based-semantics-20081202/
+    docidentifier:
+    - content: W3C WD-owl2-rdf-based-semantics-20081202
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-owl2-rdf-based-semantics-20090611
-    title:
-    - content: OWL 2 Web Ontology Language RDF-Based Semantics
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2009/CR-owl2-rdf-based-semantics-20090611/
-      type: src
-    docid:
-    - id: W3C CR-owl2-rdf-based-semantics-20090611
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: OWL 2 Web Ontology Language RDF-Based Semantics
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2009/CR-owl2-rdf-based-semantics-20090611/
+    docidentifier:
+    - content: W3C CR-owl2-rdf-based-semantics-20090611
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-owl2-rdf-based-semantics-20090421
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: OWL Working Group
+    content: technicalReport
+  flavor: w3c

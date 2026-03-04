@@ -1,93 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-wsdl20-additional-meps-20070326
-title:
-- content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/WD-wsdl20-additional-meps-20070326
-  type: src
+id: W3CWDwsdl20additionalmeps20070326
 type: standard
-docid:
-- id: W3C WD-wsdl20-additional-meps-20070326
+schema_version: v1.4.1
+formattedref: W3C WD-wsdl20-additional-meps-20070326
+title:
+- language: en
+  script: Latn
+  content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/WD-wsdl20-additional-meps-20070326
+docidentifier:
+- content: W3C WD-wsdl20-additional-meps-20070326
   type: W3C
   primary: true
 docnumber: WD-wsdl20-additional-meps-20070326
 date:
 - type: published
-  value: '2007-03-26'
+  at: '2007-03-26'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Amelia
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Lewis
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2007-03-26'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Amelia
+      surname:
+        language: en
+        script: Latn
+        content: Lewis
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Services Description Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwsdl20-additional-meps
     title:
-    - content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/wsdl20-additional-meps/
-      type: src
-    docid:
-    - id: W3C wsdl20-additional-meps
+    - language: en
+      script: Latn
+      content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/wsdl20-additional-meps/
+    docidentifier:
+    - content: W3C wsdl20-additional-meps
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-wsdl20-additional-meps-20070523
-    title:
-    - content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-wsdl20-additional-meps-20070523
-      type: src
-    docid:
-    - id: W3C WD-wsdl20-additional-meps-20070523
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'Web Services Description Language (WSDL) Version 2.0: Additional MEPs'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-wsdl20-additional-meps-20070523
+    docidentifier:
+    - content: W3C WD-wsdl20-additional-meps-20070523
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-wsdl20-additional-meps-20070326
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Services Description Working Group
+    content: technicalReport
+  flavor: w3c

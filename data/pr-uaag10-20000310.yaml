@@ -1,89 +1,105 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-UAAG10-20000310
-title:
-- content: User Agent Accessibility Guidelines 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2000/PR-UAAG10-20000310
-  type: src
+id: W3CPRUAAG1020000310
 type: standard
-docid:
-- id: W3C PR-UAAG10-20000310
+schema_version: v1.4.1
+formattedref: W3C PR-UAAG10-20000310
+title:
+- language: en
+  script: Latn
+  content: User Agent Accessibility Guidelines 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2000/PR-UAAG10-20000310
+docidentifier:
+- content: W3C PR-UAAG10-20000310
   type: W3C
   primary: true
 docnumber: PR-UAAG10-20000310
 date:
 - type: published
-  value: '2000-03-10'
+  at: '2000-03-10'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-revdate: '2000-03-10'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3CUAAG10
     title:
-    - content: User Agent Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/UAAG10/
-      type: src
-    docid:
-    - id: W3C UAAG10
+    - language: en
+      script: Latn
+      content: User Agent Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/UAAG10/
+    docidentifier:
+    - content: W3C UAAG10
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-UAAG10-20000128
     title:
-    - content: User Agent Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/CR-UAAG10-20000128
-      type: src
-    docid:
-    - id: W3C CR-UAAG10-20000128
+    - language: en
+      script: Latn
+      content: User Agent Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/CR-UAAG10-20000128
+    docidentifier:
+    - content: W3C CR-UAAG10-20000128
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-UAAG10-20001023
-    title:
-    - content: User Agent Accessibility Guidelines 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2000/WD-UAAG10-20001023/
-      type: src
-    docid:
-    - id: W3C WD-UAAG10-20001023
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: User Agent Accessibility Guidelines 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2000/WD-UAAG10-20001023/
+    docidentifier:
+    - content: W3C WD-UAAG10-20001023
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-UAAG10-20000310
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

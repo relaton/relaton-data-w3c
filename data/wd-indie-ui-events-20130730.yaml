@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-indie-ui-events-20130730
-title:
-- content: 'IndieUI: Events 1.0'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-indie-ui-events-20130730/
-  type: src
+id: W3CWDindieuievents20130730
 type: standard
-docid:
-- id: W3C WD-indie-ui-events-20130730
+schema_version: v1.4.1
+formattedref: W3C WD-indie-ui-events-20130730
+title:
+- language: en
+  script: Latn
+  content: 'IndieUI: Events 1.0'
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-indie-ui-events-20130730/
+docidentifier:
+- content: W3C WD-indie-ui-events-20130730
   type: W3C
   primary: true
 docnumber: WD-indie-ui-events-20130730
 date:
 - type: published
-  value: '2013-07-30'
+  at: '2013-07-30'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: James
       surname:
+        language: en
+        script: Latn
         content: Craig
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Cooper
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-07-30'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Independent User Interface (Indie UI) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cindie-ui-events
     title:
-    - content: 'IndieUI: Events 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/indie-ui-events/
-      type: src
-    docid:
-    - id: W3C indie-ui-events
+    - language: en
+      script: Latn
+      content: 'IndieUI: Events 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/indie-ui-events/
+    docidentifier:
+    - content: W3C indie-ui-events
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-indie-ui-events-20130122
     title:
-    - content: 'IndieUI: Events 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-indie-ui-events-20130122/
-      type: src
-    docid:
-    - id: W3C WD-indie-ui-events-20130122
+    - language: en
+      script: Latn
+      content: 'IndieUI: Events 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-indie-ui-events-20130122/
+    docidentifier:
+    - content: W3C WD-indie-ui-events-20130122
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-indie-ui-events-20140529
-    title:
-    - content: 'IndieUI: Events 1.0'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-indie-ui-events-20140529/
-      type: src
-    docid:
-    - id: W3C WD-indie-ui-events-20140529
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: 'IndieUI: Events 1.0'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-indie-ui-events-20140529/
+    docidentifier:
+    - content: W3C WD-indie-ui-events-20140529
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-indie-ui-events-20130730
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Independent User Interface (Indie UI) Working Group
+    content: technicalReport
+  flavor: w3c

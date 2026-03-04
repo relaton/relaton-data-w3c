@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-xslt-19991116
-title:
-- content: XSL Transformations (XSLT) Version 1.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/1999/REC-xslt-19991116
-  type: src
+id: W3CRECxslt19991116
 type: standard
-docid:
-- id: W3C REC-xslt-19991116
+schema_version: v1.4.1
+formattedref: W3C REC-xslt-19991116
+title:
+- language: en
+  script: Latn
+  content: XSL Transformations (XSLT) Version 1.0
+source:
+- type: src
+  content: https://www.w3.org/TR/1999/REC-xslt-19991116
+docidentifier:
+- content: W3C REC-xslt-19991116
   type: W3C
   primary: true
 docnumber: REC-xslt-19991116
 date:
 - type: published
-  value: '1999-11-16'
+  at: '1999-11-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: James
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Clark
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '1999-11-16'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: James
+      surname:
+        language: en
+        script: Latn
+        content: Clark
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxslt-10
     title:
-    - content: XSL Transformations (XSLT) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xslt-10/
-      type: src
-    docid:
-    - id: W3C xslt-10
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xslt-10/
+    docidentifier:
+    - content: W3C xslt-10
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-xslt-19991008
     title:
-    - content: XSL Transformations (XSLT) Version 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/1999/PR-xslt-19991008
-      type: src
-    docid:
-    - id: W3C PR-xslt-19991008
+    - language: en
+      script: Latn
+      content: XSL Transformations (XSLT) Version 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/1999/PR-xslt-19991008
+    docidentifier:
+    - content: W3C PR-xslt-19991008
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-xslt-19991116
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

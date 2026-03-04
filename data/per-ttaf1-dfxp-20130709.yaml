@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CPER-ttaf1-dfxp-20130709
-title:
-- content: Timed Text Markup Language (TTML) 1.0 (Second Edition)
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/PER-ttaf1-dfxp-20130709/
-  type: src
+id: W3CPERttaf1dfxp20130709
 type: standard
-docid:
-- id: W3C PER-ttaf1-dfxp-20130709
+schema_version: v1.4.1
+formattedref: W3C PER-ttaf1-dfxp-20130709
+title:
+- language: en
+  script: Latn
+  content: Timed Text Markup Language (TTML) 1.0 (Second Edition)
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/PER-ttaf1-dfxp-20130709/
+docidentifier:
+- content: W3C PER-ttaf1-dfxp-20130709
   type: W3C
   primary: true
 docnumber: PER-ttaf1-dfxp-20130709
 date:
 - type: published
-  value: '2013-07-09'
+  at: '2013-07-09'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Glenn
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Adams
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-07-09'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Glenn
+      surname:
+        language: en
+        script: Latn
+        content: Adams
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Timed Text Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Edited Recommendation
+    content: Proposed Edited Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cttml1
     title:
-    - content: Timed Text Markup Language 1 (TTML1) (Third Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ttml1/
-      type: src
-    docid:
-    - id: W3C ttml1
+    - language: en
+      script: Latn
+      content: Timed Text Markup Language 1 (TTML1) (Third Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ttml1/
+    docidentifier:
+    - content: W3C ttml1
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-ttaf1-dfxp-20130131
     title:
-    - content: Timed Text Markup Language (TTML) 1.0 (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-ttaf1-dfxp-20130131/
-      type: src
-    docid:
-    - id: W3C WD-ttaf1-dfxp-20130131
+    - language: en
+      script: Latn
+      content: Timed Text Markup Language (TTML) 1.0 (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-ttaf1-dfxp-20130131/
+    docidentifier:
+    - content: W3C WD-ttaf1-dfxp-20130131
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-ttml1-20130924
-    title:
-    - content: Timed Text Markup Language 1 (TTML1) (Second Edition)
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/REC-ttml1-20130924/
-      type: src
-    docid:
-    - id: W3C REC-ttml1-20130924
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Timed Text Markup Language 1 (TTML1) (Second Edition)
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/REC-ttml1-20130924/
+    docidentifier:
+    - content: W3C REC-ttml1-20130924
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Edited Recommendation
-    format: text/plain
   number: PER-ttaf1-dfxp-20130709
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Timed Text Working Group
+    content: technicalReport
+  flavor: w3c

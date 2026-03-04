@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-widgets-apis-20110607
-title:
-- content: Widget Interface
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-widgets-apis-20110607/
-  type: src
+id: W3CWDwidgetsapis20110607
 type: standard
-docid:
-- id: W3C WD-widgets-apis-20110607
+schema_version: v1.4.1
+formattedref: W3C WD-widgets-apis-20110607
+title:
+- language: en
+  script: Latn
+  content: Widget Interface
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-widgets-apis-20110607/
+docidentifier:
+- content: W3C WD-widgets-apis-20110607
   type: W3C
   primary: true
 docnumber: WD-widgets-apis-20110607
 date:
 - type: published
-  value: '2011-06-07'
+  at: '2011-06-07'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-06-07'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: "(historical) Web Applications Working Group"
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwidgets-apis
     title:
-    - content: Widget Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/widgets-apis/
-      type: src
-    docid:
-    - id: W3C widgets-apis
+    - language: en
+      script: Latn
+      content: Widget Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/widgets-apis/
+    docidentifier:
+    - content: W3C widgets-apis
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-widgets-apis-20100907
     title:
-    - content: The Widget Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-widgets-apis-20100907/
-      type: src
-    docid:
-    - id: W3C WD-widgets-apis-20100907
+    - language: en
+      script: Latn
+      content: The Widget Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-widgets-apis-20100907/
+    docidentifier:
+    - content: W3C WD-widgets-apis-20100907
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCR-widgets-apis-20111213
-    title:
-    - content: Widget Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/CR-widgets-apis-20111213/
-      type: src
-    docid:
-    - id: W3C CR-widgets-apis-20111213
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Widget Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/CR-widgets-apis-20111213/
+    docidentifier:
+    - content: W3C CR-widgets-apis-20111213
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-widgets-apis-20110607
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: "(historical) Web Applications Working Group"
+    content: technicalReport
+  flavor: w3c

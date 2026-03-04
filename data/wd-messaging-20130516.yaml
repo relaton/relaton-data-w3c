@@ -1,127 +1,128 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-messaging-20130516
-title:
-- content: Messaging API
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/WD-messaging-20130516/
-  type: src
+id: W3CWDmessaging20130516
 type: standard
-docid:
-- id: W3C WD-messaging-20130516
+schema_version: v1.4.1
+formattedref: W3C WD-messaging-20130516
+title:
+- language: en
+  script: Latn
+  content: Messaging API
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/WD-messaging-20130516/
+docidentifier:
+- content: W3C WD-messaging-20130516
   type: W3C
   primary: true
 docnumber: WD-messaging-20130516
 date:
 - type: published
-  value: '2013-05-16'
+  at: '2013-05-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Eduardo
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Eduardo
       surname:
+        language: en
+        script: Latn
         content: Fullea
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Jose Manuel
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Jose Manuel
       surname:
+        language: en
+        script: Latn
         content: Cantera Fonseca
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Zoltan
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Zoltan
       surname:
+        language: en
+        script: Latn
         content: Kis
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2013-05-16'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: System Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmessaging
     title:
-    - content: Messaging API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/messaging/
-      type: src
-    docid:
-    - id: W3C messaging
+    - language: en
+      script: Latn
+      content: Messaging API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/messaging/
+    docidentifier:
+    - content: W3C messaging
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CNOTE-messaging-20150602
-    title:
-    - content: Messaging API
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/NOTE-messaging-20150602/
-      type: src
-    docid:
-    - id: W3C NOTE-messaging-20150602
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Messaging API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/NOTE-messaging-20150602/
+    docidentifier:
+    - content: W3C NOTE-messaging-20150602
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-messaging-20130516
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: System Applications Working Group
+    content: technicalReport
+  flavor: w3c

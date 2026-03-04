@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-wasm-js-api-2-20251114
-title:
-- content: WebAssembly JavaScript Interface
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251114/
-  type: src
+id: W3CCRDwasmjsapi220251114
 type: standard
-docid:
-- id: W3C CRD-wasm-js-api-2-20251114
+schema_version: v1.4.1
+formattedref: W3C CRD-wasm-js-api-2-20251114
+title:
+- language: en
+  script: Latn
+  content: WebAssembly JavaScript Interface
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251114/
+docidentifier:
+- content: W3C CRD-wasm-js-api-2-20251114
   type: W3C
   primary: true
 docnumber: CRD-wasm-js-api-2-20251114
 date:
 - type: published
-  value: '2025-11-14'
+  at: '2025-11-14'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: "."
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ms2ger
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2025-11-14'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: "."
+      surname:
+        language: en
+        script: Latn
+        content: Ms2ger
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: WebAssembly Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwasm-js-api-2
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/wasm-js-api-2/
-      type: src
-    docid:
-    - id: W3C wasm-js-api-2
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/wasm-js-api-2/
+    docidentifier:
+    - content: W3C wasm-js-api-2
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-wasm-js-api-2-20251102
     title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251102/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251102
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251102/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251102
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-wasm-js-api-2-20251118
-    title:
-    - content: WebAssembly JavaScript Interface
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251118/
-      type: src
-    docid:
-    - id: W3C CRD-wasm-js-api-2-20251118
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly JavaScript Interface
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2025/CRD-wasm-js-api-2-20251118/
+    docidentifier:
+    - content: W3C CRD-wasm-js-api-2-20251118
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-wasm-js-api-2-20251114
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: WebAssembly Working Group
+    content: technicalReport
+  flavor: w3c

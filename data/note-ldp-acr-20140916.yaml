@@ -1,77 +1,89 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-ldp-acr-20140916
-title:
-- content: LDP Access Control
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2014/NOTE-ldp-acr-20140916/
-  type: src
+id: W3CNOTEldpacr20140916
 type: standard
-docid:
-- id: W3C NOTE-ldp-acr-20140916
+schema_version: v1.4.1
+formattedref: W3C NOTE-ldp-acr-20140916
+title:
+- language: en
+  script: Latn
+  content: LDP Access Control
+source:
+- type: src
+  content: https://www.w3.org/TR/2014/NOTE-ldp-acr-20140916/
+docidentifier:
+- content: W3C NOTE-ldp-acr-20140916
   type: W3C
   primary: true
 docnumber: NOTE-ldp-acr-20140916
 date:
 - type: published
-  value: '2014-09-16'
+  at: '2014-09-16'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Ashok
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Malhotra
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2014-09-16'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ashok
+      surname:
+        language: en
+        script: Latn
+        content: Malhotra
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Linked Data Platform (LDP) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cldp-acr
     title:
-    - content: LDP Access Control
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/ldp-acr/
-      type: src
-    docid:
-    - id: W3C ldp-acr
+    - language: en
+      script: Latn
+      content: LDP Access Control
+    source:
+    - type: src
+      content: https://www.w3.org/TR/ldp-acr/
+    docidentifier:
+    - content: W3C ldp-acr
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-ldp-acr-20140916
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Linked Data Platform (LDP) Working Group
+    content: technicalReport
+  flavor: w3c

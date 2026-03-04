@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-performance-timeline-20250521
-title:
-- content: Performance Timeline
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2025/CRD-performance-timeline-20250521/
-  type: src
+id: W3CCRDperformancetimeline20250521
 type: standard
-docid:
-- id: W3C CRD-performance-timeline-20250521
+schema_version: v1.4.1
+formattedref: W3C CRD-performance-timeline-20250521
+title:
+- language: en
+  script: Latn
+  content: Performance Timeline
+source:
+- type: src
+  content: https://www.w3.org/TR/2025/CRD-performance-timeline-20250521/
+docidentifier:
+- content: W3C CRD-performance-timeline-20250521
   type: W3C
   primary: true
 docnumber: CRD-performance-timeline-20250521
 date:
 - type: published
-  value: '2025-05-21'
+  at: '2025-05-21'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Nicolas
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pena Moreno
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2025-05-21'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Nicolas
+      surname:
+        language: en
+        script: Latn
+        content: Pena Moreno
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Performance Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cperformance-timeline
     title:
-    - content: Performance Timeline
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/performance-timeline/
-      type: src
-    docid:
-    - id: W3C performance-timeline
+    - language: en
+      script: Latn
+      content: Performance Timeline
+    source:
+    - type: src
+      content: https://www.w3.org/TR/performance-timeline/
+    docidentifier:
+    - content: W3C performance-timeline
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-performance-timeline-20240216
     title:
-    - content: Performance Timeline
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240216/
-      type: src
-    docid:
-    - id: W3C CRD-performance-timeline-20240216
+    - language: en
+      script: Latn
+      content: Performance Timeline
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-performance-timeline-20240216/
+    docidentifier:
+    - content: W3C CRD-performance-timeline-20240216
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-performance-timeline-20250521
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Web Performance Working Group
+    content: technicalReport
+  flavor: w3c

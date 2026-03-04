@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CREC-micropub-20170523
-title:
-- content: Micropub
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2017/REC-micropub-20170523/
-  type: src
+id: W3CRECmicropub20170523
 type: standard
-docid:
-- id: W3C REC-micropub-20170523
+schema_version: v1.4.1
+formattedref: W3C REC-micropub-20170523
+title:
+- language: en
+  script: Latn
+  content: Micropub
+source:
+- type: src
+  content: https://www.w3.org/TR/2017/REC-micropub-20170523/
+docidentifier:
+- content: W3C REC-micropub-20170523
   type: W3C
   primary: true
 docnumber: REC-micropub-20170523
 date:
 - type: published
-  value: '2017-05-23'
+  at: '2017-05-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Aaron
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Parecki
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2017-05-23'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Aaron
+      surname:
+        language: en
+        script: Latn
+        content: Parecki
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Social Web Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Recommendation
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmicropub
     title:
-    - content: Micropub
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/micropub/
-      type: src
-    docid:
-    - id: W3C micropub
+    - language: en
+      script: Latn
+      content: Micropub
+    source:
+    - type: src
+      content: https://www.w3.org/TR/micropub/
+    docidentifier:
+    - content: W3C micropub
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CPR-micropub-20170413
     title:
-    - content: Micropub
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2017/PR-micropub-20170413/
-      type: src
-    docid:
-    - id: W3C PR-micropub-20170413
+    - language: en
+      script: Latn
+      content: Micropub
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/PR-micropub-20170413/
+    docidentifier:
+    - content: W3C PR-micropub-20170413
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Recommendation
-    format: text/plain
   number: REC-micropub-20170523
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Social Web Working Group
+    content: technicalReport
+  flavor: w3c

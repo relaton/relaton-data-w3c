@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cadlm-lreq
-title:
-- content: Adlam Script Resources
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/adlm-lreq/
-  type: src
+id: W3Cadlmlreq
 type: standard
-docid:
-- id: W3C adlm-lreq
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Adlam Script Resources
+source:
+- type: src
+  content: https://www.w3.org/TR/adlm-lreq/
+docidentifier:
+- content: W3C adlm-lreq
   type: W3C
   primary: true
 docnumber: adlm-lreq
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,88 +31,90 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adlm-lreq-20241114
     title:
-    - content: Adlam Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20241114/
-      type: src
-    docid:
-    - id: W3C DNOTE-adlm-lreq-20241114
+    - language: en
+      script: Latn
+      content: Adlam Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20241114/
+    docidentifier:
+    - content: W3C DNOTE-adlm-lreq-20241114
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adlm-lreq-20240802
     title:
-    - content: Adlam Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240802/
-      type: src
-    docid:
-    - id: W3C DNOTE-adlm-lreq-20240802
+    - language: en
+      script: Latn
+      content: Adlam Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240802/
+    docidentifier:
+    - content: W3C DNOTE-adlm-lreq-20240802
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adlm-lreq-20240709
     title:
-    - content: Adlam Script Resources
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240709/
-      type: src
-    docid:
-    - id: W3C DNOTE-adlm-lreq-20240709
+    - language: en
+      script: Latn
+      content: Adlam Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240709/
+    docidentifier:
+    - content: W3C DNOTE-adlm-lreq-20240709
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adlm-lreq-20240704
     title:
-    - content: Adlam Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240704/
-      type: src
-    docid:
-    - id: W3C DNOTE-adlm-lreq-20240704
+    - language: en
+      script: Latn
+      content: Adlam Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240704/
+    docidentifier:
+    - content: W3C DNOTE-adlm-lreq-20240704
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adlm-lreq-20240701
     title:
-    - content: Adlam Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240701/
-      type: src
-    docid:
-    - id: W3C DNOTE-adlm-lreq-20240701
+    - language: en
+      script: Latn
+      content: Adlam Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240701/
+    docidentifier:
+    - content: W3C DNOTE-adlm-lreq-20240701
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CDNOTE-adlm-lreq-20240530
     title:
-    - content: Adlam Layout Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240530/
-      type: src
-    docid:
-    - id: W3C DNOTE-adlm-lreq-20240530
+    - language: en
+      script: Latn
+      content: Adlam Layout Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DNOTE-adlm-lreq-20240530/
+    docidentifier:
+    - content: W3C DNOTE-adlm-lreq-20240530
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: adlm-lreq
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

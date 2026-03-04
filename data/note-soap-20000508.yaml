@@ -1,196 +1,173 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-SOAP-20000508
-title:
-- content: Simple Object Access Protocol (SOAP) 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2000/NOTE-SOAP-20000508
-  type: src
+id: W3CNOTESOAP20000508
 type: standard
-docid:
-- id: W3C NOTE-SOAP-20000508
+schema_version: v1.4.1
+formattedref: W3C NOTE-SOAP-20000508
+title:
+- language: en
+  script: Latn
+  content: Simple Object Access Protocol (SOAP) 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2000/NOTE-SOAP-20000508
+docidentifier:
+- content: W3C NOTE-SOAP-20000508
   type: W3C
   primary: true
 docnumber: NOTE-SOAP-20000508
 date:
 - type: published
-  value: '2000-05-08'
+  at: '2000-05-08'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Andrew
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Andrew
       surname:
+        language: en
+        script: Latn
         content: Layman
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Winer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Henrik Frystyk
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Henrik Frystyk
       surname:
+        language: en
+        script: Latn
         content: Nielsen
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gopal
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gopal
       surname:
+        language: en
+        script: Latn
         content: Kakivaya
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: David
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: David
       surname:
+        language: en
+        script: Latn
         content: Ehnebuske
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Satish
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Satish
       surname:
+        language: en
+        script: Latn
         content: Thatte
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Noah
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Noah
       surname:
+        language: en
+        script: Latn
         content: Mendelsohn
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Don
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Don
       surname:
+        language: en
+        script: Latn
         content: Box
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2000-05-08'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: UNKNOWN WORKING GROUP
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3CSOAP
     title:
-    - content: Simple Object Access Protocol (SOAP) 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/SOAP/
-      type: src
-    docid:
-    - id: W3C SOAP
+    - language: en
+      script: Latn
+      content: Simple Object Access Protocol (SOAP) 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/SOAP/
+    docidentifier:
+    - content: W3C SOAP
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-SOAP-20000508
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: UNKNOWN WORKING GROUP
+    content: technicalReport
+  flavor: w3c

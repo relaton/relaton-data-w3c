@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-microdata-20110525
-title:
-- content: HTML Microdata
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-microdata-20110525/
-  type: src
+id: W3CWDmicrodata20110525
 type: standard
-docid:
-- id: W3C WD-microdata-20110525
+schema_version: v1.4.1
+formattedref: W3C WD-microdata-20110525
+title:
+- language: en
+  script: Latn
+  content: HTML Microdata
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-microdata-20110525/
+docidentifier:
+- content: W3C WD-microdata-20110525
   type: W3C
   primary: true
 docnumber: WD-microdata-20110525
 date:
 - type: published
-  value: '2011-05-25'
+  at: '2011-05-25'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-05-25'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
+      surname:
+        language: en
+        script: Latn
+        content: Hickson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: HTML Media Extensions Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmicrodata
     title:
-    - content: HTML Microdata
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/microdata/
-      type: src
-    docid:
-    - id: W3C microdata
+    - language: en
+      script: Latn
+      content: HTML Microdata
+    source:
+    - type: src
+      content: https://www.w3.org/TR/microdata/
+    docidentifier:
+    - content: W3C microdata
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-microdata-20110405
     title:
-    - content: HTML Microdata
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2011/WD-microdata-20110405/
-      type: src
-    docid:
-    - id: W3C WD-microdata-20110405
+    - language: en
+      script: Latn
+      content: HTML Microdata
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-microdata-20110405/
+    docidentifier:
+    - content: W3C WD-microdata-20110405
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-microdata-20120329
-    title:
-    - content: HTML Microdata
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-microdata-20120329/
-      type: src
-    docid:
-    - id: W3C WD-microdata-20120329
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: HTML Microdata
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-microdata-20120329/
+    docidentifier:
+    - content: W3C WD-microdata-20120329
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-microdata-20110525
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: HTML Media Extensions Working Group
+    content: technicalReport
+  flavor: w3c

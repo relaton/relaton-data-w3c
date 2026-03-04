@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-app-uri-20150723
-title:
-- content: 'The app: URL Scheme'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2015/NOTE-app-uri-20150723/
-  type: src
+id: W3CNOTEappuri20150723
 type: standard
-docid:
-- id: W3C NOTE-app-uri-20150723
+schema_version: v1.4.1
+formattedref: W3C NOTE-app-uri-20150723
+title:
+- language: en
+  script: Latn
+  content: 'The app: URL Scheme'
+source:
+- type: src
+  content: https://www.w3.org/TR/2015/NOTE-app-uri-20150723/
+docidentifier:
+- content: W3C NOTE-app-uri-20150723
   type: W3C
   primary: true
 docnumber: NOTE-app-uri-20150723
 date:
 - type: published
-  value: '2015-07-23'
+  at: '2015-07-23'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Marcos
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Caceres
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2015-07-23'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Marcos
+      surname:
+        language: en
+        script: Latn
+        content: Caceres
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: System Applications Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Capp-uri
     title:
-    - content: 'The app: URL Scheme'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/app-uri/
-      type: src
-    docid:
-    - id: W3C app-uri
+    - language: en
+      script: Latn
+      content: 'The app: URL Scheme'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/app-uri/
+    docidentifier:
+    - content: W3C app-uri
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-app-uri-20140529
     title:
-    - content: 'The app: URL Scheme'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-app-uri-20140529/
-      type: src
-    docid:
-    - id: W3C WD-app-uri-20140529
+    - language: en
+      script: Latn
+      content: 'The app: URL Scheme'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-app-uri-20140529/
+    docidentifier:
+    - content: W3C WD-app-uri-20140529
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: NOTE-app-uri-20150723
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: System Applications Working Group
+    content: technicalReport
+  flavor: w3c

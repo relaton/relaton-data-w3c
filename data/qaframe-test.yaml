@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cqaframe-test
-title:
-- content: 'QA Framework: Test Guidelines'
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/qaframe-test/
-  type: src
+id: W3Cqaframetest
 type: standard
-docid:
-- id: W3C qaframe-test
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: 'QA Framework: Test Guidelines'
+source:
+- type: src
+  content: https://www.w3.org/TR/qaframe-test/
+docidentifier:
+- content: W3C qaframe-test
   type: W3C
   primary: true
 docnumber: qaframe-test
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,62 +31,64 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-qaframe-test-20040820
     title:
-    - content: 'QA Framework: Test Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-qaframe-test-20040820/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-test-20040820
+    - language: en
+      script: Latn
+      content: 'QA Framework: Test Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-qaframe-test-20040820/
+    docidentifier:
+    - content: W3C WD-qaframe-test-20040820
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-qaframe-test-20040225
     title:
-    - content: 'QA Framework: Test Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-qaframe-test-20040225/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-test-20040225
+    - language: en
+      script: Latn
+      content: 'QA Framework: Test Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-qaframe-test-20040225/
+    docidentifier:
+    - content: W3C WD-qaframe-test-20040225
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-qaframe-test-20030516
     title:
-    - content: 'QA Framework: Test Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-qaframe-test-20030516/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-test-20030516
+    - language: en
+      script: Latn
+      content: 'QA Framework: Test Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-qaframe-test-20030516/
+    docidentifier:
+    - content: W3C WD-qaframe-test-20030516
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-qaframe-test-20021220
     title:
-    - content: 'QA Framework: Test Guidelines'
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2002/WD-qaframe-test-20021220/
-      type: src
-    docid:
-    - id: W3C WD-qaframe-test-20021220
+    - language: en
+      script: Latn
+      content: 'QA Framework: Test Guidelines'
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/WD-qaframe-test-20021220/
+    docidentifier:
+    - content: W3C WD-qaframe-test-20021220
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: qaframe-test
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

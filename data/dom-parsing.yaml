@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3CDOM-Parsing
-title:
-- content: DOM Parsing and Serialization
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/DOM-Parsing/
-  type: src
+id: W3CDOMParsing
 type: standard
-docid:
-- id: W3C DOM-Parsing
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: DOM Parsing and Serialization
+source:
+- type: src
+  content: https://www.w3.org/TR/DOM-Parsing/
+docidentifier:
+- content: W3C DOM-Parsing
   type: W3C
   primary: true
 docnumber: DOM-Parsing
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,75 +31,77 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-DOM-Parsing-20160517
     title:
-    - content: DOM Parsing and Serialization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2016/WD-DOM-Parsing-20160517/
-      type: src
-    docid:
-    - id: W3C WD-DOM-Parsing-20160517
+    - language: en
+      script: Latn
+      content: DOM Parsing and Serialization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-DOM-Parsing-20160517/
+    docidentifier:
+    - content: W3C WD-DOM-Parsing-20160517
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CCR-DOM-Parsing-20140617
     title:
-    - content: DOM Parsing and Serialization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/CR-DOM-Parsing-20140617/
-      type: src
-    docid:
-    - id: W3C CR-DOM-Parsing-20140617
+    - language: en
+      script: Latn
+      content: DOM Parsing and Serialization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/CR-DOM-Parsing-20140617/
+    docidentifier:
+    - content: W3C CR-DOM-Parsing-20140617
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-DOM-Parsing-20140501
     title:
-    - content: DOM Parsing and Serialization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/WD-DOM-Parsing-20140501/
-      type: src
-    docid:
-    - id: W3C WD-DOM-Parsing-20140501
+    - language: en
+      script: Latn
+      content: DOM Parsing and Serialization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/WD-DOM-Parsing-20140501/
+    docidentifier:
+    - content: W3C WD-DOM-Parsing-20140501
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-DOM-Parsing-20131210
     title:
-    - content: DOM Parsing and Serialization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/WD-DOM-Parsing-20131210/
-      type: src
-    docid:
-    - id: W3C WD-DOM-Parsing-20131210
+    - language: en
+      script: Latn
+      content: DOM Parsing and Serialization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/WD-DOM-Parsing-20131210/
+    docidentifier:
+    - content: W3C WD-DOM-Parsing-20131210
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-DOM-Parsing-20120920
     title:
-    - content: DOM Parsing and Serialization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-DOM-Parsing-20120920/
-      type: src
-    docid:
-    - id: W3C WD-DOM-Parsing-20120920
+    - language: en
+      script: Latn
+      content: DOM Parsing and Serialization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-DOM-Parsing-20120920/
+    docidentifier:
+    - content: W3C WD-DOM-Parsing-20120920
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: DOM-Parsing
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

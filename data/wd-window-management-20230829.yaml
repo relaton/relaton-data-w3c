@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-window-management-20230829
-title:
-- content: Window Management
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2023/WD-window-management-20230829/
-  type: src
+id: W3CWDwindowmanagement20230829
 type: standard
-docid:
-- id: W3C WD-window-management-20230829
+schema_version: v1.4.1
+formattedref: W3C WD-window-management-20230829
+title:
+- language: en
+  script: Latn
+  content: Window Management
+source:
+- type: src
+  content: https://www.w3.org/TR/2023/WD-window-management-20230829/
+docidentifier:
+- content: W3C WD-window-management-20230829
   type: W3C
   primary: true
 docnumber: WD-window-management-20230829
 date:
 - type: published
-  value: '2023-08-29'
+  at: '2023-08-29'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Joshua
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Joshua
       surname:
+        language: en
+        script: Latn
         content: Bell
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Mike
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
       surname:
+        language: en
+        script: Latn
         content: Wasserman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2023-08-29'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Second Screen Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cwindow-management
     title:
-    - content: Window Management
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/window-management/
-      type: src
-    docid:
-    - id: W3C window-management
+    - language: en
+      script: Latn
+      content: Window Management
+    source:
+    - type: src
+      content: https://www.w3.org/TR/window-management/
+    docidentifier:
+    - content: W3C window-management
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-window-management-20230614
     title:
-    - content: Window Management
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-window-management-20230614/
-      type: src
-    docid:
-    - id: W3C WD-window-management-20230614
+    - language: en
+      script: Latn
+      content: Window Management
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-window-management-20230614/
+    docidentifier:
+    - content: W3C WD-window-management-20230614
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-window-management-20230906
-    title:
-    - content: Window Management
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-window-management-20230906/
-      type: src
-    docid:
-    - id: W3C WD-window-management-20230906
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Window Management
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-window-management-20230906/
+    docidentifier:
+    - content: W3C WD-window-management-20230906
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-window-management-20230829
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Second Screen Working Group
+    content: technicalReport
+  flavor: w3c

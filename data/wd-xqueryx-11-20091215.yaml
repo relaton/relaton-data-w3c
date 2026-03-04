@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xqueryx-11-20091215
-title:
-- content: XQueryX 1.1
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2009/WD-xqueryx-11-20091215/
-  type: src
+id: W3CWDxqueryx1120091215
 type: standard
-docid:
-- id: W3C WD-xqueryx-11-20091215
+schema_version: v1.4.1
+formattedref: W3C WD-xqueryx-11-20091215
+title:
+- language: en
+  script: Latn
+  content: XQueryX 1.1
+source:
+- type: src
+  content: https://www.w3.org/TR/2009/WD-xqueryx-11-20091215/
+docidentifier:
+- content: W3C WD-xqueryx-11-20091215
   type: W3C
   primary: true
 docnumber: WD-xqueryx-11-20091215
 date:
 - type: published
-  value: '2009-12-15'
+  at: '2009-12-15'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Jim
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Melton
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2009-12-15'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
+      surname:
+        language: en
+        script: Latn
+        content: Melton
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxqueryx-30
     title:
-    - content: XQueryX 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xqueryx-30/
-      type: src
-    docid:
-    - id: W3C xqueryx-30
+    - language: en
+      script: Latn
+      content: XQueryX 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xqueryx-30/
+    docidentifier:
+    - content: W3C xqueryx-30
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xqueryx-11-20081203
     title:
-    - content: XQueryX 1.1
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2008/WD-xqueryx-11-20081203/
-      type: src
-    docid:
-    - id: W3C WD-xqueryx-11-20081203
+    - language: en
+      script: Latn
+      content: XQueryX 1.1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2008/WD-xqueryx-11-20081203/
+    docidentifier:
+    - content: W3C WD-xqueryx-11-20081203
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xqueryx-30-20101214
-    title:
-    - content: XQueryX 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2010/WD-xqueryx-30-20101214/
-      type: src
-    docid:
-    - id: W3C WD-xqueryx-30-20101214
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XQueryX 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2010/WD-xqueryx-30-20101214/
+    docidentifier:
+    - content: W3C WD-xqueryx-30-20101214
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xqueryx-11-20091215
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
+    content: technicalReport
+  flavor: w3c

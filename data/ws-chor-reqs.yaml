@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cws-chor-reqs
-title:
-- content: Web Services Choreography Requirements
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/ws-chor-reqs/
-  type: src
+id: W3Cwschorreqs
 type: standard
-docid:
-- id: W3C ws-chor-reqs
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Web Services Choreography Requirements
+source:
+- type: src
+  content: https://www.w3.org/TR/ws-chor-reqs/
+docidentifier:
+- content: W3C ws-chor-reqs
   type: W3C
   primary: true
 docnumber: ws-chor-reqs
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-chor-reqs-20040311
     title:
-    - content: Web Services Choreography Requirements
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2004/WD-ws-chor-reqs-20040311/
-      type: src
-    docid:
-    - id: W3C WD-ws-chor-reqs-20040311
+    - language: en
+      script: Latn
+      content: Web Services Choreography Requirements
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-ws-chor-reqs-20040311/
+    docidentifier:
+    - content: W3C WD-ws-chor-reqs-20040311
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-ws-chor-reqs-20030812
     title:
-    - content: Web Services Choreography Requirements 1.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2003/WD-ws-chor-reqs-20030812
-      type: src
-    docid:
-    - id: W3C WD-ws-chor-reqs-20030812
+    - language: en
+      script: Latn
+      content: Web Services Choreography Requirements 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2003/WD-ws-chor-reqs-20030812
+    docidentifier:
+    - content: W3C WD-ws-chor-reqs-20030812
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: ws-chor-reqs
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

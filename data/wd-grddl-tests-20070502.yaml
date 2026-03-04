@@ -1,106 +1,117 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-grddl-tests-20070502
-title:
-- content: GRDDL Test Cases
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/WD-grddl-tests-20070502/
-  type: src
+id: W3CWDgrddltests20070502
 type: standard
-docid:
-- id: W3C WD-grddl-tests-20070502
+schema_version: v1.4.1
+formattedref: W3C WD-grddl-tests-20070502
+title:
+- language: en
+  script: Latn
+  content: GRDDL Test Cases
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/WD-grddl-tests-20070502/
+docidentifier:
+- content: W3C WD-grddl-tests-20070502
   type: W3C
   primary: true
 docnumber: WD-grddl-tests-20070502
 date:
 - type: published
-  value: '2007-05-02'
+  at: '2007-05-02'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Chimezie
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Ogbuji
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2007-05-02'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Chimezie
+      surname:
+        language: en
+        script: Latn
+        content: Ogbuji
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: GRDDL Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Last Call Working Draft
+    content: Last Call Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cgrddl-tests
     title:
-    - content: GRDDL Test Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/grddl-tests/
-      type: src
-    docid:
-    - id: W3C grddl-tests
+    - language: en
+      script: Latn
+      content: GRDDL Test Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/grddl-tests/
+    docidentifier:
+    - content: W3C grddl-tests
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-grddl-tests-20070328
     title:
-    - content: GRDDL Test Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-grddl-tests-20070328/
-      type: src
-    docid:
-    - id: W3C WD-grddl-tests-20070328
+    - language: en
+      script: Latn
+      content: GRDDL Test Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-grddl-tests-20070328/
+    docidentifier:
+    - content: W3C WD-grddl-tests-20070328
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CPR-grddl-tests-20070716
-    title:
-    - content: GRDDL Test Cases
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/PR-grddl-tests-20070716/
-      type: src
-    docid:
-    - id: W3C PR-grddl-tests-20070716
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: GRDDL Test Cases
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/PR-grddl-tests-20070716/
+    docidentifier:
+    - content: W3C PR-grddl-tests-20070716
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Last Call Working Draft
-    format: text/plain
   number: WD-grddl-tests-20070502
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: GRDDL Working Group
+    content: technicalReport
+  flavor: w3c

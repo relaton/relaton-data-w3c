@@ -1,90 +1,102 @@
 ---
-schema-version: v1.2.9
-id: W3CSPSD-eventsource-20210128
-title:
-- content: Server-Sent Events
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2021/SPSD-eventsource-20210128/
-  type: src
+id: W3CSPSDeventsource20210128
 type: standard
-docid:
-- id: W3C SPSD-eventsource-20210128
+schema_version: v1.4.1
+formattedref: W3C SPSD-eventsource-20210128
+title:
+- language: en
+  script: Latn
+  content: Server-Sent Events
+source:
+- type: src
+  content: https://www.w3.org/TR/2021/SPSD-eventsource-20210128/
+docidentifier:
+- content: W3C SPSD-eventsource-20210128
   type: W3C
   primary: true
 docnumber: SPSD-eventsource-20210128
 date:
 - type: published
-  value: '2021-01-28'
+  at: '2021-01-28'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Ian
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Hickson
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2021-01-28'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ian
+      surname:
+        language: en
+        script: Latn
+        content: Hickson
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: HTML Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Retired
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
-    id: W3Ceventsource
     title:
-    - content: Server-Sent Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/eventsource/
-      type: src
-    docid:
-    - id: W3C eventsource
+    - language: en
+      script: Latn
+      content: Server-Sent Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/eventsource/
+    docidentifier:
+    - content: W3C eventsource
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CREC-eventsource-20150203
     title:
-    - content: Server-Sent Events
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2015/REC-eventsource-20150203/
-      type: src
-    docid:
-    - id: W3C REC-eventsource-20150203
+    - language: en
+      script: Latn
+      content: Server-Sent Events
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2015/REC-eventsource-20150203/
+    docidentifier:
+    - content: W3C REC-eventsource-20150203
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Retired
-    format: text/plain
   number: SPSD-eventsource-20210128
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: HTML Working Group
+    content: technicalReport
+  flavor: w3c

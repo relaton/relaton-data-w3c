@@ -1,123 +1,129 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-xml-i18n-bp-20070427
-title:
-- content: Best Practices for XML Internationalization
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20070427/
-  type: src
+id: W3CWDxmli18nbp20070427
 type: standard
-docid:
-- id: W3C WD-xml-i18n-bp-20070427
+schema_version: v1.4.1
+formattedref: W3C WD-xml-i18n-bp-20070427
+title:
+- language: en
+  script: Latn
+  content: Best Practices for XML Internationalization
+source:
+- type: src
+  content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20070427/
+docidentifier:
+- content: W3C WD-xml-i18n-bp-20070427
   type: W3C
   primary: true
 docnumber: WD-xml-i18n-bp-20070427
 date:
 - type: published
-  value: '2007-04-27'
+  at: '2007-04-27'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Diane
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Diane
       surname:
+        language: en
+        script: Latn
         content: Stoick
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Yves
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Yves
       surname:
+        language: en
+        script: Latn
         content: Savourel
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2007-04-27'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Internationalization Tag Set (ITS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxml-i18n-bp
     title:
-    - content: Best Practices for XML Internationalization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xml-i18n-bp/
-      type: src
-    docid:
-    - id: W3C xml-i18n-bp
+    - language: en
+      script: Latn
+      content: Best Practices for XML Internationalization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xml-i18n-bp/
+    docidentifier:
+    - content: W3C xml-i18n-bp
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-xml-i18n-bp-20060518
     title:
-    - content: Best Practices for XML Internationalization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2006/WD-xml-i18n-bp-20060518/
-      type: src
-    docid:
-    - id: W3C WD-xml-i18n-bp-20060518
+    - language: en
+      script: Latn
+      content: Best Practices for XML Internationalization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2006/WD-xml-i18n-bp-20060518/
+    docidentifier:
+    - content: W3C WD-xml-i18n-bp-20060518
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CWD-xml-i18n-bp-20070628
-    title:
-    - content: Best Practices for XML Internationalization
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20070628/
-      type: src
-    docid:
-    - id: W3C WD-xml-i18n-bp-20070628
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Best Practices for XML Internationalization
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2007/WD-xml-i18n-bp-20070628/
+    docidentifier:
+    - content: W3C WD-xml-i18n-bp-20070628
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-xml-i18n-bp-20070427
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Internationalization Tag Set (ITS) Working Group
+    content: technicalReport
+  flavor: w3c

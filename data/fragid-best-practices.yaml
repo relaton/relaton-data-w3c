@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
-id: W3Cfragid-best-practices
-title:
-- content: Best Practices for Fragment Identifiers and Media Type Definitions
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/fragid-best-practices/
-  type: src
+id: W3Cfragidbestpractices
 type: standard
-docid:
-- id: W3C fragid-best-practices
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Best Practices for Fragment Identifiers and Media Type Definitions
+source:
+- type: src
+  content: https://www.w3.org/TR/fragid-best-practices/
+docidentifier:
+- content: W3C fragid-best-practices
   type: W3C
   primary: true
 docnumber: fragid-best-practices
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,36 +31,38 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CWD-fragid-best-practices-20121025
     title:
-    - content: Best Practices for Fragment Identifiers and Media Type Definitions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-fragid-best-practices-20121025/
-      type: src
-    docid:
-    - id: W3C WD-fragid-best-practices-20121025
+    - language: en
+      script: Latn
+      content: Best Practices for Fragment Identifiers and Media Type Definitions
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-fragid-best-practices-20121025/
+    docidentifier:
+    - content: W3C WD-fragid-best-practices-20121025
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-fragid-best-practices-20120726
     title:
-    - content: Best Practices for Fragment Identifiers and Media Type Definitions
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2012/WD-fragid-best-practices-20120726/
-      type: src
-    docid:
-    - id: W3C WD-fragid-best-practices-20120726
+    - language: en
+      script: Latn
+      content: Best Practices for Fragment Identifiers and Media Type Definitions
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2012/WD-fragid-best-practices-20120726/
+    docidentifier:
+    - content: W3C WD-fragid-best-practices-20120726
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: fragid-best-practices
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

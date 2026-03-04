@@ -1,128 +1,125 @@
 ---
-schema-version: v1.2.9
-id: W3CWD-media-frags-recipes-20111201
-title:
-- content: Protocol for Media Fragments 1.0 Resolution in HTTP
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/WD-media-frags-recipes-20111201/
-  type: src
+id: W3CWDmediafragsrecipes20111201
 type: standard
-docid:
-- id: W3C WD-media-frags-recipes-20111201
+schema_version: v1.4.1
+formattedref: W3C WD-media-frags-recipes-20111201
+title:
+- language: en
+  script: Latn
+  content: Protocol for Media Fragments 1.0 Resolution in HTTP
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/WD-media-frags-recipes-20111201/
+docidentifier:
+- content: W3C WD-media-frags-recipes-20111201
   type: W3C
   primary: true
 docnumber: WD-media-frags-recipes-20111201
 date:
 - type: published
-  value: '2011-12-01'
+  at: '2011-12-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Raphaël
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Raphaël
       surname:
+        language: en
+        script: Latn
         content: Troncy
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Erik
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Erik
       surname:
+        language: en
+        script: Latn
         content: Mannens
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Silvia
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Silvia
       surname:
+        language: en
+        script: Latn
         content: Pfeiffer
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Davy
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Davy
       surname:
+        language: en
+        script: Latn
         content: Van Deursen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2011-12-01'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Media Fragments Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cmedia-frags-recipes
     title:
-    - content: Protocol for Media Fragments 1.0 Resolution in HTTP
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/media-frags-recipes/
-      type: src
-    docid:
-    - id: W3C media-frags-recipes
+    - language: en
+      script: Latn
+      content: Protocol for Media Fragments 1.0 Resolution in HTTP
+    source:
+    - type: src
+      content: https://www.w3.org/TR/media-frags-recipes/
+    docidentifier:
+    - content: W3C media-frags-recipes
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Working Draft
-    format: text/plain
   number: WD-media-frags-recipes-20111201
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Media Fragments Working Group
+    content: technicalReport
+  flavor: w3c

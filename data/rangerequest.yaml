@@ -1,27 +1,29 @@
 ---
-schema-version: v1.2.9
 id: W3CRangeRequest
-title:
-- content: Range Request Incremental Font Transfer
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/RangeRequest/
-  type: src
 type: standard
-docid:
-- id: W3C RangeRequest
+schema_version: v1.4.1
+title:
+- language: en
+  script: Latn
+  content: Range Request Incremental Font Transfer
+source:
+- type: src
+  content: https://www.w3.org/TR/RangeRequest/
+docidentifier:
+- content: W3C RangeRequest
   type: W3C
   primary: true
 docnumber: RangeRequest
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
 language:
 - en
 script:
@@ -29,49 +31,51 @@ script:
 relation:
 - type: hasEdition
   bibitem:
-    id: W3CDISC-RangeRequest-20241210
     title:
-    - content: Range Request Incremental Font Transfer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/DISC-RangeRequest-20241210/
-      type: src
-    docid:
-    - id: W3C DISC-RangeRequest-20241210
+    - language: en
+      script: Latn
+      content: Range Request Incremental Font Transfer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/DISC-RangeRequest-20241210/
+    docidentifier:
+    - content: W3C DISC-RangeRequest-20241210
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-RangeRequest-20230530
     title:
-    - content: Range Request Incremental Font Transfer
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2023/WD-RangeRequest-20230530/
-      type: src
-    docid:
-    - id: W3C WD-RangeRequest-20230530
+    - language: en
+      script: Latn
+      content: Range Request Incremental Font Transfer
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2023/WD-RangeRequest-20230530/
+    docidentifier:
+    - content: W3C WD-RangeRequest-20230530
       type: W3C
       primary: true
 - type: hasEdition
   bibitem:
-    id: W3CWD-RangeRequest-20220125
     title:
-    - content: Incremental Font Transfer via Range Request
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2022/WD-RangeRequest-20220125/
-      type: src
-    docid:
-    - id: W3C WD-RangeRequest-20220125
+    - language: en
+      script: Latn
+      content: Incremental Font Transfer via Range Request
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2022/WD-RangeRequest-20220125/
+    docidentifier:
+    - content: W3C WD-RangeRequest-20220125
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C technicalReport
-    format: text/plain
   number: RangeRequest
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
+    content: technicalReport
+  flavor: w3c

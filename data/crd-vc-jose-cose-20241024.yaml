@@ -1,140 +1,141 @@
 ---
-schema-version: v1.2.9
-id: W3CCRD-vc-jose-cose-20241024
-title:
-- content: Securing Verifiable Credentials using JOSE and COSE
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2024/CRD-vc-jose-cose-20241024/
-  type: src
+id: W3CCRDvcjosecose20241024
 type: standard
-docid:
-- id: W3C CRD-vc-jose-cose-20241024
+schema_version: v1.4.1
+formattedref: W3C CRD-vc-jose-cose-20241024
+title:
+- language: en
+  script: Latn
+  content: Securing Verifiable Credentials using JOSE and COSE
+source:
+- type: src
+  content: https://www.w3.org/TR/2024/CRD-vc-jose-cose-20241024/
+docidentifier:
+- content: W3C CRD-vc-jose-cose-20241024
   type: W3C
   primary: true
 docnumber: CRD-vc-jose-cose-20241024
 date:
 - type: published
-  value: '2024-10-24'
+  at: '2024-10-24'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
+- role:
+  - type: editor
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Jones
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
       surname:
+        language: en
+        script: Latn
         content: Prorock
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-- person:
+  person:
     name:
-      given:
-        forename:
-        - content: Gabe
-          language:
-          - en
-          script:
-          - Latn
+      forename:
+      - language: en
+        script: Latn
+        content: Gabe
       surname:
+        language: en
+        script: Latn
         content: Cohen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-revdate: '2024-10-24'
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Verifiable Credentials Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Candidate Recommendation Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvc-jose-cose
     title:
-    - content: Securing Verifiable Credentials using JOSE and COSE
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/vc-jose-cose/
-      type: src
-    docid:
-    - id: W3C vc-jose-cose
+    - language: en
+      script: Latn
+      content: Securing Verifiable Credentials using JOSE and COSE
+    source:
+    - type: src
+      content: https://www.w3.org/TR/vc-jose-cose/
+    docidentifier:
+    - content: W3C vc-jose-cose
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCRD-vc-jose-cose-20241023
     title:
-    - content: Securing Verifiable Credentials using JOSE and COSE
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-jose-cose-20241023/
-      type: src
-    docid:
-    - id: W3C CRD-vc-jose-cose-20241023
+    - language: en
+      script: Latn
+      content: Securing Verifiable Credentials using JOSE and COSE
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-vc-jose-cose-20241023/
+    docidentifier:
+    - content: W3C CRD-vc-jose-cose-20241023
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CCRD-vc-jose-cose-20241025
-    title:
-    - content: Securing Verifiable Credentials using JOSE and COSE
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2024/CRD-vc-jose-cose-20241025/
-      type: src
-    docid:
-    - id: W3C CRD-vc-jose-cose-20241025
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Securing Verifiable Credentials using JOSE and COSE
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2024/CRD-vc-jose-cose-20241025/
+    docidentifier:
+    - content: W3C CRD-vc-jose-cose-20241025
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Candidate Recommendation Draft
-    format: text/plain
   number: CRD-vc-jose-cose-20241024
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Verifiable Credentials Working Group
+    content: technicalReport
+  flavor: w3c

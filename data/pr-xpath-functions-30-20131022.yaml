@@ -1,107 +1,132 @@
 ---
-schema-version: v1.2.9
-id: W3CPR-xpath-functions-30-20131022
-title:
-- content: XPath and XQuery Functions and Operators 3.0
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2013/PR-xpath-functions-30-20131022/
-  type: src
+id: W3CPRxpathfunctions3020131022
 type: standard
-docid:
-- id: W3C PR-xpath-functions-30-20131022
+schema_version: v1.4.1
+formattedref: W3C PR-xpath-functions-30-20131022
+title:
+- language: en
+  script: Latn
+  content: XPath and XQuery Functions and Operators 3.0
+source:
+- type: src
+  content: https://www.w3.org/TR/2013/PR-xpath-functions-30-20131022/
+docidentifier:
+- content: W3C PR-xpath-functions-30-20131022
   type: W3C
   primary: true
 docnumber: PR-xpath-functions-30-20131022
 date:
 - type: published
-  value: '2013-10-22'
+  at: '2013-10-22'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Michael
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Kay
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2013-10-22'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Michael
+      surname:
+        language: en
+        script: Latn
+        content: Kay
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XML Query Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: XSLT Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Proposed Recommendation
+    content: Proposed Recommendation
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cxpath-functions-30
     title:
-    - content: XPath and XQuery Functions and Operators 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/xpath-functions-30/
-      type: src
-    docid:
-    - id: W3C xpath-functions-30
+    - language: en
+      script: Latn
+      content: XPath and XQuery Functions and Operators 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/xpath-functions-30/
+    docidentifier:
+    - content: W3C xpath-functions-30
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CCR-xpath-functions-30-20130521
     title:
-    - content: XPath and XQuery Functions and Operators 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2013/CR-xpath-functions-30-20130521/
-      type: src
-    docid:
-    - id: W3C CR-xpath-functions-30-20130521
+    - language: en
+      script: Latn
+      content: XPath and XQuery Functions and Operators 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2013/CR-xpath-functions-30-20130521/
+    docidentifier:
+    - content: W3C CR-xpath-functions-30-20130521
       type: W3C
       primary: true
 - type: updatedBy
-  bibitem:
-    id: W3CREC-xpath-functions-30-20140408
-    title:
-    - content: XPath and XQuery Functions and Operators 3.0
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2014/REC-xpath-functions-30-20140408/
-      type: src
-    docid:
-    - id: W3C REC-xpath-functions-30-20140408
-      type: W3C
-      primary: true
   description:
     content: errata
-    format: text/plain
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: XPath and XQuery Functions and Operators 3.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2014/REC-xpath-functions-30-20140408/
+    docidentifier:
+    - content: W3C REC-xpath-functions-30-20140408
+      type: W3C
+      primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Proposed Recommendation
-    format: text/plain
   number: PR-xpath-functions-30-20131022
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: XML Query Working Group
-  - name: XSLT Working Group
+    content: technicalReport
+  flavor: w3c

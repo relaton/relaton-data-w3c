@@ -1,78 +1,104 @@
 ---
-schema-version: v1.2.9
-id: W3CNOTE-hnreq-20111201
-title:
-- content: Requirements for Home Networking Scenarios
-  format: text/plain
-link:
-- content: https://www.w3.org/TR/2011/NOTE-hnreq-20111201/
-  type: src
+id: W3CNOTEhnreq20111201
 type: standard
-docid:
-- id: W3C NOTE-hnreq-20111201
+schema_version: v1.4.1
+formattedref: W3C NOTE-hnreq-20111201
+title:
+- language: en
+  script: Latn
+  content: Requirements for Home Networking Scenarios
+source:
+- type: src
+  content: https://www.w3.org/TR/2011/NOTE-hnreq-20111201/
+docidentifier:
+- content: W3C NOTE-hnreq-20111201
   type: W3C
   primary: true
 docnumber: NOTE-hnreq-20111201
 date:
 - type: published
-  value: '2011-12-01'
+  at: '2011-12-01'
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    uri:
+      content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
-    url: https://www.w3.org/
-  role:
-  - type: publisher
-- person:
-    name:
-      given:
-        forename:
-        - content: Giuseppe
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Pascale
-        language:
-        - en
-        script:
-        - Latn
-  role:
+- role:
   - type: editor
-revdate: '2011-12-01'
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Giuseppe
+      surname:
+        language: en
+        script: Latn
+        content: Pascale
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Devices and Sensors Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+      content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Media and Entertainment Interest Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
 - Latn
-docstatus:
+status:
   stage:
-    value: Note
+    content: Note
 relation:
 - type: editionOf
   bibitem:
-    id: W3Chnreq
     title:
-    - content: Requirements for Home Networking Scenarios
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/hnreq/
-      type: src
-    docid:
-    - id: W3C hnreq
+    - language: en
+      script: Latn
+      content: Requirements for Home Networking Scenarios
+    source:
+    - type: src
+      content: https://www.w3.org/TR/hnreq/
+    docidentifier:
+    - content: W3C hnreq
       type: W3C
       primary: true
 series:
 - title:
+  - language: en
+    script: Latn
     content: W3C Note
-    format: text/plain
   number: NOTE-hnreq-20111201
 ext:
-  schema-version: v1.0.0
+  schema_version: v1.0.0
   doctype:
-    type: technicalReport
-  editorialgroup:
-  - name: Devices and Sensors Working Group
-  - name: Media and Entertainment Interest Group
+    content: technicalReport
+  flavor: w3c
