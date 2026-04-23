@@ -1,7 +1,7 @@
 ---
 id: W3Csparql12federatedquery
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SPARQL 1.2 Federated Query
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-sparql12-federated-query-20260423/
+    docidentifier:
+    - content: W3C WD-sparql12-federated-query-20260423
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:

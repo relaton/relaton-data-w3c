@@ -1,7 +1,7 @@
 ---
 id: W3Chtmlaria
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,32 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: ARIA in HTML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/REC-html-aria-20260415/
+    docidentifier:
+    - content: W3C REC-html-aria-20260415
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: ARIA in HTML
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/REC-html-aria-20260407/
+    docidentifier:
+    - content: W3C REC-html-aria-20260407
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
@@ -1301,32 +1327,6 @@ relation:
       content: https://www.w3.org/TR/2021/WD-html-aria-20210220/
     docidentifier:
     - content: W3C WD-html-aria-20210220
-      type: W3C
-      primary: true
-- type: hasEdition
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: ARIA in HTML
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2021/WD-html-aria-20210219/
-    docidentifier:
-    - content: W3C WD-html-aria-20210219
-      type: W3C
-      primary: true
-- type: hasEdition
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: ARIA in HTML
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2021/WD-html-aria-20210214/
-    docidentifier:
-    - content: W3C WD-html-aria-20210214
       type: W3C
       primary: true
 series:

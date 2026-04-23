@@ -1,7 +1,7 @@
 ---
 id: W3Cttmlimsc13
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: IMSC Text Profile 1.3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-ttml-imsc1.3-20260403/
+    docidentifier:
+    - content: W3C CRD-ttml-imsc1.3-20260403
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:

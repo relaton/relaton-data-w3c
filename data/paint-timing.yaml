@@ -1,7 +1,7 @@
 ---
 id: W3Cpainttiming
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Paint Timing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-paint-timing-20260324/
+    docidentifier:
+    - content: W3C WD-paint-timing-20260324
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:

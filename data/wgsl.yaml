@@ -1,7 +1,7 @@
 ---
 id: W3CWGSL
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebGPU Shading Language
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-WGSL-20260310/
+    docidentifier:
+    - content: W3C CRD-WGSL-20260310
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
@@ -1314,19 +1327,6 @@ relation:
       content: https://www.w3.org/TR/2024/WD-WGSL-20240317/
     docidentifier:
     - content: W3C WD-WGSL-20240317
-      type: W3C
-      primary: true
-- type: hasEdition
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: WebGPU Shading Language
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2024/WD-WGSL-20240315/
-    docidentifier:
-    - content: W3C WD-WGSL-20240315
       type: W3C
       primary: true
 series:

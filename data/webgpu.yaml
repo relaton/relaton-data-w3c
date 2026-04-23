@@ -1,7 +1,7 @@
 ---
 id: W3Cwebgpu
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebGPU
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-webgpu-20260310/
+    docidentifier:
+    - content: W3C CRD-webgpu-20260310
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
@@ -1314,19 +1327,6 @@ relation:
       content: https://www.w3.org/TR/2024/WD-webgpu-20240604/
     docidentifier:
     - content: W3C WD-webgpu-20240604
-      type: W3C
-      primary: true
-- type: hasEdition
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: WebGPU
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2024/WD-webgpu-20240531/
-    docidentifier:
-    - content: W3C WD-webgpu-20240531
       type: W3C
       primary: true
 series:

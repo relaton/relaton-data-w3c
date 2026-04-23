@@ -1,7 +1,7 @@
 ---
 id: W3Chanilreq
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,32 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/DNOTE-hani-lreq-20260320/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20260320
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Chinese Script Resources
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/DNOTE-hani-lreq-20260315/
+    docidentifier:
+    - content: W3C DNOTE-hani-lreq-20260315
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:

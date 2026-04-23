@@ -1,7 +1,7 @@
 ---
 id: W3Cappmanifest
 type: standard
-schema_version: v1.4.1
+schema_version: v1.5.6
 title:
 - language: en
   script: Latn
@@ -29,6 +29,32 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Application Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-appmanifest-20260409/
+    docidentifier:
+    - content: W3C WD-appmanifest-20260409
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Web Application Manifest
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-appmanifest-20260324/
+    docidentifier:
+    - content: W3C WD-appmanifest-20260324
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
@@ -1301,32 +1327,6 @@ relation:
       content: https://www.w3.org/TR/2019/WD-appmanifest-20190702/
     docidentifier:
     - content: W3C WD-appmanifest-20190702
-      type: W3C
-      primary: true
-- type: hasEdition
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Web App Manifest
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2019/WD-appmanifest-20190531/
-    docidentifier:
-    - content: W3C WD-appmanifest-20190531
-      type: W3C
-      primary: true
-- type: hasEdition
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Web App Manifest
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2019/WD-appmanifest-20190530/
-    docidentifier:
-    - content: W3C WD-appmanifest-20190530
       type: W3C
       primary: true
 series:
