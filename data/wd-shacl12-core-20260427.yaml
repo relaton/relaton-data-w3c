@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-sparql12-protocol-20250814
+id: W3CWD-shacl12-core-20260427
 title:
-- content: SPARQL 1.2 Protocol
+- content: SHACL 1.2 Core
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2025/WD-sparql12-protocol-20250814/
+- content: https://www.w3.org/TR/2026/WD-shacl12-core-20260427/
   type: src
 type: standard
 docid:
-- id: W3C WD-sparql12-protocol-20250814
+- id: W3C WD-shacl12-core-20260427
   type: W3C
   primary: true
-docnumber: WD-sparql12-protocol-20250814
+docnumber: WD-shacl12-core-20260427
 date:
 - type: published
-  value: '2025-08-14'
+  value: '2026-04-27'
 contributor:
 - organization:
     name:
@@ -29,47 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Andy
+        - content: Holger
           language:
           - en
           script:
           - Latn
       surname:
-        content: Seaborne
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Ruben
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Taelman
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
-- person:
-    name:
-      given:
-        forename:
-        - content: Gregory
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Williams
+        content: Knublauch
         language:
         - en
         script:
@@ -86,14 +52,48 @@ contributor:
           script:
           - Latn
       surname:
-        content: Pellissier Tanon
+        content: Bergwinkl
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2025-08-14'
+- person:
+    name:
+      given:
+        forename:
+        - content: Yousouf
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taghzouti
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - content: Jesse
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wright
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+revdate: '2026-04-27'
 language:
 - en
 script:
@@ -104,54 +104,38 @@ docstatus:
 relation:
 - type: editionOf
   bibitem:
-    id: W3Csparql12-protocol
+    id: W3Cshacl12-core
     title:
-    - content: SPARQL 1.2 Protocol
+    - content: SHACL 1.2 Core
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/sparql12-protocol/
+    - content: https://www.w3.org/TR/shacl12-core/
       type: src
     docid:
-    - id: W3C sparql12-protocol
+    - id: W3C shacl12-core
       type: W3C
       primary: true
 - type: obsoletes
   bibitem:
-    id: W3CWD-sparql12-protocol-20250624
+    id: W3CWD-shacl12-core-20260410
     title:
-    - content: SPARQL 1.2 Protocol
+    - content: SHACL 1.2 Core
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2025/WD-sparql12-protocol-20250624/
+    - content: https://www.w3.org/TR/2026/WD-shacl12-core-20260410/
       type: src
     docid:
-    - id: W3C WD-sparql12-protocol-20250624
+    - id: W3C WD-shacl12-core-20260410
       type: W3C
       primary: true
-- type: updatedBy
-  bibitem:
-    id: W3CWD-sparql12-protocol-20260426
-    title:
-    - content: SPARQL 1.2 Protocol
-      format: text/plain
-    link:
-    - content: https://www.w3.org/TR/2026/WD-sparql12-protocol-20260426/
-      type: src
-    docid:
-    - id: W3C WD-sparql12-protocol-20260426
-      type: W3C
-      primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
     content: W3C Working Draft
     format: text/plain
-  number: WD-sparql12-protocol-20250814
+  number: WD-shacl12-core-20260427
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: RDF & SPARQL Working Group
+  - name: Data Shapes Working Group
