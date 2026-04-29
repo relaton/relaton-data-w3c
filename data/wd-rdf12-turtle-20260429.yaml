@@ -1,21 +1,21 @@
 ---
 schema-version: v1.2.9
-id: W3CWD-vc-data-model-2.1-20260409
+id: W3CWD-rdf12-turtle-20260429
 title:
-- content: Verifiable Credentials Data Model v2.1
+- content: RDF 1.2 Turtle
   format: text/plain
 link:
-- content: https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260409/
+- content: https://www.w3.org/TR/2026/WD-rdf12-turtle-20260429/
   type: src
 type: standard
 docid:
-- id: W3C WD-vc-data-model-2.1-20260409
+- id: W3C WD-rdf12-turtle-20260429
   type: W3C
   primary: true
-docnumber: WD-vc-data-model-2.1-20260409
+docnumber: WD-rdf12-turtle-20260429
 date:
 - type: published
-  value: '2026-04-09'
+  value: '2026-04-29'
 contributor:
 - organization:
     name:
@@ -29,13 +29,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Ivan
+        - content: Gregg
           language:
           - en
           script:
           - Latn
       surname:
-        content: Herman
+        content: Kellogg
         language:
         - en
         script:
@@ -46,13 +46,13 @@ contributor:
     name:
       given:
         forename:
-        - content: Manu
+        - content: Andy
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sporny
+        content: Seaborne
         language:
         - en
         script:
@@ -63,65 +63,62 @@ contributor:
     name:
       given:
         forename:
-        - content: Ted
+        - content: Dominik
           language:
           - en
           script:
           - Latn
       surname:
-        content: Thibodeau Jr
+        content: Tomaszuk
         language:
         - en
         script:
         - Latn
   role:
   - type: editor
-revdate: '2026-04-09'
+revdate: '2026-04-29'
 language:
 - en
 script:
 - Latn
 docstatus:
   stage:
-    value: First Public Working Draft
+    value: Working Draft
 relation:
 - type: editionOf
   bibitem:
-    id: W3Cvc-data-model-2.1
+    id: W3Crdf12-turtle
     title:
-    - content: Verifiable Credentials Data Model v2.1
+    - content: RDF 1.2 Turtle
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/vc-data-model-2.1/
+    - content: https://www.w3.org/TR/rdf12-turtle/
       type: src
     docid:
-    - id: W3C vc-data-model-2.1
+    - id: W3C rdf12-turtle
       type: W3C
       primary: true
-- type: updatedBy
+- type: obsoletes
   bibitem:
-    id: W3CWD-vc-data-model-2.1-20260429
+    id: W3CWD-rdf12-turtle-20260423
     title:
-    - content: Verifiable Credentials Data Model v2.1
+    - content: RDF 1.2 Turtle
       format: text/plain
     link:
-    - content: https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260429/
+    - content: https://www.w3.org/TR/2026/WD-rdf12-turtle-20260423/
       type: src
     docid:
-    - id: W3C WD-vc-data-model-2.1-20260429
+    - id: W3C WD-rdf12-turtle-20260423
       type: W3C
       primary: true
-  description:
-    content: errata
-    format: text/plain
 series:
 - title:
-    content: W3C First Public Working Draft
+    content: W3C Working Draft
     format: text/plain
-  number: WD-vc-data-model-2.1-20260409
+  number: WD-rdf12-turtle-20260429
 ext:
   schema-version: v1.0.0
   doctype:
     type: technicalReport
   editorialgroup:
-  - name: Verifiable Credentials Working Group
+  - name: RDF & SPARQL Working Group
