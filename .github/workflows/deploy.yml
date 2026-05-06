@@ -4,7 +4,7 @@ name: Deploy
 
 on:
   push:
-    branches: [ master, main ]
+    branches: [ master, main, v2 ]
     tags: [ v* ]
   pull_request:
   schedule:
