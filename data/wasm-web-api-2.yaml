@@ -1,7 +1,7 @@
 ---
 id: W3Cwasmwebapi2
-type: standard
 schema_version: v1.5.6
+type: standard
 title:
 - language: en
   script: Latn
@@ -19,7 +19,7 @@ contributor:
   - type: publisher
   organization:
     uri:
-      content: https://www.w3.org
+    - content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly Web API
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-web-api-2-20260505/
+    docidentifier:
+    - content: W3C CRD-wasm-web-api-2-20260505
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:

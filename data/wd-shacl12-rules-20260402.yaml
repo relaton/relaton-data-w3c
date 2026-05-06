@@ -1,8 +1,9 @@
 ---
 id: W3CWDshacl12rules20260402
-type: standard
 schema_version: v1.5.6
-formattedref: W3C WD-shacl12-rules-20260402
+type: standard
+formattedref:
+  content: W3C WD-shacl12-rules-20260402
 title:
 - language: en
   script: Latn
@@ -23,7 +24,7 @@ contributor:
   - type: publisher
   organization:
     uri:
-      content: https://www.w3.org
+    - content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
@@ -82,7 +83,7 @@ contributor:
     - content: committee
   organization:
     uri:
-      content: https://www.w3.org
+    - content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     subdivision:
@@ -123,6 +124,21 @@ relation:
       content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260331/
     docidentifier:
     - content: W3C WD-shacl12-rules-20260331
+      type: W3C
+      primary: true
+- type: updatedBy
+  description:
+    content: errata
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SHACL 1.2 Rules
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260506/
+    docidentifier:
+    - content: W3C WD-shacl12-rules-20260506
       type: W3C
       primary: true
 series:

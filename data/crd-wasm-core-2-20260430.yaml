@@ -1,8 +1,9 @@
 ---
 id: W3CCRDwasmcore220260430
-type: standard
 schema_version: v1.5.6
-formattedref: W3C CRD-wasm-core-2-20260430
+type: standard
+formattedref:
+  content: W3C CRD-wasm-core-2-20260430
 title:
 - language: en
   script: Latn
@@ -23,7 +24,7 @@ contributor:
   - type: publisher
   organization:
     uri:
-      content: https://www.w3.org
+    - content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     abbreviation:
@@ -46,7 +47,7 @@ contributor:
     - content: committee
   organization:
     uri:
-      content: https://www.w3.org
+    - content: https://www.w3.org
     name:
     - content: World Wide Web Consortium
     subdivision:
@@ -87,6 +88,21 @@ relation:
       content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260427/
     docidentifier:
     - content: W3C CRD-wasm-core-2-20260427
+      type: W3C
+      primary: true
+- type: updatedBy
+  description:
+    content: errata
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: WebAssembly Core Specification
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260505/
+    docidentifier:
+    - content: W3C CRD-wasm-core-2-20260505
       type: W3C
       primary: true
 series:
