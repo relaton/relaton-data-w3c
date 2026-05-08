@@ -1,24 +1,24 @@
 ---
-id: W3CWDencryptedmedia220260507
+id: W3CWDshacl12rules20260508
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-encrypted-media-2-20260507
+  content: W3C WD-shacl12-rules-20260508
 title:
 - language: en
   script: Latn
-  content: Encrypted Media Extensions
+  content: SHACL 1.2 Rules
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-encrypted-media-2-20260507/
+  content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260508/
 docidentifier:
-- content: W3C WD-encrypted-media-2-20260507
+- content: W3C WD-shacl12-rules-20260508
   type: W3C
   primary: true
-docnumber: WD-encrypted-media-2-20260507
+docnumber: WD-shacl12-rules-20260508
 date:
 - type: published
-  at: '2026-05-07'
+  at: '2026-05-08'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Joey
+        content: Robert
       surname:
         language: en
         script: Latn
-        content: Parrish
+        content: David
 - role:
   - type: editor
   person:
@@ -48,11 +48,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Greg
+        content: David
       surname:
         language: en
         script: Latn
-        content: Freedman
+        content: Habgood
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Andy
+      surname:
+        language: en
+        script: Latn
+        content: Seaborne
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Simon
+      surname:
+        language: en
+        script: Latn
+        content: Steyskal
 - role:
   - type: author
     description:
@@ -64,7 +88,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Media Working Group
+      - content: Data Shapes Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -81,12 +105,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Encrypted Media Extensions
+      content: SHACL 1.2 Rules
     source:
     - type: src
-      content: https://www.w3.org/TR/encrypted-media-2/
+      content: https://www.w3.org/TR/shacl12-rules/
     docidentifier:
-    - content: W3C encrypted-media-2
+    - content: W3C shacl12-rules
       type: W3C
       primary: true
 - type: obsoletes
@@ -94,27 +118,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Encrypted Media Extensions
+      content: SHACL 1.2 Rules
     source:
     - type: src
-      content: https://www.w3.org/TR/2025/WD-encrypted-media-2-20251126/
+      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260506/
     docidentifier:
-    - content: W3C WD-encrypted-media-2-20251126
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Encrypted Media Extensions
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-encrypted-media-2-20260508/
-    docidentifier:
-    - content: W3C WD-encrypted-media-2-20260508
+    - content: W3C WD-shacl12-rules-20260506
       type: W3C
       primary: true
 series:
@@ -122,7 +131,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-encrypted-media-2-20260507
+  number: WD-shacl12-rules-20260508
 ext:
   schema_version: v1.0.0
   doctype:
