@@ -1,24 +1,24 @@
 ---
-id: W3CCRDvibration20260502
+id: W3CCRDcomputepressure20260514
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C CRD-vibration-20260502
+  content: W3C CRD-compute-pressure-20260514
 title:
 - language: en
   script: Latn
-  content: Vibration API
+  content: Compute Pressure Level 1
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/CRD-vibration-20260502/
+  content: https://www.w3.org/TR/2026/CRD-compute-pressure-20260514/
 docidentifier:
-- content: W3C CRD-vibration-20260502
+- content: W3C CRD-compute-pressure-20260514
   type: W3C
   primary: true
-docnumber: CRD-vibration-20260502
+docnumber: CRD-compute-pressure-20260514
 date:
 - type: published
-  at: '2026-05-02'
+  at: '2026-05-14'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Anssi
+        content: Kenneth
       surname:
         language: en
         script: Latn
-        content: Kostiainen
+        content: Christiansen
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Arnaud
+      surname:
+        language: en
+        script: Latn
+        content: Mandy
 - role:
   - type: author
     description:
@@ -69,12 +81,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Vibration API
+      content: Compute Pressure Level 1
     source:
     - type: src
-      content: https://www.w3.org/TR/vibration/
+      content: https://www.w3.org/TR/compute-pressure/
     docidentifier:
-    - content: W3C vibration
+    - content: W3C compute-pressure
       type: W3C
       primary: true
 - type: obsoletes
@@ -82,27 +94,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Vibration API
+      content: Compute Pressure Level 1
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/CRD-vibration-20260501/
+      content: https://www.w3.org/TR/2025/CRD-compute-pressure-20250521/
     docidentifier:
-    - content: W3C CRD-vibration-20260501
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Vibration API
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/CRD-vibration-20260514/
-    docidentifier:
-    - content: W3C CRD-vibration-20260514
+    - content: W3C CRD-compute-pressure-20250521
       type: W3C
       primary: true
 series:
@@ -110,7 +107,7 @@ series:
   - language: en
     script: Latn
     content: W3C Candidate Recommendation Draft
-  number: CRD-vibration-20260502
+  number: CRD-compute-pressure-20260514
 ext:
   schema_version: v1.0.0
   doctype:

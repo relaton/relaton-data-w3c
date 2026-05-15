@@ -1,24 +1,24 @@
 ---
-id: W3CCRDvibration20260502
+id: W3CCRDWGSL20260513
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C CRD-vibration-20260502
+  content: W3C CRD-WGSL-20260513
 title:
 - language: en
   script: Latn
-  content: Vibration API
+  content: WebGPU Shading Language
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/CRD-vibration-20260502/
+  content: https://www.w3.org/TR/2026/CRD-WGSL-20260513/
 docidentifier:
-- content: W3C CRD-vibration-20260502
+- content: W3C CRD-WGSL-20260513
   type: W3C
   primary: true
-docnumber: CRD-vibration-20260502
+docnumber: CRD-WGSL-20260513
 date:
 - type: published
-  at: '2026-05-02'
+  at: '2026-05-13'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Anssi
+        content: Alan
       surname:
         language: en
         script: Latn
-        content: Kostiainen
+        content: Baker
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mehmet Oguz
+      surname:
+        language: en
+        script: Latn
+        content: Derin
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: David
+      surname:
+        language: en
+        script: Latn
+        content: Neto
 - role:
   - type: author
     description:
@@ -52,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Devices and Sensors Working Group
+      - content: GPU for the Web Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -69,12 +93,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Vibration API
+      content: WebGPU Shading Language
     source:
     - type: src
-      content: https://www.w3.org/TR/vibration/
+      content: https://www.w3.org/TR/WGSL/
     docidentifier:
-    - content: W3C vibration
+    - content: W3C WGSL
       type: W3C
       primary: true
 - type: obsoletes
@@ -82,27 +106,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Vibration API
+      content: WebGPU Shading Language
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/CRD-vibration-20260501/
+      content: https://www.w3.org/TR/2026/CRD-WGSL-20260507/
     docidentifier:
-    - content: W3C CRD-vibration-20260501
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Vibration API
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/CRD-vibration-20260514/
-    docidentifier:
-    - content: W3C CRD-vibration-20260514
+    - content: W3C CRD-WGSL-20260507
       type: W3C
       primary: true
 series:
@@ -110,7 +119,7 @@ series:
   - language: en
     script: Latn
     content: W3C Candidate Recommendation Draft
-  number: CRD-vibration-20260502
+  number: CRD-WGSL-20260513
 ext:
   schema_version: v1.0.0
   doctype:
