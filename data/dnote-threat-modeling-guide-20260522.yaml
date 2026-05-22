@@ -1,24 +1,24 @@
 ---
-id: W3CCRDvibration20260520
+id: W3CDNOTEthreatmodelingguide20260522
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C CRD-vibration-20260520
+  content: W3C DNOTE-threat-modeling-guide-20260522
 title:
 - language: en
   script: Latn
-  content: Vibration API
+  content: Threat Modeling Guide
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/CRD-vibration-20260520/
+  content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260522/
 docidentifier:
-- content: W3C CRD-vibration-20260520
+- content: W3C DNOTE-threat-modeling-guide-20260522
   type: W3C
   primary: true
-docnumber: CRD-vibration-20260520
+docnumber: DNOTE-threat-modeling-guide-20260522
 date:
 - type: published
-  at: '2026-05-20'
+  at: '2026-05-22'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Anssi
+        content: Simone
       surname:
         language: en
         script: Latn
-        content: Kostiainen
+        content: Onofri
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Joe
+      surname:
+        language: en
+        script: Latn
+        content: Andrieu
 - role:
   - type: author
     description:
@@ -52,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Devices and Sensors Working Group
+      - content: Security Interest Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -62,19 +74,19 @@ script:
 - Latn
 status:
   stage:
-    content: Candidate Recommendation Draft
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Vibration API
+      content: Threat Modeling Guide
     source:
     - type: src
-      content: https://www.w3.org/TR/vibration/
+      content: https://www.w3.org/TR/threat-modeling-guide/
     docidentifier:
-    - content: W3C vibration
+    - content: W3C threat-modeling-guide
       type: W3C
       primary: true
 - type: obsoletes
@@ -82,35 +94,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Vibration API
+      content: Threat Modeling Guide
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/CRD-vibration-20260514/
+      content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260521/
     docidentifier:
-    - content: W3C CRD-vibration-20260514
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Vibration API
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/CRD-vibration-20260521/
-    docidentifier:
-    - content: W3C CRD-vibration-20260521
+    - content: W3C DNOTE-threat-modeling-guide-20260521
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Candidate Recommendation Draft
-  number: CRD-vibration-20260520
+    content: W3C Draft Note
+  number: DNOTE-threat-modeling-guide-20260522
 ext:
   schema_version: v1.0.0
   doctype:
