@@ -29,6 +29,33 @@ contributor:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mike
+      surname:
+        language: en
+        script: Latn
+        content: West
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+    - content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Web Application Security Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
@@ -48,6 +75,34 @@ relation:
       content: https://www.w3.org/TR/CSP3/
     docidentifier:
     - content: W3C CSP3
+      type: W3C
+      primary: true
+- type: obsoletes
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Content Security Policy Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-CSP3-20160126/
+    docidentifier:
+    - content: W3C WD-CSP3-20160126
+      type: W3C
+      primary: true
+- type: updatedBy
+  description:
+    content: errata
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Content Security Policy Level 3
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2016/WD-CSP3-20160621/
+    docidentifier:
+    - content: W3C WD-CSP3-20160621
       type: W3C
       primary: true
 series:

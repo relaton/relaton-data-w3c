@@ -28,6 +28,33 @@ language:
 - en
 script:
 - Latn
+relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Rhythmic Sizing Module Level 1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-css-rhythm-1-20260217/
+    docidentifier:
+    - content: W3C WD-css-rhythm-1-20260217
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Rhythmic Sizing
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2017/WD-css-rhythm-1-20170302/
+    docidentifier:
+    - content: W3C WD-css-rhythm-1-20170302
+      type: W3C
+      primary: true
 series:
 - title:
   - language: en

@@ -29,6 +29,84 @@ contributor:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Dave
+      surname:
+        language: en
+        script: Latn
+        content: Raggett
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
+      surname:
+        language: en
+        script: Latn
+        content: Glazman
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Claudio
+      surname:
+        language: en
+        script: Latn
+        content: Santambrogio
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Daniel
+      surname:
+        language: en
+        script: Latn
+        content: Weck
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+    - content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Cascading Style Sheets (CSS) Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    uri:
+    - content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    subdivision:
+    - name:
+      - content: Voice Browser Working Group
+      type: technical-committee
+    abbreviation:
+      content: W3C
 language:
 - en
 script:
@@ -48,6 +126,34 @@ relation:
       content: https://www.w3.org/TR/css-speech-1/
     docidentifier:
     - content: W3C css-speech-1
+      type: W3C
+      primary: true
+- type: obsoletes
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS3 Speech Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2004/WD-css3-speech-20041216/
+    docidentifier:
+    - content: W3C WD-css3-speech-20041216
+      type: W3C
+      primary: true
+- type: updatedBy
+  description:
+    content: errata
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: CSS Speech Module
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2011/WD-css3-speech-20110818/
+    docidentifier:
+    - content: W3C WD-css3-speech-20110818
       type: W3C
       primary: true
 series:

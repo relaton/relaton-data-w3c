@@ -1,0 +1,68 @@
+---
+id: W3Cp3prdfschema
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: An RDF Schema for P3P
+source:
+- type: src
+  content: https://www.w3.org/TR/p3p-rdfschema/
+docidentifier:
+- content: W3C p3p-rdfschema
+  type: W3C
+  primary: true
+docnumber: p3p-rdfschema
+contributor:
+- role:
+  - type: publisher
+  organization:
+    uri:
+    - content: https://www.w3.org
+    name:
+    - content: World Wide Web Consortium
+    abbreviation:
+      content: W3C
+language:
+- en
+script:
+- Latn
+relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: An RDF Schema for P3P
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2018/NOTE-p3p-rdfschema-20180830/
+    docidentifier:
+    - content: W3C NOTE-p3p-rdfschema-20180830
+      type: W3C
+      primary: true
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: An RDF Schema for P3P
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2002/NOTE-p3p-rdfschema-20020125/
+    docidentifier:
+    - content: W3C NOTE-p3p-rdfschema-20020125
+      type: W3C
+      primary: true
+series:
+- title:
+  - language: en
+    script: Latn
+    content: W3C technicalReport
+  number: p3p-rdfschema
+ext:
+  schema_version: v1.0.0
+  doctype:
+    content: technicalReport
+  flavor: w3c
