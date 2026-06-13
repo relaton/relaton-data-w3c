@@ -1,24 +1,24 @@
 ---
-id: W3CWDrdf12nquads20260601
+id: W3CDNOTEthreatmodelweb20260612
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-rdf12-n-quads-20260601
+  content: W3C DNOTE-threat-model-web-20260612
 title:
 - language: en
   script: Latn
-  content: RDF 1.2 N-Quads
+  content: Threat Model for the Web
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-rdf12-n-quads-20260601/
+  content: https://www.w3.org/TR/2026/DNOTE-threat-model-web-20260612/
 docidentifier:
-- content: W3C WD-rdf12-n-quads-20260601
+- content: W3C DNOTE-threat-model-web-20260612
   type: W3C
   primary: true
-docnumber: WD-rdf12-n-quads-20260601
+docnumber: DNOTE-threat-model-web-20260612
 date:
 - type: published
-  at: '2026-06-01'
+  at: '2026-06-12'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Gregg
+        content: Simone
       surname:
         language: en
         script: Latn
-        content: Kellogg
+        content: Onofri
 - role:
   - type: editor
   person:
@@ -48,11 +48,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Dominik
+        content: Joe
       surname:
         language: en
         script: Latn
-        content: Tomaszuk
+        content: Andrieu
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Giovanni
+      surname:
+        language: en
+        script: Latn
+        content: Corti
 - role:
   - type: author
     description:
@@ -64,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: RDF & SPARQL Working Group
+      - content: Security Interest Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -74,19 +86,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: RDF 1.2 N-Quads
+      content: Threat Model for the Web
     source:
     - type: src
-      content: https://www.w3.org/TR/rdf12-n-quads/
+      content: https://www.w3.org/TR/threat-model-web/
     docidentifier:
-    - content: W3C rdf12-n-quads
+    - content: W3C threat-model-web
       type: W3C
       primary: true
 - type: obsoletes
@@ -94,35 +106,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: RDF 1.2 N-Quads
+      content: Threat Model for the Web
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-rdf12-n-quads-20260528/
+      content: https://www.w3.org/TR/2026/DNOTE-threat-model-web-20260526/
     docidentifier:
-    - content: W3C WD-rdf12-n-quads-20260528
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: RDF 1.2 N-Quads
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-rdf12-n-quads-20260612/
-    docidentifier:
-    - content: W3C WD-rdf12-n-quads-20260612
+    - content: W3C DNOTE-threat-model-web-20260526
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-rdf12-n-quads-20260601
+    content: W3C Draft Note
+  number: DNOTE-threat-model-web-20260612
 ext:
   schema_version: v1.0.0
   doctype:
