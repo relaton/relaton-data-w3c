@@ -1,24 +1,24 @@
 ---
-id: W3CWDpictureinpicture20260521
+id: W3CCRDWGSL20260615
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-picture-in-picture-20260521
+  content: W3C CRD-WGSL-20260615
 title:
 - language: en
   script: Latn
-  content: Picture-in-Picture
+  content: WebGPU Shading Language
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-picture-in-picture-20260521/
+  content: https://www.w3.org/TR/2026/CRD-WGSL-20260615/
 docidentifier:
-- content: W3C WD-picture-in-picture-20260521
+- content: W3C CRD-WGSL-20260615
   type: W3C
   primary: true
-docnumber: WD-picture-in-picture-20260521
+docnumber: CRD-WGSL-20260615
 date:
 - type: published
-  at: '2026-05-21'
+  at: '2026-06-15'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Francois
+        content: Alan
       surname:
         language: en
         script: Latn
-        content: Beaufort
+        content: Baker
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mehmet Oguz
+      surname:
+        language: en
+        script: Latn
+        content: Derin
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: David
+      surname:
+        language: en
+        script: Latn
+        content: Neto
 - role:
   - type: author
     description:
@@ -52,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Media Working Group
+      - content: GPU for the Web Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -62,19 +86,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Picture-in-Picture
+      content: WebGPU Shading Language
     source:
     - type: src
-      content: https://www.w3.org/TR/picture-in-picture/
+      content: https://www.w3.org/TR/WGSL/
     docidentifier:
-    - content: W3C picture-in-picture
+    - content: W3C WGSL
       type: W3C
       primary: true
 - type: obsoletes
@@ -82,35 +106,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Picture-in-Picture
+      content: WebGPU Shading Language
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-picture-in-picture-20260303/
+      content: https://www.w3.org/TR/2026/CRD-WGSL-20260609/
     docidentifier:
-    - content: W3C WD-picture-in-picture-20260303
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Picture-in-Picture
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-picture-in-picture-20260616/
-    docidentifier:
-    - content: W3C WD-picture-in-picture-20260616
+    - content: W3C CRD-WGSL-20260609
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-picture-in-picture-20260521
+    content: W3C Candidate Recommendation Draft
+  number: CRD-WGSL-20260615
 ext:
   schema_version: v1.0.0
   doctype:
