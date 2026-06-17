@@ -1,24 +1,24 @@
 ---
-id: W3CWDshacl12rules20260609
+id: W3CWDsparql12query20260617
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-shacl12-rules-20260609
+  content: W3C WD-sparql12-query-20260617
 title:
 - language: en
   script: Latn
-  content: SHACL 1.2 Rules
+  content: SPARQL 1.2 Query Language
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260609/
+  content: https://www.w3.org/TR/2026/WD-sparql12-query-20260617/
 docidentifier:
-- content: W3C WD-shacl12-rules-20260609
+- content: W3C WD-sparql12-query-20260617
   type: W3C
   primary: true
-docnumber: WD-shacl12-rules-20260609
+docnumber: WD-sparql12-query-20260617
 date:
 - type: published
-  at: '2026-06-09'
+  at: '2026-06-17'
 contributor:
 - role:
   - type: publisher
@@ -36,23 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Robert
+        content: Olaf
       surname:
         language: en
         script: Latn
-        content: David
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: David
-      surname:
-        language: en
-        script: Latn
-        content: Habgood
+        content: Hartig
 - role:
   - type: editor
   person:
@@ -72,11 +60,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Simon
+        content: Ruben
       surname:
         language: en
         script: Latn
-        content: Steyskal
+        content: Taelman
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Gregory
+      surname:
+        language: en
+        script: Latn
+        content: Williams
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Thomas
+      surname:
+        language: en
+        script: Latn
+        content: Pellissier Tanon
 - role:
   - type: author
     description:
@@ -88,7 +100,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Data Shapes Working Group
+      - content: RDF & SPARQL Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -105,12 +117,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SHACL 1.2 Rules
+      content: SPARQL 1.2 Query Language
     source:
     - type: src
-      content: https://www.w3.org/TR/shacl12-rules/
+      content: https://www.w3.org/TR/sparql12-query/
     docidentifier:
-    - content: W3C shacl12-rules
+    - content: W3C sparql12-query
       type: W3C
       primary: true
 - type: obsoletes
@@ -118,27 +130,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SHACL 1.2 Rules
+      content: SPARQL 1.2 Query Language
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260608/
+      content: https://www.w3.org/TR/2026/WD-sparql12-query-20260612/
     docidentifier:
-    - content: W3C WD-shacl12-rules-20260608
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: SHACL 1.2 Rules
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260617/
-    docidentifier:
-    - content: W3C WD-shacl12-rules-20260617
+    - content: W3C WD-sparql12-query-20260612
       type: W3C
       primary: true
 series:
@@ -146,7 +143,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-shacl12-rules-20260609
+  number: WD-sparql12-query-20260617
 ext:
   schema_version: v1.0.0
   doctype:

@@ -1,24 +1,24 @@
 ---
-id: W3CWDshacl12rules20260609
+id: W3CCRDWGSL20260617
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-shacl12-rules-20260609
+  content: W3C CRD-WGSL-20260617
 title:
 - language: en
   script: Latn
-  content: SHACL 1.2 Rules
+  content: WebGPU Shading Language
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260609/
+  content: https://www.w3.org/TR/2026/CRD-WGSL-20260617/
 docidentifier:
-- content: W3C WD-shacl12-rules-20260609
+- content: W3C CRD-WGSL-20260617
   type: W3C
   primary: true
-docnumber: WD-shacl12-rules-20260609
+docnumber: CRD-WGSL-20260617
 date:
 - type: published
-  at: '2026-06-09'
+  at: '2026-06-17'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Robert
+        content: Alan
       surname:
         language: en
         script: Latn
-        content: David
+        content: Baker
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Mehmet Oguz
+      surname:
+        language: en
+        script: Latn
+        content: Derin
 - role:
   - type: editor
   person:
@@ -52,31 +64,7 @@ contributor:
       surname:
         language: en
         script: Latn
-        content: Habgood
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Andy
-      surname:
-        language: en
-        script: Latn
-        content: Seaborne
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Simon
-      surname:
-        language: en
-        script: Latn
-        content: Steyskal
+        content: Neto
 - role:
   - type: author
     description:
@@ -88,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Data Shapes Working Group
+      - content: GPU for the Web Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -98,19 +86,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: SHACL 1.2 Rules
+      content: WebGPU Shading Language
     source:
     - type: src
-      content: https://www.w3.org/TR/shacl12-rules/
+      content: https://www.w3.org/TR/WGSL/
     docidentifier:
-    - content: W3C shacl12-rules
+    - content: W3C WGSL
       type: W3C
       primary: true
 - type: obsoletes
@@ -118,35 +106,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SHACL 1.2 Rules
+      content: WebGPU Shading Language
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260608/
+      content: https://www.w3.org/TR/2026/CRD-WGSL-20260615/
     docidentifier:
-    - content: W3C WD-shacl12-rules-20260608
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: SHACL 1.2 Rules
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260617/
-    docidentifier:
-    - content: W3C WD-shacl12-rules-20260617
+    - content: W3C CRD-WGSL-20260615
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-shacl12-rules-20260609
+    content: W3C Candidate Recommendation Draft
+  number: CRD-WGSL-20260617
 ext:
   schema_version: v1.0.0
   doctype:
