@@ -1,24 +1,24 @@
 ---
-id: W3CCRDpaymentrequest20260327
+id: W3CWDshacl12core20260622
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C CRD-payment-request-20260327
+  content: W3C WD-shacl12-core-20260622
 title:
 - language: en
   script: Latn
-  content: Payment Request API
+  content: SHACL 1.2 Core
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/CRD-payment-request-20260327/
+  content: https://www.w3.org/TR/2026/WD-shacl12-core-20260622/
 docidentifier:
-- content: W3C CRD-payment-request-20260327
+- content: W3C WD-shacl12-core-20260622
   type: W3C
   primary: true
-docnumber: CRD-payment-request-20260327
+docnumber: WD-shacl12-core-20260622
 date:
 - type: published
-  at: '2026-03-27'
+  at: '2026-06-22'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Marcos
+        content: Holger
       surname:
         language: en
         script: Latn
-        content: Caceres
+        content: Knublauch
 - role:
   - type: editor
   person:
@@ -48,11 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Ian
+        content: Thomas
       surname:
         language: en
         script: Latn
-        content: Jacobs
+        content: Bergwinkl
 - role:
   - type: editor
   person:
@@ -60,11 +60,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Stephen
+        content: Yousouf
       surname:
         language: en
         script: Latn
-        content: McGruer
+        content: Taghzouti
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jesse
+      surname:
+        language: en
+        script: Latn
+        content: Wright
 - role:
   - type: author
     description:
@@ -76,7 +88,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Web Payments Working Group
+      - content: Data Shapes Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -86,19 +98,19 @@ script:
 - Latn
 status:
   stage:
-    content: Candidate Recommendation Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Payment Request API
+      content: SHACL 1.2 Core
     source:
     - type: src
-      content: https://www.w3.org/TR/payment-request/
+      content: https://www.w3.org/TR/shacl12-core/
     docidentifier:
-    - content: W3C payment-request
+    - content: W3C shacl12-core
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,35 +118,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Payment Request API
+      content: SHACL 1.2 Core
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/CRD-payment-request-20260326/
+      content: https://www.w3.org/TR/2026/WD-shacl12-core-20260619/
     docidentifier:
-    - content: W3C CRD-payment-request-20260326
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Payment Request API
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/CRD-payment-request-20260622/
-    docidentifier:
-    - content: W3C CRD-payment-request-20260622
+    - content: W3C WD-shacl12-core-20260619
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Candidate Recommendation Draft
-  number: CRD-payment-request-20260327
+    content: W3C Working Draft
+  number: WD-shacl12-core-20260622
 ext:
   schema_version: v1.0.0
   doctype:
