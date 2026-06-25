@@ -1,24 +1,24 @@
 ---
-id: W3CWDcborld1020260511
+id: W3CDNOTEthreatmodelingguide20260623
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-cbor-ld-10-20260511
+  content: W3C DNOTE-threat-modeling-guide-20260623
 title:
 - language: en
   script: Latn
-  content: CBOR-LD 1.0
+  content: Threat Modeling Guide
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260511/
+  content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260623/
 docidentifier:
-- content: W3C WD-cbor-ld-10-20260511
+- content: W3C DNOTE-threat-modeling-guide-20260623
   type: W3C
   primary: true
-docnumber: WD-cbor-ld-10-20260511
+docnumber: DNOTE-threat-modeling-guide-20260623
 date:
 - type: published
-  at: '2026-05-11'
+  at: '2026-06-23'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Manu
+        content: Simone
       surname:
         language: en
         script: Latn
-        content: Sporny
+        content: Onofri
 - role:
   - type: editor
   person:
@@ -48,23 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Dave
+        content: Joe
       surname:
         language: en
         script: Latn
-        content: Longley
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Wesley
-      surname:
-        language: en
-        script: Latn
-        content: Smith
+        content: Andrieu
 - role:
   - type: author
     description:
@@ -76,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: Security Interest Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -86,19 +74,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: Threat Modeling Guide
     source:
     - type: src
-      content: https://www.w3.org/TR/cbor-ld-10/
+      content: https://www.w3.org/TR/threat-modeling-guide/
     docidentifier:
-    - content: W3C cbor-ld-10
+    - content: W3C threat-modeling-guide
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,35 +94,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: Threat Modeling Guide
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260428/
+      content: https://www.w3.org/TR/2026/DNOTE-threat-modeling-guide-20260617/
     docidentifier:
-    - content: W3C WD-cbor-ld-10-20260428
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: CBOR-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260624/
-    docidentifier:
-    - content: W3C WD-cbor-ld-10-20260624
+    - content: W3C DNOTE-threat-modeling-guide-20260617
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-cbor-ld-10-20260511
+    content: W3C Draft Note
+  number: DNOTE-threat-modeling-guide-20260623
 ext:
   schema_version: v1.0.0
   doctype:
