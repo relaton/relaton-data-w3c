@@ -1,24 +1,24 @@
 ---
-id: W3CWDcborld1020260624
+id: W3CRECpointerevents320260630
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-cbor-ld-10-20260624
+  content: W3C REC-pointerevents3-20260630
 title:
 - language: en
   script: Latn
-  content: CBOR-LD 1.0
+  content: Pointer Events
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260624/
+  content: https://www.w3.org/TR/2026/REC-pointerevents3-20260630/
 docidentifier:
-- content: W3C WD-cbor-ld-10-20260624
+- content: W3C REC-pointerevents3-20260630
   type: W3C
   primary: true
-docnumber: WD-cbor-ld-10-20260624
+docnumber: REC-pointerevents3-20260630
 date:
 - type: published
-  at: '2026-06-24'
+  at: '2026-06-30'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Manu
+        content: Patrick
       surname:
         language: en
         script: Latn
-        content: Sporny
+        content: Lauke
 - role:
   - type: editor
   person:
@@ -48,23 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Dave
+        content: Robert
       surname:
         language: en
         script: Latn
-        content: Longley
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Wesley
-      surname:
-        language: en
-        script: Latn
-        content: Smith
+        content: Flack
 - role:
   - type: author
     description:
@@ -76,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: Pointer Events Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -86,19 +74,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Recommendation
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: Pointer Events
     source:
     - type: src
-      content: https://www.w3.org/TR/cbor-ld-10/
+      content: https://www.w3.org/TR/pointerevents3/
     docidentifier:
-    - content: W3C cbor-ld-10
+    - content: W3C pointerevents3
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,35 +94,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: Pointer Events
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260511/
+      content: https://www.w3.org/TR/2026/CRD-pointerevents3-20260522/
     docidentifier:
-    - content: W3C WD-cbor-ld-10-20260511
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: CBOR-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260630/
-    docidentifier:
-    - content: W3C WD-cbor-ld-10-20260630
+    - content: W3C CRD-pointerevents3-20260522
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-cbor-ld-10-20260624
+    content: W3C Recommendation
+  number: REC-pointerevents3-20260630
 ext:
   schema_version: v1.0.0
   doctype:

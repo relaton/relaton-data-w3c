@@ -1,24 +1,24 @@
 ---
-id: W3CWDcborld1020260624
+id: W3CWDshacl12sparql20260630
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-cbor-ld-10-20260624
+  content: W3C WD-shacl12-sparql-20260630
 title:
 - language: en
   script: Latn
-  content: CBOR-LD 1.0
+  content: SHACL 1.2 SPARQL Extensions
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260624/
+  content: https://www.w3.org/TR/2026/WD-shacl12-sparql-20260630/
 docidentifier:
-- content: W3C WD-cbor-ld-10-20260624
+- content: W3C WD-shacl12-sparql-20260630
   type: W3C
   primary: true
-docnumber: WD-cbor-ld-10-20260624
+docnumber: WD-shacl12-sparql-20260630
 date:
 - type: published
-  at: '2026-06-24'
+  at: '2026-06-30'
 contributor:
 - role:
   - type: publisher
@@ -36,35 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Manu
+        content: Holger
       surname:
         language: en
         script: Latn
-        content: Sporny
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Dave
-      surname:
-        language: en
-        script: Latn
-        content: Longley
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Wesley
-      surname:
-        language: en
-        script: Latn
-        content: Smith
+        content: Knublauch
 - role:
   - type: author
     description:
@@ -76,7 +52,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: Data Shapes Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -93,12 +69,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: SHACL 1.2 SPARQL Extensions
     source:
     - type: src
-      content: https://www.w3.org/TR/cbor-ld-10/
+      content: https://www.w3.org/TR/shacl12-sparql/
     docidentifier:
-    - content: W3C cbor-ld-10
+    - content: W3C shacl12-sparql
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,27 +82,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: SHACL 1.2 SPARQL Extensions
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260511/
+      content: https://www.w3.org/TR/2026/WD-shacl12-sparql-20260130/
     docidentifier:
-    - content: W3C WD-cbor-ld-10-20260511
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: CBOR-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260630/
-    docidentifier:
-    - content: W3C WD-cbor-ld-10-20260630
+    - content: W3C WD-shacl12-sparql-20260130
       type: W3C
       primary: true
 series:
@@ -134,7 +95,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-cbor-ld-10-20260624
+  number: WD-shacl12-sparql-20260630
 ext:
   schema_version: v1.0.0
   doctype:

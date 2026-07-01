@@ -1,24 +1,24 @@
 ---
-id: W3CWDcborld1020260624
+id: W3CSPSDpointerevents220260630
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-cbor-ld-10-20260624
+  content: W3C SPSD-pointerevents2-20260630
 title:
 - language: en
   script: Latn
-  content: CBOR-LD 1.0
+  content: Pointer Events
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260624/
+  content: https://www.w3.org/TR/2026/SPSD-pointerevents2-20260630/
 docidentifier:
-- content: W3C WD-cbor-ld-10-20260624
+- content: W3C SPSD-pointerevents2-20260630
   type: W3C
   primary: true
-docnumber: WD-cbor-ld-10-20260624
+docnumber: SPSD-pointerevents2-20260630
 date:
 - type: published
-  at: '2026-06-24'
+  at: '2026-06-30'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Manu
+        content: Patrick
       surname:
         language: en
         script: Latn
-        content: Sporny
+        content: Lauke
 - role:
   - type: editor
   person:
@@ -48,11 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Dave
+        content: Matt
       surname:
         language: en
         script: Latn
-        content: Longley
+        content: Brubeck
 - role:
   - type: editor
   person:
@@ -60,11 +60,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Wesley
+        content: Rick
       surname:
         language: en
         script: Latn
-        content: Smith
+        content: Byers
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Navid
+      surname:
+        language: en
+        script: Latn
+        content: Zolghadr
 - role:
   - type: author
     description:
@@ -76,7 +88,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: Pointer Events Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -86,19 +98,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Retired
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: Pointer Events
     source:
     - type: src
-      content: https://www.w3.org/TR/cbor-ld-10/
+      content: https://www.w3.org/TR/pointerevents2/
     docidentifier:
-    - content: W3C cbor-ld-10
+    - content: W3C pointerevents2
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,35 +118,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: Pointer Events
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260511/
+      content: https://www.w3.org/TR/2019/REC-pointerevents2-20190404/
     docidentifier:
-    - content: W3C WD-cbor-ld-10-20260511
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: CBOR-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260630/
-    docidentifier:
-    - content: W3C WD-cbor-ld-10-20260630
+    - content: W3C REC-pointerevents2-20190404
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-cbor-ld-10-20260624
+    content: W3C Retired
+  number: SPSD-pointerevents2-20260630
 ext:
   schema_version: v1.0.0
   doctype:
