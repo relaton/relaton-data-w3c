@@ -1,24 +1,24 @@
 ---
-id: W3CWDcborld1020260630
+id: W3CWDshacl12profiling20260702
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-cbor-ld-10-20260630
+  content: W3C WD-shacl12-profiling-20260702
 title:
 - language: en
   script: Latn
-  content: CBOR-LD 1.0
+  content: SHACL 1.2 Profiling
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260630/
+  content: https://www.w3.org/TR/2026/WD-shacl12-profiling-20260702/
 docidentifier:
-- content: W3C WD-cbor-ld-10-20260630
+- content: W3C WD-shacl12-profiling-20260702
   type: W3C
   primary: true
-docnumber: WD-cbor-ld-10-20260630
+docnumber: WD-shacl12-profiling-20260702
 date:
 - type: published
-  at: '2026-06-30'
+  at: '2026-07-02'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Manu
+        content: Nicholas
       surname:
         language: en
         script: Latn
-        content: Sporny
+        content: Car
 - role:
   - type: editor
   person:
@@ -48,11 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Dave
+        content: Scott
       surname:
         language: en
         script: Latn
-        content: Longley
+        content: Henninger
 - role:
   - type: editor
   person:
@@ -60,11 +60,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Wesley
+        content: Yousouf
       surname:
         language: en
         script: Latn
-        content: Smith
+        content: Taghzouti
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Alexander
+      surname:
+        language: en
+        script: Latn
+        content: Nelson
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Matt
+      surname:
+        language: en
+        script: Latn
+        content: Goldberg
 - role:
   - type: author
     description:
@@ -76,7 +100,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: Data Shapes Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -86,55 +110,27 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: First Public Working Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: CBOR-LD 1.0
+      content: SHACL 1.2 Profiling
     source:
     - type: src
-      content: https://www.w3.org/TR/cbor-ld-10/
+      content: https://www.w3.org/TR/shacl12-profiling/
     docidentifier:
-    - content: W3C cbor-ld-10
-      type: W3C
-      primary: true
-- type: obsoletes
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: CBOR-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260624/
-    docidentifier:
-    - content: W3C WD-cbor-ld-10-20260624
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: CBOR-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-cbor-ld-10-20260702/
-    docidentifier:
-    - content: W3C WD-cbor-ld-10-20260702
+    - content: W3C shacl12-profiling
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-cbor-ld-10-20260630
+    content: W3C First Public Working Draft
+  number: WD-shacl12-profiling-20260702
 ext:
   schema_version: v1.0.0
   doctype:
