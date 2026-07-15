@@ -1,24 +1,24 @@
 ---
-id: W3CWDwindowmanagement20240607
+id: W3CCRDwebgpu20260714
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-window-management-20240607
+  content: W3C CRD-webgpu-20260714
 title:
 - language: en
   script: Latn
-  content: Window Management
+  content: WebGPU
 source:
 - type: src
-  content: https://www.w3.org/TR/2024/WD-window-management-20240607/
+  content: https://www.w3.org/TR/2026/CRD-webgpu-20260714/
 docidentifier:
-- content: W3C WD-window-management-20240607
+- content: W3C CRD-webgpu-20260714
   type: W3C
   primary: true
-docnumber: WD-window-management-20240607
+docnumber: CRD-webgpu-20260714
 date:
 - type: published
-  at: '2024-06-07'
+  at: '2026-07-14'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Joshua
+        content: Kai
       surname:
         language: en
         script: Latn
-        content: Bell
+        content: Ninomiya
 - role:
   - type: editor
   person:
@@ -48,11 +48,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Mike
+        content: Brandon
       surname:
         language: en
         script: Latn
-        content: Wasserman
+        content: Jones
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jim
+      surname:
+        language: en
+        script: Latn
+        content: Blandy
 - role:
   - type: author
     description:
@@ -64,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Second Screen Working Group
+      - content: GPU for the Web Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -74,19 +86,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Window Management
+      content: WebGPU
     source:
     - type: src
-      content: https://www.w3.org/TR/window-management/
+      content: https://www.w3.org/TR/webgpu/
     docidentifier:
-    - content: W3C window-management
+    - content: W3C webgpu
       type: W3C
       primary: true
 - type: obsoletes
@@ -94,35 +106,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Window Management
+      content: WebGPU
     source:
     - type: src
-      content: https://www.w3.org/TR/2024/WD-window-management-20240401/
+      content: https://www.w3.org/TR/2026/CRD-webgpu-20260623/
     docidentifier:
-    - content: W3C WD-window-management-20240401
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Window Management
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-window-management-20260714/
-    docidentifier:
-    - content: W3C WD-window-management-20260714
+    - content: W3C CRD-webgpu-20260623
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-window-management-20240607
+    content: W3C Candidate Recommendation Draft
+  number: CRD-webgpu-20260714
 ext:
   schema_version: v1.0.0
   doctype:
