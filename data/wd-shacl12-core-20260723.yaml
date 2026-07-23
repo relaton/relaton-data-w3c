@@ -1,24 +1,24 @@
 ---
-id: W3CWDsparql12resultscsvtsv20260328
+id: W3CWDshacl12core20260723
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-sparql12-results-csv-tsv-20260328
+  content: W3C WD-shacl12-core-20260723
 title:
 - language: en
   script: Latn
-  content: SPARQL 1.2 Query Results CSV and TSV Formats
+  content: SHACL 1.2 Core
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-sparql12-results-csv-tsv-20260328/
+  content: https://www.w3.org/TR/2026/WD-shacl12-core-20260723/
 docidentifier:
-- content: W3C WD-sparql12-results-csv-tsv-20260328
+- content: W3C WD-shacl12-core-20260723
   type: W3C
   primary: true
-docnumber: WD-sparql12-results-csv-tsv-20260328
+docnumber: WD-shacl12-core-20260723
 date:
 - type: published
-  at: '2026-03-28'
+  at: '2026-07-23'
 contributor:
 - role:
   - type: publisher
@@ -36,23 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Ruben
+        content: Holger
       surname:
         language: en
         script: Latn
-        content: Taelman
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Gregory
-      surname:
-        language: en
-        script: Latn
-        content: Williams
+        content: Knublauch
 - role:
   - type: editor
   person:
@@ -64,7 +52,31 @@ contributor:
       surname:
         language: en
         script: Latn
-        content: Pellissier Tanon
+        content: Bergwinkl
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Yousouf
+      surname:
+        language: en
+        script: Latn
+        content: Taghzouti
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Jesse
+      surname:
+        language: en
+        script: Latn
+        content: Wright
 - role:
   - type: author
     description:
@@ -76,7 +88,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: RDF & SPARQL Working Group
+      - content: Data Shapes Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -93,12 +105,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SPARQL 1.2 Query Results CSV and TSV Formats
+      content: SHACL 1.2 Core
     source:
     - type: src
-      content: https://www.w3.org/TR/sparql12-results-csv-tsv/
+      content: https://www.w3.org/TR/shacl12-core/
     docidentifier:
-    - content: W3C sparql12-results-csv-tsv
+    - content: W3C shacl12-core
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,27 +118,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SPARQL 1.2 Query Results CSV and TSV Formats
+      content: SHACL 1.2 Core
     source:
     - type: src
-      content: https://www.w3.org/TR/2025/WD-sparql12-results-csv-tsv-20250814/
+      content: https://www.w3.org/TR/2026/WD-shacl12-core-20260720/
     docidentifier:
-    - content: W3C WD-sparql12-results-csv-tsv-20250814
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: SPARQL 1.2 Query Results CSV and TSV Formats
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-sparql12-results-csv-tsv-20260723/
-    docidentifier:
-    - content: W3C WD-sparql12-results-csv-tsv-20260723
+    - content: W3C WD-shacl12-core-20260720
       type: W3C
       primary: true
 series:
@@ -134,7 +131,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-sparql12-results-csv-tsv-20260328
+  number: WD-shacl12-core-20260723
 ext:
   schema_version: v1.0.0
   doctype:
