@@ -1,24 +1,24 @@
 ---
-id: W3CWDyamlld1020260723
+id: W3CCRDwasmcore220260728
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-yaml-ld-10-20260723
+  content: W3C CRD-wasm-core-2-20260728
 title:
 - language: en
   script: Latn
-  content: YAML-LD 1.0
+  content: WebAssembly Core Specification
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260723/
+  content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260728/
 docidentifier:
-- content: W3C WD-yaml-ld-10-20260723
+- content: W3C CRD-wasm-core-2-20260728
   type: W3C
   primary: true
-docnumber: WD-yaml-ld-10-20260723
+docnumber: CRD-wasm-core-2-20260728
 date:
 - type: published
-  at: '2026-07-23'
+  at: '2026-07-28'
 contributor:
 - role:
   - type: publisher
@@ -36,23 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Anatoly
+        content: Andreas
       surname:
         language: en
         script: Latn
-        content: Scherbakov
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Gregg
-      surname:
-        language: en
-        script: Latn
-        content: Kellogg
+        content: Rossberg
 - role:
   - type: author
     description:
@@ -64,7 +52,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: WebAssembly Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -74,19 +62,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: YAML-LD 1.0
+      content: WebAssembly Core Specification
     source:
     - type: src
-      content: https://www.w3.org/TR/yaml-ld-10/
+      content: https://www.w3.org/TR/wasm-core-2/
     docidentifier:
-    - content: W3C yaml-ld-10
+    - content: W3C wasm-core-2
       type: W3C
       primary: true
 - type: obsoletes
@@ -94,35 +82,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: YAML-LD 1.0
+      content: WebAssembly Core Specification
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260722/
+      content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260727/
     docidentifier:
-    - content: W3C WD-yaml-ld-10-20260722
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: YAML-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260728/
-    docidentifier:
-    - content: W3C WD-yaml-ld-10-20260728
+    - content: W3C CRD-wasm-core-2-20260727
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-yaml-ld-10-20260723
+    content: W3C Candidate Recommendation Draft
+  number: CRD-wasm-core-2-20260728
 ext:
   schema_version: v1.0.0
   doctype:

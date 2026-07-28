@@ -1,24 +1,24 @@
 ---
-id: W3CWDyamlld1020260723
+id: W3CWDvcbarcodes1020260728
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-yaml-ld-10-20260723
+  content: W3C WD-vc-barcodes-1.0-20260728
 title:
 - language: en
   script: Latn
-  content: YAML-LD 1.0
+  content: Verifiable Credential Barcodes v1.0
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260723/
+  content: https://www.w3.org/TR/2026/WD-vc-barcodes-1.0-20260728/
 docidentifier:
-- content: W3C WD-yaml-ld-10-20260723
+- content: W3C WD-vc-barcodes-1.0-20260728
   type: W3C
   primary: true
-docnumber: WD-yaml-ld-10-20260723
+docnumber: WD-vc-barcodes-1.0-20260728
 date:
 - type: published
-  at: '2026-07-23'
+  at: '2026-07-28'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Anatoly
+        content: Wesley
       surname:
         language: en
         script: Latn
-        content: Scherbakov
+        content: Smith
 - role:
   - type: editor
   person:
@@ -48,11 +48,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Gregg
+        content: Elaine
       surname:
         language: en
         script: Latn
-        content: Kellogg
+        content: Wooton
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Manu
+      surname:
+        language: en
+        script: Latn
+        content: Sporny
 - role:
   - type: author
     description:
@@ -64,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: JSON-LD Working Group
+      - content: Verifiable Credentials Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -81,12 +93,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: YAML-LD 1.0
+      content: Verifiable Credential Barcodes v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/yaml-ld-10/
+      content: https://www.w3.org/TR/vc-barcodes-1.0/
     docidentifier:
-    - content: W3C yaml-ld-10
+    - content: W3C vc-barcodes-1.0
       type: W3C
       primary: true
 - type: obsoletes
@@ -94,27 +106,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: YAML-LD 1.0
+      content: Verifiable Credential Barcodes v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260722/
+      content: https://www.w3.org/TR/2026/WD-vc-barcodes-1.0-20260715/
     docidentifier:
-    - content: W3C WD-yaml-ld-10-20260722
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: YAML-LD 1.0
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260728/
-    docidentifier:
-    - content: W3C WD-yaml-ld-10-20260728
+    - content: W3C WD-vc-barcodes-1.0-20260715
       type: W3C
       primary: true
 series:
@@ -122,7 +119,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-yaml-ld-10-20260723
+  number: WD-vc-barcodes-1.0-20260728
 ext:
   schema_version: v1.0.0
   doctype:
