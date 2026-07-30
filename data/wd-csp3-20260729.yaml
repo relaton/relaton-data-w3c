@@ -1,24 +1,24 @@
 ---
-id: W3CNOTEvcoverview20250825
+id: W3CWDCSP320260729
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C NOTE-vc-overview-20250825
+  content: W3C WD-CSP3-20260729
 title:
 - language: en
   script: Latn
-  content: Verifiable Credentials Overview
+  content: Content Security Policy Level 3
 source:
 - type: src
-  content: https://www.w3.org/TR/2025/NOTE-vc-overview-20250825/
+  content: https://www.w3.org/TR/2026/WD-CSP3-20260729/
 docidentifier:
-- content: W3C NOTE-vc-overview-20250825
+- content: W3C WD-CSP3-20260729
   type: W3C
   primary: true
-docnumber: NOTE-vc-overview-20250825
+docnumber: WD-CSP3-20260729
 date:
 - type: published
-  at: '2025-08-25'
+  at: '2026-07-29'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Ivan
+        content: Mike
       surname:
         language: en
         script: Latn
-        content: Herman
+        content: West
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Antonio
+      surname:
+        language: en
+        script: Latn
+        content: Sartori
 - role:
   - type: author
     description:
@@ -52,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Verifiable Credentials Working Group
+      - content: Web Application Security Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -62,19 +74,19 @@ script:
 - Latn
 status:
   stage:
-    content: Note
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Verifiable Credentials Overview v1.0
+      content: Content Security Policy Level 3
     source:
     - type: src
-      content: https://www.w3.org/TR/vc-overview-1.0/
+      content: https://www.w3.org/TR/CSP3/
     docidentifier:
-    - content: W3C vc-overview-1.0
+    - content: W3C CSP3
       type: W3C
       primary: true
 - type: obsoletes
@@ -82,35 +94,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Verifiable Credentials Overview
+      content: Content Security Policy Level 3
     source:
     - type: src
-      content: https://www.w3.org/TR/2025/NOTE-vc-overview-20250817/
+      content: https://www.w3.org/TR/2026/WD-CSP3-20260505/
     docidentifier:
-    - content: W3C NOTE-vc-overview-20250817
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Verifiable Credentials Overview
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2025/NOTE-vc-overview-20250924/
-    docidentifier:
-    - content: W3C NOTE-vc-overview-20250924
+    - content: W3C WD-CSP3-20260505
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Note
-  number: NOTE-vc-overview-20250825
+    content: W3C Working Draft
+  number: WD-CSP3-20260729
 ext:
   schema_version: v1.0.0
   doctype:

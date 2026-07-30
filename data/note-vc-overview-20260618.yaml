@@ -69,12 +69,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Verifiable Credentials Overview
+      content: Verifiable Credentials Overview v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/vc-overview/
+      content: https://www.w3.org/TR/vc-overview-1.0/
     docidentifier:
-    - content: W3C vc-overview
+    - content: W3C vc-overview-1.0
       type: W3C
       primary: true
 - type: obsoletes
@@ -88,6 +88,21 @@ relation:
       content: https://www.w3.org/TR/2026/NOTE-vc-overview-20260617/
     docidentifier:
     - content: W3C NOTE-vc-overview-20260617
+      type: W3C
+      primary: true
+- type: updatedBy
+  description:
+    content: errata
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Verifiable Credentials Overview v1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/NOTE-vc-overview-1.0-20260730/
+    docidentifier:
+    - content: W3C NOTE-vc-overview-1.0-20260730
       type: W3C
       primary: true
 series:
