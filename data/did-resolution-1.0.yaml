@@ -1,5 +1,5 @@
 ---
-id: W3Cdidresolution
+id: W3Cdidresolution10
 schema_version: v1.5.6
 type: standard
 title:
@@ -8,12 +8,12 @@ title:
   content: Decentralized Identifier Resolution (DID Resolution) v1
 source:
 - type: src
-  content: https://www.w3.org/TR/did-resolution/
+  content: https://www.w3.org/TR/did-resolution-1.0/
 docidentifier:
-- content: W3C did-resolution
+- content: W3C did-resolution-1.0
   type: W3C
   primary: true
-docnumber: did-resolution
+docnumber: did-resolution-1.0
 contributor:
 - role:
   - type: publisher
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Decentralized Identifier Resolution (DID Resolution) v1
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CR-did-resolution-1.0-20260806/
+    docidentifier:
+    - content: W3C CR-did-resolution-1.0-20260806
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
@@ -841,7 +854,7 @@ series:
   - language: en
     script: Latn
     content: W3C technicalReport
-  number: did-resolution
+  number: did-resolution-1.0
 ext:
   schema_version: v1.0.0
   doctype:
