@@ -1,24 +1,24 @@
 ---
-id: W3CWDvocabssn202320250916
+id: W3CWDshacl12rules20260819
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-vocab-ssn-2023-20250916
+  content: W3C WD-shacl12-rules-20260819
 title:
 - language: en
   script: Latn
-  content: Semantic Sensor Network Ontology - 2023 Edition
+  content: SHACL 1.2 Rules
 source:
 - type: src
-  content: https://www.w3.org/TR/2025/WD-vocab-ssn-2023-20250916/
+  content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260819/
 docidentifier:
-- content: W3C WD-vocab-ssn-2023-20250916
+- content: W3C WD-shacl12-rules-20260819
   type: W3C
   primary: true
-docnumber: WD-vocab-ssn-2023-20250916
+docnumber: WD-shacl12-rules-20260819
 date:
 - type: published
-  at: '2025-09-16'
+  at: '2026-08-19'
 contributor:
 - role:
   - type: publisher
@@ -36,71 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Simon
-      surname:
-        language: en
-        script: Latn
-        content: Cox
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Maxime
-      surname:
-        language: en
-        script: Latn
-        content: Lefrançois
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Rob
-      surname:
-        language: en
-        script: Latn
-        content: Atkinson
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Katharina
-      surname:
-        language: en
-        script: Latn
-        content: Schleidt
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Sylvain
-      surname:
-        language: en
-        script: Latn
-        content: Grellet
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
         content: Robert
       surname:
         language: en
         script: Latn
-        content: Warren
+        content: David
 - role:
   - type: editor
   person:
@@ -108,11 +48,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Luís
+        content: David
       surname:
         language: en
         script: Latn
-        content: de Sousa
+        content: Habgood
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Andy
+      surname:
+        language: en
+        script: Latn
+        content: Seaborne
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Simon
+      surname:
+        language: en
+        script: Latn
+        content: Steyskal
 - role:
   - type: author
     description:
@@ -124,7 +88,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Spatio-temporal Data on the Web Working Group
+      - content: Data Shapes Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -134,42 +98,40 @@ script:
 - Latn
 status:
   stage:
-    content: First Public Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Semantic Sensor Network Ontology - 2023 Edition
+      content: SHACL 1.2 Rules
     source:
     - type: src
-      content: https://www.w3.org/TR/vocab-ssn-2023/
+      content: https://www.w3.org/TR/shacl12-rules/
     docidentifier:
-    - content: W3C vocab-ssn-2023
+    - content: W3C shacl12-rules
       type: W3C
       primary: true
-- type: updatedBy
-  description:
-    content: errata
+- type: obsoletes
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Semantic Sensor Network Ontology - 2023 Edition
+      content: SHACL 1.2 Rules
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-vocab-ssn-2023-20260819/
+      content: https://www.w3.org/TR/2026/WD-shacl12-rules-20260817/
     docidentifier:
-    - content: W3C WD-vocab-ssn-2023-20260819
+    - content: W3C WD-shacl12-rules-20260817
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C First Public Working Draft
-  number: WD-vocab-ssn-2023-20250916
+    content: W3C Working Draft
+  number: WD-shacl12-rules-20260819
 ext:
   schema_version: v1.0.0
   doctype:
