@@ -1,19 +1,19 @@
 ---
-id: W3Cshacl12rules
+id: W3Csparql12rl
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: SHACL 1.2 Rules
+  content: SPARQL 1.2 RL
 source:
 - type: src
-  content: https://www.w3.org/TR/shacl12-rules/
+  content: https://www.w3.org/TR/sparql12-rl/
 docidentifier:
-- content: W3C shacl12-rules
+- content: W3C sparql12-rl
   type: W3C
   primary: true
-docnumber: shacl12-rules
+docnumber: sparql12-rl
 contributor:
 - role:
   - type: publisher
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: SPARQL 1.2 RL
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-sparql12-rl-20260825/
+    docidentifier:
+    - content: W3C WD-sparql12-rl-20260825
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
@@ -541,7 +554,7 @@ series:
   - language: en
     script: Latn
     content: W3C technicalReport
-  number: shacl12-rules
+  number: sparql12-rl
 ext:
   schema_version: v1.0.0
   doctype:
