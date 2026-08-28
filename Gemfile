@@ -13,7 +13,7 @@ gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 # `Relaton::Index::Type` sorts and binary-searches `index-v2` on, so any other
 # pubid — released, or git `main` — leaves it unset and every row of the index
 # this repo publishes keys on "". That fails silently, with no error, and
-# degrades the search to a linear scan over 17,287 rows.
+# degrades the search to a linear scan over the whole index.
 #
 # This repository has to pin it itself. Bundler reads a git dependency's
 # gemspec, never its Gemfile, so relaton's own pubid pin does not reach this

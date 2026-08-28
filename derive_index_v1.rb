@@ -30,7 +30,7 @@ module IndexV1
     # same way: `PubId` splits `year` from `date` and keeps a `/`-suffix in
     # `suff`, where pubid folds both into the slug. Rendering the pubid and
     # re-parsing it is what restores the v1 shape — `PubId.parse` re-splits the
-    # rendered string. 41 of the 17,287 rows depend on this.
+    # rendered string. 44 rows of the corpus depend on this.
     #
     # `with_publisher: false` drops the leading `W3C `, which `PubId.parse`
     # does not expect.

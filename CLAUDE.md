@@ -18,8 +18,8 @@ the fetcher just wrote. `Relaton::W3c::PubId` is retained public upstream for
 that one purpose, and `derive_index_v1.rb` is its only call site.
 
 The two decompose a reference differently: `PubId` splits `year` from `date`
-and keeps a `/`-suffix in `suff`, where pubid folds both into the slug. 44 of
-the 17,287 rows are affected. Rendering the pubid and re-parsing it restores
+and keeps a `/`-suffix in `suff`, where pubid folds both into the slug. 44
+rows of the corpus are affected. Rendering the pubid and re-parsing it restores
 the v1 shape, because `PubId.parse` re-splits the rendered string.
 
 `.zip` companions are built by `relaton/support`'s shared `crawler.yml`, which
