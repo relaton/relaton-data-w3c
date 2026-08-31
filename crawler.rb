@@ -11,5 +11,6 @@ FileUtils.rm Dir.glob('index-v*.{yaml,zip}')
 Relaton::W3c::DataFetcher.fetch
 
 # The fetcher writes only index-v2. Released relaton v2 consumers still read
-# index-v1, so derive it here. A no-op until relaton/relaton#130 merges.
+# index-v1, so derive it here. `IndexV1.write` declines if the resolved relaton
+# still writes index-v1 itself; see derive_index_v1.rb.
 IndexV1.write

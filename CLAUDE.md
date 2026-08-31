@@ -34,6 +34,10 @@ empty index would replace the published `index-v1.yaml` with `--- []`. So
 a non-empty `index-v2.yaml` exists. `crawler.rb` is therefore correct against an
 installed relaton that writes v2 and one that does not.
 
+The pinned relaton now writes v2, so the derivation is the path CI takes. Keep
+the guard anyway. It stops a crawl that resolved a relaton without
+relaton/relaton#130 from publishing `--- []` over `index-v1`.
+
 ## The derivation reads the file, not the fetcher's index
 
 `crawler.rb` fetches and derives in one process. `Relaton::Index` pools its
@@ -60,18 +64,24 @@ bundle exec ruby crawler.rb  # the full crawl; CI runs this, not you
 `build_index_v2.rb` rebuilds `index-v2.yaml` from `data/` with no network. It
 produced the first published `index-v2`, before any crawl could.
 
-## Temporary pins in `Gemfile`
+## `Gemfile` pins
 
-Both carry a `TODO` and a revert condition. Remove them when the condition is met.
+- **pubid → `main`** carries a `TODO` and a revert condition. pubid #339 renames
+  the W3C slug attribute `code` to `number`, with no alias. `number` is the key
+  `Relaton::Index` sorts and binary-searches `index-v2` on. Any pubid without
+  the rename leaves it unset, so every row keys on `""` — silently, with no
+  error. Verify with `bundle list | grep pubid` before trusting a generated
+  index. #339 merged on 2026-08-28, but no release carries it yet
+  (2.0.0.pre.alpha.9 predates the merge), so the git pin stays. Revert to the
+  released pubid once a later release ships.
+- **relaton → `main`** is permanent. relaton is unpublished, so there is no
+  release to revert to. main carries relaton/relaton#130 (merged 2026-08-28), so
+  the crawl writes `index-v2` and the derivation runs.
 
-- **pubid → `feat/w3c-index-number`** (pubid #339, open). Renames the W3C slug
-  attribute `code` to `number`, with no alias. `number` is the key
-  `Relaton::Index` sorts and binary-searches `index-v2` on. Any other pubid
-  leaves it unset, so every row keys on `""` — silently, with no error.
-  Verify with `bundle list | grep pubid` before trusting a generated index.
-- **relaton → `main`** carries no `index-v2` support yet; that is
-  relaton/relaton#130, still open. Until it merges the crawl still writes
-  `index-v1` and the derivation stands down.
+Do not pin a PR's own branch. The head branch can disappear when the PR merges —
+metanorma/pubid#339 did. `bundle lock` then fails the whole crawl with
+`Revision <branch> does not exist`, before any Ruby runs. Point the pin at
+`main` instead.
 
 Use `bundle update`, not `bundle install`, to refloat a git pin — an
 already-locked git source does not move on its own.
