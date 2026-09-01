@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 require_relative "../derive_index_v1"
+# The crawl policy lives beside it, so a spec can load it. `crawler.rb`
+# itself cannot be required: it deletes `data/` on load.
+require_relative "../configure_crawl"
 
 RSpec.configure do |config|
   config.expect_with(:rspec) { |c| c.syntax = :expect }

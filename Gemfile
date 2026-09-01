@@ -34,6 +34,13 @@ gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
 # 2.0.0.pre.alpha.9 ships the rename.
 gem "pubid", git: "https://github.com/metanorma/pubid.git", branch: "main"
 
+# Declared because `configure_crawl.rb` requires `w3c_api/hal` directly, for
+# `DEFAULT_USER_AGENT` and `USER_AGENT_ENV_VAR`. It arrives anyway as a
+# transitive dependency of relaton, which is why the require works today — but
+# an undeclared direct require breaks silently if relaton ever drops the gem.
+# Deliberately unpinned: relaton's own `~> 0.3.3` constraint resolves it.
+gem "w3c_api"
+
 group :development, :test do
   gem "rspec", "~> 3.13"
 end

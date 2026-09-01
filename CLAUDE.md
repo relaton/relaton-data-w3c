@@ -53,11 +53,61 @@ another rather than from a shared object in memory.
 which also matched the Ruby files beside it. Keep the Ruby files verb-named —
 `derive_index_v1.rb`, `build_index_v2.rb` — and keep the glob narrow.
 
+## The crawl policy, and why it exists
+
+`configure_crawl.rb` sets two environment defaults, and `crawler.rb` applies them
+before the fetch:
+
+| Variable | Default here | Fetcher default |
+|---|---|---|
+| `W3C_API_USER_AGENT` | names this repository, then the `w3c_api` default | the gem name alone |
+| `RELATON_W3C_FETCH_CONCURRENCY` | `3` | `4` |
+
+api.w3.org is fronted by Cloudflare, whose rate limiting is bimodal: a crawl
+either never trips it or trips it and stays banned. A ban cannot be recovered
+from here. `crawler.rb` wipes `data/` first, so `Relaton::W3c::DataFetcher`
+aborts with `CrawlIncompleteError` rather than commit a half-crawled corpus as a
+mass deletion. Both knobs therefore aim at not tripping the limiter at all,
+which is the only outcome that saves a run. Run 33435903404 lost a crawl 14
+minutes in; two of the nine real crawls since 2026-08-20 were banned.
+
+Both are defaults, not overrides — an operator who sets either keeps their value,
+and a blank value counts as unset. The shared crawler workflow splices
+`fetch-command` into a `run:` block, so an override travels as a shell assignment
+prefix.
+
+The policy lives in its own file because `crawler.rb` cannot be required: loading
+it deletes `data/`. `spec/configure_crawl_spec.rb` covers it.
+
+Once a ban has started, the crawl's behaviour is `relaton`'s to fix, not this
+repository's. Its worker pool keeps issuing requests after the governor gives
+up, because `spawn_worker` checks `stopping?` only at `queue.pop`.
+
+## `.github/workflows/crawler.yml` must stay byte-equal to its cimas template
+
+`cimas.yml` maps this file to `support/cimas-config/gh-actions/data/crawler.yml`,
+so anything hand-added here is wiped by the next `cimas sync` — silently, with
+nothing red in CI. The repo's copy had gone stale and still carried `push` and
+`pull_request` triggers, which the template had already dropped. A PR crawl
+fetched the whole corpus for ~1h30m and threw it away, because the shared
+workflow gates its push step on `github.event_name != 'pull_request'`.
+
+To change the triggers, the `args` input or the `permissions:` grant, edit the
+template in `relaton/support`, not this file. `relaton-data-itu` takes the other
+route — cimas leaves its `crawler.yml` unmapped, so that repo hand-maintains one.
+This repository does not need that, because the template already says what it
+wants.
+
+Dropping `pull_request` costs one thing worth knowing before you edit
+`crawler.rb`: a PR run was the only non-mutating way to exercise a change to it.
+A `workflow_dispatch` run commits and pushes the crawled corpus to the branch it
+runs on.
+
 ## Commands
 
 ```sh
 bundle install               # Gemfile.lock is git-ignored; CI resolves fresh
-bundle exec rspec            # covers derive_index_v1.rb
+bundle exec rspec            # covers derive_index_v1.rb, configure_crawl.rb
 bundle exec ruby crawler.rb  # the full crawl; CI runs this, not you
 ```
 
@@ -74,6 +124,9 @@ produced the first published `index-v2`, before any crawl could.
   index. #339 merged on 2026-08-28, but no release carries it yet
   (2.0.0.pre.alpha.9 predates the merge), so the git pin stays. Revert to the
   released pubid once a later release ships.
+- **w3c_api** is declared but unpinned. `configure_crawl.rb` requires
+  `w3c_api/hal` directly, so the gem is a direct dependency even though
+  relaton also pulls it in. relaton's own `~> 0.3.3` constraint resolves it.
 - **relaton → `main`** is permanent. relaton is unpublished, so there is no
   release to revert to. main carries relaton/relaton#130 (merged 2026-08-28), so
   the crawl writes `index-v2` and the derivation runs.
