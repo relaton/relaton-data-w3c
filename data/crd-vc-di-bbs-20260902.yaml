@@ -1,24 +1,24 @@
 ---
-id: W3CWDrdf12turtle20260812
+id: W3CCRDvcdibbs20260902
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-rdf12-turtle-20260812
+  content: W3C CRD-vc-di-bbs-20260902
 title:
 - language: en
   script: Latn
-  content: RDF 1.2 Turtle
+  content: Data Integrity BBS Cryptosuites v1.0
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/WD-rdf12-turtle-20260812/
+  content: https://www.w3.org/TR/2026/CRD-vc-di-bbs-20260902/
 docidentifier:
-- content: W3C WD-rdf12-turtle-20260812
+- content: W3C CRD-vc-di-bbs-20260902
   type: W3C
   primary: true
-docnumber: WD-rdf12-turtle-20260812
+docnumber: CRD-vc-di-bbs-20260902
 date:
 - type: published
-  at: '2026-08-12'
+  at: '2026-09-02'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Gregg
+        content: Greg
       surname:
         language: en
         script: Latn
-        content: Kellogg
+        content: Bernstein
 - role:
   - type: editor
   person:
@@ -48,23 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Andy
+        content: Manu
       surname:
         language: en
         script: Latn
-        content: Seaborne
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Dominik
-      surname:
-        language: en
-        script: Latn
-        content: Tomaszuk
+        content: Sporny
 - role:
   - type: author
     description:
@@ -76,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: RDF & SPARQL Working Group
+      - content: Verifiable Credentials Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -86,19 +74,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Candidate Recommendation Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: RDF 1.2 Turtle
+      content: Data Integrity BBS Cryptosuites v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/rdf12-turtle/
+      content: https://www.w3.org/TR/vc-di-bbs/
     docidentifier:
-    - content: W3C rdf12-turtle
+    - content: W3C vc-di-bbs
       type: W3C
       primary: true
 - type: obsoletes
@@ -106,35 +94,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: RDF 1.2 Turtle
+      content: Data Integrity BBS Cryptosuites v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/WD-rdf12-turtle-20260730/
+      content: https://www.w3.org/TR/2026/CRD-vc-di-bbs-20260407/
     docidentifier:
-    - content: W3C WD-rdf12-turtle-20260730
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: RDF 1.2 Turtle
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-rdf12-turtle-20260903/
-    docidentifier:
-    - content: W3C WD-rdf12-turtle-20260903
+    - content: W3C CRD-vc-di-bbs-20260407
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-rdf12-turtle-20260812
+    content: W3C Candidate Recommendation Draft
+  number: CRD-vc-di-bbs-20260902
 ext:
   schema_version: v1.0.0
   doctype:
