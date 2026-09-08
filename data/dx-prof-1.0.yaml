@@ -5,7 +5,7 @@ type: standard
 title:
 - language: en
   script: Latn
-  content: The Profiles Vocabulary
+  content: The Profiles Vocabulary 1.0
 source:
 - type: src
   content: https://www.w3.org/TR/dx-prof-1.0/
@@ -29,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: The Profiles Vocabulary 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-dx-prof-1.0-20260907/
+    docidentifier:
+    - content: W3C WD-dx-prof-1.0-20260907
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
