@@ -1,3 +1,4 @@
+---
 id: W3Cepubanno10
 schema_version: v1.5.6
 type: standard
@@ -28,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: EPUB Annotations 1.0
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/WD-epub-anno-10-20260917/
+    docidentifier:
+    - content: W3C WD-epub-anno-10-20260917
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
