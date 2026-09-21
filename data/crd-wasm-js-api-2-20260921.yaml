@@ -1,23 +1,23 @@
-id: W3CCRDwasmcore220260911
+id: W3CCRDwasmjsapi220260921
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C CRD-wasm-core-2-20260911
+  content: W3C CRD-wasm-js-api-2-20260921
 title:
 - language: en
   script: Latn
-  content: WebAssembly Core Specification
+  content: WebAssembly JavaScript Interface
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260911/
+  content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260921/
 docidentifier:
-- content: W3C CRD-wasm-core-2-20260911
+- content: W3C CRD-wasm-js-api-2-20260921
   type: W3C
   primary: true
-docnumber: CRD-wasm-core-2-20260911
+docnumber: CRD-wasm-js-api-2-20260921
 date:
 - type: published
-  at: '2026-09-11'
+  at: '2026-09-21'
 contributor:
 - role:
   - type: publisher
@@ -35,11 +35,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Andreas
+        content: "."
       surname:
         language: en
         script: Latn
-        content: Rossberg
+        content: Ms2ger
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Ryan
+      surname:
+        language: en
+        script: Latn
+        content: Hunt
 - role:
   - type: author
     description:
@@ -68,12 +80,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: WebAssembly Core Specification
+      content: WebAssembly JavaScript Interface
     source:
     - type: src
-      content: https://www.w3.org/TR/wasm-core-2/
+      content: https://www.w3.org/TR/wasm-js-api-2/
     docidentifier:
-    - content: W3C wasm-core-2
+    - content: W3C wasm-js-api-2
       type: W3C
       primary: true
 - type: obsoletes
@@ -81,27 +93,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: WebAssembly Core Specification
+      content: WebAssembly JavaScript Interface
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260908/
+      content: https://www.w3.org/TR/2026/CRD-wasm-js-api-2-20260911/
     docidentifier:
-    - content: W3C CRD-wasm-core-2-20260908
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: WebAssembly Core Specification
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/CRD-wasm-core-2-20260921/
-    docidentifier:
-    - content: W3C CRD-wasm-core-2-20260921
+    - content: W3C CRD-wasm-js-api-2-20260911
       type: W3C
       primary: true
 series:
@@ -109,7 +106,7 @@ series:
   - language: en
     script: Latn
     content: W3C Candidate Recommendation Draft
-  number: CRD-wasm-core-2-20260911
+  number: CRD-wasm-js-api-2-20260921
 ext:
   schema_version: v1.0.0
   doctype:

@@ -1,23 +1,23 @@
-id: W3CWDsparql12query20230516
+id: W3CWDsparql12query20260921
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-sparql12-query-20230516
+  content: W3C WD-sparql12-query-20260921
 title:
 - language: en
   script: Latn
   content: SPARQL 1.2 Query Language
 source:
 - type: src
-  content: https://www.w3.org/TR/2023/WD-sparql12-query-20230516/
+  content: https://www.w3.org/TR/2026/WD-sparql12-query-20260921/
 docidentifier:
-- content: W3C WD-sparql12-query-20230516
+- content: W3C WD-sparql12-query-20260921
   type: W3C
   primary: true
-docnumber: WD-sparql12-query-20230516
+docnumber: WD-sparql12-query-20260921
 date:
 - type: published
-  at: '2023-05-16'
+  at: '2026-09-21'
 contributor:
 - role:
   - type: publisher
@@ -28,6 +28,18 @@ contributor:
     - content: World Wide Web Consortium
     abbreviation:
       content: W3C
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Olaf
+      surname:
+        language: en
+        script: Latn
+        content: Hartig
 - role:
   - type: editor
   person:
@@ -47,18 +59,6 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Gregory
-      surname:
-        language: en
-        script: Latn
-        content: Williams
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
         content: Ruben
       surname:
         language: en
@@ -71,11 +71,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Olaf
+        content: Gregory
       surname:
         language: en
         script: Latn
-        content: Hartig
+        content: Williams
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Thomas
+      surname:
+        language: en
+        script: Latn
+        content: Pellissier Tanon
 - role:
   - type: author
     description:
@@ -97,7 +109,7 @@ script:
 - Latn
 status:
   stage:
-    content: First Public Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
@@ -112,9 +124,7 @@ relation:
     - content: W3C sparql12-query
       type: W3C
       primary: true
-- type: updatedBy
-  description:
-    content: errata
+- type: obsoletes
   bibitem:
     title:
     - language: en
@@ -122,17 +132,17 @@ relation:
       content: SPARQL 1.2 Query Language
     source:
     - type: src
-      content: https://www.w3.org/TR/2023/WD-sparql12-query-20230616/
+      content: https://www.w3.org/TR/2026/WD-sparql12-query-20260913/
     docidentifier:
-    - content: W3C WD-sparql12-query-20230616
+    - content: W3C WD-sparql12-query-20260913
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C First Public Working Draft
-  number: WD-sparql12-query-20230516
+    content: W3C Working Draft
+  number: WD-sparql12-query-20260921
 ext:
   schema_version: v1.0.0
   doctype:
