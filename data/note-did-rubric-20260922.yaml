@@ -1,23 +1,23 @@
-id: W3CWDrdf12xml20230810
+id: W3CNOTEdidrubric20260922
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-rdf12-xml-20230810
+  content: W3C NOTE-did-rubric-20260922
 title:
 - language: en
   script: Latn
-  content: RDF 1.2 XML Syntax
+  content: DID Method Rubric v2.0
 source:
 - type: src
-  content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230810/
+  content: https://www.w3.org/TR/2026/NOTE-did-rubric-20260922/
 docidentifier:
-- content: W3C WD-rdf12-xml-20230810
+- content: W3C NOTE-did-rubric-20260922
   type: W3C
   primary: true
-docnumber: WD-rdf12-xml-20230810
+docnumber: NOTE-did-rubric-20260922
 date:
 - type: published
-  at: '2023-08-10'
+  at: '2026-09-22'
 contributor:
 - role:
   - type: publisher
@@ -35,11 +35,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Gregg
+        content: Joe
       surname:
         language: en
         script: Latn
-        content: Kellogg
+        content: Andrieu
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Will
+      surname:
+        language: en
+        script: Latn
+        content: Abramson
 - role:
   - type: author
     description:
@@ -51,7 +63,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: RDF & SPARQL Working Group
+      - content: Decentralized Identifier Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -61,19 +73,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Note
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: RDF 1.2 XML Syntax
+      content: DID Method Rubric v2.0
     source:
     - type: src
-      content: https://www.w3.org/TR/rdf12-xml/
+      content: https://www.w3.org/TR/did-rubric/
     docidentifier:
-    - content: W3C rdf12-xml
+    - content: W3C did-rubric
       type: W3C
       primary: true
 - type: obsoletes
@@ -81,35 +93,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: RDF 1.2 XML Syntax
+      content: DID Method Rubric v2.0
     source:
     - type: src
-      content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230807/
+      content: https://www.w3.org/TR/2026/NOTE-did-rubric-20260916/
     docidentifier:
-    - content: W3C WD-rdf12-xml-20230807
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: RDF 1.2 XML Syntax
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2023/WD-rdf12-xml-20230831/
-    docidentifier:
-    - content: W3C WD-rdf12-xml-20230831
+    - content: W3C NOTE-did-rubric-20260916
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-rdf12-xml-20230810
+    content: W3C Note
+  number: NOTE-did-rubric-20260922
 ext:
   schema_version: v1.0.0
   doctype:

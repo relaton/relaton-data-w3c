@@ -1,23 +1,23 @@
-id: W3CWDWGSL20240821
+id: W3CDNOTEthreatmodelweb20260922
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-WGSL-20240821
+  content: W3C DNOTE-threat-model-web-20260922
 title:
 - language: en
   script: Latn
-  content: WebGPU Shading Language
+  content: Threat Model for the Web
 source:
 - type: src
-  content: https://www.w3.org/TR/2024/WD-WGSL-20240821/
+  content: https://www.w3.org/TR/2026/DNOTE-threat-model-web-20260922/
 docidentifier:
-- content: W3C WD-WGSL-20240821
+- content: W3C DNOTE-threat-model-web-20260922
   type: W3C
   primary: true
-docnumber: WD-WGSL-20240821
+docnumber: DNOTE-threat-model-web-20260922
 date:
 - type: published
-  at: '2024-08-21'
+  at: '2026-09-22'
 contributor:
 - role:
   - type: publisher
@@ -35,11 +35,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Alan
+        content: Simone
       surname:
         language: en
         script: Latn
-        content: Baker
+        content: Onofri
 - role:
   - type: editor
   person:
@@ -47,11 +47,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Mehmet Oguz
+        content: Joe
       surname:
         language: en
         script: Latn
-        content: Derin
+        content: Andrieu
 - role:
   - type: editor
   person:
@@ -59,11 +59,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: David
+        content: Giovanni
       surname:
         language: en
         script: Latn
-        content: Neto
+        content: Corti
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick
+      surname:
+        language: en
+        script: Latn
+        content: Schaller
 - role:
   - type: author
     description:
@@ -75,7 +87,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: GPU for the Web Working Group
+      - content: Security Interest Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -85,19 +97,19 @@ script:
 - Latn
 status:
   stage:
-    content: Working Draft
+    content: Draft Note
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: WebGPU Shading Language
+      content: Threat Model for the Web
     source:
     - type: src
-      content: https://www.w3.org/TR/WGSL/
+      content: https://www.w3.org/TR/threat-model-web/
     docidentifier:
-    - content: W3C WGSL
+    - content: W3C threat-model-web
       type: W3C
       primary: true
 - type: obsoletes
@@ -105,35 +117,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: WebGPU Shading Language
+      content: Threat Model for the Web
     source:
     - type: src
-      content: https://www.w3.org/TR/2024/WD-WGSL-20240820/
+      content: https://www.w3.org/TR/2026/DNOTE-threat-model-web-20260921/
     docidentifier:
-    - content: W3C WD-WGSL-20240820
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: WebGPU Shading Language
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2024/WD-WGSL-20240827/
-    docidentifier:
-    - content: W3C WD-WGSL-20240827
+    - content: W3C DNOTE-threat-model-web-20260921
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Working Draft
-  number: WD-WGSL-20240821
+    content: W3C Draft Note
+  number: DNOTE-threat-model-web-20260922
 ext:
   schema_version: v1.0.0
   doctype:
