@@ -1,3 +1,4 @@
+---
 id: W3Ccoreaam12
 schema_version: v1.5.6
 type: standard
@@ -28,6 +29,19 @@ language:
 script:
 - Latn
 relation:
+- type: hasEdition
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: Core Accessibility API Mappings 1.2
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/CRD-core-aam-1.2-20260923/
+    docidentifier:
+    - content: W3C CRD-core-aam-1.2-20260923
+      type: W3C
+      primary: true
 - type: hasEdition
   bibitem:
     title:
