@@ -1,24 +1,24 @@
 ---
-id: W3CDNOTEvcdatamodelthreatmodel2120260924
+id: W3CDNOTEstringsearch20260927
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C DNOTE-vc-data-model-threat-model-2.1-20260924
+  content: W3C DNOTE-string-search-20260927
 title:
 - language: en
   script: Latn
-  content: Verifiable Credentials Data Model Threat Model v2.1
+  content: String Searching
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260924/
+  content: https://www.w3.org/TR/2026/DNOTE-string-search-20260927/
 docidentifier:
-- content: W3C DNOTE-vc-data-model-threat-model-2.1-20260924
+- content: W3C DNOTE-string-search-20260927
   type: W3C
   primary: true
-docnumber: DNOTE-vc-data-model-threat-model-2.1-20260924
+docnumber: DNOTE-string-search-20260927
 date:
 - type: published
-  at: '2026-09-24'
+  at: '2026-09-27'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,23 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Manu
+        content: Addison
       surname:
         language: en
         script: Latn
-        content: Sporny
+        content: Phillips
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Fuqiao
+      surname:
+        language: en
+        script: Latn
+        content: Xue
 - role:
   - type: author
     description:
@@ -52,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Verifiable Credentials Working Group
+      - content: Internationalization Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -69,27 +81,25 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Verifiable Credentials Data Model Threat Model v2.1
+      content: String Searching
     source:
     - type: src
-      content: https://www.w3.org/TR/vc-data-model-threat-model-2.1/
+      content: https://www.w3.org/TR/string-search/
     docidentifier:
-    - content: W3C vc-data-model-threat-model-2.1
+    - content: W3C string-search
       type: W3C
       primary: true
-- type: updatedBy
-  description:
-    content: errata
+- type: obsoletes
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Verifiable Credentials Data Model Threat Model v2.1
+      content: String Searching
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260926/
+      content: https://www.w3.org/TR/2025/DNOTE-string-search-20250107/
     docidentifier:
-    - content: W3C DNOTE-vc-data-model-threat-model-2.1-20260926
+    - content: W3C DNOTE-string-search-20250107
       type: W3C
       primary: true
 series:
@@ -97,7 +107,7 @@ series:
   - language: en
     script: Latn
     content: W3C Draft Note
-  number: DNOTE-vc-data-model-threat-model-2.1-20260924
+  number: DNOTE-string-search-20260927
 ext:
   schema_version: v1.0.0
   doctype:
