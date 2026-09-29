@@ -1,24 +1,24 @@
 ---
-id: W3CWDscreenwakelock20241024
+id: W3CWDvcrendermethod20260929
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-screen-wake-lock-20241024
+  content: W3C WD-vc-render-method-20260929
 title:
 - language: en
   script: Latn
-  content: Screen Wake Lock API
+  content: Verifiable Credential Rendering Methods v1.0
 source:
 - type: src
-  content: https://www.w3.org/TR/2024/WD-screen-wake-lock-20241024/
+  content: https://www.w3.org/TR/2026/WD-vc-render-method-20260929/
 docidentifier:
-- content: W3C WD-screen-wake-lock-20241024
+- content: W3C WD-vc-render-method-20260929
   type: W3C
   primary: true
-docnumber: WD-screen-wake-lock-20241024
+docnumber: WD-vc-render-method-20260929
 date:
 - type: published
-  at: '2024-10-24'
+  at: '2026-09-29'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Kenneth
+        content: Dmitri
       surname:
         language: en
         script: Latn
-        content: Christiansen
+        content: Zagidulin
 - role:
   - type: editor
   person:
@@ -48,11 +48,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Marcos
+        content: Manu
       surname:
         language: en
         script: Latn
-        content: Caceres
+        content: Sporny
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Patrick
+      surname:
+        language: en
+        script: Latn
+        content: St-Louis
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Isaac
+      surname:
+        language: en
+        script: Latn
+        content: Koh
 - role:
   - type: author
     description:
@@ -64,22 +88,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Devices and Sensors Working Group
-      type: technical-committee
-    abbreviation:
-      content: W3C
-- role:
-  - type: author
-    description:
-    - content: committee
-  organization:
-    uri:
-    - content: https://www.w3.org
-    name:
-    - content: World Wide Web Consortium
-    subdivision:
-    - name:
-      - content: Web Applications Working Group
+      - content: Verifiable Credentials Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -96,12 +105,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Screen Wake Lock API
+      content: Verifiable Credential Rendering Methods v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/screen-wake-lock/
+      content: https://www.w3.org/TR/vc-render-method/
     docidentifier:
-    - content: W3C screen-wake-lock
+    - content: W3C vc-render-method
       type: W3C
       primary: true
 - type: obsoletes
@@ -109,27 +118,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Screen Wake Lock API
+      content: Verifiable Credential Rendering Methods v1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/2024/WD-screen-wake-lock-20240527/
+      content: https://www.w3.org/TR/2026/WD-vc-render-method-20260908/
     docidentifier:
-    - content: W3C WD-screen-wake-lock-20240527
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Screen Wake Lock API
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/WD-screen-wake-lock-20260929/
-    docidentifier:
-    - content: W3C WD-screen-wake-lock-20260929
+    - content: W3C WD-vc-render-method-20260908
       type: W3C
       primary: true
 series:
@@ -137,7 +131,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-screen-wake-lock-20241024
+  number: WD-vc-render-method-20260929
 ext:
   schema_version: v1.0.0
   doctype:
