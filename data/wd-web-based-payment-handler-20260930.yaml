@@ -1,24 +1,24 @@
 ---
-id: W3CWDsparql12query20230616
+id: W3CWDwebbasedpaymenthandler20260930
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-sparql12-query-20230616
+  content: W3C WD-web-based-payment-handler-20260930
 title:
 - language: en
   script: Latn
-  content: SPARQL 1.2 Query Language
+  content: Web-based Payment Handler API
 source:
 - type: src
-  content: https://www.w3.org/TR/2023/WD-sparql12-query-20230616/
+  content: https://www.w3.org/TR/2026/WD-web-based-payment-handler-20260930/
 docidentifier:
-- content: W3C WD-sparql12-query-20230616
+- content: W3C WD-web-based-payment-handler-20260930
   type: W3C
   primary: true
-docnumber: WD-sparql12-query-20230616
+docnumber: WD-web-based-payment-handler-20260930
 date:
 - type: published
-  at: '2023-06-16'
+  at: '2026-09-30'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Olaf
+        content: Ian
       surname:
         language: en
         script: Latn
-        content: Hartig
+        content: Jacobs
 - role:
   - type: editor
   person:
@@ -48,11 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Andy
+        content: Jinho
       surname:
         language: en
         script: Latn
-        content: Seaborne
+        content: Bang
 - role:
   - type: editor
   person:
@@ -60,35 +60,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Ruben
+        content: Stephen
       surname:
         language: en
         script: Latn
-        content: Taelman
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Gregory
-      surname:
-        language: en
-        script: Latn
-        content: Williams
-- role:
-  - type: editor
-  person:
-    name:
-      forename:
-      - language: en
-        script: Latn
-        content: Thomas
-      surname:
-        language: en
-        script: Latn
-        content: Pellissier Tanon
+        content: McGruer
 - role:
   - type: author
     description:
@@ -100,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: RDF & SPARQL Working Group
+      - content: Web Payments Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -117,12 +93,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SPARQL 1.2 Query Language
+      content: Web-based Payment Handler API
     source:
     - type: src
-      content: https://www.w3.org/TR/sparql12-query/
+      content: https://www.w3.org/TR/web-based-payment-handler/
     docidentifier:
-    - content: W3C sparql12-query
+    - content: W3C web-based-payment-handler
       type: W3C
       primary: true
 - type: obsoletes
@@ -130,27 +106,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: SPARQL 1.2 Query Language
+      content: Web-based Payment Handler API
     source:
     - type: src
-      content: https://www.w3.org/TR/2023/WD-sparql12-query-20230516/
+      content: https://www.w3.org/TR/2026/WD-web-based-payment-handler-20260423/
     docidentifier:
-    - content: W3C WD-sparql12-query-20230516
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: SPARQL 1.2 Query Language
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2023/WD-sparql12-query-20230629/
-    docidentifier:
-    - content: W3C WD-sparql12-query-20230629
+    - content: W3C WD-web-based-payment-handler-20260423
       type: W3C
       primary: true
 series:
@@ -158,7 +119,7 @@ series:
   - language: en
     script: Latn
     content: W3C Working Draft
-  number: WD-sparql12-query-20230616
+  number: WD-web-based-payment-handler-20260930
 ext:
   schema_version: v1.0.0
   doctype:
