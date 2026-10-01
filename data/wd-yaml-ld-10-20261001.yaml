@@ -1,24 +1,24 @@
 ---
-id: W3CCRDdidresolution1020260828
+id: W3CWDyamlld1020261001
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C CRD-did-resolution-1.0-20260828
+  content: W3C WD-yaml-ld-10-20261001
 title:
 - language: en
   script: Latn
-  content: Decentralized Identifier Resolution (DID Resolution) v1
+  content: YAML-LD 1.0
 source:
 - type: src
-  content: https://www.w3.org/TR/2026/CRD-did-resolution-1.0-20260828/
+  content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20261001/
 docidentifier:
-- content: W3C CRD-did-resolution-1.0-20260828
+- content: W3C WD-yaml-ld-10-20261001
   type: W3C
   primary: true
-docnumber: CRD-did-resolution-1.0-20260828
+docnumber: WD-yaml-ld-10-20261001
 date:
 - type: published
-  at: '2026-08-28'
+  at: '2026-10-01'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Stephen
+        content: Anatoly
       surname:
         language: en
         script: Latn
-        content: Curran
+        content: Scherbakov
 - role:
   - type: editor
   person:
@@ -48,11 +48,11 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: Joe
+        content: Gregg
       surname:
         language: en
         script: Latn
-        content: Andrieu
+        content: Kellogg
 - role:
   - type: author
     description:
@@ -64,7 +64,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: Decentralized Identifier Working Group
+      - content: JSON-LD Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -74,19 +74,19 @@ script:
 - Latn
 status:
   stage:
-    content: Candidate Recommendation Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: Decentralized Identifier Resolution (DID Resolution) v1
+      content: YAML-LD 1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/did-resolution-1.0/
+      content: https://www.w3.org/TR/yaml-ld-10/
     docidentifier:
-    - content: W3C did-resolution-1.0
+    - content: W3C yaml-ld-10
       type: W3C
       primary: true
 - type: obsoletes
@@ -94,35 +94,20 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Decentralized Identifier Resolution (DID Resolution) v1
+      content: YAML-LD 1.0
     source:
     - type: src
-      content: https://www.w3.org/TR/2026/CR-did-resolution-1.0-20260806/
+      content: https://www.w3.org/TR/2026/WD-yaml-ld-10-20260928/
     docidentifier:
-    - content: W3C CR-did-resolution-1.0-20260806
-      type: W3C
-      primary: true
-- type: updatedBy
-  description:
-    content: errata
-  bibitem:
-    title:
-    - language: en
-      script: Latn
-      content: Decentralized Identifier Resolution (DID Resolution) v1
-    source:
-    - type: src
-      content: https://www.w3.org/TR/2026/CRD-did-resolution-1.0-20261001/
-    docidentifier:
-    - content: W3C CRD-did-resolution-1.0-20261001
+    - content: W3C WD-yaml-ld-10-20260928
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C Candidate Recommendation Draft
-  number: CRD-did-resolution-1.0-20260828
+    content: W3C Working Draft
+  number: WD-yaml-ld-10-20261001
 ext:
   schema_version: v1.0.0
   doctype:
