@@ -1,24 +1,24 @@
 ---
-id: W3CWDwasmjsapi220220419
+id: W3CWDsparql12update20261012
 schema_version: v1.5.6
 type: standard
 formattedref:
-  content: W3C WD-wasm-js-api-2-20220419
+  content: W3C WD-sparql12-update-20261012
 title:
 - language: en
   script: Latn
-  content: WebAssembly JavaScript Interface
+  content: SPARQL 1.2 Update
 source:
 - type: src
-  content: https://www.w3.org/TR/2022/WD-wasm-js-api-2-20220419/
+  content: https://www.w3.org/TR/2026/WD-sparql12-update-20261012/
 docidentifier:
-- content: W3C WD-wasm-js-api-2-20220419
+- content: W3C WD-sparql12-update-20261012
   type: W3C
   primary: true
-docnumber: WD-wasm-js-api-2-20220419
+docnumber: WD-sparql12-update-20261012
 date:
 - type: published
-  at: '2022-04-19'
+  at: '2026-10-12'
 contributor:
 - role:
   - type: publisher
@@ -36,11 +36,35 @@ contributor:
       forename:
       - language: en
         script: Latn
-        content: "."
+        content: Ruben
       surname:
         language: en
         script: Latn
-        content: Ms2ger
+        content: Taelman
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Andy
+      surname:
+        language: en
+        script: Latn
+        content: Seaborne
+- role:
+  - type: editor
+  person:
+    name:
+      forename:
+      - language: en
+        script: Latn
+        content: Thomas
+      surname:
+        language: en
+        script: Latn
+        content: Pellissier Tanon
 - role:
   - type: author
     description:
@@ -52,7 +76,7 @@ contributor:
     - content: World Wide Web Consortium
     subdivision:
     - name:
-      - content: WebAssembly Working Group
+      - content: RDF & SPARQL Working Group
       type: technical-committee
     abbreviation:
       content: W3C
@@ -62,42 +86,40 @@ script:
 - Latn
 status:
   stage:
-    content: First Public Working Draft
+    content: Working Draft
 relation:
 - type: editionOf
   bibitem:
     title:
     - language: en
       script: Latn
-      content: WebAssembly JavaScript Interface
+      content: SPARQL 1.2 Update
     source:
     - type: src
-      content: https://www.w3.org/TR/wasm-js-api-2/
+      content: https://www.w3.org/TR/sparql12-update/
     docidentifier:
-    - content: W3C wasm-js-api-2
+    - content: W3C sparql12-update
       type: W3C
       primary: true
-- type: updatedBy
-  description:
-    content: errata
+- type: obsoletes
   bibitem:
     title:
     - language: en
       script: Latn
-      content: WebAssembly JavaScript Interface
+      content: SPARQL 1.2 Update
     source:
     - type: src
-      content: https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240215/
+      content: https://www.w3.org/TR/2026/WD-sparql12-update-20260612/
     docidentifier:
-    - content: W3C WD-wasm-js-api-2-20240215
+    - content: W3C WD-sparql12-update-20260612
       type: W3C
       primary: true
 series:
 - title:
   - language: en
     script: Latn
-    content: W3C First Public Working Draft
-  number: WD-wasm-js-api-2-20220419
+    content: W3C Working Draft
+  number: WD-sparql12-update-20261012
 ext:
   schema_version: v1.0.0
   doctype:
