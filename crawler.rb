@@ -6,4 +6,4 @@ require 'relaton_w3c'
 FileUtils.rm_rf('data')
 FileUtils.rm Dir.glob('index*')
 
-RelatonW3c::DataFetcher.fetch
+RelatonW3c::DataFetcher.fetch prune: true
