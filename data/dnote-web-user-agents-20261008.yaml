@@ -81,12 +81,12 @@ relation:
     title:
     - language: en
       script: Latn
-      content: Web User Agents
+      content: User Agents
     source:
     - type: src
-      content: https://www.w3.org/TR/web-user-agents/
+      content: https://www.w3.org/TR/user-agents/
     docidentifier:
-    - content: W3C web-user-agents
+    - content: W3C user-agents
       type: W3C
       primary: true
 - type: obsoletes
@@ -100,6 +100,21 @@ relation:
       content: https://www.w3.org/TR/2026/DNOTE-web-user-agents-20261007/
     docidentifier:
     - content: W3C DNOTE-web-user-agents-20261007
+      type: W3C
+      primary: true
+- type: updatedBy
+  description:
+    content: errata
+  bibitem:
+    title:
+    - language: en
+      script: Latn
+      content: User Agents
+    source:
+    - type: src
+      content: https://www.w3.org/TR/2026/NOTE-user-agents-20261022/
+    docidentifier:
+    - content: W3C NOTE-user-agents-20261022
       type: W3C
       primary: true
 series:
