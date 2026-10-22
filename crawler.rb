@@ -5,7 +5,8 @@ require 'relaton/w3c/data_fetcher'
 require_relative 'configure_crawl'
 require_relative 'derive_index_v1'
 
-FileUtils.rm_rf('data')
+# The data tree is kept between crawls; fetch(prune: true) prunes
+# stale files behind the 90% guard (relaton#328).
 # Narrower than 'index*', which also matches the Ruby files next to it.
 FileUtils.rm Dir.glob('index-v*.{yaml,zip}')
 
