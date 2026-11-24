@@ -83,14 +83,20 @@ Once a ban has started, the crawl's behaviour is `relaton`'s to fix, not this
 repository's. Its worker pool keeps issuing requests after the governor gives
 up, because `spawn_worker` checks `stopping?` only at `queue.pop`.
 
-## `.github/workflows/crawler.yml` must stay byte-equal to its cimas template
+## The cimas-mapped workflows must stay byte-equal to their templates
 
-`cimas.yml` maps this file to `support/cimas-config/gh-actions/data/crawler.yml`,
-so anything hand-added here is wiped by the next `cimas sync` — silently, with
-nothing red in CI. The repo's copy had gone stale and still carried `push` and
+`cimas.yml` maps `crawler.yml`, `deploy.yml` and `check-index.yml` to the files of
+the same name in `support/cimas-config/gh-actions/data/`, so anything hand-added
+here is wiped by the next `cimas sync` — silently, with nothing red in CI.
+
+The repo's copy of `crawler.yml` had gone stale and still carried `push` and
 `pull_request` triggers, which the template had already dropped. A PR crawl
 fetched the whole corpus for ~1h30m and threw it away, because the shared
 workflow gates its push step on `github.event_name != 'pull_request'`.
+
+`deploy.yml` runs on a finished Crawler run (`workflow_run`), not on a cron or a
+push. A hand-pushed data fix therefore waits for the next crawl, or a
+`workflow_dispatch` of Deploy.
 
 To change the triggers, the `args` input or the `permissions:` grant, edit the
 template in `relaton/support`, not this file. `relaton-data-itu` takes the other
